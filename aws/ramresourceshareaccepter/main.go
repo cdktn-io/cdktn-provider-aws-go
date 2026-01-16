@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		reflect.TypeOf((*RamResourceShareAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterConfig",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterConfig",
 		reflect.TypeOf((*RamResourceShareAccepterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterTimeouts",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterTimeouts",
 		reflect.TypeOf((*RamResourceShareAccepterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepterTimeoutsOutputReference",
 		reflect.TypeOf((*RamResourceShareAccepterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

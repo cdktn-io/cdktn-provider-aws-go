@@ -5,9 +5,9 @@ package cognitoidentitypoolrolesattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoidentitypoolrolesattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoidentitypoolrolesattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewCognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference(
 	j := jsiiProxy_CognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference",
+		"@cdktn/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewCognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference",
+		"@cdktn/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingMappingRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

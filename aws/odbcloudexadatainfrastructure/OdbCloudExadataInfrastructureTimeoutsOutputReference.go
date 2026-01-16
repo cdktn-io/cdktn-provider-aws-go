@@ -5,9 +5,9 @@ package odbcloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudexadatainfrastructure/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOdbCloudExadataInfrastructureTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_OdbCloudExadataInfrastructureTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOdbCloudExadataInfrastructureTimeoutsOutputReference_Override(o OdbCloud
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbCloudExadataInfrastructure.OdbCloudExadataInfrastructureTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

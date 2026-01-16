@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		reflect.TypeOf((*MskconnectConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,15 +115,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacity",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacity",
 		reflect.TypeOf((*MskconnectConnectorCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscaling",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscaling",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscaling)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingOutputReference",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscalingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleInPolicy",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleInPolicy",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscalingScaleInPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleOutPolicy",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleOutPolicy",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscalingScaleOutPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference",
 		reflect.TypeOf((*MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,7 +248,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
 		reflect.TypeOf((*MskconnectConnectorCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscaling", GoGetter: "Autoscaling"},
@@ -288,11 +288,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacity",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacity",
 		reflect.TypeOf((*MskconnectConnectorCapacityProvisionedCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacityOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityProvisionedCapacityOutputReference",
 		reflect.TypeOf((*MskconnectConnectorCapacityProvisionedCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,19 +329,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorConfig",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorConfig",
 		reflect.TypeOf((*MskconnectConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaCluster",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaCluster",
 		reflect.TypeOf((*MskconnectConnectorKafkaCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaCluster",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaCluster",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterApacheKafkaCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bootstrapServers", GoGetter: "BootstrapServers"},
@@ -378,11 +378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpc",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpc",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterApacheKafkaClusterVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -418,11 +418,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthentication",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthentication",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterClientAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthenticationOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthenticationOutputReference",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterClientAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
@@ -457,11 +457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransit",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransit",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterEncryptionInTransit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -496,7 +496,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterOutputReference",
 		reflect.TypeOf((*MskconnectConnectorKafkaClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apacheKafkaCluster", GoGetter: "ApacheKafkaCluster"},
@@ -531,11 +531,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDelivery",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDelivery",
 		reflect.TypeOf((*MskconnectConnectorLogDelivery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryOutputReference",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -570,15 +570,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDelivery",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDelivery",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDelivery)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -615,11 +615,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehose",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehose",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehose)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -656,7 +656,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogs", GoGetter: "CloudwatchLogs"},
@@ -700,11 +700,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
 		reflect.TypeOf((*MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -744,15 +744,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPlugin",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPlugin",
 		reflect.TypeOf((*MskconnectConnectorPlugin)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPlugin",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPlugin",
 		reflect.TypeOf((*MskconnectConnectorPluginCustomPlugin)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
 		reflect.TypeOf((*MskconnectConnectorPluginCustomPluginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -788,7 +788,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginList",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginList",
 		reflect.TypeOf((*MskconnectConnectorPluginList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -810,7 +810,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginOutputReference",
 		reflect.TypeOf((*MskconnectConnectorPluginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -845,11 +845,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorTimeouts",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorTimeouts",
 		reflect.TypeOf((*MskconnectConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorTimeoutsOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*MskconnectConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -890,11 +890,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorWorkerConfiguration",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorWorkerConfiguration",
 		reflect.TypeOf((*MskconnectConnectorWorkerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorWorkerConfigurationOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorWorkerConfigurationOutputReference",
 		reflect.TypeOf((*MskconnectConnectorWorkerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},

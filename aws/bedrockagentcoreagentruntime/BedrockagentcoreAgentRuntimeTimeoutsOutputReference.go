@@ -5,9 +5,9 @@ package bedrockagentcoreagentruntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoreagentruntime/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoreagentruntime/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewBedrockagentcoreAgentRuntimeTimeoutsOutputReference(terraformResource cd
 	j := jsiiProxy_BedrockagentcoreAgentRuntimeTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewBedrockagentcoreAgentRuntimeTimeoutsOutputReference_Override(b Bedrockag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntime.BedrockagentcoreAgentRuntimeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

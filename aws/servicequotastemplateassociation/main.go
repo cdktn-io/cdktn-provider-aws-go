@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		reflect.TypeOf((*ServicequotasTemplateAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociationConfig",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociationConfig",
 		reflect.TypeOf((*ServicequotasTemplateAssociationConfig)(nil)).Elem(),
 	)
 }

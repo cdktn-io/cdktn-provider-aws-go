@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		reflect.TypeOf((*SsmPatchGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroupConfig",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroupConfig",
 		reflect.TypeOf((*SsmPatchGroupConfig)(nil)).Elem(),
 	)
 }

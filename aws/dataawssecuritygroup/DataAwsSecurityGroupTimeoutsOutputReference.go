@@ -5,9 +5,9 @@ package dataawssecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsSecurityGroupTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsSecurityGroupTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsSecurityGroupTimeoutsOutputReference_Override(d DataAwsSecurityGr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

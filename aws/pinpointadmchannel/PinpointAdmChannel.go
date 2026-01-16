@@ -5,14 +5,14 @@ package pinpointadmchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointadmchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointadmchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel}.
 type PinpointAdmChannel interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_PinpointAdmChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
 func NewPinpointAdmChannel(scope constructs.Construct, id *string, config *PinpointAdmChannelConfig) PinpointAdmChannel {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewPinpointAdmChannel(scope constructs.Construct, id *string, config *Pinpo
 	j := jsiiProxy_PinpointAdmChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewPinpointAdmChannel(scope constructs.Construct, id *string, config *Pinpo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_adm_channel aws_pinpoint_adm_channel} Resource.
 func NewPinpointAdmChannel_Override(p PinpointAdmChannel, scope constructs.Construct, id *string, config *PinpointAdmChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -600,7 +600,7 @@ func PinpointAdmChannel_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func PinpointAdmChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func PinpointAdmChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func PinpointAdmChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func PinpointAdmChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
+		"@cdktn/provider-aws.pinpointAdmChannel.PinpointAdmChannel",
 		"tfResourceType",
 		&returns,
 	)

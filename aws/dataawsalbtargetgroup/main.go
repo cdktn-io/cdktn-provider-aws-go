@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		reflect.TypeOf((*DataAwsAlbTargetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupConfig",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupConfig",
 		reflect.TypeOf((*DataAwsAlbTargetGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheck",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheck",
 		reflect.TypeOf((*DataAwsAlbTargetGroupHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheckList",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheckList",
 		reflect.TypeOf((*DataAwsAlbTargetGroupHealthCheckList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheckOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupHealthCheckOutputReference",
 		reflect.TypeOf((*DataAwsAlbTargetGroupHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickiness",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickiness",
 		reflect.TypeOf((*DataAwsAlbTargetGroupStickiness)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickinessList",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickinessList",
 		reflect.TypeOf((*DataAwsAlbTargetGroupStickinessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickinessOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupStickinessOutputReference",
 		reflect.TypeOf((*DataAwsAlbTargetGroupStickinessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,11 +226,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupTimeouts",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupTimeouts",
 		reflect.TypeOf((*DataAwsAlbTargetGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroupTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsAlbTargetGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

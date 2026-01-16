@@ -5,9 +5,9 @@ package dataawsfsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsfsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsfsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsFsxOntapFileSystemEndpointsList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsFsxOntapFileSystemEndpointsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFsxOntapFileSystem.DataAwsFsxOntapFileSystemEndpointsList",
+		"@cdktn/provider-aws.dataAwsFsxOntapFileSystem.DataAwsFsxOntapFileSystemEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsFsxOntapFileSystemEndpointsList_Override(d DataAwsFsxOntapFileSys
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFsxOntapFileSystem.DataAwsFsxOntapFileSystemEndpointsList",
+		"@cdktn/provider-aws.dataAwsFsxOntapFileSystem.DataAwsFsxOntapFileSystemEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,9 +5,9 @@ package dataawsssoadminapplicationproviders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssoadminapplicationproviders/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminapplicationproviders/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList(t
 	j := jsiiProxy_DataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplicationProviders.DataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplicationProviders.DataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplicationProviders.DataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplicationProviders.DataAwsSsoadminApplicationProvidersApplicationProvidersDisplayDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

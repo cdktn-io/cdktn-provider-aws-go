@@ -5,9 +5,9 @@ package bedrockagentcorebrowser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcorebrowser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcorebrowser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewBedrockagentcoreBrowserRecordingOutputReference(terraformResource cdktf.
 	j := jsiiProxy_BedrockagentcoreBrowserRecordingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingOutputReference",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewBedrockagentcoreBrowserRecordingOutputReference_Override(b Bedrockagentc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingOutputReference",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserRecordingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

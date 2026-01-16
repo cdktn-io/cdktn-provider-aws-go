@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailBucketResourceAccess.LightsailBucketResourceAccess",
+		"@cdktn/provider-aws.lightsailBucketResourceAccess.LightsailBucketResourceAccess",
 		reflect.TypeOf((*LightsailBucketResourceAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailBucketResourceAccess.LightsailBucketResourceAccessConfig",
+		"@cdktn/provider-aws.lightsailBucketResourceAccess.LightsailBucketResourceAccessConfig",
 		reflect.TypeOf((*LightsailBucketResourceAccessConfig)(nil)).Elem(),
 	)
 }

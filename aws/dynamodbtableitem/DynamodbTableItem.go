@@ -5,14 +5,14 @@ package dynamodbtableitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbtableitem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbtableitem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item}.
 type DynamodbTableItem interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_DynamodbTableItem) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
 func NewDynamodbTableItem(scope constructs.Construct, id *string, config *DynamodbTableItemConfig) DynamodbTableItem {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewDynamodbTableItem(scope constructs.Construct, id *string, config *Dynamo
 	j := jsiiProxy_DynamodbTableItem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewDynamodbTableItem(scope constructs.Construct, id *string, config *Dynamo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table_item aws_dynamodb_table_item} Resource.
 func NewDynamodbTableItem_Override(d DynamodbTableItem, scope constructs.Construct, id *string, config *DynamodbTableItemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -600,7 +600,7 @@ func DynamodbTableItem_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func DynamodbTableItem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func DynamodbTableItem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func DynamodbTableItem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func DynamodbTableItem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dynamodbTableItem.DynamodbTableItem",
+		"@cdktn/provider-aws.dynamodbTableItem.DynamodbTableItem",
 		"tfResourceType",
 		&returns,
 	)

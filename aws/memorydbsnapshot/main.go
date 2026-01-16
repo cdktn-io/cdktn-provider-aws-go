@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshot",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshot",
 		reflect.TypeOf((*MemorydbSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfiguration",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfiguration",
 		reflect.TypeOf((*MemorydbSnapshotClusterConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfigurationList",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfigurationList",
 		reflect.TypeOf((*MemorydbSnapshotClusterConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfigurationOutputReference",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotClusterConfigurationOutputReference",
 		reflect.TypeOf((*MemorydbSnapshotClusterConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,15 +164,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotConfig",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotConfig",
 		reflect.TypeOf((*MemorydbSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotTimeouts",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotTimeouts",
 		reflect.TypeOf((*MemorydbSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbSnapshot.MemorydbSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-aws.memorydbSnapshot.MemorydbSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*MemorydbSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

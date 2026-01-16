@@ -5,9 +5,9 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList(terraf
 	j := jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

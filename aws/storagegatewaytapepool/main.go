@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayTapePool.StoragegatewayTapePool",
+		"@cdktn/provider-aws.storagegatewayTapePool.StoragegatewayTapePool",
 		reflect.TypeOf((*StoragegatewayTapePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayTapePool.StoragegatewayTapePoolConfig",
+		"@cdktn/provider-aws.storagegatewayTapePool.StoragegatewayTapePoolConfig",
 		reflect.TypeOf((*StoragegatewayTapePoolConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package kendraindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewKendraIndexUserTokenConfigurationsOutputReference(terraformResource cdkt
 	j := jsiiProxy_KendraIndexUserTokenConfigurationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexUserTokenConfigurationsOutputReference",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexUserTokenConfigurationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewKendraIndexUserTokenConfigurationsOutputReference_Override(k KendraIndex
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexUserTokenConfigurationsOutputReference",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexUserTokenConfigurationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

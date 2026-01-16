@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.applicationinsightsApplication.ApplicationinsightsApplication",
+		"@cdktn/provider-aws.applicationinsightsApplication.ApplicationinsightsApplication",
 		reflect.TypeOf((*ApplicationinsightsApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.applicationinsightsApplication.ApplicationinsightsApplicationConfig",
+		"@cdktn/provider-aws.applicationinsightsApplication.ApplicationinsightsApplicationConfig",
 		reflect.TypeOf((*ApplicationinsightsApplicationConfig)(nil)).Elem(),
 	)
 }

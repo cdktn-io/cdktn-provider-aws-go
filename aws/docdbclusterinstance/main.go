@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		reflect.TypeOf((*DocdbClusterInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -130,15 +130,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstanceConfig",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstanceConfig",
 		reflect.TypeOf((*DocdbClusterInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstanceTimeouts",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstanceTimeouts",
 		reflect.TypeOf((*DocdbClusterInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*DocdbClusterInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

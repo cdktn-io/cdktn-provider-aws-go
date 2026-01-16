@@ -5,14 +5,14 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group}.
 type SagemakerFeatureGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_SagemakerFeatureGroup) ThroughputConfigInput() *SagemakerFeat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group} Resource.
 func NewSagemakerFeatureGroup(scope constructs.Construct, id *string, config *SagemakerFeatureGroupConfig) SagemakerFeatureGroup {
 	_init_.Initialize()
 
@@ -614,7 +614,7 @@ func NewSagemakerFeatureGroup(scope constructs.Construct, id *string, config *Sa
 	j := jsiiProxy_SagemakerFeatureGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,12 +622,12 @@ func NewSagemakerFeatureGroup(scope constructs.Construct, id *string, config *Sa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_feature_group aws_sagemaker_feature_group} Resource.
 func NewSagemakerFeatureGroup_Override(s SagemakerFeatureGroup, scope constructs.Construct, id *string, config *SagemakerFeatureGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -810,7 +810,7 @@ func SagemakerFeatureGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -845,7 +845,7 @@ func SagemakerFeatureGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -864,7 +864,7 @@ func SagemakerFeatureGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func SagemakerFeatureGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func SagemakerFeatureGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroup",
 		"tfResourceType",
 		&returns,
 	)

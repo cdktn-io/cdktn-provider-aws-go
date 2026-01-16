@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLbListenerRuleActionForwardTargetGroupList(terraformResource cdktf.IInte
 	j := jsiiProxy_LbListenerRuleActionForwardTargetGroupList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionForwardTargetGroupList",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionForwardTargetGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLbListenerRuleActionForwardTargetGroupList_Override(l LbListenerRuleActi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionForwardTargetGroupList",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionForwardTargetGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

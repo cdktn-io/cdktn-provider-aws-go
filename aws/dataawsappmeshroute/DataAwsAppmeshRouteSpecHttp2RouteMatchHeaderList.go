@@ -5,9 +5,9 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList(terraformResource cdktf
 	j := jsiiProxy_DataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList_Override(d DataAwsAppme
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttp2RouteMatchHeaderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

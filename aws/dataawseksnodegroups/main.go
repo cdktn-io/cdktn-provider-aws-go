@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksNodeGroups.DataAwsEksNodeGroups",
+		"@cdktn/provider-aws.dataAwsEksNodeGroups.DataAwsEksNodeGroups",
 		reflect.TypeOf((*DataAwsEksNodeGroups)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksNodeGroups.DataAwsEksNodeGroupsConfig",
+		"@cdktn/provider-aws.dataAwsEksNodeGroups.DataAwsEksNodeGroupsConfig",
 		reflect.TypeOf((*DataAwsEksNodeGroupsConfig)(nil)).Elem(),
 	)
 }

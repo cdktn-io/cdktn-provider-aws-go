@@ -5,14 +5,14 @@ package emrstudiosessionmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrstudiosessionmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrstudiosessionmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}.
 type EmrStudioSessionMapping interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_EmrStudioSessionMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
 func NewEmrStudioSessionMapping(scope constructs.Construct, id *string, config *EmrStudioSessionMappingConfig) EmrStudioSessionMapping {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewEmrStudioSessionMapping(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_EmrStudioSessionMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewEmrStudioSessionMapping(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
 func NewEmrStudioSessionMapping_Override(e EmrStudioSessionMapping, scope constructs.Construct, id *string, config *EmrStudioSessionMappingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -635,7 +635,7 @@ func EmrStudioSessionMapping_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func EmrStudioSessionMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func EmrStudioSessionMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func EmrStudioSessionMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func EmrStudioSessionMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		"tfResourceType",
 		&returns,
 	)

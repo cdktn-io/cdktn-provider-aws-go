@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference(terraformR
 	j := jsiiProxy_LbListenerRuleTransformUrlRewriteConfigRewriteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference_Override(l
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

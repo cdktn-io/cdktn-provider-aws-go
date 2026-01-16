@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		reflect.TypeOf((*VpcEndpointRouteTableAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociationConfig",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociationConfig",
 		reflect.TypeOf((*VpcEndpointRouteTableAssociationConfig)(nil)).Elem(),
 	)
 }

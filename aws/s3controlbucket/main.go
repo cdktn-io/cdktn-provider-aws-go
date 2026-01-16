@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlBucket.S3ControlBucket",
+		"@cdktn/provider-aws.s3ControlBucket.S3ControlBucket",
 		reflect.TypeOf((*S3ControlBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlBucket.S3ControlBucketConfig",
+		"@cdktn/provider-aws.s3ControlBucket.S3ControlBucketConfig",
 		reflect.TypeOf((*S3ControlBucketConfig)(nil)).Elem(),
 	)
 }

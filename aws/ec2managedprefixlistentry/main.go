@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		reflect.TypeOf((*Ec2ManagedPrefixListEntryA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryAConfig",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryAConfig",
 		reflect.TypeOf((*Ec2ManagedPrefixListEntryAConfig)(nil)).Elem(),
 	)
 }

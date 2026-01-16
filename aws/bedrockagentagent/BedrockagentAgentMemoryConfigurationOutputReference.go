@@ -5,9 +5,9 @@ package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -35,6 +35,8 @@ type BedrockagentAgentMemoryConfigurationOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	SessionSummaryConfiguration() BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList
+	SessionSummaryConfigurationInput() interface{}
 	StorageDays() *float64
 	SetStorageDays(val *float64)
 	StorageDaysInput() *float64
@@ -70,7 +72,9 @@ type BedrockagentAgentMemoryConfigurationOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutSessionSummaryConfiguration(value interface{})
 	ResetEnabledMemoryTypes()
+	ResetSessionSummaryConfiguration()
 	ResetStorageDays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -157,6 +161,26 @@ func (j *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) Internal
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) SessionSummaryConfiguration() BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList {
+	var returns BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList
+	_jsii_.Get(
+		j,
+		"sessionSummaryConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) SessionSummaryConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sessionSummaryConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) StorageDays() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -207,7 +231,7 @@ func NewBedrockagentAgentMemoryConfigurationOutputReference(terraformResource cd
 	j := jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +243,7 @@ func NewBedrockagentAgentMemoryConfigurationOutputReference_Override(b Bedrockag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -488,10 +512,29 @@ func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) Interpol
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) PutSessionSummaryConfiguration(value interface{}) {
+	if err := b.validatePutSessionSummaryConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSessionSummaryConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) ResetEnabledMemoryTypes() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetEnabledMemoryTypes",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) ResetSessionSummaryConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSessionSummaryConfiguration",
 		nil, // no parameters
 	)
 }

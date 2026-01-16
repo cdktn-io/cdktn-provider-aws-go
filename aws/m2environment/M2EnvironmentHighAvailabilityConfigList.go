@@ -5,9 +5,9 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2environment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewM2EnvironmentHighAvailabilityConfigList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_M2EnvironmentHighAvailabilityConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewM2EnvironmentHighAvailabilityConfigList_Override(m M2EnvironmentHighAvai
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

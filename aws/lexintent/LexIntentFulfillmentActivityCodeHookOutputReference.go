@@ -5,9 +5,9 @@ package lexintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewLexIntentFulfillmentActivityCodeHookOutputReference(terraformResource cd
 	j := jsiiProxy_LexIntentFulfillmentActivityCodeHookOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewLexIntentFulfillmentActivityCodeHookOutputReference_Override(l LexIntent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

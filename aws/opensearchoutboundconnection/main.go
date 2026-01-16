@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		reflect.TypeOf((*OpensearchOutboundConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptConnection", GoGetter: "AcceptConnection"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConfig",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConfig",
 		reflect.TypeOf((*OpensearchOutboundConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionProperties",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionProperties",
 		reflect.TypeOf((*OpensearchOutboundConnectionConnectionProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearch",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearch",
 		reflect.TypeOf((*OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference",
 		reflect.TypeOf((*OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionConnectionPropertiesOutputReference",
 		reflect.TypeOf((*OpensearchOutboundConnectionConnectionPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,11 +176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionLocalDomainInfo",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionLocalDomainInfo",
 		reflect.TypeOf((*OpensearchOutboundConnectionLocalDomainInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionLocalDomainInfoOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionLocalDomainInfoOutputReference",
 		reflect.TypeOf((*OpensearchOutboundConnectionLocalDomainInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfo",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfo",
 		reflect.TypeOf((*OpensearchOutboundConnectionRemoteDomainInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
 		reflect.TypeOf((*OpensearchOutboundConnectionRemoteDomainInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -260,11 +260,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeouts",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeouts",
 		reflect.TypeOf((*OpensearchOutboundConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchOutboundConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

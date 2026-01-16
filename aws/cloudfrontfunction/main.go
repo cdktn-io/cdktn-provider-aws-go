@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontFunction.CloudfrontFunction",
+		"@cdktn/provider-aws.cloudfrontFunction.CloudfrontFunction",
 		reflect.TypeOf((*CloudfrontFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontFunction.CloudfrontFunctionConfig",
+		"@cdktn/provider-aws.cloudfrontFunction.CloudfrontFunctionConfig",
 		reflect.TypeOf((*CloudfrontFunctionConfig)(nil)).Elem(),
 	)
 }

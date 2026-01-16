@@ -5,9 +5,9 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewS3TablesTableMaintenanceConfigurationOutputReference(terraformResource c
 	j := jsiiProxy_S3TablesTableMaintenanceConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMaintenanceConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMaintenanceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewS3TablesTableMaintenanceConfigurationOutputReference_Override(s S3Tables
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMaintenanceConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMaintenanceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,14 +5,14 @@ package evidentlyfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_feature aws_evidently_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_feature aws_evidently_feature}.
 type EvidentlyFeature interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_EvidentlyFeature) VariationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature(scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) EvidentlyFeature {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewEvidentlyFeature(scope constructs.Construct, id *string, config *Evident
 	j := jsiiProxy_EvidentlyFeature{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -655,12 +655,12 @@ func NewEvidentlyFeature(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_feature aws_evidently_feature} Resource.
 func NewEvidentlyFeature_Override(e EvidentlyFeature, scope constructs.Construct, id *string, config *EvidentlyFeatureConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -854,7 +854,7 @@ func EvidentlyFeature_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -889,7 +889,7 @@ func EvidentlyFeature_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func EvidentlyFeature_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -927,7 +927,7 @@ func EvidentlyFeature_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -940,7 +940,7 @@ func EvidentlyFeature_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		"tfResourceType",
 		&returns,
 	)

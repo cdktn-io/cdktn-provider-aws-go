@@ -5,9 +5,9 @@ package s3bucketlifecycleconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketlifecycleconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketlifecycleconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewS3BucketLifecycleConfigurationRuleTransitionOutputReference(terraformRes
 	j := jsiiProxy_S3BucketLifecycleConfigurationRuleTransitionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransitionOutputReference",
+		"@cdktn/provider-aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewS3BucketLifecycleConfigurationRuleTransitionOutputReference_Override(s S
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransitionOutputReference",
+		"@cdktn/provider-aws.s3BucketLifecycleConfiguration.S3BucketLifecycleConfigurationRuleTransitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

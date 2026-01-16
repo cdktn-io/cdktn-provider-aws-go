@@ -5,14 +5,14 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_service aws_ecs_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_service aws_ecs_service}.
 type EcsService interface {
 	cdktf.TerraformResource
 	Alarms() EcsServiceAlarmsOutputReference
@@ -1208,7 +1208,7 @@ func (j *jsiiProxy_EcsService) WaitForSteadyStateInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_service aws_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_service aws_ecs_service} Resource.
 func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceConfig) EcsService {
 	_init_.Initialize()
 
@@ -1218,7 +1218,7 @@ func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceCon
 	j := jsiiProxy_EcsService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1226,12 +1226,12 @@ func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_service aws_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_service aws_ecs_service} Resource.
 func NewEcsService_Override(e EcsService, scope constructs.Construct, id *string, config *EcsServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1579,7 +1579,7 @@ func EcsService_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1614,7 +1614,7 @@ func EcsService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1633,7 +1633,7 @@ func EcsService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1652,7 +1652,7 @@ func EcsService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1665,7 +1665,7 @@ func EcsService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		"tfResourceType",
 		&returns,
 	)

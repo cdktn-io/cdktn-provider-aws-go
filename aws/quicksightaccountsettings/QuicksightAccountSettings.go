@@ -5,14 +5,14 @@ package quicksightaccountsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightaccountsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightaccountsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings}.
 type QuicksightAccountSettings interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -406,7 +406,7 @@ func (j *jsiiProxy_QuicksightAccountSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings} Resource.
 func NewQuicksightAccountSettings(scope constructs.Construct, id *string, config *QuicksightAccountSettingsConfig) QuicksightAccountSettings {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewQuicksightAccountSettings(scope constructs.Construct, id *string, config
 	j := jsiiProxy_QuicksightAccountSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -424,12 +424,12 @@ func NewQuicksightAccountSettings(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_account_settings aws_quicksight_account_settings} Resource.
 func NewQuicksightAccountSettings_Override(q QuicksightAccountSettings, scope constructs.Construct, id *string, config *QuicksightAccountSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -557,7 +557,7 @@ func QuicksightAccountSettings_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -592,7 +592,7 @@ func QuicksightAccountSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +611,7 @@ func QuicksightAccountSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func QuicksightAccountSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func QuicksightAccountSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		"tfResourceType",
 		&returns,
 	)

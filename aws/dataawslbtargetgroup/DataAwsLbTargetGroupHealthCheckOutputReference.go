@@ -5,9 +5,9 @@ package dataawslbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslbtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslbtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -258,7 +258,7 @@ func NewDataAwsLbTargetGroupHealthCheckOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsLbTargetGroupHealthCheckOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupHealthCheckOutputReference",
+		"@cdktn/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -270,7 +270,7 @@ func NewDataAwsLbTargetGroupHealthCheckOutputReference_Override(d DataAwsLbTarge
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupHealthCheckOutputReference",
+		"@cdktn/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

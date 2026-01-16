@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		reflect.TypeOf((*EcrRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryConfig",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryConfig",
 		reflect.TypeOf((*EcrRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryEncryptionConfiguration",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryEncryptionConfiguration",
 		reflect.TypeOf((*EcrRepositoryEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryEncryptionConfigurationList",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryEncryptionConfigurationList",
 		reflect.TypeOf((*EcrRepositoryEncryptionConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*EcrRepositoryEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageScanningConfiguration",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageScanningConfiguration",
 		reflect.TypeOf((*EcrRepositoryImageScanningConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
 		reflect.TypeOf((*EcrRepositoryImageScanningConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilter",
 		reflect.TypeOf((*EcrRepositoryImageTagMutabilityExclusionFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilterList",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilterList",
 		reflect.TypeOf((*EcrRepositoryImageTagMutabilityExclusionFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -234,7 +234,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilterOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageTagMutabilityExclusionFilterOutputReference",
 		reflect.TypeOf((*EcrRepositoryImageTagMutabilityExclusionFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,11 +270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryTimeouts",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryTimeouts",
 		reflect.TypeOf((*EcrRepositoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
 		reflect.TypeOf((*EcrRepositoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

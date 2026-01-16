@@ -5,9 +5,9 @@ package sagemakerspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewSagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference(terra
 	j := jsiiProxy_SagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewSagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpaceSpaceSettingsJupyterServerAppSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

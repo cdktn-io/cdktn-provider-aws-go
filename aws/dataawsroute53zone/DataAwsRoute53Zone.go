@@ -5,14 +5,14 @@ package dataawsroute53zone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53zone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53zone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zone aws_route53_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zone aws_route53_zone}.
 type DataAwsRoute53Zone interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_DataAwsRoute53Zone) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zone aws_route53_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zone aws_route53_zone} Data Source.
 func NewDataAwsRoute53Zone(scope constructs.Construct, id *string, config *DataAwsRoute53ZoneConfig) DataAwsRoute53Zone {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewDataAwsRoute53Zone(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsRoute53Zone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewDataAwsRoute53Zone(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zone aws_route53_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zone aws_route53_zone} Data Source.
 func NewDataAwsRoute53Zone_Override(d DataAwsRoute53Zone, scope constructs.Construct, id *string, config *DataAwsRoute53ZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -659,7 +659,7 @@ func DataAwsRoute53Zone_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func DataAwsRoute53Zone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DataAwsRoute53Zone_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DataAwsRoute53Zone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func DataAwsRoute53Zone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		"tfResourceType",
 		&returns,
 	)

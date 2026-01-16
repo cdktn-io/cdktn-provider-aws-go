@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebSessionLoggerAssociation.WorkspaceswebSessionLoggerAssociation",
+		"@cdktn/provider-aws.workspaceswebSessionLoggerAssociation.WorkspaceswebSessionLoggerAssociation",
 		reflect.TypeOf((*WorkspaceswebSessionLoggerAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebSessionLoggerAssociation.WorkspaceswebSessionLoggerAssociationConfig",
+		"@cdktn/provider-aws.workspaceswebSessionLoggerAssociation.WorkspaceswebSessionLoggerAssociationConfig",
 		reflect.TypeOf((*WorkspaceswebSessionLoggerAssociationConfig)(nil)).Elem(),
 	)
 }

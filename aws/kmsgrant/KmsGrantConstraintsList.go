@@ -5,9 +5,9 @@ package kmsgrant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmsgrant/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsgrant/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewKmsGrantConstraintsList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_KmsGrantConstraintsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConstraintsList",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConstraintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewKmsGrantConstraintsList_Override(k KmsGrantConstraintsList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConstraintsList",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConstraintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		k,
 	)

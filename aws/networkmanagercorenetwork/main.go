@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetwork",
 		reflect.TypeOf((*NetworkmanagerCoreNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkConfig",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkConfig",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdges",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdges",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkEdges)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesList",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesList",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkEdgesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesOutputReference",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkEdgesOutputReference",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkEdgesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asn", GoGetter: "Asn"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegments",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegments",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkSegments)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsList",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsList",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkSegmentsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsOutputReference",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkSegmentsOutputReference",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkSegmentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,11 +219,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTimeouts",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTimeouts",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerCoreNetwork.NetworkmanagerCoreNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkmanagerCoreNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

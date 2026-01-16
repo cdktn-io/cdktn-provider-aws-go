@@ -5,14 +5,14 @@ package timestreamwritedatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreamwritedatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreamwritedatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database}.
 type TimestreamwriteDatabase interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_TimestreamwriteDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
 func NewTimestreamwriteDatabase(scope constructs.Construct, id *string, config *TimestreamwriteDatabaseConfig) TimestreamwriteDatabase {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewTimestreamwriteDatabase(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_TimestreamwriteDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewTimestreamwriteDatabase(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
 func NewTimestreamwriteDatabase_Override(t TimestreamwriteDatabase, scope constructs.Construct, id *string, config *TimestreamwriteDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -624,7 +624,7 @@ func TimestreamwriteDatabase_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func TimestreamwriteDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func TimestreamwriteDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func TimestreamwriteDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func TimestreamwriteDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		"tfResourceType",
 		&returns,
 	)

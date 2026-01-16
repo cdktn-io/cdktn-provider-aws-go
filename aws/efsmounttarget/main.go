@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsMountTarget.EfsMountTarget",
+		"@cdktn/provider-aws.efsMountTarget.EfsMountTarget",
 		reflect.TypeOf((*EfsMountTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsMountTarget.EfsMountTargetConfig",
+		"@cdktn/provider-aws.efsMountTarget.EfsMountTargetConfig",
 		reflect.TypeOf((*EfsMountTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsMountTarget.EfsMountTargetTimeouts",
+		"@cdktn/provider-aws.efsMountTarget.EfsMountTargetTimeouts",
 		reflect.TypeOf((*EfsMountTargetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsMountTarget.EfsMountTargetTimeoutsOutputReference",
+		"@cdktn/provider-aws.efsMountTarget.EfsMountTargetTimeoutsOutputReference",
 		reflect.TypeOf((*EfsMountTargetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

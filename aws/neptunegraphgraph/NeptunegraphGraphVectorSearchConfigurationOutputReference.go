@@ -5,9 +5,9 @@ package neptunegraphgraph
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptunegraphgraph/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptunegraphgraph/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewNeptunegraphGraphVectorSearchConfigurationOutputReference(terraformResou
 	j := jsiiProxy_NeptunegraphGraphVectorSearchConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewNeptunegraphGraphVectorSearchConfigurationOutputReference_Override(n Nep
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

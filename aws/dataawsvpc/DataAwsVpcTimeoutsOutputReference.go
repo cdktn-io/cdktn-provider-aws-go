@@ -5,9 +5,9 @@ package dataawsvpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpc/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsVpcTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DataAwsVpcTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsVpcTimeoutsOutputReference_Override(d DataAwsVpcTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,14 +5,14 @@ package cloudwatchlogdataprotectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogdataprotectionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogdataprotectionpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy}.
 type CloudwatchLogDataProtectionPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_CloudwatchLogDataProtectionPolicy) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy} Resource.
 func NewCloudwatchLogDataProtectionPolicy(scope constructs.Construct, id *string, config *CloudwatchLogDataProtectionPolicyConfig) CloudwatchLogDataProtectionPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewCloudwatchLogDataProtectionPolicy(scope constructs.Construct, id *string
 	j := jsiiProxy_CloudwatchLogDataProtectionPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewCloudwatchLogDataProtectionPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_data_protection_policy aws_cloudwatch_log_data_protection_policy} Resource.
 func NewCloudwatchLogDataProtectionPolicy_Override(c CloudwatchLogDataProtectionPolicy, scope constructs.Construct, id *string, config *CloudwatchLogDataProtectionPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -531,7 +531,7 @@ func CloudwatchLogDataProtectionPolicy_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func CloudwatchLogDataProtectionPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func CloudwatchLogDataProtectionPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func CloudwatchLogDataProtectionPolicy_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func CloudwatchLogDataProtectionPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
+		"@cdktn/provider-aws.cloudwatchLogDataProtectionPolicy.CloudwatchLogDataProtectionPolicy",
 		"tfResourceType",
 		&returns,
 	)

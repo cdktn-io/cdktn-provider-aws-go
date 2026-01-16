@@ -5,9 +5,9 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttheme/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttheme/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewQuicksightThemeConfigurationDataColorPaletteOutputReference(terraformRes
 	j := jsiiProxy_QuicksightThemeConfigurationDataColorPaletteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewQuicksightThemeConfigurationDataColorPaletteOutputReference_Override(q Q
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

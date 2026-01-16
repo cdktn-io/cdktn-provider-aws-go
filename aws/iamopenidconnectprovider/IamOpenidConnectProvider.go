@@ -5,14 +5,14 @@ package iamopenidconnectprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamopenidconnectprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamopenidconnectprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider}.
 type IamOpenidConnectProvider interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_IamOpenidConnectProvider) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider} Resource.
 func NewIamOpenidConnectProvider(scope constructs.Construct, id *string, config *IamOpenidConnectProviderConfig) IamOpenidConnectProvider {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewIamOpenidConnectProvider(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamOpenidConnectProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewIamOpenidConnectProvider(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_openid_connect_provider aws_iam_openid_connect_provider} Resource.
 func NewIamOpenidConnectProvider_Override(i IamOpenidConnectProvider, scope constructs.Construct, id *string, config *IamOpenidConnectProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -612,7 +612,7 @@ func IamOpenidConnectProvider_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func IamOpenidConnectProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func IamOpenidConnectProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func IamOpenidConnectProvider_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func IamOpenidConnectProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
+		"@cdktn/provider-aws.iamOpenidConnectProvider.IamOpenidConnectProvider",
 		"tfResourceType",
 		&returns,
 	)

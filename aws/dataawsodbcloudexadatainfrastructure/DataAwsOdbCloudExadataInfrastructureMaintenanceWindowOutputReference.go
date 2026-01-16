@@ -5,9 +5,9 @@ package dataawsodbcloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbcloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbcloudexadatainfrastructure/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -258,7 +258,7 @@ func NewDataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference(ter
 	j := jsiiProxy_DataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructure.DataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructure.DataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -270,7 +270,7 @@ func NewDataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructure.DataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructure.DataAwsOdbCloudExadataInfrastructureMaintenanceWindowOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		reflect.TypeOf((*IotRoleAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAliasConfig",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAliasConfig",
 		reflect.TypeOf((*IotRoleAliasConfig)(nil)).Elem(),
 	)
 }

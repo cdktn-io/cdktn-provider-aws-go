@@ -5,9 +5,9 @@ package opensearchoutboundconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchoutboundconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchoutboundconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewOpensearchOutboundConnectionRemoteDomainInfoOutputReference(terraformRes
 	j := jsiiProxy_OpensearchOutboundConnectionRemoteDomainInfoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewOpensearchOutboundConnectionRemoteDomainInfoOutputReference_Override(o O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnectionRemoteDomainInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

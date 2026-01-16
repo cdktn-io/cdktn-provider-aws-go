@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		reflect.TypeOf((*ImagebuilderImagePipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -62,6 +62,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "infrastructureConfigurationArnInput", GoGetter: "InfrastructureConfigurationArnInput"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingConfiguration", GoGetter: "LoggingConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingConfigurationInput", GoGetter: "LoggingConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
@@ -74,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putImageScanningConfiguration", GoMethod: "PutImageScanningConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putImageTestsConfiguration", GoMethod: "PutImageTestsConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putLoggingConfiguration", GoMethod: "PutLoggingConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putSchedule", GoMethod: "PutSchedule"},
 			_jsii_.MemberMethod{JsiiMethod: "putWorkflow", GoMethod: "PutWorkflow"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -88,6 +91,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetImageRecipeArn", GoMethod: "ResetImageRecipeArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetImageScanningConfiguration", GoMethod: "ResetImageScanningConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetImageTestsConfiguration", GoMethod: "ResetImageTestsConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLoggingConfiguration", GoMethod: "ResetLoggingConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSchedule", GoMethod: "ResetSchedule"},
@@ -122,19 +126,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineConfig",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineConfig",
 		reflect.TypeOf((*ImagebuilderImagePipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageScanningConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageScanningConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,11 +215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageTestsConfiguration",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageTestsConfiguration",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageTestsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageTestsConfigurationOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineImageTestsConfigurationOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineImageTestsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +257,53 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineSchedule",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineLoggingConfiguration",
+		reflect.TypeOf((*ImagebuilderImagePipelineLoggingConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineLoggingConfigurationOutputReference",
+		reflect.TypeOf((*ImagebuilderImagePipelineLoggingConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "imageLogGroupName", GoGetter: "ImageLogGroupName"},
+			_jsii_.MemberProperty{JsiiProperty: "imageLogGroupNameInput", GoGetter: "ImageLogGroupNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "pipelineLogGroupName", GoGetter: "PipelineLogGroupName"},
+			_jsii_.MemberProperty{JsiiProperty: "pipelineLogGroupNameInput", GoGetter: "PipelineLogGroupNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetImageLogGroupName", GoMethod: "ResetImageLogGroupName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPipelineLogGroupName", GoMethod: "ResetPipelineLogGroupName"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ImagebuilderImagePipelineLoggingConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineSchedule",
 		reflect.TypeOf((*ImagebuilderImagePipelineSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineScheduleOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineScheduleOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -297,11 +343,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflow",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowList",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowList",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflowList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -323,7 +369,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -367,11 +413,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameter",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflowParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameterList",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameterList",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflowParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -393,7 +439,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameterOutputReference",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowParameterOutputReference",
 		reflect.TypeOf((*ImagebuilderImagePipelineWorkflowParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

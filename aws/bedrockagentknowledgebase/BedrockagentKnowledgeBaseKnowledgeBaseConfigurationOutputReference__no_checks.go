@@ -47,6 +47,14 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputRefe
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) validatePutKendraKnowledgeBaseConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) validatePutSqlKnowledgeBaseConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) validatePutVectorKnowledgeBaseConfigurationParameters(value interface{}) error {
 	return nil
 }

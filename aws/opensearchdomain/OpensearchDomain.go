@@ -5,14 +5,14 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_domain aws_opensearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_domain aws_opensearch_domain}.
 type OpensearchDomain interface {
 	cdktf.TerraformResource
 	AccessPolicies() *string
@@ -962,7 +962,7 @@ func (j *jsiiProxy_OpensearchDomain) VpcOptionsInput() *OpensearchDomainVpcOptio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain(scope constructs.Construct, id *string, config *OpensearchDomainConfig) OpensearchDomain {
 	_init_.Initialize()
 
@@ -972,7 +972,7 @@ func NewOpensearchDomain(scope constructs.Construct, id *string, config *Opensea
 	j := jsiiProxy_OpensearchDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -980,12 +980,12 @@ func NewOpensearchDomain(scope constructs.Construct, id *string, config *Opensea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain_Override(o OpensearchDomain, scope constructs.Construct, id *string, config *OpensearchDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1168,7 +1168,7 @@ func OpensearchDomain_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1203,7 +1203,7 @@ func OpensearchDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1222,7 +1222,7 @@ func OpensearchDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1241,7 +1241,7 @@ func OpensearchDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1254,7 +1254,7 @@ func OpensearchDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomain",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomain",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		reflect.TypeOf((*TransferServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -145,15 +145,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerConfig",
+		"@cdktn/provider-aws.transferServer.TransferServerConfig",
 		reflect.TypeOf((*TransferServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerEndpointDetails",
+		"@cdktn/provider-aws.transferServer.TransferServerEndpointDetails",
 		reflect.TypeOf((*TransferServerEndpointDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerEndpointDetailsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerEndpointDetailsOutputReference",
 		reflect.TypeOf((*TransferServerEndpointDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressAllocationIds", GoGetter: "AddressAllocationIds"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerProtocolDetails",
+		"@cdktn/provider-aws.transferServer.TransferServerProtocolDetails",
 		reflect.TypeOf((*TransferServerProtocolDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerProtocolDetailsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerProtocolDetailsOutputReference",
 		reflect.TypeOf((*TransferServerProtocolDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "as2Transports", GoGetter: "As2Transports"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerS3StorageOptions",
+		"@cdktn/provider-aws.transferServer.TransferServerS3StorageOptions",
 		reflect.TypeOf((*TransferServerS3StorageOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
 		reflect.TypeOf((*TransferServerS3StorageOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,15 +287,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetails",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetails",
 		reflect.TypeOf((*TransferServerWorkflowDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUpload",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUpload",
 		reflect.TypeOf((*TransferServerWorkflowDetailsOnPartialUpload)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
 		reflect.TypeOf((*TransferServerWorkflowDetailsOnPartialUploadOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -331,11 +331,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnUpload",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnUpload",
 		reflect.TypeOf((*TransferServerWorkflowDetailsOnUpload)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnUploadOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnUploadOutputReference",
 		reflect.TypeOf((*TransferServerWorkflowDetailsOnUploadOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -371,7 +371,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
 		reflect.TypeOf((*TransferServerWorkflowDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

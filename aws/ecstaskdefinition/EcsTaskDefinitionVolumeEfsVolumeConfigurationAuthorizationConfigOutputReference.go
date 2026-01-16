@@ -5,9 +5,9 @@ package ecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputRe
 	j := jsiiProxy_EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

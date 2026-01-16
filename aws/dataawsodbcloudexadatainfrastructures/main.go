@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		reflect.TypeOf((*DataAwsOdbCloudExadataInfrastructures)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,11 +59,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructures",
 		reflect.TypeOf((*DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructures)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList",
 		reflect.TypeOf((*DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresOutputReference",
 		reflect.TypeOf((*DataAwsOdbCloudExadataInfrastructuresCloudExadataInfrastructuresOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresConfig",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructuresConfig",
 		reflect.TypeOf((*DataAwsOdbCloudExadataInfrastructuresConfig)(nil)).Elem(),
 	)
 }

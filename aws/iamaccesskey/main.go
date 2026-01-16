@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamAccessKey.IamAccessKey",
+		"@cdktn/provider-aws.iamAccessKey.IamAccessKey",
 		reflect.TypeOf((*IamAccessKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamAccessKey.IamAccessKeyConfig",
+		"@cdktn/provider-aws.iamAccessKey.IamAccessKeyConfig",
 		reflect.TypeOf((*IamAccessKeyConfig)(nil)).Elem(),
 	)
 }

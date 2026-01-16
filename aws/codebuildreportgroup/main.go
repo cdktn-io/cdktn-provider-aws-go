@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		reflect.TypeOf((*CodebuildReportGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroupConfig",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroupConfig",
 		reflect.TypeOf((*CodebuildReportGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfig",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfig",
 		reflect.TypeOf((*CodebuildReportGroupExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigOutputReference",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigOutputReference",
 		reflect.TypeOf((*CodebuildReportGroupExportConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3Destination",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3Destination",
 		reflect.TypeOf((*CodebuildReportGroupExportConfigS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3DestinationOutputReference",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3DestinationOutputReference",
 		reflect.TypeOf((*CodebuildReportGroupExportConfigS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},

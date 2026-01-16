@@ -5,14 +5,14 @@ package dataawsssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmincidentsresponseplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmincidentsresponseplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
 type DataAwsSsmincidentsResponsePlan interface {
 	cdktf.TerraformDataSource
 	Action() DataAwsSsmincidentsResponsePlanActionList
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsResponsePlan) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
 func NewDataAwsSsmincidentsResponsePlan(scope constructs.Construct, id *string, config *DataAwsSsmincidentsResponsePlanConfig) DataAwsSsmincidentsResponsePlan {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsSsmincidentsResponsePlan(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsSsmincidentsResponsePlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewDataAwsSsmincidentsResponsePlan(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
 func NewDataAwsSsmincidentsResponsePlan_Override(d DataAwsSsmincidentsResponsePlan, scope constructs.Construct, id *string, config *DataAwsSsmincidentsResponsePlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -542,7 +542,7 @@ func DataAwsSsmincidentsResponsePlan_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func DataAwsSsmincidentsResponsePlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsSsmincidentsResponsePlan_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataAwsSsmincidentsResponsePlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsSsmincidentsResponsePlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlan",
 		"tfResourceType",
 		&returns,
 	)

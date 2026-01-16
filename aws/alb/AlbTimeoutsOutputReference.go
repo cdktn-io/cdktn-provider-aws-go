@@ -5,9 +5,9 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAlbTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_AlbTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbTimeoutsOutputReference",
+		"@cdktn/provider-aws.alb.AlbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAlbTimeoutsOutputReference_Override(a AlbTimeoutsOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbTimeoutsOutputReference",
+		"@cdktn/provider-aws.alb.AlbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

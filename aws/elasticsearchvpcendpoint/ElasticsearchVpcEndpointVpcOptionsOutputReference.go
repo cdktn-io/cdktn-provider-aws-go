@@ -5,9 +5,9 @@ package elasticsearchvpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticsearchvpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticsearchvpcendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewElasticsearchVpcEndpointVpcOptionsOutputReference(terraformResource cdkt
 	j := jsiiProxy_ElasticsearchVpcEndpointVpcOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewElasticsearchVpcEndpointVpcOptionsOutputReference_Override(e Elasticsear
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

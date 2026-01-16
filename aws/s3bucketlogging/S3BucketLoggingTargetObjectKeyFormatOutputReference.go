@@ -5,9 +5,9 @@ package s3bucketlogging
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketlogging/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketlogging/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewS3BucketLoggingTargetObjectKeyFormatOutputReference(terraformResource cd
 	j := jsiiProxy_S3BucketLoggingTargetObjectKeyFormatOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewS3BucketLoggingTargetObjectKeyFormatOutputReference_Override(s S3BucketL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

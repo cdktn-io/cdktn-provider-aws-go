@@ -5,9 +5,9 @@ package bedrockagentcoregateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoregateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoregateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList(te
 	j := jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreGateway.BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList",
+		"@cdktn/provider-aws.bedrockagentcoreGateway.BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList_Ov
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreGateway.BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList",
+		"@cdktn/provider-aws.bedrockagentcoreGateway.BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

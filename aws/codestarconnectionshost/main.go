@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		reflect.TypeOf((*CodestarconnectionsHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHostConfig",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHostConfig",
 		reflect.TypeOf((*CodestarconnectionsHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHostTimeouts",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHostTimeouts",
 		reflect.TypeOf((*CodestarconnectionsHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHostTimeoutsOutputReference",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHostTimeoutsOutputReference",
 		reflect.TypeOf((*CodestarconnectionsHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHostVpcConfiguration",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHostVpcConfiguration",
 		reflect.TypeOf((*CodestarconnectionsHostVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHostVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHostVpcConfigurationOutputReference",
 		reflect.TypeOf((*CodestarconnectionsHostVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

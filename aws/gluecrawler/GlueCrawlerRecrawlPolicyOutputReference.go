@@ -5,9 +5,9 @@ package gluecrawler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecrawler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecrawler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewGlueCrawlerRecrawlPolicyOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_GlueCrawlerRecrawlPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewGlueCrawlerRecrawlPolicyOutputReference_Override(g GlueCrawlerRecrawlPol
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

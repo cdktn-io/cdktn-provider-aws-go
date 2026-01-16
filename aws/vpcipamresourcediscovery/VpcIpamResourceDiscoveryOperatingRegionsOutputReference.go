@@ -5,9 +5,9 @@ package vpcipamresourcediscovery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipamresourcediscovery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamresourcediscovery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewVpcIpamResourceDiscoveryOperatingRegionsOutputReference(terraformResourc
 	j := jsiiProxy_VpcIpamResourceDiscoveryOperatingRegionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegionsOutputReference",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewVpcIpamResourceDiscoveryOperatingRegionsOutputReference_Override(v VpcIp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegionsOutputReference",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscoveryOperatingRegionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

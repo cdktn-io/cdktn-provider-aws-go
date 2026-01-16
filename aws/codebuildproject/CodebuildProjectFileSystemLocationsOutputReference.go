@@ -5,9 +5,9 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewCodebuildProjectFileSystemLocationsOutputReference(terraformResource cdk
 	j := jsiiProxy_CodebuildProjectFileSystemLocationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectFileSystemLocationsOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectFileSystemLocationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewCodebuildProjectFileSystemLocationsOutputReference_Override(c CodebuildP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectFileSystemLocationsOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectFileSystemLocationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccess",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccess",
 		reflect.TypeOf((*ServicecatalogOrganizationsAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessConfig",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessConfig",
 		reflect.TypeOf((*ServicecatalogOrganizationsAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeouts",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeouts",
 		reflect.TypeOf((*ServicecatalogOrganizationsAccessTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
 		reflect.TypeOf((*ServicecatalogOrganizationsAccessTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

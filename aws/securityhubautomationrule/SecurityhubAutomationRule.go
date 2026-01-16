@@ -5,14 +5,14 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubautomationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule}.
 type SecurityhubAutomationRule interface {
 	cdktf.TerraformResource
 	Actions() SecurityhubAutomationRuleActionsList
@@ -532,7 +532,7 @@ func (j *jsiiProxy_SecurityhubAutomationRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource.
 func NewSecurityhubAutomationRule(scope constructs.Construct, id *string, config *SecurityhubAutomationRuleConfig) SecurityhubAutomationRule {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewSecurityhubAutomationRule(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SecurityhubAutomationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewSecurityhubAutomationRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource.
 func NewSecurityhubAutomationRule_Override(s SecurityhubAutomationRule, scope constructs.Construct, id *string, config *SecurityhubAutomationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -716,7 +716,7 @@ func SecurityhubAutomationRule_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func SecurityhubAutomationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func SecurityhubAutomationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func SecurityhubAutomationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func SecurityhubAutomationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		"tfResourceType",
 		&returns,
 	)

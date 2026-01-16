@@ -5,14 +5,14 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dms_endpoint aws_dms_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dms_endpoint aws_dms_endpoint}.
 type DataAwsDmsEndpoint interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -600,7 +600,7 @@ func (j *jsiiProxy_DataAwsDmsEndpoint) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dms_endpoint aws_dms_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dms_endpoint aws_dms_endpoint} Data Source.
 func NewDataAwsDmsEndpoint(scope constructs.Construct, id *string, config *DataAwsDmsEndpointConfig) DataAwsDmsEndpoint {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewDataAwsDmsEndpoint(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsDmsEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -618,12 +618,12 @@ func NewDataAwsDmsEndpoint(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dms_endpoint aws_dms_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dms_endpoint aws_dms_endpoint} Data Source.
 func NewDataAwsDmsEndpoint_Override(d DataAwsDmsEndpoint, scope constructs.Construct, id *string, config *DataAwsDmsEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -729,7 +729,7 @@ func DataAwsDmsEndpoint_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func DataAwsDmsEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func DataAwsDmsEndpoint_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DataAwsDmsEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func DataAwsDmsEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		"tfResourceType",
 		&returns,
 	)

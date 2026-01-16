@@ -5,9 +5,9 @@ package s3controlmultiregionaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlmultiregionaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlmultiregionaccesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewS3ControlMultiRegionAccessPointDetailsOutputReference(terraformResource 
 	j := jsiiProxy_S3ControlMultiRegionAccessPointDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsOutputReference",
+		"@cdktn/provider-aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewS3ControlMultiRegionAccessPointDetailsOutputReference_Override(s S3Contr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsOutputReference",
+		"@cdktn/provider-aws.s3ControlMultiRegionAccessPoint.S3ControlMultiRegionAccessPointDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

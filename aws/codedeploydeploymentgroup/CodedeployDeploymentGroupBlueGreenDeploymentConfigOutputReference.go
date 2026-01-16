@@ -5,9 +5,9 @@ package codedeploydeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codedeploydeploymentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codedeploydeploymentgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference(terraf
 	j := jsiiProxy_CodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,9 +5,9 @@ package ecsclustercapacityproviders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsclustercapacityproviders/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsclustercapacityproviders/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEcsClusterCapacityProvidersDefaultCapacityProviderStrategyList(terraform
 	j := jsiiProxy_EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList",
+		"@cdktn/provider-aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEcsClusterCapacityProvidersDefaultCapacityProviderStrategyList_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList",
+		"@cdktn/provider-aws.ecsClusterCapacityProviders.EcsClusterCapacityProvidersDefaultCapacityProviderStrategyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

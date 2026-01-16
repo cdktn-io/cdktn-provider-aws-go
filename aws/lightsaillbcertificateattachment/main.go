@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		reflect.TypeOf((*LightsailLbCertificateAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachmentConfig",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachmentConfig",
 		reflect.TypeOf((*LightsailLbCertificateAttachmentConfig)(nil)).Elem(),
 	)
 }

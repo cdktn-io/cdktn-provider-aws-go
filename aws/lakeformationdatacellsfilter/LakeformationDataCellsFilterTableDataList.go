@@ -5,9 +5,9 @@ package lakeformationdatacellsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationdatacellsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationdatacellsfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLakeformationDataCellsFilterTableDataList(terraformResource cdktf.IInter
 	j := jsiiProxy_LakeformationDataCellsFilterTableDataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataList",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLakeformationDataCellsFilterTableDataList_Override(l LakeformationDataCe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataList",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilterTableDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

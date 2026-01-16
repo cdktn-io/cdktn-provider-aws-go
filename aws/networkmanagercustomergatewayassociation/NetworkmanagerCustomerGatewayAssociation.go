@@ -5,14 +5,14 @@ package networkmanagercustomergatewayassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagercustomergatewayassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagercustomergatewayassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association}.
 type NetworkmanagerCustomerGatewayAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_NetworkmanagerCustomerGatewayAssociation) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association} Resource.
 func NewNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id *string, config *NetworkmanagerCustomerGatewayAssociationConfig) NetworkmanagerCustomerGatewayAssociation {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id 
 	j := jsiiProxy_NetworkmanagerCustomerGatewayAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_customer_gateway_association aws_networkmanager_customer_gateway_association} Resource.
 func NewNetworkmanagerCustomerGatewayAssociation_Override(n NetworkmanagerCustomerGatewayAssociation, scope constructs.Construct, id *string, config *NetworkmanagerCustomerGatewayAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -589,7 +589,7 @@ func NetworkmanagerCustomerGatewayAssociation_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func NetworkmanagerCustomerGatewayAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func NetworkmanagerCustomerGatewayAssociation_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func NetworkmanagerCustomerGatewayAssociation_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func NetworkmanagerCustomerGatewayAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
+		"@cdktn/provider-aws.networkmanagerCustomerGatewayAssociation.NetworkmanagerCustomerGatewayAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package devicefarmnetworkprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devicefarmnetworkprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devicefarmnetworkprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile}.
 type DevicefarmNetworkProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -679,7 +679,7 @@ func (j *jsiiProxy_DevicefarmNetworkProfile) UplinkLossPercentInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
 func NewDevicefarmNetworkProfile(scope constructs.Construct, id *string, config *DevicefarmNetworkProfileConfig) DevicefarmNetworkProfile {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewDevicefarmNetworkProfile(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DevicefarmNetworkProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -697,12 +697,12 @@ func NewDevicefarmNetworkProfile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
 func NewDevicefarmNetworkProfile_Override(d DevicefarmNetworkProfile, scope constructs.Construct, id *string, config *DevicefarmNetworkProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -962,7 +962,7 @@ func DevicefarmNetworkProfile_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -997,7 +997,7 @@ func DevicefarmNetworkProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1016,7 +1016,7 @@ func DevicefarmNetworkProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1035,7 +1035,7 @@ func DevicefarmNetworkProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1048,7 +1048,7 @@ func DevicefarmNetworkProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudget",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudget",
 		reflect.TypeOf((*BudgetsBudget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -121,15 +121,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustData",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustData",
 		reflect.TypeOf((*BudgetsBudgetAutoAdjustData)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptions",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptions",
 		reflect.TypeOf((*BudgetsBudgetAutoAdjustDataHistoricalOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference",
 		reflect.TypeOf((*BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "budgetAdjustmentPeriod", GoGetter: "BudgetAdjustmentPeriod"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetAutoAdjustDataOutputReference",
 		reflect.TypeOf((*BudgetsBudgetAutoAdjustDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoAdjustType", GoGetter: "AutoAdjustType"},
@@ -203,15 +203,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetConfig",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetConfig",
 		reflect.TypeOf((*BudgetsBudgetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostFilter",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostFilter",
 		reflect.TypeOf((*BudgetsBudgetCostFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
 		reflect.TypeOf((*BudgetsBudgetCostFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostFilterOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostFilterOutputReference",
 		reflect.TypeOf((*BudgetsBudgetCostFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -269,11 +269,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostTypes",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostTypes",
 		reflect.TypeOf((*BudgetsBudgetCostTypes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
 		reflect.TypeOf((*BudgetsBudgetCostTypesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -338,11 +338,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetNotification",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetNotification",
 		reflect.TypeOf((*BudgetsBudgetNotification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetNotificationList",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetNotificationList",
 		reflect.TypeOf((*BudgetsBudgetNotificationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -364,7 +364,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetNotificationOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetNotificationOutputReference",
 		reflect.TypeOf((*BudgetsBudgetNotificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},
@@ -410,11 +410,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimit",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimit",
 		reflect.TypeOf((*BudgetsBudgetPlannedLimit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimitList",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimitList",
 		reflect.TypeOf((*BudgetsBudgetPlannedLimitList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -436,7 +436,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimitOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetPlannedLimitOutputReference",
 		reflect.TypeOf((*BudgetsBudgetPlannedLimitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},

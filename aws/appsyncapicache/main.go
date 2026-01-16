@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApiCache.AppsyncApiCache",
+		"@cdktn/provider-aws.appsyncApiCache.AppsyncApiCache",
 		reflect.TypeOf((*AppsyncApiCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApiCache.AppsyncApiCacheConfig",
+		"@cdktn/provider-aws.appsyncApiCache.AppsyncApiCacheConfig",
 		reflect.TypeOf((*AppsyncApiCacheConfig)(nil)).Elem(),
 	)
 }

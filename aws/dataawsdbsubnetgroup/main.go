@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		reflect.TypeOf((*DataAwsDbSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroupConfig",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroupConfig",
 		reflect.TypeOf((*DataAwsDbSubnetGroupConfig)(nil)).Elem(),
 	)
 }

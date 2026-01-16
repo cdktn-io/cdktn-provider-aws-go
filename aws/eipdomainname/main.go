@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		reflect.TypeOf((*EipDomainName)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eipDomainName.EipDomainNameConfig",
+		"@cdktn/provider-aws.eipDomainName.EipDomainNameConfig",
 		reflect.TypeOf((*EipDomainNameConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eipDomainName.EipDomainNameTimeouts",
+		"@cdktn/provider-aws.eipDomainName.EipDomainNameTimeouts",
 		reflect.TypeOf((*EipDomainNameTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eipDomainName.EipDomainNameTimeoutsOutputReference",
+		"@cdktn/provider-aws.eipDomainName.EipDomainNameTimeoutsOutputReference",
 		reflect.TypeOf((*EipDomainNameTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

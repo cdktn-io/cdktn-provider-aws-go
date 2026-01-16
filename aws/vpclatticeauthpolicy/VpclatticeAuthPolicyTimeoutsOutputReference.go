@@ -5,9 +5,9 @@ package vpclatticeauthpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticeauthpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticeauthpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewVpclatticeAuthPolicyTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_VpclatticeAuthPolicyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewVpclatticeAuthPolicyTimeoutsOutputReference_Override(v VpclatticeAuthPol
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

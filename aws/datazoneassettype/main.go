@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		reflect.TypeOf((*DatazoneAssetType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeConfig",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeConfig",
 		reflect.TypeOf((*DatazoneAssetTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInput",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInput",
 		reflect.TypeOf((*DatazoneAssetTypeFormsInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInputList",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInputList",
 		reflect.TypeOf((*DatazoneAssetTypeFormsInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInputOutputReference",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeFormsInputOutputReference",
 		reflect.TypeOf((*DatazoneAssetTypeFormsInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeTimeouts",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeTimeouts",
 		reflect.TypeOf((*DatazoneAssetTypeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetTypeTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetTypeTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneAssetTypeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

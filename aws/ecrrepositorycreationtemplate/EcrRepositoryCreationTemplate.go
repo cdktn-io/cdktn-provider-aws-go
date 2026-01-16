@@ -5,14 +5,14 @@ package ecrrepositorycreationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrrepositorycreationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrrepositorycreationtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template}.
 type EcrRepositoryCreationTemplate interface {
 	cdktf.TerraformResource
 	AppliedFor() *[]*string
@@ -583,7 +583,7 @@ func (j *jsiiProxy_EcrRepositoryCreationTemplate) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
 func NewEcrRepositoryCreationTemplate(scope constructs.Construct, id *string, config *EcrRepositoryCreationTemplateConfig) EcrRepositoryCreationTemplate {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewEcrRepositoryCreationTemplate(scope constructs.Construct, id *string, co
 	j := jsiiProxy_EcrRepositoryCreationTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -601,12 +601,12 @@ func NewEcrRepositoryCreationTemplate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
 func NewEcrRepositoryCreationTemplate_Override(e EcrRepositoryCreationTemplate, scope constructs.Construct, id *string, config *EcrRepositoryCreationTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -800,7 +800,7 @@ func EcrRepositoryCreationTemplate_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func EcrRepositoryCreationTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func EcrRepositoryCreationTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func EcrRepositoryCreationTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func EcrRepositoryCreationTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
+		"@cdktn/provider-aws.ecrRepositoryCreationTemplate.EcrRepositoryCreationTemplate",
 		"tfResourceType",
 		&returns,
 	)

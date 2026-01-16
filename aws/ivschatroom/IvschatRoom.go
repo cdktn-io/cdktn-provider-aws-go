@@ -5,14 +5,14 @@ package ivschatroom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ivschatroom/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ivschatroom/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ivschat_room aws_ivschat_room}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room}.
 type IvschatRoom interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_IvschatRoom) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
 func NewIvschatRoom(scope constructs.Construct, id *string, config *IvschatRoomConfig) IvschatRoom {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewIvschatRoom(scope constructs.Construct, id *string, config *IvschatRoomC
 	j := jsiiProxy_IvschatRoom{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -555,12 +555,12 @@ func NewIvschatRoom(scope constructs.Construct, id *string, config *IvschatRoomC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
 func NewIvschatRoom_Override(i IvschatRoom, scope constructs.Construct, id *string, config *IvschatRoomConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -732,7 +732,7 @@ func IvschatRoom_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -767,7 +767,7 @@ func IvschatRoom_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -786,7 +786,7 @@ func IvschatRoom_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func IvschatRoom_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func IvschatRoom_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		"tfResourceType",
 		&returns,
 	)

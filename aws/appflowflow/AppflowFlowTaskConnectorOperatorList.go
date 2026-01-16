@@ -5,9 +5,9 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appflowflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appflowflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppflowFlowTaskConnectorOperatorList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_AppflowFlowTaskConnectorOperatorList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowTaskConnectorOperatorList",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowTaskConnectorOperatorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppflowFlowTaskConnectorOperatorList_Override(a AppflowFlowTaskConnector
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowTaskConnectorOperatorList",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowTaskConnectorOperatorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

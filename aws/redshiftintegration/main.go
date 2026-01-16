@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftIntegration.RedshiftIntegration",
+		"@cdktn/provider-aws.redshiftIntegration.RedshiftIntegration",
 		reflect.TypeOf((*RedshiftIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftIntegration.RedshiftIntegrationConfig",
+		"@cdktn/provider-aws.redshiftIntegration.RedshiftIntegrationConfig",
 		reflect.TypeOf((*RedshiftIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftIntegration.RedshiftIntegrationTimeouts",
+		"@cdktn/provider-aws.redshiftIntegration.RedshiftIntegrationTimeouts",
 		reflect.TypeOf((*RedshiftIntegrationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftIntegration.RedshiftIntegrationTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftIntegration.RedshiftIntegrationTimeoutsOutputReference",
 		reflect.TypeOf((*RedshiftIntegrationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

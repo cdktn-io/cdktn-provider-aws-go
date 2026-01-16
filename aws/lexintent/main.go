@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		reflect.TypeOf((*LexIntent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentConclusionStatement",
+		"@cdktn/provider-aws.lexIntent.LexIntentConclusionStatement",
 		reflect.TypeOf((*LexIntentConclusionStatement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentConclusionStatementMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentConclusionStatementMessage",
 		reflect.TypeOf((*LexIntentConclusionStatementMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConclusionStatementMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentConclusionStatementMessageList",
 		reflect.TypeOf((*LexIntentConclusionStatementMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConclusionStatementMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConclusionStatementMessageOutputReference",
 		reflect.TypeOf((*LexIntentConclusionStatementMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConclusionStatementOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConclusionStatementOutputReference",
 		reflect.TypeOf((*LexIntentConclusionStatementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,19 +226,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfig",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfig",
 		reflect.TypeOf((*LexIntentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPrompt",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPrompt",
 		reflect.TypeOf((*LexIntentConfirmationPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptMessage",
 		reflect.TypeOf((*LexIntentConfirmationPromptMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptMessageList",
 		reflect.TypeOf((*LexIntentConfirmationPromptMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -260,7 +260,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
 		reflect.TypeOf((*LexIntentConfirmationPromptMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -299,7 +299,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptOutputReference",
 		reflect.TypeOf((*LexIntentConfirmationPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -339,11 +339,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentDialogCodeHook",
+		"@cdktn/provider-aws.lexIntent.LexIntentDialogCodeHook",
 		reflect.TypeOf((*LexIntentDialogCodeHook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentDialogCodeHookOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentDialogCodeHookOutputReference",
 		reflect.TypeOf((*LexIntentDialogCodeHookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPrompt",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPrompt",
 		reflect.TypeOf((*LexIntentFollowUpPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptOutputReference",
 		reflect.TypeOf((*LexIntentFollowUpPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -421,15 +421,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptPrompt",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptPrompt",
 		reflect.TypeOf((*LexIntentFollowUpPromptPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessage",
 		reflect.TypeOf((*LexIntentFollowUpPromptPromptMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessageList",
 		reflect.TypeOf((*LexIntentFollowUpPromptPromptMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -451,7 +451,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptPromptMessageOutputReference",
 		reflect.TypeOf((*LexIntentFollowUpPromptPromptMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -490,7 +490,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptPromptOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptPromptOutputReference",
 		reflect.TypeOf((*LexIntentFollowUpPromptPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -530,15 +530,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatement",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatement",
 		reflect.TypeOf((*LexIntentFollowUpPromptRejectionStatement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessage",
 		reflect.TypeOf((*LexIntentFollowUpPromptRejectionStatementMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessageList",
 		reflect.TypeOf((*LexIntentFollowUpPromptRejectionStatementMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -560,7 +560,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementMessageOutputReference",
 		reflect.TypeOf((*LexIntentFollowUpPromptRejectionStatementMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -599,7 +599,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFollowUpPromptRejectionStatementOutputReference",
 		reflect.TypeOf((*LexIntentFollowUpPromptRejectionStatementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -637,15 +637,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivity",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivity",
 		reflect.TypeOf((*LexIntentFulfillmentActivity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHook",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHook",
 		reflect.TypeOf((*LexIntentFulfillmentActivityCodeHook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivityCodeHookOutputReference",
 		reflect.TypeOf((*LexIntentFulfillmentActivityCodeHookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -681,7 +681,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentFulfillmentActivityOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentFulfillmentActivityOutputReference",
 		reflect.TypeOf((*LexIntentFulfillmentActivityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeHook", GoGetter: "CodeHook"},
@@ -719,15 +719,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentRejectionStatement",
+		"@cdktn/provider-aws.lexIntent.LexIntentRejectionStatement",
 		reflect.TypeOf((*LexIntentRejectionStatement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentRejectionStatementMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentRejectionStatementMessage",
 		reflect.TypeOf((*LexIntentRejectionStatementMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentRejectionStatementMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentRejectionStatementMessageList",
 		reflect.TypeOf((*LexIntentRejectionStatementMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -749,7 +749,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentRejectionStatementMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentRejectionStatementMessageOutputReference",
 		reflect.TypeOf((*LexIntentRejectionStatementMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -788,7 +788,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentRejectionStatementOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentRejectionStatementOutputReference",
 		reflect.TypeOf((*LexIntentRejectionStatementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -826,11 +826,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlot",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlot",
 		reflect.TypeOf((*LexIntentSlot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotList",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotList",
 		reflect.TypeOf((*LexIntentSlotList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -852,7 +852,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotOutputReference",
 		reflect.TypeOf((*LexIntentSlotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -909,15 +909,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotValueElicitationPrompt",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotValueElicitationPrompt",
 		reflect.TypeOf((*LexIntentSlotValueElicitationPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessage",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessage",
 		reflect.TypeOf((*LexIntentSlotValueElicitationPromptMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessageList",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessageList",
 		reflect.TypeOf((*LexIntentSlotValueElicitationPromptMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -939,7 +939,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptMessageOutputReference",
 		reflect.TypeOf((*LexIntentSlotValueElicitationPromptMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -978,7 +978,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentSlotValueElicitationPromptOutputReference",
 		reflect.TypeOf((*LexIntentSlotValueElicitationPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1018,11 +1018,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexIntent.LexIntentTimeouts",
+		"@cdktn/provider-aws.lexIntent.LexIntentTimeouts",
 		reflect.TypeOf((*LexIntentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexIntent.LexIntentTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentTimeoutsOutputReference",
 		reflect.TypeOf((*LexIntentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

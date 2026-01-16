@@ -5,14 +5,14 @@ package bedrockagentcoretokenvaultcmk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoretokenvaultcmk/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoretokenvaultcmk/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk}.
 type BedrockagentcoreTokenVaultCmk interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -358,7 +358,7 @@ func (j *jsiiProxy_BedrockagentcoreTokenVaultCmk) TokenVaultIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk} Resource.
 func NewBedrockagentcoreTokenVaultCmk(scope constructs.Construct, id *string, config *BedrockagentcoreTokenVaultCmkConfig) BedrockagentcoreTokenVaultCmk {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewBedrockagentcoreTokenVaultCmk(scope constructs.Construct, id *string, co
 	j := jsiiProxy_BedrockagentcoreTokenVaultCmk{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewBedrockagentcoreTokenVaultCmk(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_token_vault_cmk aws_bedrockagentcore_token_vault_cmk} Resource.
 func NewBedrockagentcoreTokenVaultCmk_Override(b BedrockagentcoreTokenVaultCmk, scope constructs.Construct, id *string, config *BedrockagentcoreTokenVaultCmkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -487,7 +487,7 @@ func BedrockagentcoreTokenVaultCmk_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func BedrockagentcoreTokenVaultCmk_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func BedrockagentcoreTokenVaultCmk_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func BedrockagentcoreTokenVaultCmk_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func BedrockagentcoreTokenVaultCmk_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
+		"@cdktn/provider-aws.bedrockagentcoreTokenVaultCmk.BedrockagentcoreTokenVaultCmk",
 		"tfResourceType",
 		&returns,
 	)

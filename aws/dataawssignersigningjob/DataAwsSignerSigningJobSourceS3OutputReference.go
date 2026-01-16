@@ -5,9 +5,9 @@ package dataawssignersigningjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssignersigningjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssignersigningjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsSignerSigningJobSourceS3OutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsSignerSigningJobSourceS3OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJobSourceS3OutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJobSourceS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsSignerSigningJobSourceS3OutputReference_Override(d DataAwsSignerS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJobSourceS3OutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJobSourceS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

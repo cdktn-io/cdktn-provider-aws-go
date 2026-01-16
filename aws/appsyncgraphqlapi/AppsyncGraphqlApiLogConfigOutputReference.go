@@ -5,9 +5,9 @@ package appsyncgraphqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewAppsyncGraphqlApiLogConfigOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_AppsyncGraphqlApiLogConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewAppsyncGraphqlApiLogConfigOutputReference_Override(a AppsyncGraphqlApiLo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

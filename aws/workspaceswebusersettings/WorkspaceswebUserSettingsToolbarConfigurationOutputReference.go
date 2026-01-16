@@ -5,9 +5,9 @@ package workspaceswebusersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewWorkspaceswebUserSettingsToolbarConfigurationOutputReference(terraformRe
 	j := jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationOutputReference",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewWorkspaceswebUserSettingsToolbarConfigurationOutputReference_Override(w 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationOutputReference",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

@@ -5,9 +5,9 @@ package dataawsroute53records
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53records/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53records/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference(terraf
 	j := jsiiProxy_DataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Records.DataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference",
+		"@cdktn/provider-aws.dataAwsRoute53Records.DataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Records.DataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference",
+		"@cdktn/provider-aws.dataAwsRoute53Records.DataAwsRoute53RecordsResourceRecordSetsGeolocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

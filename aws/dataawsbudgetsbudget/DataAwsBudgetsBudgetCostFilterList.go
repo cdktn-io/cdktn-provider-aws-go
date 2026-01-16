@@ -5,9 +5,9 @@ package dataawsbudgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsBudgetsBudgetCostFilterList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsBudgetsBudgetCostFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetCostFilterList",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetCostFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsBudgetsBudgetCostFilterList_Override(d DataAwsBudgetsBudgetCostFi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetCostFilterList",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetCostFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,9 +5,9 @@ package cognitouserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCognitoUserPoolClientTokenValidityUnitsOutputReference(terraformResource
 	j := jsiiProxy_CognitoUserPoolClientTokenValidityUnitsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCognitoUserPoolClientTokenValidityUnitsOutputReference_Override(c Cognit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

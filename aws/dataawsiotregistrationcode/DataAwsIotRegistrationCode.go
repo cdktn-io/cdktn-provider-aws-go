@@ -5,14 +5,14 @@ package dataawsiotregistrationcode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiotregistrationcode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiotregistrationcode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iot_registration_code aws_iot_registration_code}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iot_registration_code aws_iot_registration_code}.
 type DataAwsIotRegistrationCode interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsIotRegistrationCode) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iot_registration_code aws_iot_registration_code} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iot_registration_code aws_iot_registration_code} Data Source.
 func NewDataAwsIotRegistrationCode(scope constructs.Construct, id *string, config *DataAwsIotRegistrationCodeConfig) DataAwsIotRegistrationCode {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsIotRegistrationCode(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsIotRegistrationCode{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsIotRegistrationCode(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iot_registration_code aws_iot_registration_code} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iot_registration_code aws_iot_registration_code} Data Source.
 func NewDataAwsIotRegistrationCode_Override(d DataAwsIotRegistrationCode, scope constructs.Construct, id *string, config *DataAwsIotRegistrationCodeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsIotRegistrationCode_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsIotRegistrationCode_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsIotRegistrationCode_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsIotRegistrationCode_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsIotRegistrationCode_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
+		"@cdktn/provider-aws.dataAwsIotRegistrationCode.DataAwsIotRegistrationCode",
 		"tfResourceType",
 		&returns,
 	)

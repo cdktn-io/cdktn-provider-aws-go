@@ -5,14 +5,14 @@ package daxparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/daxparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/daxparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
 type DaxParameterGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DaxParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxParameterGroupConfig) DaxParameterGroup {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxPar
 	j := jsiiProxy_DaxParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxPar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup_Override(d DaxParameterGroup, scope constructs.Construct, id *string, config *DaxParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -556,7 +556,7 @@ func DaxParameterGroup_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func DaxParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func DaxParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DaxParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DaxParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

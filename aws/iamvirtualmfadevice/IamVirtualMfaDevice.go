@@ -5,14 +5,14 @@ package iamvirtualmfadevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamvirtualmfadevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamvirtualmfadevice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device}.
 type IamVirtualMfaDevice interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -65,6 +65,7 @@ type IamVirtualMfaDevice interface {
 	QrCodePng() *string
 	// Experimental.
 	RawOverrides() interface{}
+	SerialNumber() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -359,6 +360,16 @@ func (j *jsiiProxy_IamVirtualMfaDevice) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_IamVirtualMfaDevice) SerialNumber() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serialNumber",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IamVirtualMfaDevice) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -460,7 +471,7 @@ func (j *jsiiProxy_IamVirtualMfaDevice) VirtualMfaDeviceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) IamVirtualMfaDevice {
 	_init_.Initialize()
 
@@ -470,7 +481,7 @@ func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamV
 	j := jsiiProxy_IamVirtualMfaDevice{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -478,12 +489,12 @@ func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_virtual_mfa_device aws_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice_Override(i IamVirtualMfaDevice, scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -622,7 +633,7 @@ func IamVirtualMfaDevice_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +668,7 @@ func IamVirtualMfaDevice_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +687,7 @@ func IamVirtualMfaDevice_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +706,7 @@ func IamVirtualMfaDevice_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +719,7 @@ func IamVirtualMfaDevice_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
+		"@cdktn/provider-aws.iamVirtualMfaDevice.IamVirtualMfaDevice",
 		"tfResourceType",
 		&returns,
 	)

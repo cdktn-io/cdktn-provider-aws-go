@@ -5,9 +5,9 @@ package s3bucketwebsiteconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketwebsiteconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketwebsiteconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewS3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference(terraform
 	j := jsiiProxy_S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewS3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

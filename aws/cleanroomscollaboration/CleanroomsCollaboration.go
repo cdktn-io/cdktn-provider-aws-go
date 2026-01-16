@@ -5,14 +5,14 @@ package cleanroomscollaboration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cleanroomscollaboration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cleanroomscollaboration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}.
 type CleanroomsCollaboration interface {
 	cdktf.TerraformResource
 	AnalyticsEngine() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_CleanroomsCollaboration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
 func NewCleanroomsCollaboration(scope constructs.Construct, id *string, config *CleanroomsCollaborationConfig) CleanroomsCollaboration {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewCleanroomsCollaboration(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CleanroomsCollaboration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -631,12 +631,12 @@ func NewCleanroomsCollaboration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
 func NewCleanroomsCollaboration_Override(c CleanroomsCollaboration, scope constructs.Construct, id *string, config *CleanroomsCollaborationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -819,7 +819,7 @@ func CleanroomsCollaboration_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -854,7 +854,7 @@ func CleanroomsCollaboration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func CleanroomsCollaboration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -892,7 +892,7 @@ func CleanroomsCollaboration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -905,7 +905,7 @@ func CleanroomsCollaboration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		"tfResourceType",
 		&returns,
 	)

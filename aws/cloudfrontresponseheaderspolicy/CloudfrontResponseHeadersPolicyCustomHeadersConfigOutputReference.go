@@ -5,9 +5,9 @@ package cloudfrontresponseheaderspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontresponseheaderspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontresponseheaderspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewCloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference(terraf
 	j := jsiiProxy_CloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewCloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontResponseHeadersPolicy.CloudfrontResponseHeadersPolicyCustomHeadersConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

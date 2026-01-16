@@ -5,9 +5,9 @@ package ivsrecordingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ivsrecordingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ivsrecordingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewIvsRecordingConfigurationTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_IvsRecordingConfigurationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewIvsRecordingConfigurationTimeoutsOutputReference_Override(i IvsRecording
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

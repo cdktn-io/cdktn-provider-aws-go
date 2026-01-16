@@ -5,9 +5,9 @@ package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewFsxWindowsFileSystemDiskIopsConfigurationOutputReference(terraformResour
 	j := jsiiProxy_FsxWindowsFileSystemDiskIopsConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemDiskIopsConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemDiskIopsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewFsxWindowsFileSystemDiskIopsConfigurationOutputReference_Override(f FsxW
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemDiskIopsConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemDiskIopsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

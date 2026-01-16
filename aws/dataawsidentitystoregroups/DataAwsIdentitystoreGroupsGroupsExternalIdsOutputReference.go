@@ -5,9 +5,9 @@ package dataawsidentitystoregroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsidentitystoregroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsidentitystoregroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference(terraformReso
 	j := jsiiProxy_DataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference_Override(d Da
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroupsGroupsExternalIdsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		reflect.TypeOf((*Route53Zone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneConfig",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneConfig",
 		reflect.TypeOf((*Route53ZoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneTimeouts",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneTimeouts",
 		reflect.TypeOf((*Route53ZoneTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
 		reflect.TypeOf((*Route53ZoneTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneVpc",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneVpc",
 		reflect.TypeOf((*Route53ZoneVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneVpcList",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneVpcList",
 		reflect.TypeOf((*Route53ZoneVpcList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneVpcOutputReference",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneVpcOutputReference",
 		reflect.TypeOf((*Route53ZoneVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

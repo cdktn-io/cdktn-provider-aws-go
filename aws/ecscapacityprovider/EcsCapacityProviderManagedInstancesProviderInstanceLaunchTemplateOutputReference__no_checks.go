@@ -63,6 +63,10 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	return nil
 }
 
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validateSetCapacityOptionTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

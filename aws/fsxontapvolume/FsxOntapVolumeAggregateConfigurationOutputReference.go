@@ -5,9 +5,9 @@ package fsxontapvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -218,7 +218,7 @@ func NewFsxOntapVolumeAggregateConfigurationOutputReference(terraformResource cd
 	j := jsiiProxy_FsxOntapVolumeAggregateConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -230,7 +230,7 @@ func NewFsxOntapVolumeAggregateConfigurationOutputReference_Override(f FsxOntapV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

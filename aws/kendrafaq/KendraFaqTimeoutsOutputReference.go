@@ -5,9 +5,9 @@ package kendrafaq
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendrafaq/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendrafaq/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewKendraFaqTimeoutsOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_KendraFaqTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraFaq.KendraFaqTimeoutsOutputReference",
+		"@cdktn/provider-aws.kendraFaq.KendraFaqTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewKendraFaqTimeoutsOutputReference_Override(k KendraFaqTimeoutsOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraFaq.KendraFaqTimeoutsOutputReference",
+		"@cdktn/provider-aws.kendraFaq.KendraFaqTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

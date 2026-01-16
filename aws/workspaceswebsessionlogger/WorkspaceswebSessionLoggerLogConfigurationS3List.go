@@ -5,9 +5,9 @@ package workspaceswebsessionlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebsessionlogger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebsessionlogger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWorkspaceswebSessionLoggerLogConfigurationS3List(terraformResource cdktf
 	j := jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3List{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3List",
+		"@cdktn/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWorkspaceswebSessionLoggerLogConfigurationS3List_Override(w Workspaceswe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3List",
+		"@cdktn/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

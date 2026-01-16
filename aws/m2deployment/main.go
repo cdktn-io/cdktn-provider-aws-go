@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		reflect.TypeOf((*M2Deployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Deployment.M2DeploymentConfig",
+		"@cdktn/provider-aws.m2Deployment.M2DeploymentConfig",
 		reflect.TypeOf((*M2DeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Deployment.M2DeploymentTimeouts",
+		"@cdktn/provider-aws.m2Deployment.M2DeploymentTimeouts",
 		reflect.TypeOf((*M2DeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*M2DeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

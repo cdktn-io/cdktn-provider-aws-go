@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		reflect.TypeOf((*DataAwsWafRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,7 +60,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRuleConfig",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRuleConfig",
 		reflect.TypeOf((*DataAwsWafRuleConfig)(nil)).Elem(),
 	)
 }

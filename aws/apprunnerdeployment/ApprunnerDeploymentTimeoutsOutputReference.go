@@ -5,9 +5,9 @@ package apprunnerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnerdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewApprunnerDeploymentTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_ApprunnerDeploymentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewApprunnerDeploymentTimeoutsOutputReference_Override(a ApprunnerDeploymen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

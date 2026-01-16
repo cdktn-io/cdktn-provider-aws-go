@@ -5,14 +5,14 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2fleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_fleet aws_ec2_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_fleet aws_ec2_fleet}.
 type Ec2Fleet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -799,7 +799,7 @@ func (j *jsiiProxy_Ec2Fleet) ValidUntilInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_fleet aws_ec2_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_fleet aws_ec2_fleet} Resource.
 func NewEc2Fleet(scope constructs.Construct, id *string, config *Ec2FleetConfig) Ec2Fleet {
 	_init_.Initialize()
 
@@ -809,7 +809,7 @@ func NewEc2Fleet(scope constructs.Construct, id *string, config *Ec2FleetConfig)
 	j := jsiiProxy_Ec2Fleet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -817,12 +817,12 @@ func NewEc2Fleet(scope constructs.Construct, id *string, config *Ec2FleetConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_fleet aws_ec2_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_fleet aws_ec2_fleet} Resource.
 func NewEc2Fleet_Override(e Ec2Fleet, scope constructs.Construct, id *string, config *Ec2FleetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1071,7 +1071,7 @@ func Ec2Fleet_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1106,7 +1106,7 @@ func Ec2Fleet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1125,7 +1125,7 @@ func Ec2Fleet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1144,7 +1144,7 @@ func Ec2Fleet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1157,7 +1157,7 @@ func Ec2Fleet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		"tfResourceType",
 		&returns,
 	)

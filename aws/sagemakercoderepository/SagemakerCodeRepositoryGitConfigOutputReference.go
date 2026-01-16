@@ -5,9 +5,9 @@ package sagemakercoderepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakercoderepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakercoderepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewSagemakerCodeRepositoryGitConfigOutputReference(terraformResource cdktf.
 	j := jsiiProxy_SagemakerCodeRepositoryGitConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewSagemakerCodeRepositoryGitConfigOutputReference_Override(s SagemakerCode
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

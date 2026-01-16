@@ -5,14 +5,14 @@ package configconformancepack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconformancepack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconformancepack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_conformance_pack aws_config_conformance_pack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_conformance_pack aws_config_conformance_pack}.
 type ConfigConformancePack interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_ConfigConformancePack) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_conformance_pack aws_config_conformance_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_conformance_pack aws_config_conformance_pack} Resource.
 func NewConfigConformancePack(scope constructs.Construct, id *string, config *ConfigConformancePackConfig) ConfigConformancePack {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewConfigConformancePack(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_ConfigConformancePack{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewConfigConformancePack(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_conformance_pack aws_config_conformance_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_conformance_pack aws_config_conformance_pack} Resource.
 func NewConfigConformancePack_Override(c ConfigConformancePack, scope constructs.Construct, id *string, config *ConfigConformancePackConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -672,7 +672,7 @@ func ConfigConformancePack_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func ConfigConformancePack_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func ConfigConformancePack_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func ConfigConformancePack_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func ConfigConformancePack_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		"tfResourceType",
 		&returns,
 	)

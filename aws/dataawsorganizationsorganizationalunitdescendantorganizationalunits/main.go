@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits",
 		reflect.TypeOf((*DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,11 +61,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildren",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildren",
 		reflect.TypeOf((*DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildren)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenList",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenList",
 		reflect.TypeOf((*DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenOutputReference",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenOutputReference",
 		reflect.TypeOf((*DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsChildrenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits.DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig",
 		reflect.TypeOf((*DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package transfersshkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transfersshkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transfersshkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key}.
 type TransferSshKey interface {
 	cdktf.TerraformResource
 	Body() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_TransferSshKey) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
 func NewTransferSshKey(scope constructs.Construct, id *string, config *TransferSshKeyConfig) TransferSshKey {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewTransferSshKey(scope constructs.Construct, id *string, config *TransferS
 	j := jsiiProxy_TransferSshKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewTransferSshKey(scope constructs.Construct, id *string, config *TransferS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
 func NewTransferSshKey_Override(t TransferSshKey, scope constructs.Construct, id *string, config *TransferSshKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -576,7 +576,7 @@ func TransferSshKey_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func TransferSshKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func TransferSshKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func TransferSshKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func TransferSshKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		"tfResourceType",
 		&returns,
 	)

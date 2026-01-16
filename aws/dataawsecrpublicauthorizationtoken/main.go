@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicAuthorizationToken.DataAwsEcrpublicAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrpublicAuthorizationToken.DataAwsEcrpublicAuthorizationToken",
 		reflect.TypeOf((*DataAwsEcrpublicAuthorizationToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrpublicAuthorizationToken.DataAwsEcrpublicAuthorizationTokenConfig",
+		"@cdktn/provider-aws.dataAwsEcrpublicAuthorizationToken.DataAwsEcrpublicAuthorizationTokenConfig",
 		reflect.TypeOf((*DataAwsEcrpublicAuthorizationTokenConfig)(nil)).Elem(),
 	)
 }

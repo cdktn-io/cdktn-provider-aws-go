@@ -5,9 +5,9 @@ package dataawsec2instancetype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2instancetype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2instancetype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEc2InstanceTypeFpgasList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_DataAwsEc2InstanceTypeFpgasList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceTypeFpgasList",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceTypeFpgasList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEc2InstanceTypeFpgasList_Override(d DataAwsEc2InstanceTypeFpgasLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceTypeFpgasList",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceTypeFpgasList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

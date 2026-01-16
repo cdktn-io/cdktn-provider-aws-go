@@ -5,9 +5,9 @@ package appmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewAppmeshVirtualNodeSpecListenerTimeoutOutputReference(terraformResource c
 	j := jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewAppmeshVirtualNodeSpecListenerTimeoutOutputReference_Override(a AppmeshV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

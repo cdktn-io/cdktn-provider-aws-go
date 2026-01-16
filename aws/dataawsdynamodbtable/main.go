@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		reflect.TypeOf((*DataAwsDynamodbTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,11 +90,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttribute",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttribute",
 		reflect.TypeOf((*DataAwsDynamodbTableAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttributeList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttributeList",
 		reflect.TypeOf((*DataAwsDynamodbTableAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttributeOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableAttributeOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,15 +149,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableConfig",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableConfig",
 		reflect.TypeOf((*DataAwsDynamodbTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndex",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndex",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndex)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexList",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughput",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughput",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputList",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,7 +237,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughput",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughput",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputList",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -303,7 +303,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,11 +337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndex",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndex",
 		reflect.TypeOf((*DataAwsDynamodbTableLocalSecondaryIndex)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndexList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndexList",
 		reflect.TypeOf((*DataAwsDynamodbTableLocalSecondaryIndexList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -362,7 +362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndexOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableLocalSecondaryIndexOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableLocalSecondaryIndexOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -398,11 +398,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughput",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughput",
 		reflect.TypeOf((*DataAwsDynamodbTableOnDemandThroughput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughputList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughputList",
 		reflect.TypeOf((*DataAwsDynamodbTableOnDemandThroughputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -423,7 +423,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughputOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableOnDemandThroughputOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableOnDemandThroughputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -457,11 +457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecovery",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecovery",
 		reflect.TypeOf((*DataAwsDynamodbTablePointInTimeRecovery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecoveryList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecoveryList",
 		reflect.TypeOf((*DataAwsDynamodbTablePointInTimeRecoveryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -482,7 +482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecoveryOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTablePointInTimeRecoveryOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTablePointInTimeRecoveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -516,11 +516,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplica",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplica",
 		reflect.TypeOf((*DataAwsDynamodbTableReplica)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaList",
 		reflect.TypeOf((*DataAwsDynamodbTableReplicaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -541,7 +541,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableReplicaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -575,11 +575,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableServerSideEncryption",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableServerSideEncryption",
 		reflect.TypeOf((*DataAwsDynamodbTableServerSideEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableServerSideEncryptionOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableServerSideEncryptionOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableServerSideEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -613,11 +613,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtl",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtl",
 		reflect.TypeOf((*DataAwsDynamodbTableTtl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtlList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtlList",
 		reflect.TypeOf((*DataAwsDynamodbTableTtlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -638,7 +638,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtlOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableTtlOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableTtlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeName", GoGetter: "AttributeName"},
@@ -672,11 +672,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughput",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughput",
 		reflect.TypeOf((*DataAwsDynamodbTableWarmThroughput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughputList",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughputList",
 		reflect.TypeOf((*DataAwsDynamodbTableWarmThroughputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -697,7 +697,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughputOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableWarmThroughputOutputReference",
 		reflect.TypeOf((*DataAwsDynamodbTableWarmThroughputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

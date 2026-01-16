@@ -5,9 +5,9 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -423,7 +423,7 @@ func NewMqBrokerLdapServerMetadataOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_MqBrokerLdapServerMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerLdapServerMetadataOutputReference",
+		"@cdktn/provider-aws.mqBroker.MqBrokerLdapServerMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -435,7 +435,7 @@ func NewMqBrokerLdapServerMetadataOutputReference_Override(m MqBrokerLdapServerM
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerLdapServerMetadataOutputReference",
+		"@cdktn/provider-aws.mqBroker.MqBrokerLdapServerMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

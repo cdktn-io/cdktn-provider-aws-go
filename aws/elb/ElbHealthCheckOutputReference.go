@@ -5,9 +5,9 @@ package elb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -274,7 +274,7 @@ func NewElbHealthCheckOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_ElbHealthCheckOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elb.ElbHealthCheckOutputReference",
+		"@cdktn/provider-aws.elb.ElbHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -286,7 +286,7 @@ func NewElbHealthCheckOutputReference_Override(e ElbHealthCheckOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elb.ElbHealthCheckOutputReference",
+		"@cdktn/provider-aws.elb.ElbHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

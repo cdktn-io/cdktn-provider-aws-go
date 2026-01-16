@@ -5,14 +5,14 @@ package codeconnectionshost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codeconnectionshost/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codeconnectionshost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeconnections_host aws_codeconnections_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeconnections_host aws_codeconnections_host}.
 type CodeconnectionsHost interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_CodeconnectionsHost) VpcConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeconnections_host aws_codeconnections_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeconnections_host aws_codeconnections_host} Resource.
 func NewCodeconnectionsHost(scope constructs.Construct, id *string, config *CodeconnectionsHostConfig) CodeconnectionsHost {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewCodeconnectionsHost(scope constructs.Construct, id *string, config *Code
 	j := jsiiProxy_CodeconnectionsHost{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewCodeconnectionsHost(scope constructs.Construct, id *string, config *Code
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeconnections_host aws_codeconnections_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeconnections_host aws_codeconnections_host} Resource.
 func NewCodeconnectionsHost_Override(c CodeconnectionsHost, scope constructs.Construct, id *string, config *CodeconnectionsHostConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -646,7 +646,7 @@ func CodeconnectionsHost_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func CodeconnectionsHost_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func CodeconnectionsHost_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func CodeconnectionsHost_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func CodeconnectionsHost_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		"tfResourceType",
 		&returns,
 	)

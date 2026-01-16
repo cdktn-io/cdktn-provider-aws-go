@@ -5,9 +5,9 @@ package bedrockmodelinvocationloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockmodelinvocationloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockmodelinvocationloggingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -70,7 +70,6 @@ type BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputRefere
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
-	ResetBucketName()
 	ResetKeyPrefix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -207,7 +206,7 @@ func NewBedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputRef
 	j := jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference",
+		"@cdktn/provider-aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +218,7 @@ func NewBedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference",
+		"@cdktn/provider-aws.bedrockModelInvocationLoggingConfiguration.BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -486,14 +485,6 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3Conf
 	)
 
 	return returns
-}
-
-func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) ResetBucketName() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetBucketName",
-		nil, // no parameters
-	)
 }
 
 func (b *jsiiProxy_BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutputReference) ResetKeyPrefix() {

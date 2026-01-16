@@ -5,14 +5,14 @@ package dataawsvpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint}.
 type DataAwsVpcEndpoint interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -71,6 +71,9 @@ type DataAwsVpcEndpoint interface {
 	ServiceName() *string
 	SetServiceName(val *string)
 	ServiceNameInput() *string
+	ServiceRegion() *string
+	SetServiceRegion(val *string)
+	ServiceRegionInput() *string
 	State() *string
 	SetState(val *string)
 	StateInput() *string
@@ -87,6 +90,8 @@ type DataAwsVpcEndpoint interface {
 	Timeouts() DataAwsVpcEndpointTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	VpcEndpointType() *string
+	SetVpcEndpointType(val *string)
+	VpcEndpointTypeInput() *string
 	VpcId() *string
 	SetVpcId(val *string)
 	VpcIdInput() *string
@@ -124,9 +129,11 @@ type DataAwsVpcEndpoint interface {
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetServiceName()
+	ResetServiceRegion()
 	ResetState()
 	ResetTags()
 	ResetTimeouts()
+	ResetVpcEndpointType()
 	ResetVpcId()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -467,6 +474,26 @@ func (j *jsiiProxy_DataAwsVpcEndpoint) ServiceNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpcEndpoint) ServiceRegion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceRegion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVpcEndpoint) ServiceRegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceRegionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpcEndpoint) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -577,6 +604,16 @@ func (j *jsiiProxy_DataAwsVpcEndpoint) VpcEndpointType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpcEndpoint) VpcEndpointTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcEndpointTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpcEndpoint) VpcId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -598,7 +635,7 @@ func (j *jsiiProxy_DataAwsVpcEndpoint) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint} Data Source.
 func NewDataAwsVpcEndpoint(scope constructs.Construct, id *string, config *DataAwsVpcEndpointConfig) DataAwsVpcEndpoint {
 	_init_.Initialize()
 
@@ -608,7 +645,7 @@ func NewDataAwsVpcEndpoint(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsVpcEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -616,12 +653,12 @@ func NewDataAwsVpcEndpoint(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint aws_vpc_endpoint} Data Source.
 func NewDataAwsVpcEndpoint_Override(d DataAwsVpcEndpoint, scope constructs.Construct, id *string, config *DataAwsVpcEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -706,6 +743,17 @@ func (j *jsiiProxy_DataAwsVpcEndpoint)SetServiceName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_DataAwsVpcEndpoint)SetServiceRegion(val *string) {
+	if err := j.validateSetServiceRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceRegion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataAwsVpcEndpoint)SetState(val *string) {
 	if err := j.validateSetStateParameters(val); err != nil {
 		panic(err)
@@ -724,6 +772,17 @@ func (j *jsiiProxy_DataAwsVpcEndpoint)SetTags(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"tags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVpcEndpoint)SetVpcEndpointType(val *string) {
+	if err := j.validateSetVpcEndpointTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vpcEndpointType",
 		val,
 	)
 }
@@ -749,7 +808,7 @@ func DataAwsVpcEndpoint_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -784,7 +843,7 @@ func DataAwsVpcEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +862,7 @@ func DataAwsVpcEndpoint_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +881,7 @@ func DataAwsVpcEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +894,7 @@ func DataAwsVpcEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		"tfResourceType",
 		&returns,
 	)
@@ -1086,6 +1145,14 @@ func (d *jsiiProxy_DataAwsVpcEndpoint) ResetServiceName() {
 	)
 }
 
+func (d *jsiiProxy_DataAwsVpcEndpoint) ResetServiceRegion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetServiceRegion",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataAwsVpcEndpoint) ResetState() {
 	_jsii_.InvokeVoid(
 		d,
@@ -1106,6 +1173,14 @@ func (d *jsiiProxy_DataAwsVpcEndpoint) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsVpcEndpoint) ResetVpcEndpointType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetVpcEndpointType",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package sesv2dedicatedipassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2dedicatedipassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2dedicatedipassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSesv2DedicatedIpAssignmentTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_Sesv2DedicatedIpAssignmentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSesv2DedicatedIpAssignmentTimeoutsOutputReference_Override(s Sesv2Dedica
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

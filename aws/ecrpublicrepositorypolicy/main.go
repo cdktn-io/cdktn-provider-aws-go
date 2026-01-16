@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrpublicRepositoryPolicy.EcrpublicRepositoryPolicy",
+		"@cdktn/provider-aws.ecrpublicRepositoryPolicy.EcrpublicRepositoryPolicy",
 		reflect.TypeOf((*EcrpublicRepositoryPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrpublicRepositoryPolicy.EcrpublicRepositoryPolicyConfig",
+		"@cdktn/provider-aws.ecrpublicRepositoryPolicy.EcrpublicRepositoryPolicyConfig",
 		reflect.TypeOf((*EcrpublicRepositoryPolicyConfig)(nil)).Elem(),
 	)
 }

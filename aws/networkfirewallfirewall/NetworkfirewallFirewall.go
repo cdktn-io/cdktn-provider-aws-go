@@ -5,14 +5,14 @@ package networkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewallfirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallfirewall/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall}.
 type NetworkfirewallFirewall interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -760,7 +760,7 @@ func (j *jsiiProxy_NetworkfirewallFirewall) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall} Resource.
 func NewNetworkfirewallFirewall(scope constructs.Construct, id *string, config *NetworkfirewallFirewallConfig) NetworkfirewallFirewall {
 	_init_.Initialize()
 
@@ -770,7 +770,7 @@ func NewNetworkfirewallFirewall(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_NetworkfirewallFirewall{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -778,12 +778,12 @@ func NewNetworkfirewallFirewall(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall aws_networkfirewall_firewall} Resource.
 func NewNetworkfirewallFirewall_Override(n NetworkfirewallFirewall, scope constructs.Construct, id *string, config *NetworkfirewallFirewallConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1021,7 +1021,7 @@ func NetworkfirewallFirewall_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1056,7 +1056,7 @@ func NetworkfirewallFirewall_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1075,7 +1075,7 @@ func NetworkfirewallFirewall_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1094,7 +1094,7 @@ func NetworkfirewallFirewall_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1107,7 +1107,7 @@ func NetworkfirewallFirewall_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewall",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dlmlifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dlmlifecyclepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dlmlifecyclepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy}.
 type DlmLifecyclePolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_DlmLifecyclePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
 func NewDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DlmLifecyclePolicyConfig) DlmLifecyclePolicy {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DlmLi
 	j := jsiiProxy_DlmLifecyclePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DlmLi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dlm_lifecycle_policy aws_dlm_lifecycle_policy} Resource.
 func NewDlmLifecyclePolicy_Override(d DlmLifecyclePolicy, scope constructs.Construct, id *string, config *DlmLifecyclePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -705,7 +705,7 @@ func DlmLifecyclePolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func DlmLifecyclePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func DlmLifecyclePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func DlmLifecyclePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func DlmLifecyclePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
+		"@cdktn/provider-aws.dlmLifecyclePolicy.DlmLifecyclePolicy",
 		"tfResourceType",
 		&returns,
 	)

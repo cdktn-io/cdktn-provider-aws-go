@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		reflect.TypeOf((*NeptuneSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroupConfig",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroupConfig",
 		reflect.TypeOf((*NeptuneSubnetGroupConfig)(nil)).Elem(),
 	)
 }

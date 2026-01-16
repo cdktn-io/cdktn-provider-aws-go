@@ -5,14 +5,14 @@ package transcribemedicalvocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transcribemedicalvocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transcribemedicalvocabulary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary}.
 type TranscribeMedicalVocabulary interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_TranscribeMedicalVocabulary) VocabularyNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary} Resource.
 func NewTranscribeMedicalVocabulary(scope constructs.Construct, id *string, config *TranscribeMedicalVocabularyConfig) TranscribeMedicalVocabulary {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewTranscribeMedicalVocabulary(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_TranscribeMedicalVocabulary{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewTranscribeMedicalVocabulary(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_medical_vocabulary aws_transcribe_medical_vocabulary} Resource.
 func NewTranscribeMedicalVocabulary_Override(t TranscribeMedicalVocabulary, scope constructs.Construct, id *string, config *TranscribeMedicalVocabularyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -681,7 +681,7 @@ func TranscribeMedicalVocabulary_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func TranscribeMedicalVocabulary_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func TranscribeMedicalVocabulary_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func TranscribeMedicalVocabulary_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func TranscribeMedicalVocabulary_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
+		"@cdktn/provider-aws.transcribeMedicalVocabulary.TranscribeMedicalVocabulary",
 		"tfResourceType",
 		&returns,
 	)

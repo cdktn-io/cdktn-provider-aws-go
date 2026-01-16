@@ -5,14 +5,14 @@ package dataawsdxlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdxlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdxlocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_location aws_dx_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_location aws_dx_location}.
 type DataAwsDxLocation interface {
 	cdktf.TerraformDataSource
 	AvailableMacsecPortSpeeds() *[]*string
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAwsDxLocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_location aws_dx_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_location aws_dx_location} Data Source.
 func NewDataAwsDxLocation(scope constructs.Construct, id *string, config *DataAwsDxLocationConfig) DataAwsDxLocation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewDataAwsDxLocation(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsDxLocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewDataAwsDxLocation(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_location aws_dx_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_location aws_dx_location} Data Source.
 func NewDataAwsDxLocation_Override(d DataAwsDxLocation, scope constructs.Construct, id *string, config *DataAwsDxLocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -474,7 +474,7 @@ func DataAwsDxLocation_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -509,7 +509,7 @@ func DataAwsDxLocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsDxLocation_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func DataAwsDxLocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsDxLocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
+		"@cdktn/provider-aws.dataAwsDxLocation.DataAwsDxLocation",
 		"tfResourceType",
 		&returns,
 	)

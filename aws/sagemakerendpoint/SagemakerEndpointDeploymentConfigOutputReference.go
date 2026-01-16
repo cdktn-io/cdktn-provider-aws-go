@@ -5,9 +5,9 @@ package sagemakerendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSagemakerEndpointDeploymentConfigOutputReference(terraformResource cdktf
 	j := jsiiProxy_SagemakerEndpointDeploymentConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSagemakerEndpointDeploymentConfigOutputReference_Override(s SagemakerEnd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerEndpoint.SagemakerEndpointDeploymentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,14 +5,14 @@ package acmcertificatevalidation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/acmcertificatevalidation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/acmcertificatevalidation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation}.
 type AcmCertificateValidation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_AcmCertificateValidation) ValidationRecordFqdnsInput() *[]*st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation} Resource.
 func NewAcmCertificateValidation(scope constructs.Construct, id *string, config *AcmCertificateValidationConfig) AcmCertificateValidation {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewAcmCertificateValidation(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_AcmCertificateValidation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewAcmCertificateValidation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acm_certificate_validation aws_acm_certificate_validation} Resource.
 func NewAcmCertificateValidation_Override(a AcmCertificateValidation, scope constructs.Construct, id *string, config *AcmCertificateValidationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -556,7 +556,7 @@ func AcmCertificateValidation_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func AcmCertificateValidation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func AcmCertificateValidation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func AcmCertificateValidation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func AcmCertificateValidation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		"tfResourceType",
 		&returns,
 	)

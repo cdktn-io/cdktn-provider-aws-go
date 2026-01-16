@@ -5,14 +5,14 @@ package directoryserviceshareddirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryserviceshareddirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryserviceshareddirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory}.
 type DirectoryServiceSharedDirectory interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_DirectoryServiceSharedDirectory) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
 func NewDirectoryServiceSharedDirectory(scope constructs.Construct, id *string, config *DirectoryServiceSharedDirectoryConfig) DirectoryServiceSharedDirectory {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewDirectoryServiceSharedDirectory(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DirectoryServiceSharedDirectory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewDirectoryServiceSharedDirectory(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
 func NewDirectoryServiceSharedDirectory_Override(d DirectoryServiceSharedDirectory, scope constructs.Construct, id *string, config *DirectoryServiceSharedDirectoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -625,7 +625,7 @@ func DirectoryServiceSharedDirectory_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func DirectoryServiceSharedDirectory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func DirectoryServiceSharedDirectory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func DirectoryServiceSharedDirectory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func DirectoryServiceSharedDirectory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		"tfResourceType",
 		&returns,
 	)

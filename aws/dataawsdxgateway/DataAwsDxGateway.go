@@ -5,14 +5,14 @@ package dataawsdxgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdxgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdxgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_gateway aws_dx_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_gateway aws_dx_gateway}.
 type DataAwsDxGateway interface {
 	cdktf.TerraformDataSource
 	AmazonSideAsn() *string
@@ -56,6 +56,9 @@ type DataAwsDxGateway interface {
 	SetProvider(val cdktf.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -91,6 +94,7 @@ type DataAwsDxGateway interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Adds this resource to the terraform JSON output.
@@ -290,6 +294,26 @@ func (j *jsiiProxy_DataAwsDxGateway) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsDxGateway) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsDxGateway) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsDxGateway) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -321,7 +345,7 @@ func (j *jsiiProxy_DataAwsDxGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_gateway aws_dx_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_gateway aws_dx_gateway} Data Source.
 func NewDataAwsDxGateway(scope constructs.Construct, id *string, config *DataAwsDxGatewayConfig) DataAwsDxGateway {
 	_init_.Initialize()
 
@@ -331,7 +355,7 @@ func NewDataAwsDxGateway(scope constructs.Construct, id *string, config *DataAws
 	j := jsiiProxy_DataAwsDxGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +363,12 @@ func NewDataAwsDxGateway(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_gateway aws_dx_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_gateway aws_dx_gateway} Data Source.
 func NewDataAwsDxGateway_Override(d DataAwsDxGateway, scope constructs.Construct, id *string, config *DataAwsDxGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -418,6 +442,17 @@ func (j *jsiiProxy_DataAwsDxGateway)SetProvider(val cdktf.TerraformProvider) {
 	)
 }
 
+func (j *jsiiProxy_DataAwsDxGateway)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
+		val,
+	)
+}
+
 // Generates CDKTF code for importing a DataAwsDxGateway resource upon running "cdktf plan <stack-name>".
 func DataAwsDxGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
 	_init_.Initialize()
@@ -428,7 +463,7 @@ func DataAwsDxGateway_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +498,7 @@ func DataAwsDxGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +517,7 @@ func DataAwsDxGateway_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +536,7 @@ func DataAwsDxGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +549,7 @@ func DataAwsDxGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
+		"@cdktn/provider-aws.dataAwsDxGateway.DataAwsDxGateway",
 		"tfResourceType",
 		&returns,
 	)
@@ -715,6 +750,14 @@ func (d *jsiiProxy_DataAwsDxGateway) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsDxGateway) ResetTags() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTags",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2fleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEc2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference(t
 	j := jsiiProxy_Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEc2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

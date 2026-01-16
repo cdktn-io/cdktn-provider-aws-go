@@ -5,9 +5,9 @@ package appmeshgatewayroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference(terraformResour
 	j := jsiiProxy_AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference_Override(a Appm
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

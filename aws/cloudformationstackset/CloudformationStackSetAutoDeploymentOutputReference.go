@@ -5,9 +5,9 @@ package cloudformationstackset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationstackset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationstackset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewCloudformationStackSetAutoDeploymentOutputReference(terraformResource cd
 	j := jsiiProxy_CloudformationStackSetAutoDeploymentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackSet.CloudformationStackSetAutoDeploymentOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSet.CloudformationStackSetAutoDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewCloudformationStackSetAutoDeploymentOutputReference_Override(c Cloudform
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackSet.CloudformationStackSetAutoDeploymentOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSet.CloudformationStackSetAutoDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

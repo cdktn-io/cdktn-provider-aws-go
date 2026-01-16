@@ -5,14 +5,14 @@ package iotcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotcacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
 type IotCaCertificate interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -567,7 +567,7 @@ func (j *jsiiProxy_IotCaCertificate) VerificationCertificatePemInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCertificateConfig) IotCaCertificate {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCe
 	j := jsiiProxy_IotCaCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate_Override(i IotCaCertificate, scope constructs.Construct, id *string, config *IotCaCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -773,7 +773,7 @@ func IotCaCertificate_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -808,7 +808,7 @@ func IotCaCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func IotCaCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -846,7 +846,7 @@ func IotCaCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func IotCaCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		"tfResourceType",
 		&returns,
 	)

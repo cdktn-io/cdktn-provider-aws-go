@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		reflect.TypeOf((*ConfigOrganizationManagedRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleConfig",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleConfig",
 		reflect.TypeOf((*ConfigOrganizationManagedRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeouts",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeouts",
 		reflect.TypeOf((*ConfigOrganizationManagedRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
 		reflect.TypeOf((*ConfigOrganizationManagedRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

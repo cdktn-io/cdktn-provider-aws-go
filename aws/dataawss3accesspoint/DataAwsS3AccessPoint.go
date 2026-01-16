@@ -5,14 +5,14 @@ package dataawss3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawss3accesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3accesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_access_point aws_s3_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_access_point aws_s3_access_point}.
 type DataAwsS3AccessPoint interface {
 	cdktf.TerraformDataSource
 	AccountId() *string
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAwsS3AccessPoint) VpcConfiguration() DataAwsS3AccessPoint
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_access_point aws_s3_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_access_point aws_s3_access_point} Data Source.
 func NewDataAwsS3AccessPoint(scope constructs.Construct, id *string, config *DataAwsS3AccessPointConfig) DataAwsS3AccessPoint {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewDataAwsS3AccessPoint(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsS3AccessPoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -451,12 +451,12 @@ func NewDataAwsS3AccessPoint(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_access_point aws_s3_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_access_point aws_s3_access_point} Data Source.
 func NewDataAwsS3AccessPoint_Override(d DataAwsS3AccessPoint, scope constructs.Construct, id *string, config *DataAwsS3AccessPointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -551,7 +551,7 @@ func DataAwsS3AccessPoint_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -586,7 +586,7 @@ func DataAwsS3AccessPoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataAwsS3AccessPoint_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -624,7 +624,7 @@ func DataAwsS3AccessPoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func DataAwsS3AccessPoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPoint",
 		"tfResourceType",
 		&returns,
 	)

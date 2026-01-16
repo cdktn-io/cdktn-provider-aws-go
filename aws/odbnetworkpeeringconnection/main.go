@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		reflect.TypeOf((*OdbNetworkPeeringConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -47,6 +47,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkArn", GoGetter: "OdbNetworkArn"},
+			_jsii_.MemberProperty{JsiiProperty: "odbNetworkArnInput", GoGetter: "OdbNetworkArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkId", GoGetter: "OdbNetworkId"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkIdInput", GoGetter: "OdbNetworkIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "odbPeeringConnectionType", GoGetter: "OdbPeeringConnectionType"},
@@ -61,6 +62,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOdbNetworkArn", GoMethod: "ResetOdbNetworkArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOdbNetworkId", GoMethod: "ResetOdbNetworkId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
@@ -89,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionConfig",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionConfig",
 		reflect.TypeOf((*OdbNetworkPeeringConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeouts",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeouts",
 		reflect.TypeOf((*OdbNetworkPeeringConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*OdbNetworkPeeringConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

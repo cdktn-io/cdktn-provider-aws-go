@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		reflect.TypeOf((*DsqlClusterPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeeringConfig",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeeringConfig",
 		reflect.TypeOf((*DsqlClusterPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeouts",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeouts",
 		reflect.TypeOf((*DsqlClusterPeeringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
 		reflect.TypeOf((*DsqlClusterPeeringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

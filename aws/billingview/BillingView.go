@@ -5,14 +5,14 @@ package billingview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/billingview/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/billingview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/billing_view aws_billing_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view aws_billing_view}.
 type BillingView interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_BillingView) ViewDefinitionLastUpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView(scope constructs.Construct, id *string, config *BillingViewConfig) BillingView {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewBillingView(scope constructs.Construct, id *string, config *BillingViewC
 	j := jsiiProxy_BillingView{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -557,12 +557,12 @@ func NewBillingView(scope constructs.Construct, id *string, config *BillingViewC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView_Override(b BillingView, scope constructs.Construct, id *string, config *BillingViewConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -690,7 +690,7 @@ func BillingView_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -725,7 +725,7 @@ func BillingView_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func BillingView_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func BillingView_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func BillingView_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		"tfResourceType",
 		&returns,
 	)

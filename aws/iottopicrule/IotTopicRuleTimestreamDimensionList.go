@@ -5,9 +5,9 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewIotTopicRuleTimestreamDimensionList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_IotTopicRuleTimestreamDimensionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleTimestreamDimensionList",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleTimestreamDimensionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewIotTopicRuleTimestreamDimensionList_Override(i IotTopicRuleTimestreamDim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleTimestreamDimensionList",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleTimestreamDimensionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

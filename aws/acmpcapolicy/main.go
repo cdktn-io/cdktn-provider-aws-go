@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		reflect.TypeOf((*AcmpcaPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicyConfig",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicyConfig",
 		reflect.TypeOf((*AcmpcaPolicyConfig)(nil)).Elem(),
 	)
 }

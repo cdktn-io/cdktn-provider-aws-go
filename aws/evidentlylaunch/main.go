@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		reflect.TypeOf((*EvidentlyLaunch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchConfig",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchConfig",
 		reflect.TypeOf((*EvidentlyLaunchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchExecution",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchExecution",
 		reflect.TypeOf((*EvidentlyLaunchExecution)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchExecutionList",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchExecutionList",
 		reflect.TypeOf((*EvidentlyLaunchExecutionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchExecutionOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchExecutionOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchExecutionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchGroups",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchGroups",
 		reflect.TypeOf((*EvidentlyLaunchGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchGroupsList",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchGroupsList",
 		reflect.TypeOf((*EvidentlyLaunchGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchGroupsOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchGroupsOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,11 +237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitors",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitors",
 		reflect.TypeOf((*EvidentlyLaunchMetricMonitors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsList",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsList",
 		reflect.TypeOf((*EvidentlyLaunchMetricMonitorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsMetricDefinition",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsMetricDefinition",
 		reflect.TypeOf((*EvidentlyLaunchMetricMonitorsMetricDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchMetricMonitorsMetricDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,7 +311,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchMetricMonitorsOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchMetricMonitorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -346,11 +346,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfig",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfig",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -385,11 +385,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsList",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsList",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -411,7 +411,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -451,11 +451,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -477,7 +477,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchScheduledSplitsConfigStepsSegmentOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -515,11 +515,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchTimeouts",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchTimeouts",
 		reflect.TypeOf((*EvidentlyLaunchTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunchTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunchTimeoutsOutputReference",
 		reflect.TypeOf((*EvidentlyLaunchTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

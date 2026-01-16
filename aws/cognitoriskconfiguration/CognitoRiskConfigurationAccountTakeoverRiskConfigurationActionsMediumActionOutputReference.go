@@ -5,9 +5,9 @@ package cognitoriskconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoriskconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoriskconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumAct
 	j := jsiiProxy_CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumActionOutputReference",
+		"@cdktn/provider-aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumAct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumActionOutputReference",
+		"@cdktn/provider-aws.cognitoRiskConfiguration.CognitoRiskConfigurationAccountTakeoverRiskConfigurationActionsMediumActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

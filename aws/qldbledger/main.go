@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		reflect.TypeOf((*QldbLedger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qldbLedger.QldbLedgerConfig",
+		"@cdktn/provider-aws.qldbLedger.QldbLedgerConfig",
 		reflect.TypeOf((*QldbLedgerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qldbLedger.QldbLedgerTimeouts",
+		"@cdktn/provider-aws.qldbLedger.QldbLedgerTimeouts",
 		reflect.TypeOf((*QldbLedgerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
 		reflect.TypeOf((*QldbLedgerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

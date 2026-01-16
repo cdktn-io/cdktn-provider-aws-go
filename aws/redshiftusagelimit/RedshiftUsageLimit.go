@@ -5,14 +5,14 @@ package redshiftusagelimit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftusagelimit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftusagelimit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit}.
 type RedshiftUsageLimit interface {
 	cdktf.TerraformResource
 	Amount() *float64
@@ -533,7 +533,7 @@ func (j *jsiiProxy_RedshiftUsageLimit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit} Resource.
 func NewRedshiftUsageLimit(scope constructs.Construct, id *string, config *RedshiftUsageLimitConfig) RedshiftUsageLimit {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewRedshiftUsageLimit(scope constructs.Construct, id *string, config *Redsh
 	j := jsiiProxy_RedshiftUsageLimit{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewRedshiftUsageLimit(scope constructs.Construct, id *string, config *Redsh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_usage_limit aws_redshift_usage_limit} Resource.
 func NewRedshiftUsageLimit_Override(r RedshiftUsageLimit, scope constructs.Construct, id *string, config *RedshiftUsageLimitConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -750,7 +750,7 @@ func RedshiftUsageLimit_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -785,7 +785,7 @@ func RedshiftUsageLimit_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func RedshiftUsageLimit_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -823,7 +823,7 @@ func RedshiftUsageLimit_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func RedshiftUsageLimit_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
+		"@cdktn/provider-aws.redshiftUsageLimit.RedshiftUsageLimit",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		reflect.TypeOf((*AccountAlternateContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContactConfig",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContactConfig",
 		reflect.TypeOf((*AccountAlternateContactConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContactTimeouts",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContactTimeouts",
 		reflect.TypeOf((*AccountAlternateContactTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContactTimeoutsOutputReference",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContactTimeoutsOutputReference",
 		reflect.TypeOf((*AccountAlternateContactTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

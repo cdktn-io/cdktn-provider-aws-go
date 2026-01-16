@@ -5,9 +5,9 @@ package directoryserviceshareddirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryserviceshareddirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryserviceshareddirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewDirectoryServiceSharedDirectoryTargetOutputReference(terraformResource c
 	j := jsiiProxy_DirectoryServiceSharedDirectoryTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewDirectoryServiceSharedDirectoryTargetOutputReference_Override(d Director
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

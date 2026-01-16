@@ -5,9 +5,9 @@ package appsyncgraphqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewAppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputRef
 	j := jsiiProxy_AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewAppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -5,14 +5,14 @@ package msksinglescramsecretassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/msksinglescramsecretassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/msksinglescramsecretassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association}.
 type MskSingleScramSecretAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_MskSingleScramSecretAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association} Resource.
 func NewMskSingleScramSecretAssociation(scope constructs.Construct, id *string, config *MskSingleScramSecretAssociationConfig) MskSingleScramSecretAssociation {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewMskSingleScramSecretAssociation(scope constructs.Construct, id *string, 
 	j := jsiiProxy_MskSingleScramSecretAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewMskSingleScramSecretAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_single_scram_secret_association aws_msk_single_scram_secret_association} Resource.
 func NewMskSingleScramSecretAssociation_Override(m MskSingleScramSecretAssociation, scope constructs.Construct, id *string, config *MskSingleScramSecretAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -507,7 +507,7 @@ func MskSingleScramSecretAssociation_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func MskSingleScramSecretAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func MskSingleScramSecretAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func MskSingleScramSecretAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func MskSingleScramSecretAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
+		"@cdktn/provider-aws.mskSingleScramSecretAssociation.MskSingleScramSecretAssociation",
 		"tfResourceType",
 		&returns,
 	)

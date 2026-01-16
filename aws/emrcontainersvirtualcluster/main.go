@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualCluster",
 		reflect.TypeOf((*EmrcontainersVirtualCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,23 +85,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterConfig",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterConfig",
 		reflect.TypeOf((*EmrcontainersVirtualClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProvider",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProvider",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfo",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfo",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProviderInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoEksInfo",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoEksInfo",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProviderInfoEksInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoEksInfoOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoEksInfoOutputReference",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProviderInfoEksInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderInfoOutputReference",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProviderInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
 		reflect.TypeOf((*EmrcontainersVirtualClusterContainerProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterTimeouts",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterTimeouts",
 		reflect.TypeOf((*EmrcontainersVirtualClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterTimeoutsOutputReference",
 		reflect.TypeOf((*EmrcontainersVirtualClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

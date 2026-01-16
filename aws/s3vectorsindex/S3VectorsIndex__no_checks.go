@@ -75,6 +75,14 @@ func (s *jsiiProxy_S3VectorsIndex) validateOverrideLogicalIdParameters(newLogica
 	return nil
 }
 
+func (s *jsiiProxy_S3VectorsIndex) validatePutEncryptionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3VectorsIndex) validatePutMetadataConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func validateS3VectorsIndex_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

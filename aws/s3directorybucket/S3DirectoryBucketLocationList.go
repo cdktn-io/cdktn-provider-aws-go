@@ -5,9 +5,9 @@ package s3directorybucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3directorybucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3directorybucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3DirectoryBucketLocationList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_S3DirectoryBucketLocationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3DirectoryBucketLocationList_Override(s S3DirectoryBucketLocationList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

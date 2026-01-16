@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		reflect.TypeOf((*EmrCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalInfo", GoGetter: "AdditionalInfo"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterAutoTerminationPolicy",
+		"@cdktn/provider-aws.emrCluster.EmrClusterAutoTerminationPolicy",
 		reflect.TypeOf((*EmrClusterAutoTerminationPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterAutoTerminationPolicyOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterAutoTerminationPolicyOutputReference",
 		reflect.TypeOf((*EmrClusterAutoTerminationPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -217,11 +217,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterBootstrapAction",
+		"@cdktn/provider-aws.emrCluster.EmrClusterBootstrapAction",
 		reflect.TypeOf((*EmrClusterBootstrapAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterBootstrapActionList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterBootstrapActionList",
 		reflect.TypeOf((*EmrClusterBootstrapActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -243,7 +243,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterBootstrapActionOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterBootstrapActionOutputReference",
 		reflect.TypeOf((*EmrClusterBootstrapActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -282,23 +282,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterConfig",
 		reflect.TypeOf((*EmrClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleet",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleet",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigs",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigs",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurations",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurations",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsList",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -320,7 +320,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
@@ -358,11 +358,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigList",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -384,7 +384,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -426,7 +426,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsList",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -448,7 +448,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
@@ -499,15 +499,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecifications",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecifications",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationList",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -529,7 +529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -563,7 +563,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -603,11 +603,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecification",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecification",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationList",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -629,7 +629,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -670,7 +670,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceFleetOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceFleetOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceFleetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -722,15 +722,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceGroup",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceGroup",
 		reflect.TypeOf((*EmrClusterCoreInstanceGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfig",
 		reflect.TypeOf((*EmrClusterCoreInstanceGroupEbsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfigList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfigList",
 		reflect.TypeOf((*EmrClusterCoreInstanceGroupEbsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -752,7 +752,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfigOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceGroupEbsConfigOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceGroupEbsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -797,7 +797,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterCoreInstanceGroupOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterCoreInstanceGroupOutputReference",
 		reflect.TypeOf((*EmrClusterCoreInstanceGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscalingPolicy", GoGetter: "AutoscalingPolicy"},
@@ -848,11 +848,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterEc2Attributes",
+		"@cdktn/provider-aws.emrCluster.EmrClusterEc2Attributes",
 		reflect.TypeOf((*EmrClusterEc2Attributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
 		reflect.TypeOf((*EmrClusterEc2AttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalMasterSecurityGroups", GoGetter: "AdditionalMasterSecurityGroups"},
@@ -910,11 +910,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterKerberosAttributes",
+		"@cdktn/provider-aws.emrCluster.EmrClusterKerberosAttributes",
 		reflect.TypeOf((*EmrClusterKerberosAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterKerberosAttributesOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterKerberosAttributesOutputReference",
 		reflect.TypeOf((*EmrClusterKerberosAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adDomainJoinPassword", GoGetter: "AdDomainJoinPassword"},
@@ -959,19 +959,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleet",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleet",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigs",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigs",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsList",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -993,7 +993,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
@@ -1031,11 +1031,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigList",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1057,7 +1057,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1099,7 +1099,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1121,7 +1121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
@@ -1172,15 +1172,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecifications",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecifications",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationList",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1202,7 +1202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -1236,7 +1236,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1276,11 +1276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationList",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1302,7 +1302,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -1343,7 +1343,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceFleetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1395,15 +1395,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroup",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroup",
 		reflect.TypeOf((*EmrClusterMasterInstanceGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfig",
 		reflect.TypeOf((*EmrClusterMasterInstanceGroupEbsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfigList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfigList",
 		reflect.TypeOf((*EmrClusterMasterInstanceGroupEbsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1425,7 +1425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfigOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupEbsConfigOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceGroupEbsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1470,7 +1470,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
 		reflect.TypeOf((*EmrClusterMasterInstanceGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
@@ -1518,11 +1518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterPlacementGroupConfig",
+		"@cdktn/provider-aws.emrCluster.EmrClusterPlacementGroupConfig",
 		reflect.TypeOf((*EmrClusterPlacementGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterPlacementGroupConfigList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterPlacementGroupConfigList",
 		reflect.TypeOf((*EmrClusterPlacementGroupConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1544,7 +1544,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterPlacementGroupConfigOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterPlacementGroupConfigOutputReference",
 		reflect.TypeOf((*EmrClusterPlacementGroupConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1582,15 +1582,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStep",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStep",
 		reflect.TypeOf((*EmrClusterStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepHadoopJarStep",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepHadoopJarStep",
 		reflect.TypeOf((*EmrClusterStepHadoopJarStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepHadoopJarStepList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepHadoopJarStepList",
 		reflect.TypeOf((*EmrClusterStepHadoopJarStepList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1612,7 +1612,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepHadoopJarStepOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepHadoopJarStepOutputReference",
 		reflect.TypeOf((*EmrClusterStepHadoopJarStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -1656,7 +1656,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepList",
 		reflect.TypeOf((*EmrClusterStepList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1678,7 +1678,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepOutputReference",
 		reflect.TypeOf((*EmrClusterStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionOnFailure", GoGetter: "ActionOnFailure"},

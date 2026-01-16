@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNode",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNode",
 		reflect.TypeOf((*ElasticacheReservedCacheNode)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeConfig",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeConfig",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringCharges",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringCharges",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeRecurringCharges)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringChargesList",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringChargesList",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeRecurringChargesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringChargesOutputReference",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeRecurringChargesOutputReference",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeRecurringChargesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeTimeouts",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeTimeouts",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheReservedCacheNode.ElasticacheReservedCacheNodeTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticacheReservedCacheNodeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

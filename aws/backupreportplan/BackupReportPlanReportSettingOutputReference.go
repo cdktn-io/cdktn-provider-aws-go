@@ -5,9 +5,9 @@ package backupreportplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupreportplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupreportplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -302,7 +302,7 @@ func NewBackupReportPlanReportSettingOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_BackupReportPlanReportSettingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -314,7 +314,7 @@ func NewBackupReportPlanReportSettingOutputReference_Override(b BackupReportPlan
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

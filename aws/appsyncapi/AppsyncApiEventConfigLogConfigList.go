@@ -5,9 +5,9 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppsyncApiEventConfigLogConfigList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_AppsyncApiEventConfigLogConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppsyncApiEventConfigLogConfigList_Override(a AppsyncApiEventConfigLogCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

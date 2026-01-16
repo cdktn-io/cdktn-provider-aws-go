@@ -5,14 +5,14 @@ package glueworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/glueworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glueworkflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_workflow aws_glue_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_workflow aws_glue_workflow}.
 type GlueWorkflow interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -489,7 +489,7 @@ func (j *jsiiProxy_GlueWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
 func NewGlueWorkflow(scope constructs.Construct, id *string, config *GlueWorkflowConfig) GlueWorkflow {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewGlueWorkflow(scope constructs.Construct, id *string, config *GlueWorkflo
 	j := jsiiProxy_GlueWorkflow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,12 +507,12 @@ func NewGlueWorkflow(scope constructs.Construct, id *string, config *GlueWorkflo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_workflow aws_glue_workflow} Resource.
 func NewGlueWorkflow_Override(g GlueWorkflow, scope constructs.Construct, id *string, config *GlueWorkflowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -684,7 +684,7 @@ func GlueWorkflow_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func GlueWorkflow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func GlueWorkflow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func GlueWorkflow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func GlueWorkflow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueWorkflow.GlueWorkflow",
+		"@cdktn/provider-aws.glueWorkflow.GlueWorkflow",
 		"tfResourceType",
 		&returns,
 	)

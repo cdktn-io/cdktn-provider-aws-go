@@ -5,9 +5,9 @@ package transferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -345,7 +345,7 @@ func NewTransferConnectorAs2ConfigOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_TransferConnectorAs2ConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -357,7 +357,7 @@ func NewTransferConnectorAs2ConfigOutputReference_Override(t TransferConnectorAs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

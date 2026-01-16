@@ -5,14 +5,14 @@ package shieldprotectiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/shieldprotectiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shieldprotectiongroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_group aws_shield_protection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_group aws_shield_protection_group}.
 type ShieldProtectionGroup interface {
 	cdktf.TerraformResource
 	Aggregation() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_ShieldProtectionGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
 func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) ShieldProtectionGroup {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *Sh
 	j := jsiiProxy_ShieldProtectionGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *Sh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_group aws_shield_protection_group} Resource.
 func NewShieldProtectionGroup_Override(s ShieldProtectionGroup, scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -681,7 +681,7 @@ func ShieldProtectionGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func ShieldProtectionGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func ShieldProtectionGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func ShieldProtectionGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func ShieldProtectionGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		"tfResourceType",
 		&returns,
 	)

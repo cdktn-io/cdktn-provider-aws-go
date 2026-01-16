@@ -5,14 +5,14 @@ package workspaceswebnetworksettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebnetworksettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebnetworksettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings}.
 type WorkspaceswebNetworkSettings interface {
 	cdktf.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_WorkspaceswebNetworkSettings) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
 func NewWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, config *WorkspaceswebNetworkSettingsConfig) WorkspaceswebNetworkSettings {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, con
 	j := jsiiProxy_WorkspaceswebNetworkSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_network_settings aws_workspacesweb_network_settings} Resource.
 func NewWorkspaceswebNetworkSettings_Override(w WorkspaceswebNetworkSettings, scope constructs.Construct, id *string, config *WorkspaceswebNetworkSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -598,7 +598,7 @@ func WorkspaceswebNetworkSettings_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -633,7 +633,7 @@ func WorkspaceswebNetworkSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func WorkspaceswebNetworkSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func WorkspaceswebNetworkSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func WorkspaceswebNetworkSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
+		"@cdktn/provider-aws.workspaceswebNetworkSettings.WorkspaceswebNetworkSettings",
 		"tfResourceType",
 		&returns,
 	)

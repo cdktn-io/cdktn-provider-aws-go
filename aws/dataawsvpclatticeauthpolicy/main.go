@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeAuthPolicy.DataAwsVpclatticeAuthPolicy",
+		"@cdktn/provider-aws.dataAwsVpclatticeAuthPolicy.DataAwsVpclatticeAuthPolicy",
 		reflect.TypeOf((*DataAwsVpclatticeAuthPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpclatticeAuthPolicy.DataAwsVpclatticeAuthPolicyConfig",
+		"@cdktn/provider-aws.dataAwsVpclatticeAuthPolicy.DataAwsVpclatticeAuthPolicyConfig",
 		reflect.TypeOf((*DataAwsVpclatticeAuthPolicyConfig)(nil)).Elem(),
 	)
 }

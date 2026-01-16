@@ -5,9 +5,9 @@ package wafv2webaclloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webaclloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webaclloggingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafv2WebAclLoggingConfigurationRedactedFieldsList(terraformResource cdkt
 	j := jsiiProxy_Wafv2WebAclLoggingConfigurationRedactedFieldsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclLoggingConfiguration.Wafv2WebAclLoggingConfigurationRedactedFieldsList",
+		"@cdktn/provider-aws.wafv2WebAclLoggingConfiguration.Wafv2WebAclLoggingConfigurationRedactedFieldsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafv2WebAclLoggingConfigurationRedactedFieldsList_Override(w Wafv2WebAcl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclLoggingConfiguration.Wafv2WebAclLoggingConfigurationRedactedFieldsList",
+		"@cdktn/provider-aws.wafv2WebAclLoggingConfiguration.Wafv2WebAclLoggingConfigurationRedactedFieldsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

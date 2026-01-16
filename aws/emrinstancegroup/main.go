@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		reflect.TypeOf((*EmrInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupConfig",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupConfig",
 		reflect.TypeOf((*EmrInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfig",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfig",
 		reflect.TypeOf((*EmrInstanceGroupEbsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
 		reflect.TypeOf((*EmrInstanceGroupEbsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigOutputReference",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigOutputReference",
 		reflect.TypeOf((*EmrInstanceGroupEbsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

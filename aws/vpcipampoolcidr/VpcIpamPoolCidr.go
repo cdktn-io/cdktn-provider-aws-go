@@ -5,14 +5,14 @@ package vpcipampoolcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipampoolcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipampoolcidr/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr}.
 type VpcIpamPoolCidr interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -464,7 +464,7 @@ func (j *jsiiProxy_VpcIpamPoolCidr) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
 func NewVpcIpamPoolCidr(scope constructs.Construct, id *string, config *VpcIpamPoolCidrConfig) VpcIpamPoolCidr {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewVpcIpamPoolCidr(scope constructs.Construct, id *string, config *VpcIpamP
 	j := jsiiProxy_VpcIpamPoolCidr{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewVpcIpamPoolCidr(scope constructs.Construct, id *string, config *VpcIpamP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
 func NewVpcIpamPoolCidr_Override(v VpcIpamPoolCidr, scope constructs.Construct, id *string, config *VpcIpamPoolCidrConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -626,7 +626,7 @@ func VpcIpamPoolCidr_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func VpcIpamPoolCidr_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func VpcIpamPoolCidr_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func VpcIpamPoolCidr_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func VpcIpamPoolCidr_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidr",
 		"tfResourceType",
 		&returns,
 	)

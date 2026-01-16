@@ -5,9 +5,9 @@ package timestreamqueryscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewTimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutp
 	j := jsiiProxy_TimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewTimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryErrorReportConfigurationS3ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		t,
 	)

@@ -5,9 +5,9 @@ package athenapreparedstatement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenapreparedstatement/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenapreparedstatement/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAthenaPreparedStatementTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_AthenaPreparedStatementTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAthenaPreparedStatementTimeoutsOutputReference_Override(a AthenaPrepared
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

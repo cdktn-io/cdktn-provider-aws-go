@@ -5,9 +5,9 @@ package medialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMedialiveInputInputDevicesList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_MedialiveInputInputDevicesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputInputDevicesList",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputInputDevicesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMedialiveInputInputDevicesList_Override(m MedialiveInputInputDevicesList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputInputDevicesList",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputInputDevicesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnGatewayAttachment.VpnGatewayAttachment",
+		"@cdktn/provider-aws.vpnGatewayAttachment.VpnGatewayAttachment",
 		reflect.TypeOf((*VpnGatewayAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnGatewayAttachment.VpnGatewayAttachmentConfig",
+		"@cdktn/provider-aws.vpnGatewayAttachment.VpnGatewayAttachmentConfig",
 		reflect.TypeOf((*VpnGatewayAttachmentConfig)(nil)).Elem(),
 	)
 }

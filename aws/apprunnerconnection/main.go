@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apprunnerConnection.ApprunnerConnection",
+		"@cdktn/provider-aws.apprunnerConnection.ApprunnerConnection",
 		reflect.TypeOf((*ApprunnerConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apprunnerConnection.ApprunnerConnectionConfig",
+		"@cdktn/provider-aws.apprunnerConnection.ApprunnerConnectionConfig",
 		reflect.TypeOf((*ApprunnerConnectionConfig)(nil)).Elem(),
 	)
 }

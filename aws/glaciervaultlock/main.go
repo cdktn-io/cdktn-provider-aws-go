@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glacierVaultLock.GlacierVaultLock",
+		"@cdktn/provider-aws.glacierVaultLock.GlacierVaultLock",
 		reflect.TypeOf((*GlacierVaultLock)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glacierVaultLock.GlacierVaultLockConfig",
+		"@cdktn/provider-aws.glacierVaultLock.GlacierVaultLockConfig",
 		reflect.TypeOf((*GlacierVaultLockConfig)(nil)).Elem(),
 	)
 }

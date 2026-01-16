@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		reflect.TypeOf((*BackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupVault.BackupVaultConfig",
+		"@cdktn/provider-aws.backupVault.BackupVaultConfig",
 		reflect.TypeOf((*BackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupVault.BackupVaultTimeouts",
+		"@cdktn/provider-aws.backupVault.BackupVaultTimeouts",
 		reflect.TypeOf((*BackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*BackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

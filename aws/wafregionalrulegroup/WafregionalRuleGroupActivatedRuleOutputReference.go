@@ -5,9 +5,9 @@ package wafregionalrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewWafregionalRuleGroupActivatedRuleOutputReference(terraformResource cdktf
 	j := jsiiProxy_WafregionalRuleGroupActivatedRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewWafregionalRuleGroupActivatedRuleOutputReference_Override(w WafregionalR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

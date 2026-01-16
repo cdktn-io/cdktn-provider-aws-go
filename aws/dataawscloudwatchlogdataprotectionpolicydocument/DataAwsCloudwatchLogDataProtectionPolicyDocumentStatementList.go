@@ -5,9 +5,9 @@ package dataawscloudwatchlogdataprotectionpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatchlogdataprotectionpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatchlogdataprotectionpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList(terraformR
 	j := jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

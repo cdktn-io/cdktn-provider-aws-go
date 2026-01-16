@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.autoscalingSchedule.AutoscalingSchedule",
+		"@cdktn/provider-aws.autoscalingSchedule.AutoscalingSchedule",
 		reflect.TypeOf((*AutoscalingSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.autoscalingSchedule.AutoscalingScheduleConfig",
+		"@cdktn/provider-aws.autoscalingSchedule.AutoscalingScheduleConfig",
 		reflect.TypeOf((*AutoscalingScheduleConfig)(nil)).Elem(),
 	)
 }

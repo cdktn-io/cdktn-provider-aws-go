@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroup",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroup",
 		reflect.TypeOf((*DaxParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroupConfig",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroupConfig",
 		reflect.TypeOf((*DaxParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroupParameters",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroupParameters",
 		reflect.TypeOf((*DaxParameterGroupParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroupParametersList",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroupParametersList",
 		reflect.TypeOf((*DaxParameterGroupParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxParameterGroup.DaxParameterGroupParametersOutputReference",
+		"@cdktn/provider-aws.daxParameterGroup.DaxParameterGroupParametersOutputReference",
 		reflect.TypeOf((*DaxParameterGroupParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

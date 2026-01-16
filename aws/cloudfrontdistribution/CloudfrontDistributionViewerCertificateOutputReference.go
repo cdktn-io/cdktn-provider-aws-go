@@ -5,9 +5,9 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewCloudfrontDistributionViewerCertificateOutputReference(terraformResource
 	j := jsiiProxy_CloudfrontDistributionViewerCertificateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewCloudfrontDistributionViewerCertificateOutputReference_Override(c Cloudf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

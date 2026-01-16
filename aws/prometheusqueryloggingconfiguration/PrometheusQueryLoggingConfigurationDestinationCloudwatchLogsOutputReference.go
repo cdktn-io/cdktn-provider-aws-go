@@ -5,9 +5,9 @@ package prometheusqueryloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusqueryloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusqueryloggingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputRefere
 	j := jsiiProxy_PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewPrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

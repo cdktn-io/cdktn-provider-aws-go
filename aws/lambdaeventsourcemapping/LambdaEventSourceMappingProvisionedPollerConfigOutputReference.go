@@ -5,9 +5,9 @@ package lambdaeventsourcemapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdaeventsourcemapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdaeventsourcemapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -38,6 +38,9 @@ type LambdaEventSourceMappingProvisionedPollerConfigOutputReference interface {
 	MinimumPollers() *float64
 	SetMinimumPollers(val *float64)
 	MinimumPollersInput() *float64
+	PollerGroupName() *string
+	SetPollerGroupName(val *string)
+	PollerGroupNameInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type LambdaEventSourceMappingProvisionedPollerConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetMaximumPollers()
 	ResetMinimumPollers()
+	ResetPollerGroupName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -177,6 +181,26 @@ func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) PollerGroupName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pollerGroupName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) PollerGroupNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pollerGroupNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -207,7 +231,7 @@ func NewLambdaEventSourceMappingProvisionedPollerConfigOutputReference(terraform
 	j := jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMappingProvisionedPollerConfigOutputReference",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMappingProvisionedPollerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +243,7 @@ func NewLambdaEventSourceMappingProvisionedPollerConfigOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMappingProvisionedPollerConfigOutputReference",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMappingProvisionedPollerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)
@@ -276,6 +300,17 @@ func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReferenc
 	_jsii_.Set(
 		j,
 		"minimumPollers",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference)SetPollerGroupName(val *string) {
+	if err := j.validateSetPollerGroupNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pollerGroupName",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (l *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReferenc
 	_jsii_.InvokeVoid(
 		l,
 		"resetMinimumPollers",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) ResetPollerGroupName() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetPollerGroupName",
 		nil, // no parameters
 	)
 }

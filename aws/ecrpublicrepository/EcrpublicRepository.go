@@ -5,14 +5,14 @@ package ecrpublicrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrpublicrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrpublicrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository}.
 type EcrpublicRepository interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_EcrpublicRepository) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
 func NewEcrpublicRepository(scope constructs.Construct, id *string, config *EcrpublicRepositoryConfig) EcrpublicRepository {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewEcrpublicRepository(scope constructs.Construct, id *string, config *Ecrp
 	j := jsiiProxy_EcrpublicRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewEcrpublicRepository(scope constructs.Construct, id *string, config *Ecrp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
 func NewEcrpublicRepository_Override(e EcrpublicRepository, scope constructs.Construct, id *string, config *EcrpublicRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -683,7 +683,7 @@ func EcrpublicRepository_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func EcrpublicRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func EcrpublicRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func EcrpublicRepository_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func EcrpublicRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrpublicRepository.EcrpublicRepository",
+		"@cdktn/provider-aws.ecrpublicRepository.EcrpublicRepository",
 		"tfResourceType",
 		&returns,
 	)

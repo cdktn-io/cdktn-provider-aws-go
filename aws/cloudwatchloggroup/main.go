@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogGroup.CloudwatchLogGroup",
+		"@cdktn/provider-aws.cloudwatchLogGroup.CloudwatchLogGroup",
 		reflect.TypeOf((*CloudwatchLogGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogGroup.CloudwatchLogGroupConfig",
+		"@cdktn/provider-aws.cloudwatchLogGroup.CloudwatchLogGroupConfig",
 		reflect.TypeOf((*CloudwatchLogGroupConfig)(nil)).Elem(),
 	)
 }

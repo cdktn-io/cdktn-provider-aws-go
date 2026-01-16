@@ -1,0 +1,89 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package bedrockagentknowledgebase
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetMetadataFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetTextFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReference) validateSetVectorFieldParameters(val *string) error {
+	return nil
+}
+
+func validateNewBedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationFieldMappingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

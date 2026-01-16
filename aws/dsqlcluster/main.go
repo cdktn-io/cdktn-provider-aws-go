@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlCluster",
+		"@cdktn/provider-aws.dsqlCluster.DsqlCluster",
 		reflect.TypeOf((*DsqlCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterConfig",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterConfig",
 		reflect.TypeOf((*DsqlClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterEncryptionDetails",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterEncryptionDetails",
 		reflect.TypeOf((*DsqlClusterEncryptionDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
 		reflect.TypeOf((*DsqlClusterEncryptionDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsOutputReference",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsOutputReference",
 		reflect.TypeOf((*DsqlClusterEncryptionDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterMultiRegionProperties",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterMultiRegionProperties",
 		reflect.TypeOf((*DsqlClusterMultiRegionProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterMultiRegionPropertiesList",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterMultiRegionPropertiesList",
 		reflect.TypeOf((*DsqlClusterMultiRegionPropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterMultiRegionPropertiesOutputReference",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterMultiRegionPropertiesOutputReference",
 		reflect.TypeOf((*DsqlClusterMultiRegionPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusters", GoGetter: "Clusters"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterTimeouts",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterTimeouts",
 		reflect.TypeOf((*DsqlClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DsqlClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

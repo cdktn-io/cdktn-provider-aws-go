@@ -5,9 +5,9 @@ package dataawsiamprincipalpolicysimulation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamprincipalpolicysimulation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamprincipalpolicysimulation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -236,7 +236,7 @@ func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference(terraformResou
 	j := jsiiProxy_DataAwsIamPrincipalPolicySimulationResultsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationResultsOutputReference",
+		"@cdktn/provider-aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationResultsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,7 +248,7 @@ func NewDataAwsIamPrincipalPolicySimulationResultsOutputReference_Override(d Dat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationResultsOutputReference",
+		"@cdktn/provider-aws.dataAwsIamPrincipalPolicySimulation.DataAwsIamPrincipalPolicySimulationResultsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

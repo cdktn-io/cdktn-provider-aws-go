@@ -5,9 +5,9 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskreplicator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskreplicator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOu
 	j := jsiiProxy_MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewMskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

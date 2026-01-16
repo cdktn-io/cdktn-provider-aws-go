@@ -5,9 +5,9 @@ package codecatalystdevenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codecatalystdevenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codecatalystdevenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewCodecatalystDevEnvironmentIdesOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_CodecatalystDevEnvironmentIdesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewCodecatalystDevEnvironmentIdesOutputReference_Override(c CodecatalystDev
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

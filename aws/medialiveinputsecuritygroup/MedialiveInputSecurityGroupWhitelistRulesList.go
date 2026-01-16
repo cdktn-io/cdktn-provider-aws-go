@@ -5,9 +5,9 @@ package medialiveinputsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinputsecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinputsecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMedialiveInputSecurityGroupWhitelistRulesList(terraformResource cdktf.II
 	j := jsiiProxy_MedialiveInputSecurityGroupWhitelistRulesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMedialiveInputSecurityGroupWhitelistRulesList_Override(m MedialiveInputS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

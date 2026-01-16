@@ -5,9 +5,9 @@ package appflowconnectorprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appflowconnectorprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appflowconnectorprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZ
 	j := jsiiProxy_AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference",
+		"@cdktn/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference",
+		"@cdktn/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesZendeskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

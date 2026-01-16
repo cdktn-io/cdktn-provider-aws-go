@@ -5,9 +5,9 @@ package quicksighttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewQuicksightTemplateSourceEntitySourceAnalysisOutputReference(terraformRes
 	j := jsiiProxy_QuicksightTemplateSourceEntitySourceAnalysisOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewQuicksightTemplateSourceEntitySourceAnalysisOutputReference_Override(q Q
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

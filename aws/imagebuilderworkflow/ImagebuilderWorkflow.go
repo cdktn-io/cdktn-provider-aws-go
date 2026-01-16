@@ -5,14 +5,14 @@ package imagebuilderworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderworkflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow}.
 type ImagebuilderWorkflow interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_ImagebuilderWorkflow) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
 func NewImagebuilderWorkflow(scope constructs.Construct, id *string, config *ImagebuilderWorkflowConfig) ImagebuilderWorkflow {
 	_init_.Initialize()
 
@@ -614,7 +614,7 @@ func NewImagebuilderWorkflow(scope constructs.Construct, id *string, config *Ima
 	j := jsiiProxy_ImagebuilderWorkflow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,12 +622,12 @@ func NewImagebuilderWorkflow(scope constructs.Construct, id *string, config *Ima
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_workflow aws_imagebuilder_workflow} Resource.
 func NewImagebuilderWorkflow_Override(i ImagebuilderWorkflow, scope constructs.Construct, id *string, config *ImagebuilderWorkflowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -843,7 +843,7 @@ func ImagebuilderWorkflow_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func ImagebuilderWorkflow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func ImagebuilderWorkflow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func ImagebuilderWorkflow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func ImagebuilderWorkflow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		"tfResourceType",
 		&returns,
 	)

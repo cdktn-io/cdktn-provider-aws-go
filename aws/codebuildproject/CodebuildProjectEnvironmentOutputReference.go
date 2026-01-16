@@ -5,9 +5,9 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -396,7 +396,7 @@ func NewCodebuildProjectEnvironmentOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_CodebuildProjectEnvironmentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectEnvironmentOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -408,7 +408,7 @@ func NewCodebuildProjectEnvironmentOutputReference_Override(c CodebuildProjectEn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectEnvironmentOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

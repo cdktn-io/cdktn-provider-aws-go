@@ -5,14 +5,14 @@ package dataawscodeartifactrepositoryendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscodeartifactrepositoryendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscodeartifactrepositoryendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint}.
 type DataAwsCodeartifactRepositoryEndpoint interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsCodeartifactRepositoryEndpoint) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
 func NewDataAwsCodeartifactRepositoryEndpoint(scope constructs.Construct, id *string, config *DataAwsCodeartifactRepositoryEndpointConfig) DataAwsCodeartifactRepositoryEndpoint {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsCodeartifactRepositoryEndpoint(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAwsCodeartifactRepositoryEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -411,12 +411,12 @@ func NewDataAwsCodeartifactRepositoryEndpoint(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codeartifact_repository_endpoint aws_codeartifact_repository_endpoint} Data Source.
 func NewDataAwsCodeartifactRepositoryEndpoint_Override(d DataAwsCodeartifactRepositoryEndpoint, scope constructs.Construct, id *string, config *DataAwsCodeartifactRepositoryEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -544,7 +544,7 @@ func DataAwsCodeartifactRepositoryEndpoint_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsCodeartifactRepositoryEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsCodeartifactRepositoryEndpoint_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsCodeartifactRepositoryEndpoint_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataAwsCodeartifactRepositoryEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
+		"@cdktn/provider-aws.dataAwsCodeartifactRepositoryEndpoint.DataAwsCodeartifactRepositoryEndpoint",
 		"tfResourceType",
 		&returns,
 	)

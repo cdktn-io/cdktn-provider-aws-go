@@ -5,9 +5,9 @@ package ssmassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsmAssociationTargetsList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_SsmAssociationTargetsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsList",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsmAssociationTargetsList_Override(s SsmAssociationTargetsList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsList",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

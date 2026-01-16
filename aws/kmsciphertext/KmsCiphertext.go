@@ -5,14 +5,14 @@ package kmsciphertext
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmsciphertext/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsciphertext/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_ciphertext aws_kms_ciphertext}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_ciphertext aws_kms_ciphertext}.
 type KmsCiphertext interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -464,7 +464,7 @@ func (j *jsiiProxy_KmsCiphertext) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
 func NewKmsCiphertext(scope constructs.Construct, id *string, config *KmsCiphertextConfig) KmsCiphertext {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewKmsCiphertext(scope constructs.Construct, id *string, config *KmsCiphert
 	j := jsiiProxy_KmsCiphertext{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewKmsCiphertext(scope constructs.Construct, id *string, config *KmsCiphert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
 func NewKmsCiphertext_Override(k KmsCiphertext, scope constructs.Construct, id *string, config *KmsCiphertextConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -648,7 +648,7 @@ func KmsCiphertext_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func KmsCiphertext_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func KmsCiphertext_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func KmsCiphertext_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func KmsCiphertext_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kmsCiphertext.KmsCiphertext",
+		"@cdktn/provider-aws.kmsCiphertext.KmsCiphertext",
 		"tfResourceType",
 		&returns,
 	)

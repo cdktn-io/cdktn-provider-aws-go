@@ -5,14 +5,14 @@ package apprunnercustomdomainassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnercustomdomainassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnercustomdomainassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association}.
 type ApprunnerCustomDomainAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_ApprunnerCustomDomainAssociation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
 func NewApprunnerCustomDomainAssociation(scope constructs.Construct, id *string, config *ApprunnerCustomDomainAssociationConfig) ApprunnerCustomDomainAssociation {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewApprunnerCustomDomainAssociation(scope constructs.Construct, id *string,
 	j := jsiiProxy_ApprunnerCustomDomainAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewApprunnerCustomDomainAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
 func NewApprunnerCustomDomainAssociation_Override(a ApprunnerCustomDomainAssociation, scope constructs.Construct, id *string, config *ApprunnerCustomDomainAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -599,7 +599,7 @@ func ApprunnerCustomDomainAssociation_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func ApprunnerCustomDomainAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func ApprunnerCustomDomainAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func ApprunnerCustomDomainAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func ApprunnerCustomDomainAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
+		"@cdktn/provider-aws.apprunnerCustomDomainAssociation.ApprunnerCustomDomainAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKinesisStream.DataAwsKinesisStream",
+		"@cdktn/provider-aws.dataAwsKinesisStream.DataAwsKinesisStream",
 		reflect.TypeOf((*DataAwsKinesisStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamConfig",
+		"@cdktn/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamConfig",
 		reflect.TypeOf((*DataAwsKinesisStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetails",
+		"@cdktn/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetails",
 		reflect.TypeOf((*DataAwsKinesisStreamStreamModeDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetailsList",
+		"@cdktn/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetailsList",
 		reflect.TypeOf((*DataAwsKinesisStreamStreamModeDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetailsOutputReference",
+		"@cdktn/provider-aws.dataAwsKinesisStream.DataAwsKinesisStreamStreamModeDetailsOutputReference",
 		reflect.TypeOf((*DataAwsKinesisStreamStreamModeDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

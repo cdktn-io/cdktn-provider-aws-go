@@ -5,14 +5,14 @@ package identitystoregroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/identitystoregroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/identitystoregroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/identitystore_group aws_identitystore_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/identitystore_group aws_identitystore_group}.
 type IdentitystoreGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_IdentitystoreGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
 func NewIdentitystoreGroup(scope constructs.Construct, id *string, config *IdentitystoreGroupConfig) IdentitystoreGroup {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewIdentitystoreGroup(scope constructs.Construct, id *string, config *Ident
 	j := jsiiProxy_IdentitystoreGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewIdentitystoreGroup(scope constructs.Construct, id *string, config *Ident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
 func NewIdentitystoreGroup_Override(i IdentitystoreGroup, scope constructs.Construct, id *string, config *IdentitystoreGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -599,7 +599,7 @@ func IdentitystoreGroup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func IdentitystoreGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func IdentitystoreGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func IdentitystoreGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func IdentitystoreGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		"tfResourceType",
 		&returns,
 	)

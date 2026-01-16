@@ -5,9 +5,9 @@ package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -299,7 +299,7 @@ func NewFsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference(terraformR
 	j := jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -311,7 +311,7 @@ func NewFsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference_Override(f
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

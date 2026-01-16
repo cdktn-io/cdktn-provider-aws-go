@@ -5,14 +5,14 @@ package gluecatalogtableoptimizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecatalogtableoptimizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogtableoptimizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer}.
 type GlueCatalogTableOptimizer interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_GlueCatalogTableOptimizer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) GlueCatalogTableOptimizer {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GlueCatalogTableOptimizer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewGlueCatalogTableOptimizer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_table_optimizer aws_glue_catalog_table_optimizer} Resource.
 func NewGlueCatalogTableOptimizer_Override(g GlueCatalogTableOptimizer, scope constructs.Construct, id *string, config *GlueCatalogTableOptimizerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -588,7 +588,7 @@ func GlueCatalogTableOptimizer_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func GlueCatalogTableOptimizer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func GlueCatalogTableOptimizer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func GlueCatalogTableOptimizer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func GlueCatalogTableOptimizer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizer",
 		"tfResourceType",
 		&returns,
 	)

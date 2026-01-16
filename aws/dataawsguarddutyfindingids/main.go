@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyFindingIds.DataAwsGuarddutyFindingIds",
+		"@cdktn/provider-aws.dataAwsGuarddutyFindingIds.DataAwsGuarddutyFindingIds",
 		reflect.TypeOf((*DataAwsGuarddutyFindingIds)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGuarddutyFindingIds.DataAwsGuarddutyFindingIdsConfig",
+		"@cdktn/provider-aws.dataAwsGuarddutyFindingIds.DataAwsGuarddutyFindingIdsConfig",
 		reflect.TypeOf((*DataAwsGuarddutyFindingIdsConfig)(nil)).Elem(),
 	)
 }

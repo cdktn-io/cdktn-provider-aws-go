@@ -5,14 +5,14 @@ package cognitoidentitypoolproviderprincipaltag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoidentitypoolproviderprincipaltag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoidentitypoolproviderprincipaltag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag}.
 type CognitoIdentityPoolProviderPrincipalTag interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -428,7 +428,7 @@ func (j *jsiiProxy_CognitoIdentityPoolProviderPrincipalTag) UseDefaultsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
 func NewCognitoIdentityPoolProviderPrincipalTag(scope constructs.Construct, id *string, config *CognitoIdentityPoolProviderPrincipalTagConfig) CognitoIdentityPoolProviderPrincipalTag {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewCognitoIdentityPoolProviderPrincipalTag(scope constructs.Construct, id *
 	j := jsiiProxy_CognitoIdentityPoolProviderPrincipalTag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewCognitoIdentityPoolProviderPrincipalTag(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
 func NewCognitoIdentityPoolProviderPrincipalTag_Override(c CognitoIdentityPoolProviderPrincipalTag, scope constructs.Construct, id *string, config *CognitoIdentityPoolProviderPrincipalTagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -601,7 +601,7 @@ func CognitoIdentityPoolProviderPrincipalTag_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func CognitoIdentityPoolProviderPrincipalTag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func CognitoIdentityPoolProviderPrincipalTag_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func CognitoIdentityPoolProviderPrincipalTag_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func CognitoIdentityPoolProviderPrincipalTag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
+		"@cdktn/provider-aws.cognitoIdentityPoolProviderPrincipalTag.CognitoIdentityPoolProviderPrincipalTag",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinition",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinition",
 		reflect.TypeOf((*DatapipelinePipelineDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,19 +82,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionConfig",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionConfig",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObject",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObject",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttribute",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttribute",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObjectAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttributeList",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttributeList",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObjectAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttributeOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectAttributeOutputReference",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObjectAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectList",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectList",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObjectList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterObjectOutputReference",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterObjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValue",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValue",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValueList",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValueList",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterValueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValueOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionParameterValueOutputReference",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionParameterValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -274,15 +274,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObject",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObject",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectField",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObjectField)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectFieldList",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectFieldList",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObjectFieldList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -304,7 +304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -344,7 +344,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectList",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectList",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObjectList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -366,7 +366,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
 		reflect.TypeOf((*DatapipelinePipelineDefinitionPipelineObjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

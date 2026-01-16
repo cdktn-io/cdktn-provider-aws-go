@@ -5,14 +5,14 @@ package dataawsodbdbservers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbdbservers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbservers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_servers aws_odb_db_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_servers aws_odb_db_servers}.
 type DataAwsOdbDbServers interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOdbDbServers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
 func NewDataAwsOdbDbServers(scope constructs.Construct, id *string, config *DataAwsOdbDbServersConfig) DataAwsOdbDbServers {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsOdbDbServers(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsOdbDbServers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsOdbDbServers(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source.
 func NewDataAwsOdbDbServers_Override(d DataAwsOdbDbServers, scope constructs.Construct, id *string, config *DataAwsOdbDbServersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsOdbDbServers_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsOdbDbServers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsOdbDbServers_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsOdbDbServers_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsOdbDbServers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServers",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package medialivemultiplex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialivemultiplex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialivemultiplex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_multiplex aws_medialive_multiplex}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_multiplex aws_medialive_multiplex}.
 type MedialiveMultiplex interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -511,7 +511,7 @@ func (j *jsiiProxy_MedialiveMultiplex) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
 func NewMedialiveMultiplex(scope constructs.Construct, id *string, config *MedialiveMultiplexConfig) MedialiveMultiplex {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewMedialiveMultiplex(scope constructs.Construct, id *string, config *Media
 	j := jsiiProxy_MedialiveMultiplex{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewMedialiveMultiplex(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_multiplex aws_medialive_multiplex} Resource.
 func NewMedialiveMultiplex_Override(m MedialiveMultiplex, scope constructs.Construct, id *string, config *MedialiveMultiplexConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -695,7 +695,7 @@ func MedialiveMultiplex_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func MedialiveMultiplex_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func MedialiveMultiplex_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func MedialiveMultiplex_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func MedialiveMultiplex_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		"tfResourceType",
 		&returns,
 	)

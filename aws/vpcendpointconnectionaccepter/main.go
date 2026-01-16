@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		reflect.TypeOf((*VpcEndpointConnectionAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepterConfig",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepterConfig",
 		reflect.TypeOf((*VpcEndpointConnectionAccepterConfig)(nil)).Elem(),
 	)
 }

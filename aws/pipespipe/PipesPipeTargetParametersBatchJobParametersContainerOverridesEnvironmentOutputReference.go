@@ -5,9 +5,9 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment
 	j := jsiiProxy_PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

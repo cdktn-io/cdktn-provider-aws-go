@@ -5,14 +5,14 @@ package alblistenercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistenercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistenercertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
 type AlbListenerCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AlbListenerCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) AlbListenerCertificate {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *A
 	j := jsiiProxy_AlbListenerCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate_Override(a AlbListenerCertificate, scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -531,7 +531,7 @@ func AlbListenerCertificate_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func AlbListenerCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func AlbListenerCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func AlbListenerCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func AlbListenerCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package iotloggingoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotloggingoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotloggingoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_logging_options aws_iot_logging_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options}.
 type IotLoggingOptions interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_IotLoggingOptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
 func NewIotLoggingOptions(scope constructs.Construct, id *string, config *IotLoggingOptionsConfig) IotLoggingOptions {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewIotLoggingOptions(scope constructs.Construct, id *string, config *IotLog
 	j := jsiiProxy_IotLoggingOptions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewIotLoggingOptions(scope constructs.Construct, id *string, config *IotLog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
 func NewIotLoggingOptions_Override(i IotLoggingOptions, scope constructs.Construct, id *string, config *IotLoggingOptionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -566,7 +566,7 @@ func IotLoggingOptions_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func IotLoggingOptions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func IotLoggingOptions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func IotLoggingOptions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func IotLoggingOptions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotLoggingOptions.IotLoggingOptions",
+		"@cdktn/provider-aws.iotLoggingOptions.IotLoggingOptions",
 		"tfResourceType",
 		&returns,
 	)

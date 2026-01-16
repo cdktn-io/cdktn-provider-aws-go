@@ -5,9 +5,9 @@ package mskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewMskClusterOpenMonitoringPrometheusJmxExporterOutputReference(terraformRe
 	j := jsiiProxy_MskClusterOpenMonitoringPrometheusJmxExporterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporterOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewMskClusterOpenMonitoringPrometheusJmxExporterOutputReference_Override(m 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporterOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

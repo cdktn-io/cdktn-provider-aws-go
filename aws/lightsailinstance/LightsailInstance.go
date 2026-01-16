@@ -5,14 +5,14 @@ package lightsailinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance aws_lightsail_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance aws_lightsail_instance}.
 type LightsailInstance interface {
 	cdktf.TerraformResource
 	AddOn() LightsailInstanceAddOnOutputReference
@@ -669,7 +669,7 @@ func (j *jsiiProxy_LightsailInstance) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
 func NewLightsailInstance(scope constructs.Construct, id *string, config *LightsailInstanceConfig) LightsailInstance {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewLightsailInstance(scope constructs.Construct, id *string, config *Lights
 	j := jsiiProxy_LightsailInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -687,12 +687,12 @@ func NewLightsailInstance(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance aws_lightsail_instance} Resource.
 func NewLightsailInstance_Override(l LightsailInstance, scope constructs.Construct, id *string, config *LightsailInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -897,7 +897,7 @@ func LightsailInstance_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -932,7 +932,7 @@ func LightsailInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -951,7 +951,7 @@ func LightsailInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func LightsailInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -983,7 +983,7 @@ func LightsailInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		"tfResourceType",
 		&returns,
 	)

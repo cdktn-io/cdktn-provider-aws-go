@@ -5,14 +5,14 @@ package lexv2modelsintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_intent aws_lexv2models_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent aws_lexv2models_intent}.
 type Lexv2ModelsIntent interface {
 	cdktf.TerraformResource
 	BotId() *string
@@ -758,7 +758,7 @@ func (j *jsiiProxy_Lexv2ModelsIntent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) Lexv2ModelsIntent {
 	_init_.Initialize()
 
@@ -768,7 +768,7 @@ func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2M
 	j := jsiiProxy_Lexv2ModelsIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -776,12 +776,12 @@ func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent_Override(l Lexv2ModelsIntent, scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -942,7 +942,7 @@ func Lexv2ModelsIntent_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -977,7 +977,7 @@ func Lexv2ModelsIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -996,7 +996,7 @@ func Lexv2ModelsIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1015,7 +1015,7 @@ func Lexv2ModelsIntent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1028,7 +1028,7 @@ func Lexv2ModelsIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntent",
 		"tfResourceType",
 		&returns,
 	)

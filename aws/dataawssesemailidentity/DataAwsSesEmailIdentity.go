@@ -5,14 +5,14 @@ package dataawssesemailidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssesemailidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssesemailidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_email_identity aws_ses_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_email_identity aws_ses_email_identity}.
 type DataAwsSesEmailIdentity interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsSesEmailIdentity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
 func NewDataAwsSesEmailIdentity(scope constructs.Construct, id *string, config *DataAwsSesEmailIdentityConfig) DataAwsSesEmailIdentity {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsSesEmailIdentity(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsSesEmailIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsSesEmailIdentity(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_email_identity aws_ses_email_identity} Data Source.
 func NewDataAwsSesEmailIdentity_Override(d DataAwsSesEmailIdentity, scope constructs.Construct, id *string, config *DataAwsSesEmailIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsSesEmailIdentity_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsSesEmailIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsSesEmailIdentity_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsSesEmailIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsSesEmailIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesEmailIdentity.DataAwsSesEmailIdentity",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package appstreamuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user aws_appstream_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user aws_appstream_user}.
 type AppstreamUser interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_AppstreamUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user aws_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user aws_appstream_user} Resource.
 func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamUserConfig) AppstreamUser {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamU
 	j := jsiiProxy_AppstreamUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user aws_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user aws_appstream_user} Resource.
 func NewAppstreamUser_Override(a AppstreamUser, scope constructs.Construct, id *string, config *AppstreamUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -693,7 +693,7 @@ func AppstreamUser_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func AppstreamUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func AppstreamUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func AppstreamUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func AppstreamUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appstreamUser.AppstreamUser",
+		"@cdktn/provider-aws.appstreamUser.AppstreamUser",
 		"tfResourceType",
 		&returns,
 	)

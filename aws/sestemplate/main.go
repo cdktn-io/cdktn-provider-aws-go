@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		reflect.TypeOf((*SesTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesTemplate.SesTemplateConfig",
+		"@cdktn/provider-aws.sesTemplate.SesTemplateConfig",
 		reflect.TypeOf((*SesTemplateConfig)(nil)).Elem(),
 	)
 }

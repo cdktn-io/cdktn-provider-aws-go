@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTablePolicy.S3TablesTablePolicy",
+		"@cdktn/provider-aws.s3TablesTablePolicy.S3TablesTablePolicy",
 		reflect.TypeOf((*S3TablesTablePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTablePolicy.S3TablesTablePolicyConfig",
+		"@cdktn/provider-aws.s3TablesTablePolicy.S3TablesTablePolicyConfig",
 		reflect.TypeOf((*S3TablesTablePolicyConfig)(nil)).Elem(),
 	)
 }

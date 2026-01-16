@@ -5,9 +5,9 @@ package resiliencehubresiliencypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resiliencehubresiliencypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resiliencehubresiliencypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewResiliencehubResiliencyPolicyPolicyRegionList(terraformResource cdktf.II
 	j := jsiiProxy_ResiliencehubResiliencyPolicyPolicyRegionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegionList",
+		"@cdktn/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewResiliencehubResiliencyPolicyPolicyRegionList_Override(r ResiliencehubRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegionList",
+		"@cdktn/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicyRegionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

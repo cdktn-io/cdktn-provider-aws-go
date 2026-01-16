@@ -5,9 +5,9 @@ package globalacceleratorcustomroutingaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/globalacceleratorcustomroutingaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/globalacceleratorcustomroutingaccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewGlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference(terrafo
 	j := jsiiProxy_GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAcceleratorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

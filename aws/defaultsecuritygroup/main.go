@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		reflect.TypeOf((*DefaultSecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupConfig",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupConfig",
 		reflect.TypeOf((*DefaultSecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgress",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgress",
 		reflect.TypeOf((*DefaultSecurityGroupEgress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgressList",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgressList",
 		reflect.TypeOf((*DefaultSecurityGroupEgressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgressOutputReference",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupEgressOutputReference",
 		reflect.TypeOf((*DefaultSecurityGroupEgressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlocks", GoGetter: "CidrBlocks"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngress",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngress",
 		reflect.TypeOf((*DefaultSecurityGroupIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngressList",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngressList",
 		reflect.TypeOf((*DefaultSecurityGroupIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngressOutputReference",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroupIngressOutputReference",
 		reflect.TypeOf((*DefaultSecurityGroupIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlocks", GoGetter: "CidrBlocks"},

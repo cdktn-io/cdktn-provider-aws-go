@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		reflect.TypeOf((*CloudfrontPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKeyConfig",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKeyConfig",
 		reflect.TypeOf((*CloudfrontPublicKeyConfig)(nil)).Elem(),
 	)
 }

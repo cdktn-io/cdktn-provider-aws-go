@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		reflect.TypeOf((*DataAwsOamLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkConfig",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkConfig",
 		reflect.TypeOf((*DataAwsOamLinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfiguration",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfiguration",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationList",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationList",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,11 +102,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfiguration",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfiguration",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationLogGroupConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfigurationList",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfigurationList",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationLogGroupConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationLogGroupConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationLogGroupConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfiguration",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfiguration",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationMetricConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfigurationList",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfigurationList",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationMetricConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -185,7 +185,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationMetricConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationMetricConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,7 +218,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLinkLinkConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsOamLinkLinkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

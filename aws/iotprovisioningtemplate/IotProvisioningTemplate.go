@@ -5,14 +5,14 @@ package iotprovisioningtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotprovisioningtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotprovisioningtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
 type IotProvisioningTemplate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_IotProvisioningTemplate) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) IotProvisioningTemplate {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IotProvisioningTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate_Override(i IotProvisioningTemplate, scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -786,7 +786,7 @@ func IotProvisioningTemplate_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -821,7 +821,7 @@ func IotProvisioningTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func IotProvisioningTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func IotProvisioningTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func IotProvisioningTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
+		"@cdktn/provider-aws.iotProvisioningTemplate.IotProvisioningTemplate",
 		"tfResourceType",
 		&returns,
 	)

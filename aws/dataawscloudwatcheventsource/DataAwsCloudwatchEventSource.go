@@ -5,14 +5,14 @@ package dataawscloudwatcheventsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatcheventsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatcheventsource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source}.
 type DataAwsCloudwatchEventSource interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsCloudwatchEventSource) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source} Data Source.
 func NewDataAwsCloudwatchEventSource(scope constructs.Construct, id *string, config *DataAwsCloudwatchEventSourceConfig) DataAwsCloudwatchEventSource {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAwsCloudwatchEventSource(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsCloudwatchEventSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAwsCloudwatchEventSource(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_source aws_cloudwatch_event_source} Data Source.
 func NewDataAwsCloudwatchEventSource_Override(d DataAwsCloudwatchEventSource, scope constructs.Construct, id *string, config *DataAwsCloudwatchEventSourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataAwsCloudwatchEventSource_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataAwsCloudwatchEventSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataAwsCloudwatchEventSource_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataAwsCloudwatchEventSource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAwsCloudwatchEventSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventSource.DataAwsCloudwatchEventSource",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerGateway.CustomerGateway",
+		"@cdktn/provider-aws.customerGateway.CustomerGateway",
 		reflect.TypeOf((*CustomerGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerGateway.CustomerGatewayConfig",
+		"@cdktn/provider-aws.customerGateway.CustomerGatewayConfig",
 		reflect.TypeOf((*CustomerGatewayConfig)(nil)).Elem(),
 	)
 }

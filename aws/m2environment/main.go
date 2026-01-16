@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		reflect.TypeOf((*M2Environment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentConfig",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentConfig",
 		reflect.TypeOf((*M2EnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfig",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfig",
 		reflect.TypeOf((*M2EnvironmentHighAvailabilityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigList",
 		reflect.TypeOf((*M2EnvironmentHighAvailabilityConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentHighAvailabilityConfigOutputReference",
 		reflect.TypeOf((*M2EnvironmentHighAvailabilityConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,15 +183,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfiguration",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfiguration",
 		reflect.TypeOf((*M2EnvironmentStorageConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfs",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfs",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationEfs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfsList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfsList",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationEfsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -213,7 +213,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfsOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationEfsOutputReference",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationEfsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsx",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsx",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationFsx)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationFsxList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxOutputReference",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationFsxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,7 +311,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -333,7 +333,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
 		reflect.TypeOf((*M2EnvironmentStorageConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -373,11 +373,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentTimeouts",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentTimeouts",
 		reflect.TypeOf((*M2EnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*M2EnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

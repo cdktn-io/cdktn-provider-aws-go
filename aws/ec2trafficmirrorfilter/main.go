@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2TrafficMirrorFilter.Ec2TrafficMirrorFilter",
+		"@cdktn/provider-aws.ec2TrafficMirrorFilter.Ec2TrafficMirrorFilter",
 		reflect.TypeOf((*Ec2TrafficMirrorFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2TrafficMirrorFilter.Ec2TrafficMirrorFilterConfig",
+		"@cdktn/provider-aws.ec2TrafficMirrorFilter.Ec2TrafficMirrorFilterConfig",
 		reflect.TypeOf((*Ec2TrafficMirrorFilterConfig)(nil)).Elem(),
 	)
 }

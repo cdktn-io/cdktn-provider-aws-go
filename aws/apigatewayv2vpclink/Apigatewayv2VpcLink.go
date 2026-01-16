@@ -5,14 +5,14 @@ package apigatewayv2vpclink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2vpclink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2vpclink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
 type Apigatewayv2VpcLink interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Apigatewayv2VpcLink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) Apigatewayv2VpcLink {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apig
 	j := jsiiProxy_Apigatewayv2VpcLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink_Override(a Apigatewayv2VpcLink, scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -646,7 +646,7 @@ func Apigatewayv2VpcLink_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func Apigatewayv2VpcLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func Apigatewayv2VpcLink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func Apigatewayv2VpcLink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func Apigatewayv2VpcLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		reflect.TypeOf((*SagemakerStudioLifecycleConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfigConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfigConfig",
 		reflect.TypeOf((*SagemakerStudioLifecycleConfigConfig)(nil)).Elem(),
 	)
 }

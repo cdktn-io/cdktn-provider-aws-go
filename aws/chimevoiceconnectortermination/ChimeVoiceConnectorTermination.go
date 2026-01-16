@@ -5,14 +5,14 @@ package chimevoiceconnectortermination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimevoiceconnectortermination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimevoiceconnectortermination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}.
 type ChimeVoiceConnectorTermination interface {
 	cdktf.TerraformResource
 	CallingRegions() *[]*string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorTermination) VoiceConnectorIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
 func NewChimeVoiceConnectorTermination(scope constructs.Construct, id *string, config *ChimeVoiceConnectorTerminationConfig) ChimeVoiceConnectorTermination {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewChimeVoiceConnectorTermination(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ChimeVoiceConnectorTermination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewChimeVoiceConnectorTermination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
 func NewChimeVoiceConnectorTermination_Override(c ChimeVoiceConnectorTermination, scope constructs.Construct, id *string, config *ChimeVoiceConnectorTerminationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -670,7 +670,7 @@ func ChimeVoiceConnectorTermination_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func ChimeVoiceConnectorTermination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func ChimeVoiceConnectorTermination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func ChimeVoiceConnectorTermination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func ChimeVoiceConnectorTermination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessCredentials.DataAwsRedshiftserverlessCredentials",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessCredentials.DataAwsRedshiftserverlessCredentials",
 		reflect.TypeOf((*DataAwsRedshiftserverlessCredentials)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessCredentials.DataAwsRedshiftserverlessCredentialsConfig",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessCredentials.DataAwsRedshiftserverlessCredentialsConfig",
 		reflect.TypeOf((*DataAwsRedshiftserverlessCredentialsConfig)(nil)).Elem(),
 	)
 }

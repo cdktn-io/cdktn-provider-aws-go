@@ -5,14 +5,14 @@ package bedrockagentagentactiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagentactiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagentactiongroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group}.
 type BedrockagentAgentActionGroup interface {
 	cdktf.TerraformResource
 	ActionGroupExecutor() BedrockagentAgentActionGroupActionGroupExecutorList
@@ -617,7 +617,7 @@ func (j *jsiiProxy_BedrockagentAgentActionGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) BedrockagentAgentActionGroup {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, con
 	j := jsiiProxy_BedrockagentAgentActionGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewBedrockagentAgentActionGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_action_group aws_bedrockagent_agent_action_group} Resource.
 func NewBedrockagentAgentActionGroup_Override(b BedrockagentAgentActionGroup, scope constructs.Construct, id *string, config *BedrockagentAgentActionGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -823,7 +823,7 @@ func BedrockagentAgentActionGroup_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -858,7 +858,7 @@ func BedrockagentAgentActionGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func BedrockagentAgentActionGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func BedrockagentAgentActionGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func BedrockagentAgentActionGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
+		"@cdktn/provider-aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroup",
 		"tfResourceType",
 		&returns,
 	)

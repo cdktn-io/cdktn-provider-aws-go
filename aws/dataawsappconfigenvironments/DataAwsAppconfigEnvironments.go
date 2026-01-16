@@ -5,14 +5,14 @@ package dataawsappconfigenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappconfigenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappconfigenvironments/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_environments aws_appconfig_environments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_environments aws_appconfig_environments}.
 type DataAwsAppconfigEnvironments interface {
 	cdktf.TerraformDataSource
 	ApplicationId() *string
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsAppconfigEnvironments) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_environments aws_appconfig_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_environments aws_appconfig_environments} Data Source.
 func NewDataAwsAppconfigEnvironments(scope constructs.Construct, id *string, config *DataAwsAppconfigEnvironmentsConfig) DataAwsAppconfigEnvironments {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsAppconfigEnvironments(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsAppconfigEnvironments{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsAppconfigEnvironments(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_environments aws_appconfig_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_environments aws_appconfig_environments} Data Source.
 func NewDataAwsAppconfigEnvironments_Override(d DataAwsAppconfigEnvironments, scope constructs.Construct, id *string, config *DataAwsAppconfigEnvironmentsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsAppconfigEnvironments_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsAppconfigEnvironments_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsAppconfigEnvironments_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsAppconfigEnvironments_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsAppconfigEnvironments_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironments.DataAwsAppconfigEnvironments",
 		"tfResourceType",
 		&returns,
 	)

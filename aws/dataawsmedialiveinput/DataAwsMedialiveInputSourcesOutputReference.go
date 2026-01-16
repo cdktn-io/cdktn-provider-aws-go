@@ -5,9 +5,9 @@ package dataawsmedialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsMedialiveInputSourcesOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsMedialiveInputSourcesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsMedialiveInputSourcesOutputReference_Override(d DataAwsMedialiveI
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

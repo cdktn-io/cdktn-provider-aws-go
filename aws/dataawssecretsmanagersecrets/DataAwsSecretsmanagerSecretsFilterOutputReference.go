@@ -5,9 +5,9 @@ package dataawssecretsmanagersecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecretsmanagersecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecretsmanagersecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsSecretsmanagerSecretsFilterOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataAwsSecretsmanagerSecretsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecrets.DataAwsSecretsmanagerSecretsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecrets.DataAwsSecretsmanagerSecretsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsSecretsmanagerSecretsFilterOutputReference_Override(d DataAwsSecr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecrets.DataAwsSecretsmanagerSecretsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecrets.DataAwsSecretsmanagerSecretsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

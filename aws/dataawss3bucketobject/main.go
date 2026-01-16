@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		reflect.TypeOf((*DataAwsS3BucketObject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObjectConfig",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObjectConfig",
 		reflect.TypeOf((*DataAwsS3BucketObjectConfig)(nil)).Elem(),
 	)
 }

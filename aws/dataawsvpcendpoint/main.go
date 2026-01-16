@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpoint",
 		reflect.TypeOf((*DataAwsVpcEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,14 +61,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceName", GoMethod: "ResetServiceName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceRegion", GoMethod: "ResetServiceRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetState", GoMethod: "ResetState"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcEndpointType", GoMethod: "ResetVpcEndpointType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcId", GoMethod: "ResetVpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "routeTableIds", GoGetter: "RouteTableIds"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceName", GoGetter: "ServiceName"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceNameInput", GoGetter: "ServiceNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceRegion", GoGetter: "ServiceRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceRegionInput", GoGetter: "ServiceRegionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
 			_jsii_.MemberProperty{JsiiProperty: "stateInput", GoGetter: "StateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetIds", GoGetter: "SubnetIds"},
@@ -86,6 +90,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointType", GoGetter: "VpcEndpointType"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointTypeInput", GoGetter: "VpcEndpointTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
@@ -96,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointConfig",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointConfig",
 		reflect.TypeOf((*DataAwsVpcEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntry",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntry",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntryList",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntryList",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntryOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsEntryOutputReference",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptions",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptions",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsList",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsList",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +189,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
 		reflect.TypeOf((*DataAwsVpcEndpointDnsOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,6 +211,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "privateDnsOnlyForInboundResolverEndpoint", GoGetter: "PrivateDnsOnlyForInboundResolverEndpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsPreference", GoGetter: "PrivateDnsPreference"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsSpecifiedDomains", GoGetter: "PrivateDnsSpecifiedDomains"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -218,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilter",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilter",
 		reflect.TypeOf((*DataAwsVpcEndpointFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilterList",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilterList",
 		reflect.TypeOf((*DataAwsVpcEndpointFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -244,7 +251,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpcEndpointFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -280,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointTimeouts",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointTimeouts",
 		reflect.TypeOf((*DataAwsVpcEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsVpcEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

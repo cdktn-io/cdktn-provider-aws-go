@@ -5,9 +5,9 @@ package rekognitionproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitionproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitionproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewRekognitionProjectTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_RekognitionProjectTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewRekognitionProjectTimeoutsOutputReference_Override(r RekognitionProjectT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

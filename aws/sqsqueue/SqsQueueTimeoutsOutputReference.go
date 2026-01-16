@@ -5,9 +5,9 @@ package sqsqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sqsqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sqsqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSqsQueueTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_SqsQueueTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueue.SqsQueueTimeoutsOutputReference",
+		"@cdktn/provider-aws.sqsQueue.SqsQueueTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSqsQueueTimeoutsOutputReference_Override(s SqsQueueTimeoutsOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueue.SqsQueueTimeoutsOutputReference",
+		"@cdktn/provider-aws.sqsQueue.SqsQueueTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

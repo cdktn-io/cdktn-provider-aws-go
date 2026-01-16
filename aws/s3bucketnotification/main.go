@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		reflect.TypeOf((*S3BucketNotification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationConfig",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationConfig",
 		reflect.TypeOf((*S3BucketNotificationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunction",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunction",
 		reflect.TypeOf((*S3BucketNotificationLambdaFunction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunctionList",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunctionList",
 		reflect.TypeOf((*S3BucketNotificationLambdaFunctionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunctionOutputReference",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationLambdaFunctionOutputReference",
 		reflect.TypeOf((*S3BucketNotificationLambdaFunctionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationQueue",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationQueue",
 		reflect.TypeOf((*S3BucketNotificationQueue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationQueueList",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationQueueList",
 		reflect.TypeOf((*S3BucketNotificationQueueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationQueueOutputReference",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationQueueOutputReference",
 		reflect.TypeOf((*S3BucketNotificationQueueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,11 +233,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationTopic",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationTopic",
 		reflect.TypeOf((*S3BucketNotificationTopic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationTopicList",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationTopicList",
 		reflect.TypeOf((*S3BucketNotificationTopicList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotificationTopicOutputReference",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotificationTopicOutputReference",
 		reflect.TypeOf((*S3BucketNotificationTopicOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

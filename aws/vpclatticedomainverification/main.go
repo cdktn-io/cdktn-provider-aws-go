@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeDomainVerification.VpclatticeDomainVerification",
+		"@cdktn/provider-aws.vpclatticeDomainVerification.VpclatticeDomainVerification",
 		reflect.TypeOf((*VpclatticeDomainVerification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeDomainVerification.VpclatticeDomainVerificationConfig",
+		"@cdktn/provider-aws.vpclatticeDomainVerification.VpclatticeDomainVerificationConfig",
 		reflect.TypeOf((*VpclatticeDomainVerificationConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessSecurityPolicy.DataAwsOpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessSecurityPolicy.DataAwsOpensearchserverlessSecurityPolicy",
 		reflect.TypeOf((*DataAwsOpensearchserverlessSecurityPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessSecurityPolicy.DataAwsOpensearchserverlessSecurityPolicyConfig",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessSecurityPolicy.DataAwsOpensearchserverlessSecurityPolicyConfig",
 		reflect.TypeOf((*DataAwsOpensearchserverlessSecurityPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -123,6 +123,10 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetProvisionersParameter
 	return nil
 }
 
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetRoutingPolicyLabelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetSubnetArnsParameters(val *[]*string) error {
 	return nil
 }

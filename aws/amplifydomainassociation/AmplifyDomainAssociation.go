@@ -5,14 +5,14 @@ package amplifydomainassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amplifydomainassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amplifydomainassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_domain_association aws_amplify_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_domain_association aws_amplify_domain_association}.
 type AmplifyDomainAssociation interface {
 	cdktf.TerraformResource
 	AppId() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_AmplifyDomainAssociation) WaitForVerificationInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_domain_association aws_amplify_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_domain_association aws_amplify_domain_association} Resource.
 func NewAmplifyDomainAssociation(scope constructs.Construct, id *string, config *AmplifyDomainAssociationConfig) AmplifyDomainAssociation {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewAmplifyDomainAssociation(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_AmplifyDomainAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewAmplifyDomainAssociation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_domain_association aws_amplify_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_domain_association aws_amplify_domain_association} Resource.
 func NewAmplifyDomainAssociation_Override(a AmplifyDomainAssociation, scope constructs.Construct, id *string, config *AmplifyDomainAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -670,7 +670,7 @@ func AmplifyDomainAssociation_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func AmplifyDomainAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func AmplifyDomainAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func AmplifyDomainAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func AmplifyDomainAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		"tfResourceType",
 		&returns,
 	)

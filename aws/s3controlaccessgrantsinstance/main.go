@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		reflect.TypeOf((*S3ControlAccessGrantsInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessGrantsInstanceArn", GoGetter: "AccessGrantsInstanceArn"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstanceConfig",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstanceConfig",
 		reflect.TypeOf((*S3ControlAccessGrantsInstanceConfig)(nil)).Elem(),
 	)
 }

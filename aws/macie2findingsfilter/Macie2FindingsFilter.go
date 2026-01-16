@@ -5,14 +5,14 @@ package macie2findingsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2findingsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2findingsfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter}.
 type Macie2FindingsFilter interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -559,7 +559,7 @@ func (j *jsiiProxy_Macie2FindingsFilter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
 func NewMacie2FindingsFilter(scope constructs.Construct, id *string, config *Macie2FindingsFilterConfig) Macie2FindingsFilter {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewMacie2FindingsFilter(scope constructs.Construct, id *string, config *Mac
 	j := jsiiProxy_Macie2FindingsFilter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -577,12 +577,12 @@ func NewMacie2FindingsFilter(scope constructs.Construct, id *string, config *Mac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
 func NewMacie2FindingsFilter_Override(m Macie2FindingsFilter, scope constructs.Construct, id *string, config *Macie2FindingsFilterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -765,7 +765,7 @@ func Macie2FindingsFilter_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -800,7 +800,7 @@ func Macie2FindingsFilter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -819,7 +819,7 @@ func Macie2FindingsFilter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func Macie2FindingsFilter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func Macie2FindingsFilter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		"tfResourceType",
 		&returns,
 	)

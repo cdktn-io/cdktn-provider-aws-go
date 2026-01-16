@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		reflect.TypeOf((*PrometheusScraper)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,19 +94,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperConfig",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperConfig",
 		reflect.TypeOf((*PrometheusScraperConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestination",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestination",
 		reflect.TypeOf((*PrometheusScraperDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestinationAmp",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestinationAmp",
 		reflect.TypeOf((*PrometheusScraperDestinationAmp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestinationAmpList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestinationAmpList",
 		reflect.TypeOf((*PrometheusScraperDestinationAmpList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestinationAmpOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestinationAmpOutputReference",
 		reflect.TypeOf((*PrometheusScraperDestinationAmpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestinationList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestinationList",
 		reflect.TypeOf((*PrometheusScraperDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperDestinationOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperDestinationOutputReference",
 		reflect.TypeOf((*PrometheusScraperDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amp", GoGetter: "Amp"},
@@ -220,11 +220,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperRoleConfiguration",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperRoleConfiguration",
 		reflect.TypeOf((*PrometheusScraperRoleConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperRoleConfigurationList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperRoleConfigurationList",
 		reflect.TypeOf((*PrometheusScraperRoleConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperRoleConfigurationOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperRoleConfigurationOutputReference",
 		reflect.TypeOf((*PrometheusScraperRoleConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -284,15 +284,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSource",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSource",
 		reflect.TypeOf((*PrometheusScraperSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceEks",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceEks",
 		reflect.TypeOf((*PrometheusScraperSourceEks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
 		reflect.TypeOf((*PrometheusScraperSourceEksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -314,7 +314,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceEksOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceEksOutputReference",
 		reflect.TypeOf((*PrometheusScraperSourceEksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterArn", GoGetter: "ClusterArn"},
@@ -353,7 +353,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceList",
 		reflect.TypeOf((*PrometheusScraperSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -375,7 +375,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceOutputReference",
 		reflect.TypeOf((*PrometheusScraperSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -411,11 +411,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperTimeouts",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperTimeouts",
 		reflect.TypeOf((*PrometheusScraperTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperTimeoutsOutputReference",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperTimeoutsOutputReference",
 		reflect.TypeOf((*PrometheusScraperTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

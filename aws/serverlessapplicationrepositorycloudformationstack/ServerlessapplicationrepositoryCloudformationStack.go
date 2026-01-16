@@ -5,14 +5,14 @@ package serverlessapplicationrepositorycloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/serverlessapplicationrepositorycloudformationstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/serverlessapplicationrepositorycloudformationstack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack}.
 type ServerlessapplicationrepositoryCloudformationStack interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
 func NewServerlessapplicationrepositoryCloudformationStack(scope constructs.Construct, id *string, config *ServerlessapplicationrepositoryCloudformationStackConfig) ServerlessapplicationrepositoryCloudformationStack {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewServerlessapplicationrepositoryCloudformationStack(scope constructs.Cons
 	j := jsiiProxy_ServerlessapplicationrepositoryCloudformationStack{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewServerlessapplicationrepositoryCloudformationStack(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
 func NewServerlessapplicationrepositoryCloudformationStack_Override(s ServerlessapplicationrepositoryCloudformationStack, scope constructs.Construct, id *string, config *ServerlessapplicationrepositoryCloudformationStackConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -740,7 +740,7 @@ func ServerlessapplicationrepositoryCloudformationStack_GenerateConfigForImport(
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func ServerlessapplicationrepositoryCloudformationStack_IsConstruct(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func ServerlessapplicationrepositoryCloudformationStack_IsTerraformElement(x int
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ServerlessapplicationrepositoryCloudformationStack_IsTerraformResource(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func ServerlessapplicationrepositoryCloudformationStack_TfResourceType() *string
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
+		"@cdktn/provider-aws.serverlessapplicationrepositoryCloudformationStack.ServerlessapplicationrepositoryCloudformationStack",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsvpclatticeservicenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpclatticeservicenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpclatticeservicenetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network}.
 type DataAwsVpclatticeServiceNetwork interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsVpclatticeServiceNetwork) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
 func NewDataAwsVpclatticeServiceNetwork(scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceNetworkConfig) DataAwsVpclatticeServiceNetwork {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsVpclatticeServiceNetwork(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsVpclatticeServiceNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewDataAwsVpclatticeServiceNetwork(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
 func NewDataAwsVpclatticeServiceNetwork_Override(d DataAwsVpclatticeServiceNetwork, scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceNetworkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -542,7 +542,7 @@ func DataAwsVpclatticeServiceNetwork_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func DataAwsVpclatticeServiceNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsVpclatticeServiceNetwork_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataAwsVpclatticeServiceNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsVpclatticeServiceNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		"tfResourceType",
 		&returns,
 	)

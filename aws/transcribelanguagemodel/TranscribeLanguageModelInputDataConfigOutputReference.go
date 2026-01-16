@@ -5,9 +5,9 @@ package transcribelanguagemodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transcribelanguagemodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transcribelanguagemodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewTranscribeLanguageModelInputDataConfigOutputReference(terraformResource 
 	j := jsiiProxy_TranscribeLanguageModelInputDataConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewTranscribeLanguageModelInputDataConfigOutputReference_Override(t Transcr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

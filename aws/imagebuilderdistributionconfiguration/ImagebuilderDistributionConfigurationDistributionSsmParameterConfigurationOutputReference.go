@@ -5,9 +5,9 @@ package imagebuilderdistributionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderdistributionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderdistributionconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewImagebuilderDistributionConfigurationDistributionSsmParameterConfigurati
 	j := jsiiProxy_ImagebuilderDistributionConfigurationDistributionSsmParameterConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfigurationOutputReference",
+		"@cdktn/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewImagebuilderDistributionConfigurationDistributionSsmParameterConfigurati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfigurationOutputReference",
+		"@cdktn/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionSsmParameterConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

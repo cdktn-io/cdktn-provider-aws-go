@@ -5,9 +5,9 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewDataAwsInstanceEnclaveOptionsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsInstanceEnclaveOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceEnclaveOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceEnclaveOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewDataAwsInstanceEnclaveOptionsOutputReference_Override(d DataAwsInstanceE
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceEnclaveOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceEnclaveOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

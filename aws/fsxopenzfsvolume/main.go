@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		reflect.TypeOf((*FsxOpenzfsVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,19 +120,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeConfig",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeConfig",
 		reflect.TypeOf((*FsxOpenzfsVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExports",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExports",
 		reflect.TypeOf((*FsxOpenzfsVolumeNfsExports)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurations",
 		reflect.TypeOf((*FsxOpenzfsVolumeNfsExportsClientConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsList",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsList",
 		reflect.TypeOf((*FsxOpenzfsVolumeNfsExportsClientConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -154,7 +154,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference",
 		reflect.TypeOf((*FsxOpenzfsVolumeNfsExportsClientConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clients", GoGetter: "Clients"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
 		reflect.TypeOf((*FsxOpenzfsVolumeNfsExportsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientConfigurations", GoGetter: "ClientConfigurations"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshot",
 		reflect.TypeOf((*FsxOpenzfsVolumeOriginSnapshot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
 		reflect.TypeOf((*FsxOpenzfsVolumeOriginSnapshotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeTimeouts",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeTimeouts",
 		reflect.TypeOf((*FsxOpenzfsVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*FsxOpenzfsVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotas",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotas",
 		reflect.TypeOf((*FsxOpenzfsVolumeUserAndGroupQuotas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
 		reflect.TypeOf((*FsxOpenzfsVolumeUserAndGroupQuotasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -336,7 +336,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasOutputReference",
 		reflect.TypeOf((*FsxOpenzfsVolumeUserAndGroupQuotasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

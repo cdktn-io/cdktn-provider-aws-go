@@ -5,14 +5,14 @@ package dxconnectionassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxconnectionassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxconnectionassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_connection_association aws_dx_connection_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_connection_association aws_dx_connection_association}.
 type DxConnectionAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DxConnectionAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
 func NewDxConnectionAssociation(scope constructs.Construct, id *string, config *DxConnectionAssociationConfig) DxConnectionAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDxConnectionAssociation(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DxConnectionAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDxConnectionAssociation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
 func NewDxConnectionAssociation_Override(d DxConnectionAssociation, scope constructs.Construct, id *string, config *DxConnectionAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DxConnectionAssociation_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DxConnectionAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DxConnectionAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DxConnectionAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DxConnectionAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
+		"@cdktn/provider-aws.dxConnectionAssociation.DxConnectionAssociation",
 		"tfResourceType",
 		&returns,
 	)

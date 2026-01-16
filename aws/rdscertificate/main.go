@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		reflect.TypeOf((*RdsCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificateConfig",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificateConfig",
 		reflect.TypeOf((*RdsCertificateConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package alblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -374,7 +374,7 @@ func NewAlbListenerRuleActionOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_AlbListenerRuleActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleActionOutputReference",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -386,7 +386,7 @@ func NewAlbListenerRuleActionOutputReference_Override(a AlbListenerRuleActionOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleActionOutputReference",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

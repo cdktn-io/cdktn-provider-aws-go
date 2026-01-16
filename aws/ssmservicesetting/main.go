@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		reflect.TypeOf((*SsmServiceSetting)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSettingConfig",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSettingConfig",
 		reflect.TypeOf((*SsmServiceSettingConfig)(nil)).Elem(),
 	)
 }

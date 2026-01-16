@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlan",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlan",
 		reflect.TypeOf((*SsmcontactsPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanConfig",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanConfig",
 		reflect.TypeOf((*SsmcontactsPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStage",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStage",
 		reflect.TypeOf((*SsmcontactsPlanStage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
 		reflect.TypeOf((*SsmcontactsPlanStageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageOutputReference",
 		reflect.TypeOf((*SsmcontactsPlanStageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,15 +142,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTarget",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTarget",
 		reflect.TypeOf((*SsmcontactsPlanStageTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfo",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfo",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetChannelTargetInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetChannelTargetInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,11 +187,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetContactTargetInfo",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetContactTargetInfo",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetContactTargetInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetContactTargetInfoOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetContactTargetInfoOutputReference",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetContactTargetInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,7 +228,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetList",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetList",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
 		reflect.TypeOf((*SsmcontactsPlanStageTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelTargetInfo", GoGetter: "ChannelTargetInfo"},

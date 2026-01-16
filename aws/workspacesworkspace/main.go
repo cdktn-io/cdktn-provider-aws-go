@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspace",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspace",
 		reflect.TypeOf((*WorkspacesWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceConfig",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceConfig",
 		reflect.TypeOf((*WorkspacesWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceTimeouts",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceTimeouts",
 		reflect.TypeOf((*WorkspacesWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*WorkspacesWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspaceProperties",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspaceProperties",
 		reflect.TypeOf((*WorkspacesWorkspaceWorkspaceProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
 		reflect.TypeOf((*WorkspacesWorkspaceWorkspacePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

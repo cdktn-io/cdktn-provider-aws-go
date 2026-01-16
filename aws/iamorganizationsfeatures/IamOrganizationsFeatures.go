@@ -5,14 +5,14 @@ package iamorganizationsfeatures
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamorganizationsfeatures/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamorganizationsfeatures/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_organizations_features aws_iam_organizations_features}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_organizations_features aws_iam_organizations_features}.
 type IamOrganizationsFeatures interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -320,7 +320,7 @@ func (j *jsiiProxy_IamOrganizationsFeatures) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_organizations_features aws_iam_organizations_features} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_organizations_features aws_iam_organizations_features} Resource.
 func NewIamOrganizationsFeatures(scope constructs.Construct, id *string, config *IamOrganizationsFeaturesConfig) IamOrganizationsFeatures {
 	_init_.Initialize()
 
@@ -330,7 +330,7 @@ func NewIamOrganizationsFeatures(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamOrganizationsFeatures{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -338,12 +338,12 @@ func NewIamOrganizationsFeatures(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_organizations_features aws_iam_organizations_features} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_organizations_features aws_iam_organizations_features} Resource.
 func NewIamOrganizationsFeatures_Override(i IamOrganizationsFeatures, scope constructs.Construct, id *string, config *IamOrganizationsFeaturesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -438,7 +438,7 @@ func IamOrganizationsFeatures_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -473,7 +473,7 @@ func IamOrganizationsFeatures_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func IamOrganizationsFeatures_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -511,7 +511,7 @@ func IamOrganizationsFeatures_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -524,7 +524,7 @@ func IamOrganizationsFeatures_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
+		"@cdktn/provider-aws.iamOrganizationsFeatures.IamOrganizationsFeatures",
 		"tfResourceType",
 		&returns,
 	)

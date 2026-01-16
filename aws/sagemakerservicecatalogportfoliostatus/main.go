@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		reflect.TypeOf((*SagemakerServicecatalogPortfolioStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatusConfig",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatusConfig",
 		reflect.TypeOf((*SagemakerServicecatalogPortfolioStatusConfig)(nil)).Elem(),
 	)
 }

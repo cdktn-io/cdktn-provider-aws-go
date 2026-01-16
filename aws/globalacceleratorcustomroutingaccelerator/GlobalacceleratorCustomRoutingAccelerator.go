@@ -5,14 +5,14 @@ package globalacceleratorcustomroutingaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/globalacceleratorcustomroutingaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/globalacceleratorcustomroutingaccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator}.
 type GlobalacceleratorCustomRoutingAccelerator interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingAccelerator) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
 func NewGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingAcceleratorConfig) GlobalacceleratorCustomRoutingAccelerator {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id
 	j := jsiiProxy_GlobalacceleratorCustomRoutingAccelerator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewGlobalacceleratorCustomRoutingAccelerator(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_custom_routing_accelerator aws_globalaccelerator_custom_routing_accelerator} Resource.
 func NewGlobalacceleratorCustomRoutingAccelerator_Override(g GlobalacceleratorCustomRoutingAccelerator, scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingAcceleratorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -729,7 +729,7 @@ func GlobalacceleratorCustomRoutingAccelerator_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func GlobalacceleratorCustomRoutingAccelerator_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func GlobalacceleratorCustomRoutingAccelerator_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func GlobalacceleratorCustomRoutingAccelerator_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func GlobalacceleratorCustomRoutingAccelerator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
+		"@cdktn/provider-aws.globalacceleratorCustomRoutingAccelerator.GlobalacceleratorCustomRoutingAccelerator",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package servicecatalogprincipalportfolioassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogprincipalportfolioassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogprincipalportfolioassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference(terra
 	j := jsiiProxy_ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogPrincipalPortfolioAssociation.ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogPrincipalPortfolioAssociation.ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogPrincipalPortfolioAssociation.ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogPrincipalPortfolioAssociation.ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

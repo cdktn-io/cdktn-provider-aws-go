@@ -5,9 +5,9 @@ package syntheticscanary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/syntheticscanary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/syntheticscanary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewSyntheticsCanaryTimelineList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_SyntheticsCanaryTimelineList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewSyntheticsCanaryTimelineList_Override(s SyntheticsCanaryTimelineList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

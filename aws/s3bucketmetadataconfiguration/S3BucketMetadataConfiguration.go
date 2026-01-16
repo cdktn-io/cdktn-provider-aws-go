@@ -5,14 +5,14 @@ package s3bucketmetadataconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketmetadataconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketmetadataconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration}.
 type S3BucketMetadataConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_S3BucketMetadataConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
 func NewS3BucketMetadataConfiguration(scope constructs.Construct, id *string, config *S3BucketMetadataConfigurationConfig) S3BucketMetadataConfiguration {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewS3BucketMetadataConfiguration(scope constructs.Construct, id *string, co
 	j := jsiiProxy_S3BucketMetadataConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewS3BucketMetadataConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
 func NewS3BucketMetadataConfiguration_Override(s S3BucketMetadataConfiguration, scope constructs.Construct, id *string, config *S3BucketMetadataConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -545,7 +545,7 @@ func S3BucketMetadataConfiguration_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -580,7 +580,7 @@ func S3BucketMetadataConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -599,7 +599,7 @@ func S3BucketMetadataConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func S3BucketMetadataConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func S3BucketMetadataConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
+		"@cdktn/provider-aws.s3BucketMetadataConfiguration.S3BucketMetadataConfiguration",
 		"tfResourceType",
 		&returns,
 	)

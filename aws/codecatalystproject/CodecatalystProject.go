@@ -5,14 +5,14 @@ package codecatalystproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codecatalystproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codecatalystproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecatalyst_project aws_codecatalyst_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecatalyst_project aws_codecatalyst_project}.
 type CodecatalystProject interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_CodecatalystProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecatalyst_project aws_codecatalyst_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecatalyst_project aws_codecatalyst_project} Resource.
 func NewCodecatalystProject(scope constructs.Construct, id *string, config *CodecatalystProjectConfig) CodecatalystProject {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewCodecatalystProject(scope constructs.Construct, id *string, config *Code
 	j := jsiiProxy_CodecatalystProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewCodecatalystProject(scope constructs.Construct, id *string, config *Code
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecatalyst_project aws_codecatalyst_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecatalyst_project aws_codecatalyst_project} Resource.
 func NewCodecatalystProject_Override(c CodecatalystProject, scope constructs.Construct, id *string, config *CodecatalystProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -601,7 +601,7 @@ func CodecatalystProject_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func CodecatalystProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func CodecatalystProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func CodecatalystProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func CodecatalystProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package albtargetgroupattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/albtargetgroupattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/albtargetgroupattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment}.
 type AlbTargetGroupAttachment interface {
 	cdktf.TerraformResource
 	AvailabilityZone() *string
@@ -62,6 +62,9 @@ type AlbTargetGroupAttachment interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	QuicServerId() *string
+	SetQuicServerId(val *string)
+	QuicServerIdInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -128,6 +131,7 @@ type AlbTargetGroupAttachment interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPort()
+	ResetQuicServerId()
 	ResetRegion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -327,6 +331,26 @@ func (j *jsiiProxy_AlbTargetGroupAttachment) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_AlbTargetGroupAttachment) QuicServerId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"quicServerId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlbTargetGroupAttachment) QuicServerIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"quicServerIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AlbTargetGroupAttachment) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -428,7 +452,7 @@ func (j *jsiiProxy_AlbTargetGroupAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
 func NewAlbTargetGroupAttachment(scope constructs.Construct, id *string, config *AlbTargetGroupAttachmentConfig) AlbTargetGroupAttachment {
 	_init_.Initialize()
 
@@ -438,7 +462,7 @@ func NewAlbTargetGroupAttachment(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_AlbTargetGroupAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +470,12 @@ func NewAlbTargetGroupAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_target_group_attachment aws_alb_target_group_attachment} Resource.
 func NewAlbTargetGroupAttachment_Override(a AlbTargetGroupAttachment, scope constructs.Construct, id *string, config *AlbTargetGroupAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -558,6 +582,17 @@ func (j *jsiiProxy_AlbTargetGroupAttachment)SetProvisioners(val *[]interface{}) 
 	)
 }
 
+func (j *jsiiProxy_AlbTargetGroupAttachment)SetQuicServerId(val *string) {
+	if err := j.validateSetQuicServerIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"quicServerId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_AlbTargetGroupAttachment)SetRegion(val *string) {
 	if err := j.validateSetRegionParameters(val); err != nil {
 		panic(err)
@@ -601,7 +636,7 @@ func AlbTargetGroupAttachment_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +671,7 @@ func AlbTargetGroupAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +690,7 @@ func AlbTargetGroupAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +709,7 @@ func AlbTargetGroupAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +722,7 @@ func AlbTargetGroupAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -972,6 +1007,14 @@ func (a *jsiiProxy_AlbTargetGroupAttachment) ResetPort() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AlbTargetGroupAttachment) ResetQuicServerId() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetQuicServerId",
 		nil, // no parameters
 	)
 }

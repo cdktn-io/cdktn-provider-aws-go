@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		reflect.TypeOf((*Alb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLogs", GoGetter: "AccessLogs"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbAccessLogs",
+		"@cdktn/provider-aws.alb.AlbAccessLogs",
 		reflect.TypeOf((*AlbAccessLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbAccessLogsOutputReference",
+		"@cdktn/provider-aws.alb.AlbAccessLogsOutputReference",
 		reflect.TypeOf((*AlbAccessLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -224,15 +224,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbConfig",
+		"@cdktn/provider-aws.alb.AlbConfig",
 		reflect.TypeOf((*AlbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbConnectionLogs",
+		"@cdktn/provider-aws.alb.AlbConnectionLogs",
 		reflect.TypeOf((*AlbConnectionLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbConnectionLogsOutputReference",
+		"@cdktn/provider-aws.alb.AlbConnectionLogsOutputReference",
 		reflect.TypeOf((*AlbConnectionLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbHealthCheckLogs",
+		"@cdktn/provider-aws.alb.AlbHealthCheckLogs",
 		reflect.TypeOf((*AlbHealthCheckLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbHealthCheckLogsOutputReference",
+		"@cdktn/provider-aws.alb.AlbHealthCheckLogsOutputReference",
 		reflect.TypeOf((*AlbHealthCheckLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -316,11 +316,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbIpamPools",
+		"@cdktn/provider-aws.alb.AlbIpamPools",
 		reflect.TypeOf((*AlbIpamPools)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbIpamPoolsOutputReference",
+		"@cdktn/provider-aws.alb.AlbIpamPoolsOutputReference",
 		reflect.TypeOf((*AlbIpamPoolsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,11 +354,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbMinimumLoadBalancerCapacity",
+		"@cdktn/provider-aws.alb.AlbMinimumLoadBalancerCapacity",
 		reflect.TypeOf((*AlbMinimumLoadBalancerCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbMinimumLoadBalancerCapacityOutputReference",
+		"@cdktn/provider-aws.alb.AlbMinimumLoadBalancerCapacityOutputReference",
 		reflect.TypeOf((*AlbMinimumLoadBalancerCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityUnits", GoGetter: "CapacityUnits"},
@@ -392,11 +392,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbSubnetMapping",
+		"@cdktn/provider-aws.alb.AlbSubnetMapping",
 		reflect.TypeOf((*AlbSubnetMapping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingList",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingList",
 		reflect.TypeOf((*AlbSubnetMappingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -418,7 +418,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingOutputReference",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingOutputReference",
 		reflect.TypeOf((*AlbSubnetMappingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationId", GoGetter: "AllocationId"},
@@ -462,11 +462,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.alb.AlbTimeouts",
+		"@cdktn/provider-aws.alb.AlbTimeouts",
 		reflect.TypeOf((*AlbTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.alb.AlbTimeoutsOutputReference",
+		"@cdktn/provider-aws.alb.AlbTimeoutsOutputReference",
 		reflect.TypeOf((*AlbTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

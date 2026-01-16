@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		reflect.TypeOf((*DataAwsSpotDatafeedSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,7 +60,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscriptionConfig",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscriptionConfig",
 		reflect.TypeOf((*DataAwsSpotDatafeedSubscriptionConfig)(nil)).Elem(),
 	)
 }

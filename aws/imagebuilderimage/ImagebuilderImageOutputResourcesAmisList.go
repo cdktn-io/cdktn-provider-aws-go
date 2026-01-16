@@ -5,9 +5,9 @@ package imagebuilderimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewImagebuilderImageOutputResourcesAmisList(terraformResource cdktf.IInterp
 	j := jsiiProxy_ImagebuilderImageOutputResourcesAmisList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImageOutputResourcesAmisList",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImageOutputResourcesAmisList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewImagebuilderImageOutputResourcesAmisList_Override(i ImagebuilderImageOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImageOutputResourcesAmisList",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImageOutputResourcesAmisList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

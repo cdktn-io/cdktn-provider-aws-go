@@ -5,9 +5,9 @@ package iotbillinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotbillinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotbillinggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewIotBillingGroupPropertiesOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_IotBillingGroupPropertiesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewIotBillingGroupPropertiesOutputReference_Override(i IotBillingGroupPrope
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

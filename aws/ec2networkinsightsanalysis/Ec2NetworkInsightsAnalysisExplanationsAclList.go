@@ -5,9 +5,9 @@ package ec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2networkinsightsanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2networkinsightsanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewEc2NetworkInsightsAnalysisExplanationsAclList(terraformResource cdktf.II
 	j := jsiiProxy_Ec2NetworkInsightsAnalysisExplanationsAclList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisExplanationsAclList",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisExplanationsAclList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewEc2NetworkInsightsAnalysisExplanationsAclList_Override(e Ec2NetworkInsig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisExplanationsAclList",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisExplanationsAclList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

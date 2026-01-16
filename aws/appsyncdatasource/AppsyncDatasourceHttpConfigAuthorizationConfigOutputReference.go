@@ -5,9 +5,9 @@ package appsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppsyncDatasourceHttpConfigAuthorizationConfigOutputReference(terraformR
 	j := jsiiProxy_AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppsyncDatasourceHttpConfigAuthorizationConfigOutputReference_Override(a
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

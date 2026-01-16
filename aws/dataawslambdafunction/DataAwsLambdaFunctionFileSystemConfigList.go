@@ -5,9 +5,9 @@ package dataawslambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLambdaFunctionFileSystemConfigList(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsLambdaFunctionFileSystemConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLambdaFunctionFileSystemConfigList_Override(d DataAwsLambdaFuncti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

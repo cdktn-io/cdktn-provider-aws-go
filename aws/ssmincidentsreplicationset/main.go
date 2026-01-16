@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		reflect.TypeOf((*SsmincidentsReplicationSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetConfig",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetConfig",
 		reflect.TypeOf((*SsmincidentsReplicationSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegion",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegion",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionList",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionList",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionOutputReference",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionOutputReference",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegions",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegions",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionsList",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionsList",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionsOutputReference",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetRegionsOutputReference",
 		reflect.TypeOf((*SsmincidentsReplicationSetRegionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetTimeouts",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetTimeouts",
 		reflect.TypeOf((*SsmincidentsReplicationSetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSetTimeoutsOutputReference",
 		reflect.TypeOf((*SsmincidentsReplicationSetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProject",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProject",
 		reflect.TypeOf((*CodecatalystProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProjectConfig",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProjectConfig",
 		reflect.TypeOf((*CodecatalystProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProjectTimeouts",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProjectTimeouts",
 		reflect.TypeOf((*CodecatalystProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystProject.CodecatalystProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.codecatalystProject.CodecatalystProjectTimeoutsOutputReference",
 		reflect.TypeOf((*CodecatalystProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

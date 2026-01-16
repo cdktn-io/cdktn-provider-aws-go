@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpoint",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpoint",
 		reflect.TypeOf((*S3OutpostsEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessType", GoGetter: "AccessType"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointConfig",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointConfig",
 		reflect.TypeOf((*S3OutpostsEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfaces",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfaces",
 		reflect.TypeOf((*S3OutpostsEndpointNetworkInterfaces)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesList",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesList",
 		reflect.TypeOf((*S3OutpostsEndpointNetworkInterfacesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
 		reflect.TypeOf((*S3OutpostsEndpointNetworkInterfacesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

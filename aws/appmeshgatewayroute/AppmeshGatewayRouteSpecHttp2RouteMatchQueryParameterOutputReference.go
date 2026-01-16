@@ -5,9 +5,9 @@ package appmeshgatewayroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference(terr
 	j := jsiiProxy_AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewAppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

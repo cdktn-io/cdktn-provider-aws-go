@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMember",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMember",
 		reflect.TypeOf((*GuarddutyMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMemberConfig",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMemberConfig",
 		reflect.TypeOf((*GuarddutyMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMemberTimeouts",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMemberTimeouts",
 		reflect.TypeOf((*GuarddutyMemberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
 		reflect.TypeOf((*GuarddutyMemberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

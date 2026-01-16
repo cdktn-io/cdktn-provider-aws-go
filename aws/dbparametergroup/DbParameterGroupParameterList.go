@@ -5,9 +5,9 @@ package dbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDbParameterGroupParameterList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DbParameterGroupParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDbParameterGroupParameterList_Override(d DbParameterGroupParameterList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

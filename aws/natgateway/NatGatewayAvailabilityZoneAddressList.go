@@ -5,9 +5,9 @@ package natgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/natgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/natgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNatGatewayAvailabilityZoneAddressList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_NatGatewayAvailabilityZoneAddressList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNatGatewayAvailabilityZoneAddressList_Override(n NatGatewayAvailabilityZ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

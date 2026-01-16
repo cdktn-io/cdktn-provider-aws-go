@@ -5,9 +5,9 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -588,7 +588,7 @@ func NewDataAwsDmsEndpointS3SettingsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsDmsEndpointS3SettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -600,7 +600,7 @@ func NewDataAwsDmsEndpointS3SettingsOutputReference_Override(d DataAwsDmsEndpoin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

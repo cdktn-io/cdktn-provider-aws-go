@@ -5,14 +5,14 @@ package locationtracker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/locationtracker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationtracker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_tracker aws_location_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker}.
 type LocationTracker interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_LocationTracker) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_tracker aws_location_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker} Resource.
 func NewLocationTracker(scope constructs.Construct, id *string, config *LocationTrackerConfig) LocationTracker {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewLocationTracker(scope constructs.Construct, id *string, config *Location
 	j := jsiiProxy_LocationTracker{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewLocationTracker(scope constructs.Construct, id *string, config *Location
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_tracker aws_location_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker} Resource.
 func NewLocationTracker_Override(l LocationTracker, scope constructs.Construct, id *string, config *LocationTrackerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -705,7 +705,7 @@ func LocationTracker_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func LocationTracker_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func LocationTracker_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func LocationTracker_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func LocationTracker_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		"tfResourceType",
 		&returns,
 	)

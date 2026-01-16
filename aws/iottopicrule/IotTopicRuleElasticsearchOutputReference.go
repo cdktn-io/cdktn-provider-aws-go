@@ -5,9 +5,9 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -274,7 +274,7 @@ func NewIotTopicRuleElasticsearchOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_IotTopicRuleElasticsearchOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleElasticsearchOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleElasticsearchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -286,7 +286,7 @@ func NewIotTopicRuleElasticsearchOutputReference_Override(i IotTopicRuleElastics
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleElasticsearchOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleElasticsearchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

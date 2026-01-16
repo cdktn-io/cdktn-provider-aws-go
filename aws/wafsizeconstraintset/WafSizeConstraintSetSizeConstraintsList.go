@@ -5,9 +5,9 @@ package wafsizeconstraintset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafsizeconstraintset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafsizeconstraintset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafSizeConstraintSetSizeConstraintsList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_WafSizeConstraintSetSizeConstraintsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafSizeConstraintSetSizeConstraintsList_Override(w WafSizeConstraintSetS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

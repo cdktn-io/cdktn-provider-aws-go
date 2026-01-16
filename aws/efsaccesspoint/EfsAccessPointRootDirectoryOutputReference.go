@@ -5,9 +5,9 @@ package efsaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsaccesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEfsAccessPointRootDirectoryOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_EfsAccessPointRootDirectoryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEfsAccessPointRootDirectoryOutputReference_Override(e EfsAccessPointRoot
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

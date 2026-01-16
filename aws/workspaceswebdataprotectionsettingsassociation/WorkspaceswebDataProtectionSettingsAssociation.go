@@ -5,14 +5,14 @@ package workspaceswebdataprotectionsettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebdataprotectionsettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebdataprotectionsettingsassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
 type WorkspaceswebDataProtectionSettingsAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) WorkspaceswebDataProtectionSettingsAssociation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construc
 	j := jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation_Override(w WorkspaceswebDataProtectionSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -496,7 +496,7 @@ func WorkspaceswebDataProtectionSettingsAssociation_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func WorkspaceswebDataProtectionSettingsAssociation_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func WorkspaceswebDataProtectionSettingsAssociation_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func WorkspaceswebDataProtectionSettingsAssociation_IsTerraformResource(x interf
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func WorkspaceswebDataProtectionSettingsAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		"tfResourceType",
 		&returns,
 	)

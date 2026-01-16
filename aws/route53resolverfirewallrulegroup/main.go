@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverFirewallRuleGroup.Route53ResolverFirewallRuleGroup",
+		"@cdktn/provider-aws.route53ResolverFirewallRuleGroup.Route53ResolverFirewallRuleGroup",
 		reflect.TypeOf((*Route53ResolverFirewallRuleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverFirewallRuleGroup.Route53ResolverFirewallRuleGroupConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallRuleGroup.Route53ResolverFirewallRuleGroupConfig",
 		reflect.TypeOf((*Route53ResolverFirewallRuleGroupConfig)(nil)).Elem(),
 	)
 }

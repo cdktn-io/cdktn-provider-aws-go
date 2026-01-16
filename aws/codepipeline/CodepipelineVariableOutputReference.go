@@ -5,9 +5,9 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewCodepipelineVariableOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_CodepipelineVariableOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineVariableOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineVariableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewCodepipelineVariableOutputReference_Override(c CodepipelineVariableOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineVariableOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineVariableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

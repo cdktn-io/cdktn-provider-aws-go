@@ -5,14 +5,14 @@ package quicksightgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group aws_quicksight_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group aws_quicksight_group}.
 type QuicksightGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_QuicksightGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group aws_quicksight_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group aws_quicksight_group} Resource.
 func NewQuicksightGroup(scope constructs.Construct, id *string, config *QuicksightGroupConfig) QuicksightGroup {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewQuicksightGroup(scope constructs.Construct, id *string, config *Quicksig
 	j := jsiiProxy_QuicksightGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewQuicksightGroup(scope constructs.Construct, id *string, config *Quicksig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group aws_quicksight_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group aws_quicksight_group} Resource.
 func NewQuicksightGroup_Override(q QuicksightGroup, scope constructs.Construct, id *string, config *QuicksightGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -613,7 +613,7 @@ func QuicksightGroup_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func QuicksightGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func QuicksightGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func QuicksightGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func QuicksightGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightGroup.QuicksightGroup",
+		"@cdktn/provider-aws.quicksightGroup.QuicksightGroup",
 		"tfResourceType",
 		&returns,
 	)

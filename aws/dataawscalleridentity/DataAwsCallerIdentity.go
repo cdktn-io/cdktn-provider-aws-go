@@ -5,14 +5,14 @@ package dataawscalleridentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscalleridentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscalleridentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/caller_identity aws_caller_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/caller_identity aws_caller_identity}.
 type DataAwsCallerIdentity interface {
 	cdktf.TerraformDataSource
 	AccountId() *string
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsCallerIdentity) UserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
 func NewDataAwsCallerIdentity(scope constructs.Construct, id *string, config *DataAwsCallerIdentityConfig) DataAwsCallerIdentity {
 	_init_.Initialize()
 
@@ -308,7 +308,7 @@ func NewDataAwsCallerIdentity(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsCallerIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -316,12 +316,12 @@ func NewDataAwsCallerIdentity(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
 func NewDataAwsCallerIdentity_Override(d DataAwsCallerIdentity, scope constructs.Construct, id *string, config *DataAwsCallerIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -394,7 +394,7 @@ func DataAwsCallerIdentity_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -429,7 +429,7 @@ func DataAwsCallerIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -448,7 +448,7 @@ func DataAwsCallerIdentity_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -467,7 +467,7 @@ func DataAwsCallerIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsCallerIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
+		"@cdktn/provider-aws.dataAwsCallerIdentity.DataAwsCallerIdentity",
 		"tfResourceType",
 		&returns,
 	)

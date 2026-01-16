@@ -5,14 +5,14 @@ package dataawsmskconnectcustomplugin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmskconnectcustomplugin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmskconnectcustomplugin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin}.
 type DataAwsMskconnectCustomPlugin interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsMskconnectCustomPlugin) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Data Source.
 func NewDataAwsMskconnectCustomPlugin(scope constructs.Construct, id *string, config *DataAwsMskconnectCustomPluginConfig) DataAwsMskconnectCustomPlugin {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsMskconnectCustomPlugin(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsMskconnectCustomPlugin{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAwsMskconnectCustomPlugin(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Data Source.
 func NewDataAwsMskconnectCustomPlugin_Override(d DataAwsMskconnectCustomPlugin, scope constructs.Construct, id *string, config *DataAwsMskconnectCustomPluginConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsMskconnectCustomPlugin_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsMskconnectCustomPlugin_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsMskconnectCustomPlugin_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsMskconnectCustomPlugin_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsMskconnectCustomPlugin_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
+		"@cdktn/provider-aws.dataAwsMskconnectCustomPlugin.DataAwsMskconnectCustomPlugin",
 		"tfResourceType",
 		&returns,
 	)

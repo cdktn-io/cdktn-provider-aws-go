@@ -5,9 +5,9 @@ package ssmassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewSsmAssociationOutputLocationOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_SsmAssociationOutputLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewSsmAssociationOutputLocationOutputReference_Override(s SsmAssociationOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,9 +5,9 @@ package datapipelinepipelinedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datapipelinepipelinedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datapipelinepipelinedefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDatapipelinePipelineDefinitionPipelineObjectOutputReference(terraformRes
 	j := jsiiProxy_DatapipelinePipelineDefinitionPipelineObjectOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDatapipelinePipelineDefinitionPipelineObjectOutputReference_Override(d D
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
+		"@cdktn/provider-aws.datapipelinePipelineDefinition.DatapipelinePipelineDefinitionPipelineObjectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package cloudfrontcontinuousdeploymentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontcontinuousdeploymentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontcontinuousdeploymentpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy}.
 type CloudfrontContinuousDeploymentPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) TrafficConfigInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource.
 func NewCloudfrontContinuousDeploymentPolicy(scope constructs.Construct, id *string, config *CloudfrontContinuousDeploymentPolicyConfig) CloudfrontContinuousDeploymentPolicy {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewCloudfrontContinuousDeploymentPolicy(scope constructs.Construct, id *str
 	j := jsiiProxy_CloudfrontContinuousDeploymentPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewCloudfrontContinuousDeploymentPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_continuous_deployment_policy aws_cloudfront_continuous_deployment_policy} Resource.
 func NewCloudfrontContinuousDeploymentPolicy_Override(c CloudfrontContinuousDeploymentPolicy, scope constructs.Construct, id *string, config *CloudfrontContinuousDeploymentPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -519,7 +519,7 @@ func CloudfrontContinuousDeploymentPolicy_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func CloudfrontContinuousDeploymentPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func CloudfrontContinuousDeploymentPolicy_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func CloudfrontContinuousDeploymentPolicy_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func CloudfrontContinuousDeploymentPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
+		"@cdktn/provider-aws.cloudfrontContinuousDeploymentPolicy.CloudfrontContinuousDeploymentPolicy",
 		"tfResourceType",
 		&returns,
 	)

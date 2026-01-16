@@ -5,9 +5,9 @@ package dataawsodbnetworkpeeringconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbnetworkpeeringconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbnetworkpeeringconnections/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -159,7 +159,7 @@ func NewDataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference(
 	j := jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetworkPeeringConnections.DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbNetworkPeeringConnections.DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -171,7 +171,7 @@ func NewDataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetworkPeeringConnections.DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbNetworkPeeringConnections.DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

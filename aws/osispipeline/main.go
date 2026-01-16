@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		reflect.TypeOf((*OsisPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -59,6 +59,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pipelineConfigurationBodyInput", GoGetter: "PipelineConfigurationBodyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "pipelineName", GoGetter: "PipelineName"},
 			_jsii_.MemberProperty{JsiiProperty: "pipelineNameInput", GoGetter: "PipelineNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "pipelineRoleArn", GoGetter: "PipelineRoleArn"},
+			_jsii_.MemberProperty{JsiiProperty: "pipelineRoleArnInput", GoGetter: "PipelineRoleArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putBufferOptions", GoMethod: "PutBufferOptions"},
@@ -73,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionAtRestOptions", GoMethod: "ResetEncryptionAtRestOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogPublishingOptions", GoMethod: "ResetLogPublishingOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPipelineRoleArn", GoMethod: "ResetPipelineRoleArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -101,11 +104,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineBufferOptions",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineBufferOptions",
 		reflect.TypeOf((*OsisPipelineBufferOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineBufferOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineBufferOptionsList",
 		reflect.TypeOf((*OsisPipelineBufferOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineBufferOptionsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineBufferOptionsOutputReference",
 		reflect.TypeOf((*OsisPipelineBufferOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,15 +164,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineConfig",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineConfig",
 		reflect.TypeOf((*OsisPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptions",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptions",
 		reflect.TypeOf((*OsisPipelineEncryptionAtRestOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
 		reflect.TypeOf((*OsisPipelineEncryptionAtRestOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsOutputReference",
 		reflect.TypeOf((*OsisPipelineEncryptionAtRestOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -225,15 +228,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptions",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptions",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptionsCloudwatchLogDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptionsCloudwatchLogDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -255,7 +258,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -289,7 +292,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsList",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -311,7 +314,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineLogPublishingOptionsOutputReference",
 		reflect.TypeOf((*OsisPipelineLogPublishingOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogDestination", GoGetter: "CloudwatchLogDestination"},
@@ -350,11 +353,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineTimeouts",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineTimeouts",
 		reflect.TypeOf((*OsisPipelineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
 		reflect.TypeOf((*OsisPipelineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -395,11 +398,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineVpcOptions",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineVpcOptions",
 		reflect.TypeOf((*OsisPipelineVpcOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineVpcOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineVpcOptionsList",
 		reflect.TypeOf((*OsisPipelineVpcOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -421,7 +424,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineVpcOptionsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineVpcOptionsOutputReference",
 		reflect.TypeOf((*OsisPipelineVpcOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

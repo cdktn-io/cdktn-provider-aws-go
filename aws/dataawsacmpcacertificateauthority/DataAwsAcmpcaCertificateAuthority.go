@@ -5,14 +5,14 @@ package dataawsacmpcacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsacmpcacertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsacmpcacertificateauthority/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority}.
 type DataAwsAcmpcaCertificateAuthority interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -457,7 +457,7 @@ func (j *jsiiProxy_DataAwsAcmpcaCertificateAuthority) UsageMode() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
 func NewDataAwsAcmpcaCertificateAuthority(scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateAuthorityConfig) DataAwsAcmpcaCertificateAuthority {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewDataAwsAcmpcaCertificateAuthority(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAwsAcmpcaCertificateAuthority{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -475,12 +475,12 @@ func NewDataAwsAcmpcaCertificateAuthority(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
 func NewDataAwsAcmpcaCertificateAuthority_Override(d DataAwsAcmpcaCertificateAuthority, scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateAuthorityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -586,7 +586,7 @@ func DataAwsAcmpcaCertificateAuthority_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -621,7 +621,7 @@ func DataAwsAcmpcaCertificateAuthority_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func DataAwsAcmpcaCertificateAuthority_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -659,7 +659,7 @@ func DataAwsAcmpcaCertificateAuthority_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func DataAwsAcmpcaCertificateAuthority_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificateAuthority.DataAwsAcmpcaCertificateAuthority",
 		"tfResourceType",
 		&returns,
 	)

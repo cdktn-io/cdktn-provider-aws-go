@@ -5,9 +5,9 @@ package networkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNetworkInterfaceAttachmentList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_NetworkInterfaceAttachmentList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNetworkInterfaceAttachmentList_Override(n NetworkInterfaceAttachmentList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

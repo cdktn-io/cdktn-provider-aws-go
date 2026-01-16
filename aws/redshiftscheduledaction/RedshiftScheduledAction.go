@@ -5,14 +5,14 @@ package redshiftscheduledaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftscheduledaction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftscheduledaction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action}.
 type RedshiftScheduledAction interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_RedshiftScheduledAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
 func NewRedshiftScheduledAction(scope constructs.Construct, id *string, config *RedshiftScheduledActionConfig) RedshiftScheduledAction {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewRedshiftScheduledAction(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_RedshiftScheduledAction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewRedshiftScheduledAction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
 func NewRedshiftScheduledAction_Override(r RedshiftScheduledAction, scope constructs.Construct, id *string, config *RedshiftScheduledActionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -728,7 +728,7 @@ func RedshiftScheduledAction_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func RedshiftScheduledAction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func RedshiftScheduledAction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func RedshiftScheduledAction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func RedshiftScheduledAction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		"tfResourceType",
 		&returns,
 	)

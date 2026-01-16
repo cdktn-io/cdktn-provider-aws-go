@@ -5,9 +5,9 @@ package dataawsecscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEcsClusterServiceConnectDefaultsList(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsEcsClusterServiceConnectDefaultsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEcsClusterServiceConnectDefaultsList_Override(d DataAwsEcsCluster
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

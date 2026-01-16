@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		reflect.TypeOf((*VpcIpamOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccountConfig",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccountConfig",
 		reflect.TypeOf((*VpcIpamOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpamPreviewNextCidr.VpcIpamPreviewNextCidr",
+		"@cdktn/provider-aws.vpcIpamPreviewNextCidr.VpcIpamPreviewNextCidr",
 		reflect.TypeOf((*VpcIpamPreviewNextCidr)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpamPreviewNextCidr.VpcIpamPreviewNextCidrConfig",
+		"@cdktn/provider-aws.vpcIpamPreviewNextCidr.VpcIpamPreviewNextCidrConfig",
 		reflect.TypeOf((*VpcIpamPreviewNextCidrConfig)(nil)).Elem(),
 	)
 }

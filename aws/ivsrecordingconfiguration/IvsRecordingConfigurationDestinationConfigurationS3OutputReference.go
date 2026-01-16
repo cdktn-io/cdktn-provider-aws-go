@@ -5,9 +5,9 @@ package ivsrecordingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ivsrecordingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ivsrecordingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewIvsRecordingConfigurationDestinationConfigurationS3OutputReference(terra
 	j := jsiiProxy_IvsRecordingConfigurationDestinationConfigurationS3OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3OutputReference",
+		"@cdktn/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewIvsRecordingConfigurationDestinationConfigurationS3OutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3OutputReference",
+		"@cdktn/provider-aws.ivsRecordingConfiguration.IvsRecordingConfigurationDestinationConfigurationS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

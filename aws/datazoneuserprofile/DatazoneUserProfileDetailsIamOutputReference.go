@@ -5,9 +5,9 @@ package datazoneuserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneuserprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneuserprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewDatazoneUserProfileDetailsIamOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DatazoneUserProfileDetailsIamOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewDatazoneUserProfileDetailsIamOutputReference_Override(d DatazoneUserProf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

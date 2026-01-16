@@ -5,9 +5,9 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference(terrafo
 	j := jsiiProxy_SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

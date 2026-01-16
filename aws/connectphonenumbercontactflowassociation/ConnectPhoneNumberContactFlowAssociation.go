@@ -5,14 +5,14 @@ package connectphonenumbercontactflowassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectphonenumbercontactflowassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectphonenumbercontactflowassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association}.
 type ConnectPhoneNumberContactFlowAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
 func NewConnectPhoneNumberContactFlowAssociation(scope constructs.Construct, id *string, config *ConnectPhoneNumberContactFlowAssociationConfig) ConnectPhoneNumberContactFlowAssociation {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewConnectPhoneNumberContactFlowAssociation(scope constructs.Construct, id 
 	j := jsiiProxy_ConnectPhoneNumberContactFlowAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewConnectPhoneNumberContactFlowAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
 func NewConnectPhoneNumberContactFlowAssociation_Override(c ConnectPhoneNumberContactFlowAssociation, scope constructs.Construct, id *string, config *ConnectPhoneNumberContactFlowAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -530,7 +530,7 @@ func ConnectPhoneNumberContactFlowAssociation_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func ConnectPhoneNumberContactFlowAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func ConnectPhoneNumberContactFlowAssociation_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func ConnectPhoneNumberContactFlowAssociation_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func ConnectPhoneNumberContactFlowAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
+		"@cdktn/provider-aws.connectPhoneNumberContactFlowAssociation.ConnectPhoneNumberContactFlowAssociation",
 		"tfResourceType",
 		&returns,
 	)

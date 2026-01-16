@@ -5,9 +5,9 @@ package wafregionalrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewWafregionalRulePredicateOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_WafregionalRulePredicateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRulePredicateOutputReference",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRulePredicateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewWafregionalRulePredicateOutputReference_Override(w WafregionalRulePredic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRulePredicateOutputReference",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRulePredicateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

@@ -5,9 +5,9 @@ package dataawsnetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsNetworkInterfaceAttachmentList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsNetworkInterfaceAttachmentList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkInterface.DataAwsNetworkInterfaceAttachmentList",
+		"@cdktn/provider-aws.dataAwsNetworkInterface.DataAwsNetworkInterfaceAttachmentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsNetworkInterfaceAttachmentList_Override(d DataAwsNetworkInterface
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkInterface.DataAwsNetworkInterfaceAttachmentList",
+		"@cdktn/provider-aws.dataAwsNetworkInterface.DataAwsNetworkInterfaceAttachmentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

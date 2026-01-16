@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		reflect.TypeOf((*S3VectorsVectorBucketPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicyConfig",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicyConfig",
 		reflect.TypeOf((*S3VectorsVectorBucketPolicyConfig)(nil)).Elem(),
 	)
 }

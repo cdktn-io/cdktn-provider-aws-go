@@ -5,9 +5,9 @@ package dynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbglobaltable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDynamodbGlobalTableReplicaList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DynamodbGlobalTableReplicaList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDynamodbGlobalTableReplicaList_Override(d DynamodbGlobalTableReplicaList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

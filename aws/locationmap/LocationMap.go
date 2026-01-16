@@ -5,14 +5,14 @@ package locationmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/locationmap/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationmap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_map aws_location_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_map aws_location_map}.
 type LocationMap interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_LocationMap) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_map aws_location_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_map aws_location_map} Resource.
 func NewLocationMap(scope constructs.Construct, id *string, config *LocationMapConfig) LocationMap {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewLocationMap(scope constructs.Construct, id *string, config *LocationMapC
 	j := jsiiProxy_LocationMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewLocationMap(scope constructs.Construct, id *string, config *LocationMapC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_map aws_location_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_map aws_location_map} Resource.
 func NewLocationMap_Override(l LocationMap, scope constructs.Construct, id *string, config *LocationMapConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -658,7 +658,7 @@ func LocationMap_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func LocationMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func LocationMap_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func LocationMap_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func LocationMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		"tfResourceType",
 		&returns,
 	)

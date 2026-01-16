@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaboration",
 		reflect.TypeOf((*CleanroomsCollaboration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationConfig",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationConfig",
 		reflect.TypeOf((*CleanroomsCollaborationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadata",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadata",
 		reflect.TypeOf((*CleanroomsCollaborationDataEncryptionMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
 		reflect.TypeOf((*CleanroomsCollaborationDataEncryptionMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowClearText", GoGetter: "AllowClearText"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMember",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMember",
 		reflect.TypeOf((*CleanroomsCollaborationMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMemberList",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMemberList",
 		reflect.TypeOf((*CleanroomsCollaborationMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMemberOutputReference",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationMemberOutputReference",
 		reflect.TypeOf((*CleanroomsCollaborationMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationTimeouts",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationTimeouts",
 		reflect.TypeOf((*CleanroomsCollaborationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationTimeoutsOutputReference",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationTimeoutsOutputReference",
 		reflect.TypeOf((*CleanroomsCollaborationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package alblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewAlbListenerDefaultActionForwardStickinessOutputReference(terraformResour
 	j := jsiiProxy_AlbListenerDefaultActionForwardStickinessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerDefaultActionForwardStickinessOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerDefaultActionForwardStickinessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewAlbListenerDefaultActionForwardStickinessOutputReference_Override(a AlbL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerDefaultActionForwardStickinessOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerDefaultActionForwardStickinessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

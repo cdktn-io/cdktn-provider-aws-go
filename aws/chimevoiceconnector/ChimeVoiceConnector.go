@@ -5,14 +5,14 @@ package chimevoiceconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimevoiceconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimevoiceconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector aws_chime_voice_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector aws_chime_voice_connector}.
 type ChimeVoiceConnector interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_ChimeVoiceConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector aws_chime_voice_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector aws_chime_voice_connector} Resource.
 func NewChimeVoiceConnector(scope constructs.Construct, id *string, config *ChimeVoiceConnectorConfig) ChimeVoiceConnector {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewChimeVoiceConnector(scope constructs.Construct, id *string, config *Chim
 	j := jsiiProxy_ChimeVoiceConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewChimeVoiceConnector(scope constructs.Construct, id *string, config *Chim
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector aws_chime_voice_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector aws_chime_voice_connector} Resource.
 func NewChimeVoiceConnector_Override(c ChimeVoiceConnector, scope constructs.Construct, id *string, config *ChimeVoiceConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -658,7 +658,7 @@ func ChimeVoiceConnector_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func ChimeVoiceConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ChimeVoiceConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func ChimeVoiceConnector_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func ChimeVoiceConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
+		"@cdktn/provider-aws.chimeVoiceConnector.ChimeVoiceConnector",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package codedeploydeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codedeploydeploymentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codedeploydeploymentgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference(terraformR
 	j := jsiiProxy_CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference_Override(c
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetEc2TagFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

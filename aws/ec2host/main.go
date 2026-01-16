@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Host.Ec2Host",
+		"@cdktn/provider-aws.ec2Host.Ec2Host",
 		reflect.TypeOf((*Ec2Host)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Host.Ec2HostConfig",
+		"@cdktn/provider-aws.ec2Host.Ec2HostConfig",
 		reflect.TypeOf((*Ec2HostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Host.Ec2HostTimeouts",
+		"@cdktn/provider-aws.ec2Host.Ec2HostTimeouts",
 		reflect.TypeOf((*Ec2HostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2HostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

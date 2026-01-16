@@ -5,14 +5,14 @@ package dataawsappmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshvirtualnode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshvirtualnode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node}.
 type DataAwsAppmeshVirtualNode interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_DataAwsAppmeshVirtualNode) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
 func NewDataAwsAppmeshVirtualNode(scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualNodeConfig) DataAwsAppmeshVirtualNode {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewDataAwsAppmeshVirtualNode(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsAppmeshVirtualNode{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewDataAwsAppmeshVirtualNode(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_virtual_node aws_appmesh_virtual_node} Data Source.
 func NewDataAwsAppmeshVirtualNode_Override(d DataAwsAppmeshVirtualNode, scope constructs.Construct, id *string, config *DataAwsAppmeshVirtualNodeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -589,7 +589,7 @@ func DataAwsAppmeshVirtualNode_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func DataAwsAppmeshVirtualNode_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func DataAwsAppmeshVirtualNode_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataAwsAppmeshVirtualNode_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DataAwsAppmeshVirtualNode_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNode",
 		"tfResourceType",
 		&returns,
 	)

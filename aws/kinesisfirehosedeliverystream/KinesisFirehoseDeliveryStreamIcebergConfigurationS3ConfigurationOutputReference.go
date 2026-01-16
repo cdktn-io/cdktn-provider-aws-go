@@ -5,9 +5,9 @@ package kinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisfirehosedeliverystream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisfirehosedeliverystream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -373,7 +373,7 @@ func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRe
 	j := jsiiProxy_KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -385,7 +385,7 @@ func NewKinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

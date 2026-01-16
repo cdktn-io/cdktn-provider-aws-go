@@ -5,14 +5,14 @@ package redshiftclusteriamroles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftclusteriamroles/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftclusteriamroles/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles}.
 type RedshiftClusterIamRoles interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_RedshiftClusterIamRoles) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
 func NewRedshiftClusterIamRoles(scope constructs.Construct, id *string, config *RedshiftClusterIamRolesConfig) RedshiftClusterIamRoles {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewRedshiftClusterIamRoles(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_RedshiftClusterIamRoles{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewRedshiftClusterIamRoles(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_iam_roles aws_redshift_cluster_iam_roles} Resource.
 func NewRedshiftClusterIamRoles_Override(r RedshiftClusterIamRoles, scope constructs.Construct, id *string, config *RedshiftClusterIamRolesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -591,7 +591,7 @@ func RedshiftClusterIamRoles_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -626,7 +626,7 @@ func RedshiftClusterIamRoles_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -645,7 +645,7 @@ func RedshiftClusterIamRoles_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func RedshiftClusterIamRoles_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func RedshiftClusterIamRoles_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		"tfResourceType",
 		&returns,
 	)

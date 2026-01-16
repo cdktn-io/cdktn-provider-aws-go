@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		reflect.TypeOf((*DirectoryServiceTrust)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrustConfig",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrustConfig",
 		reflect.TypeOf((*DirectoryServiceTrustConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		reflect.TypeOf((*Resourceexplorer2View)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewConfig",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewConfig",
 		reflect.TypeOf((*Resourceexplorer2ViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFilters",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFilters",
 		reflect.TypeOf((*Resourceexplorer2ViewFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
 		reflect.TypeOf((*Resourceexplorer2ViewFiltersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
 		reflect.TypeOf((*Resourceexplorer2ViewFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedProperty",
 		reflect.TypeOf((*Resourceexplorer2ViewIncludedProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertyList",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertyList",
 		reflect.TypeOf((*Resourceexplorer2ViewIncludedPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -178,7 +178,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertyOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewIncludedPropertyOutputReference",
 		reflect.TypeOf((*Resourceexplorer2ViewIncludedPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

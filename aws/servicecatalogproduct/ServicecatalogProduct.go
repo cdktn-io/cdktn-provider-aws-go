@@ -5,14 +5,14 @@ package servicecatalogproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_product aws_servicecatalog_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_product aws_servicecatalog_product}.
 type ServicecatalogProduct interface {
 	cdktf.TerraformResource
 	AcceptLanguage() *string
@@ -686,7 +686,7 @@ func (j *jsiiProxy_ServicecatalogProduct) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource.
 func NewServicecatalogProduct(scope constructs.Construct, id *string, config *ServicecatalogProductConfig) ServicecatalogProduct {
 	_init_.Initialize()
 
@@ -696,7 +696,7 @@ func NewServicecatalogProduct(scope constructs.Construct, id *string, config *Se
 	j := jsiiProxy_ServicecatalogProduct{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -704,12 +704,12 @@ func NewServicecatalogProduct(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_product aws_servicecatalog_product} Resource.
 func NewServicecatalogProduct_Override(s ServicecatalogProduct, scope constructs.Construct, id *string, config *ServicecatalogProductConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -936,7 +936,7 @@ func ServicecatalogProduct_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -971,7 +971,7 @@ func ServicecatalogProduct_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -990,7 +990,7 @@ func ServicecatalogProduct_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1009,7 +1009,7 @@ func ServicecatalogProduct_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1022,7 +1022,7 @@ func ServicecatalogProduct_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProduct",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProduct",
 		"tfResourceType",
 		&returns,
 	)

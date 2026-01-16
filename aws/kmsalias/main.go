@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		reflect.TypeOf((*KmsAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsAlias.KmsAliasConfig",
+		"@cdktn/provider-aws.kmsAlias.KmsAliasConfig",
 		reflect.TypeOf((*KmsAliasConfig)(nil)).Elem(),
 	)
 }

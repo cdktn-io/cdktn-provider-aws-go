@@ -5,9 +5,9 @@ package quicksightdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewQuicksightDashboardSourceEntityOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_QuicksightDashboardSourceEntityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewQuicksightDashboardSourceEntityOutputReference_Override(q QuicksightDash
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

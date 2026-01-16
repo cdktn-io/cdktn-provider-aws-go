@@ -5,14 +5,14 @@ package iampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_policy aws_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_policy aws_iam_policy}.
 type IamPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -29,6 +29,9 @@ type IamPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DelayAfterPolicyCreationInMs() *float64
+	SetDelayAfterPolicyCreationInMs(val *float64)
+	DelayAfterPolicyCreationInMsInput() *float64
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type IamPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDelayAfterPolicyCreationInMs()
 	ResetDescription()
 	ResetId()
 	ResetName()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_IamPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamPolicy) DelayAfterPolicyCreationInMs() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"delayAfterPolicyCreationInMs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamPolicy) DelayAfterPolicyCreationInMsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"delayAfterPolicyCreationInMsInput",
 		&returns,
 	)
 	return returns
@@ -510,7 +534,7 @@ func (j *jsiiProxy_IamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_policy aws_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_policy aws_iam_policy} Resource.
 func NewIamPolicy(scope constructs.Construct, id *string, config *IamPolicyConfig) IamPolicy {
 	_init_.Initialize()
 
@@ -520,7 +544,7 @@ func NewIamPolicy(scope constructs.Construct, id *string, config *IamPolicyConfi
 	j := jsiiProxy_IamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +552,12 @@ func NewIamPolicy(scope constructs.Construct, id *string, config *IamPolicyConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_policy aws_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_policy aws_iam_policy} Resource.
 func NewIamPolicy_Override(i IamPolicy, scope constructs.Construct, id *string, config *IamPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -557,6 +581,17 @@ func (j *jsiiProxy_IamPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamPolicy)SetDelayAfterPolicyCreationInMs(val *float64) {
+	if err := j.validateSetDelayAfterPolicyCreationInMsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"delayAfterPolicyCreationInMs",
 		val,
 	)
 }
@@ -705,7 +740,7 @@ func IamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +775,7 @@ func IamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +794,7 @@ func IamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +813,7 @@ func IamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +826,7 @@ func IamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamPolicy.IamPolicy",
+		"@cdktn/provider-aws.iamPolicy.IamPolicy",
 		"tfResourceType",
 		&returns,
 	)
@@ -1045,6 +1080,14 @@ func (i *jsiiProxy_IamPolicy) OverrideLogicalId(newLogicalId *string) {
 		i,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (i *jsiiProxy_IamPolicy) ResetDelayAfterPolicyCreationInMs() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDelayAfterPolicyCreationInMs",
+		nil, // no parameters
 	)
 }
 

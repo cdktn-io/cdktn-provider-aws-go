@@ -5,9 +5,9 @@ package bedrockinferenceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockinferenceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockinferenceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewBedrockInferenceProfileModelSourceOutputReference(terraformResource cdkt
 	j := jsiiProxy_BedrockInferenceProfileModelSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewBedrockInferenceProfileModelSourceOutputReference_Override(b BedrockInfe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

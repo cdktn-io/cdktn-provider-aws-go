@@ -5,9 +5,9 @@ package dataawsec2transitgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2transitgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsEc2TransitGatewayFilterList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsEc2TransitGatewayFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsEc2TransitGatewayFilterList_Override(d DataAwsEc2TransitGatewayFi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsEc2TransitGateway.DataAwsEc2TransitGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		reflect.TypeOf((*DmsCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificateConfig",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificateConfig",
 		reflect.TypeOf((*DmsCertificateConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package sagemakerendpointconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerendpointconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerendpointconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration}.
 type SagemakerEndpointConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_SagemakerEndpointConfiguration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource.
 func NewSagemakerEndpointConfiguration(scope constructs.Construct, id *string, config *SagemakerEndpointConfigurationConfig) SagemakerEndpointConfiguration {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewSagemakerEndpointConfiguration(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SagemakerEndpointConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,12 +602,12 @@ func NewSagemakerEndpointConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_endpoint_configuration aws_sagemaker_endpoint_configuration} Resource.
 func NewSagemakerEndpointConfiguration_Override(s SagemakerEndpointConfiguration, scope constructs.Construct, id *string, config *SagemakerEndpointConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -779,7 +779,7 @@ func SagemakerEndpointConfiguration_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -814,7 +814,7 @@ func SagemakerEndpointConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -833,7 +833,7 @@ func SagemakerEndpointConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func SagemakerEndpointConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -865,7 +865,7 @@ func SagemakerEndpointConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfiguration",
 		"tfResourceType",
 		&returns,
 	)

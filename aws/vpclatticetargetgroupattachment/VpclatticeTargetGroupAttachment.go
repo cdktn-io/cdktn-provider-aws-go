@@ -5,14 +5,14 @@ package vpclatticetargetgroupattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticetargetgroupattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticetargetgroupattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment}.
 type VpclatticeTargetGroupAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_VpclatticeTargetGroupAttachment) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment} Resource.
 func NewVpclatticeTargetGroupAttachment(scope constructs.Construct, id *string, config *VpclatticeTargetGroupAttachmentConfig) VpclatticeTargetGroupAttachment {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewVpclatticeTargetGroupAttachment(scope constructs.Construct, id *string, 
 	j := jsiiProxy_VpclatticeTargetGroupAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewVpclatticeTargetGroupAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group_attachment aws_vpclattice_target_group_attachment} Resource.
 func NewVpclatticeTargetGroupAttachment_Override(v VpclatticeTargetGroupAttachment, scope constructs.Construct, id *string, config *VpclatticeTargetGroupAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -544,7 +544,7 @@ func VpclatticeTargetGroupAttachment_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func VpclatticeTargetGroupAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func VpclatticeTargetGroupAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func VpclatticeTargetGroupAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func VpclatticeTargetGroupAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
+		"@cdktn/provider-aws.vpclatticeTargetGroupAttachment.VpclatticeTargetGroupAttachment",
 		"tfResourceType",
 		&returns,
 	)

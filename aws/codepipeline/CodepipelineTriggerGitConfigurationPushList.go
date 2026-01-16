@@ -5,9 +5,9 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCodepipelineTriggerGitConfigurationPushList(terraformResource cdktf.IInt
 	j := jsiiProxy_CodepipelineTriggerGitConfigurationPushList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCodepipelineTriggerGitConfigurationPushList_Override(c CodepipelineTrigg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

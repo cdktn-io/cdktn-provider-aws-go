@@ -5,14 +5,14 @@ package s3bucketintelligenttieringconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketintelligenttieringconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketintelligenttieringconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
 type S3BucketIntelligentTieringConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) TieringInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) S3BucketIntelligentTieringConfiguration {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *
 	j := jsiiProxy_S3BucketIntelligentTieringConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration_Override(s S3BucketIntelligentTieringConfiguration, scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func S3BucketIntelligentTieringConfiguration_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func S3BucketIntelligentTieringConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func S3BucketIntelligentTieringConfiguration_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func S3BucketIntelligentTieringConfiguration_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func S3BucketIntelligentTieringConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
+		"@cdktn/provider-aws.s3BucketIntelligentTieringConfiguration.S3BucketIntelligentTieringConfiguration",
 		"tfResourceType",
 		&returns,
 	)

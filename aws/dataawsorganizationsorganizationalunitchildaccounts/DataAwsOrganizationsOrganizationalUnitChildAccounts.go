@@ -5,14 +5,14 @@ package dataawsorganizationsorganizationalunitchildaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitchildaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitchildaccounts/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
 type DataAwsOrganizationsOrganizationalUnitChildAccounts interface {
 	cdktf.TerraformDataSource
 	Accounts() DataAwsOrganizationsOrganizationalUnitChildAccountsAccountsList
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitChildAccounts) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) DataAwsOrganizationsOrganizationalUnitChildAccounts {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Con
 	j := jsiiProxy_DataAwsOrganizationsOrganizationalUnitChildAccounts{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts_Override(d DataAwsOrganizationsOrganizationalUnitChildAccounts, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsOrganizationsOrganizationalUnitChildAccounts_GenerateConfigForImport
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsOrganizationsOrganizationalUnitChildAccounts_IsConstruct(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsOrganizationsOrganizationalUnitChildAccounts_IsTerraformDataSource(x
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsOrganizationsOrganizationalUnitChildAccounts_IsTerraformElement(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsOrganizationsOrganizationalUnitChildAccounts_TfResourceType() *strin
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitChildAccounts.DataAwsOrganizationsOrganizationalUnitChildAccounts",
 		"tfResourceType",
 		&returns,
 	)

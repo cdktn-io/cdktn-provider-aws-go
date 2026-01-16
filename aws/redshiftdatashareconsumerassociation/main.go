@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		reflect.TypeOf((*RedshiftDataShareConsumerAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociationConfig",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociationConfig",
 		reflect.TypeOf((*RedshiftDataShareConsumerAssociationConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package dataawsebsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsebsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsebsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsEbsVolumeTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsEbsVolumeTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsEbsVolumeTimeoutsOutputReference_Override(d DataAwsEbsVolumeTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

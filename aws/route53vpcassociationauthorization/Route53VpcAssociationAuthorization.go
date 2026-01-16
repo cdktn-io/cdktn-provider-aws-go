@@ -5,14 +5,14 @@ package route53vpcassociationauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53vpcassociationauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53vpcassociationauthorization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
 type Route53VpcAssociationAuthorization interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) Route53VpcAssociationAuthorization {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *strin
 	j := jsiiProxy_Route53VpcAssociationAuthorization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization_Override(r Route53VpcAssociationAuthorization, scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -555,7 +555,7 @@ func Route53VpcAssociationAuthorization_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func Route53VpcAssociationAuthorization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func Route53VpcAssociationAuthorization_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func Route53VpcAssociationAuthorization_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func Route53VpcAssociationAuthorization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		"tfResourceType",
 		&returns,
 	)

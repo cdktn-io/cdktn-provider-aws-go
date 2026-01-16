@@ -5,14 +5,14 @@ package dataawslicensemanagergrants
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslicensemanagergrants/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslicensemanagergrants/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants}.
 type DataAwsLicensemanagerGrants interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerGrants) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants} Data Source.
 func NewDataAwsLicensemanagerGrants(scope constructs.Construct, id *string, config *DataAwsLicensemanagerGrantsConfig) DataAwsLicensemanagerGrants {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsLicensemanagerGrants(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsLicensemanagerGrants{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsLicensemanagerGrants(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_grants aws_licensemanager_grants} Data Source.
 func NewDataAwsLicensemanagerGrants_Override(d DataAwsLicensemanagerGrants, scope constructs.Construct, id *string, config *DataAwsLicensemanagerGrantsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -431,7 +431,7 @@ func DataAwsLicensemanagerGrants_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -466,7 +466,7 @@ func DataAwsLicensemanagerGrants_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsLicensemanagerGrants_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsLicensemanagerGrants_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsLicensemanagerGrants_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		"tfResourceType",
 		&returns,
 	)

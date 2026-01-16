@@ -5,9 +5,9 @@ package dataawsconnectuserhierarchygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectuserhierarchygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectuserhierarchygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList(terraformReso
 	j := jsiiProxy_DataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUserHierarchyGroup.DataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList",
+		"@cdktn/provider-aws.dataAwsConnectUserHierarchyGroup.DataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList_Override(d Da
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUserHierarchyGroup.DataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList",
+		"@cdktn/provider-aws.dataAwsConnectUserHierarchyGroup.DataAwsConnectUserHierarchyGroupHierarchyPathLevelFourList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

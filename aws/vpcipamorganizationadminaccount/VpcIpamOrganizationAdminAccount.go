@@ -5,14 +5,14 @@ package vpcipamorganizationadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipamorganizationadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamorganizationadminaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
 type VpcIpamOrganizationAdminAccount interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_VpcIpamOrganizationAdminAccount) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) VpcIpamOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, 
 	j := jsiiProxy_VpcIpamOrganizationAdminAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -395,12 +395,12 @@ func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount_Override(v VpcIpamOrganizationAdminAccount, scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -506,7 +506,7 @@ func VpcIpamOrganizationAdminAccount_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -541,7 +541,7 @@ func VpcIpamOrganizationAdminAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func VpcIpamOrganizationAdminAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +579,7 @@ func VpcIpamOrganizationAdminAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func VpcIpamOrganizationAdminAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
+		"@cdktn/provider-aws.vpcIpamOrganizationAdminAccount.VpcIpamOrganizationAdminAccount",
 		"tfResourceType",
 		&returns,
 	)

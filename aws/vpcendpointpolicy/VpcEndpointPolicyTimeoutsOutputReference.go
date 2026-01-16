@@ -5,9 +5,9 @@ package vpcendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewVpcEndpointPolicyTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_VpcEndpointPolicyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewVpcEndpointPolicyTimeoutsOutputReference_Override(v VpcEndpointPolicyTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

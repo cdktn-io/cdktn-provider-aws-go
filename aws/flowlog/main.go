@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		reflect.TypeOf((*FlowLog)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.flowLog.FlowLogConfig",
+		"@cdktn/provider-aws.flowLog.FlowLogConfig",
 		reflect.TypeOf((*FlowLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.flowLog.FlowLogDestinationOptions",
+		"@cdktn/provider-aws.flowLog.FlowLogDestinationOptions",
 		reflect.TypeOf((*FlowLogDestinationOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
+		"@cdktn/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
 		reflect.TypeOf((*FlowLogDestinationOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

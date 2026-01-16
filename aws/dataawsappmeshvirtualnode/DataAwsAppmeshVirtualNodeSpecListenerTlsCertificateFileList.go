@@ -5,9 +5,9 @@ package dataawsappmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshvirtualnode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshvirtualnode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList(terraformRes
 	j := jsiiProxy_DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList_Override(d D
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList",
+		"@cdktn/provider-aws.dataAwsAppmeshVirtualNode.DataAwsAppmeshVirtualNodeSpecListenerTlsCertificateFileList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

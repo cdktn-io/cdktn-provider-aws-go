@@ -5,9 +5,9 @@ package emrinstancegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrinstancegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrinstancegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEmrInstanceGroupEbsConfigList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_EmrInstanceGroupEbsConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEmrInstanceGroupEbsConfigList_Override(e EmrInstanceGroupEbsConfigList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroupEbsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

@@ -5,9 +5,9 @@ package fsxdatarepositoryassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxdatarepositoryassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxdatarepositoryassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFsxDataRepositoryAssociationTimeoutsOutputReference(terraformResource cd
 	j := jsiiProxy_FsxDataRepositoryAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFsxDataRepositoryAssociationTimeoutsOutputReference_Override(f FsxDataRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxDataRepositoryAssociation.FsxDataRepositoryAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

@@ -5,9 +5,9 @@ package sagemakerworkteam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerworkteam/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerworkteam/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsO
 	j := jsiiProxy_SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

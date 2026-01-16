@@ -5,14 +5,14 @@ package cognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool aws_cognito_user_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool aws_cognito_user_pool}.
 type CognitoUserPool interface {
 	cdktf.TerraformResource
 	AccountRecoverySetting() CognitoUserPoolAccountRecoverySettingOutputReference
@@ -1106,7 +1106,7 @@ func (j *jsiiProxy_CognitoUserPool) WebAuthnConfigurationInput() *CognitoUserPoo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
 func NewCognitoUserPool(scope constructs.Construct, id *string, config *CognitoUserPoolConfig) CognitoUserPool {
 	_init_.Initialize()
 
@@ -1116,7 +1116,7 @@ func NewCognitoUserPool(scope constructs.Construct, id *string, config *CognitoU
 	j := jsiiProxy_CognitoUserPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1124,12 +1124,12 @@ func NewCognitoUserPool(scope constructs.Construct, id *string, config *CognitoU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool aws_cognito_user_pool} Resource.
 func NewCognitoUserPool_Override(c CognitoUserPool, scope constructs.Construct, id *string, config *CognitoUserPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1378,7 +1378,7 @@ func CognitoUserPool_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1413,7 +1413,7 @@ func CognitoUserPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1432,7 +1432,7 @@ func CognitoUserPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1451,7 +1451,7 @@ func CognitoUserPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1464,7 +1464,7 @@ func CognitoUserPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPool",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPool",
 		"tfResourceType",
 		&returns,
 	)

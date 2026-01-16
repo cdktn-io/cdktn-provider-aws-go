@@ -5,14 +5,14 @@ package transferuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_user aws_transfer_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_user aws_transfer_user}.
 type TransferUser interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -606,7 +606,7 @@ func (j *jsiiProxy_TransferUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser(scope constructs.Construct, id *string, config *TransferUserConfig) TransferUser {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewTransferUser(scope constructs.Construct, id *string, config *TransferUse
 	j := jsiiProxy_TransferUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -624,12 +624,12 @@ func NewTransferUser(scope constructs.Construct, id *string, config *TransferUse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser_Override(t TransferUser, scope constructs.Construct, id *string, config *TransferUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -823,7 +823,7 @@ func TransferUser_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -858,7 +858,7 @@ func TransferUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func TransferUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func TransferUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func TransferUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		"tfResourceType",
 		&returns,
 	)

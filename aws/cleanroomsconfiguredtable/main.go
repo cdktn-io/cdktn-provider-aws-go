@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		reflect.TypeOf((*CleanroomsConfiguredTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableConfig",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableConfig",
 		reflect.TypeOf((*CleanroomsConfiguredTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTableReference",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTableReference",
 		reflect.TypeOf((*CleanroomsConfiguredTableTableReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTableReferenceOutputReference",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTableReferenceOutputReference",
 		reflect.TypeOf((*CleanroomsConfiguredTableTableReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTimeouts",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTimeouts",
 		reflect.TypeOf((*CleanroomsConfiguredTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTimeoutsOutputReference",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTableTimeoutsOutputReference",
 		reflect.TypeOf((*CleanroomsConfiguredTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

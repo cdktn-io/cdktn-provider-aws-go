@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMap",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMap",
 		reflect.TypeOf((*DataAwsLocationMap)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfig",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfig",
 		reflect.TypeOf((*DataAwsLocationMapConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfiguration",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfiguration",
 		reflect.TypeOf((*DataAwsLocationMapConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationList",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationList",
 		reflect.TypeOf((*DataAwsLocationMapConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsLocationMapConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

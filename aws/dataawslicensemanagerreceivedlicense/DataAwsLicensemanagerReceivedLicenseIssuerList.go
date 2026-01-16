@@ -5,9 +5,9 @@ package dataawslicensemanagerreceivedlicense
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslicensemanagerreceivedlicense/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslicensemanagerreceivedlicense/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLicensemanagerReceivedLicenseIssuerList(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsLicensemanagerReceivedLicenseIssuerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicenseIssuerList",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicenseIssuerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLicensemanagerReceivedLicenseIssuerList_Override(d DataAwsLicense
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicenseIssuerList",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicenseIssuerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

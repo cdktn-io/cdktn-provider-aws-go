@@ -5,14 +5,14 @@ package ssoadminapplicationaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminapplicationaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplicationaccessscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
 type SsoadminApplicationAccessScope interface {
 	cdktf.TerraformResource
 	ApplicationArn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) SsoadminApplicationAccessScope {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SsoadminApplicationAccessScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope_Override(s SsoadminApplicationAccessScope, scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -542,7 +542,7 @@ func SsoadminApplicationAccessScope_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func SsoadminApplicationAccessScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func SsoadminApplicationAccessScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func SsoadminApplicationAccessScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func SsoadminApplicationAccessScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawsmemorydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmemorydbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmemorydbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsMemorydbClusterShardsNodesList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsMemorydbClusterShardsNodesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsNodesList",
+		"@cdktn/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsMemorydbClusterShardsNodesList_Override(d DataAwsMemorydbClusterS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsNodesList",
+		"@cdktn/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

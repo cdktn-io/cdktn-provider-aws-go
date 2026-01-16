@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroup.DataAwsCognitoUserGroup",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroup.DataAwsCognitoUserGroup",
 		reflect.TypeOf((*DataAwsCognitoUserGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroup.DataAwsCognitoUserGroupConfig",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroup.DataAwsCognitoUserGroupConfig",
 		reflect.TypeOf((*DataAwsCognitoUserGroupConfig)(nil)).Elem(),
 	)
 }

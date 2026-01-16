@@ -5,9 +5,9 @@ package medialivechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialivechannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialivechannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMedialiveChannelEncoderSettingsOutputGroupsList(terraformResource cdktf.
 	j := jsiiProxy_MedialiveChannelEncoderSettingsOutputGroupsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList",
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMedialiveChannelEncoderSettingsOutputGroupsList_Override(m MedialiveChan
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList",
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

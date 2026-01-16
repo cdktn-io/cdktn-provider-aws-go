@@ -5,14 +5,14 @@ package macie2classificationjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2classificationjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2classificationjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_classification_job aws_macie2_classification_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_job aws_macie2_classification_job}.
 type Macie2ClassificationJob interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -688,7 +688,7 @@ func (j *jsiiProxy_Macie2ClassificationJob) UserPausedDetails() Macie2Classifica
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource.
 func NewMacie2ClassificationJob(scope constructs.Construct, id *string, config *Macie2ClassificationJobConfig) Macie2ClassificationJob {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewMacie2ClassificationJob(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_Macie2ClassificationJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -706,12 +706,12 @@ func NewMacie2ClassificationJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_job aws_macie2_classification_job} Resource.
 func NewMacie2ClassificationJob_Override(m Macie2ClassificationJob, scope constructs.Construct, id *string, config *Macie2ClassificationJobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -927,7 +927,7 @@ func Macie2ClassificationJob_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -962,7 +962,7 @@ func Macie2ClassificationJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func Macie2ClassificationJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1000,7 +1000,7 @@ func Macie2ClassificationJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1013,7 +1013,7 @@ func Macie2ClassificationJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJob",
 		"tfResourceType",
 		&returns,
 	)

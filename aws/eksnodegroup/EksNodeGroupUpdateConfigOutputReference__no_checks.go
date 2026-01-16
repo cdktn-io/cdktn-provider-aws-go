@@ -79,6 +79,10 @@ func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetTerraform
 	return nil
 }
 
+func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) validateSetUpdateStrategyParameters(val *string) error {
+	return nil
+}
+
 func validateNewEksNodeGroupUpdateConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

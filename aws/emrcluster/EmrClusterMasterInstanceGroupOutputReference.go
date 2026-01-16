@@ -5,9 +5,9 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -289,7 +289,7 @@ func NewEmrClusterMasterInstanceGroupOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_EmrClusterMasterInstanceGroupOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -301,7 +301,7 @@ func NewEmrClusterMasterInstanceGroupOutputReference_Override(e EmrClusterMaster
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

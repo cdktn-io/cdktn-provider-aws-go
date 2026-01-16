@@ -5,9 +5,9 @@ package sagemakerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewSagemakerAppResourceSpecOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_SagemakerAppResourceSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerAppResourceSpecOutputReference",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerAppResourceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewSagemakerAppResourceSpecOutputReference_Override(s SagemakerAppResourceS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerAppResourceSpecOutputReference",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerAppResourceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

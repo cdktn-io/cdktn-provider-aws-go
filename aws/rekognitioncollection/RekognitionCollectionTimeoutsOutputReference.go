@@ -5,9 +5,9 @@ package rekognitioncollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitioncollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitioncollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewRekognitionCollectionTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_RekognitionCollectionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionCollection.RekognitionCollectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionCollection.RekognitionCollectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewRekognitionCollectionTimeoutsOutputReference_Override(r RekognitionColle
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionCollection.RekognitionCollectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionCollection.RekognitionCollectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

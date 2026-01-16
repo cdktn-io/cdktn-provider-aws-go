@@ -5,14 +5,14 @@ package dataawsmemorydbuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmemorydbuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmemorydbuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_user aws_memorydb_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_user aws_memorydb_user}.
 type DataAwsMemorydbUser interface {
 	cdktf.TerraformDataSource
 	AccessString() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsMemorydbUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_user aws_memorydb_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_user aws_memorydb_user} Data Source.
 func NewDataAwsMemorydbUser(scope constructs.Construct, id *string, config *DataAwsMemorydbUserConfig) DataAwsMemorydbUser {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsMemorydbUser(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsMemorydbUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAwsMemorydbUser(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_user aws_memorydb_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_user aws_memorydb_user} Data Source.
 func NewDataAwsMemorydbUser_Override(d DataAwsMemorydbUser, scope constructs.Construct, id *string, config *DataAwsMemorydbUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsMemorydbUser_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsMemorydbUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsMemorydbUser_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsMemorydbUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsMemorydbUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		"tfResourceType",
 		&returns,
 	)

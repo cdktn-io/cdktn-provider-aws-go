@@ -5,9 +5,9 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewCloudfrontDistributionOriginOriginShieldOutputReference(terraformResourc
 	j := jsiiProxy_CloudfrontDistributionOriginOriginShieldOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewCloudfrontDistributionOriginOriginShieldOutputReference_Override(c Cloud
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

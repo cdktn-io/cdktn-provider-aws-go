@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganization",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganization",
 		reflect.TypeOf((*OrganizationsOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationAccounts",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationAccounts",
 		reflect.TypeOf((*OrganizationsOrganizationAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationAccountsList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationAccountsList",
 		reflect.TypeOf((*OrganizationsOrganizationAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationAccountsOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationAccountsOutputReference",
 		reflect.TypeOf((*OrganizationsOrganizationAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -148,15 +148,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationConfig",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationConfig",
 		reflect.TypeOf((*OrganizationsOrganizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccounts",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccounts",
 		reflect.TypeOf((*OrganizationsOrganizationNonMasterAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsList",
 		reflect.TypeOf((*OrganizationsOrganizationNonMasterAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -177,7 +177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
 		reflect.TypeOf((*OrganizationsOrganizationNonMasterAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -217,11 +217,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRoots",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRoots",
 		reflect.TypeOf((*OrganizationsOrganizationRoots)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
 		reflect.TypeOf((*OrganizationsOrganizationRootsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -242,7 +242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsOutputReference",
 		reflect.TypeOf((*OrganizationsOrganizationRootsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypes",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypes",
 		reflect.TypeOf((*OrganizationsOrganizationRootsPolicyTypes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesList",
 		reflect.TypeOf((*OrganizationsOrganizationRootsPolicyTypesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -303,7 +303,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
 		reflect.TypeOf((*OrganizationsOrganizationRootsPolicyTypesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

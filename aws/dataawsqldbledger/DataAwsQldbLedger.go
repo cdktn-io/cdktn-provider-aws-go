@@ -5,14 +5,14 @@ package dataawsqldbledger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsqldbledger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsqldbledger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/qldb_ledger aws_qldb_ledger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/qldb_ledger aws_qldb_ledger}.
 type DataAwsQldbLedger interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsQldbLedger) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/qldb_ledger aws_qldb_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/qldb_ledger aws_qldb_ledger} Data Source.
 func NewDataAwsQldbLedger(scope constructs.Construct, id *string, config *DataAwsQldbLedgerConfig) DataAwsQldbLedger {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsQldbLedger(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsQldbLedger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAwsQldbLedger(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/qldb_ledger aws_qldb_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/qldb_ledger aws_qldb_ledger} Data Source.
 func NewDataAwsQldbLedger_Override(d DataAwsQldbLedger, scope constructs.Construct, id *string, config *DataAwsQldbLedgerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsQldbLedger_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsQldbLedger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsQldbLedger_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsQldbLedger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsQldbLedger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
+		"@cdktn/provider-aws.dataAwsQldbLedger.DataAwsQldbLedger",
 		"tfResourceType",
 		&returns,
 	)

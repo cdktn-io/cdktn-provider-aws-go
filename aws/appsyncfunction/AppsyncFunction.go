@@ -5,14 +5,14 @@ package appsyncfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_function aws_appsync_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_function aws_appsync_function}.
 type AppsyncFunction interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_AppsyncFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_function aws_appsync_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_function aws_appsync_function} Resource.
 func NewAppsyncFunction(scope constructs.Construct, id *string, config *AppsyncFunctionConfig) AppsyncFunction {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewAppsyncFunction(scope constructs.Construct, id *string, config *AppsyncF
 	j := jsiiProxy_AppsyncFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewAppsyncFunction(scope constructs.Construct, id *string, config *AppsyncF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_function aws_appsync_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_function aws_appsync_function} Resource.
 func NewAppsyncFunction_Override(a AppsyncFunction, scope constructs.Construct, id *string, config *AppsyncFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -845,7 +845,7 @@ func AppsyncFunction_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -880,7 +880,7 @@ func AppsyncFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -899,7 +899,7 @@ func AppsyncFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func AppsyncFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +931,7 @@ func AppsyncFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		"tfResourceType",
 		&returns,
 	)

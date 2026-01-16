@@ -5,9 +5,9 @@ package backupframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupframework/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupframework/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewBackupFrameworkControlOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_BackupFrameworkControlOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupFramework.BackupFrameworkControlOutputReference",
+		"@cdktn/provider-aws.backupFramework.BackupFrameworkControlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewBackupFrameworkControlOutputReference_Override(b BackupFrameworkControlO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupFramework.BackupFrameworkControlOutputReference",
+		"@cdktn/provider-aws.backupFramework.BackupFrameworkControlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

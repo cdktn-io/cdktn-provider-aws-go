@@ -5,9 +5,9 @@ package dataawsvpcsecuritygrouprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcsecuritygrouprule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcsecuritygrouprule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsVpcSecurityGroupRuleFilterOutputReference(terraformResource cdktf
 	j := jsiiProxy_DataAwsVpcSecurityGroupRuleFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcSecurityGroupRule.DataAwsVpcSecurityGroupRuleFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcSecurityGroupRule.DataAwsVpcSecurityGroupRuleFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsVpcSecurityGroupRuleFilterOutputReference_Override(d DataAwsVpcSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcSecurityGroupRule.DataAwsVpcSecurityGroupRuleFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcSecurityGroupRule.DataAwsVpcSecurityGroupRuleFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

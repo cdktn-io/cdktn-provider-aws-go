@@ -5,9 +5,9 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOdbCloudVmClusterTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_OdbCloudVmClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOdbCloudVmClusterTimeoutsOutputReference_Override(o OdbCloudVmClusterTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

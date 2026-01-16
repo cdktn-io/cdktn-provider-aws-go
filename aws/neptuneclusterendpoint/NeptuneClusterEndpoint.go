@@ -5,14 +5,14 @@ package neptuneclusterendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptuneclusterendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptuneclusterendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint}.
 type NeptuneClusterEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_NeptuneClusterEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
 func NewNeptuneClusterEndpoint(scope constructs.Construct, id *string, config *NeptuneClusterEndpointConfig) NeptuneClusterEndpoint {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewNeptuneClusterEndpoint(scope constructs.Construct, id *string, config *N
 	j := jsiiProxy_NeptuneClusterEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewNeptuneClusterEndpoint(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
 func NewNeptuneClusterEndpoint_Override(n NeptuneClusterEndpoint, scope constructs.Construct, id *string, config *NeptuneClusterEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -727,7 +727,7 @@ func NeptuneClusterEndpoint_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func NeptuneClusterEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func NeptuneClusterEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func NeptuneClusterEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func NeptuneClusterEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		"tfResourceType",
 		&returns,
 	)

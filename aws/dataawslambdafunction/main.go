@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		reflect.TypeOf((*DataAwsLambdaFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetQualifier", GoMethod: "ResetQualifier"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberProperty{JsiiProperty: "responseStreamingInvokeArn", GoGetter: "ResponseStreamingInvokeArn"},
 			_jsii_.MemberProperty{JsiiProperty: "role", GoGetter: "Role"},
 			_jsii_.MemberProperty{JsiiProperty: "runtime", GoGetter: "Runtime"},
 			_jsii_.MemberProperty{JsiiProperty: "signingJobArn", GoGetter: "SigningJobArn"},
@@ -103,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderArn", GoGetter: "CapacityProviderArn"},
@@ -167,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +189,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionCapacityProviderConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionCapacityProviderConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,15 +222,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionDeadLetterConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +251,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDeadLetterConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -283,11 +284,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionDurableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionDurableConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -308,7 +309,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionDurableConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionDurableConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -342,11 +343,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironment",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironment",
 		reflect.TypeOf((*DataAwsLambdaFunctionEnvironment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironmentList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironmentList",
 		reflect.TypeOf((*DataAwsLambdaFunctionEnvironmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -367,7 +368,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironmentOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEnvironmentOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionEnvironmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -400,11 +401,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorage",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorage",
 		reflect.TypeOf((*DataAwsLambdaFunctionEphemeralStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorageList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorageList",
 		reflect.TypeOf((*DataAwsLambdaFunctionEphemeralStorageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -425,7 +426,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorageOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionEphemeralStorageOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionEphemeralStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,11 +459,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionFileSystemConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -483,7 +484,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionFileSystemConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionFileSystemConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -517,11 +518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionLoggingConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -542,7 +543,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionLoggingConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationLogLevel", GoGetter: "ApplicationLogLevel"},
@@ -578,11 +579,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionTenancyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionTenancyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -603,7 +604,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTenancyConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionTenancyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -636,11 +637,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionTracingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionTracingConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -661,7 +662,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionTracingConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionTracingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -694,11 +695,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigList",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigList",
 		reflect.TypeOf((*DataAwsLambdaFunctionVpcConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -719,7 +720,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

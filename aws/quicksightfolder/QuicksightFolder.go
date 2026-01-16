@@ -5,14 +5,14 @@ package quicksightfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightfolder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_folder aws_quicksight_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_folder aws_quicksight_folder}.
 type QuicksightFolder interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_QuicksightFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
 func NewQuicksightFolder(scope constructs.Construct, id *string, config *QuicksightFolderConfig) QuicksightFolder {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewQuicksightFolder(scope constructs.Construct, id *string, config *Quicksi
 	j := jsiiProxy_QuicksightFolder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewQuicksightFolder(scope constructs.Construct, id *string, config *Quicksi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_folder aws_quicksight_folder} Resource.
 func NewQuicksightFolder_Override(q QuicksightFolder, scope constructs.Construct, id *string, config *QuicksightFolderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -799,7 +799,7 @@ func QuicksightFolder_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func QuicksightFolder_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func QuicksightFolder_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func QuicksightFolder_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func QuicksightFolder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperience",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperience",
 		reflect.TypeOf((*DataAwsKendraExperience)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,19 +75,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfig",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfig",
 		reflect.TypeOf((*DataAwsKendraExperienceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfiguration",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfiguration",
 		reflect.TypeOf((*DataAwsKendraExperienceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfiguration",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfiguration",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationContentSourceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfigurationList",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfigurationList",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationContentSourceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationContentSourceConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationContentSourceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,7 +143,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationList",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationList",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfiguration",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfiguration",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationUserIdentityConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfigurationList",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfigurationList",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationUserIdentityConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceConfigurationUserIdentityConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsKendraExperienceConfigurationUserIdentityConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -256,11 +256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpoints",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpoints",
 		reflect.TypeOf((*DataAwsKendraExperienceEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpointsList",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpointsList",
 		reflect.TypeOf((*DataAwsKendraExperienceEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -281,7 +281,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpointsOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraExperience.DataAwsKendraExperienceEndpointsOutputReference",
 		reflect.TypeOf((*DataAwsKendraExperienceEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

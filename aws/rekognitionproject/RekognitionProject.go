@@ -5,14 +5,14 @@ package rekognitionproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitionproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitionproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_project aws_rekognition_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_project aws_rekognition_project}.
 type RekognitionProject interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_RekognitionProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
 func NewRekognitionProject(scope constructs.Construct, id *string, config *RekognitionProjectConfig) RekognitionProject {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewRekognitionProject(scope constructs.Construct, id *string, config *Rekog
 	j := jsiiProxy_RekognitionProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewRekognitionProject(scope constructs.Construct, id *string, config *Rekog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_project aws_rekognition_project} Resource.
 func NewRekognitionProject_Override(r RekognitionProject, scope constructs.Construct, id *string, config *RekognitionProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -624,7 +624,7 @@ func RekognitionProject_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func RekognitionProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func RekognitionProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func RekognitionProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func RekognitionProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		"tfResourceType",
 		&returns,
 	)

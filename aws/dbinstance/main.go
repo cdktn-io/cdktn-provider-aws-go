@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		reflect.TypeOf((*DbInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -288,6 +288,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "upgradeRolloutOrder", GoGetter: "UpgradeRolloutOrder"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradeStorageConfig", GoGetter: "UpgradeStorageConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradeStorageConfigInput", GoGetter: "UpgradeStorageConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
@@ -302,11 +303,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceBlueGreenUpdate",
+		"@cdktn/provider-aws.dbInstance.DbInstanceBlueGreenUpdate",
 		reflect.TypeOf((*DbInstanceBlueGreenUpdate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceBlueGreenUpdateOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceBlueGreenUpdateOutputReference",
 		reflect.TypeOf((*DbInstanceBlueGreenUpdateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -341,15 +342,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceConfig",
+		"@cdktn/provider-aws.dbInstance.DbInstanceConfig",
 		reflect.TypeOf((*DbInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceListenerEndpoint",
+		"@cdktn/provider-aws.dbInstance.DbInstanceListenerEndpoint",
 		reflect.TypeOf((*DbInstanceListenerEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceListenerEndpointList",
+		"@cdktn/provider-aws.dbInstance.DbInstanceListenerEndpointList",
 		reflect.TypeOf((*DbInstanceListenerEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -370,7 +371,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceListenerEndpointOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceListenerEndpointOutputReference",
 		reflect.TypeOf((*DbInstanceListenerEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -405,11 +406,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceMasterUserSecret",
+		"@cdktn/provider-aws.dbInstance.DbInstanceMasterUserSecret",
 		reflect.TypeOf((*DbInstanceMasterUserSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
+		"@cdktn/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
 		reflect.TypeOf((*DbInstanceMasterUserSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -430,7 +431,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceMasterUserSecretOutputReference",
 		reflect.TypeOf((*DbInstanceMasterUserSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -465,11 +466,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceRestoreToPointInTime",
+		"@cdktn/provider-aws.dbInstance.DbInstanceRestoreToPointInTime",
 		reflect.TypeOf((*DbInstanceRestoreToPointInTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceRestoreToPointInTimeOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceRestoreToPointInTimeOutputReference",
 		reflect.TypeOf((*DbInstanceRestoreToPointInTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -516,11 +517,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceS3Import",
+		"@cdktn/provider-aws.dbInstance.DbInstanceS3Import",
 		reflect.TypeOf((*DbInstanceS3Import)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceS3ImportOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceS3ImportOutputReference",
 		reflect.TypeOf((*DbInstanceS3ImportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -563,11 +564,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstance.DbInstanceTimeouts",
+		"@cdktn/provider-aws.dbInstance.DbInstanceTimeouts",
 		reflect.TypeOf((*DbInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstance.DbInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbInstance.DbInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*DbInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package dataawsdmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsDmsEndpointRedisSettingsList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsDmsEndpointRedisSettingsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsDmsEndpointRedisSettingsList_Override(d DataAwsDmsEndpointRedisSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

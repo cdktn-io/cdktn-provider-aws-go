@@ -5,9 +5,9 @@ package wafwebacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafwebacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafwebacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewWafWebAclLoggingConfigurationRedactedFieldsOutputReference(terraformReso
 	j := jsiiProxy_WafWebAclLoggingConfigurationRedactedFieldsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsOutputReference",
+		"@cdktn/provider-aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewWafWebAclLoggingConfigurationRedactedFieldsOutputReference_Override(w Wa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsOutputReference",
+		"@cdktn/provider-aws.wafWebAcl.WafWebAclLoggingConfigurationRedactedFieldsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

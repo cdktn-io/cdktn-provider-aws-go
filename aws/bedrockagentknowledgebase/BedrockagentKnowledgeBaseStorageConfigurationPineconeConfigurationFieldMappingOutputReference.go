@@ -5,9 +5,9 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -70,8 +70,6 @@ type BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapp
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
-	ResetMetadataField()
-	ResetTextField()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -207,7 +205,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldM
 	j := jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +217,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldM
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -486,22 +484,6 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigur
 	)
 
 	return returns
-}
-
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference) ResetMetadataField() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetMetadataField",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference) ResetTextField() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetTextField",
-		nil, // no parameters
-	)
 }
 
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMappingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {

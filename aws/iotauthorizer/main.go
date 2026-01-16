@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		reflect.TypeOf((*IotAuthorizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizerConfig",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizerConfig",
 		reflect.TypeOf((*IotAuthorizerConfig)(nil)).Elem(),
 	)
 }

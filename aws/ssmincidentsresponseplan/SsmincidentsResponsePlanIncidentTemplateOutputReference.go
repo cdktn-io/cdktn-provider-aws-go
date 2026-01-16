@@ -5,9 +5,9 @@ package ssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmincidentsresponseplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmincidentsresponseplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -301,7 +301,7 @@ func NewSsmincidentsResponsePlanIncidentTemplateOutputReference(terraformResourc
 	j := jsiiProxy_SsmincidentsResponsePlanIncidentTemplateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -313,7 +313,7 @@ func NewSsmincidentsResponsePlanIncidentTemplateOutputReference_Override(s Ssmin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

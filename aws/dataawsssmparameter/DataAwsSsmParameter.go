@@ -5,14 +5,14 @@ package dataawsssmparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmparameter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameter aws_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameter aws_ssm_parameter}.
 type DataAwsSsmParameter interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAwsSsmParameter) WithDecryptionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
 func NewDataAwsSsmParameter(scope constructs.Construct, id *string, config *DataAwsSsmParameterConfig) DataAwsSsmParameter {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAwsSsmParameter(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsSsmParameter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAwsSsmParameter(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameter aws_ssm_parameter} Data Source.
 func NewDataAwsSsmParameter_Override(d DataAwsSsmParameter, scope constructs.Construct, id *string, config *DataAwsSsmParameterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAwsSsmParameter_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAwsSsmParameter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAwsSsmParameter_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsSsmParameter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsSsmParameter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
+		"@cdktn/provider-aws.dataAwsSsmParameter.DataAwsSsmParameter",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		reflect.TypeOf((*Route53RecoverycontrolconfigRoutingControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControlConfig",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControlConfig",
 		reflect.TypeOf((*Route53RecoverycontrolconfigRoutingControlConfig)(nil)).Elem(),
 	)
 }

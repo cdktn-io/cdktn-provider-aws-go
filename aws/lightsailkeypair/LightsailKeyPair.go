@@ -5,14 +5,14 @@ package lightsailkeypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailkeypair/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailkeypair/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair}.
 type LightsailKeyPair interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_LightsailKeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
 func NewLightsailKeyPair(scope constructs.Construct, id *string, config *LightsailKeyPairConfig) LightsailKeyPair {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewLightsailKeyPair(scope constructs.Construct, id *string, config *Lightsa
 	j := jsiiProxy_LightsailKeyPair{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewLightsailKeyPair(scope constructs.Construct, id *string, config *Lightsa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
 func NewLightsailKeyPair_Override(l LightsailKeyPair, scope constructs.Construct, id *string, config *LightsailKeyPairConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -728,7 +728,7 @@ func LightsailKeyPair_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func LightsailKeyPair_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func LightsailKeyPair_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func LightsailKeyPair_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func LightsailKeyPair_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		"tfResourceType",
 		&returns,
 	)

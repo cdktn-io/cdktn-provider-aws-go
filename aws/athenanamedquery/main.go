@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		reflect.TypeOf((*AthenaNamedQuery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQueryConfig",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQueryConfig",
 		reflect.TypeOf((*AthenaNamedQueryConfig)(nil)).Elem(),
 	)
 }

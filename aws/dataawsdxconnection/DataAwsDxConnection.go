@@ -5,14 +5,14 @@ package dataawsdxconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdxconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdxconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_connection aws_dx_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_connection aws_dx_connection}.
 type DataAwsDxConnection interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAwsDxConnection) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_connection aws_dx_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_connection aws_dx_connection} Data Source.
 func NewDataAwsDxConnection(scope constructs.Construct, id *string, config *DataAwsDxConnectionConfig) DataAwsDxConnection {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewDataAwsDxConnection(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsDxConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -453,12 +453,12 @@ func NewDataAwsDxConnection(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_connection aws_dx_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_connection aws_dx_connection} Data Source.
 func NewDataAwsDxConnection_Override(d DataAwsDxConnection, scope constructs.Construct, id *string, config *DataAwsDxConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -564,7 +564,7 @@ func DataAwsDxConnection_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func DataAwsDxConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func DataAwsDxConnection_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func DataAwsDxConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func DataAwsDxConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
+		"@cdktn/provider-aws.dataAwsDxConnection.DataAwsDxConnection",
 		"tfResourceType",
 		&returns,
 	)

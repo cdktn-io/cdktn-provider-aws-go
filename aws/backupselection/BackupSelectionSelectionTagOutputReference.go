@@ -5,9 +5,9 @@ package backupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewBackupSelectionSelectionTagOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_BackupSelectionSelectionTagOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionSelectionTagOutputReference",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionSelectionTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewBackupSelectionSelectionTagOutputReference_Override(b BackupSelectionSel
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionSelectionTagOutputReference",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionSelectionTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

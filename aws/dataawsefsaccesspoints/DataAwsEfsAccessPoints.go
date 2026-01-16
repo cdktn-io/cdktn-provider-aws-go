@@ -5,14 +5,14 @@ package dataawsefsaccesspoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsefsaccesspoints/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsefsaccesspoints/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/efs_access_points aws_efs_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/efs_access_points aws_efs_access_points}.
 type DataAwsEfsAccessPoints interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataAwsEfsAccessPoints) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/efs_access_points aws_efs_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/efs_access_points aws_efs_access_points} Data Source.
 func NewDataAwsEfsAccessPoints(scope constructs.Construct, id *string, config *DataAwsEfsAccessPointsConfig) DataAwsEfsAccessPoints {
 	_init_.Initialize()
 
@@ -344,7 +344,7 @@ func NewDataAwsEfsAccessPoints(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsEfsAccessPoints{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -352,12 +352,12 @@ func NewDataAwsEfsAccessPoints(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/efs_access_points aws_efs_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/efs_access_points aws_efs_access_points} Data Source.
 func NewDataAwsEfsAccessPoints_Override(d DataAwsEfsAccessPoints, scope constructs.Construct, id *string, config *DataAwsEfsAccessPointsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -452,7 +452,7 @@ func DataAwsEfsAccessPoints_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -487,7 +487,7 @@ func DataAwsEfsAccessPoints_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -506,7 +506,7 @@ func DataAwsEfsAccessPoints_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsEfsAccessPoints_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataAwsEfsAccessPoints_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		"tfResourceType",
 		&returns,
 	)

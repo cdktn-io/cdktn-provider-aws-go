@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZone",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZone",
 		reflect.TypeOf((*DataAwsAvailabilityZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneConfig",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneConfig",
 		reflect.TypeOf((*DataAwsAvailabilityZoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilter",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilter",
 		reflect.TypeOf((*DataAwsAvailabilityZoneFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilterList",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilterList",
 		reflect.TypeOf((*DataAwsAvailabilityZoneFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneFilterOutputReference",
 		reflect.TypeOf((*DataAwsAvailabilityZoneFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneTimeouts",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneTimeouts",
 		reflect.TypeOf((*DataAwsAvailabilityZoneTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAvailabilityZone.DataAwsAvailabilityZoneTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsAvailabilityZoneTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

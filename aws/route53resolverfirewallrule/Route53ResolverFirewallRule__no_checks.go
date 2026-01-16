@@ -111,11 +111,19 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) validateSetBlockResponseParamete
 	return nil
 }
 
+func (j *jsiiProxy_Route53ResolverFirewallRule) validateSetConfidenceThresholdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Route53ResolverFirewallRule) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_Route53ResolverFirewallRule) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule) validateSetDnsThreatProtectionParameters(val *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package memorydbmultiregioncluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbmultiregioncluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbmultiregioncluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster}.
 type MemorydbMultiRegionCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) MemorydbMultiRegionCluster {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_MemorydbMultiRegionCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -634,12 +634,12 @@ func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_multi_region_cluster aws_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster_Override(m MemorydbMultiRegionCluster, scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -844,7 +844,7 @@ func MemorydbMultiRegionCluster_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -879,7 +879,7 @@ func MemorydbMultiRegionCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func MemorydbMultiRegionCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func MemorydbMultiRegionCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -930,7 +930,7 @@ func MemorydbMultiRegionCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawscloudwatchlogdataprotectionpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatchlogdataprotectionpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatchlogdataprotectionpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document}.
 type DataAwsCloudwatchLogDataProtectionPolicyDocument interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument) VersionInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document} Data Source.
 func NewDataAwsCloudwatchLogDataProtectionPolicyDocument(scope constructs.Construct, id *string, config *DataAwsCloudwatchLogDataProtectionPolicyDocumentConfig) DataAwsCloudwatchLogDataProtectionPolicyDocument {
 	_init_.Initialize()
 
@@ -404,7 +404,7 @@ func NewDataAwsCloudwatchLogDataProtectionPolicyDocument(scope constructs.Constr
 	j := jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -412,12 +412,12 @@ func NewDataAwsCloudwatchLogDataProtectionPolicyDocument(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_data_protection_policy_document aws_cloudwatch_log_data_protection_policy_document} Data Source.
 func NewDataAwsCloudwatchLogDataProtectionPolicyDocument_Override(d DataAwsCloudwatchLogDataProtectionPolicyDocument, scope constructs.Construct, id *string, config *DataAwsCloudwatchLogDataProtectionPolicyDocumentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -523,7 +523,7 @@ func DataAwsCloudwatchLogDataProtectionPolicyDocument_GenerateConfigForImport(sc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -558,7 +558,7 @@ func DataAwsCloudwatchLogDataProtectionPolicyDocument_IsConstruct(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -577,7 +577,7 @@ func DataAwsCloudwatchLogDataProtectionPolicyDocument_IsTerraformDataSource(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsCloudwatchLogDataProtectionPolicyDocument_IsTerraformElement(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func DataAwsCloudwatchLogDataProtectionPolicyDocument_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogDataProtectionPolicyDocument.DataAwsCloudwatchLogDataProtectionPolicyDocument",
 		"tfResourceType",
 		&returns,
 	)

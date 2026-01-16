@@ -5,9 +5,9 @@ package dataawsecrlifecyclepolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecrlifecyclepolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecrlifecyclepolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -41,6 +41,9 @@ type DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	StorageClass() *string
+	SetStorageClass(val *string)
+	StorageClassInput() *string
 	TagPatternList() *[]*string
 	SetTagPatternList(val *[]*string)
 	TagPatternListInput() *[]*string
@@ -83,6 +86,7 @@ type DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetCountUnit()
+	ResetStorageClass()
 	ResetTagPatternList()
 	ResetTagPrefixList()
 	// Produce the Token's value at resolution time.
@@ -210,6 +214,26 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) StorageClass() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageClass",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) StorageClassInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageClassInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) TagPatternList() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -300,7 +324,7 @@ func NewDataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference(terraformR
 	j := jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -312,7 +336,7 @@ func NewDataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrLifecyclePolicyDocument.DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -380,6 +404,17 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference)SetStorageClass(val *string) {
+	if err := j.validateSetStorageClassParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageClass",
 		val,
 	)
 }
@@ -629,6 +664,14 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	_jsii_.InvokeVoid(
 		d,
 		"resetCountUnit",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) ResetStorageClass() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetStorageClass",
 		nil, // no parameters
 	)
 }

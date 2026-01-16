@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamSamlProvider.DataAwsIamSamlProvider",
+		"@cdktn/provider-aws.dataAwsIamSamlProvider.DataAwsIamSamlProvider",
 		reflect.TypeOf((*DataAwsIamSamlProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -47,6 +47,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberProperty{JsiiProperty: "samlMetadataDocument", GoGetter: "SamlMetadataDocument"},
+			_jsii_.MemberProperty{JsiiProperty: "samlProviderUuid", GoGetter: "SamlProviderUuid"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -67,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamSamlProvider.DataAwsIamSamlProviderConfig",
+		"@cdktn/provider-aws.dataAwsIamSamlProvider.DataAwsIamSamlProviderConfig",
 		reflect.TypeOf((*DataAwsIamSamlProviderConfig)(nil)).Elem(),
 	)
 }

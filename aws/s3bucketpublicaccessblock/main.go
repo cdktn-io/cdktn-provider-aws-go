@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketPublicAccessBlock.S3BucketPublicAccessBlock",
+		"@cdktn/provider-aws.s3BucketPublicAccessBlock.S3BucketPublicAccessBlock",
 		reflect.TypeOf((*S3BucketPublicAccessBlock)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketPublicAccessBlock.S3BucketPublicAccessBlockConfig",
+		"@cdktn/provider-aws.s3BucketPublicAccessBlock.S3BucketPublicAccessBlockConfig",
 		reflect.TypeOf((*S3BucketPublicAccessBlockConfig)(nil)).Elem(),
 	)
 }

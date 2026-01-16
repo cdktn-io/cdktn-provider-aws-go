@@ -5,14 +5,14 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_route aws_appmesh_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_route aws_appmesh_route}.
 type DataAwsAppmeshRoute interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_DataAwsAppmeshRoute) VirtualRouterNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_route aws_appmesh_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_route aws_appmesh_route} Data Source.
 func NewDataAwsAppmeshRoute(scope constructs.Construct, id *string, config *DataAwsAppmeshRouteConfig) DataAwsAppmeshRoute {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDataAwsAppmeshRoute(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsAppmeshRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewDataAwsAppmeshRoute(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appmesh_route aws_appmesh_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appmesh_route aws_appmesh_route} Data Source.
 func NewDataAwsAppmeshRoute_Override(d DataAwsAppmeshRoute, scope constructs.Construct, id *string, config *DataAwsAppmeshRouteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -623,7 +623,7 @@ func DataAwsAppmeshRoute_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func DataAwsAppmeshRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func DataAwsAppmeshRoute_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func DataAwsAppmeshRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func DataAwsAppmeshRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRoute",
 		"tfResourceType",
 		&returns,
 	)

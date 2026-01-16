@@ -5,14 +5,14 @@ package dataawsbatchcomputeenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbatchcomputeenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbatchcomputeenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment}.
 type DataAwsBatchComputeEnvironment interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsBatchComputeEnvironment) UpdatePolicy() DataAwsBatchCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
 func NewDataAwsBatchComputeEnvironment(scope constructs.Construct, id *string, config *DataAwsBatchComputeEnvironmentConfig) DataAwsBatchComputeEnvironment {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsBatchComputeEnvironment(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAwsBatchComputeEnvironment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -442,12 +442,12 @@ func NewDataAwsBatchComputeEnvironment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_compute_environment aws_batch_compute_environment} Data Source.
 func NewDataAwsBatchComputeEnvironment_Override(d DataAwsBatchComputeEnvironment, scope constructs.Construct, id *string, config *DataAwsBatchComputeEnvironmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -553,7 +553,7 @@ func DataAwsBatchComputeEnvironment_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func DataAwsBatchComputeEnvironment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func DataAwsBatchComputeEnvironment_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func DataAwsBatchComputeEnvironment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func DataAwsBatchComputeEnvironment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
+		"@cdktn/provider-aws.dataAwsBatchComputeEnvironment.DataAwsBatchComputeEnvironment",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dxtransitvirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxtransitvirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxtransitvirtualinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDxTransitVirtualInterfaceTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_DxTransitVirtualInterfaceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxTransitVirtualInterface.DxTransitVirtualInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxTransitVirtualInterface.DxTransitVirtualInterfaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDxTransitVirtualInterfaceTimeoutsOutputReference_Override(d DxTransitVir
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxTransitVirtualInterface.DxTransitVirtualInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxTransitVirtualInterface.DxTransitVirtualInterfaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

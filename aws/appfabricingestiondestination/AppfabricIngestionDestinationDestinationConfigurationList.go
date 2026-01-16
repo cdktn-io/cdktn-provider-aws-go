@@ -5,9 +5,9 @@ package appfabricingestiondestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppfabricIngestionDestinationDestinationConfigurationList(terraformResou
 	j := jsiiProxy_AppfabricIngestionDestinationDestinationConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationList",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppfabricIngestionDestinationDestinationConfigurationList_Override(a App
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationList",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationDestinationConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

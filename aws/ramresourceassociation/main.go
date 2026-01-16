@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramResourceAssociation.RamResourceAssociation",
+		"@cdktn/provider-aws.ramResourceAssociation.RamResourceAssociation",
 		reflect.TypeOf((*RamResourceAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramResourceAssociation.RamResourceAssociationConfig",
+		"@cdktn/provider-aws.ramResourceAssociation.RamResourceAssociationConfig",
 		reflect.TypeOf((*RamResourceAssociationConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		reflect.TypeOf((*DatazoneDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSkipDeletionCheck", GoMethod: "ResetSkipDeletionCheck"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberProperty{JsiiProperty: "rootDomainUnitId", GoGetter: "RootDomainUnitId"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceRole", GoGetter: "ServiceRole"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceRoleInput", GoGetter: "ServiceRoleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "singleSignOn", GoGetter: "SingleSignOn"},
@@ -100,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainConfig",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainConfig",
 		reflect.TypeOf((*DatazoneDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainSingleSignOn",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainSingleSignOn",
 		reflect.TypeOf((*DatazoneDomainSingleSignOn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainSingleSignOnList",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainSingleSignOnList",
 		reflect.TypeOf((*DatazoneDomainSingleSignOnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainSingleSignOnOutputReference",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainSingleSignOnOutputReference",
 		reflect.TypeOf((*DatazoneDomainSingleSignOnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +169,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainTimeouts",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainTimeouts",
 		reflect.TypeOf((*DatazoneDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomainTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomainTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

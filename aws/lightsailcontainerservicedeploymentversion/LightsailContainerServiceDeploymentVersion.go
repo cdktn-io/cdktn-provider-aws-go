@@ -5,14 +5,14 @@ package lightsailcontainerservicedeploymentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailcontainerservicedeploymentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailcontainerservicedeploymentversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version}.
 type LightsailContainerServiceDeploymentVersion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_LightsailContainerServiceDeploymentVersion) Version() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
 func NewLightsailContainerServiceDeploymentVersion(scope constructs.Construct, id *string, config *LightsailContainerServiceDeploymentVersionConfig) LightsailContainerServiceDeploymentVersion {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewLightsailContainerServiceDeploymentVersion(scope constructs.Construct, i
 	j := jsiiProxy_LightsailContainerServiceDeploymentVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewLightsailContainerServiceDeploymentVersion(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
 func NewLightsailContainerServiceDeploymentVersion_Override(l LightsailContainerServiceDeploymentVersion, scope constructs.Construct, id *string, config *LightsailContainerServiceDeploymentVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -601,7 +601,7 @@ func LightsailContainerServiceDeploymentVersion_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func LightsailContainerServiceDeploymentVersion_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func LightsailContainerServiceDeploymentVersion_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func LightsailContainerServiceDeploymentVersion_IsTerraformResource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func LightsailContainerServiceDeploymentVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersion",
 		"tfResourceType",
 		&returns,
 	)

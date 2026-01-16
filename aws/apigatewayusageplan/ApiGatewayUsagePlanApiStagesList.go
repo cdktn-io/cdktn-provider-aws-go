@@ -5,9 +5,9 @@ package apigatewayusageplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayusageplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayusageplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewApiGatewayUsagePlanApiStagesList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_ApiGatewayUsagePlanApiStagesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewApiGatewayUsagePlanApiStagesList_Override(a ApiGatewayUsagePlanApiStages
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

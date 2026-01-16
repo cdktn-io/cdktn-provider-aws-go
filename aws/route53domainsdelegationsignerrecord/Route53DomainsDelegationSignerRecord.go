@@ -5,14 +5,14 @@ package route53domainsdelegationsignerrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdelegationsignerrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdelegationsignerrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record}.
 type Route53DomainsDelegationSignerRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_Route53DomainsDelegationSignerRecord) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
 func NewRoute53DomainsDelegationSignerRecord(scope constructs.Construct, id *string, config *Route53DomainsDelegationSignerRecordConfig) Route53DomainsDelegationSignerRecord {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewRoute53DomainsDelegationSignerRecord(scope constructs.Construct, id *str
 	j := jsiiProxy_Route53DomainsDelegationSignerRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewRoute53DomainsDelegationSignerRecord(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_delegation_signer_record aws_route53domains_delegation_signer_record} Resource.
 func NewRoute53DomainsDelegationSignerRecord_Override(r Route53DomainsDelegationSignerRecord, scope constructs.Construct, id *string, config *Route53DomainsDelegationSignerRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -497,7 +497,7 @@ func Route53DomainsDelegationSignerRecord_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func Route53DomainsDelegationSignerRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func Route53DomainsDelegationSignerRecord_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func Route53DomainsDelegationSignerRecord_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func Route53DomainsDelegationSignerRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
+		"@cdktn/provider-aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecord",
 		"tfResourceType",
 		&returns,
 	)

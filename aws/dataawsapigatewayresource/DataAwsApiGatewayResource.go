@@ -5,14 +5,14 @@ package dataawsapigatewayresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsapigatewayresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsapigatewayresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource}.
 type DataAwsApiGatewayResource interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsApiGatewayResource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource} Data Source.
 func NewDataAwsApiGatewayResource(scope constructs.Construct, id *string, config *DataAwsApiGatewayResourceConfig) DataAwsApiGatewayResource {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAwsApiGatewayResource(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsApiGatewayResource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAwsApiGatewayResource(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/api_gateway_resource aws_api_gateway_resource} Data Source.
 func NewDataAwsApiGatewayResource_Override(d DataAwsApiGatewayResource, scope constructs.Construct, id *string, config *DataAwsApiGatewayResourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAwsApiGatewayResource_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAwsApiGatewayResource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsApiGatewayResource_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsApiGatewayResource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAwsApiGatewayResource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
+		"@cdktn/provider-aws.dataAwsApiGatewayResource.DataAwsApiGatewayResource",
 		"tfResourceType",
 		&returns,
 	)

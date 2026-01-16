@@ -5,9 +5,9 @@ package cognitologdeliveryconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitologdeliveryconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitologdeliveryconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationLis
 	j := jsiiProxy_CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationList",
+		"@cdktn/provider-aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationLis
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationList",
+		"@cdktn/provider-aws.cognitoLogDeliveryConfiguration.CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

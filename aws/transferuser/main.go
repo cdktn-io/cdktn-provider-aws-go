@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferUser.TransferUser",
+		"@cdktn/provider-aws.transferUser.TransferUser",
 		reflect.TypeOf((*TransferUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferUser.TransferUserConfig",
+		"@cdktn/provider-aws.transferUser.TransferUserConfig",
 		reflect.TypeOf((*TransferUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferUser.TransferUserHomeDirectoryMappings",
+		"@cdktn/provider-aws.transferUser.TransferUserHomeDirectoryMappings",
 		reflect.TypeOf((*TransferUserHomeDirectoryMappings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
+		"@cdktn/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
 		reflect.TypeOf((*TransferUserHomeDirectoryMappingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferUser.TransferUserHomeDirectoryMappingsOutputReference",
+		"@cdktn/provider-aws.transferUser.TransferUserHomeDirectoryMappingsOutputReference",
 		reflect.TypeOf((*TransferUserHomeDirectoryMappingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -169,11 +169,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferUser.TransferUserPosixProfile",
+		"@cdktn/provider-aws.transferUser.TransferUserPosixProfile",
 		reflect.TypeOf((*TransferUserPosixProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
+		"@cdktn/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
 		reflect.TypeOf((*TransferUserPosixProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferUser.TransferUserTimeouts",
+		"@cdktn/provider-aws.transferUser.TransferUserTimeouts",
 		reflect.TypeOf((*TransferUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferUser.TransferUserTimeoutsOutputReference",
+		"@cdktn/provider-aws.transferUser.TransferUserTimeoutsOutputReference",
 		reflect.TypeOf((*TransferUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

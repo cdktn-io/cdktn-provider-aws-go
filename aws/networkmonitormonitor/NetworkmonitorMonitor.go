@@ -5,14 +5,14 @@ package networkmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmonitormonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
 type NetworkmonitorMonitor interface {
 	cdktf.TerraformResource
 	AggregationPeriod() *float64
@@ -414,7 +414,7 @@ func (j *jsiiProxy_NetworkmonitorMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) NetworkmonitorMonitor {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NetworkmonitorMonitor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor_Override(n NetworkmonitorMonitor, scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -565,7 +565,7 @@ func NetworkmonitorMonitor_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func NetworkmonitorMonitor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func NetworkmonitorMonitor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func NetworkmonitorMonitor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func NetworkmonitorMonitor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		"tfResourceType",
 		&returns,
 	)

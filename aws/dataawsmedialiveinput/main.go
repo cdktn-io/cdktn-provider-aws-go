@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		reflect.TypeOf((*DataAwsMedialiveInput)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputConfig",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputConfig",
 		reflect.TypeOf((*DataAwsMedialiveInputConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinations",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinations",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsList",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsOutputReference",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpc",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpc",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinationsVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpcList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpcList",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinationsVpcList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpcOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputDestinationsVpcOutputReference",
 		reflect.TypeOf((*DataAwsMedialiveInputDestinationsVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevices",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevices",
 		reflect.TypeOf((*DataAwsMedialiveInputInputDevices)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevicesList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevicesList",
 		reflect.TypeOf((*DataAwsMedialiveInputInputDevicesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,7 +224,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevicesOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputInputDevicesOutputReference",
 		reflect.TypeOf((*DataAwsMedialiveInputInputDevicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -257,11 +257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlows",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlows",
 		reflect.TypeOf((*DataAwsMedialiveInputMediaConnectFlows)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
 		reflect.TypeOf((*DataAwsMedialiveInputMediaConnectFlowsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -282,7 +282,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsOutputReference",
 		reflect.TypeOf((*DataAwsMedialiveInputMediaConnectFlowsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -315,11 +315,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSources",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSources",
 		reflect.TypeOf((*DataAwsMedialiveInputSources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesList",
 		reflect.TypeOf((*DataAwsMedialiveInputSourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -340,7 +340,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputSourcesOutputReference",
 		reflect.TypeOf((*DataAwsMedialiveInputSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

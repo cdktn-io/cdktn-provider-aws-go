@@ -5,14 +5,14 @@ package iamservercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamservercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamservercertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_server_certificate aws_iam_server_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_server_certificate aws_iam_server_certificate}.
 type IamServerCertificate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_IamServerCertificate) UploadDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_server_certificate aws_iam_server_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_server_certificate aws_iam_server_certificate} Resource.
 func NewIamServerCertificate(scope constructs.Construct, id *string, config *IamServerCertificateConfig) IamServerCertificate {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewIamServerCertificate(scope constructs.Construct, id *string, config *Iam
 	j := jsiiProxy_IamServerCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -575,12 +575,12 @@ func NewIamServerCertificate(scope constructs.Construct, id *string, config *Iam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_server_certificate aws_iam_server_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_server_certificate aws_iam_server_certificate} Resource.
 func NewIamServerCertificate_Override(i IamServerCertificate, scope constructs.Construct, id *string, config *IamServerCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -763,7 +763,7 @@ func IamServerCertificate_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func IamServerCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func IamServerCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func IamServerCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func IamServerCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		"tfResourceType",
 		&returns,
 	)

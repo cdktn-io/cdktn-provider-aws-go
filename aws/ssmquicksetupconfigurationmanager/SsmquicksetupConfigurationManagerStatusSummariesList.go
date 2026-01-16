@@ -5,9 +5,9 @@ package ssmquicksetupconfigurationmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewSsmquicksetupConfigurationManagerStatusSummariesList(terraformResource c
 	j := jsiiProxy_SsmquicksetupConfigurationManagerStatusSummariesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerStatusSummariesList",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerStatusSummariesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewSsmquicksetupConfigurationManagerStatusSummariesList_Override(s Ssmquick
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerStatusSummariesList",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerStatusSummariesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

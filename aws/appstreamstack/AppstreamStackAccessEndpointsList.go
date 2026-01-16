@@ -5,9 +5,9 @@ package appstreamstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamstack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppstreamStackAccessEndpointsList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_AppstreamStackAccessEndpointsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppstreamStackAccessEndpointsList_Override(a AppstreamStackAccessEndpoin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

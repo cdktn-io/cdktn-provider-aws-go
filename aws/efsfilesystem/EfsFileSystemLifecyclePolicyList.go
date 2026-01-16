@@ -5,9 +5,9 @@ package efsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEfsFileSystemLifecyclePolicyList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_EfsFileSystemLifecyclePolicyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEfsFileSystemLifecyclePolicyList_Override(e EfsFileSystemLifecyclePolicy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

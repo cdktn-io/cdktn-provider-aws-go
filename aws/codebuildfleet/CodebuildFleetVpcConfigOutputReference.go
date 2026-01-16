@@ -5,9 +5,9 @@ package codebuildfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewCodebuildFleetVpcConfigOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_CodebuildFleetVpcConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewCodebuildFleetVpcConfigOutputReference_Override(c CodebuildFleetVpcConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

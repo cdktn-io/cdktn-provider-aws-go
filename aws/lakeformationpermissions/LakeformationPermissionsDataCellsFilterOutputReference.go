@@ -5,9 +5,9 @@ package lakeformationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewLakeformationPermissionsDataCellsFilterOutputReference(terraformResource
 	j := jsiiProxy_LakeformationPermissionsDataCellsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilterOutputReference",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewLakeformationPermissionsDataCellsFilterOutputReference_Override(l Lakefo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilterOutputReference",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

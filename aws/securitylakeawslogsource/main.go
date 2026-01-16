@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSource",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSource",
 		reflect.TypeOf((*SecuritylakeAwsLogSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceConfig",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceConfig",
 		reflect.TypeOf((*SecuritylakeAwsLogSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSource",
 		reflect.TypeOf((*SecuritylakeAwsLogSourceSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
 		reflect.TypeOf((*SecuritylakeAwsLogSourceSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceOutputReference",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceOutputReference",
 		reflect.TypeOf((*SecuritylakeAwsLogSourceSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},

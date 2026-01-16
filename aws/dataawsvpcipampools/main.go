@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		reflect.TypeOf((*DataAwsVpcIpamPools)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsConfig",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsConfig",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilter",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilter",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterList",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPools",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsIpamPools)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPoolsList",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPoolsList",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsIpamPoolsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPoolsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsIpamPoolsOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamPoolsIpamPoolsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressFamily", GoGetter: "AddressFamily"},

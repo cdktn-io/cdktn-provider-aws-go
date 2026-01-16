@@ -5,14 +5,14 @@ package route53recoverycontrolconfigcontrolpanel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoverycontrolconfigcontrolpanel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoverycontrolconfigcontrolpanel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel}.
 type Route53RecoverycontrolconfigControlPanel interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigControlPanel) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel} Resource.
 func NewRoute53RecoverycontrolconfigControlPanel(scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigControlPanelConfig) Route53RecoverycontrolconfigControlPanel {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewRoute53RecoverycontrolconfigControlPanel(scope constructs.Construct, id 
 	j := jsiiProxy_Route53RecoverycontrolconfigControlPanel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewRoute53RecoverycontrolconfigControlPanel(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_control_panel aws_route53recoverycontrolconfig_control_panel} Resource.
 func NewRoute53RecoverycontrolconfigControlPanel_Override(r Route53RecoverycontrolconfigControlPanel, scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigControlPanelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -610,7 +610,7 @@ func Route53RecoverycontrolconfigControlPanel_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func Route53RecoverycontrolconfigControlPanel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func Route53RecoverycontrolconfigControlPanel_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func Route53RecoverycontrolconfigControlPanel_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func Route53RecoverycontrolconfigControlPanel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigControlPanel.Route53RecoverycontrolconfigControlPanel",
 		"tfResourceType",
 		&returns,
 	)

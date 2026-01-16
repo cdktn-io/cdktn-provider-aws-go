@@ -5,9 +5,9 @@ package gluemltransform
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluemltransform/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluemltransform/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewGlueMlTransformParametersOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_GlueMlTransformParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransformParametersOutputReference",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransformParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewGlueMlTransformParametersOutputReference_Override(g GlueMlTransformParam
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransformParametersOutputReference",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransformParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

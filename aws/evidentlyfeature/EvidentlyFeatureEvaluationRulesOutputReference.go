@@ -5,9 +5,9 @@ package evidentlyfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewEvidentlyFeatureEvaluationRulesOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_EvidentlyFeatureEvaluationRulesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewEvidentlyFeatureEvaluationRulesOutputReference_Override(e EvidentlyFeatu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.loadBalancerBackendServerPolicy.LoadBalancerBackendServerPolicy",
+		"@cdktn/provider-aws.loadBalancerBackendServerPolicy.LoadBalancerBackendServerPolicy",
 		reflect.TypeOf((*LoadBalancerBackendServerPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.loadBalancerBackendServerPolicy.LoadBalancerBackendServerPolicyConfig",
+		"@cdktn/provider-aws.loadBalancerBackendServerPolicy.LoadBalancerBackendServerPolicyConfig",
 		reflect.TypeOf((*LoadBalancerBackendServerPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package globalacceleratoraccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/globalacceleratoraccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/globalacceleratoraccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewGlobalacceleratorAcceleratorAttributesOutputReference(terraformResource 
 	j := jsiiProxy_GlobalacceleratorAcceleratorAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorAccelerator.GlobalacceleratorAcceleratorAttributesOutputReference",
+		"@cdktn/provider-aws.globalacceleratorAccelerator.GlobalacceleratorAcceleratorAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewGlobalacceleratorAcceleratorAttributesOutputReference_Override(g Globala
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorAccelerator.GlobalacceleratorAcceleratorAttributesOutputReference",
+		"@cdktn/provider-aws.globalacceleratorAccelerator.GlobalacceleratorAcceleratorAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

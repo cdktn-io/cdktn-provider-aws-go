@@ -5,9 +5,9 @@ package lakeformationresourcelftag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationresourcelftag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationresourcelftag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewLakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference(
 	j := jsiiProxy_LakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewLakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTagTableWithColumnsColumnWildcardOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

@@ -5,14 +5,14 @@ package dataawssecuritygroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecuritygroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecuritygroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/security_groups aws_security_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups}.
 type DataAwsSecurityGroups interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsSecurityGroups) VpcIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/security_groups aws_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups} Data Source.
 func NewDataAwsSecurityGroups(scope constructs.Construct, id *string, config *DataAwsSecurityGroupsConfig) DataAwsSecurityGroups {
 	_init_.Initialize()
 
@@ -404,7 +404,7 @@ func NewDataAwsSecurityGroups(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsSecurityGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -412,12 +412,12 @@ func NewDataAwsSecurityGroups(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/security_groups aws_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups} Data Source.
 func NewDataAwsSecurityGroups_Override(d DataAwsSecurityGroups, scope constructs.Construct, id *string, config *DataAwsSecurityGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -512,7 +512,7 @@ func DataAwsSecurityGroups_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -547,7 +547,7 @@ func DataAwsSecurityGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsSecurityGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsSecurityGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsSecurityGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
+		"@cdktn/provider-aws.dataAwsSecurityGroups.DataAwsSecurityGroups",
 		"tfResourceType",
 		&returns,
 	)

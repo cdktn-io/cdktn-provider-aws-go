@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		reflect.TypeOf((*CeCostAllocationTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTagConfig",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTagConfig",
 		reflect.TypeOf((*CeCostAllocationTagConfig)(nil)).Elem(),
 	)
 }

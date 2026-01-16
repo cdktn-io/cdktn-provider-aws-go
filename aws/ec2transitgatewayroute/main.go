@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2TransitGatewayRoute.Ec2TransitGatewayRoute",
+		"@cdktn/provider-aws.ec2TransitGatewayRoute.Ec2TransitGatewayRoute",
 		reflect.TypeOf((*Ec2TransitGatewayRoute)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2TransitGatewayRoute.Ec2TransitGatewayRouteConfig",
+		"@cdktn/provider-aws.ec2TransitGatewayRoute.Ec2TransitGatewayRouteConfig",
 		reflect.TypeOf((*Ec2TransitGatewayRouteConfig)(nil)).Elem(),
 	)
 }

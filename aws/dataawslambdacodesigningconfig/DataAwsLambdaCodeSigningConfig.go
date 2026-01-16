@@ -5,14 +5,14 @@ package dataawslambdacodesigningconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslambdacodesigningconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslambdacodesigningconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config}.
 type DataAwsLambdaCodeSigningConfig interface {
 	cdktf.TerraformDataSource
 	AllowedPublishers() DataAwsLambdaCodeSigningConfigAllowedPublishersList
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataAwsLambdaCodeSigningConfig) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config} Data Source.
 func NewDataAwsLambdaCodeSigningConfig(scope constructs.Construct, id *string, config *DataAwsLambdaCodeSigningConfigConfig) DataAwsLambdaCodeSigningConfig {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewDataAwsLambdaCodeSigningConfig(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAwsLambdaCodeSigningConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewDataAwsLambdaCodeSigningConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_code_signing_config aws_lambda_code_signing_config} Data Source.
 func NewDataAwsLambdaCodeSigningConfig_Override(d DataAwsLambdaCodeSigningConfig, scope constructs.Construct, id *string, config *DataAwsLambdaCodeSigningConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -485,7 +485,7 @@ func DataAwsLambdaCodeSigningConfig_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -520,7 +520,7 @@ func DataAwsLambdaCodeSigningConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsLambdaCodeSigningConfig_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func DataAwsLambdaCodeSigningConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsLambdaCodeSigningConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
+		"@cdktn/provider-aws.dataAwsLambdaCodeSigningConfig.DataAwsLambdaCodeSigningConfig",
 		"tfResourceType",
 		&returns,
 	)

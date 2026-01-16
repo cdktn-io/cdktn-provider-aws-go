@@ -5,9 +5,9 @@ package dataawskendraindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendraindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendraindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList(terr
 	j := jsiiProxy_DataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList",
+		"@cdktn/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList",
+		"@cdktn/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexDocumentMetadataConfigurationUpdatesRelevanceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package dataawswafregionalipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafregionalipset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafregionalipset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset}.
 type DataAwsWafregionalIpset interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -312,7 +312,7 @@ func (j *jsiiProxy_DataAwsWafregionalIpset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset} Data Source.
 func NewDataAwsWafregionalIpset(scope constructs.Construct, id *string, config *DataAwsWafregionalIpsetConfig) DataAwsWafregionalIpset {
 	_init_.Initialize()
 
@@ -322,7 +322,7 @@ func NewDataAwsWafregionalIpset(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsWafregionalIpset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -330,12 +330,12 @@ func NewDataAwsWafregionalIpset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_ipset aws_wafregional_ipset} Data Source.
 func NewDataAwsWafregionalIpset_Override(d DataAwsWafregionalIpset, scope constructs.Construct, id *string, config *DataAwsWafregionalIpsetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -430,7 +430,7 @@ func DataAwsWafregionalIpset_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAwsWafregionalIpset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAwsWafregionalIpset_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAwsWafregionalIpset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAwsWafregionalIpset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
+		"@cdktn/provider-aws.dataAwsWafregionalIpset.DataAwsWafregionalIpset",
 		"tfResourceType",
 		&returns,
 	)

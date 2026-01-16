@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		reflect.TypeOf((*DataAwsCloudwatchEventBuses)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesConfig",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesConfig",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBuses",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusesEventBuses)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBusesList",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBusesList",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusesEventBusesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBusesOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBusesEventBusesOutputReference",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusesEventBusesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},

@@ -5,14 +5,14 @@ package cecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cecostcategory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_category aws_ce_cost_category}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_category aws_ce_cost_category}.
 type CeCostCategory interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_CeCostCategory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource.
 func NewCeCostCategory(scope constructs.Construct, id *string, config *CeCostCategoryConfig) CeCostCategory {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewCeCostCategory(scope constructs.Construct, id *string, config *CeCostCat
 	j := jsiiProxy_CeCostCategory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewCeCostCategory(scope constructs.Construct, id *string, config *CeCostCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_category aws_ce_cost_category} Resource.
 func NewCeCostCategory_Override(c CeCostCategory, scope constructs.Construct, id *string, config *CeCostCategoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -705,7 +705,7 @@ func CeCostCategory_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func CeCostCategory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func CeCostCategory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func CeCostCategory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func CeCostCategory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategory",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategory",
 		"tfResourceType",
 		&returns,
 	)

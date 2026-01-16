@@ -5,9 +5,9 @@ package mskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMskClusterConfigurationInfoOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_MskClusterConfigurationInfoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterConfigurationInfoOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterConfigurationInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMskClusterConfigurationInfoOutputReference_Override(m MskClusterConfigur
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterConfigurationInfoOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterConfigurationInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

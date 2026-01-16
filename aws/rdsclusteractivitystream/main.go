@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterActivityStream.RdsClusterActivityStream",
+		"@cdktn/provider-aws.rdsClusterActivityStream.RdsClusterActivityStream",
 		reflect.TypeOf((*RdsClusterActivityStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterActivityStream.RdsClusterActivityStreamConfig",
+		"@cdktn/provider-aws.rdsClusterActivityStream.RdsClusterActivityStreamConfig",
 		reflect.TypeOf((*RdsClusterActivityStreamConfig)(nil)).Elem(),
 	)
 }

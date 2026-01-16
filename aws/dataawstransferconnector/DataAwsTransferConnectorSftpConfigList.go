@@ -5,9 +5,9 @@ package dataawstransferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstransferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstransferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsTransferConnectorSftpConfigList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsTransferConnectorSftpConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsTransferConnectorSftpConfigList_Override(d DataAwsTransferConnect
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

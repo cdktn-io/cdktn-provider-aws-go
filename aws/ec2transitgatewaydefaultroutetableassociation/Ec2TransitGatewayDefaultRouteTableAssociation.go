@@ -5,14 +5,14 @@ package ec2transitgatewaydefaultroutetableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2transitgatewaydefaultroutetableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgatewaydefaultroutetableassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association}.
 type Ec2TransitGatewayDefaultRouteTableAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) TransitGateway
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
 func NewEc2TransitGatewayDefaultRouteTableAssociation(scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTableAssociationConfig) Ec2TransitGatewayDefaultRouteTableAssociation {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewEc2TransitGatewayDefaultRouteTableAssociation(scope constructs.Construct
 	j := jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewEc2TransitGatewayDefaultRouteTableAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_association aws_ec2_transit_gateway_default_route_table_association} Resource.
 func NewEc2TransitGatewayDefaultRouteTableAssociation_Override(e Ec2TransitGatewayDefaultRouteTableAssociation, scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTableAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -542,7 +542,7 @@ func Ec2TransitGatewayDefaultRouteTableAssociation_GenerateConfigForImport(scope
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func Ec2TransitGatewayDefaultRouteTableAssociation_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func Ec2TransitGatewayDefaultRouteTableAssociation_IsTerraformElement(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func Ec2TransitGatewayDefaultRouteTableAssociation_IsTerraformResource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func Ec2TransitGatewayDefaultRouteTableAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
+		"@cdktn/provider-aws.ec2TransitGatewayDefaultRouteTableAssociation.Ec2TransitGatewayDefaultRouteTableAssociation",
 		"tfResourceType",
 		&returns,
 	)

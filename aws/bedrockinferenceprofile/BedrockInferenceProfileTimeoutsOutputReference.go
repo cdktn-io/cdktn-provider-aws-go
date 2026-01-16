@@ -5,9 +5,9 @@ package bedrockinferenceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockinferenceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockinferenceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewBedrockInferenceProfileTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_BedrockInferenceProfileTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewBedrockInferenceProfileTimeoutsOutputReference_Override(b BedrockInferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

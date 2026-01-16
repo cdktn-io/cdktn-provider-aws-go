@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepository",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepository",
 		reflect.TypeOf((*CodeartifactRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryConfig",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryConfig",
 		reflect.TypeOf((*CodeartifactRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryExternalConnections",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryExternalConnections",
 		reflect.TypeOf((*CodeartifactRepositoryExternalConnections)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryExternalConnectionsOutputReference",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryExternalConnectionsOutputReference",
 		reflect.TypeOf((*CodeartifactRepositoryExternalConnectionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstream",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstream",
 		reflect.TypeOf((*CodeartifactRepositoryUpstream)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstreamList",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstreamList",
 		reflect.TypeOf((*CodeartifactRepositoryUpstreamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstreamOutputReference",
+		"@cdktn/provider-aws.codeartifactRepository.CodeartifactRepositoryUpstreamOutputReference",
 		reflect.TypeOf((*CodeartifactRepositoryUpstreamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

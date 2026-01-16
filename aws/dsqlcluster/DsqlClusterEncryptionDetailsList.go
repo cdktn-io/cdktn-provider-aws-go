@@ -5,9 +5,9 @@ package dsqlcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dsqlcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dsqlcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDsqlClusterEncryptionDetailsList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DsqlClusterEncryptionDetailsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDsqlClusterEncryptionDetailsList_Override(d DsqlClusterEncryptionDetails
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
+		"@cdktn/provider-aws.dsqlCluster.DsqlClusterEncryptionDetailsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

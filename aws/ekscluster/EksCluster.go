@@ -5,14 +5,14 @@ package ekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_cluster aws_eks_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster aws_eks_cluster}.
 type EksCluster interface {
 	cdktf.TerraformResource
 	AccessConfig() EksClusterAccessConfigOutputReference
@@ -923,7 +923,7 @@ func (j *jsiiProxy_EksCluster) ZonalShiftConfigInput() *EksClusterZonalShiftConf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
 func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterConfig) EksCluster {
 	_init_.Initialize()
 
@@ -933,7 +933,7 @@ func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterCon
 	j := jsiiProxy_EksCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -941,12 +941,12 @@ func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
 func NewEksCluster_Override(e EksCluster, scope constructs.Construct, id *string, config *EksClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1151,7 +1151,7 @@ func EksCluster_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1186,7 +1186,7 @@ func EksCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1205,7 +1205,7 @@ func EksCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1224,7 +1224,7 @@ func EksCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1237,7 +1237,7 @@ func EksCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eksCluster.EksCluster",
+		"@cdktn/provider-aws.eksCluster.EksCluster",
 		"tfResourceType",
 		&returns,
 	)

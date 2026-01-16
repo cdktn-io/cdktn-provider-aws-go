@@ -5,9 +5,9 @@ package appmeshvirtualgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOu
 	j := jsiiProxy_AppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGatewaySpecBackendDefaultsClientPolicyTlsValidationTrustOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

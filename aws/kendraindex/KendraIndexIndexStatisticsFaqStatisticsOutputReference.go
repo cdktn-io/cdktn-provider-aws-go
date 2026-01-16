@@ -5,9 +5,9 @@ package kendraindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewKendraIndexIndexStatisticsFaqStatisticsOutputReference(terraformResource
 	j := jsiiProxy_KendraIndexIndexStatisticsFaqStatisticsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexIndexStatisticsFaqStatisticsOutputReference",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexIndexStatisticsFaqStatisticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewKendraIndexIndexStatisticsFaqStatisticsOutputReference_Override(k Kendra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexIndexStatisticsFaqStatisticsOutputReference",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexIndexStatisticsFaqStatisticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		k,
 	)

@@ -5,14 +5,14 @@ package iotthingtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotthingtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotthingtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_type aws_iot_thing_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_type aws_iot_thing_type}.
 type IotThingType interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -464,7 +464,7 @@ func (j *jsiiProxy_IotThingType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_type aws_iot_thing_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_type aws_iot_thing_type} Resource.
 func NewIotThingType(scope constructs.Construct, id *string, config *IotThingTypeConfig) IotThingType {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewIotThingType(scope constructs.Construct, id *string, config *IotThingTyp
 	j := jsiiProxy_IotThingType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewIotThingType(scope constructs.Construct, id *string, config *IotThingTyp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_type aws_iot_thing_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_type aws_iot_thing_type} Resource.
 func NewIotThingType_Override(i IotThingType, scope constructs.Construct, id *string, config *IotThingTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -637,7 +637,7 @@ func IotThingType_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -672,7 +672,7 @@ func IotThingType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func IotThingType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func IotThingType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func IotThingType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		"tfResourceType",
 		&returns,
 	)

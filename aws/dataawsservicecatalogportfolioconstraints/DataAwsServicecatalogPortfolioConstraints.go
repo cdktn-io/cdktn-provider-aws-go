@@ -5,14 +5,14 @@ package dataawsservicecatalogportfolioconstraints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecatalogportfolioconstraints/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogportfolioconstraints/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints}.
 type DataAwsServicecatalogPortfolioConstraints interface {
 	cdktf.TerraformDataSource
 	AcceptLanguage() *string
@@ -395,7 +395,7 @@ func (j *jsiiProxy_DataAwsServicecatalogPortfolioConstraints) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints} Data Source.
 func NewDataAwsServicecatalogPortfolioConstraints(scope constructs.Construct, id *string, config *DataAwsServicecatalogPortfolioConstraintsConfig) DataAwsServicecatalogPortfolioConstraints {
 	_init_.Initialize()
 
@@ -405,7 +405,7 @@ func NewDataAwsServicecatalogPortfolioConstraints(scope constructs.Construct, id
 	j := jsiiProxy_DataAwsServicecatalogPortfolioConstraints{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,12 +413,12 @@ func NewDataAwsServicecatalogPortfolioConstraints(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_portfolio_constraints aws_servicecatalog_portfolio_constraints} Data Source.
 func NewDataAwsServicecatalogPortfolioConstraints_Override(d DataAwsServicecatalogPortfolioConstraints, scope constructs.Construct, id *string, config *DataAwsServicecatalogPortfolioConstraintsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -535,7 +535,7 @@ func DataAwsServicecatalogPortfolioConstraints_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsServicecatalogPortfolioConstraints_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -589,7 +589,7 @@ func DataAwsServicecatalogPortfolioConstraints_IsTerraformDataSource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func DataAwsServicecatalogPortfolioConstraints_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func DataAwsServicecatalogPortfolioConstraints_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
+		"@cdktn/provider-aws.dataAwsServicecatalogPortfolioConstraints.DataAwsServicecatalogPortfolioConstraints",
 		"tfResourceType",
 		&returns,
 	)

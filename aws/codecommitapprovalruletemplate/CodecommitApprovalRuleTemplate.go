@@ -5,14 +5,14 @@ package codecommitapprovalruletemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codecommitapprovalruletemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codecommitapprovalruletemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template}.
 type CodecommitApprovalRuleTemplate interface {
 	cdktf.TerraformResource
 	ApprovalRuleTemplateId() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_CodecommitApprovalRuleTemplate) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template} Resource.
 func NewCodecommitApprovalRuleTemplate(scope constructs.Construct, id *string, config *CodecommitApprovalRuleTemplateConfig) CodecommitApprovalRuleTemplate {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewCodecommitApprovalRuleTemplate(scope constructs.Construct, id *string, c
 	j := jsiiProxy_CodecommitApprovalRuleTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -477,12 +477,12 @@ func NewCodecommitApprovalRuleTemplate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_approval_rule_template aws_codecommit_approval_rule_template} Resource.
 func NewCodecommitApprovalRuleTemplate_Override(c CodecommitApprovalRuleTemplate, scope constructs.Construct, id *string, config *CodecommitApprovalRuleTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -621,7 +621,7 @@ func CodecommitApprovalRuleTemplate_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -656,7 +656,7 @@ func CodecommitApprovalRuleTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func CodecommitApprovalRuleTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func CodecommitApprovalRuleTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func CodecommitApprovalRuleTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package storagegatewaygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewaygateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewaygateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewStoragegatewayGatewayMaintenanceStartTimeOutputReference(terraformResour
 	j := jsiiProxy_StoragegatewayGatewayMaintenanceStartTimeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewStoragegatewayGatewayMaintenanceStartTimeOutputReference_Override(s Stor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,14 +5,14 @@ package networkfirewalltlsinspectionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewalltlsinspectionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewalltlsinspectionconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration}.
 type NetworkfirewallTlsInspectionConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) UpdateToken() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) NetworkfirewallTlsInspectionConfiguration {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id
 	j := jsiiProxy_NetworkfirewallTlsInspectionConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -559,12 +559,12 @@ func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_tls_inspection_configuration aws_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration_Override(n NetworkfirewallTlsInspectionConfiguration, scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -692,7 +692,7 @@ func NetworkfirewallTlsInspectionConfiguration_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func NetworkfirewallTlsInspectionConfiguration_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func NetworkfirewallTlsInspectionConfiguration_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func NetworkfirewallTlsInspectionConfiguration_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func NetworkfirewallTlsInspectionConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfiguration",
 		"tfResourceType",
 		&returns,
 	)

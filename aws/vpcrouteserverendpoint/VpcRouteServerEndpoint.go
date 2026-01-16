@@ -5,14 +5,14 @@ package vpcrouteserverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcrouteserverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcrouteserverendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint}.
 type VpcRouteServerEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_VpcRouteServerEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
 func NewVpcRouteServerEndpoint(scope constructs.Construct, id *string, config *VpcRouteServerEndpointConfig) VpcRouteServerEndpoint {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewVpcRouteServerEndpoint(scope constructs.Construct, id *string, config *V
 	j := jsiiProxy_VpcRouteServerEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -488,12 +488,12 @@ func NewVpcRouteServerEndpoint(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
 func NewVpcRouteServerEndpoint_Override(v VpcRouteServerEndpoint, scope constructs.Construct, id *string, config *VpcRouteServerEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -621,7 +621,7 @@ func VpcRouteServerEndpoint_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -656,7 +656,7 @@ func VpcRouteServerEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func VpcRouteServerEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func VpcRouteServerEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func VpcRouteServerEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		"tfResourceType",
 		&returns,
 	)

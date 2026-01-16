@@ -5,9 +5,9 @@ package controltowercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowercontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewControltowerControlTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_ControltowerControlTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerControl.ControltowerControlTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerControl.ControltowerControlTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewControltowerControlTimeoutsOutputReference_Override(c ControltowerContro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerControl.ControltowerControlTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerControl.ControltowerControlTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

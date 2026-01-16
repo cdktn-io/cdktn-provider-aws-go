@@ -5,9 +5,9 @@ package appmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference(terraformR
 	j := jsiiProxy_AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference_Override(a
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

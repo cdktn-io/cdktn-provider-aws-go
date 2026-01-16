@@ -5,9 +5,9 @@ package dataawsregions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsregions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsregions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsRegionsFilterOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsRegionsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegionsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegionsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsRegionsFilterOutputReference_Override(d DataAwsRegionsFilterOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegionsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegionsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

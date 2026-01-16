@@ -5,14 +5,14 @@ package networkmanagervpcattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagervpcattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagervpcattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment}.
 type NetworkmanagerVpcAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -70,6 +70,9 @@ type NetworkmanagerVpcAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceArn() *string
+	RoutingPolicyLabel() *string
+	SetRoutingPolicyLabel(val *string)
+	RoutingPolicyLabelInput() *string
 	SegmentName() *string
 	State() *string
 	SubnetArns() *[]*string
@@ -142,6 +145,7 @@ type NetworkmanagerVpcAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicyLabel()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -423,6 +427,26 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) ResourceArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) RoutingPolicyLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) RoutingPolicyLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerVpcAttachment) SegmentName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -574,7 +598,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) VpcArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -584,7 +608,7 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_NetworkmanagerVpcAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -592,12 +616,12 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_vpc_attachment aws_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment_Override(n NetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -693,6 +717,17 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment)SetProvisioners(val *[]interface{
 	)
 }
 
+func (j *jsiiProxy_NetworkmanagerVpcAttachment)SetRoutingPolicyLabel(val *string) {
+	if err := j.validateSetRoutingPolicyLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyLabel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkmanagerVpcAttachment)SetSubnetArns(val *[]*string) {
 	if err := j.validateSetSubnetArnsParameters(val); err != nil {
 		panic(err)
@@ -747,7 +782,7 @@ func NetworkmanagerVpcAttachment_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -782,7 +817,7 @@ func NetworkmanagerVpcAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +836,7 @@ func NetworkmanagerVpcAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -820,7 +855,7 @@ func NetworkmanagerVpcAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -833,7 +868,7 @@ func NetworkmanagerVpcAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -1132,6 +1167,14 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetRoutingPolicyLabel() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoutingPolicyLabel",
 		nil, // no parameters
 	)
 }

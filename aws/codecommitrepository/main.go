@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		reflect.TypeOf((*CodecommitRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepositoryConfig",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepositoryConfig",
 		reflect.TypeOf((*CodecommitRepositoryConfig)(nil)).Elem(),
 	)
 }

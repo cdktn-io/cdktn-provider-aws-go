@@ -5,9 +5,9 @@ package s3objectcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3objectcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3objectcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3ObjectCopyGrantList(terraformResource cdktf.IInterpolatingParent, terr
 	j := jsiiProxy_S3ObjectCopyGrantList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3ObjectCopyGrantList_Override(s S3ObjectCopyGrantList, terraformResourc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		reflect.TypeOf((*MemorydbParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupConfig",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupConfig",
 		reflect.TypeOf((*MemorydbParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameter",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameter",
 		reflect.TypeOf((*MemorydbParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterList",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterList",
 		reflect.TypeOf((*MemorydbParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
 		reflect.TypeOf((*MemorydbParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

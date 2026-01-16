@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpoint",
 		reflect.TypeOf((*DataAwsDmsEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointConfig",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointConfig",
 		reflect.TypeOf((*DataAwsDmsEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointElasticsearchSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointElasticsearchSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointElasticsearchSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointElasticsearchSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointKafkaSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointKafkaSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKafkaSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointKafkaSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "broker", GoGetter: "Broker"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointKinesisSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointKinesisSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointKinesisSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointKinesisSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointMongodbSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointMongodbSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -323,7 +323,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMongodbSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointMongodbSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authMechanism", GoGetter: "AuthMechanism"},
@@ -361,11 +361,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointMysqlSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointMysqlSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -386,7 +386,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointMysqlSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointMysqlSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "afterConnectScript", GoGetter: "AfterConnectScript"},
@@ -428,11 +428,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointPostgresSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointPostgresSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -453,7 +453,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointPostgresSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointPostgresSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "afterConnectScript", GoGetter: "AfterConnectScript"},
@@ -503,11 +503,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointRedisSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointRedisSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -528,7 +528,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedisSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointRedisSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authPassword", GoGetter: "AuthPassword"},
@@ -567,11 +567,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettings",
 		reflect.TypeOf((*DataAwsDmsEndpointRedshiftSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointRedshiftSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -592,7 +592,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointRedshiftSettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointRedshiftSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketFolder", GoGetter: "BucketFolder"},
@@ -629,11 +629,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3Settings",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3Settings",
 		reflect.TypeOf((*DataAwsDmsEndpointS3Settings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsList",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsList",
 		reflect.TypeOf((*DataAwsDmsEndpointS3SettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -654,7 +654,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDmsEndpoint.DataAwsDmsEndpointS3SettingsOutputReference",
 		reflect.TypeOf((*DataAwsDmsEndpointS3SettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addColumnName", GoGetter: "AddColumnName"},

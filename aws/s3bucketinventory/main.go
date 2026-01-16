@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventory",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventory",
 		reflect.TypeOf((*S3BucketInventory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,23 +91,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryConfig",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryConfig",
 		reflect.TypeOf((*S3BucketInventoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestination",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestination",
 		reflect.TypeOf((*S3BucketInventoryDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucket",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucket",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucket)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryption",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryption",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionOutputReference",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKms",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKms",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryptionSseKms)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKmsOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseKmsOutputReference",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryptionSseKmsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseS3",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseS3",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryptionSseS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketEncryptionSseS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,7 +221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationBucketOutputReference",
 		reflect.TypeOf((*S3BucketInventoryDestinationBucketOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -267,7 +267,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryDestinationOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryDestinationOutputReference",
 		reflect.TypeOf((*S3BucketInventoryDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -302,11 +302,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryFilter",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryFilter",
 		reflect.TypeOf((*S3BucketInventoryFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryFilterOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryFilterOutputReference",
 		reflect.TypeOf((*S3BucketInventoryFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -341,11 +341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventorySchedule",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventorySchedule",
 		reflect.TypeOf((*S3BucketInventorySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
 		reflect.TypeOf((*S3BucketInventoryScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package dbinstanceautomatedbackupsreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbinstanceautomatedbackupsreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbinstanceautomatedbackupsreplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication}.
 type DbInstanceAutomatedBackupsReplication interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplication) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
 func NewDbInstanceAutomatedBackupsReplication(scope constructs.Construct, id *string, config *DbInstanceAutomatedBackupsReplicationConfig) DbInstanceAutomatedBackupsReplication {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDbInstanceAutomatedBackupsReplication(scope constructs.Construct, id *st
 	j := jsiiProxy_DbInstanceAutomatedBackupsReplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewDbInstanceAutomatedBackupsReplication(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
 func NewDbInstanceAutomatedBackupsReplication_Override(d DbInstanceAutomatedBackupsReplication, scope constructs.Construct, id *string, config *DbInstanceAutomatedBackupsReplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -626,7 +626,7 @@ func DbInstanceAutomatedBackupsReplication_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func DbInstanceAutomatedBackupsReplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func DbInstanceAutomatedBackupsReplication_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func DbInstanceAutomatedBackupsReplication_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DbInstanceAutomatedBackupsReplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
+		"@cdktn/provider-aws.dbInstanceAutomatedBackupsReplication.DbInstanceAutomatedBackupsReplication",
 		"tfResourceType",
 		&returns,
 	)

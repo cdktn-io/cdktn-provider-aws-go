@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmInstanceProfile.DevicefarmInstanceProfile",
+		"@cdktn/provider-aws.devicefarmInstanceProfile.DevicefarmInstanceProfile",
 		reflect.TypeOf((*DevicefarmInstanceProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmInstanceProfile.DevicefarmInstanceProfileConfig",
+		"@cdktn/provider-aws.devicefarmInstanceProfile.DevicefarmInstanceProfileConfig",
 		reflect.TypeOf((*DevicefarmInstanceProfileConfig)(nil)).Elem(),
 	)
 }

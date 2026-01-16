@@ -5,9 +5,9 @@ package networkmanagerconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -214,7 +214,7 @@ func NewNetworkmanagerConnectPeerConfigurationOutputReference(terraformResource 
 	j := jsiiProxy_NetworkmanagerConnectPeerConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -226,7 +226,7 @@ func NewNetworkmanagerConnectPeerConfigurationOutputReference_Override(n Network
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

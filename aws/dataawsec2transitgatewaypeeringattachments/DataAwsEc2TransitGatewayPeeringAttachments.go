@@ -5,14 +5,14 @@ package dataawsec2transitgatewaypeeringattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2transitgatewaypeeringattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgatewaypeeringattachments/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments}.
 type DataAwsEc2TransitGatewayPeeringAttachments interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayPeeringAttachments) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments} Data Source.
 func NewDataAwsEc2TransitGatewayPeeringAttachments(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayPeeringAttachmentsConfig) DataAwsEc2TransitGatewayPeeringAttachments {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAwsEc2TransitGatewayPeeringAttachments(scope constructs.Construct, i
 	j := jsiiProxy_DataAwsEc2TransitGatewayPeeringAttachments{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAwsEc2TransitGatewayPeeringAttachments(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_peering_attachments aws_ec2_transit_gateway_peering_attachments} Data Source.
 func NewDataAwsEc2TransitGatewayPeeringAttachments_Override(d DataAwsEc2TransitGatewayPeeringAttachments, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayPeeringAttachmentsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -455,7 +455,7 @@ func DataAwsEc2TransitGatewayPeeringAttachments_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -490,7 +490,7 @@ func DataAwsEc2TransitGatewayPeeringAttachments_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -509,7 +509,7 @@ func DataAwsEc2TransitGatewayPeeringAttachments_IsTerraformDataSource(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsEc2TransitGatewayPeeringAttachments_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataAwsEc2TransitGatewayPeeringAttachments_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayPeeringAttachments.DataAwsEc2TransitGatewayPeeringAttachments",
 		"tfResourceType",
 		&returns,
 	)

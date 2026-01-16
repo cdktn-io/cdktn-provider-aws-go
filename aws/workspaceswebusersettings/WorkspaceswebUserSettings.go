@@ -5,14 +5,14 @@ package workspaceswebusersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings}.
 type WorkspaceswebUserSettings interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettings) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource.
 func NewWorkspaceswebUserSettings(scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsConfig) WorkspaceswebUserSettings {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewWorkspaceswebUserSettings(scope constructs.Construct, id *string, config
 	j := jsiiProxy_WorkspaceswebUserSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -668,12 +668,12 @@ func NewWorkspaceswebUserSettings(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings aws_workspacesweb_user_settings} Resource.
 func NewWorkspaceswebUserSettings_Override(w WorkspaceswebUserSettings, scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -889,7 +889,7 @@ func WorkspaceswebUserSettings_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -924,7 +924,7 @@ func WorkspaceswebUserSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func WorkspaceswebUserSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -962,7 +962,7 @@ func WorkspaceswebUserSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func WorkspaceswebUserSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettings",
 		"tfResourceType",
 		&returns,
 	)

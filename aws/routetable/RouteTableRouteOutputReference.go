@@ -5,9 +5,9 @@ package routetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/routetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/routetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -471,7 +471,7 @@ func NewRouteTableRouteOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_RouteTableRouteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.routeTable.RouteTableRouteOutputReference",
+		"@cdktn/provider-aws.routeTable.RouteTableRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -483,7 +483,7 @@ func NewRouteTableRouteOutputReference_Override(r RouteTableRouteOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.routeTable.RouteTableRouteOutputReference",
+		"@cdktn/provider-aws.routeTable.RouteTableRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

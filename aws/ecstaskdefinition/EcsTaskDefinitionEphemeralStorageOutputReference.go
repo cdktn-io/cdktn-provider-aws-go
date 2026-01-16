@@ -5,9 +5,9 @@ package ecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewEcsTaskDefinitionEphemeralStorageOutputReference(terraformResource cdktf
 	j := jsiiProxy_EcsTaskDefinitionEphemeralStorageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorageOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewEcsTaskDefinitionEphemeralStorageOutputReference_Override(e EcsTaskDefin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorageOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

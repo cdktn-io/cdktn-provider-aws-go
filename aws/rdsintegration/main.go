@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		reflect.TypeOf((*RdsIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegrationConfig",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegrationConfig",
 		reflect.TypeOf((*RdsIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegrationTimeouts",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegrationTimeouts",
 		reflect.TypeOf((*RdsIntegrationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegrationTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegrationTimeoutsOutputReference",
 		reflect.TypeOf((*RdsIntegrationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

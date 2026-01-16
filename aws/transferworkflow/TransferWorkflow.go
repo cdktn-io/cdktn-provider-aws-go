@@ -5,14 +5,14 @@ package transferworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferworkflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_workflow aws_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_workflow aws_transfer_workflow}.
 type TransferWorkflow interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -464,7 +464,7 @@ func (j *jsiiProxy_TransferWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow(scope constructs.Construct, id *string, config *TransferWorkflowConfig) TransferWorkflow {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewTransferWorkflow(scope constructs.Construct, id *string, config *Transfe
 	j := jsiiProxy_TransferWorkflow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewTransferWorkflow(scope constructs.Construct, id *string, config *Transfe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_workflow aws_transfer_workflow} Resource.
 func NewTransferWorkflow_Override(t TransferWorkflow, scope constructs.Construct, id *string, config *TransferWorkflowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -626,7 +626,7 @@ func TransferWorkflow_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func TransferWorkflow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func TransferWorkflow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func TransferWorkflow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func TransferWorkflow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		"tfResourceType",
 		&returns,
 	)

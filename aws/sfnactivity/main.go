@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		reflect.TypeOf((*SfnActivity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnActivity.SfnActivityConfig",
+		"@cdktn/provider-aws.sfnActivity.SfnActivityConfig",
 		reflect.TypeOf((*SfnActivityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnActivity.SfnActivityEncryptionConfiguration",
+		"@cdktn/provider-aws.sfnActivity.SfnActivityEncryptionConfiguration",
 		reflect.TypeOf((*SfnActivityEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*SfnActivityEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

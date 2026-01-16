@@ -5,14 +5,14 @@ package dataawskmscustomkeystore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskmscustomkeystore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskmscustomkeystore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store}.
 type DataAwsKmsCustomKeyStore interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsKmsCustomKeyStore) TrustAnchorCertificate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
 func NewDataAwsKmsCustomKeyStore(scope constructs.Construct, id *string, config *DataAwsKmsCustomKeyStoreConfig) DataAwsKmsCustomKeyStore {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewDataAwsKmsCustomKeyStore(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsKmsCustomKeyStore{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewDataAwsKmsCustomKeyStore(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_custom_key_store aws_kms_custom_key_store} Data Source.
 func NewDataAwsKmsCustomKeyStore_Override(d DataAwsKmsCustomKeyStore, scope constructs.Construct, id *string, config *DataAwsKmsCustomKeyStoreConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -510,7 +510,7 @@ func DataAwsKmsCustomKeyStore_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataAwsKmsCustomKeyStore_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataAwsKmsCustomKeyStore_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAwsKmsCustomKeyStore_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsKmsCustomKeyStore_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
+		"@cdktn/provider-aws.dataAwsKmsCustomKeyStore.DataAwsKmsCustomKeyStore",
 		"tfResourceType",
 		&returns,
 	)

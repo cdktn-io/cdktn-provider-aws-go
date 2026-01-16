@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepository",
+		"@cdktn/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepository",
 		reflect.TypeOf((*CodecatalystSourceRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryConfig",
+		"@cdktn/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryConfig",
 		reflect.TypeOf((*CodecatalystSourceRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeouts",
+		"@cdktn/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeouts",
 		reflect.TypeOf((*CodecatalystSourceRepositoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.codecatalystSourceRepository.CodecatalystSourceRepositoryTimeoutsOutputReference",
 		reflect.TypeOf((*CodecatalystSourceRepositoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

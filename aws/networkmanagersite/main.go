@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSite",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSite",
 		reflect.TypeOf((*NetworkmanagerSite)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteConfig",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteConfig",
 		reflect.TypeOf((*NetworkmanagerSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteLocation",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteLocation",
 		reflect.TypeOf((*NetworkmanagerSiteLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
 		reflect.TypeOf((*NetworkmanagerSiteLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteTimeouts",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteTimeouts",
 		reflect.TypeOf((*NetworkmanagerSiteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkmanagerSiteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

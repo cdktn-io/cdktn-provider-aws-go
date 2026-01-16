@@ -5,9 +5,9 @@ package grafanaroleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/grafanaroleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/grafanaroleassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewGrafanaRoleAssociationTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_GrafanaRoleAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGrafanaRoleAssociationTimeoutsOutputReference_Override(g GrafanaRoleAsso
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

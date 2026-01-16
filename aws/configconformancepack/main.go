@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePack",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePack",
 		reflect.TypeOf((*ConfigConformancePack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePackConfig",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePackConfig",
 		reflect.TypeOf((*ConfigConformancePackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePackInputParameter",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePackInputParameter",
 		reflect.TypeOf((*ConfigConformancePackInputParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePackInputParameterList",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePackInputParameterList",
 		reflect.TypeOf((*ConfigConformancePackInputParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConformancePack.ConfigConformancePackInputParameterOutputReference",
+		"@cdktn/provider-aws.configConformancePack.ConfigConformancePackInputParameterOutputReference",
 		reflect.TypeOf((*ConfigConformancePackInputParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

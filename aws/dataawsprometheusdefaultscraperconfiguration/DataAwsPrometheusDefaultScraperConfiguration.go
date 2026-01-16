@@ -5,14 +5,14 @@ package dataawsprometheusdefaultscraperconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsprometheusdefaultscraperconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsprometheusdefaultscraperconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration}.
 type DataAwsPrometheusDefaultScraperConfiguration interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsPrometheusDefaultScraperConfiguration) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
 func NewDataAwsPrometheusDefaultScraperConfiguration(scope constructs.Construct, id *string, config *DataAwsPrometheusDefaultScraperConfigurationConfig) DataAwsPrometheusDefaultScraperConfiguration {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsPrometheusDefaultScraperConfiguration(scope constructs.Construct,
 	j := jsiiProxy_DataAwsPrometheusDefaultScraperConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsPrometheusDefaultScraperConfiguration(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_default_scraper_configuration aws_prometheus_default_scraper_configuration} Data Source.
 func NewDataAwsPrometheusDefaultScraperConfiguration_Override(d DataAwsPrometheusDefaultScraperConfiguration, scope constructs.Construct, id *string, config *DataAwsPrometheusDefaultScraperConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsPrometheusDefaultScraperConfiguration_GenerateConfigForImport(scope 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsPrometheusDefaultScraperConfiguration_IsConstruct(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsPrometheusDefaultScraperConfiguration_IsTerraformDataSource(x interf
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsPrometheusDefaultScraperConfiguration_IsTerraformElement(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsPrometheusDefaultScraperConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
+		"@cdktn/provider-aws.dataAwsPrometheusDefaultScraperConfiguration.DataAwsPrometheusDefaultScraperConfiguration",
 		"tfResourceType",
 		&returns,
 	)

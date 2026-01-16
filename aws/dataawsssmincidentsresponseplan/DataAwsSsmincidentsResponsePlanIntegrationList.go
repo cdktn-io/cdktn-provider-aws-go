@@ -5,9 +5,9 @@ package dataawsssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmincidentsresponseplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmincidentsresponseplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsSsmincidentsResponsePlanIntegrationList(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsSsmincidentsResponsePlanIntegrationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlanIntegrationList",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlanIntegrationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsSsmincidentsResponsePlanIntegrationList_Override(d DataAwsSsminci
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlanIntegrationList",
+		"@cdktn/provider-aws.dataAwsSsmincidentsResponsePlan.DataAwsSsmincidentsResponsePlanIntegrationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

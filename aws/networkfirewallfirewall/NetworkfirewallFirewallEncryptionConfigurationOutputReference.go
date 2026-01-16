@@ -5,9 +5,9 @@ package networkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewallfirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallfirewall/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewNetworkfirewallFirewallEncryptionConfigurationOutputReference(terraformR
 	j := jsiiProxy_NetworkfirewallFirewallEncryptionConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewallEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewallEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewNetworkfirewallFirewallEncryptionConfigurationOutputReference_Override(n
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewall.NetworkfirewallFirewallEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.networkfirewallFirewall.NetworkfirewallFirewallEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

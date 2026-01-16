@@ -5,14 +5,14 @@ package mediastorecontainerpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mediastorecontainerpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mediastorecontainerpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/media_store_container_policy aws_media_store_container_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_store_container_policy aws_media_store_container_policy}.
 type MediaStoreContainerPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_MediaStoreContainerPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/media_store_container_policy aws_media_store_container_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_store_container_policy aws_media_store_container_policy} Resource.
 func NewMediaStoreContainerPolicy(scope constructs.Construct, id *string, config *MediaStoreContainerPolicyConfig) MediaStoreContainerPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewMediaStoreContainerPolicy(scope constructs.Construct, id *string, config
 	j := jsiiProxy_MediaStoreContainerPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewMediaStoreContainerPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/media_store_container_policy aws_media_store_container_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_store_container_policy aws_media_store_container_policy} Resource.
 func NewMediaStoreContainerPolicy_Override(m MediaStoreContainerPolicy, scope constructs.Construct, id *string, config *MediaStoreContainerPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -531,7 +531,7 @@ func MediaStoreContainerPolicy_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func MediaStoreContainerPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func MediaStoreContainerPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func MediaStoreContainerPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func MediaStoreContainerPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		"tfResourceType",
 		&returns,
 	)

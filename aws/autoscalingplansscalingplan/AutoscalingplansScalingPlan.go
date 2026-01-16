@@ -5,14 +5,14 @@ package autoscalingplansscalingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalingplansscalingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingplansscalingplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan}.
 type AutoscalingplansScalingPlan interface {
 	cdktf.TerraformResource
 	ApplicationSource() AutoscalingplansScalingPlanApplicationSourceOutputReference
@@ -414,7 +414,7 @@ func (j *jsiiProxy_AutoscalingplansScalingPlan) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan} Resource.
 func NewAutoscalingplansScalingPlan(scope constructs.Construct, id *string, config *AutoscalingplansScalingPlanConfig) AutoscalingplansScalingPlan {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewAutoscalingplansScalingPlan(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_AutoscalingplansScalingPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewAutoscalingplansScalingPlan(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscalingplans_scaling_plan aws_autoscalingplans_scaling_plan} Resource.
 func NewAutoscalingplansScalingPlan_Override(a AutoscalingplansScalingPlan, scope constructs.Construct, id *string, config *AutoscalingplansScalingPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -554,7 +554,7 @@ func AutoscalingplansScalingPlan_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func AutoscalingplansScalingPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func AutoscalingplansScalingPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func AutoscalingplansScalingPlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func AutoscalingplansScalingPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlan",
 		"tfResourceType",
 		&returns,
 	)

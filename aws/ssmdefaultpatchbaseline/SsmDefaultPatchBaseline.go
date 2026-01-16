@@ -5,14 +5,14 @@ package ssmdefaultpatchbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmdefaultpatchbaseline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmdefaultpatchbaseline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline}.
 type SsmDefaultPatchBaseline interface {
 	cdktf.TerraformResource
 	BaselineId() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SsmDefaultPatchBaseline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
 func NewSsmDefaultPatchBaseline(scope constructs.Construct, id *string, config *SsmDefaultPatchBaselineConfig) SsmDefaultPatchBaseline {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSsmDefaultPatchBaseline(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SsmDefaultPatchBaseline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSsmDefaultPatchBaseline(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
 func NewSsmDefaultPatchBaseline_Override(s SsmDefaultPatchBaseline, scope constructs.Construct, id *string, config *SsmDefaultPatchBaselineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func SsmDefaultPatchBaseline_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func SsmDefaultPatchBaseline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func SsmDefaultPatchBaseline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func SsmDefaultPatchBaseline_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func SsmDefaultPatchBaseline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
+		"@cdktn/provider-aws.ssmDefaultPatchBaseline.SsmDefaultPatchBaseline",
 		"tfResourceType",
 		&returns,
 	)

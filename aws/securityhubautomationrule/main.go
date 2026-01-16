@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRule",
 		reflect.TypeOf((*SecurityhubAutomationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActions",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActions",
 		reflect.TypeOf((*SecurityhubAutomationRuleActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdate",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdate",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,11 +122,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNote",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNote",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateNote)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -273,7 +273,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -309,11 +309,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -335,7 +335,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -373,11 +373,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -399,7 +399,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -434,7 +434,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsList",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -456,7 +456,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -495,19 +495,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleConfig",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleConfig",
 		reflect.TypeOf((*SecurityhubAutomationRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteria",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteria",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -529,7 +529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -565,11 +565,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountName",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountName",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountNameList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountNameList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -591,7 +591,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountNameOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaAwsAccountNameOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaAwsAccountNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -627,11 +627,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyName",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyName",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCompanyName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyNameList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyNameList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCompanyNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -653,7 +653,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyNameOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCompanyNameOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCompanyNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -689,11 +689,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -715,7 +715,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -751,11 +751,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceSecurityControlId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -777,7 +777,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -813,11 +813,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatus",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatus",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatusList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatusList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -839,7 +839,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatusOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaComplianceStatusOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaComplianceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -875,11 +875,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidence",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidence",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaConfidence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidenceList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidenceList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaConfidenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -901,7 +901,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidenceOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaConfidenceOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaConfidenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -948,15 +948,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAt",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAt",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRange",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRange",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRangeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRangeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAtDateRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -978,7 +978,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1014,7 +1014,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1036,7 +1036,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCreatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCreatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1078,11 +1078,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticality",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticality",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCriticality)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticalityList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticalityList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCriticalityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1104,7 +1104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticalityOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaCriticalityOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaCriticalityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1151,11 +1151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescription",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescription",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaDescription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescriptionList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescriptionList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaDescriptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1177,7 +1177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescriptionOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaDescriptionOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaDescriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1213,15 +1213,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAt",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAt",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRange",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRange",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1243,7 +1243,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1279,7 +1279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1301,7 +1301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaFirstObservedAtOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaFirstObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1343,11 +1343,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaGeneratorId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaGeneratorIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1369,7 +1369,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaGeneratorIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaGeneratorIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1405,11 +1405,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1431,7 +1431,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1467,15 +1467,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAt",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAt",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRange",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRange",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1497,7 +1497,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1533,7 +1533,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1555,7 +1555,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaLastObservedAtOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaLastObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1597,7 +1597,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1619,11 +1619,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteText",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteText",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteTextList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteTextList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1645,7 +1645,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteTextOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteTextOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1681,15 +1681,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAt",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAt",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRange",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRange",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1711,7 +1711,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1747,7 +1747,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1769,7 +1769,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1811,11 +1811,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedBy",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedBy",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedBy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedByList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedByList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedByList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1837,7 +1837,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedByOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedByOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaNoteUpdatedByOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1873,7 +1873,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsAccountId", GoGetter: "AwsAccountId"},
@@ -2057,11 +2057,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArn",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArn",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArnList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArnList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2083,7 +2083,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArnOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductArnOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2119,11 +2119,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductName",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductName",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductNameList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductNameList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2145,7 +2145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductNameOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaProductNameOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaProductNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2181,11 +2181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordState",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordState",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRecordState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordStateList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordStateList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRecordStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2207,7 +2207,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordStateOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRecordStateOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRecordStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2243,11 +2243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2269,7 +2269,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2305,11 +2305,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArn",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArn",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsProductArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2331,7 +2331,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2367,11 +2367,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArn",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArn",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArnList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArnList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2393,7 +2393,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArnOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationArnOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2429,11 +2429,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationName",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationName",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationNameList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationNameList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2455,7 +2455,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationNameOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceApplicationNameOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceApplicationNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2491,11 +2491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOther",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOther",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceDetailsOther)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOtherList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOtherList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceDetailsOtherList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2517,7 +2517,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOtherOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceDetailsOtherOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceDetailsOtherOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2555,11 +2555,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceId",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceId",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceIdList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceIdList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2581,7 +2581,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceIdOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceIdOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2617,11 +2617,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartition",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartition",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourcePartition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartitionList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartitionList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourcePartitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2643,7 +2643,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartitionOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourcePartitionOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourcePartitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2679,11 +2679,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegion",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegion",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceRegion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegionList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegionList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceRegionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2705,7 +2705,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegionOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceRegionOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceRegionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2741,11 +2741,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTags",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTags",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTagsList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTagsList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2767,7 +2767,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTagsOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTagsOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2805,11 +2805,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceType",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceType",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTypeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTypeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2831,7 +2831,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTypeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaResourceTypeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaResourceTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2867,11 +2867,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabel",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabel",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSeverityLabel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabelList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabelList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSeverityLabelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2893,7 +2893,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabelOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSeverityLabelOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSeverityLabelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2929,11 +2929,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrl",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrl",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSourceUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrlList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrlList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSourceUrlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2955,7 +2955,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrlOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaSourceUrlOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaSourceUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2991,11 +2991,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitle",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitle",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaTitle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitleList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitleList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaTitleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3017,7 +3017,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitleOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTitleOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaTitleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3053,11 +3053,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaType",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaType",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTypeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTypeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3079,7 +3079,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTypeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaTypeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3115,15 +3115,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAt",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAt",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRange",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRange",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3145,7 +3145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3181,7 +3181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3203,7 +3203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUpdatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUpdatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3245,11 +3245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFields",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFields",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUserDefinedFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFieldsList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFieldsList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUserDefinedFieldsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3271,7 +3271,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFieldsOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaUserDefinedFieldsOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaUserDefinedFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3309,11 +3309,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationState",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationState",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaVerificationState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationStateList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationStateList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaVerificationStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3335,7 +3335,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationStateOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaVerificationStateOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaVerificationStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3371,11 +3371,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatus",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatus",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaWorkflowStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatusList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatusList",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaWorkflowStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3397,7 +3397,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatusOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaWorkflowStatusOutputReference",
 		reflect.TypeOf((*SecurityhubAutomationRuleCriteriaWorkflowStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},

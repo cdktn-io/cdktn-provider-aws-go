@@ -5,14 +5,14 @@ package securityhubinviteaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubinviteaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubinviteaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter}.
 type SecurityhubInviteAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_SecurityhubInviteAccepter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
 func NewSecurityhubInviteAccepter(scope constructs.Construct, id *string, config *SecurityhubInviteAccepterConfig) SecurityhubInviteAccepter {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewSecurityhubInviteAccepter(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SecurityhubInviteAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewSecurityhubInviteAccepter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_invite_accepter aws_securityhub_invite_accepter} Resource.
 func NewSecurityhubInviteAccepter_Override(s SecurityhubInviteAccepter, scope constructs.Construct, id *string, config *SecurityhubInviteAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -508,7 +508,7 @@ func SecurityhubInviteAccepter_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func SecurityhubInviteAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func SecurityhubInviteAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func SecurityhubInviteAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func SecurityhubInviteAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		"tfResourceType",
 		&returns,
 	)

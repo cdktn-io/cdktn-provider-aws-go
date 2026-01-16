@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		reflect.TypeOf((*AppconfigConfigurationProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileConfig",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileConfig",
 		reflect.TypeOf((*AppconfigConfigurationProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidator",
 		reflect.TypeOf((*AppconfigConfigurationProfileValidator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidatorList",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidatorList",
 		reflect.TypeOf((*AppconfigConfigurationProfileValidatorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidatorOutputReference",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfileValidatorOutputReference",
 		reflect.TypeOf((*AppconfigConfigurationProfileValidatorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

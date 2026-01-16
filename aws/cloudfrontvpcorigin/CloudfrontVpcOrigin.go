@@ -5,14 +5,14 @@ package cloudfrontvpcorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontvpcorigin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontvpcorigin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin}.
 type CloudfrontVpcOrigin interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_CloudfrontVpcOrigin) VpcOriginEndpointConfigInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin} Resource.
 func NewCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *CloudfrontVpcOriginConfig) CloudfrontVpcOrigin {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *Clou
 	j := jsiiProxy_CloudfrontVpcOrigin{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_vpc_origin aws_cloudfront_vpc_origin} Resource.
 func NewCloudfrontVpcOrigin_Override(c CloudfrontVpcOrigin, scope constructs.Construct, id *string, config *CloudfrontVpcOriginConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -520,7 +520,7 @@ func CloudfrontVpcOrigin_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func CloudfrontVpcOrigin_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func CloudfrontVpcOrigin_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func CloudfrontVpcOrigin_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func CloudfrontVpcOrigin_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
+		"@cdktn/provider-aws.cloudfrontVpcOrigin.CloudfrontVpcOrigin",
 		"tfResourceType",
 		&returns,
 	)

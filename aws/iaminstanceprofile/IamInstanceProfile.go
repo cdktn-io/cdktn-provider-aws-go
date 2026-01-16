@@ -5,14 +5,14 @@ package iaminstanceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iaminstanceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iaminstanceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_instance_profile aws_iam_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_instance_profile aws_iam_instance_profile}.
 type IamInstanceProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -487,7 +487,7 @@ func (j *jsiiProxy_IamInstanceProfile) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
 func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamInstanceProfileConfig) IamInstanceProfile {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamIn
 	j := jsiiProxy_IamInstanceProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -505,12 +505,12 @@ func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_instance_profile aws_iam_instance_profile} Resource.
 func NewIamInstanceProfile_Override(i IamInstanceProfile, scope constructs.Construct, id *string, config *IamInstanceProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -671,7 +671,7 @@ func IamInstanceProfile_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func IamInstanceProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func IamInstanceProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func IamInstanceProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func IamInstanceProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamInstanceProfile.IamInstanceProfile",
+		"@cdktn/provider-aws.iamInstanceProfile.IamInstanceProfile",
 		"tfResourceType",
 		&returns,
 	)

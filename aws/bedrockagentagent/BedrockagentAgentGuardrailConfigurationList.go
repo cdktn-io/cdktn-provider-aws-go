@@ -5,9 +5,9 @@ package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockagentAgentGuardrailConfigurationList(terraformResource cdktf.IInt
 	j := jsiiProxy_BedrockagentAgentGuardrailConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockagentAgentGuardrailConfigurationList_Override(b BedrockagentAgent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

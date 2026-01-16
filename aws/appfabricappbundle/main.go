@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppBundle.AppfabricAppBundle",
+		"@cdktn/provider-aws.appfabricAppBundle.AppfabricAppBundle",
 		reflect.TypeOf((*AppfabricAppBundle)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppBundle.AppfabricAppBundleConfig",
+		"@cdktn/provider-aws.appfabricAppBundle.AppfabricAppBundleConfig",
 		reflect.TypeOf((*AppfabricAppBundleConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package redshiftparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group}.
 type RedshiftParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -487,7 +487,7 @@ func (j *jsiiProxy_RedshiftParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
 func NewRedshiftParameterGroup(scope constructs.Construct, id *string, config *RedshiftParameterGroupConfig) RedshiftParameterGroup {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewRedshiftParameterGroup(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RedshiftParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -505,12 +505,12 @@ func NewRedshiftParameterGroup(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_parameter_group aws_redshift_parameter_group} Resource.
 func NewRedshiftParameterGroup_Override(r RedshiftParameterGroup, scope constructs.Construct, id *string, config *RedshiftParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -671,7 +671,7 @@ func RedshiftParameterGroup_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func RedshiftParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func RedshiftParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func RedshiftParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func RedshiftParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

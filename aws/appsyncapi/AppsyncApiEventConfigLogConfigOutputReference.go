@@ -5,9 +5,9 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAppsyncApiEventConfigLogConfigOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_AppsyncApiEventConfigLogConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAppsyncApiEventConfigLogConfigOutputReference_Override(a AppsyncApiEvent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

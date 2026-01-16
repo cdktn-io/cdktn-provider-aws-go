@@ -5,9 +5,9 @@ package dataawsvpcipampools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcipampools/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipampools/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsVpcIpamPoolsFilterOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsVpcIpamPoolsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsVpcIpamPoolsFilterOutputReference_Override(d DataAwsVpcIpamPoolsF
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPoolsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -47,6 +47,10 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validateInterpol
 	return nil
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutCustomerContentEncryptionConfigurationParameters(value *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutEngineVersionParameters(value *AthenaWorkgroupConfigurationEngineVersion) error {
 	return nil
 }
@@ -56,6 +60,10 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutIdent
 }
 
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutManagedQueryResultsConfigurationParameters(value *AthenaWorkgroupConfigurationManagedQueryResultsConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validatePutMonitoringConfigurationParameters(value *AthenaWorkgroupConfigurationMonitoringConfiguration) error {
 	return nil
 }
 
@@ -76,6 +84,10 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validateSetCompl
 }
 
 func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) validateSetEnableMinimumEncryptionConfigurationParameters(val interface{}) error {
 	return nil
 }
 

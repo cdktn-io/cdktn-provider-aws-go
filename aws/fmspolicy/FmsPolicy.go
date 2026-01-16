@@ -5,14 +5,14 @@ package fmspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fmspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fmspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fms_policy aws_fms_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fms_policy aws_fms_policy}.
 type FmsPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -737,7 +737,7 @@ func (j *jsiiProxy_FmsPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fms_policy aws_fms_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fms_policy aws_fms_policy} Resource.
 func NewFmsPolicy(scope constructs.Construct, id *string, config *FmsPolicyConfig) FmsPolicy {
 	_init_.Initialize()
 
@@ -747,7 +747,7 @@ func NewFmsPolicy(scope constructs.Construct, id *string, config *FmsPolicyConfi
 	j := jsiiProxy_FmsPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -755,12 +755,12 @@ func NewFmsPolicy(scope constructs.Construct, id *string, config *FmsPolicyConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fms_policy aws_fms_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fms_policy aws_fms_policy} Resource.
 func NewFmsPolicy_Override(f FmsPolicy, scope constructs.Construct, id *string, config *FmsPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1009,7 +1009,7 @@ func FmsPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1044,7 +1044,7 @@ func FmsPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1063,7 +1063,7 @@ func FmsPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1082,7 +1082,7 @@ func FmsPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func FmsPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicy",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicy",
 		"tfResourceType",
 		&returns,
 	)

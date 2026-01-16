@@ -5,9 +5,9 @@ package batchcomputeenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/batchcomputeenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/batchcomputeenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -564,7 +564,7 @@ func NewBatchComputeEnvironmentComputeResourcesOutputReference(terraformResource
 	j := jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -576,7 +576,7 @@ func NewBatchComputeEnvironmentComputeResourcesOutputReference_Override(b BatchC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

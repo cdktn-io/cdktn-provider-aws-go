@@ -5,9 +5,9 @@ package lexv2modelsbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLexv2ModelsBotTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_Lexv2ModelsBotTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLexv2ModelsBotTimeoutsOutputReference_Override(l Lexv2ModelsBotTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

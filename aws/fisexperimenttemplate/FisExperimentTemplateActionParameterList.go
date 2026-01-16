@@ -5,9 +5,9 @@ package fisexperimenttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewFisExperimentTemplateActionParameterList(terraformResource cdktf.IInterp
 	j := jsiiProxy_FisExperimentTemplateActionParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewFisExperimentTemplateActionParameterList_Override(f FisExperimentTemplat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

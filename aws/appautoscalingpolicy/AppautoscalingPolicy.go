@@ -5,14 +5,14 @@ package appautoscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appautoscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appautoscalingpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy}.
 type AppautoscalingPolicy interface {
 	cdktf.TerraformResource
 	AlarmArns() *[]*string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_AppautoscalingPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
 func NewAppautoscalingPolicy(scope constructs.Construct, id *string, config *AppautoscalingPolicyConfig) AppautoscalingPolicy {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewAppautoscalingPolicy(scope constructs.Construct, id *string, config *App
 	j := jsiiProxy_AppautoscalingPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewAppautoscalingPolicy(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
 func NewAppautoscalingPolicy_Override(a AppautoscalingPolicy, scope constructs.Construct, id *string, config *AppautoscalingPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -728,7 +728,7 @@ func AppautoscalingPolicy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func AppautoscalingPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func AppautoscalingPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func AppautoscalingPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func AppautoscalingPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicy",
 		"tfResourceType",
 		&returns,
 	)

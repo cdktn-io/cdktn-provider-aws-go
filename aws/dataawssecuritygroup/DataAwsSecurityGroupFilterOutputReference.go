@@ -5,9 +5,9 @@ package dataawssecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsSecurityGroupFilterOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsSecurityGroupFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsSecurityGroupFilterOutputReference_Override(d DataAwsSecurityGrou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package codepipelinecustomactiontype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipelinecustomactiontype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipelinecustomactiontype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type}.
 type CodepipelineCustomActionType interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_CodepipelineCustomActionType) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource.
 func NewCodepipelineCustomActionType(scope constructs.Construct, id *string, config *CodepipelineCustomActionTypeConfig) CodepipelineCustomActionType {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewCodepipelineCustomActionType(scope constructs.Construct, id *string, con
 	j := jsiiProxy_CodepipelineCustomActionType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewCodepipelineCustomActionType(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline_custom_action_type aws_codepipeline_custom_action_type} Resource.
 func NewCodepipelineCustomActionType_Override(c CodepipelineCustomActionType, scope constructs.Construct, id *string, config *CodepipelineCustomActionTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -751,7 +751,7 @@ func CodepipelineCustomActionType_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -786,7 +786,7 @@ func CodepipelineCustomActionType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func CodepipelineCustomActionType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func CodepipelineCustomActionType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func CodepipelineCustomActionType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionType",
 		"tfResourceType",
 		&returns,
 	)

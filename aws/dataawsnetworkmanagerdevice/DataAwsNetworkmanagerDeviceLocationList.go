@@ -5,9 +5,9 @@ package dataawsnetworkmanagerdevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkmanagerdevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagerdevice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsNetworkmanagerDeviceLocationList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsNetworkmanagerDeviceLocationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerDevice.DataAwsNetworkmanagerDeviceLocationList",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerDevice.DataAwsNetworkmanagerDeviceLocationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsNetworkmanagerDeviceLocationList_Override(d DataAwsNetworkmanager
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerDevice.DataAwsNetworkmanagerDeviceLocationList",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerDevice.DataAwsNetworkmanagerDeviceLocationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

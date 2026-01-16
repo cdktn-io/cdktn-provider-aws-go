@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGateways",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGateways",
 		reflect.TypeOf((*DataAwsEc2LocalGateways)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysConfig",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysConfig",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilter",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilter",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilterList",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilterList",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysFilterOutputReference",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysTimeouts",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysTimeouts",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateways.DataAwsEc2LocalGatewaysTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsEc2LocalGatewaysTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

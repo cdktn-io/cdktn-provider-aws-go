@@ -5,9 +5,9 @@ package connectroutingprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectroutingprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectroutingprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReferen
 	j := jsiiProxy_ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		reflect.TypeOf((*SnsPlatformApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplicationConfig",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplicationConfig",
 		reflect.TypeOf((*SnsPlatformApplicationConfig)(nil)).Elem(),
 	)
 }

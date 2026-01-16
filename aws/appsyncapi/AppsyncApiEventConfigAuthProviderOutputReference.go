@@ -5,9 +5,9 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewAppsyncApiEventConfigAuthProviderOutputReference(terraformResource cdktf
 	j := jsiiProxy_AppsyncApiEventConfigAuthProviderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewAppsyncApiEventConfigAuthProviderOutputReference_Override(a AppsyncApiEv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

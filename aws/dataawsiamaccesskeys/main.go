@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		reflect.TypeOf((*DataAwsIamAccessKeys)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeys", GoGetter: "AccessKeys"},
@@ -61,11 +61,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeys",
 		reflect.TypeOf((*DataAwsIamAccessKeysAccessKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeysList",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeysList",
 		reflect.TypeOf((*DataAwsIamAccessKeysAccessKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeysOutputReference",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysAccessKeysOutputReference",
 		reflect.TypeOf((*DataAwsIamAccessKeysAccessKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysConfig",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeysConfig",
 		reflect.TypeOf((*DataAwsIamAccessKeysConfig)(nil)).Elem(),
 	)
 }

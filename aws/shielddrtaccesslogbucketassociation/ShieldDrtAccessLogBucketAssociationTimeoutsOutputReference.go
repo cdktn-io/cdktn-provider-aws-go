@@ -5,9 +5,9 @@ package shielddrtaccesslogbucketassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/shielddrtaccesslogbucketassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shielddrtaccesslogbucketassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewShieldDrtAccessLogBucketAssociationTimeoutsOutputReference(terraformReso
 	j := jsiiProxy_ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldDrtAccessLogBucketAssociation.ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.shieldDrtAccessLogBucketAssociation.ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewShieldDrtAccessLogBucketAssociationTimeoutsOutputReference_Override(s Sh
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldDrtAccessLogBucketAssociation.ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.shieldDrtAccessLogBucketAssociation.ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,14 +5,14 @@ package bedrockagentcoreagentruntimeendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoreagentruntimeendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoreagentruntimeendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint}.
 type BedrockagentcoreAgentRuntimeEndpoint interface {
 	cdktf.TerraformResource
 	AgentRuntimeArn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeEndpoint) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
 func NewBedrockagentcoreAgentRuntimeEndpoint(scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeEndpointConfig) BedrockagentcoreAgentRuntimeEndpoint {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewBedrockagentcoreAgentRuntimeEndpoint(scope constructs.Construct, id *str
 	j := jsiiProxy_BedrockagentcoreAgentRuntimeEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewBedrockagentcoreAgentRuntimeEndpoint(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_agent_runtime_endpoint aws_bedrockagentcore_agent_runtime_endpoint} Resource.
 func NewBedrockagentcoreAgentRuntimeEndpoint_Override(b BedrockagentcoreAgentRuntimeEndpoint, scope constructs.Construct, id *string, config *BedrockagentcoreAgentRuntimeEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -658,7 +658,7 @@ func BedrockagentcoreAgentRuntimeEndpoint_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func BedrockagentcoreAgentRuntimeEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func BedrockagentcoreAgentRuntimeEndpoint_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func BedrockagentcoreAgentRuntimeEndpoint_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func BedrockagentcoreAgentRuntimeEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
+		"@cdktn/provider-aws.bedrockagentcoreAgentRuntimeEndpoint.BedrockagentcoreAgentRuntimeEndpoint",
 		"tfResourceType",
 		&returns,
 	)

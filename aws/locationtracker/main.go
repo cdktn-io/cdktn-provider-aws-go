@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationTracker.LocationTracker",
+		"@cdktn/provider-aws.locationTracker.LocationTracker",
 		reflect.TypeOf((*LocationTracker)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationTracker.LocationTrackerConfig",
+		"@cdktn/provider-aws.locationTracker.LocationTrackerConfig",
 		reflect.TypeOf((*LocationTrackerConfig)(nil)).Elem(),
 	)
 }

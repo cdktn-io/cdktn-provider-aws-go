@@ -5,9 +5,9 @@ package bedrockguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockguardrail/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewBedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference(terraformRe
 	j := jsiiProxy_BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewBedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference_Override(b 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

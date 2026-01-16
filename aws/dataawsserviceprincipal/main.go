@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		reflect.TypeOf((*DataAwsServicePrincipal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipalConfig",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipalConfig",
 		reflect.TypeOf((*DataAwsServicePrincipalConfig)(nil)).Elem(),
 	)
 }

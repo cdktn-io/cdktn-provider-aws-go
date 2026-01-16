@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupVault.DataAwsBackupVault",
+		"@cdktn/provider-aws.dataAwsBackupVault.DataAwsBackupVault",
 		reflect.TypeOf((*DataAwsBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupVault.DataAwsBackupVaultConfig",
+		"@cdktn/provider-aws.dataAwsBackupVault.DataAwsBackupVaultConfig",
 		reflect.TypeOf((*DataAwsBackupVaultConfig)(nil)).Elem(),
 	)
 }

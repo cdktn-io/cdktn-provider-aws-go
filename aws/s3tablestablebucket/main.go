@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		reflect.TypeOf((*S3TablesTableBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketConfig",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketConfig",
 		reflect.TypeOf((*S3TablesTableBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration",
 		reflect.TypeOf((*S3TablesTableBucketEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*S3TablesTableBucketEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,15 +132,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfiguration",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfiguration",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemoval)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalOutputReference",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalOutputReference",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettingsOutputReference",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettingsOutputReference",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileRemovalSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,7 +221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucketMaintenanceConfigurationOutputReference",
 		reflect.TypeOf((*S3TablesTableBucketMaintenanceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

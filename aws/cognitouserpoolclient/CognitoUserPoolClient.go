@@ -5,14 +5,14 @@ package cognitouserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client}.
 type CognitoUserPoolClient interface {
 	cdktf.TerraformResource
 	AccessTokenValidity() *float64
@@ -882,7 +882,7 @@ func (j *jsiiProxy_CognitoUserPoolClient) WriteAttributesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
 func NewCognitoUserPoolClient(scope constructs.Construct, id *string, config *CognitoUserPoolClientConfig) CognitoUserPoolClient {
 	_init_.Initialize()
 
@@ -892,7 +892,7 @@ func NewCognitoUserPoolClient(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_CognitoUserPoolClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -900,12 +900,12 @@ func NewCognitoUserPoolClient(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
 func NewCognitoUserPoolClient_Override(c CognitoUserPoolClient, scope constructs.Construct, id *string, config *CognitoUserPoolClientConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1220,7 +1220,7 @@ func CognitoUserPoolClient_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1255,7 +1255,7 @@ func CognitoUserPoolClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1274,7 +1274,7 @@ func CognitoUserPoolClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1293,7 +1293,7 @@ func CognitoUserPoolClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1306,7 +1306,7 @@ func CognitoUserPoolClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociation",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociation",
 		reflect.TypeOf((*GrafanaRoleAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationConfig",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationConfig",
 		reflect.TypeOf((*GrafanaRoleAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeouts",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeouts",
 		reflect.TypeOf((*GrafanaRoleAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaRoleAssociation.GrafanaRoleAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*GrafanaRoleAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

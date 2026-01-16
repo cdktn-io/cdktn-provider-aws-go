@@ -115,6 +115,10 @@ func (j *jsiiProxy_DbProxy) validateSetDefaultAuthSchemeParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_DbProxy) validateSetEndpointNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DbProxy) validateSetEngineFamilyParameters(val *string) error {
 	return nil
 }
@@ -156,6 +160,10 @@ func (j *jsiiProxy_DbProxy) validateSetTagsParameters(val *map[string]*string) e
 }
 
 func (j *jsiiProxy_DbProxy) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DbProxy) validateSetTargetConnectionNetworkTypeParameters(val *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package iotrolealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotrolealias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotrolealias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_role_alias aws_iot_role_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_role_alias aws_iot_role_alias}.
 type IotRoleAlias interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_IotRoleAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
 func NewIotRoleAlias(scope constructs.Construct, id *string, config *IotRoleAliasConfig) IotRoleAlias {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewIotRoleAlias(scope constructs.Construct, id *string, config *IotRoleAlia
 	j := jsiiProxy_IotRoleAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewIotRoleAlias(scope constructs.Construct, id *string, config *IotRoleAlia
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_role_alias aws_iot_role_alias} Resource.
 func NewIotRoleAlias_Override(i IotRoleAlias, scope constructs.Construct, id *string, config *IotRoleAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -647,7 +647,7 @@ func IotRoleAlias_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func IotRoleAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func IotRoleAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func IotRoleAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func IotRoleAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotRoleAlias.IotRoleAlias",
+		"@cdktn/provider-aws.iotRoleAlias.IotRoleAlias",
 		"tfResourceType",
 		&returns,
 	)

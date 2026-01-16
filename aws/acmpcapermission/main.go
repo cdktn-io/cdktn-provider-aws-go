@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmpcaPermission.AcmpcaPermission",
+		"@cdktn/provider-aws.acmpcaPermission.AcmpcaPermission",
 		reflect.TypeOf((*AcmpcaPermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmpcaPermission.AcmpcaPermissionConfig",
+		"@cdktn/provider-aws.acmpcaPermission.AcmpcaPermissionConfig",
 		reflect.TypeOf((*AcmpcaPermissionConfig)(nil)).Elem(),
 	)
 }

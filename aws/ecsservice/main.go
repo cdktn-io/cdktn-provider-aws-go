@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsService",
+		"@cdktn/provider-aws.ecsService.EcsService",
 		reflect.TypeOf((*EcsService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -191,11 +191,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceAlarms",
+		"@cdktn/provider-aws.ecsService.EcsServiceAlarms",
 		reflect.TypeOf((*EcsServiceAlarms)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceAlarmsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceAlarmsOutputReference",
 		reflect.TypeOf((*EcsServiceAlarmsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmNames", GoGetter: "AlarmNames"},
@@ -233,11 +233,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceCapacityProviderStrategy",
+		"@cdktn/provider-aws.ecsService.EcsServiceCapacityProviderStrategy",
 		reflect.TypeOf((*EcsServiceCapacityProviderStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceCapacityProviderStrategyList",
+		"@cdktn/provider-aws.ecsService.EcsServiceCapacityProviderStrategyList",
 		reflect.TypeOf((*EcsServiceCapacityProviderStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceCapacityProviderStrategyOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceCapacityProviderStrategyOutputReference",
 		reflect.TypeOf((*EcsServiceCapacityProviderStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "base", GoGetter: "Base"},
@@ -299,15 +299,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceConfig",
+		"@cdktn/provider-aws.ecsService.EcsServiceConfig",
 		reflect.TypeOf((*EcsServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentCircuitBreaker",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentCircuitBreaker",
 		reflect.TypeOf((*EcsServiceDeploymentCircuitBreaker)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentCircuitBreakerOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentCircuitBreakerOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentCircuitBreakerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -343,15 +343,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfiguration",
 		reflect.TypeOf((*EcsServiceDeploymentConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationCanaryConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationCanaryConfiguration",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationCanaryConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "canaryBakeTimeInMinutes", GoGetter: "CanaryBakeTimeInMinutes"},
@@ -389,11 +389,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHook",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookList",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookList",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHookList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -415,7 +415,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -456,11 +456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationLinearConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLinearConfiguration",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLinearConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationLinearConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLinearConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLinearConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -498,7 +498,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bakeTimeInMinutes", GoGetter: "BakeTimeInMinutes"},
@@ -548,11 +548,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentController",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentController",
 		reflect.TypeOf((*EcsServiceDeploymentController)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceDeploymentControllerOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentControllerOutputReference",
 		reflect.TypeOf((*EcsServiceDeploymentControllerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -587,15 +587,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceLoadBalancer",
+		"@cdktn/provider-aws.ecsService.EcsServiceLoadBalancer",
 		reflect.TypeOf((*EcsServiceLoadBalancer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceLoadBalancerAdvancedConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceLoadBalancerAdvancedConfiguration",
 		reflect.TypeOf((*EcsServiceLoadBalancerAdvancedConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceLoadBalancerAdvancedConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceLoadBalancerAdvancedConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceLoadBalancerAdvancedConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alternateTargetGroupArn", GoGetter: "AlternateTargetGroupArn"},
@@ -636,7 +636,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceLoadBalancerList",
+		"@cdktn/provider-aws.ecsService.EcsServiceLoadBalancerList",
 		reflect.TypeOf((*EcsServiceLoadBalancerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -658,7 +658,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceLoadBalancerOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceLoadBalancerOutputReference",
 		reflect.TypeOf((*EcsServiceLoadBalancerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advancedConfiguration", GoGetter: "AdvancedConfiguration"},
@@ -704,11 +704,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceNetworkConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceNetworkConfiguration",
 		reflect.TypeOf((*EcsServiceNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceNetworkConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceNetworkConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIp", GoGetter: "AssignPublicIp"},
@@ -748,11 +748,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceOrderedPlacementStrategy",
+		"@cdktn/provider-aws.ecsService.EcsServiceOrderedPlacementStrategy",
 		reflect.TypeOf((*EcsServiceOrderedPlacementStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceOrderedPlacementStrategyList",
+		"@cdktn/provider-aws.ecsService.EcsServiceOrderedPlacementStrategyList",
 		reflect.TypeOf((*EcsServiceOrderedPlacementStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -774,7 +774,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceOrderedPlacementStrategyOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceOrderedPlacementStrategyOutputReference",
 		reflect.TypeOf((*EcsServiceOrderedPlacementStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -811,11 +811,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServicePlacementConstraints",
+		"@cdktn/provider-aws.ecsService.EcsServicePlacementConstraints",
 		reflect.TypeOf((*EcsServicePlacementConstraints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServicePlacementConstraintsList",
+		"@cdktn/provider-aws.ecsService.EcsServicePlacementConstraintsList",
 		reflect.TypeOf((*EcsServicePlacementConstraintsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -837,7 +837,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
 		reflect.TypeOf((*EcsServicePlacementConstraintsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -874,15 +874,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfiguration",
 		reflect.TypeOf((*EcsServiceServiceConnectConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -923,11 +923,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOption",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOption",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfigurationSecretOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionList",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionList",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -949,7 +949,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -985,7 +985,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1030,15 +1030,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationService",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationService",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationService)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAlias",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAlias",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAlias)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1079,15 +1079,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeader",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeader",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1124,11 +1124,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValueOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValueOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesHeaderValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1162,7 +1162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesList",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesList",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1184,7 +1184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1220,7 +1220,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1242,7 +1242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientAlias", GoGetter: "ClientAlias"},
@@ -1294,11 +1294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeout",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeout",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTimeout)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1336,15 +1336,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTls",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTls",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTls)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthority)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthorityOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthorityOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthorityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsPcaAuthorityArn", GoGetter: "AwsPcaAuthorityArn"},
@@ -1378,7 +1378,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceTlsOutputReference",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationServiceTlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1419,11 +1419,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceRegistries",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceRegistries",
 		reflect.TypeOf((*EcsServiceServiceRegistries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceRegistriesOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceRegistriesOutputReference",
 		reflect.TypeOf((*EcsServiceServiceRegistriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1466,11 +1466,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceTimeouts",
+		"@cdktn/provider-aws.ecsService.EcsServiceTimeouts",
 		reflect.TypeOf((*EcsServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceTimeoutsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceTimeoutsOutputReference",
 		reflect.TypeOf((*EcsServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1511,15 +1511,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfiguration",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfiguration",
 		reflect.TypeOf((*EcsServiceVolumeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolume",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolume",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationManagedEbsVolume)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1584,11 +1584,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1610,7 +1610,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutputReference",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1650,7 +1650,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationOutputReference",
 		reflect.TypeOf((*EcsServiceVolumeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1687,11 +1687,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsService.EcsServiceVpcLatticeConfigurations",
+		"@cdktn/provider-aws.ecsService.EcsServiceVpcLatticeConfigurations",
 		reflect.TypeOf((*EcsServiceVpcLatticeConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVpcLatticeConfigurationsList",
+		"@cdktn/provider-aws.ecsService.EcsServiceVpcLatticeConfigurationsList",
 		reflect.TypeOf((*EcsServiceVpcLatticeConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1713,7 +1713,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsService.EcsServiceVpcLatticeConfigurationsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVpcLatticeConfigurationsOutputReference",
 		reflect.TypeOf((*EcsServiceVpcLatticeConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package sesactivereceiptruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesactivereceiptruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesactivereceiptruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
 type SesActiveReceiptRuleSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_SesActiveReceiptRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) SesActiveReceiptRuleSet {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SesActiveReceiptRuleSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet_Override(s SesActiveReceiptRuleSet, scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -508,7 +508,7 @@ func SesActiveReceiptRuleSet_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func SesActiveReceiptRuleSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func SesActiveReceiptRuleSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func SesActiveReceiptRuleSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func SesActiveReceiptRuleSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
+		"@cdktn/provider-aws.sesActiveReceiptRuleSet.SesActiveReceiptRuleSet",
 		"tfResourceType",
 		&returns,
 	)

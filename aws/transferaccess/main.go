@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		reflect.TypeOf((*TransferAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferAccess.TransferAccessConfig",
+		"@cdktn/provider-aws.transferAccess.TransferAccessConfig",
 		reflect.TypeOf((*TransferAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferAccess.TransferAccessHomeDirectoryMappings",
+		"@cdktn/provider-aws.transferAccess.TransferAccessHomeDirectoryMappings",
 		reflect.TypeOf((*TransferAccessHomeDirectoryMappings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferAccess.TransferAccessHomeDirectoryMappingsList",
+		"@cdktn/provider-aws.transferAccess.TransferAccessHomeDirectoryMappingsList",
 		reflect.TypeOf((*TransferAccessHomeDirectoryMappingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferAccess.TransferAccessHomeDirectoryMappingsOutputReference",
+		"@cdktn/provider-aws.transferAccess.TransferAccessHomeDirectoryMappingsOutputReference",
 		reflect.TypeOf((*TransferAccessHomeDirectoryMappingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferAccess.TransferAccessPosixProfile",
+		"@cdktn/provider-aws.transferAccess.TransferAccessPosixProfile",
 		reflect.TypeOf((*TransferAccessPosixProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferAccess.TransferAccessPosixProfileOutputReference",
+		"@cdktn/provider-aws.transferAccess.TransferAccessPosixProfileOutputReference",
 		reflect.TypeOf((*TransferAccessPosixProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

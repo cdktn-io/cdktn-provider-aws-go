@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		reflect.TypeOf((*QuicksightDataSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -126,15 +126,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroups",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroups",
 		reflect.TypeOf((*QuicksightDataSetColumnGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsGeoSpatialColumnGroup",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsGeoSpatialColumnGroup",
 		reflect.TypeOf((*QuicksightDataSetColumnGroupsGeoSpatialColumnGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference",
 		reflect.TypeOf((*QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsList",
 		reflect.TypeOf((*QuicksightDataSetColumnGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -194,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnGroupsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetColumnGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRules",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRules",
 		reflect.TypeOf((*QuicksightDataSetColumnLevelPermissionRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRulesList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRulesList",
 		reflect.TypeOf((*QuicksightDataSetColumnLevelPermissionRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRulesOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetColumnLevelPermissionRulesOutputReference",
 		reflect.TypeOf((*QuicksightDataSetColumnLevelPermissionRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnNames", GoGetter: "ColumnNames"},
@@ -294,15 +294,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetConfig",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetConfig",
 		reflect.TypeOf((*QuicksightDataSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetDataSetUsageConfiguration",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetDataSetUsageConfiguration",
 		reflect.TypeOf((*QuicksightDataSetDataSetUsageConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetDataSetUsageConfigurationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetDataSetUsageConfigurationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetDataSetUsageConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -340,11 +340,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetFieldFolders",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetFieldFolders",
 		reflect.TypeOf((*QuicksightDataSetFieldFolders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
 		reflect.TypeOf((*QuicksightDataSetFieldFoldersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -366,7 +366,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersOutputReference",
 		reflect.TypeOf((*QuicksightDataSetFieldFoldersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -406,19 +406,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMap",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMap",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMap)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransforms",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransforms)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -457,15 +457,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -487,7 +487,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnId", GoGetter: "ColumnId"},
@@ -525,7 +525,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -560,11 +560,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsFilterOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -598,7 +598,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsList",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -620,7 +620,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "castColumnTypeOperation", GoGetter: "CastColumnTypeOperation"},
@@ -680,11 +680,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsProjectOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -718,11 +718,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -758,11 +758,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -799,15 +799,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTags",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTags",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescriptionOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescriptionOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsColumnDescriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -842,7 +842,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsList",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -864,7 +864,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnDescription", GoGetter: "ColumnDescription"},
@@ -903,11 +903,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapDataTransformsUntagColumnOperationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -943,7 +943,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapList",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -965,7 +965,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alias", GoGetter: "Alias"},
@@ -1008,19 +1008,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSource",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSource",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstruction",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstruction",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstruction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyProperties",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyProperties",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPropertiesOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPropertiesOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1055,7 +1055,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1103,11 +1103,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyProperties",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyProperties",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPropertiesOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPropertiesOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1142,7 +1142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetLogicalTableMapSourceOutputReference",
 		reflect.TypeOf((*QuicksightDataSetLogicalTableMapSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1184,11 +1184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumns",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumns",
 		reflect.TypeOf((*QuicksightDataSetOutputColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumnsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumnsList",
 		reflect.TypeOf((*QuicksightDataSetOutputColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1209,7 +1209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumnsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetOutputColumnsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetOutputColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1244,11 +1244,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPermissions",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPermissions",
 		reflect.TypeOf((*QuicksightDataSetPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPermissionsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPermissionsList",
 		reflect.TypeOf((*QuicksightDataSetPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1270,7 +1270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPermissionsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -1306,19 +1306,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMap",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMap",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMap)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSql",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSql",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapCustomSql)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumns",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapCustomSqlColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumnsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumnsList",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapCustomSqlColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1340,7 +1340,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1376,7 +1376,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapCustomSqlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -1418,7 +1418,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapList",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1440,7 +1440,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1486,15 +1486,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTable",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTable",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapRelationalTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumns",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumns",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapRelationalTableInputColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsList",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1516,7 +1516,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1552,7 +1552,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapRelationalTableOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapRelationalTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalog", GoGetter: "Catalog"},
@@ -1597,15 +1597,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3Source",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3Source",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3Source)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumns",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumns",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceInputColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceInputColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1627,7 +1627,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1663,7 +1663,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1703,11 +1703,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceUploadSettings",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceUploadSettings",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceUploadSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference",
 		reflect.TypeOf((*QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1754,11 +1754,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshProperties",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshProperties",
 		reflect.TypeOf((*QuicksightDataSetRefreshProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1793,19 +1793,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfiguration",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfiguration",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefresh)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindowOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindowOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshLookbackWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -1843,7 +1843,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfigurationIncrementalRefreshOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1878,7 +1878,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRefreshPropertiesRefreshConfigurationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRefreshPropertiesRefreshConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1913,11 +1913,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionDataSet",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionDataSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionDataSetOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionDataSetOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionDataSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -1962,11 +1962,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfiguration",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfiguration",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionTagConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionTagConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2004,11 +2004,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionTagConfigurationTagRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2030,7 +2030,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputReference",
 		reflect.TypeOf((*QuicksightDataSetRowLevelPermissionTagConfigurationTagRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},

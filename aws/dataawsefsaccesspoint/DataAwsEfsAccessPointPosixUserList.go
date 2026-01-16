@@ -5,9 +5,9 @@ package dataawsefsaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsefsaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsefsaccesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEfsAccessPointPosixUserList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsEfsAccessPointPosixUserList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoint.DataAwsEfsAccessPointPosixUserList",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoint.DataAwsEfsAccessPointPosixUserList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEfsAccessPointPosixUserList_Override(d DataAwsEfsAccessPointPosix
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoint.DataAwsEfsAccessPointPosixUserList",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoint.DataAwsEfsAccessPointPosixUserList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

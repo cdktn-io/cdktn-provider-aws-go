@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFramework",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFramework",
 		reflect.TypeOf((*DataAwsBackupFramework)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,19 +72,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkConfig",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkConfig",
 		reflect.TypeOf((*DataAwsBackupFrameworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControl",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControl",
 		reflect.TypeOf((*DataAwsBackupFrameworkControl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameter",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameter",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlInputParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameterList",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameterList",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlInputParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameterOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlInputParameterOutputReference",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlInputParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlList",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlList",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScope",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScope",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScopeList",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScopeList",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlScopeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -220,7 +220,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScopeOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlScopeOutputReference",
 		reflect.TypeOf((*DataAwsBackupFrameworkControlScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

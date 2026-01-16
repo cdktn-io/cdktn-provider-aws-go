@@ -5,9 +5,9 @@ package dataawslaunchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslaunchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslaunchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsLaunchTemplateFilterOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsLaunchTemplateFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsLaunchTemplateFilterOutputReference_Override(d DataAwsLaunchTempl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package route53delegationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53delegationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53delegationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_delegation_set aws_route53_delegation_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_delegation_set aws_route53_delegation_set}.
 type Route53DelegationSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -356,7 +356,7 @@ func (j *jsiiProxy_Route53DelegationSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_delegation_set aws_route53_delegation_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_delegation_set aws_route53_delegation_set} Resource.
 func NewRoute53DelegationSet(scope constructs.Construct, id *string, config *Route53DelegationSetConfig) Route53DelegationSet {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewRoute53DelegationSet(scope constructs.Construct, id *string, config *Rou
 	j := jsiiProxy_Route53DelegationSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewRoute53DelegationSet(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_delegation_set aws_route53_delegation_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_delegation_set aws_route53_delegation_set} Resource.
 func NewRoute53DelegationSet_Override(r Route53DelegationSet, scope constructs.Construct, id *string, config *Route53DelegationSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -485,7 +485,7 @@ func Route53DelegationSet_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -520,7 +520,7 @@ func Route53DelegationSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func Route53DelegationSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func Route53DelegationSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func Route53DelegationSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		"tfResourceType",
 		&returns,
 	)

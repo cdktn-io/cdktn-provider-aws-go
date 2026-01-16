@@ -5,9 +5,9 @@ package prometheusqueryloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusqueryloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusqueryloggingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPrometheusQueryLoggingConfigurationDestinationList(terraformResource cdk
 	j := jsiiProxy_PrometheusQueryLoggingConfigurationDestinationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationList",
+		"@cdktn/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPrometheusQueryLoggingConfigurationDestinationList_Override(p Prometheus
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationList",
+		"@cdktn/provider-aws.prometheusQueryLoggingConfiguration.PrometheusQueryLoggingConfigurationDestinationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

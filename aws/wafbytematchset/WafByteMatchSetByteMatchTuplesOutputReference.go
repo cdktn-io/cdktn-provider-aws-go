@@ -5,9 +5,9 @@ package wafbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafbytematchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewWafByteMatchSetByteMatchTuplesOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_WafByteMatchSetByteMatchTuplesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafByteMatchSet.WafByteMatchSetByteMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafByteMatchSet.WafByteMatchSetByteMatchTuplesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewWafByteMatchSetByteMatchTuplesOutputReference_Override(w WafByteMatchSet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafByteMatchSet.WafByteMatchSetByteMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafByteMatchSet.WafByteMatchSetByteMatchTuplesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

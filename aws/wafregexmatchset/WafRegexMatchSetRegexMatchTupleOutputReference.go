@@ -5,9 +5,9 @@ package wafregexmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregexmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregexmatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewWafRegexMatchSetRegexMatchTupleOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_WafRegexMatchSetRegexMatchTupleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleOutputReference",
+		"@cdktn/provider-aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewWafRegexMatchSetRegexMatchTupleOutputReference_Override(w WafRegexMatchS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleOutputReference",
+		"@cdktn/provider-aws.wafRegexMatchSet.WafRegexMatchSetRegexMatchTupleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

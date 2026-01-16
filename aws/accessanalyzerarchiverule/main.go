@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		reflect.TypeOf((*AccessanalyzerArchiveRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleConfig",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleConfig",
 		reflect.TypeOf((*AccessanalyzerArchiveRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilter",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilter",
 		reflect.TypeOf((*AccessanalyzerArchiveRuleFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterList",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterList",
 		reflect.TypeOf((*AccessanalyzerArchiveRuleFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
 		reflect.TypeOf((*AccessanalyzerArchiveRuleFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

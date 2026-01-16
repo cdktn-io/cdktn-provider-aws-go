@@ -5,9 +5,9 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -277,7 +277,7 @@ func NewMqBrokerUserOutputReference(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_MqBrokerUserOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerUserOutputReference",
+		"@cdktn/provider-aws.mqBroker.MqBrokerUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -289,7 +289,7 @@ func NewMqBrokerUserOutputReference_Override(m MqBrokerUserOutputReference, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerUserOutputReference",
+		"@cdktn/provider-aws.mqBroker.MqBrokerUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

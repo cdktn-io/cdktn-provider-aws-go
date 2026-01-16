@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroup",
+		"@cdktn/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroup",
 		reflect.TypeOf((*FinspaceKxScalingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupConfig",
+		"@cdktn/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupConfig",
 		reflect.TypeOf((*FinspaceKxScalingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeouts",
+		"@cdktn/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeouts",
 		reflect.TypeOf((*FinspaceKxScalingGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxScalingGroup.FinspaceKxScalingGroupTimeoutsOutputReference",
 		reflect.TypeOf((*FinspaceKxScalingGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

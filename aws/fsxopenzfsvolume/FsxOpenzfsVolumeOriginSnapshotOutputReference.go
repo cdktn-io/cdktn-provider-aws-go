@@ -5,9 +5,9 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewFsxOpenzfsVolumeOriginSnapshotOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_FsxOpenzfsVolumeOriginSnapshotOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewFsxOpenzfsVolumeOriginSnapshotOutputReference_Override(f FsxOpenzfsVolum
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeOriginSnapshotOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

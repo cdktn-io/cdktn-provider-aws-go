@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		reflect.TypeOf((*IamAccountAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountAlias", GoGetter: "AccountAlias"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAliasConfig",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAliasConfig",
 		reflect.TypeOf((*IamAccountAliasConfig)(nil)).Elem(),
 	)
 }

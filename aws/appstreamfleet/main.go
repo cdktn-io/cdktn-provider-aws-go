@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleet",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleet",
 		reflect.TypeOf((*AppstreamFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetComputeCapacity",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetComputeCapacity",
 		reflect.TypeOf((*AppstreamFleetComputeCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
 		reflect.TypeOf((*AppstreamFleetComputeCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "available", GoGetter: "Available"},
@@ -174,15 +174,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetConfig",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetConfig",
 		reflect.TypeOf((*AppstreamFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfo",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfo",
 		reflect.TypeOf((*AppstreamFleetDomainJoinInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
 		reflect.TypeOf((*AppstreamFleetDomainJoinInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -220,11 +220,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetVpcConfig",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetVpcConfig",
 		reflect.TypeOf((*AppstreamFleetVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetVpcConfigOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetVpcConfigOutputReference",
 		reflect.TypeOf((*AppstreamFleetVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

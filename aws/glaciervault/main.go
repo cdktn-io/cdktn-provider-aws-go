@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		reflect.TypeOf((*GlacierVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glacierVault.GlacierVaultConfig",
+		"@cdktn/provider-aws.glacierVault.GlacierVaultConfig",
 		reflect.TypeOf((*GlacierVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glacierVault.GlacierVaultNotification",
+		"@cdktn/provider-aws.glacierVault.GlacierVaultNotification",
 		reflect.TypeOf((*GlacierVaultNotification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
+		"@cdktn/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
 		reflect.TypeOf((*GlacierVaultNotificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

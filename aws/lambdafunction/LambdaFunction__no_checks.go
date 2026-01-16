@@ -147,6 +147,10 @@ func (j *jsiiProxy_LambdaFunction) validateSetArchitecturesParameters(val *[]*st
 	return nil
 }
 
+func (j *jsiiProxy_LambdaFunction) validateSetCodeSha256Parameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaFunction) validateSetCodeSigningConfigArnParameters(val *string) error {
 	return nil
 }

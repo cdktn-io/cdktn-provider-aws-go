@@ -5,9 +5,9 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewRoute53DomainsDomainAdminContactOutputReference(terraformResource cdktf.
 	j := jsiiProxy_Route53DomainsDomainAdminContactOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainAdminContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainAdminContactOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewRoute53DomainsDomainAdminContactOutputReference_Override(r Route53Domain
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainAdminContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainAdminContactOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

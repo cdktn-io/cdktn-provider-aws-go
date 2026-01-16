@@ -5,9 +5,9 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -269,7 +269,7 @@ func NewDataAwsInstanceRootBlockDeviceOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsInstanceRootBlockDeviceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceRootBlockDeviceOutputReference",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceRootBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -281,7 +281,7 @@ func NewDataAwsInstanceRootBlockDeviceOutputReference_Override(d DataAwsInstance
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceRootBlockDeviceOutputReference",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceRootBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

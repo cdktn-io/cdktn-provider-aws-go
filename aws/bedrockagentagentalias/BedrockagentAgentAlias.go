@@ -5,14 +5,14 @@ package bedrockagentagentalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagentalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagentalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias}.
 type BedrockagentAgentAlias interface {
 	cdktf.TerraformResource
 	AgentAliasArn() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BedrockagentAgentAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias} Resource.
 func NewBedrockagentAgentAlias(scope constructs.Construct, id *string, config *BedrockagentAgentAliasConfig) BedrockagentAgentAlias {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewBedrockagentAgentAlias(scope constructs.Construct, id *string, config *B
 	j := jsiiProxy_BedrockagentAgentAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewBedrockagentAgentAlias(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_alias aws_bedrockagent_agent_alias} Resource.
 func NewBedrockagentAgentAlias_Override(b BedrockagentAgentAlias, scope constructs.Construct, id *string, config *BedrockagentAgentAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -658,7 +658,7 @@ func BedrockagentAgentAlias_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func BedrockagentAgentAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func BedrockagentAgentAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func BedrockagentAgentAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func BedrockagentAgentAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		"tfResourceType",
 		&returns,
 	)

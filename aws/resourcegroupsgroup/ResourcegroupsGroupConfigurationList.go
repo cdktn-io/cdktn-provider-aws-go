@@ -5,9 +5,9 @@ package resourcegroupsgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourcegroupsgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourcegroupsgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewResourcegroupsGroupConfigurationList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ResourcegroupsGroupConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewResourcegroupsGroupConfigurationList_Override(r ResourcegroupsGroupConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingType.IotThingType",
+		"@cdktn/provider-aws.iotThingType.IotThingType",
 		reflect.TypeOf((*IotThingType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingType.IotThingTypeConfig",
+		"@cdktn/provider-aws.iotThingType.IotThingTypeConfig",
 		reflect.TypeOf((*IotThingTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingType.IotThingTypeProperties",
+		"@cdktn/provider-aws.iotThingType.IotThingTypeProperties",
 		reflect.TypeOf((*IotThingTypeProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingType.IotThingTypePropertiesOutputReference",
+		"@cdktn/provider-aws.iotThingType.IotThingTypePropertiesOutputReference",
 		reflect.TypeOf((*IotThingTypePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

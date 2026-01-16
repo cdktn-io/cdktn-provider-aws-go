@@ -5,14 +5,14 @@ package sagemakerhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerhub/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_hub aws_sagemaker_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_hub aws_sagemaker_hub}.
 type SagemakerHub interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -511,7 +511,7 @@ func (j *jsiiProxy_SagemakerHub) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_hub aws_sagemaker_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_hub aws_sagemaker_hub} Resource.
 func NewSagemakerHub(scope constructs.Construct, id *string, config *SagemakerHubConfig) SagemakerHub {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewSagemakerHub(scope constructs.Construct, id *string, config *SagemakerHu
 	j := jsiiProxy_SagemakerHub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewSagemakerHub(scope constructs.Construct, id *string, config *SagemakerHu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_hub aws_sagemaker_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_hub aws_sagemaker_hub} Resource.
 func NewSagemakerHub_Override(s SagemakerHub, scope constructs.Construct, id *string, config *SagemakerHubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -706,7 +706,7 @@ func SagemakerHub_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -741,7 +741,7 @@ func SagemakerHub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -760,7 +760,7 @@ func SagemakerHub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func SagemakerHub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func SagemakerHub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package fsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewFsxOntapFileSystemEndpointsManagementList(terraformResource cdktf.IInter
 	j := jsiiProxy_FsxOntapFileSystemEndpointsManagementList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsManagementList",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsManagementList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewFsxOntapFileSystemEndpointsManagementList_Override(f FsxOntapFileSystemE
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsManagementList",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsManagementList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

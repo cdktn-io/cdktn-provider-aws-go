@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		reflect.TypeOf((*ElbAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachmentConfig",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachmentConfig",
 		reflect.TypeOf((*ElbAttachmentConfig)(nil)).Elem(),
 	)
 }

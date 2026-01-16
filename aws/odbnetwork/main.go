@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		reflect.TypeOf((*OdbNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,15 +115,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkConfig",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkConfig",
 		reflect.TypeOf((*OdbNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServices",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServices",
 		reflect.TypeOf((*OdbNetworkManagedServices)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesList",
 		reflect.TypeOf((*OdbNetworkManagedServicesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccess",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccess",
 		reflect.TypeOf((*OdbNetworkManagedServicesManagedS3BackupAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
 		reflect.TypeOf((*OdbNetworkManagedServicesManagedS3BackupAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessOutputReference",
 		reflect.TypeOf((*OdbNetworkManagedServicesManagedS3BackupAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesOutputReference",
 		reflect.TypeOf((*OdbNetworkManagedServicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesS3Access",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesS3Access",
 		reflect.TypeOf((*OdbNetworkManagedServicesS3Access)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesS3AccessList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesS3AccessList",
 		reflect.TypeOf((*OdbNetworkManagedServicesS3AccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -267,7 +267,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesS3AccessOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesS3AccessOutputReference",
 		reflect.TypeOf((*OdbNetworkManagedServicesS3AccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -303,11 +303,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpoint",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpoint",
 		reflect.TypeOf((*OdbNetworkManagedServicesServiceNetworkEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
 		reflect.TypeOf((*OdbNetworkManagedServicesServiceNetworkEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -328,7 +328,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointOutputReference",
 		reflect.TypeOf((*OdbNetworkManagedServicesServiceNetworkEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -362,11 +362,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccess",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccess",
 		reflect.TypeOf((*OdbNetworkManagedServicesZeroEtlAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccessList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccessList",
 		reflect.TypeOf((*OdbNetworkManagedServicesZeroEtlAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -387,7 +387,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccessOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesZeroEtlAccessOutputReference",
 		reflect.TypeOf((*OdbNetworkManagedServicesZeroEtlAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -421,11 +421,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigs",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigs",
 		reflect.TypeOf((*OdbNetworkOciDnsForwardingConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsList",
 		reflect.TypeOf((*OdbNetworkOciDnsForwardingConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -446,7 +446,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
 		reflect.TypeOf((*OdbNetworkOciDnsForwardingConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,11 +480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkTimeouts",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkTimeouts",
 		reflect.TypeOf((*OdbNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*OdbNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

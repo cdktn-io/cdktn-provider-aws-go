@@ -5,14 +5,14 @@ package dataawsservicecatalogconstraint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecatalogconstraint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogconstraint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint}.
 type DataAwsServicecatalogConstraint interface {
 	cdktf.TerraformDataSource
 	AcceptLanguage() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_DataAwsServicecatalogConstraint) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint} Data Source.
 func NewDataAwsServicecatalogConstraint(scope constructs.Construct, id *string, config *DataAwsServicecatalogConstraintConfig) DataAwsServicecatalogConstraint {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsServicecatalogConstraint(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsServicecatalogConstraint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewDataAwsServicecatalogConstraint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_constraint aws_servicecatalog_constraint} Data Source.
 func NewDataAwsServicecatalogConstraint_Override(d DataAwsServicecatalogConstraint, scope constructs.Construct, id *string, config *DataAwsServicecatalogConstraintConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -555,7 +555,7 @@ func DataAwsServicecatalogConstraint_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func DataAwsServicecatalogConstraint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func DataAwsServicecatalogConstraint_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsServicecatalogConstraint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func DataAwsServicecatalogConstraint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
+		"@cdktn/provider-aws.dataAwsServicecatalogConstraint.DataAwsServicecatalogConstraint",
 		"tfResourceType",
 		&returns,
 	)

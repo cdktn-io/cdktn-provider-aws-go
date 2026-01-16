@@ -5,9 +5,9 @@ package kinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisfirehosedeliverystream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisfirehosedeliverystream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewKinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigu
 	j := jsiiProxy_KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewKinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisFirehoseDeliveryStream.KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

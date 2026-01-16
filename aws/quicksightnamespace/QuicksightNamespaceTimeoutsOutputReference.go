@@ -5,9 +5,9 @@ package quicksightnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewQuicksightNamespaceTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_QuicksightNamespaceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightNamespace.QuicksightNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightNamespace.QuicksightNamespaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewQuicksightNamespaceTimeoutsOutputReference_Override(q QuicksightNamespac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightNamespace.QuicksightNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightNamespace.QuicksightNamespaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

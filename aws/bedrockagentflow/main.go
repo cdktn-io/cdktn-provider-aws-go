@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		reflect.TypeOf((*BedrockagentFlow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,27 +94,27 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowConfig",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowConfig",
 		reflect.TypeOf((*BedrockagentFlowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinition",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinition",
 		reflect.TypeOf((*BedrockagentFlowDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnection",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnection",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnection)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditional",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditional",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationConditional)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditionalList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditionalList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationConditionalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditionalOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationConditionalOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationConditionalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationData",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationData",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationDataList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationDataList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationDataOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationDataOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,7 +232,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -254,7 +254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,7 +294,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -316,7 +316,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionConnectionOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionConnectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -360,7 +360,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -382,19 +382,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNode",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNode",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgent",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgent",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationAgent)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationAgentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -416,7 +416,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationAgentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentAliasArn", GoGetter: "AgentAliasArn"},
@@ -450,11 +450,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollector",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollector",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationCollector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollectorList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollectorList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationCollectorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -476,7 +476,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollectorOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCollectorOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationCollectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -508,15 +508,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCondition",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationCondition",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionCondition",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionCondition",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationConditionCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationConditionConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -538,7 +538,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -575,7 +575,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -597,7 +597,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -633,11 +633,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCode",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCode",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInlineCode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCodeList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCodeList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInlineCodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -659,7 +659,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCodeOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInlineCodeOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInlineCodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -695,11 +695,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInput",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInput",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInputList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInputList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -721,7 +721,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInputOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationInputOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -753,11 +753,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIterator",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIterator",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationIterator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIteratorList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIteratorList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationIteratorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -779,7 +779,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIteratorOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationIteratorOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationIteratorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -811,15 +811,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -841,7 +841,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -877,11 +877,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -903,7 +903,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -939,11 +939,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationText",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationText",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -965,7 +965,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1009,7 +1009,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1031,7 +1031,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1078,11 +1078,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunction",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunction",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLambdaFunction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1104,7 +1104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1138,11 +1138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLex",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLex",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLex)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLexList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLexList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLexList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1164,7 +1164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLexOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationLexOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationLexOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "botAliasArn", GoGetter: "BotAliasArn"},
@@ -1200,7 +1200,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1222,11 +1222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutput",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutput",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationOutput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationOutputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1248,7 +1248,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationOutputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1280,7 +1280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agent", GoGetter: "Agent"},
@@ -1364,15 +1364,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPrompt",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPrompt",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPrompt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1394,7 +1394,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1430,7 +1430,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1452,7 +1452,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1492,19 +1492,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInline",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInline",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInline)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1526,7 +1526,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1562,11 +1562,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationText",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationText",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1588,7 +1588,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1632,7 +1632,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1654,7 +1654,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelRequestFields", GoGetter: "AdditionalModelRequestFields"},
@@ -1701,19 +1701,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChat",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChat",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChat)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariable",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariable",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1735,7 +1735,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1769,7 +1769,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1791,19 +1791,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessage",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessage",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContent",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContent",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContent)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePoint",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePoint",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1825,7 +1825,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1859,7 +1859,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1881,7 +1881,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cachePoint", GoGetter: "CachePoint"},
@@ -1920,7 +1920,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1942,7 +1942,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1980,7 +1980,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2028,15 +2028,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystem",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystem",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePoint",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePoint",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2058,7 +2058,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2092,7 +2092,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2114,7 +2114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cachePoint", GoGetter: "CachePoint"},
@@ -2153,11 +2153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2179,7 +2179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2219,15 +2219,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationTool",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationTool",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationTool)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePoint",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePoint",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2249,7 +2249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2283,15 +2283,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoice",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoice",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoice)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAny",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAny",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAny)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2313,7 +2313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAnyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2345,11 +2345,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAuto",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAuto",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAuto)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2371,7 +2371,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAutoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2403,7 +2403,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2425,7 +2425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "any", GoGetter: "Any"},
@@ -2469,11 +2469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceTool",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceTool",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceTool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2495,7 +2495,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceToolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2529,7 +2529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2551,7 +2551,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cachePoint", GoGetter: "CachePoint"},
@@ -2591,15 +2591,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpec",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpec",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2621,7 +2621,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchemaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2656,7 +2656,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2678,7 +2678,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2719,7 +2719,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2741,7 +2741,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "chat", GoGetter: "Chat"},
@@ -2781,15 +2781,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationText",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationText",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationText)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePoint",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePoint",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2811,7 +2811,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2845,11 +2845,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariable",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariable",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2871,7 +2871,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2905,7 +2905,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2927,7 +2927,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cachePoint", GoGetter: "CachePoint"},
@@ -2969,7 +2969,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2991,7 +2991,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3031,11 +3031,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3057,7 +3057,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3091,11 +3091,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrieval",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrieval",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrieval)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3117,7 +3117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3153,11 +3153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3179,7 +3179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3215,11 +3215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3241,7 +3241,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -3275,11 +3275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorage",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorage",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3301,7 +3301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3337,11 +3337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfiguration",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfiguration",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3363,7 +3363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3399,11 +3399,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3List",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3List",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3425,7 +3425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3OutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3OutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -3459,11 +3459,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInput",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInput",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInputList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInputList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3485,7 +3485,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInputOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeInputOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
@@ -3526,7 +3526,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3548,11 +3548,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutput",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutput",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeOutput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputList",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeOutputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3574,7 +3574,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeOutputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3610,7 +3610,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3658,7 +3658,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionOutputReference",
 		reflect.TypeOf((*BedrockagentFlowDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3698,11 +3698,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowTimeouts",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowTimeouts",
 		reflect.TypeOf((*BedrockagentFlowTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockagentFlowTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package transferuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewTransferUserPosixProfileOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_TransferUserPosixProfileOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
+		"@cdktn/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewTransferUserPosixProfileOutputReference_Override(t TransferUserPosixProf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
+		"@cdktn/provider-aws.transferUser.TransferUserPosixProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

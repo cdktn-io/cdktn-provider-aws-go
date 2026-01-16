@@ -5,9 +5,9 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewOpensearchDomainEbsOptionsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_OpensearchDomainEbsOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainEbsOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainEbsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewOpensearchDomainEbsOptionsOutputReference_Override(o OpensearchDomainEbs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainEbsOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainEbsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

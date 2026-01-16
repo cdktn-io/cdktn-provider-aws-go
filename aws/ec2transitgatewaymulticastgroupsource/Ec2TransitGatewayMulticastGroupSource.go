@@ -5,14 +5,14 @@ package ec2transitgatewaymulticastgroupsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2transitgatewaymulticastgroupsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgatewaymulticastgroupsource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source}.
 type Ec2TransitGatewayMulticastGroupSource interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_Ec2TransitGatewayMulticastGroupSource) TransitGatewayMulticas
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source} Resource.
 func NewEc2TransitGatewayMulticastGroupSource(scope constructs.Construct, id *string, config *Ec2TransitGatewayMulticastGroupSourceConfig) Ec2TransitGatewayMulticastGroupSource {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewEc2TransitGatewayMulticastGroupSource(scope constructs.Construct, id *st
 	j := jsiiProxy_Ec2TransitGatewayMulticastGroupSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewEc2TransitGatewayMulticastGroupSource(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_multicast_group_source aws_ec2_transit_gateway_multicast_group_source} Resource.
 func NewEc2TransitGatewayMulticastGroupSource_Override(e Ec2TransitGatewayMulticastGroupSource, scope constructs.Construct, id *string, config *Ec2TransitGatewayMulticastGroupSourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -565,7 +565,7 @@ func Ec2TransitGatewayMulticastGroupSource_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func Ec2TransitGatewayMulticastGroupSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Ec2TransitGatewayMulticastGroupSource_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func Ec2TransitGatewayMulticastGroupSource_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func Ec2TransitGatewayMulticastGroupSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
+		"@cdktn/provider-aws.ec2TransitGatewayMulticastGroupSource.Ec2TransitGatewayMulticastGroupSource",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		reflect.TypeOf((*SwfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.swfDomain.SwfDomainConfig",
+		"@cdktn/provider-aws.swfDomain.SwfDomainConfig",
 		reflect.TypeOf((*SwfDomainConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package vpcrouteserverpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcrouteserverpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcrouteserverpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer}.
 type VpcRouteServerPeer interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -516,7 +516,7 @@ func (j *jsiiProxy_VpcRouteServerPeer) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer} Resource.
 func NewVpcRouteServerPeer(scope constructs.Construct, id *string, config *VpcRouteServerPeerConfig) VpcRouteServerPeer {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewVpcRouteServerPeer(scope constructs.Construct, id *string, config *VpcRo
 	j := jsiiProxy_VpcRouteServerPeer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -534,12 +534,12 @@ func NewVpcRouteServerPeer(scope constructs.Construct, id *string, config *VpcRo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server_peer aws_vpc_route_server_peer} Resource.
 func NewVpcRouteServerPeer_Override(v VpcRouteServerPeer, scope constructs.Construct, id *string, config *VpcRouteServerPeerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -667,7 +667,7 @@ func VpcRouteServerPeer_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -702,7 +702,7 @@ func VpcRouteServerPeer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func VpcRouteServerPeer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func VpcRouteServerPeer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func VpcRouteServerPeer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		"tfResourceType",
 		&returns,
 	)

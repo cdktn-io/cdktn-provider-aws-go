@@ -5,9 +5,9 @@ package appmeshvirtualnode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualnode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAppmeshVirtualNodeSpecBackendOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_AppmeshVirtualNodeSpecBackendOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAppmeshVirtualNodeSpecBackendOutputReference_Override(a AppmeshVirtualNo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

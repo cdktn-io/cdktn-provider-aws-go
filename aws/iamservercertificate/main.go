@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificate",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificate",
 		reflect.TypeOf((*IamServerCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificateConfig",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificateConfig",
 		reflect.TypeOf((*IamServerCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificateTimeouts",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificateTimeouts",
 		reflect.TypeOf((*IamServerCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*IamServerCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

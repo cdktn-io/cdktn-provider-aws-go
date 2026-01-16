@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		reflect.TypeOf((*WorkspaceswebPortal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortalConfig",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortalConfig",
 		reflect.TypeOf((*WorkspaceswebPortalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortalTimeouts",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortalTimeouts",
 		reflect.TypeOf((*WorkspaceswebPortalTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortalTimeoutsOutputReference",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortalTimeoutsOutputReference",
 		reflect.TypeOf((*WorkspaceswebPortalTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

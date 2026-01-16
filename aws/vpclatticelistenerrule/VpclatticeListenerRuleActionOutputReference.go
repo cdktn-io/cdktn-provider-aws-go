@@ -5,9 +5,9 @@ package vpclatticelistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewVpclatticeListenerRuleActionOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_VpclatticeListenerRuleActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewVpclatticeListenerRuleActionOutputReference_Override(v VpclatticeListene
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

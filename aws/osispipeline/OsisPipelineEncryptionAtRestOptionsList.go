@@ -5,9 +5,9 @@ package osispipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/osispipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/osispipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewOsisPipelineEncryptionAtRestOptionsList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_OsisPipelineEncryptionAtRestOptionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewOsisPipelineEncryptionAtRestOptionsList_Override(o OsisPipelineEncryptio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineEncryptionAtRestOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

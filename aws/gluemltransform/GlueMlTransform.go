@@ -5,14 +5,14 @@ package gluemltransform
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluemltransform/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluemltransform/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_ml_transform aws_glue_ml_transform}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_ml_transform aws_glue_ml_transform}.
 type GlueMlTransform interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_GlueMlTransform) WorkerTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
 func NewGlueMlTransform(scope constructs.Construct, id *string, config *GlueMlTransformConfig) GlueMlTransform {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewGlueMlTransform(scope constructs.Construct, id *string, config *GlueMlTr
 	j := jsiiProxy_GlueMlTransform{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -693,12 +693,12 @@ func NewGlueMlTransform(scope constructs.Construct, id *string, config *GlueMlTr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_ml_transform aws_glue_ml_transform} Resource.
 func NewGlueMlTransform_Override(g GlueMlTransform, scope constructs.Construct, id *string, config *GlueMlTransformConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -925,7 +925,7 @@ func GlueMlTransform_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -960,7 +960,7 @@ func GlueMlTransform_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func GlueMlTransform_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -998,7 +998,7 @@ func GlueMlTransform_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1011,7 +1011,7 @@ func GlueMlTransform_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueMlTransform.GlueMlTransform",
+		"@cdktn/provider-aws.glueMlTransform.GlueMlTransform",
 		"tfResourceType",
 		&returns,
 	)

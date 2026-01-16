@@ -5,9 +5,9 @@ package dataawslambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataAwsLambdaFunctionVpcConfigOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsLambdaFunctionVpcConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataAwsLambdaFunctionVpcConfigOutputReference_Override(d DataAwsLambdaFu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunctionVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

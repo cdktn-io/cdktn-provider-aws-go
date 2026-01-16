@@ -5,14 +5,14 @@ package prometheusalertmanagerdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusalertmanagerdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusalertmanagerdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition}.
 type PrometheusAlertManagerDefinition interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_PrometheusAlertManagerDefinition) WorkspaceIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition} Resource.
 func NewPrometheusAlertManagerDefinition(scope constructs.Construct, id *string, config *PrometheusAlertManagerDefinitionConfig) PrometheusAlertManagerDefinition {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewPrometheusAlertManagerDefinition(scope constructs.Construct, id *string,
 	j := jsiiProxy_PrometheusAlertManagerDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewPrometheusAlertManagerDefinition(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_alert_manager_definition aws_prometheus_alert_manager_definition} Resource.
 func NewPrometheusAlertManagerDefinition_Override(p PrometheusAlertManagerDefinition, scope constructs.Construct, id *string, config *PrometheusAlertManagerDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -531,7 +531,7 @@ func PrometheusAlertManagerDefinition_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func PrometheusAlertManagerDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func PrometheusAlertManagerDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func PrometheusAlertManagerDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func PrometheusAlertManagerDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		"tfResourceType",
 		&returns,
 	)

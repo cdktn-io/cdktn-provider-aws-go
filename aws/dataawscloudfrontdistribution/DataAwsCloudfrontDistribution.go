@@ -5,14 +5,14 @@ package dataawscloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution}.
 type DataAwsCloudfrontDistribution interface {
 	cdktf.TerraformDataSource
 	Aliases() *[]*string
@@ -409,7 +409,7 @@ func (j *jsiiProxy_DataAwsCloudfrontDistribution) WebAclId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution} Data Source.
 func NewDataAwsCloudfrontDistribution(scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionConfig) DataAwsCloudfrontDistribution {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAwsCloudfrontDistribution(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsCloudfrontDistribution{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,12 +427,12 @@ func NewDataAwsCloudfrontDistribution(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_distribution aws_cloudfront_distribution} Data Source.
 func NewDataAwsCloudfrontDistribution_Override(d DataAwsCloudfrontDistribution, scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -516,7 +516,7 @@ func DataAwsCloudfrontDistribution_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -551,7 +551,7 @@ func DataAwsCloudfrontDistribution_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsCloudfrontDistribution_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -589,7 +589,7 @@ func DataAwsCloudfrontDistribution_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -602,7 +602,7 @@ func DataAwsCloudfrontDistribution_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		"tfResourceType",
 		&returns,
 	)

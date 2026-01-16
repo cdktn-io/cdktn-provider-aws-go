@@ -5,9 +5,9 @@ package kendradatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendradatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendradatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewKendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurati
 	j := jsiiProxy_KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewKendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSourceConfigurationS3ConfigurationDocumentsMetadataConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

@@ -5,14 +5,14 @@ package dataawsoamsinks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsoamsinks/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsoamsinks/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_sinks aws_oam_sinks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_sinks aws_oam_sinks}.
 type DataAwsOamSinks interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsOamSinks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
 func NewDataAwsOamSinks(scope constructs.Construct, id *string, config *DataAwsOamSinksConfig) DataAwsOamSinks {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsOamSinks(scope constructs.Construct, id *string, config *DataAwsO
 	j := jsiiProxy_DataAwsOamSinks{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsOamSinks(scope constructs.Construct, id *string, config *DataAwsO
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_sinks aws_oam_sinks} Data Source.
 func NewDataAwsOamSinks_Override(d DataAwsOamSinks, scope constructs.Construct, id *string, config *DataAwsOamSinksConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsOamSinks_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsOamSinks_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsOamSinks_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsOamSinks_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsOamSinks_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
+		"@cdktn/provider-aws.dataAwsOamSinks.DataAwsOamSinks",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package vpcipamscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipamscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope}.
 type VpcIpamScope interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_VpcIpamScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
 func NewVpcIpamScope(scope constructs.Construct, id *string, config *VpcIpamScopeConfig) VpcIpamScope {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewVpcIpamScope(scope constructs.Construct, id *string, config *VpcIpamScop
 	j := jsiiProxy_VpcIpamScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -526,12 +526,12 @@ func NewVpcIpamScope(scope constructs.Construct, id *string, config *VpcIpamScop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_scope aws_vpc_ipam_scope} Resource.
 func NewVpcIpamScope_Override(v VpcIpamScope, scope constructs.Construct, id *string, config *VpcIpamScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -681,7 +681,7 @@ func VpcIpamScope_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func VpcIpamScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func VpcIpamScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func VpcIpamScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func VpcIpamScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScope",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScope",
 		"tfResourceType",
 		&returns,
 	)

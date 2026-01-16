@@ -5,14 +5,14 @@ package bedrockguardrailversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockguardrailversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockguardrailversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version}.
 type BedrockGuardrailVersion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_BedrockGuardrailVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version} Resource.
 func NewBedrockGuardrailVersion(scope constructs.Construct, id *string, config *BedrockGuardrailVersionConfig) BedrockGuardrailVersion {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewBedrockGuardrailVersion(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_BedrockGuardrailVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -434,12 +434,12 @@ func NewBedrockGuardrailVersion(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_guardrail_version aws_bedrock_guardrail_version} Resource.
 func NewBedrockGuardrailVersion_Override(b BedrockGuardrailVersion, scope constructs.Construct, id *string, config *BedrockGuardrailVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -567,7 +567,7 @@ func BedrockGuardrailVersion_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func BedrockGuardrailVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func BedrockGuardrailVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func BedrockGuardrailVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func BedrockGuardrailVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		"tfResourceType",
 		&returns,
 	)

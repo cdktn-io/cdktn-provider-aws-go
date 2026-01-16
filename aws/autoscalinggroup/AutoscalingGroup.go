@@ -5,14 +5,14 @@ package autoscalinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalinggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group aws_autoscaling_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group aws_autoscaling_group}.
 type AutoscalingGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1373,7 +1373,7 @@ func (j *jsiiProxy_AutoscalingGroup) WarmPoolSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.
 func NewAutoscalingGroup(scope constructs.Construct, id *string, config *AutoscalingGroupConfig) AutoscalingGroup {
 	_init_.Initialize()
 
@@ -1383,7 +1383,7 @@ func NewAutoscalingGroup(scope constructs.Construct, id *string, config *Autosca
 	j := jsiiProxy_AutoscalingGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1391,12 +1391,12 @@ func NewAutoscalingGroup(scope constructs.Construct, id *string, config *Autosca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.
 func NewAutoscalingGroup_Override(a AutoscalingGroup, scope constructs.Construct, id *string, config *AutoscalingGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1843,7 +1843,7 @@ func AutoscalingGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1878,7 +1878,7 @@ func AutoscalingGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1897,7 +1897,7 @@ func AutoscalingGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1916,7 +1916,7 @@ func AutoscalingGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1929,7 +1929,7 @@ func AutoscalingGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroup",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroup",
 		"tfResourceType",
 		&returns,
 	)

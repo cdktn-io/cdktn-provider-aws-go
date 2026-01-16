@@ -5,9 +5,9 @@ package imagebuilderlifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderlifecyclepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderlifecyclepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedLis
 	j := jsiiProxy_ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList",
+		"@cdktn/provider-aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedLis
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList",
+		"@cdktn/provider-aws.imagebuilderLifecyclePolicy.ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunchedList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

@@ -5,14 +5,14 @@ package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot aws_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot}.
 type LexBot interface {
 	cdktf.TerraformResource
 	AbortStatement() LexBotAbortStatementOutputReference
@@ -767,7 +767,7 @@ func (j *jsiiProxy_LexBot) VoiceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) LexBot {
 	_init_.Initialize()
 
@@ -777,7 +777,7 @@ func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) Lex
 	j := jsiiProxy_LexBot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -785,12 +785,12 @@ func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot_Override(l LexBot, scope constructs.Construct, id *string, config *LexBotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1017,7 +1017,7 @@ func LexBot_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1052,7 +1052,7 @@ func LexBot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1071,7 +1071,7 @@ func LexBot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1090,7 +1090,7 @@ func LexBot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1103,7 +1103,7 @@ func LexBot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexBot.LexBot",
+		"@cdktn/provider-aws.lexBot.LexBot",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package opensearchserverlessaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchserverlessaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchserverlessaccesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy}.
 type OpensearchserverlessAccessPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_OpensearchserverlessAccessPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Resource.
 func NewOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string, config *OpensearchserverlessAccessPolicyConfig) OpensearchserverlessAccessPolicy {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string,
 	j := jsiiProxy_OpensearchserverlessAccessPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_access_policy aws_opensearchserverless_access_policy} Resource.
 func NewOpensearchserverlessAccessPolicy_Override(o OpensearchserverlessAccessPolicy, scope constructs.Construct, id *string, config *OpensearchserverlessAccessPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -587,7 +587,7 @@ func OpensearchserverlessAccessPolicy_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func OpensearchserverlessAccessPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func OpensearchserverlessAccessPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func OpensearchserverlessAccessPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func OpensearchserverlessAccessPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
+		"@cdktn/provider-aws.opensearchserverlessAccessPolicy.OpensearchserverlessAccessPolicy",
 		"tfResourceType",
 		&returns,
 	)

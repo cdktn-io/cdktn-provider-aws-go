@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSource",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSource",
 		reflect.TypeOf((*SecuritylakeCustomLogSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,11 +81,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributes",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributes",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesList",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesList",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceAttributesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,19 +141,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfig",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfig",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfiguration",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfiguration",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfiguration",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfiguration",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationCrawlerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationList",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationList",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationOutputReference",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationList",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationList",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -231,7 +231,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationOutputReference",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentity",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentity",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationProviderIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentityList",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentityList",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationProviderIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentityOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceConfigurationProviderIdentityOutputReference",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceConfigurationProviderIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,11 +333,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetails",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetails",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceProviderDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetailsList",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetailsList",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceProviderDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -358,7 +358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetailsOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceProviderDetailsOutputReference",
 		reflect.TypeOf((*SecuritylakeCustomLogSourceProviderDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		reflect.TypeOf((*SpotInstanceRequest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -259,15 +259,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecification",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecification",
 		reflect.TypeOf((*SpotInstanceRequestCapacityReservationSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTarget",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTarget",
 		reflect.TypeOf((*SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTargetOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTargetOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestCapacityReservationSpecificationCapacityReservationTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationId", GoGetter: "CapacityReservationId"},
@@ -305,7 +305,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCapacityReservationSpecificationOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestCapacityReservationSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreference", GoGetter: "CapacityReservationPreference"},
@@ -344,15 +344,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestConfig",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestConfig",
 		reflect.TypeOf((*SpotInstanceRequestConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCpuOptions",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCpuOptions",
 		reflect.TypeOf((*SpotInstanceRequestCpuOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCpuOptionsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCpuOptionsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestCpuOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amdSevSnp", GoGetter: "AmdSevSnp"},
@@ -393,11 +393,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecification",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecification",
 		reflect.TypeOf((*SpotInstanceRequestCreditSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestCreditSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -432,11 +432,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDevice",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDevice",
 		reflect.TypeOf((*SpotInstanceRequestEbsBlockDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDeviceList",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDeviceList",
 		reflect.TypeOf((*SpotInstanceRequestEbsBlockDeviceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -458,7 +458,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDeviceOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEbsBlockDeviceOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestEbsBlockDeviceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -523,11 +523,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptions",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptions",
 		reflect.TypeOf((*SpotInstanceRequestEnclaveOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptionsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptionsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestEnclaveOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -562,11 +562,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDevice",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDevice",
 		reflect.TypeOf((*SpotInstanceRequestEphemeralBlockDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDeviceList",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDeviceList",
 		reflect.TypeOf((*SpotInstanceRequestEphemeralBlockDeviceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -588,7 +588,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDeviceOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDeviceOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestEphemeralBlockDeviceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -628,11 +628,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplate",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplate",
 		reflect.TypeOf((*SpotInstanceRequestLaunchTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestLaunchTemplateOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestLaunchTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -673,11 +673,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptions",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptions",
 		reflect.TypeOf((*SpotInstanceRequestMaintenanceOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptionsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestMaintenanceOptionsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestMaintenanceOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoRecovery", GoGetter: "AutoRecovery"},
@@ -712,11 +712,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestMetadataOptions",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestMetadataOptions",
 		reflect.TypeOf((*SpotInstanceRequestMetadataOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestMetadataOptionsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestMetadataOptionsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestMetadataOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -763,11 +763,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterface",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterface",
 		reflect.TypeOf((*SpotInstanceRequestNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterfaceList",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterfaceList",
 		reflect.TypeOf((*SpotInstanceRequestNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -789,7 +789,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterfaceOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestNetworkInterfaceOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -829,11 +829,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterface",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterface",
 		reflect.TypeOf((*SpotInstanceRequestPrimaryNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterfaceList",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterfaceList",
 		reflect.TypeOf((*SpotInstanceRequestPrimaryNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -854,7 +854,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterfaceOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestPrimaryNetworkInterfaceOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestPrimaryNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -888,11 +888,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptions",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptions",
 		reflect.TypeOf((*SpotInstanceRequestPrivateDnsNameOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptionsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestPrivateDnsNameOptionsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestPrivateDnsNameOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -933,11 +933,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestRootBlockDevice",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestRootBlockDevice",
 		reflect.TypeOf((*SpotInstanceRequestRootBlockDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestRootBlockDeviceOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestRootBlockDeviceOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestRootBlockDeviceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -998,11 +998,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeouts",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeouts",
 		reflect.TypeOf((*SpotInstanceRequestTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
 		reflect.TypeOf((*SpotInstanceRequestTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package cloudformationtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_type aws_cloudformation_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_type aws_cloudformation_type}.
 type CloudformationType interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_CloudformationType) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
 func NewCloudformationType(scope constructs.Construct, id *string, config *CloudformationTypeConfig) CloudformationType {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewCloudformationType(scope constructs.Construct, id *string, config *Cloud
 	j := jsiiProxy_CloudformationType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,12 +602,12 @@ func NewCloudformationType(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_type aws_cloudformation_type} Resource.
 func NewCloudformationType_Override(c CloudformationType, scope constructs.Construct, id *string, config *CloudformationTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -757,7 +757,7 @@ func CloudformationType_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -792,7 +792,7 @@ func CloudformationType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func CloudformationType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -830,7 +830,7 @@ func CloudformationType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -843,7 +843,7 @@ func CloudformationType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudformationType.CloudformationType",
+		"@cdktn/provider-aws.cloudformationType.CloudformationType",
 		"tfResourceType",
 		&returns,
 	)

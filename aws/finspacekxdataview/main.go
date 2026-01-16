@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		reflect.TypeOf((*FinspaceKxDataview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewConfig",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewConfig",
 		reflect.TypeOf((*FinspaceKxDataviewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurations",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurations",
 		reflect.TypeOf((*FinspaceKxDataviewSegmentConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurationsList",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurationsList",
 		reflect.TypeOf((*FinspaceKxDataviewSegmentConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurationsOutputReference",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewSegmentConfigurationsOutputReference",
 		reflect.TypeOf((*FinspaceKxDataviewSegmentConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewTimeouts",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewTimeouts",
 		reflect.TypeOf((*FinspaceKxDataviewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataviewTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataviewTimeoutsOutputReference",
 		reflect.TypeOf((*FinspaceKxDataviewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package kinesisanalyticsapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewKinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputRefe
 	j := jsiiProxy_KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewKinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputRefe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		k,
 	)

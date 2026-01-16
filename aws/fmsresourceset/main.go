@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSet",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSet",
 		reflect.TypeOf((*FmsResourceSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetConfig",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetConfig",
 		reflect.TypeOf((*FmsResourceSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetResourceSet",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetResourceSet",
 		reflect.TypeOf((*FmsResourceSetResourceSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetResourceSetList",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetResourceSetList",
 		reflect.TypeOf((*FmsResourceSetResourceSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetResourceSetOutputReference",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetResourceSetOutputReference",
 		reflect.TypeOf((*FmsResourceSetResourceSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetTimeouts",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetTimeouts",
 		reflect.TypeOf((*FmsResourceSetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
 		reflect.TypeOf((*FmsResourceSetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

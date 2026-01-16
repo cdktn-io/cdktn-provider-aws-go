@@ -5,9 +5,9 @@ package verifiedpermissionsidentitysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionsidentitysource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionsidentitysource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurati
 	j := jsiiProxy_VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewVerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

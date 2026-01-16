@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLbListenerRuleConditionSourceIpOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_LbListenerRuleConditionSourceIpOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleConditionSourceIpOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleConditionSourceIpOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLbListenerRuleConditionSourceIpOutputReference_Override(l LbListenerRule
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleConditionSourceIpOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleConditionSourceIpOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

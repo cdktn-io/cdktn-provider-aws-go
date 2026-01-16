@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyBackendEnvironment.AmplifyBackendEnvironment",
+		"@cdktn/provider-aws.amplifyBackendEnvironment.AmplifyBackendEnvironment",
 		reflect.TypeOf((*AmplifyBackendEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyBackendEnvironment.AmplifyBackendEnvironmentConfig",
+		"@cdktn/provider-aws.amplifyBackendEnvironment.AmplifyBackendEnvironmentConfig",
 		reflect.TypeOf((*AmplifyBackendEnvironmentConfig)(nil)).Elem(),
 	)
 }

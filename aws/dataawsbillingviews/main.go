@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBillingViews.DataAwsBillingViews",
+		"@cdktn/provider-aws.dataAwsBillingViews.DataAwsBillingViews",
 		reflect.TypeOf((*DataAwsBillingViews)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,11 +59,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingView",
+		"@cdktn/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingView",
 		reflect.TypeOf((*DataAwsBillingViewsBillingView)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingViewList",
+		"@cdktn/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingViewList",
 		reflect.TypeOf((*DataAwsBillingViewsBillingViewList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingViewOutputReference",
+		"@cdktn/provider-aws.dataAwsBillingViews.DataAwsBillingViewsBillingViewOutputReference",
 		reflect.TypeOf((*DataAwsBillingViewsBillingViewOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBillingViews.DataAwsBillingViewsConfig",
+		"@cdktn/provider-aws.dataAwsBillingViews.DataAwsBillingViewsConfig",
 		reflect.TypeOf((*DataAwsBillingViewsConfig)(nil)).Elem(),
 	)
 }

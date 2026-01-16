@@ -5,14 +5,14 @@ package dataawsnetworkinterfaces
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkinterfaces/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkinterfaces/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_interfaces aws_network_interfaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_interfaces aws_network_interfaces}.
 type DataAwsNetworkInterfaces interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsNetworkInterfaces) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_interfaces aws_network_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_interfaces aws_network_interfaces} Data Source.
 func NewDataAwsNetworkInterfaces(scope constructs.Construct, id *string, config *DataAwsNetworkInterfacesConfig) DataAwsNetworkInterfaces {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsNetworkInterfaces(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsNetworkInterfaces{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsNetworkInterfaces(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_interfaces aws_network_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_interfaces aws_network_interfaces} Data Source.
 func NewDataAwsNetworkInterfaces_Override(d DataAwsNetworkInterfaces, scope constructs.Construct, id *string, config *DataAwsNetworkInterfacesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -490,7 +490,7 @@ func DataAwsNetworkInterfaces_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsNetworkInterfaces_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsNetworkInterfaces_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsNetworkInterfaces_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func DataAwsNetworkInterfaces_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
+		"@cdktn/provider-aws.dataAwsNetworkInterfaces.DataAwsNetworkInterfaces",
 		"tfResourceType",
 		&returns,
 	)

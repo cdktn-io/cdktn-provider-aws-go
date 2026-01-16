@@ -5,9 +5,9 @@ package efsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewEfsFileSystemSizeInBytesList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_EfsFileSystemSizeInBytesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewEfsFileSystemSizeInBytesList_Override(e EfsFileSystemSizeInBytesList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

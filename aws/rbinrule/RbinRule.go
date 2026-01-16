@@ -5,14 +5,14 @@ package rbinrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rbinrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rbinrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rbin_rule aws_rbin_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rbin_rule aws_rbin_rule}.
 type RbinRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_RbinRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rbin_rule aws_rbin_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rbin_rule aws_rbin_rule} Resource.
 func NewRbinRule(scope constructs.Construct, id *string, config *RbinRuleConfig) RbinRule {
 	_init_.Initialize()
 
@@ -589,7 +589,7 @@ func NewRbinRule(scope constructs.Construct, id *string, config *RbinRuleConfig)
 	j := jsiiProxy_RbinRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -597,12 +597,12 @@ func NewRbinRule(scope constructs.Construct, id *string, config *RbinRuleConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rbin_rule aws_rbin_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rbin_rule aws_rbin_rule} Resource.
 func NewRbinRule_Override(r RbinRule, scope constructs.Construct, id *string, config *RbinRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -741,7 +741,7 @@ func RbinRule_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -776,7 +776,7 @@ func RbinRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func RbinRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func RbinRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func RbinRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		"tfResourceType",
 		&returns,
 	)

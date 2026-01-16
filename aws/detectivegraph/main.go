@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.detectiveGraph.DetectiveGraph",
+		"@cdktn/provider-aws.detectiveGraph.DetectiveGraph",
 		reflect.TypeOf((*DetectiveGraph)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.detectiveGraph.DetectiveGraphConfig",
+		"@cdktn/provider-aws.detectiveGraph.DetectiveGraphConfig",
 		reflect.TypeOf((*DetectiveGraphConfig)(nil)).Elem(),
 	)
 }

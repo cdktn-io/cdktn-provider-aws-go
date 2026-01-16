@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		reflect.TypeOf((*KmsKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,15 +117,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsKey.KmsKeyConfig",
+		"@cdktn/provider-aws.kmsKey.KmsKeyConfig",
 		reflect.TypeOf((*KmsKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsKey.KmsKeyTimeouts",
+		"@cdktn/provider-aws.kmsKey.KmsKeyTimeouts",
 		reflect.TypeOf((*KmsKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsKey.KmsKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.kmsKey.KmsKeyTimeoutsOutputReference",
 		reflect.TypeOf((*KmsKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package cloudwatcheventpermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatcheventpermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatcheventpermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
 type CloudwatchEventPermission interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_CloudwatchEventPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) CloudwatchEventPermission {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CloudwatchEventPermission{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission_Override(c CloudwatchEventPermission, scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -625,7 +625,7 @@ func CloudwatchEventPermission_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func CloudwatchEventPermission_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func CloudwatchEventPermission_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func CloudwatchEventPermission_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func CloudwatchEventPermission_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
+		"@cdktn/provider-aws.cloudwatchEventPermission.CloudwatchEventPermission",
 		"tfResourceType",
 		&returns,
 	)

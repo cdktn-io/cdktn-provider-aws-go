@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpam.VpcIpam",
+		"@cdktn/provider-aws.vpcIpam.VpcIpam",
 		reflect.TypeOf((*VpcIpam)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamConfig",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamConfig",
 		reflect.TypeOf((*VpcIpamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamOperatingRegions",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamOperatingRegions",
 		reflect.TypeOf((*VpcIpamOperatingRegions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamOperatingRegionsList",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamOperatingRegionsList",
 		reflect.TypeOf((*VpcIpamOperatingRegionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamOperatingRegionsOutputReference",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamOperatingRegionsOutputReference",
 		reflect.TypeOf((*VpcIpamOperatingRegionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamTimeouts",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamTimeouts",
 		reflect.TypeOf((*VpcIpamTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpam.VpcIpamTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcIpam.VpcIpamTimeoutsOutputReference",
 		reflect.TypeOf((*VpcIpamTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectSecurityProfile.ConnectSecurityProfile",
+		"@cdktn/provider-aws.connectSecurityProfile.ConnectSecurityProfile",
 		reflect.TypeOf((*ConnectSecurityProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectSecurityProfile.ConnectSecurityProfileConfig",
+		"@cdktn/provider-aws.connectSecurityProfile.ConnectSecurityProfileConfig",
 		reflect.TypeOf((*ConnectSecurityProfileConfig)(nil)).Elem(),
 	)
 }

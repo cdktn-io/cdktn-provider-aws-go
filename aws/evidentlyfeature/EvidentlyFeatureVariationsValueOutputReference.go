@@ -5,9 +5,9 @@ package evidentlyfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewEvidentlyFeatureVariationsValueOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_EvidentlyFeatureVariationsValueOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewEvidentlyFeatureVariationsValueOutputReference_Override(e EvidentlyFeatu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

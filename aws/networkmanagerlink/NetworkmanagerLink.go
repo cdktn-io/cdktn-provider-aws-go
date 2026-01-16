@@ -5,14 +5,14 @@ package networkmanagerlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerlink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link aws_networkmanager_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link aws_networkmanager_link}.
 type NetworkmanagerLink interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_NetworkmanagerLink) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
 func NewNetworkmanagerLink(scope constructs.Construct, id *string, config *NetworkmanagerLinkConfig) NetworkmanagerLink {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewNetworkmanagerLink(scope constructs.Construct, id *string, config *Netwo
 	j := jsiiProxy_NetworkmanagerLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewNetworkmanagerLink(scope constructs.Construct, id *string, config *Netwo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link aws_networkmanager_link} Resource.
 func NewNetworkmanagerLink_Override(n NetworkmanagerLink, scope constructs.Construct, id *string, config *NetworkmanagerLinkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -729,7 +729,7 @@ func NetworkmanagerLink_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func NetworkmanagerLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func NetworkmanagerLink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func NetworkmanagerLink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func NetworkmanagerLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLink",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLink",
 		"tfResourceType",
 		&returns,
 	)

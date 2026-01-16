@@ -5,9 +5,9 @@ package configremediationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configremediationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configremediationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewConfigRemediationConfigurationExecutionControlsOutputReference(terraform
 	j := jsiiProxy_ConfigRemediationConfigurationExecutionControlsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewConfigRemediationConfigurationExecutionControlsOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

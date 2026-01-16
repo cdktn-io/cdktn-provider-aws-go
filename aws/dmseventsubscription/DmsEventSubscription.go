@@ -5,14 +5,14 @@ package dmseventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmseventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmseventsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_event_subscription aws_dms_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_event_subscription aws_dms_event_subscription}.
 type DmsEventSubscription interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_DmsEventSubscription) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_event_subscription aws_dms_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_event_subscription aws_dms_event_subscription} Resource.
 func NewDmsEventSubscription(scope constructs.Construct, id *string, config *DmsEventSubscriptionConfig) DmsEventSubscription {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewDmsEventSubscription(scope constructs.Construct, id *string, config *Dms
 	j := jsiiProxy_DmsEventSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -575,12 +575,12 @@ func NewDmsEventSubscription(scope constructs.Construct, id *string, config *Dms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_event_subscription aws_dms_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_event_subscription aws_dms_event_subscription} Resource.
 func NewDmsEventSubscription_Override(d DmsEventSubscription, scope constructs.Construct, id *string, config *DmsEventSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -774,7 +774,7 @@ func DmsEventSubscription_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -809,7 +809,7 @@ func DmsEventSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func DmsEventSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func DmsEventSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func DmsEventSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		"tfResourceType",
 		&returns,
 	)

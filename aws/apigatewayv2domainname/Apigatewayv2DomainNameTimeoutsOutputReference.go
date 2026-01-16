@@ -5,9 +5,9 @@ package apigatewayv2domainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2domainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2domainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewApigatewayv2DomainNameTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_Apigatewayv2DomainNameTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2DomainName.Apigatewayv2DomainNameTimeoutsOutputReference",
+		"@cdktn/provider-aws.apigatewayv2DomainName.Apigatewayv2DomainNameTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewApigatewayv2DomainNameTimeoutsOutputReference_Override(a Apigatewayv2Dom
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2DomainName.Apigatewayv2DomainNameTimeoutsOutputReference",
+		"@cdktn/provider-aws.apigatewayv2DomainName.Apigatewayv2DomainNameTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

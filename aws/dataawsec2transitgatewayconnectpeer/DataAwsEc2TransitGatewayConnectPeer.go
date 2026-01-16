@@ -5,14 +5,14 @@ package dataawsec2transitgatewayconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2transitgatewayconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgatewayconnectpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
 type DataAwsEc2TransitGatewayConnectPeer interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayConnectPeer) TransitGatewayConnectPee
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsEc2TransitGatewayConnectPeer(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConnectPeerConfig) DataAwsEc2TransitGatewayConnectPeer {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataAwsEc2TransitGatewayConnectPeer(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsEc2TransitGatewayConnectPeer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewDataAwsEc2TransitGatewayConnectPeer(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsEc2TransitGatewayConnectPeer_Override(d DataAwsEc2TransitGatewayConnectPeer, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayConnectPeerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -602,7 +602,7 @@ func DataAwsEc2TransitGatewayConnectPeer_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func DataAwsEc2TransitGatewayConnectPeer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func DataAwsEc2TransitGatewayConnectPeer_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DataAwsEc2TransitGatewayConnectPeer_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func DataAwsEc2TransitGatewayConnectPeer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayConnectPeer.DataAwsEc2TransitGatewayConnectPeer",
 		"tfResourceType",
 		&returns,
 	)

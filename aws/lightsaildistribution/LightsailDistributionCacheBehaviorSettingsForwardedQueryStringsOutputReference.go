@@ -5,9 +5,9 @@ package lightsaildistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputRef
 	j := jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

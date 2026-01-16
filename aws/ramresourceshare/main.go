@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		reflect.TypeOf((*RamResourceShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShareConfig",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareConfig",
 		reflect.TypeOf((*RamResourceShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShareTimeouts",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareTimeouts",
 		reflect.TypeOf((*RamResourceShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
 		reflect.TypeOf((*RamResourceShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

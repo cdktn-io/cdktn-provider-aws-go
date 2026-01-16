@@ -5,14 +5,14 @@ package dataawsdbeventcategories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbeventcategories/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbeventcategories/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_event_categories aws_db_event_categories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_event_categories aws_db_event_categories}.
 type DataAwsDbEventCategories interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsDbEventCategories) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_event_categories aws_db_event_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_event_categories aws_db_event_categories} Data Source.
 func NewDataAwsDbEventCategories(scope constructs.Construct, id *string, config *DataAwsDbEventCategoriesConfig) DataAwsDbEventCategories {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsDbEventCategories(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsDbEventCategories{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsDbEventCategories(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_event_categories aws_db_event_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_event_categories aws_db_event_categories} Data Source.
 func NewDataAwsDbEventCategories_Override(d DataAwsDbEventCategories, scope constructs.Construct, id *string, config *DataAwsDbEventCategoriesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataAwsDbEventCategories_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataAwsDbEventCategories_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataAwsDbEventCategories_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsDbEventCategories_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsDbEventCategories_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		"tfResourceType",
 		&returns,
 	)

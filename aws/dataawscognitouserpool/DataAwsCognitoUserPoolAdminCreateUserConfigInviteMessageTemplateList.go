@@ -5,9 +5,9 @@ package dataawscognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList(ter
 	j := jsiiProxy_DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolAdminCreateUserConfigInviteMessageTemplateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

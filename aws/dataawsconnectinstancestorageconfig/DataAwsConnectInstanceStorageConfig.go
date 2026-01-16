@@ -5,14 +5,14 @@ package dataawsconnectinstancestorageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectinstancestorageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectinstancestorageconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config}.
 type DataAwsConnectInstanceStorageConfig interface {
 	cdktf.TerraformDataSource
 	AssociationId() *string
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
 func NewDataAwsConnectInstanceStorageConfig(scope constructs.Construct, id *string, config *DataAwsConnectInstanceStorageConfigConfig) DataAwsConnectInstanceStorageConfig {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsConnectInstanceStorageConfig(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsConnectInstanceStorageConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsConnectInstanceStorageConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance_storage_config aws_connect_instance_storage_config} Data Source.
 func NewDataAwsConnectInstanceStorageConfig_Override(d DataAwsConnectInstanceStorageConfig, scope constructs.Construct, id *string, config *DataAwsConnectInstanceStorageConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsConnectInstanceStorageConfig_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsConnectInstanceStorageConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsConnectInstanceStorageConfig_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsConnectInstanceStorageConfig_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsConnectInstanceStorageConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
+		"@cdktn/provider-aws.dataAwsConnectInstanceStorageConfig.DataAwsConnectInstanceStorageConfig",
 		"tfResourceType",
 		&returns,
 	)

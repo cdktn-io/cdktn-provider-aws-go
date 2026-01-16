@@ -5,14 +5,14 @@ package opensearchserverlesssecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchserverlesssecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchserverlesssecuritypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy}.
 type OpensearchserverlessSecurityPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_OpensearchserverlessSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
 func NewOpensearchserverlessSecurityPolicy(scope constructs.Construct, id *string, config *OpensearchserverlessSecurityPolicyConfig) OpensearchserverlessSecurityPolicy {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewOpensearchserverlessSecurityPolicy(scope constructs.Construct, id *strin
 	j := jsiiProxy_OpensearchserverlessSecurityPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewOpensearchserverlessSecurityPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearchserverless_security_policy aws_opensearchserverless_security_policy} Resource.
 func NewOpensearchserverlessSecurityPolicy_Override(o OpensearchserverlessSecurityPolicy, scope constructs.Construct, id *string, config *OpensearchserverlessSecurityPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -587,7 +587,7 @@ func OpensearchserverlessSecurityPolicy_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func OpensearchserverlessSecurityPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func OpensearchserverlessSecurityPolicy_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func OpensearchserverlessSecurityPolicy_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func OpensearchserverlessSecurityPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
+		"@cdktn/provider-aws.opensearchserverlessSecurityPolicy.OpensearchserverlessSecurityPolicy",
 		"tfResourceType",
 		&returns,
 	)

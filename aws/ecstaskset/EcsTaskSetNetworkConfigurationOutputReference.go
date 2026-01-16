@@ -5,9 +5,9 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEcsTaskSetNetworkConfigurationOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_EcsTaskSetNetworkConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetNetworkConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetNetworkConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEcsTaskSetNetworkConfigurationOutputReference_Override(e EcsTaskSetNetwo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetNetworkConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetNetworkConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

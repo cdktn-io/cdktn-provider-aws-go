@@ -5,9 +5,9 @@ package apigatewaydomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaydomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydomainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewApiGatewayDomainNameMutualTlsAuthenticationOutputReference(terraformReso
 	j := jsiiProxy_ApiGatewayDomainNameMutualTlsAuthenticationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthenticationOutputReference",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthenticationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewApiGatewayDomainNameMutualTlsAuthenticationOutputReference_Override(a Ap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthenticationOutputReference",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainNameMutualTlsAuthenticationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		reflect.TypeOf((*SsoadminAccountAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentConfig",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentConfig",
 		reflect.TypeOf((*SsoadminAccountAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeouts",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeouts",
 		reflect.TypeOf((*SsoadminAccountAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*SsoadminAccountAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

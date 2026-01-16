@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterEndpoint.RdsClusterEndpoint",
+		"@cdktn/provider-aws.rdsClusterEndpoint.RdsClusterEndpoint",
 		reflect.TypeOf((*RdsClusterEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterEndpoint.RdsClusterEndpointConfig",
+		"@cdktn/provider-aws.rdsClusterEndpoint.RdsClusterEndpointConfig",
 		reflect.TypeOf((*RdsClusterEndpointConfig)(nil)).Elem(),
 	)
 }

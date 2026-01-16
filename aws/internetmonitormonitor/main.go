@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitor",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitor",
 		reflect.TypeOf((*InternetmonitorMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorConfig",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorConfig",
 		reflect.TypeOf((*InternetmonitorMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfig",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfig",
 		reflect.TypeOf((*InternetmonitorMonitorHealthEventsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfigOutputReference",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorHealthEventsConfigOutputReference",
 		reflect.TypeOf((*InternetmonitorMonitorHealthEventsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityScoreThreshold", GoGetter: "AvailabilityScoreThreshold"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDelivery",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDelivery",
 		reflect.TypeOf((*InternetmonitorMonitorInternetMeasurementsLogDelivery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference",
 		reflect.TypeOf((*InternetmonitorMonitorInternetMeasurementsLogDeliveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config",
 		reflect.TypeOf((*InternetmonitorMonitorInternetMeasurementsLogDeliveryS3Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference",
+		"@cdktn/provider-aws.internetmonitorMonitor.InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference",
 		reflect.TypeOf((*InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},

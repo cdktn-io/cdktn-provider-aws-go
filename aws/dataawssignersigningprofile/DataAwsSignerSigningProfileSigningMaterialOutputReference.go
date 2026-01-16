@@ -5,9 +5,9 @@ package dataawssignersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssignersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssignersigningprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewDataAwsSignerSigningProfileSigningMaterialOutputReference(terraformResou
 	j := jsiiProxy_DataAwsSignerSigningProfileSigningMaterialOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewDataAwsSignerSigningProfileSigningMaterialOutputReference_Override(d Dat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

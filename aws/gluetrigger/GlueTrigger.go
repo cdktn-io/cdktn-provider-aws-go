@@ -5,14 +5,14 @@ package gluetrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluetrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluetrigger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_trigger aws_glue_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_trigger aws_glue_trigger}.
 type GlueTrigger interface {
 	cdktf.TerraformResource
 	Actions() GlueTriggerActionsList
@@ -665,7 +665,7 @@ func (j *jsiiProxy_GlueTrigger) WorkflowNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
 func NewGlueTrigger(scope constructs.Construct, id *string, config *GlueTriggerConfig) GlueTrigger {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewGlueTrigger(scope constructs.Construct, id *string, config *GlueTriggerC
 	j := jsiiProxy_GlueTrigger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -683,12 +683,12 @@ func NewGlueTrigger(scope constructs.Construct, id *string, config *GlueTriggerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_trigger aws_glue_trigger} Resource.
 func NewGlueTrigger_Override(g GlueTrigger, scope constructs.Construct, id *string, config *GlueTriggerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -893,7 +893,7 @@ func GlueTrigger_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -928,7 +928,7 @@ func GlueTrigger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -947,7 +947,7 @@ func GlueTrigger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -966,7 +966,7 @@ func GlueTrigger_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func GlueTrigger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		"tfResourceType",
 		&returns,
 	)

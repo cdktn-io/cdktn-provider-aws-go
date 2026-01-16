@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsQuicksightGroup.DataAwsQuicksightGroup",
+		"@cdktn/provider-aws.dataAwsQuicksightGroup.DataAwsQuicksightGroup",
 		reflect.TypeOf((*DataAwsQuicksightGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsQuicksightGroup.DataAwsQuicksightGroupConfig",
+		"@cdktn/provider-aws.dataAwsQuicksightGroup.DataAwsQuicksightGroupConfig",
 		reflect.TypeOf((*DataAwsQuicksightGroupConfig)(nil)).Elem(),
 	)
 }

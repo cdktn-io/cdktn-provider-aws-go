@@ -5,9 +5,9 @@ package networkfirewallrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewallrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewNetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference(terraformR
 	j := jsiiProxy_NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewNetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference_Override(n
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroupRuleGroupRuleVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

@@ -5,14 +5,14 @@ package s3bucketobjectlockconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketobjectlockconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketobjectlockconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration}.
 type S3BucketObjectLockConfigurationA interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -453,7 +453,7 @@ func (j *jsiiProxy_S3BucketObjectLockConfigurationA) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Resource.
 func NewS3BucketObjectLockConfigurationA(scope constructs.Construct, id *string, config *S3BucketObjectLockConfigurationAConfig) S3BucketObjectLockConfigurationA {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewS3BucketObjectLockConfigurationA(scope constructs.Construct, id *string,
 	j := jsiiProxy_S3BucketObjectLockConfigurationA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewS3BucketObjectLockConfigurationA(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Resource.
 func NewS3BucketObjectLockConfigurationA_Override(s S3BucketObjectLockConfigurationA, scope constructs.Construct, id *string, config *S3BucketObjectLockConfigurationAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -626,7 +626,7 @@ func S3BucketObjectLockConfigurationA_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func S3BucketObjectLockConfigurationA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func S3BucketObjectLockConfigurationA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func S3BucketObjectLockConfigurationA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func S3BucketObjectLockConfigurationA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
+		"@cdktn/provider-aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationA",
 		"tfResourceType",
 		&returns,
 	)

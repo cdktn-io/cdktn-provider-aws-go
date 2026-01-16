@@ -5,9 +5,9 @@ package dataawspricingproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawspricingproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawspricingproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsPricingProductFiltersList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DataAwsPricingProductFiltersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsPricingProductFiltersList_Override(d DataAwsPricingProductFilters
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

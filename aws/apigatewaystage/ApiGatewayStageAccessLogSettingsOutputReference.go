@@ -5,9 +5,9 @@ package apigatewaystage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaystage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaystage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewApiGatewayStageAccessLogSettingsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_ApiGatewayStageAccessLogSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewApiGatewayStageAccessLogSettingsOutputReference_Override(a ApiGatewaySta
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

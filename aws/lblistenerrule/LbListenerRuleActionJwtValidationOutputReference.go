@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewLbListenerRuleActionJwtValidationOutputReference(terraformResource cdktf
 	j := jsiiProxy_LbListenerRuleActionJwtValidationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionJwtValidationOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionJwtValidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewLbListenerRuleActionJwtValidationOutputReference_Override(l LbListenerRu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionJwtValidationOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionJwtValidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

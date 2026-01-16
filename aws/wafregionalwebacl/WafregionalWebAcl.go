@@ -5,14 +5,14 @@ package wafregionalwebacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalwebacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalwebacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl}.
 type WafregionalWebAcl interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_WafregionalWebAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl} Resource.
 func NewWafregionalWebAcl(scope constructs.Construct, id *string, config *WafregionalWebAclConfig) WafregionalWebAcl {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewWafregionalWebAcl(scope constructs.Construct, id *string, config *Wafreg
 	j := jsiiProxy_WafregionalWebAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewWafregionalWebAcl(scope constructs.Construct, id *string, config *Wafreg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_web_acl aws_wafregional_web_acl} Resource.
 func NewWafregionalWebAcl_Override(w WafregionalWebAcl, scope constructs.Construct, id *string, config *WafregionalWebAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -683,7 +683,7 @@ func WafregionalWebAcl_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func WafregionalWebAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func WafregionalWebAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func WafregionalWebAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func WafregionalWebAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAcl",
 		"tfResourceType",
 		&returns,
 	)

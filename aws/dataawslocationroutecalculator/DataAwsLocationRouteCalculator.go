@@ -5,14 +5,14 @@ package dataawslocationroutecalculator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslocationroutecalculator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslocationroutecalculator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_route_calculator aws_location_route_calculator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_route_calculator aws_location_route_calculator}.
 type DataAwsLocationRouteCalculator interface {
 	cdktf.TerraformDataSource
 	CalculatorArn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAwsLocationRouteCalculator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_route_calculator aws_location_route_calculator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_route_calculator aws_location_route_calculator} Data Source.
 func NewDataAwsLocationRouteCalculator(scope constructs.Construct, id *string, config *DataAwsLocationRouteCalculatorConfig) DataAwsLocationRouteCalculator {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAwsLocationRouteCalculator(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAwsLocationRouteCalculator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAwsLocationRouteCalculator(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_route_calculator aws_location_route_calculator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_route_calculator aws_location_route_calculator} Data Source.
 func NewDataAwsLocationRouteCalculator_Override(d DataAwsLocationRouteCalculator, scope constructs.Construct, id *string, config *DataAwsLocationRouteCalculatorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAwsLocationRouteCalculator_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAwsLocationRouteCalculator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAwsLocationRouteCalculator_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsLocationRouteCalculator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsLocationRouteCalculator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
+		"@cdktn/provider-aws.dataAwsLocationRouteCalculator.DataAwsLocationRouteCalculator",
 		"tfResourceType",
 		&returns,
 	)

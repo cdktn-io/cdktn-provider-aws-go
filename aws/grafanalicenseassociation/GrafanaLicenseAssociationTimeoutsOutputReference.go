@@ -5,9 +5,9 @@ package grafanalicenseassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/grafanalicenseassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/grafanalicenseassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewGrafanaLicenseAssociationTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_GrafanaLicenseAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaLicenseAssociation.GrafanaLicenseAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaLicenseAssociation.GrafanaLicenseAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGrafanaLicenseAssociationTimeoutsOutputReference_Override(g GrafanaLicen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaLicenseAssociation.GrafanaLicenseAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaLicenseAssociation.GrafanaLicenseAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

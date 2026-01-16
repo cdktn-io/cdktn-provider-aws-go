@@ -5,9 +5,9 @@ package dataawsidentitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsidentitystoreuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsidentitystoreuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -247,7 +247,7 @@ func NewDataAwsIdentitystoreUserAddressesOutputReference(terraformResource cdktf
 	j := jsiiProxy_DataAwsIdentitystoreUserAddressesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUserAddressesOutputReference",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUserAddressesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -259,7 +259,7 @@ func NewDataAwsIdentitystoreUserAddressesOutputReference_Override(d DataAwsIdent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUserAddressesOutputReference",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUserAddressesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

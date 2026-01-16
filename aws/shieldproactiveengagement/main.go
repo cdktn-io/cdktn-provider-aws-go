@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagement",
+		"@cdktn/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagement",
 		reflect.TypeOf((*ShieldProactiveEngagement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementConfig",
+		"@cdktn/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementConfig",
 		reflect.TypeOf((*ShieldProactiveEngagementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact",
+		"@cdktn/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact",
 		reflect.TypeOf((*ShieldProactiveEngagementEmergencyContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContactList",
+		"@cdktn/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContactList",
 		reflect.TypeOf((*ShieldProactiveEngagementEmergencyContactList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContactOutputReference",
+		"@cdktn/provider-aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContactOutputReference",
 		reflect.TypeOf((*ShieldProactiveEngagementEmergencyContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

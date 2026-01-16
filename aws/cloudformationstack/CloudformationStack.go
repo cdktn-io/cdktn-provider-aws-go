@@ -5,14 +5,14 @@ package cloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationstack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_stack aws_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_stack aws_cloudformation_stack}.
 type CloudformationStack interface {
 	cdktf.TerraformResource
 	Capabilities() *[]*string
@@ -704,7 +704,7 @@ func (j *jsiiProxy_CloudformationStack) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
 func NewCloudformationStack(scope constructs.Construct, id *string, config *CloudformationStackConfig) CloudformationStack {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewCloudformationStack(scope constructs.Construct, id *string, config *Clou
 	j := jsiiProxy_CloudformationStack{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -722,12 +722,12 @@ func NewCloudformationStack(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
 func NewCloudformationStack_Override(c CloudformationStack, scope constructs.Construct, id *string, config *CloudformationStackConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -987,7 +987,7 @@ func CloudformationStack_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1022,7 +1022,7 @@ func CloudformationStack_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1041,7 +1041,7 @@ func CloudformationStack_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1060,7 +1060,7 @@ func CloudformationStack_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1073,7 +1073,7 @@ func CloudformationStack_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		"tfResourceType",
 		&returns,
 	)

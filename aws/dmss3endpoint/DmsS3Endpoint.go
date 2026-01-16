@@ -5,14 +5,14 @@ package dmss3endpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmss3endpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmss3endpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint}.
 type DmsS3Endpoint interface {
 	cdktf.TerraformResource
 	AddColumnName() interface{}
@@ -1574,7 +1574,7 @@ func (j *jsiiProxy_DmsS3Endpoint) UseTaskStartTimeForFullLoadTimestampInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
 func NewDmsS3Endpoint(scope constructs.Construct, id *string, config *DmsS3EndpointConfig) DmsS3Endpoint {
 	_init_.Initialize()
 
@@ -1584,7 +1584,7 @@ func NewDmsS3Endpoint(scope constructs.Construct, id *string, config *DmsS3Endpo
 	j := jsiiProxy_DmsS3Endpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1592,12 +1592,12 @@ func NewDmsS3Endpoint(scope constructs.Construct, id *string, config *DmsS3Endpo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_s3_endpoint aws_dms_s3_endpoint} Resource.
 func NewDmsS3Endpoint_Override(d DmsS3Endpoint, scope constructs.Construct, id *string, config *DmsS3EndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -2242,7 +2242,7 @@ func DmsS3Endpoint_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2277,7 +2277,7 @@ func DmsS3Endpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2296,7 +2296,7 @@ func DmsS3Endpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2315,7 +2315,7 @@ func DmsS3Endpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2328,7 +2328,7 @@ func DmsS3Endpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
+		"@cdktn/provider-aws.dmsS3Endpoint.DmsS3Endpoint",
 		"tfResourceType",
 		&returns,
 	)

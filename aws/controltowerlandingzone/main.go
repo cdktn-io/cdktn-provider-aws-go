@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		reflect.TypeOf((*ControltowerLandingZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneConfig",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneConfig",
 		reflect.TypeOf((*ControltowerLandingZoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatus",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatus",
 		reflect.TypeOf((*ControltowerLandingZoneDriftStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusList",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusList",
 		reflect.TypeOf((*ControltowerLandingZoneDriftStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
 		reflect.TypeOf((*ControltowerLandingZoneDriftStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeouts",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeouts",
 		reflect.TypeOf((*ControltowerLandingZoneTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
 		reflect.TypeOf((*ControltowerLandingZoneTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDynamodbTableGlobalTableWitnessOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DynamodbTableGlobalTableWitnessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableGlobalTableWitnessOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableGlobalTableWitnessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDynamodbTableGlobalTableWitnessOutputReference_Override(d DynamodbTableG
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableGlobalTableWitnessOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableGlobalTableWitnessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

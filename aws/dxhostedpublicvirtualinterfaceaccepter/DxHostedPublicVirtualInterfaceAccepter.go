@@ -5,14 +5,14 @@ package dxhostedpublicvirtualinterfaceaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxhostedpublicvirtualinterfaceaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxhostedpublicvirtualinterfaceaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter}.
 type DxHostedPublicVirtualInterfaceAccepter interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DxHostedPublicVirtualInterfaceAccepter) VirtualInterfaceIdInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter} Resource.
 func NewDxHostedPublicVirtualInterfaceAccepter(scope constructs.Construct, id *string, config *DxHostedPublicVirtualInterfaceAccepterConfig) DxHostedPublicVirtualInterfaceAccepter {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDxHostedPublicVirtualInterfaceAccepter(scope constructs.Construct, id *s
 	j := jsiiProxy_DxHostedPublicVirtualInterfaceAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewDxHostedPublicVirtualInterfaceAccepter(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_public_virtual_interface_accepter aws_dx_hosted_public_virtual_interface_accepter} Resource.
 func NewDxHostedPublicVirtualInterfaceAccepter_Override(d DxHostedPublicVirtualInterfaceAccepter, scope constructs.Construct, id *string, config *DxHostedPublicVirtualInterfaceAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -602,7 +602,7 @@ func DxHostedPublicVirtualInterfaceAccepter_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func DxHostedPublicVirtualInterfaceAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func DxHostedPublicVirtualInterfaceAccepter_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DxHostedPublicVirtualInterfaceAccepter_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func DxHostedPublicVirtualInterfaceAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
+		"@cdktn/provider-aws.dxHostedPublicVirtualInterfaceAccepter.DxHostedPublicVirtualInterfaceAccepter",
 		"tfResourceType",
 		&returns,
 	)

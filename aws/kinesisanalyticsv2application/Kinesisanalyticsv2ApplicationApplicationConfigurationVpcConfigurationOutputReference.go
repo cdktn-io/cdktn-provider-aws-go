@@ -5,9 +5,9 @@ package kinesisanalyticsv2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsv2application/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsv2application/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -227,7 +227,7 @@ func NewKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOut
 	j := jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,7 +239,7 @@ func NewKinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

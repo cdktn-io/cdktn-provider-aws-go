@@ -5,14 +5,14 @@ package shielddrtaccessrolearnassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/shielddrtaccessrolearnassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shielddrtaccessrolearnassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association}.
 type ShieldDrtAccessRoleArnAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_ShieldDrtAccessRoleArnAssociation) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association} Resource.
 func NewShieldDrtAccessRoleArnAssociation(scope constructs.Construct, id *string, config *ShieldDrtAccessRoleArnAssociationConfig) ShieldDrtAccessRoleArnAssociation {
 	_init_.Initialize()
 
@@ -354,7 +354,7 @@ func NewShieldDrtAccessRoleArnAssociation(scope constructs.Construct, id *string
 	j := jsiiProxy_ShieldDrtAccessRoleArnAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -362,12 +362,12 @@ func NewShieldDrtAccessRoleArnAssociation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_drt_access_role_arn_association aws_shield_drt_access_role_arn_association} Resource.
 func NewShieldDrtAccessRoleArnAssociation_Override(s ShieldDrtAccessRoleArnAssociation, scope constructs.Construct, id *string, config *ShieldDrtAccessRoleArnAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -462,7 +462,7 @@ func ShieldDrtAccessRoleArnAssociation_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -497,7 +497,7 @@ func ShieldDrtAccessRoleArnAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func ShieldDrtAccessRoleArnAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -535,7 +535,7 @@ func ShieldDrtAccessRoleArnAssociation_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func ShieldDrtAccessRoleArnAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
+		"@cdktn/provider-aws.shieldDrtAccessRoleArnAssociation.ShieldDrtAccessRoleArnAssociation",
 		"tfResourceType",
 		&returns,
 	)

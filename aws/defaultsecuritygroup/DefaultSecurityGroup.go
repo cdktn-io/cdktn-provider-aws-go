@@ -5,14 +5,14 @@ package defaultsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/defaultsecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/defaultsecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_security_group aws_default_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_security_group aws_default_security_group}.
 type DefaultSecurityGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DefaultSecurityGroup) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_security_group aws_default_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_security_group aws_default_security_group} Resource.
 func NewDefaultSecurityGroup(scope constructs.Construct, id *string, config *DefaultSecurityGroupConfig) DefaultSecurityGroup {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewDefaultSecurityGroup(scope constructs.Construct, id *string, config *Def
 	j := jsiiProxy_DefaultSecurityGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewDefaultSecurityGroup(scope constructs.Construct, id *string, config *Def
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_security_group aws_default_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_security_group aws_default_security_group} Resource.
 func NewDefaultSecurityGroup_Override(d DefaultSecurityGroup, scope constructs.Construct, id *string, config *DefaultSecurityGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -706,7 +706,7 @@ func DefaultSecurityGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -741,7 +741,7 @@ func DefaultSecurityGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -760,7 +760,7 @@ func DefaultSecurityGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func DefaultSecurityGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func DefaultSecurityGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
+		"@cdktn/provider-aws.defaultSecurityGroup.DefaultSecurityGroup",
 		"tfResourceType",
 		&returns,
 	)

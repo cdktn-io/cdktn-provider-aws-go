@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		reflect.TypeOf((*SecurityhubStandardsSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionConfig",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionConfig",
 		reflect.TypeOf((*SecurityhubStandardsSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionTimeouts",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionTimeouts",
 		reflect.TypeOf((*SecurityhubStandardsSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityhubStandardsSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

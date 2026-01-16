@@ -207,6 +207,17 @@ func (c *jsiiProxy_CloudfrontDistribution) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) validatePutConnectionFunctionAssociationParameters(value *CloudfrontDistributionConnectionFunctionAssociation) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) validatePutCustomErrorResponseParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -365,6 +376,17 @@ func (c *jsiiProxy_CloudfrontDistribution) validatePutRestrictionsParameters(val
 }
 
 func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerCertificateParameters(value *CloudfrontDistributionViewerCertificate) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerMtlsConfigParameters(value *CloudfrontDistributionViewerMtlsConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

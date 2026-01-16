@@ -5,14 +5,14 @@ package dataawscecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscecostcategory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ce_cost_category aws_ce_cost_category}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_cost_category aws_ce_cost_category}.
 type DataAwsCeCostCategory interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAwsCeCostCategory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ce_cost_category aws_ce_cost_category} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_cost_category aws_ce_cost_category} Data Source.
 func NewDataAwsCeCostCategory(scope constructs.Construct, id *string, config *DataAwsCeCostCategoryConfig) DataAwsCeCostCategory {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsCeCostCategory(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsCeCostCategory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -407,12 +407,12 @@ func NewDataAwsCeCostCategory(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ce_cost_category aws_ce_cost_category} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_cost_category aws_ce_cost_category} Data Source.
 func NewDataAwsCeCostCategory_Override(d DataAwsCeCostCategory, scope constructs.Construct, id *string, config *DataAwsCeCostCategoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -507,7 +507,7 @@ func DataAwsCeCostCategory_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func DataAwsCeCostCategory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAwsCeCostCategory_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func DataAwsCeCostCategory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsCeCostCategory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategory",
 		"tfResourceType",
 		&returns,
 	)

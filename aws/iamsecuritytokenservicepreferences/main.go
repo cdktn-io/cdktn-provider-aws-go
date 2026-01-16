@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		reflect.TypeOf((*IamSecurityTokenServicePreferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferencesConfig",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferencesConfig",
 		reflect.TypeOf((*IamSecurityTokenServicePreferencesConfig)(nil)).Elem(),
 	)
 }

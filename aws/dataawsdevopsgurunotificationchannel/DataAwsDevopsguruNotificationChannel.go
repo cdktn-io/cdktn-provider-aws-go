@@ -5,14 +5,14 @@ package dataawsdevopsgurunotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdevopsgurunotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdevopsgurunotificationchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel}.
 type DataAwsDevopsguruNotificationChannel interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -336,7 +336,7 @@ func (j *jsiiProxy_DataAwsDevopsguruNotificationChannel) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
 func NewDataAwsDevopsguruNotificationChannel(scope constructs.Construct, id *string, config *DataAwsDevopsguruNotificationChannelConfig) DataAwsDevopsguruNotificationChannel {
 	_init_.Initialize()
 
@@ -346,7 +346,7 @@ func NewDataAwsDevopsguruNotificationChannel(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsDevopsguruNotificationChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -354,12 +354,12 @@ func NewDataAwsDevopsguruNotificationChannel(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
 func NewDataAwsDevopsguruNotificationChannel_Override(d DataAwsDevopsguruNotificationChannel, scope constructs.Construct, id *string, config *DataAwsDevopsguruNotificationChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -443,7 +443,7 @@ func DataAwsDevopsguruNotificationChannel_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -478,7 +478,7 @@ func DataAwsDevopsguruNotificationChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -497,7 +497,7 @@ func DataAwsDevopsguruNotificationChannel_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAwsDevopsguruNotificationChannel_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataAwsDevopsguruNotificationChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
+		"@cdktn/provider-aws.dataAwsDevopsguruNotificationChannel.DataAwsDevopsguruNotificationChannel",
 		"tfResourceType",
 		&returns,
 	)

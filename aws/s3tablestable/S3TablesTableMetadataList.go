@@ -5,9 +5,9 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3TablesTableMetadataList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_S3TablesTableMetadataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMetadataList",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3TablesTableMetadataList_Override(s S3TablesTableMetadataList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMetadataList",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

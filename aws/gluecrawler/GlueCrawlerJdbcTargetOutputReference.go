@@ -5,9 +5,9 @@ package gluecrawler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecrawler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecrawler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewGlueCrawlerJdbcTargetOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_GlueCrawlerJdbcTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewGlueCrawlerJdbcTargetOutputReference_Override(g GlueCrawlerJdbcTargetOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)

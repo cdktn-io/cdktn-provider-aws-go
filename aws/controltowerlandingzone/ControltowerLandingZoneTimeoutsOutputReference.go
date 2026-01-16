@@ -5,9 +5,9 @@ package controltowerlandingzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowerlandingzone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowerlandingzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewControltowerLandingZoneTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_ControltowerLandingZoneTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewControltowerLandingZoneTimeoutsOutputReference_Override(c ControltowerLa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

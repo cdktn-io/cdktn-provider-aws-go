@@ -5,14 +5,14 @@ package apigatewayapikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayapikey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayapikey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key}.
 type ApiGatewayApiKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_ApiGatewayApiKey) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key} Resource.
 func NewApiGatewayApiKey(scope constructs.Construct, id *string, config *ApiGatewayApiKeyConfig) ApiGatewayApiKey {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewApiGatewayApiKey(scope constructs.Construct, id *string, config *ApiGate
 	j := jsiiProxy_ApiGatewayApiKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewApiGatewayApiKey(scope constructs.Construct, id *string, config *ApiGate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_api_key aws_api_gateway_api_key} Resource.
 func NewApiGatewayApiKey_Override(a ApiGatewayApiKey, scope constructs.Construct, id *string, config *ApiGatewayApiKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -740,7 +740,7 @@ func ApiGatewayApiKey_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func ApiGatewayApiKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func ApiGatewayApiKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ApiGatewayApiKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func ApiGatewayApiKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
+		"@cdktn/provider-aws.apiGatewayApiKey.ApiGatewayApiKey",
 		"tfResourceType",
 		&returns,
 	)

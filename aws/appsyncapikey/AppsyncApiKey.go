@@ -5,14 +5,14 @@ package appsyncapikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapikey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapikey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_api_key aws_appsync_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_api_key aws_appsync_api_key}.
 type AppsyncApiKey interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_AppsyncApiKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_api_key aws_appsync_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_api_key aws_appsync_api_key} Resource.
 func NewAppsyncApiKey(scope constructs.Construct, id *string, config *AppsyncApiKeyConfig) AppsyncApiKey {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewAppsyncApiKey(scope constructs.Construct, id *string, config *AppsyncApi
 	j := jsiiProxy_AppsyncApiKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewAppsyncApiKey(scope constructs.Construct, id *string, config *AppsyncApi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_api_key aws_appsync_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_api_key aws_appsync_api_key} Resource.
 func NewAppsyncApiKey_Override(a AppsyncApiKey, scope constructs.Construct, id *string, config *AppsyncApiKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -589,7 +589,7 @@ func AppsyncApiKey_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func AppsyncApiKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func AppsyncApiKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func AppsyncApiKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func AppsyncApiKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		"tfResourceType",
 		&returns,
 	)

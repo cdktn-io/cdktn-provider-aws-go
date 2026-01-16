@@ -5,14 +5,14 @@ package emrinstancegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrinstancegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrinstancegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_group aws_emr_instance_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_group aws_emr_instance_group}.
 type EmrInstanceGroup interface {
 	cdktf.TerraformResource
 	AutoscalingPolicy() *string
@@ -570,7 +570,7 @@ func (j *jsiiProxy_EmrInstanceGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
 func NewEmrInstanceGroup(scope constructs.Construct, id *string, config *EmrInstanceGroupConfig) EmrInstanceGroup {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewEmrInstanceGroup(scope constructs.Construct, id *string, config *EmrInst
 	j := jsiiProxy_EmrInstanceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -588,12 +588,12 @@ func NewEmrInstanceGroup(scope constructs.Construct, id *string, config *EmrInst
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_group aws_emr_instance_group} Resource.
 func NewEmrInstanceGroup_Override(e EmrInstanceGroup, scope constructs.Construct, id *string, config *EmrInstanceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -787,7 +787,7 @@ func EmrInstanceGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -822,7 +822,7 @@ func EmrInstanceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func EmrInstanceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func EmrInstanceGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func EmrInstanceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrInstanceGroup.EmrInstanceGroup",
+		"@cdktn/provider-aws.emrInstanceGroup.EmrInstanceGroup",
 		"tfResourceType",
 		&returns,
 	)

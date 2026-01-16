@@ -5,14 +5,14 @@ package kinesisstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream aws_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream}.
 type KinesisStream interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -645,7 +645,7 @@ func (j *jsiiProxy_KinesisStream) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStreamConfig) KinesisStream {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	j := jsiiProxy_KinesisStream{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -663,12 +663,12 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream_Override(k KinesisStream, scope constructs.Construct, id *string, config *KinesisStreamConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -895,7 +895,7 @@ func KinesisStream_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -930,7 +930,7 @@ func KinesisStream_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func KinesisStream_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func KinesisStream_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func KinesisStream_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		"tfResourceType",
 		&returns,
 	)

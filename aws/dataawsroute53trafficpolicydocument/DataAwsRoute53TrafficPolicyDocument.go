@@ -5,14 +5,14 @@ package dataawsroute53trafficpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53trafficpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53trafficpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document}.
 type DataAwsRoute53TrafficPolicyDocument interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -420,7 +420,7 @@ func (j *jsiiProxy_DataAwsRoute53TrafficPolicyDocument) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
 func NewDataAwsRoute53TrafficPolicyDocument(scope constructs.Construct, id *string, config *DataAwsRoute53TrafficPolicyDocumentConfig) DataAwsRoute53TrafficPolicyDocument {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAwsRoute53TrafficPolicyDocument(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsRoute53TrafficPolicyDocument{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,12 +438,12 @@ func NewDataAwsRoute53TrafficPolicyDocument(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_traffic_policy_document aws_route53_traffic_policy_document} Data Source.
 func NewDataAwsRoute53TrafficPolicyDocument_Override(d DataAwsRoute53TrafficPolicyDocument, scope constructs.Construct, id *string, config *DataAwsRoute53TrafficPolicyDocumentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -560,7 +560,7 @@ func DataAwsRoute53TrafficPolicyDocument_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsRoute53TrafficPolicyDocument_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAwsRoute53TrafficPolicyDocument_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -633,7 +633,7 @@ func DataAwsRoute53TrafficPolicyDocument_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -646,7 +646,7 @@ func DataAwsRoute53TrafficPolicyDocument_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
+		"@cdktn/provider-aws.dataAwsRoute53TrafficPolicyDocument.DataAwsRoute53TrafficPolicyDocument",
 		"tfResourceType",
 		&returns,
 	)

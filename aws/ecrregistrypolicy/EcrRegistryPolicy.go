@@ -5,14 +5,14 @@ package ecrregistrypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrregistrypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrregistrypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy}.
 type EcrRegistryPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_EcrRegistryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
 func NewEcrRegistryPolicy(scope constructs.Construct, id *string, config *EcrRegistryPolicyConfig) EcrRegistryPolicy {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewEcrRegistryPolicy(scope constructs.Construct, id *string, config *EcrReg
 	j := jsiiProxy_EcrRegistryPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewEcrRegistryPolicy(scope constructs.Construct, id *string, config *EcrReg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
 func NewEcrRegistryPolicy_Override(e EcrRegistryPolicy, scope constructs.Construct, id *string, config *EcrRegistryPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -508,7 +508,7 @@ func EcrRegistryPolicy_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func EcrRegistryPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func EcrRegistryPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func EcrRegistryPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func EcrRegistryPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
+		"@cdktn/provider-aws.ecrRegistryPolicy.EcrRegistryPolicy",
 		"tfResourceType",
 		&returns,
 	)

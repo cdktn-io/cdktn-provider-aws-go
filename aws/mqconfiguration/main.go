@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mqConfiguration.MqConfiguration",
+		"@cdktn/provider-aws.mqConfiguration.MqConfiguration",
 		reflect.TypeOf((*MqConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mqConfiguration.MqConfigurationConfig",
+		"@cdktn/provider-aws.mqConfiguration.MqConfigurationConfig",
 		reflect.TypeOf((*MqConfigurationConfig)(nil)).Elem(),
 	)
 }

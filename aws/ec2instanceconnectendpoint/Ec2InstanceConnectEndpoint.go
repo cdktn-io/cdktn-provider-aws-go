@@ -5,14 +5,14 @@ package ec2instanceconnectendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2instanceconnectendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2instanceconnectendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint}.
 type Ec2InstanceConnectEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_Ec2InstanceConnectEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) Ec2InstanceConnectEndpoint {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_Ec2InstanceConnectEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -570,12 +570,12 @@ func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint_Override(e Ec2InstanceConnectEndpoint, scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -725,7 +725,7 @@ func Ec2InstanceConnectEndpoint_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -760,7 +760,7 @@ func Ec2InstanceConnectEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func Ec2InstanceConnectEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func Ec2InstanceConnectEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func Ec2InstanceConnectEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		"tfResourceType",
 		&returns,
 	)

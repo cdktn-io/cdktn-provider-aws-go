@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBillingServiceAccount.DataAwsBillingServiceAccount",
+		"@cdktn/provider-aws.dataAwsBillingServiceAccount.DataAwsBillingServiceAccount",
 		reflect.TypeOf((*DataAwsBillingServiceAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,7 +59,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBillingServiceAccount.DataAwsBillingServiceAccountConfig",
+		"@cdktn/provider-aws.dataAwsBillingServiceAccount.DataAwsBillingServiceAccountConfig",
 		reflect.TypeOf((*DataAwsBillingServiceAccountConfig)(nil)).Elem(),
 	)
 }

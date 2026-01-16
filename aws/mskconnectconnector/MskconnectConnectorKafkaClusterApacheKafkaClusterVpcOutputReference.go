@@ -5,9 +5,9 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference(terr
 	j := jsiiProxy_MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

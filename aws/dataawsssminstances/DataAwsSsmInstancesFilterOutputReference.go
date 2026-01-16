@@ -5,9 +5,9 @@ package dataawsssminstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssminstances/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssminstances/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsSsmInstancesFilterOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsSsmInstancesFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsSsmInstancesFilterOutputReference_Override(d DataAwsSsmInstancesF
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

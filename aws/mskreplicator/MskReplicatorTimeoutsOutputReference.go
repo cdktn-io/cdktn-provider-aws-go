@@ -5,9 +5,9 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskreplicator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskreplicator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewMskReplicatorTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_MskReplicatorTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewMskReplicatorTimeoutsOutputReference_Override(m MskReplicatorTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -5,14 +5,14 @@ package dataawsrdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsrdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster aws_rds_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster aws_rds_cluster}.
 type DataAwsRdsCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -98,6 +98,7 @@ type DataAwsRdsCluster interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	UpgradeRolloutOrder() *string
 	VpcSecurityGroupIds() *[]*string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -699,6 +700,16 @@ func (j *jsiiProxy_DataAwsRdsCluster) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRdsCluster) UpgradeRolloutOrder() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"upgradeRolloutOrder",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRdsCluster) VpcSecurityGroupIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -710,7 +721,7 @@ func (j *jsiiProxy_DataAwsRdsCluster) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
 func NewDataAwsRdsCluster(scope constructs.Construct, id *string, config *DataAwsRdsClusterConfig) DataAwsRdsCluster {
 	_init_.Initialize()
 
@@ -720,7 +731,7 @@ func NewDataAwsRdsCluster(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsRdsCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -728,12 +739,12 @@ func NewDataAwsRdsCluster(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
 func NewDataAwsRdsCluster_Override(d DataAwsRdsCluster, scope constructs.Construct, id *string, config *DataAwsRdsClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -839,7 +850,7 @@ func DataAwsRdsCluster_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -874,7 +885,7 @@ func DataAwsRdsCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -893,7 +904,7 @@ func DataAwsRdsCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -912,7 +923,7 @@ func DataAwsRdsCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +936,7 @@ func DataAwsRdsCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
+		"@cdktn/provider-aws.dataAwsRdsCluster.DataAwsRdsCluster",
 		"tfResourceType",
 		&returns,
 	)

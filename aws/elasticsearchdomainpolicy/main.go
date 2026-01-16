@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicy",
+		"@cdktn/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicy",
 		reflect.TypeOf((*ElasticsearchDomainPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicies", GoGetter: "AccessPolicies"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyConfig",
+		"@cdktn/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyConfig",
 		reflect.TypeOf((*ElasticsearchDomainPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeouts",
+		"@cdktn/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeouts",
 		reflect.TypeOf((*ElasticsearchDomainPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticsearchDomainPolicy.ElasticsearchDomainPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticsearchDomainPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package route
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route aws_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route aws_route}.
 type Route interface {
 	cdktf.TerraformResource
 	CarrierGatewayId() *string
@@ -737,7 +737,7 @@ func (j *jsiiProxy_Route) VpcPeeringConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route aws_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route aws_route} Resource.
 func NewRoute(scope constructs.Construct, id *string, config *RouteConfig) Route {
 	_init_.Initialize()
 
@@ -747,7 +747,7 @@ func NewRoute(scope constructs.Construct, id *string, config *RouteConfig) Route
 	j := jsiiProxy_Route{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -755,12 +755,12 @@ func NewRoute(scope constructs.Construct, id *string, config *RouteConfig) Route
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route aws_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route aws_route} Resource.
 func NewRoute_Override(r Route, scope constructs.Construct, id *string, config *RouteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1020,7 +1020,7 @@ func Route_GenerateConfigForImport(scope constructs.Construct, importToId *strin
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1055,7 +1055,7 @@ func Route_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1074,7 +1074,7 @@ func Route_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1093,7 +1093,7 @@ func Route_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1106,7 +1106,7 @@ func Route_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route.Route",
+		"@cdktn/provider-aws.route.Route",
 		"tfResourceType",
 		&returns,
 	)

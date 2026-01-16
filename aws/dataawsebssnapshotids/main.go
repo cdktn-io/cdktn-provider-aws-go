@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIds",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIds",
 		reflect.TypeOf((*DataAwsEbsSnapshotIds)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsConfig",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsConfig",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilter",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilter",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilterList",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilterList",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsFilterOutputReference",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsTimeouts",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsTimeouts",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsSnapshotIds.DataAwsEbsSnapshotIdsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsEbsSnapshotIdsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

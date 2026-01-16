@@ -5,9 +5,9 @@ package ec2defaultcreditspecification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2defaultcreditspecification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2defaultcreditspecification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEc2DefaultCreditSpecificationTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_Ec2DefaultCreditSpecificationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEc2DefaultCreditSpecificationTimeoutsOutputReference_Override(e Ec2Defau
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

@@ -5,9 +5,9 @@ package dataawsresourceexplorer2search
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsresourceexplorer2search/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsresourceexplorer2search/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsResourceexplorer2SearchResourceCountList(terraformResource cdktf.
 	j := jsiiProxy_DataAwsResourceexplorer2SearchResourceCountList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2SearchResourceCountList",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2SearchResourceCountList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsResourceexplorer2SearchResourceCountList_Override(d DataAwsResour
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2SearchResourceCountList",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2SearchResourceCountList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

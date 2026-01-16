@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfiguration",
+		"@cdktn/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfiguration",
 		reflect.TypeOf((*MskconnectWorkerConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationConfig",
+		"@cdktn/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationConfig",
 		reflect.TypeOf((*MskconnectWorkerConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeouts",
+		"@cdktn/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeouts",
 		reflect.TypeOf((*MskconnectWorkerConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-aws.mskconnectWorkerConfiguration.MskconnectWorkerConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*MskconnectWorkerConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

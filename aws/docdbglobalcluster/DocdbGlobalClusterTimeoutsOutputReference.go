@@ -5,9 +5,9 @@ package docdbglobalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbglobalcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbglobalcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDocdbGlobalClusterTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DocdbGlobalClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDocdbGlobalClusterTimeoutsOutputReference_Override(d DocdbGlobalClusterT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

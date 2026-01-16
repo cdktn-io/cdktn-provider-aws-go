@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomain",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomain",
 		reflect.TypeOf((*CloudsearchDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainConfig",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainConfig",
 		reflect.TypeOf((*CloudsearchDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainEndpointOptions",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainEndpointOptions",
 		reflect.TypeOf((*CloudsearchDomainEndpointOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainEndpointOptionsOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainEndpointOptionsOutputReference",
 		reflect.TypeOf((*CloudsearchDomainEndpointOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainIndexField",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainIndexField",
 		reflect.TypeOf((*CloudsearchDomainIndexField)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainIndexFieldList",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainIndexFieldList",
 		reflect.TypeOf((*CloudsearchDomainIndexFieldList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainIndexFieldOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainIndexFieldOutputReference",
 		reflect.TypeOf((*CloudsearchDomainIndexFieldOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysisScheme", GoGetter: "AnalysisScheme"},
@@ -226,11 +226,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParameters",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParameters",
 		reflect.TypeOf((*CloudsearchDomainScalingParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
 		reflect.TypeOf((*CloudsearchDomainScalingParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainTimeouts",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainTimeouts",
 		reflect.TypeOf((*CloudsearchDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainTimeoutsOutputReference",
 		reflect.TypeOf((*CloudsearchDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

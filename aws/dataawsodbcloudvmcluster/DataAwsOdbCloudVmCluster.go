@@ -5,19 +5,20 @@ package dataawsodbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
 type DataAwsOdbCloudVmCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	CloudExadataInfrastructureArn() *string
 	CloudExadataInfrastructureId() *string
 	ClusterName() *string
 	ComputeModel() *string
@@ -70,6 +71,7 @@ type DataAwsOdbCloudVmCluster interface {
 	Ocid() *string
 	OciResourceAnchorName() *string
 	OciUrl() *string
+	OdbNetworkArn() *string
 	OdbNetworkId() *string
 	PercentProgress() *float64
 	// Experimental.
@@ -162,6 +164,16 @@ func (j *jsiiProxy_DataAwsOdbCloudVmCluster) CdktfStack() cdktf.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbCloudVmCluster) CloudExadataInfrastructureArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudExadataInfrastructureArn",
 		&returns,
 	)
 	return returns
@@ -517,6 +529,16 @@ func (j *jsiiProxy_DataAwsOdbCloudVmCluster) OciUrl() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsOdbCloudVmCluster) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOdbCloudVmCluster) OdbNetworkId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -728,7 +750,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmCluster) VipIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) DataAwsOdbCloudVmCluster {
 	_init_.Initialize()
 
@@ -738,7 +760,7 @@ func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsOdbCloudVmCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -746,12 +768,12 @@ func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster_Override(d DataAwsOdbCloudVmCluster, scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -835,7 +857,7 @@ func DataAwsOdbCloudVmCluster_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -870,7 +892,7 @@ func DataAwsOdbCloudVmCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +911,7 @@ func DataAwsOdbCloudVmCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +930,7 @@ func DataAwsOdbCloudVmCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +943,7 @@ func DataAwsOdbCloudVmCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
+		"@cdktn/provider-aws.dataAwsOdbCloudVmCluster.DataAwsOdbCloudVmCluster",
 		"tfResourceType",
 		&returns,
 	)

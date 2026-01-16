@@ -5,14 +5,14 @@ package codecommitrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codecommitrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codecommitrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_repository aws_codecommit_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_repository aws_codecommit_repository}.
 type CodecommitRepository interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_CodecommitRepository) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_repository aws_codecommit_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_repository aws_codecommit_repository} Resource.
 func NewCodecommitRepository(scope constructs.Construct, id *string, config *CodecommitRepositoryConfig) CodecommitRepository {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewCodecommitRepository(scope constructs.Construct, id *string, config *Cod
 	j := jsiiProxy_CodecommitRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewCodecommitRepository(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codecommit_repository aws_codecommit_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codecommit_repository aws_codecommit_repository} Resource.
 func NewCodecommitRepository_Override(c CodecommitRepository, scope constructs.Construct, id *string, config *CodecommitRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -716,7 +716,7 @@ func CodecommitRepository_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func CodecommitRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func CodecommitRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func CodecommitRepository_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func CodecommitRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codecommitRepository.CodecommitRepository",
+		"@cdktn/provider-aws.codecommitRepository.CodecommitRepository",
 		"tfResourceType",
 		&returns,
 	)

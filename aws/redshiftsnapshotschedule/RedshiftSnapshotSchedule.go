@@ -5,14 +5,14 @@ package redshiftsnapshotschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftsnapshotschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftsnapshotschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule}.
 type RedshiftSnapshotSchedule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_RedshiftSnapshotSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
 func NewRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleConfig) RedshiftSnapshotSchedule {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_RedshiftSnapshotSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_schedule aws_redshift_snapshot_schedule} Resource.
 func NewRedshiftSnapshotSchedule_Override(r RedshiftSnapshotSchedule, scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -718,7 +718,7 @@ func RedshiftSnapshotSchedule_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -753,7 +753,7 @@ func RedshiftSnapshotSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +772,7 @@ func RedshiftSnapshotSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func RedshiftSnapshotSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func RedshiftSnapshotSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		"tfResourceType",
 		&returns,
 	)

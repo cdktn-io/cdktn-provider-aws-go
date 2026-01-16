@@ -5,14 +5,14 @@ package shieldprotectionhealthcheckassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/shieldprotectionhealthcheckassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shieldprotectionhealthcheckassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association}.
 type ShieldProtectionHealthCheckAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_ShieldProtectionHealthCheckAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
 func NewShieldProtectionHealthCheckAssociation(scope constructs.Construct, id *string, config *ShieldProtectionHealthCheckAssociationConfig) ShieldProtectionHealthCheckAssociation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewShieldProtectionHealthCheckAssociation(scope constructs.Construct, id *s
 	j := jsiiProxy_ShieldProtectionHealthCheckAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewShieldProtectionHealthCheckAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
 func NewShieldProtectionHealthCheckAssociation_Override(s ShieldProtectionHealthCheckAssociation, scope constructs.Construct, id *string, config *ShieldProtectionHealthCheckAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -496,7 +496,7 @@ func ShieldProtectionHealthCheckAssociation_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func ShieldProtectionHealthCheckAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func ShieldProtectionHealthCheckAssociation_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func ShieldProtectionHealthCheckAssociation_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func ShieldProtectionHealthCheckAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		"tfResourceType",
 		&returns,
 	)

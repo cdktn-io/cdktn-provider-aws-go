@@ -5,14 +5,14 @@ package oamlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/oamlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/oamlink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_link aws_oam_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_link aws_oam_link}.
 type OamLink interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_OamLink) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_link aws_oam_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_link aws_oam_link} Resource.
 func NewOamLink(scope constructs.Construct, id *string, config *OamLinkConfig) OamLink {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewOamLink(scope constructs.Construct, id *string, config *OamLinkConfig) O
 	j := jsiiProxy_OamLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewOamLink(scope constructs.Construct, id *string, config *OamLinkConfig) O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_link aws_oam_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_link aws_oam_link} Resource.
 func NewOamLink_Override(o OamLink, scope constructs.Construct, id *string, config *OamLinkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -727,7 +727,7 @@ func OamLink_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func OamLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func OamLink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func OamLink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func OamLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		"tfResourceType",
 		&returns,
 	)

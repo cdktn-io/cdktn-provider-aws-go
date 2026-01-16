@@ -5,9 +5,9 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAlbSubnetMappingList(terraformResource cdktf.IInterpolatingParent, terra
 	j := jsiiProxy_AlbSubnetMappingList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingList",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAlbSubnetMappingList_Override(a AlbSubnetMappingList, terraformResource 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingList",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

@@ -5,14 +5,14 @@ package workspaceswebuseraccessloggingsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebuseraccessloggingsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebuseraccessloggingsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings}.
 type WorkspaceswebUserAccessLoggingSettings interface {
 	cdktf.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_WorkspaceswebUserAccessLoggingSettings) UserAccessLoggingSett
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings} Resource.
 func NewWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *string, config *WorkspaceswebUserAccessLoggingSettingsConfig) WorkspaceswebUserAccessLoggingSettings {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *s
 	j := jsiiProxy_WorkspaceswebUserAccessLoggingSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_access_logging_settings aws_workspacesweb_user_access_logging_settings} Resource.
 func NewWorkspaceswebUserAccessLoggingSettings_Override(w WorkspaceswebUserAccessLoggingSettings, scope constructs.Construct, id *string, config *WorkspaceswebUserAccessLoggingSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -530,7 +530,7 @@ func WorkspaceswebUserAccessLoggingSettings_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func WorkspaceswebUserAccessLoggingSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func WorkspaceswebUserAccessLoggingSettings_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func WorkspaceswebUserAccessLoggingSettings_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func WorkspaceswebUserAccessLoggingSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
+		"@cdktn/provider-aws.workspaceswebUserAccessLoggingSettings.WorkspaceswebUserAccessLoggingSettings",
 		"tfResourceType",
 		&returns,
 	)

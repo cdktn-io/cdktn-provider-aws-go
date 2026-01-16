@@ -5,9 +5,9 @@ package appflowconnectorprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appflowconnectorprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appflowconnectorprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -159,7 +159,7 @@ func NewAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesG
 	j := jsiiProxy_AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsOutputReference",
+		"@cdktn/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -171,7 +171,7 @@ func NewAppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesG
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsOutputReference",
+		"@cdktn/provider-aws.appflowConnectorProfile.AppflowConnectorProfileConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

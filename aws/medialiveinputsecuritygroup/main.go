@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		reflect.TypeOf((*MedialiveInputSecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupConfig",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupConfig",
 		reflect.TypeOf((*MedialiveInputSecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupTimeouts",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupTimeouts",
 		reflect.TypeOf((*MedialiveInputSecurityGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupTimeoutsOutputReference",
 		reflect.TypeOf((*MedialiveInputSecurityGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRules",
 		reflect.TypeOf((*MedialiveInputSecurityGroupWhitelistRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesList",
 		reflect.TypeOf((*MedialiveInputSecurityGroupWhitelistRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesOutputReference",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroupWhitelistRulesOutputReference",
 		reflect.TypeOf((*MedialiveInputSecurityGroupWhitelistRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},

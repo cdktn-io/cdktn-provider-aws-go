@@ -5,9 +5,9 @@ package redshiftserverlessworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlessworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlessworkgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewRedshiftserverlessWorkgroupPricePerformanceTargetOutputReference(terrafo
 	j := jsiiProxy_RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference",
+		"@cdktn/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewRedshiftserverlessWorkgroupPricePerformanceTargetOutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference",
+		"@cdktn/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

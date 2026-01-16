@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfiguration",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfiguration",
 		reflect.TypeOf((*EfsReplicationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationConfig",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationConfig",
 		reflect.TypeOf((*EfsReplicationConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestination",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestination",
 		reflect.TypeOf((*EfsReplicationConfigurationDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
 		reflect.TypeOf((*EfsReplicationConfigurationDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZoneName", GoGetter: "AvailabilityZoneName"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationTimeouts",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationTimeouts",
 		reflect.TypeOf((*EfsReplicationConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*EfsReplicationConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

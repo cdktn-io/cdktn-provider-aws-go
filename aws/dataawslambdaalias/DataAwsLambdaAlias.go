@@ -5,14 +5,14 @@ package dataawslambdaalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslambdaalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslambdaalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_alias aws_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_alias aws_lambda_alias}.
 type DataAwsLambdaAlias interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAwsLambdaAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
 func NewDataAwsLambdaAlias(scope constructs.Construct, id *string, config *DataAwsLambdaAliasConfig) DataAwsLambdaAlias {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAwsLambdaAlias(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsLambdaAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewDataAwsLambdaAlias(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_alias aws_lambda_alias} Data Source.
 func NewDataAwsLambdaAlias_Override(d DataAwsLambdaAlias, scope constructs.Construct, id *string, config *DataAwsLambdaAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAwsLambdaAlias_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAwsLambdaAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAwsLambdaAlias_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAwsLambdaAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAwsLambdaAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
+		"@cdktn/provider-aws.dataAwsLambdaAlias.DataAwsLambdaAlias",
 		"tfResourceType",
 		&returns,
 	)

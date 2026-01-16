@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		reflect.TypeOf((*FsxOntapVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfiguration",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfiguration",
 		reflect.TypeOf((*FsxOntapVolumeAggregateConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeAggregateConfigurationOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeAggregateConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregates", GoGetter: "Aggregates"},
@@ -181,19 +181,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeConfig",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeConfig",
 		reflect.TypeOf((*FsxOntapVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfiguration",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfiguration",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationAutocommitPeriod",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationAutocommitPeriod",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationAutocommitPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -231,7 +231,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLogVolume", GoGetter: "AuditLogVolume"},
@@ -282,15 +282,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriod",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriod",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetention)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -328,11 +328,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetention)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -370,11 +370,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetention)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -412,7 +412,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeSnaplockConfigurationRetentionPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -456,11 +456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeTieringPolicy",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeTieringPolicy",
 		reflect.TypeOf((*FsxOntapVolumeTieringPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeTieringPolicyOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeTieringPolicyOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeTieringPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -498,11 +498,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeTimeouts",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeTimeouts",
 		reflect.TypeOf((*FsxOntapVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*FsxOntapVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

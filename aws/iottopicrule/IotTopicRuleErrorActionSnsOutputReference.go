@@ -5,9 +5,9 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewIotTopicRuleErrorActionSnsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_IotTopicRuleErrorActionSnsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionSnsOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionSnsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewIotTopicRuleErrorActionSnsOutputReference_Override(i IotTopicRuleErrorAc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionSnsOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionSnsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

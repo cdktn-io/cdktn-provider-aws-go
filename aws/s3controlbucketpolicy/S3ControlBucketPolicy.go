@@ -5,14 +5,14 @@ package s3controlbucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlbucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlbucketpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy}.
 type S3ControlBucketPolicy interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_S3ControlBucketPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy} Resource.
 func NewS3ControlBucketPolicy(scope constructs.Construct, id *string, config *S3ControlBucketPolicyConfig) S3ControlBucketPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewS3ControlBucketPolicy(scope constructs.Construct, id *string, config *S3
 	j := jsiiProxy_S3ControlBucketPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewS3ControlBucketPolicy(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_policy aws_s3control_bucket_policy} Resource.
 func NewS3ControlBucketPolicy_Override(s S3ControlBucketPolicy, scope constructs.Construct, id *string, config *S3ControlBucketPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func S3ControlBucketPolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func S3ControlBucketPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func S3ControlBucketPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func S3ControlBucketPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func S3ControlBucketPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
+		"@cdktn/provider-aws.s3ControlBucketPolicy.S3ControlBucketPolicy",
 		"tfResourceType",
 		&returns,
 	)

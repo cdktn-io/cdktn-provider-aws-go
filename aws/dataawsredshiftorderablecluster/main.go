@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftOrderableCluster.DataAwsRedshiftOrderableCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftOrderableCluster.DataAwsRedshiftOrderableCluster",
 		reflect.TypeOf((*DataAwsRedshiftOrderableCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRedshiftOrderableCluster.DataAwsRedshiftOrderableClusterConfig",
+		"@cdktn/provider-aws.dataAwsRedshiftOrderableCluster.DataAwsRedshiftOrderableClusterConfig",
 		reflect.TypeOf((*DataAwsRedshiftOrderableClusterConfig)(nil)).Elem(),
 	)
 }

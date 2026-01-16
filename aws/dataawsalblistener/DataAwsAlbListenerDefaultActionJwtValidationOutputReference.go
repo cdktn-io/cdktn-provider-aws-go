@@ -5,9 +5,9 @@ package dataawsalblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsAlbListenerDefaultActionJwtValidationOutputReference(terraformRes
 	j := jsiiProxy_DataAwsAlbListenerDefaultActionJwtValidationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionJwtValidationOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionJwtValidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsAlbListenerDefaultActionJwtValidationOutputReference_Override(d D
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionJwtValidationOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionJwtValidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

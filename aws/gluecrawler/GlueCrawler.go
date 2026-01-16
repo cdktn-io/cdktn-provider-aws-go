@@ -5,14 +5,14 @@ package gluecrawler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecrawler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecrawler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_crawler aws_glue_crawler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler aws_glue_crawler}.
 type GlueCrawler interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -894,7 +894,7 @@ func (j *jsiiProxy_GlueCrawler) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_crawler aws_glue_crawler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler aws_glue_crawler} Resource.
 func NewGlueCrawler(scope constructs.Construct, id *string, config *GlueCrawlerConfig) GlueCrawler {
 	_init_.Initialize()
 
@@ -904,7 +904,7 @@ func NewGlueCrawler(scope constructs.Construct, id *string, config *GlueCrawlerC
 	j := jsiiProxy_GlueCrawler{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -912,12 +912,12 @@ func NewGlueCrawler(scope constructs.Construct, id *string, config *GlueCrawlerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_crawler aws_glue_crawler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler aws_glue_crawler} Resource.
 func NewGlueCrawler_Override(g GlueCrawler, scope constructs.Construct, id *string, config *GlueCrawlerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1144,7 +1144,7 @@ func GlueCrawler_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1179,7 +1179,7 @@ func GlueCrawler_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1198,7 +1198,7 @@ func GlueCrawler_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1217,7 +1217,7 @@ func GlueCrawler_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1230,7 +1230,7 @@ func GlueCrawler_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		"tfResourceType",
 		&returns,
 	)

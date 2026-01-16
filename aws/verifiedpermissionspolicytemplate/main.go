@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyTemplate.VerifiedpermissionsPolicyTemplate",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyTemplate.VerifiedpermissionsPolicyTemplate",
 		reflect.TypeOf((*VerifiedpermissionsPolicyTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyTemplate.VerifiedpermissionsPolicyTemplateConfig",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyTemplate.VerifiedpermissionsPolicyTemplateConfig",
 		reflect.TypeOf((*VerifiedpermissionsPolicyTemplateConfig)(nil)).Elem(),
 	)
 }

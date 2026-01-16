@@ -5,14 +5,14 @@ package dataawsneptuneengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsneptuneengineversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsneptuneengineversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version}.
 type DataAwsNeptuneEngineVersion interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -672,7 +672,7 @@ func (j *jsiiProxy_DataAwsNeptuneEngineVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version} Data Source.
 func NewDataAwsNeptuneEngineVersion(scope constructs.Construct, id *string, config *DataAwsNeptuneEngineVersionConfig) DataAwsNeptuneEngineVersion {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewDataAwsNeptuneEngineVersion(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsNeptuneEngineVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -690,12 +690,12 @@ func NewDataAwsNeptuneEngineVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_engine_version aws_neptune_engine_version} Data Source.
 func NewDataAwsNeptuneEngineVersion_Override(d DataAwsNeptuneEngineVersion, scope constructs.Construct, id *string, config *DataAwsNeptuneEngineVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -889,7 +889,7 @@ func DataAwsNeptuneEngineVersion_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -924,7 +924,7 @@ func DataAwsNeptuneEngineVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func DataAwsNeptuneEngineVersion_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -962,7 +962,7 @@ func DataAwsNeptuneEngineVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func DataAwsNeptuneEngineVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		"tfResourceType",
 		&returns,
 	)

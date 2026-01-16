@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpoint",
 		reflect.TypeOf((*Ec2InstanceConnectEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointConfig",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointConfig",
 		reflect.TypeOf((*Ec2InstanceConnectEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTimeouts",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTimeouts",
 		reflect.TypeOf((*Ec2InstanceConnectEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2InstanceConnectEndpoint.Ec2InstanceConnectEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2InstanceConnectEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

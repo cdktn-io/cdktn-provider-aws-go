@@ -5,14 +5,14 @@ package kmsexternalkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmsexternalkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsexternalkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_external_key aws_kms_external_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_external_key aws_kms_external_key}.
 type KmsExternalKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -655,7 +655,7 @@ func (j *jsiiProxy_KmsExternalKey) ValidToInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExternalKeyConfig) KmsExternalKey {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExtern
 	j := jsiiProxy_KmsExternalKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -673,12 +673,12 @@ func NewKmsExternalKey(scope constructs.Construct, id *string, config *KmsExtern
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_external_key aws_kms_external_key} Resource.
 func NewKmsExternalKey_Override(k KmsExternalKey, scope constructs.Construct, id *string, config *KmsExternalKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -916,7 +916,7 @@ func KmsExternalKey_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -951,7 +951,7 @@ func KmsExternalKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func KmsExternalKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func KmsExternalKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1002,7 +1002,7 @@ func KmsExternalKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		"tfResourceType",
 		&returns,
 	)

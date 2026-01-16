@@ -5,14 +5,14 @@ package dataawsbudgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/budgets_budget aws_budgets_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/budgets_budget aws_budgets_budget}.
 type DataAwsBudgetsBudget interface {
 	cdktf.TerraformDataSource
 	AccountId() *string
@@ -514,7 +514,7 @@ func (j *jsiiProxy_DataAwsBudgetsBudget) TimeUnit() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/budgets_budget aws_budgets_budget} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/budgets_budget aws_budgets_budget} Data Source.
 func NewDataAwsBudgetsBudget(scope constructs.Construct, id *string, config *DataAwsBudgetsBudgetConfig) DataAwsBudgetsBudget {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsBudgetsBudget(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsBudgetsBudget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -532,12 +532,12 @@ func NewDataAwsBudgetsBudget(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/budgets_budget aws_budgets_budget} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/budgets_budget aws_budgets_budget} Data Source.
 func NewDataAwsBudgetsBudget_Override(d DataAwsBudgetsBudget, scope constructs.Construct, id *string, config *DataAwsBudgetsBudgetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -654,7 +654,7 @@ func DataAwsBudgetsBudget_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -689,7 +689,7 @@ func DataAwsBudgetsBudget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func DataAwsBudgetsBudget_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func DataAwsBudgetsBudget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func DataAwsBudgetsBudget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudget",
 		"tfResourceType",
 		&returns,
 	)

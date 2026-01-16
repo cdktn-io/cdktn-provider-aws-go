@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusRuleGroupNamespace.PrometheusRuleGroupNamespace",
+		"@cdktn/provider-aws.prometheusRuleGroupNamespace.PrometheusRuleGroupNamespace",
 		reflect.TypeOf((*PrometheusRuleGroupNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusRuleGroupNamespace.PrometheusRuleGroupNamespaceConfig",
+		"@cdktn/provider-aws.prometheusRuleGroupNamespace.PrometheusRuleGroupNamespaceConfig",
 		reflect.TypeOf((*PrometheusRuleGroupNamespaceConfig)(nil)).Elem(),
 	)
 }

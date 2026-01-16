@@ -5,9 +5,9 @@ package elasticachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticachecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewElasticacheClusterLogDeliveryConfigurationOutputReference(terraformResou
 	j := jsiiProxy_ElasticacheClusterLogDeliveryConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewElasticacheClusterLogDeliveryConfigurationOutputReference_Override(e Ela
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIds",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIds",
 		reflect.TypeOf((*DataAwsAmiIds)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsConfig",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsConfig",
 		reflect.TypeOf((*DataAwsAmiIdsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilter",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilter",
 		reflect.TypeOf((*DataAwsAmiIdsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterList",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterList",
 		reflect.TypeOf((*DataAwsAmiIdsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
 		reflect.TypeOf((*DataAwsAmiIdsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsTimeouts",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsTimeouts",
 		reflect.TypeOf((*DataAwsAmiIdsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsAmiIdsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

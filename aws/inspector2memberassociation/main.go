@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		reflect.TypeOf((*Inspector2MemberAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationConfig",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationConfig",
 		reflect.TypeOf((*Inspector2MemberAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeouts",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeouts",
 		reflect.TypeOf((*Inspector2MemberAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*Inspector2MemberAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

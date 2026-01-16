@@ -5,14 +5,14 @@ package dataawss3directorybuckets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawss3directorybuckets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3directorybuckets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets}.
 type DataAwsS3DirectoryBuckets interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsS3DirectoryBuckets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets} Data Source.
 func NewDataAwsS3DirectoryBuckets(scope constructs.Construct, id *string, config *DataAwsS3DirectoryBucketsConfig) DataAwsS3DirectoryBuckets {
 	_init_.Initialize()
 
@@ -308,7 +308,7 @@ func NewDataAwsS3DirectoryBuckets(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsS3DirectoryBuckets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -316,12 +316,12 @@ func NewDataAwsS3DirectoryBuckets(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_directory_buckets aws_s3_directory_buckets} Data Source.
 func NewDataAwsS3DirectoryBuckets_Override(d DataAwsS3DirectoryBuckets, scope constructs.Construct, id *string, config *DataAwsS3DirectoryBucketsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -394,7 +394,7 @@ func DataAwsS3DirectoryBuckets_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -429,7 +429,7 @@ func DataAwsS3DirectoryBuckets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -448,7 +448,7 @@ func DataAwsS3DirectoryBuckets_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -467,7 +467,7 @@ func DataAwsS3DirectoryBuckets_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsS3DirectoryBuckets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
+		"@cdktn/provider-aws.dataAwsS3DirectoryBuckets.DataAwsS3DirectoryBuckets",
 		"tfResourceType",
 		&returns,
 	)

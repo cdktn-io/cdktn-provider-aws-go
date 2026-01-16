@@ -214,6 +214,14 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateSetStorageClassParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference) validateSetTagPatternListParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

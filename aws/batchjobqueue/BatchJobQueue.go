@@ -5,14 +5,14 @@ package batchjobqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/batchjobqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/batchjobqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/batch_job_queue aws_batch_job_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/batch_job_queue aws_batch_job_queue}.
 type BatchJobQueue interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_BatchJobQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource.
 func NewBatchJobQueue(scope constructs.Construct, id *string, config *BatchJobQueueConfig) BatchJobQueue {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewBatchJobQueue(scope constructs.Construct, id *string, config *BatchJobQu
 	j := jsiiProxy_BatchJobQueue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewBatchJobQueue(scope constructs.Construct, id *string, config *BatchJobQu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/batch_job_queue aws_batch_job_queue} Resource.
 func NewBatchJobQueue_Override(b BatchJobQueue, scope constructs.Construct, id *string, config *BatchJobQueueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -705,7 +705,7 @@ func BatchJobQueue_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func BatchJobQueue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func BatchJobQueue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func BatchJobQueue_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func BatchJobQueue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		"tfResourceType",
 		&returns,
 	)

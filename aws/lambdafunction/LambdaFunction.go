@@ -5,14 +5,14 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function aws_lambda_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function aws_lambda_function}.
 type LambdaFunction interface {
 	cdktf.TerraformResource
 	Architectures() *[]*string
@@ -24,6 +24,8 @@ type LambdaFunction interface {
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
 	CodeSha256() *string
+	SetCodeSha256(val *string)
+	CodeSha256Input() *string
 	CodeSigningConfigArn() *string
 	SetCodeSigningConfigArn(val *string)
 	CodeSigningConfigArnInput() *string
@@ -131,6 +133,7 @@ type LambdaFunction interface {
 	ReservedConcurrentExecutions() *float64
 	SetReservedConcurrentExecutions(val *float64)
 	ReservedConcurrentExecutionsInput() *float64
+	ResponseStreamingInvokeArn() *string
 	Role() *string
 	SetRole(val *string)
 	RoleInput() *string
@@ -242,6 +245,7 @@ type LambdaFunction interface {
 	PutVpcConfig(value *LambdaFunctionVpcConfig)
 	ResetArchitectures()
 	ResetCapacityProviderConfig()
+	ResetCodeSha256()
 	ResetCodeSigningConfigArn()
 	ResetDeadLetterConfig()
 	ResetDescription()
@@ -366,6 +370,16 @@ func (j *jsiiProxy_LambdaFunction) CodeSha256() *string {
 	_jsii_.Get(
 		j,
 		"codeSha256",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaFunction) CodeSha256Input() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"codeSha256Input",
 		&returns,
 	)
 	return returns
@@ -1011,6 +1025,16 @@ func (j *jsiiProxy_LambdaFunction) ReservedConcurrentExecutionsInput() *float64 
 	return returns
 }
 
+func (j *jsiiProxy_LambdaFunction) ResponseStreamingInvokeArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"responseStreamingInvokeArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaFunction) Role() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1402,7 +1426,7 @@ func (j *jsiiProxy_LambdaFunction) VpcConfigInput() *LambdaFunctionVpcConfig {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function aws_lambda_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function aws_lambda_function} Resource.
 func NewLambdaFunction(scope constructs.Construct, id *string, config *LambdaFunctionConfig) LambdaFunction {
 	_init_.Initialize()
 
@@ -1412,7 +1436,7 @@ func NewLambdaFunction(scope constructs.Construct, id *string, config *LambdaFun
 	j := jsiiProxy_LambdaFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1420,12 +1444,12 @@ func NewLambdaFunction(scope constructs.Construct, id *string, config *LambdaFun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function aws_lambda_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function aws_lambda_function} Resource.
 func NewLambdaFunction_Override(l LambdaFunction, scope constructs.Construct, id *string, config *LambdaFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1438,6 +1462,17 @@ func (j *jsiiProxy_LambdaFunction)SetArchitectures(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"architectures",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaFunction)SetCodeSha256(val *string) {
+	if err := j.validateSetCodeSha256Parameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"codeSha256",
 		val,
 	)
 }
@@ -1828,7 +1863,7 @@ func LambdaFunction_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1863,7 +1898,7 @@ func LambdaFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1882,7 +1917,7 @@ func LambdaFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1901,7 +1936,7 @@ func LambdaFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1914,7 +1949,7 @@ func LambdaFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		"tfResourceType",
 		&returns,
 	)
@@ -2326,6 +2361,14 @@ func (l *jsiiProxy_LambdaFunction) ResetCapacityProviderConfig() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetCapacityProviderConfig",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaFunction) ResetCodeSha256() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetCodeSha256",
 		nil, // no parameters
 	)
 }

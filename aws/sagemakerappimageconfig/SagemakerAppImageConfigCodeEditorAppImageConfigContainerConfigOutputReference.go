@@ -5,9 +5,9 @@ package sagemakerappimageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerappimageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerappimageconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputRefe
 	j := jsiiProxy_SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputRefe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

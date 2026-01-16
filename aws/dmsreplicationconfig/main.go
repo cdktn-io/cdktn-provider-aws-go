@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfig",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfig",
 		reflect.TypeOf((*DmsReplicationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,11 +105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfig",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfig",
 		reflect.TypeOf((*DmsReplicationConfigComputeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
 		reflect.TypeOf((*DmsReplicationConfigComputeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
@@ -167,15 +167,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigConfig",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigConfig",
 		reflect.TypeOf((*DmsReplicationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigTimeouts",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigTimeouts",
 		reflect.TypeOf((*DmsReplicationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigTimeoutsOutputReference",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*DmsReplicationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

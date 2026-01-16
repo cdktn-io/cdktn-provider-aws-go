@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		reflect.TypeOf((*DataAwsDbProxy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -24,6 +24,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "defaultAuthScheme", GoGetter: "DefaultAuthScheme"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointNetworkType", GoGetter: "EndpointNetworkType"},
 			_jsii_.MemberProperty{JsiiProperty: "engineFamily", GoGetter: "EngineFamily"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
@@ -57,6 +58,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "targetConnectionNetworkType", GoGetter: "TargetConnectionNetworkType"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
@@ -75,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuth",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuth",
 		reflect.TypeOf((*DataAwsDbProxyAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
 		reflect.TypeOf((*DataAwsDbProxyAuthList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthOutputReference",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthOutputReference",
 		reflect.TypeOf((*DataAwsDbProxyAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authScheme", GoGetter: "AuthScheme"},
@@ -138,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyConfig",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyConfig",
 		reflect.TypeOf((*DataAwsDbProxyConfig)(nil)).Elem(),
 	)
 }

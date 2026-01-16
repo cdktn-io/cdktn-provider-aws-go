@@ -5,14 +5,14 @@ package ec2clientvpnendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2clientvpnendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2clientvpnendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint}.
 type Ec2ClientVpnEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -868,7 +868,7 @@ func (j *jsiiProxy_Ec2ClientVpnEndpoint) VpnPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
 func NewEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *Ec2ClientVpnEndpointConfig) Ec2ClientVpnEndpoint {
 	_init_.Initialize()
 
@@ -878,7 +878,7 @@ func NewEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *Ec2
 	j := jsiiProxy_Ec2ClientVpnEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -886,12 +886,12 @@ func NewEc2ClientVpnEndpoint(scope constructs.Construct, id *string, config *Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_endpoint aws_ec2_client_vpn_endpoint} Resource.
 func NewEc2ClientVpnEndpoint_Override(e Ec2ClientVpnEndpoint, scope constructs.Construct, id *string, config *Ec2ClientVpnEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1173,7 +1173,7 @@ func Ec2ClientVpnEndpoint_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1208,7 +1208,7 @@ func Ec2ClientVpnEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1227,7 +1227,7 @@ func Ec2ClientVpnEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1246,7 +1246,7 @@ func Ec2ClientVpnEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1259,7 +1259,7 @@ func Ec2ClientVpnEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
+		"@cdktn/provider-aws.ec2ClientVpnEndpoint.Ec2ClientVpnEndpoint",
 		"tfResourceType",
 		&returns,
 	)

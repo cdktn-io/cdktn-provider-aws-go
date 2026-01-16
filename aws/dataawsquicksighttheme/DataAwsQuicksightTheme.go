@@ -5,14 +5,14 @@ package dataawsquicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsquicksighttheme/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsquicksighttheme/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/quicksight_theme aws_quicksight_theme}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_theme aws_quicksight_theme}.
 type DataAwsQuicksightTheme interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_DataAwsQuicksightTheme) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/quicksight_theme aws_quicksight_theme} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_theme aws_quicksight_theme} Data Source.
 func NewDataAwsQuicksightTheme(scope constructs.Construct, id *string, config *DataAwsQuicksightThemeConfig) DataAwsQuicksightTheme {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsQuicksightTheme(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsQuicksightTheme{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -488,12 +488,12 @@ func NewDataAwsQuicksightTheme(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/quicksight_theme aws_quicksight_theme} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_theme aws_quicksight_theme} Data Source.
 func NewDataAwsQuicksightTheme_Override(d DataAwsQuicksightTheme, scope constructs.Construct, id *string, config *DataAwsQuicksightThemeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -610,7 +610,7 @@ func DataAwsQuicksightTheme_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func DataAwsQuicksightTheme_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func DataAwsQuicksightTheme_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func DataAwsQuicksightTheme_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func DataAwsQuicksightTheme_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
+		"@cdktn/provider-aws.dataAwsQuicksightTheme.DataAwsQuicksightTheme",
 		"tfResourceType",
 		&returns,
 	)

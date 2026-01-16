@@ -5,14 +5,14 @@ package ecrregistryscanningconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrregistryscanningconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrregistryscanningconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration}.
 type EcrRegistryScanningConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -392,7 +392,7 @@ func (j *jsiiProxy_EcrRegistryScanningConfiguration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration} Resource.
 func NewEcrRegistryScanningConfiguration(scope constructs.Construct, id *string, config *EcrRegistryScanningConfigurationConfig) EcrRegistryScanningConfiguration {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewEcrRegistryScanningConfiguration(scope constructs.Construct, id *string,
 	j := jsiiProxy_EcrRegistryScanningConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewEcrRegistryScanningConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_registry_scanning_configuration aws_ecr_registry_scanning_configuration} Resource.
 func NewEcrRegistryScanningConfiguration_Override(e EcrRegistryScanningConfiguration, scope constructs.Construct, id *string, config *EcrRegistryScanningConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -532,7 +532,7 @@ func EcrRegistryScanningConfiguration_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func EcrRegistryScanningConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func EcrRegistryScanningConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func EcrRegistryScanningConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func EcrRegistryScanningConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfiguration",
 		"tfResourceType",
 		&returns,
 	)

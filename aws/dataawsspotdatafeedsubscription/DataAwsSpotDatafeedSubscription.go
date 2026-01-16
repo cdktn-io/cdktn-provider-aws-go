@@ -5,14 +5,14 @@ package dataawsspotdatafeedsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsspotdatafeedsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsspotdatafeedsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
 type DataAwsSpotDatafeedSubscription interface {
 	cdktf.TerraformDataSource
 	Bucket() *string
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsSpotDatafeedSubscription) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
 func NewDataAwsSpotDatafeedSubscription(scope constructs.Construct, id *string, config *DataAwsSpotDatafeedSubscriptionConfig) DataAwsSpotDatafeedSubscription {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataAwsSpotDatafeedSubscription(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsSpotDatafeedSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataAwsSpotDatafeedSubscription(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/spot_datafeed_subscription aws_spot_datafeed_subscription} Data Source.
 func NewDataAwsSpotDatafeedSubscription_Override(d DataAwsSpotDatafeedSubscription, scope constructs.Construct, id *string, config *DataAwsSpotDatafeedSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataAwsSpotDatafeedSubscription_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataAwsSpotDatafeedSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataAwsSpotDatafeedSubscription_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataAwsSpotDatafeedSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsSpotDatafeedSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
+		"@cdktn/provider-aws.dataAwsSpotDatafeedSubscription.DataAwsSpotDatafeedSubscription",
 		"tfResourceType",
 		&returns,
 	)

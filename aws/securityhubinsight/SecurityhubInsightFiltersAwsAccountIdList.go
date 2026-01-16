@@ -5,9 +5,9 @@ package securityhubinsight
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubinsight/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubinsight/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSecurityhubInsightFiltersAwsAccountIdList(terraformResource cdktf.IInter
 	j := jsiiProxy_SecurityhubInsightFiltersAwsAccountIdList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSecurityhubInsightFiltersAwsAccountIdList_Override(s SecurityhubInsightF
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

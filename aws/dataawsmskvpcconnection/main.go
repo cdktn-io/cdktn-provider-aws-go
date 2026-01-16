@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMskVpcConnection.DataAwsMskVpcConnection",
+		"@cdktn/provider-aws.dataAwsMskVpcConnection.DataAwsMskVpcConnection",
 		reflect.TypeOf((*DataAwsMskVpcConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMskVpcConnection.DataAwsMskVpcConnectionConfig",
+		"@cdktn/provider-aws.dataAwsMskVpcConnection.DataAwsMskVpcConnectionConfig",
 		reflect.TypeOf((*DataAwsMskVpcConnectionConfig)(nil)).Elem(),
 	)
 }

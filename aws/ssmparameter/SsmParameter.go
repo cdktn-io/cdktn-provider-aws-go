@@ -5,14 +5,14 @@ package ssmparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmparameter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_parameter aws_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_parameter aws_ssm_parameter}.
 type SsmParameter interface {
 	cdktf.TerraformResource
 	AllowedPattern() *string
@@ -714,7 +714,7 @@ func (j *jsiiProxy_SsmParameter) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
 func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParameterConfig) SsmParameter {
 	_init_.Initialize()
 
@@ -724,7 +724,7 @@ func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParamete
 	j := jsiiProxy_SsmParameter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -732,12 +732,12 @@ func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParamete
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
 func NewSsmParameter_Override(s SsmParameter, scope constructs.Construct, id *string, config *SsmParameterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1008,7 +1008,7 @@ func SsmParameter_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1043,7 +1043,7 @@ func SsmParameter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1062,7 +1062,7 @@ func SsmParameter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1081,7 +1081,7 @@ func SsmParameter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1094,7 +1094,7 @@ func SsmParameter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		"tfResourceType",
 		&returns,
 	)

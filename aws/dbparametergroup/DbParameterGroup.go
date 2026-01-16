@@ -5,14 +5,14 @@ package dbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_parameter_group aws_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_parameter_group aws_db_parameter_group}.
 type DbParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -536,7 +536,7 @@ func (j *jsiiProxy_DbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_parameter_group aws_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_parameter_group aws_db_parameter_group} Resource.
 func NewDbParameterGroup(scope constructs.Construct, id *string, config *DbParameterGroupConfig) DbParameterGroup {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDbParameterGroup(scope constructs.Construct, id *string, config *DbParam
 	j := jsiiProxy_DbParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -554,12 +554,12 @@ func NewDbParameterGroup(scope constructs.Construct, id *string, config *DbParam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_parameter_group aws_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_parameter_group aws_db_parameter_group} Resource.
 func NewDbParameterGroup_Override(d DbParameterGroup, scope constructs.Construct, id *string, config *DbParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -742,7 +742,7 @@ func DbParameterGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -777,7 +777,7 @@ func DbParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -796,7 +796,7 @@ func DbParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func DbParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func DbParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

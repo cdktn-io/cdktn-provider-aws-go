@@ -5,14 +5,14 @@ package finspacekxdataview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxdataview/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxdataview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}.
 type FinspaceKxDataview interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -685,7 +685,7 @@ func (j *jsiiProxy_FinspaceKxDataview) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
 func NewFinspaceKxDataview(scope constructs.Construct, id *string, config *FinspaceKxDataviewConfig) FinspaceKxDataview {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewFinspaceKxDataview(scope constructs.Construct, id *string, config *Finsp
 	j := jsiiProxy_FinspaceKxDataview{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -703,12 +703,12 @@ func NewFinspaceKxDataview(scope constructs.Construct, id *string, config *Finsp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
 func NewFinspaceKxDataview_Override(f FinspaceKxDataview, scope constructs.Construct, id *string, config *FinspaceKxDataviewConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -935,7 +935,7 @@ func FinspaceKxDataview_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -970,7 +970,7 @@ func FinspaceKxDataview_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func FinspaceKxDataview_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1008,7 +1008,7 @@ func FinspaceKxDataview_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1021,7 +1021,7 @@ func FinspaceKxDataview_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.finspaceKxDataview.FinspaceKxDataview",
+		"@cdktn/provider-aws.finspaceKxDataview.FinspaceKxDataview",
 		"tfResourceType",
 		&returns,
 	)

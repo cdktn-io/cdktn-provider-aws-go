@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalCluster",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalCluster",
 		reflect.TypeOf((*RdsGlobalCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterConfig",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterConfig",
 		reflect.TypeOf((*RdsGlobalClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembers",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembers",
 		reflect.TypeOf((*RdsGlobalClusterGlobalClusterMembers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembersList",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembersList",
 		reflect.TypeOf((*RdsGlobalClusterGlobalClusterMembersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembersOutputReference",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterGlobalClusterMembersOutputReference",
 		reflect.TypeOf((*RdsGlobalClusterGlobalClusterMembersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterTimeouts",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterTimeouts",
 		reflect.TypeOf((*RdsGlobalClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsGlobalCluster.RdsGlobalClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsGlobalCluster.RdsGlobalClusterTimeoutsOutputReference",
 		reflect.TypeOf((*RdsGlobalClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

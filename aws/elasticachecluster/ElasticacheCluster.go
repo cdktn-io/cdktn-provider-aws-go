@@ -5,14 +5,14 @@ package elasticachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticachecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_cluster aws_elasticache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_cluster aws_elasticache_cluster}.
 type ElasticacheCluster interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -1132,7 +1132,7 @@ func (j *jsiiProxy_ElasticacheCluster) TransitEncryptionEnabledInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
 func NewElasticacheCluster(scope constructs.Construct, id *string, config *ElasticacheClusterConfig) ElasticacheCluster {
 	_init_.Initialize()
 
@@ -1142,7 +1142,7 @@ func NewElasticacheCluster(scope constructs.Construct, id *string, config *Elast
 	j := jsiiProxy_ElasticacheCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1150,12 +1150,12 @@ func NewElasticacheCluster(scope constructs.Construct, id *string, config *Elast
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_cluster aws_elasticache_cluster} Resource.
 func NewElasticacheCluster_Override(e ElasticacheCluster, scope constructs.Construct, id *string, config *ElasticacheClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1580,7 +1580,7 @@ func ElasticacheCluster_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1615,7 +1615,7 @@ func ElasticacheCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1634,7 +1634,7 @@ func ElasticacheCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1653,7 +1653,7 @@ func ElasticacheCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1666,7 +1666,7 @@ func ElasticacheCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		"tfResourceType",
 		&returns,
 	)

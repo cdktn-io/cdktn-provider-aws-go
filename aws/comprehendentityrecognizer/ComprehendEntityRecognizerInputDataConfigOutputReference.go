@@ -5,9 +5,9 @@ package comprehendentityrecognizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/comprehendentityrecognizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/comprehendentityrecognizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -302,7 +302,7 @@ func NewComprehendEntityRecognizerInputDataConfigOutputReference(terraformResour
 	j := jsiiProxy_ComprehendEntityRecognizerInputDataConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigOutputReference",
+		"@cdktn/provider-aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -314,7 +314,7 @@ func NewComprehendEntityRecognizerInputDataConfigOutputReference_Override(c Comp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigOutputReference",
+		"@cdktn/provider-aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

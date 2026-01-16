@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTarget",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTarget",
 		reflect.TypeOf((*AppautoscalingTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTargetConfig",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTargetConfig",
 		reflect.TypeOf((*AppautoscalingTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedState",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedState",
 		reflect.TypeOf((*AppautoscalingTargetSuspendedState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
 		reflect.TypeOf((*AppautoscalingTargetSuspendedStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

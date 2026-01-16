@@ -5,9 +5,9 @@ package dataawsworkspacesdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsworkspacesdirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsworkspacesdirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -214,7 +214,7 @@ func NewDataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference(ter
 	j := jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
+		"@cdktn/provider-aws.dataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -226,7 +226,7 @@ func NewDataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
+		"@cdktn/provider-aws.dataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

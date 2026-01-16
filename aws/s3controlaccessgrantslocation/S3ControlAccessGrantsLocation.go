@@ -5,14 +5,14 @@ package s3controlaccessgrantslocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlaccessgrantslocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlaccessgrantslocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
 type S3ControlAccessGrantsLocation interface {
 	cdktf.TerraformResource
 	AccessGrantsLocationArn() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsLocation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) S3ControlAccessGrantsLocation {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, co
 	j := jsiiProxy_S3ControlAccessGrantsLocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation_Override(s S3ControlAccessGrantsLocation, scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -610,7 +610,7 @@ func S3ControlAccessGrantsLocation_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func S3ControlAccessGrantsLocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func S3ControlAccessGrantsLocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func S3ControlAccessGrantsLocation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func S3ControlAccessGrantsLocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
+		"@cdktn/provider-aws.s3ControlAccessGrantsLocation.S3ControlAccessGrantsLocation",
 		"tfResourceType",
 		&returns,
 	)

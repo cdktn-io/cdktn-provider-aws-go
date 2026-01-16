@@ -5,9 +5,9 @@ package appmeshvirtualrouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAppmeshVirtualRouterSpecListenerPortMappingOutputReference(terraformReso
 	j := jsiiProxy_AppmeshVirtualRouterSpecListenerPortMappingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAppmeshVirtualRouterSpecListenerPortMappingOutputReference_Override(a Ap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

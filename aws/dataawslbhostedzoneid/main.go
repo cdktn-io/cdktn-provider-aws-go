@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLbHostedZoneId.DataAwsLbHostedZoneId",
+		"@cdktn/provider-aws.dataAwsLbHostedZoneId.DataAwsLbHostedZoneId",
 		reflect.TypeOf((*DataAwsLbHostedZoneId)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLbHostedZoneId.DataAwsLbHostedZoneIdConfig",
+		"@cdktn/provider-aws.dataAwsLbHostedZoneId.DataAwsLbHostedZoneIdConfig",
 		reflect.TypeOf((*DataAwsLbHostedZoneIdConfig)(nil)).Elem(),
 	)
 }

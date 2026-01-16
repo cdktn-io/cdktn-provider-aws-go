@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitor",
 		reflect.TypeOf((*NetworkmonitorMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmonitorMonitor.NetworkmonitorMonitorConfig",
+		"@cdktn/provider-aws.networkmonitorMonitor.NetworkmonitorMonitorConfig",
 		reflect.TypeOf((*NetworkmonitorMonitorConfig)(nil)).Elem(),
 	)
 }

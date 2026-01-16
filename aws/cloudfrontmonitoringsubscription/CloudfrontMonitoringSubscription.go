@@ -5,14 +5,14 @@ package cloudfrontmonitoringsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontmonitoringsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontmonitoringsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription}.
 type CloudfrontMonitoringSubscription interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_CloudfrontMonitoringSubscription) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource.
 func NewCloudfrontMonitoringSubscription(scope constructs.Construct, id *string, config *CloudfrontMonitoringSubscriptionConfig) CloudfrontMonitoringSubscription {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewCloudfrontMonitoringSubscription(scope constructs.Construct, id *string,
 	j := jsiiProxy_CloudfrontMonitoringSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewCloudfrontMonitoringSubscription(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_monitoring_subscription aws_cloudfront_monitoring_subscription} Resource.
 func NewCloudfrontMonitoringSubscription_Override(c CloudfrontMonitoringSubscription, scope constructs.Construct, id *string, config *CloudfrontMonitoringSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -485,7 +485,7 @@ func CloudfrontMonitoringSubscription_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -520,7 +520,7 @@ func CloudfrontMonitoringSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func CloudfrontMonitoringSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func CloudfrontMonitoringSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func CloudfrontMonitoringSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
+		"@cdktn/provider-aws.cloudfrontMonitoringSubscription.CloudfrontMonitoringSubscription",
 		"tfResourceType",
 		&returns,
 	)

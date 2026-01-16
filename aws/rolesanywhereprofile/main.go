@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereProfile.RolesanywhereProfile",
+		"@cdktn/provider-aws.rolesanywhereProfile.RolesanywhereProfile",
 		reflect.TypeOf((*RolesanywhereProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptRoleSessionName", GoGetter: "AcceptRoleSessionName"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rolesanywhereProfile.RolesanywhereProfileConfig",
+		"@cdktn/provider-aws.rolesanywhereProfile.RolesanywhereProfileConfig",
 		reflect.TypeOf((*RolesanywhereProfileConfig)(nil)).Elem(),
 	)
 }

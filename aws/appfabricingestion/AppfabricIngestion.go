@@ -5,14 +5,14 @@ package appfabricingestion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricingestion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricingestion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion}.
 type AppfabricIngestion interface {
 	cdktf.TerraformResource
 	App() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_AppfabricIngestion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
 func NewAppfabricIngestion(scope constructs.Construct, id *string, config *AppfabricIngestionConfig) AppfabricIngestion {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewAppfabricIngestion(scope constructs.Construct, id *string, config *Appfa
 	j := jsiiProxy_AppfabricIngestion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -477,12 +477,12 @@ func NewAppfabricIngestion(scope constructs.Construct, id *string, config *Appfa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
 func NewAppfabricIngestion_Override(a AppfabricIngestion, scope constructs.Construct, id *string, config *AppfabricIngestionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -632,7 +632,7 @@ func AppfabricIngestion_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -667,7 +667,7 @@ func AppfabricIngestion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func AppfabricIngestion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func AppfabricIngestion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func AppfabricIngestion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		"tfResourceType",
 		&returns,
 	)

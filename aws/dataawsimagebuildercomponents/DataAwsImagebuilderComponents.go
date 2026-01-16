@@ -5,14 +5,14 @@ package dataawsimagebuildercomponents
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsimagebuildercomponents/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsimagebuildercomponents/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components}.
 type DataAwsImagebuilderComponents interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -359,7 +359,7 @@ func (j *jsiiProxy_DataAwsImagebuilderComponents) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components} Data Source.
 func NewDataAwsImagebuilderComponents(scope constructs.Construct, id *string, config *DataAwsImagebuilderComponentsConfig) DataAwsImagebuilderComponents {
 	_init_.Initialize()
 
@@ -369,7 +369,7 @@ func NewDataAwsImagebuilderComponents(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsImagebuilderComponents{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -377,12 +377,12 @@ func NewDataAwsImagebuilderComponents(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_components aws_imagebuilder_components} Data Source.
 func NewDataAwsImagebuilderComponents_Override(d DataAwsImagebuilderComponents, scope constructs.Construct, id *string, config *DataAwsImagebuilderComponentsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataAwsImagebuilderComponents_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataAwsImagebuilderComponents_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataAwsImagebuilderComponents_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAwsImagebuilderComponents_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsImagebuilderComponents_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		"tfResourceType",
 		&returns,
 	)

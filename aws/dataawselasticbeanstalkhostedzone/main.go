@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		reflect.TypeOf((*DataAwsElasticBeanstalkHostedZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,7 +61,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZoneConfig",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZoneConfig",
 		reflect.TypeOf((*DataAwsElasticBeanstalkHostedZoneConfig)(nil)).Elem(),
 	)
 }

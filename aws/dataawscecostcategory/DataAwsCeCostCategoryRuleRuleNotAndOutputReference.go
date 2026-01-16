@@ -5,9 +5,9 @@ package dataawscecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscecostcategory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsCeCostCategoryRuleRuleNotAndOutputReference(terraformResource cdk
 	j := jsiiProxy_DataAwsCeCostCategoryRuleRuleNotAndOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleNotAndOutputReference",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleNotAndOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsCeCostCategoryRuleRuleNotAndOutputReference_Override(d DataAwsCeC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleNotAndOutputReference",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleNotAndOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

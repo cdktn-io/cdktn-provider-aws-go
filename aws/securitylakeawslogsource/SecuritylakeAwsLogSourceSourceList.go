@@ -5,9 +5,9 @@ package securitylakeawslogsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitylakeawslogsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitylakeawslogsource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSecuritylakeAwsLogSourceSourceList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_SecuritylakeAwsLogSourceSourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSecuritylakeAwsLogSourceSourceList_Override(s SecuritylakeAwsLogSourceSo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
+		"@cdktn/provider-aws.securitylakeAwsLogSource.SecuritylakeAwsLogSourceSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

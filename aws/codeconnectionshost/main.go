@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHost",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHost",
 		reflect.TypeOf((*CodeconnectionsHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostConfig",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostConfig",
 		reflect.TypeOf((*CodeconnectionsHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeouts",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeouts",
 		reflect.TypeOf((*CodeconnectionsHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
 		reflect.TypeOf((*CodeconnectionsHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfiguration",
 		reflect.TypeOf((*CodeconnectionsHostVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
 		reflect.TypeOf((*CodeconnectionsHostVpcConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationOutputReference",
 		reflect.TypeOf((*CodeconnectionsHostVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

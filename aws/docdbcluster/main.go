@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		reflect.TypeOf((*DocdbCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -183,15 +183,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterConfig",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterConfig",
 		reflect.TypeOf((*DocdbClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterMasterUserSecret",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterMasterUserSecret",
 		reflect.TypeOf((*DocdbClusterMasterUserSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterMasterUserSecretList",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterMasterUserSecretList",
 		reflect.TypeOf((*DocdbClusterMasterUserSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -212,7 +212,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
 		reflect.TypeOf((*DocdbClusterMasterUserSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterRestoreToPointInTime",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterRestoreToPointInTime",
 		reflect.TypeOf((*DocdbClusterRestoreToPointInTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterRestoreToPointInTimeOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterRestoreToPointInTimeOutputReference",
 		reflect.TypeOf((*DocdbClusterRestoreToPointInTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterServerlessV2ScalingConfiguration",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterServerlessV2ScalingConfiguration",
 		reflect.TypeOf((*DocdbClusterServerlessV2ScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterServerlessV2ScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterServerlessV2ScalingConfigurationOutputReference",
 		reflect.TypeOf((*DocdbClusterServerlessV2ScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -334,11 +334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterTimeouts",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterTimeouts",
 		reflect.TypeOf((*DocdbClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DocdbClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

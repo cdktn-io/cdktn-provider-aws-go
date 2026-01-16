@@ -5,9 +5,9 @@ package storagegatewaysmbfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewaysmbfileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewaysmbfileshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewStoragegatewaySmbFileShareTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_StoragegatewaySmbFileShareTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTimeoutsOutputReference",
+		"@cdktn/provider-aws.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewStoragegatewaySmbFileShareTimeoutsOutputReference_Override(s Storagegate
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTimeoutsOutputReference",
+		"@cdktn/provider-aws.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

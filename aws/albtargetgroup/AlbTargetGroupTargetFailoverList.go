@@ -5,9 +5,9 @@ package albtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/albtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/albtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAlbTargetGroupTargetFailoverList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_AlbTargetGroupTargetFailoverList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverList",
+		"@cdktn/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAlbTargetGroupTargetFailoverList_Override(a AlbTargetGroupTargetFailover
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverList",
+		"@cdktn/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

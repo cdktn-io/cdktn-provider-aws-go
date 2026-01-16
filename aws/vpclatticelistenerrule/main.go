@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		reflect.TypeOf((*VpclatticeListenerRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleAction",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleAction",
 		reflect.TypeOf((*VpclatticeListenerRuleAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponse",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponse",
 		reflect.TypeOf((*VpclatticeListenerRuleActionFixedResponse)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponseOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionFixedResponseOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleActionFixedResponseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForward",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForward",
 		reflect.TypeOf((*VpclatticeListenerRuleActionForward)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleActionForwardOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,11 +176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroups",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroups",
 		reflect.TypeOf((*VpclatticeListenerRuleActionForwardTargetGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroupsList",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroupsList",
 		reflect.TypeOf((*VpclatticeListenerRuleActionForwardTargetGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroupsOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionForwardTargetGroupsOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleActionForwardTargetGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleActionOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -279,23 +279,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleConfig",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleConfig",
 		reflect.TypeOf((*VpclatticeListenerRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatch",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatch",
 		reflect.TypeOf((*VpclatticeListenerRuleMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatch",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatch",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatches",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchHeaderMatches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesList",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesList",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchHeaderMatchesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -317,11 +317,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchHeaderMatchesMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -362,7 +362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchHeaderMatchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caseSensitive", GoGetter: "CaseSensitive"},
@@ -402,7 +402,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -445,15 +445,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatch",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatch",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchPathMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchMatch",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchMatch",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchPathMatchMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchPathMatchMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -491,7 +491,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchHttpMatchPathMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caseSensitive", GoGetter: "CaseSensitive"},
@@ -529,7 +529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -564,11 +564,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleTimeouts",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleTimeouts",
 		reflect.TypeOf((*VpclatticeListenerRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleTimeoutsOutputReference",
 		reflect.TypeOf((*VpclatticeListenerRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

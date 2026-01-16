@@ -5,9 +5,9 @@ package datazoneformtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneformtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneformtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDatazoneFormTypeImportsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DatazoneFormTypeImportsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDatazoneFormTypeImportsOutputReference_Override(d DatazoneFormTypeImport
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

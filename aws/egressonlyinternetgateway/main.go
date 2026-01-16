@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.egressOnlyInternetGateway.EgressOnlyInternetGateway",
+		"@cdktn/provider-aws.egressOnlyInternetGateway.EgressOnlyInternetGateway",
 		reflect.TypeOf((*EgressOnlyInternetGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.egressOnlyInternetGateway.EgressOnlyInternetGatewayConfig",
+		"@cdktn/provider-aws.egressOnlyInternetGateway.EgressOnlyInternetGatewayConfig",
 		reflect.TypeOf((*EgressOnlyInternetGatewayConfig)(nil)).Elem(),
 	)
 }

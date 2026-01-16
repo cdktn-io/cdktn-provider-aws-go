@@ -5,9 +5,9 @@ package dataawsbudgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbudgetsbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsBudgetsBudgetBudgetLimitList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsBudgetsBudgetBudgetLimitList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetBudgetLimitList",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetBudgetLimitList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsBudgetsBudgetBudgetLimitList_Override(d DataAwsBudgetsBudgetBudge
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetBudgetLimitList",
+		"@cdktn/provider-aws.dataAwsBudgetsBudget.DataAwsBudgetsBudgetBudgetLimitList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

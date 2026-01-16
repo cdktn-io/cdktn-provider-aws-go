@@ -5,14 +5,14 @@ package dbclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbclustersnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot}.
 type DbClusterSnapshot interface {
 	cdktf.TerraformResource
 	AllocatedStorage() *float64
@@ -619,7 +619,7 @@ func (j *jsiiProxy_DbClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
 func NewDbClusterSnapshot(scope constructs.Construct, id *string, config *DbClusterSnapshotConfig) DbClusterSnapshot {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewDbClusterSnapshot(scope constructs.Construct, id *string, config *DbClus
 	j := jsiiProxy_DbClusterSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -637,12 +637,12 @@ func NewDbClusterSnapshot(scope constructs.Construct, id *string, config *DbClus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_cluster_snapshot aws_db_cluster_snapshot} Resource.
 func NewDbClusterSnapshot_Override(d DbClusterSnapshot, scope constructs.Construct, id *string, config *DbClusterSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -803,7 +803,7 @@ func DbClusterSnapshot_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -838,7 +838,7 @@ func DbClusterSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func DbClusterSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func DbClusterSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +889,7 @@ func DbClusterSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshot",
 		"tfResourceType",
 		&returns,
 	)

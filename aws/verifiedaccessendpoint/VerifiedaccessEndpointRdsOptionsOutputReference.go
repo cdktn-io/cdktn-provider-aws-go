@@ -5,9 +5,9 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedaccessendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedaccessendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewVerifiedaccessEndpointRdsOptionsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_VerifiedaccessEndpointRdsOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewVerifiedaccessEndpointRdsOptionsOutputReference_Override(v Verifiedacces
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

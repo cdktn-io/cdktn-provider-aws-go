@@ -5,14 +5,14 @@ package dataawsregions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsregions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsregions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/regions aws_regions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/regions aws_regions}.
 type DataAwsRegions interface {
 	cdktf.TerraformDataSource
 	AllRegions() interface{}
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsRegions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/regions aws_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/regions aws_regions} Data Source.
 func NewDataAwsRegions(scope constructs.Construct, id *string, config *DataAwsRegionsConfig) DataAwsRegions {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsRegions(scope constructs.Construct, id *string, config *DataAwsRe
 	j := jsiiProxy_DataAwsRegions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsRegions(scope constructs.Construct, id *string, config *DataAwsRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/regions aws_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/regions aws_regions} Data Source.
 func NewDataAwsRegions_Override(d DataAwsRegions, scope constructs.Construct, id *string, config *DataAwsRegionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -431,7 +431,7 @@ func DataAwsRegions_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -466,7 +466,7 @@ func DataAwsRegions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsRegions_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsRegions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsRegions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegions",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegions",
 		"tfResourceType",
 		&returns,
 	)

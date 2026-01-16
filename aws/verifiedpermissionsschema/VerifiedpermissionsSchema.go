@@ -5,14 +5,14 @@ package verifiedpermissionsschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionsschema/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionsschema/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
 type VerifiedpermissionsSchema interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_VerifiedpermissionsSchema) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) VerifiedpermissionsSchema {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config
 	j := jsiiProxy_VerifiedpermissionsSchema{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema_Override(v VerifiedpermissionsSchema, scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -508,7 +508,7 @@ func VerifiedpermissionsSchema_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func VerifiedpermissionsSchema_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func VerifiedpermissionsSchema_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func VerifiedpermissionsSchema_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func VerifiedpermissionsSchema_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		"tfResourceType",
 		&returns,
 	)

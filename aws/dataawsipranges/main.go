@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		reflect.TypeOf((*DataAwsIpRanges)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRangesConfig",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRangesConfig",
 		reflect.TypeOf((*DataAwsIpRangesConfig)(nil)).Elem(),
 	)
 }

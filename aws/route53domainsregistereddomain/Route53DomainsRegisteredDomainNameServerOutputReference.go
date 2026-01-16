@@ -5,9 +5,9 @@ package route53domainsregistereddomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewRoute53DomainsRegisteredDomainNameServerOutputReference(terraformResourc
 	j := jsiiProxy_Route53DomainsRegisteredDomainNameServerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewRoute53DomainsRegisteredDomainNameServerOutputReference_Override(r Route
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

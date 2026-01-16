@@ -5,14 +5,14 @@ package dataawsorganizationsorganizationalunitdescendantaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts}.
 type DataAwsOrganizationsOrganizationalUnitDescendantAccounts interface {
 	cdktf.TerraformDataSource
 	Accounts() DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsList
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccounts) Ter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitDescendantAccounts(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitDescendantAccountsConfig) DataAwsOrganizationsOrganizationalUnitDescendantAccounts {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantAccounts(scope construct
 	j := jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccounts{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantAccounts(scope construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organizational_unit_descendant_accounts aws_organizations_organizational_unit_descendant_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitDescendantAccounts_Override(d DataAwsOrganizationsOrganizationalUnitDescendantAccounts, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitDescendantAccountsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsOrganizationsOrganizationalUnitDescendantAccounts_GenerateConfigForI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsOrganizationsOrganizationalUnitDescendantAccounts_IsConstruct(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsOrganizationsOrganizationalUnitDescendantAccounts_IsTerraformDataSou
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsOrganizationsOrganizationalUnitDescendantAccounts_IsTerraformElement
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsOrganizationsOrganizationalUnitDescendantAccounts_TfResourceType() *
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccounts",
 		"tfResourceType",
 		&returns,
 	)

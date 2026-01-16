@@ -5,14 +5,14 @@ package transferwebappcustomization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferwebappcustomization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferwebappcustomization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization}.
 type TransferWebAppCustomization interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_TransferWebAppCustomization) WebAppIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
 func NewTransferWebAppCustomization(scope constructs.Construct, id *string, config *TransferWebAppCustomizationConfig) TransferWebAppCustomization {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewTransferWebAppCustomization(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_TransferWebAppCustomization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewTransferWebAppCustomization(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
 func NewTransferWebAppCustomization_Override(t TransferWebAppCustomization, scope constructs.Construct, id *string, config *TransferWebAppCustomizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -567,7 +567,7 @@ func TransferWebAppCustomization_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func TransferWebAppCustomization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func TransferWebAppCustomization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func TransferWebAppCustomization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func TransferWebAppCustomization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		"tfResourceType",
 		&returns,
 	)

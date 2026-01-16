@@ -5,9 +5,9 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewWafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference(terraformRes
 	j := jsiiProxy_Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewWafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference_Override(w W
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistribution",
 		reflect.TypeOf((*DataAwsCloudfrontDistribution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistributionConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontDistribution.DataAwsCloudfrontDistributionConfig",
 		reflect.TypeOf((*DataAwsCloudfrontDistributionConfig)(nil)).Elem(),
 	)
 }

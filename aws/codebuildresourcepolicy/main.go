@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildResourcePolicy.CodebuildResourcePolicy",
+		"@cdktn/provider-aws.codebuildResourcePolicy.CodebuildResourcePolicy",
 		reflect.TypeOf((*CodebuildResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildResourcePolicy.CodebuildResourcePolicyConfig",
+		"@cdktn/provider-aws.codebuildResourcePolicy.CodebuildResourcePolicyConfig",
 		reflect.TypeOf((*CodebuildResourcePolicyConfig)(nil)).Elem(),
 	)
 }

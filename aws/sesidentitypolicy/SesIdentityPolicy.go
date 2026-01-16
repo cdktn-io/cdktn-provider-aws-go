@@ -5,14 +5,14 @@ package sesidentitypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesidentitypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesidentitypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_identity_policy aws_ses_identity_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_identity_policy aws_ses_identity_policy}.
 type SesIdentityPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_SesIdentityPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_identity_policy aws_ses_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_identity_policy aws_ses_identity_policy} Resource.
 func NewSesIdentityPolicy(scope constructs.Construct, id *string, config *SesIdentityPolicyConfig) SesIdentityPolicy {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewSesIdentityPolicy(scope constructs.Construct, id *string, config *SesIde
 	j := jsiiProxy_SesIdentityPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewSesIdentityPolicy(scope constructs.Construct, id *string, config *SesIde
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_identity_policy aws_ses_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_identity_policy aws_ses_identity_policy} Resource.
 func NewSesIdentityPolicy_Override(s SesIdentityPolicy, scope constructs.Construct, id *string, config *SesIdentityPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func SesIdentityPolicy_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func SesIdentityPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func SesIdentityPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func SesIdentityPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func SesIdentityPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroup",
+		"@cdktn/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroup",
 		reflect.TypeOf((*RdsClusterParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupConfig",
+		"@cdktn/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupConfig",
 		reflect.TypeOf((*RdsClusterParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameter",
+		"@cdktn/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameter",
 		reflect.TypeOf((*RdsClusterParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameterList",
+		"@cdktn/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameterList",
 		reflect.TypeOf((*RdsClusterParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.rdsClusterParameterGroup.RdsClusterParameterGroupParameterOutputReference",
 		reflect.TypeOf((*RdsClusterParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},

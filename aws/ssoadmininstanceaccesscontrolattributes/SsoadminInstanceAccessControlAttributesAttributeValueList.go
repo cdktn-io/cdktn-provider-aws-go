@@ -5,9 +5,9 @@ package ssoadmininstanceaccesscontrolattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadmininstanceaccesscontrolattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadmininstanceaccesscontrolattributes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsoadminInstanceAccessControlAttributesAttributeValueList(terraformResou
 	j := jsiiProxy_SsoadminInstanceAccessControlAttributesAttributeValueList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValueList",
+		"@cdktn/provider-aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValueList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsoadminInstanceAccessControlAttributesAttributeValueList_Override(s Sso
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValueList",
+		"@cdktn/provider-aws.ssoadminInstanceAccessControlAttributes.SsoadminInstanceAccessControlAttributesAttributeValueList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

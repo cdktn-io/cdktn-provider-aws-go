@@ -5,9 +5,9 @@ package kinesisanalyticsapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -194,7 +194,7 @@ func NewKinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputR
 	j := jsiiProxy_KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -206,7 +206,7 @@ func NewKinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

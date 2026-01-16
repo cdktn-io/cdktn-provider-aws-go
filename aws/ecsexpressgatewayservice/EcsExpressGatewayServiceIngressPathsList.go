@@ -5,9 +5,9 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewEcsExpressGatewayServiceIngressPathsList(terraformResource cdktf.IInterp
 	j := jsiiProxy_EcsExpressGatewayServiceIngressPathsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceIngressPathsList",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceIngressPathsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewEcsExpressGatewayServiceIngressPathsList_Override(e EcsExpressGatewaySer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceIngressPathsList",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceIngressPathsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

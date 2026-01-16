@@ -5,9 +5,9 @@ package auditmanagercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagercontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAuditmanagerControlControlMappingSourcesSourceKeywordList(terraformResou
 	j := jsiiProxy_AuditmanagerControlControlMappingSourcesSourceKeywordList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAuditmanagerControlControlMappingSourcesSourceKeywordList_Override(a Aud
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

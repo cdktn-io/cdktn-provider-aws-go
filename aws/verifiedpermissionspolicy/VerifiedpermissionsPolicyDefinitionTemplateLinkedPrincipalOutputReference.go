@@ -5,9 +5,9 @@ package verifiedpermissionspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewVerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReferenc
 	j := jsiiProxy_VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReference",
+		"@cdktn/provider-aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewVerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReferenc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReference",
+		"@cdktn/provider-aws.verifiedpermissionsPolicy.VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

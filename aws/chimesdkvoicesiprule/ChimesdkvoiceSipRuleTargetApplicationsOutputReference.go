@@ -5,9 +5,9 @@ package chimesdkvoicesiprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimesdkvoicesiprule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimesdkvoicesiprule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewChimesdkvoiceSipRuleTargetApplicationsOutputReference(terraformResource 
 	j := jsiiProxy_ChimesdkvoiceSipRuleTargetApplicationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewChimesdkvoiceSipRuleTargetApplicationsOutputReference_Override(c Chimesd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

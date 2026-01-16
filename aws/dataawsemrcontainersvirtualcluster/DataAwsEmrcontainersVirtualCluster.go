@@ -5,14 +5,14 @@ package dataawsemrcontainersvirtualcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsemrcontainersvirtualcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsemrcontainersvirtualcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster}.
 type DataAwsEmrcontainersVirtualCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAwsEmrcontainersVirtualCluster) VirtualClusterIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster} Data Source.
 func NewDataAwsEmrcontainersVirtualCluster(scope constructs.Construct, id *string, config *DataAwsEmrcontainersVirtualClusterConfig) DataAwsEmrcontainersVirtualCluster {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAwsEmrcontainersVirtualCluster(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsEmrcontainersVirtualCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAwsEmrcontainersVirtualCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/emrcontainers_virtual_cluster aws_emrcontainers_virtual_cluster} Data Source.
 func NewDataAwsEmrcontainersVirtualCluster_Override(d DataAwsEmrcontainersVirtualCluster, scope constructs.Construct, id *string, config *DataAwsEmrcontainersVirtualClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAwsEmrcontainersVirtualCluster_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAwsEmrcontainersVirtualCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAwsEmrcontainersVirtualCluster_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsEmrcontainersVirtualCluster_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsEmrcontainersVirtualCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
+		"@cdktn/provider-aws.dataAwsEmrcontainersVirtualCluster.DataAwsEmrcontainersVirtualCluster",
 		"tfResourceType",
 		&returns,
 	)

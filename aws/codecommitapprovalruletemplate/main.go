@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplate",
 		reflect.TypeOf((*CodecommitApprovalRuleTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplateConfig",
+		"@cdktn/provider-aws.codecommitApprovalRuleTemplate.CodecommitApprovalRuleTemplateConfig",
 		reflect.TypeOf((*CodecommitApprovalRuleTemplateConfig)(nil)).Elem(),
 	)
 }

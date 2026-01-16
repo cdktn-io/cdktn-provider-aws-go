@@ -5,9 +5,9 @@ package dmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewDmsEndpointKinesisSettingsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DmsEndpointKinesisSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointKinesisSettingsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointKinesisSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewDmsEndpointKinesisSettingsOutputReference_Override(d DmsEndpointKinesisS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointKinesisSettingsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointKinesisSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

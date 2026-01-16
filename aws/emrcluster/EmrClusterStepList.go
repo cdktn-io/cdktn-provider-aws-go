@@ -5,9 +5,9 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEmrClusterStepList(terraformResource cdktf.IInterpolatingParent, terrafo
 	j := jsiiProxy_EmrClusterStepList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEmrClusterStepList_Override(e EmrClusterStepList, terraformResource cdkt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterStepList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterStepList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

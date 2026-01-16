@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		reflect.TypeOf((*LambdaLayerVersionPermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermissionConfig",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermissionConfig",
 		reflect.TypeOf((*LambdaLayerVersionPermissionConfig)(nil)).Elem(),
 	)
 }

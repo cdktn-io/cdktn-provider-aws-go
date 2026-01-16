@@ -5,9 +5,9 @@ package dataawsnatgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnatgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateways/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsNatGatewaysTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsNatGatewaysTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsNatGatewaysTimeoutsOutputReference_Override(d DataAwsNatGatewaysT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

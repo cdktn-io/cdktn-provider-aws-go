@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayStoredIscsiVolume.StoragegatewayStoredIscsiVolume",
+		"@cdktn/provider-aws.storagegatewayStoredIscsiVolume.StoragegatewayStoredIscsiVolume",
 		reflect.TypeOf((*StoragegatewayStoredIscsiVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayStoredIscsiVolume.StoragegatewayStoredIscsiVolumeConfig",
+		"@cdktn/provider-aws.storagegatewayStoredIscsiVolume.StoragegatewayStoredIscsiVolumeConfig",
 		reflect.TypeOf((*StoragegatewayStoredIscsiVolumeConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package dataawscloudformationtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudformationtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudformationtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudformation_type aws_cloudformation_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudformation_type aws_cloudformation_type}.
 type DataAwsCloudformationType interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataAwsCloudformationType) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudformation_type aws_cloudformation_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudformation_type aws_cloudformation_type} Data Source.
 func NewDataAwsCloudformationType(scope constructs.Construct, id *string, config *DataAwsCloudformationTypeConfig) DataAwsCloudformationType {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewDataAwsCloudformationType(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsCloudformationType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -535,12 +535,12 @@ func NewDataAwsCloudformationType(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudformation_type aws_cloudformation_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudformation_type aws_cloudformation_type} Data Source.
 func NewDataAwsCloudformationType_Override(d DataAwsCloudformationType, scope constructs.Construct, id *string, config *DataAwsCloudformationTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -668,7 +668,7 @@ func DataAwsCloudformationType_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func DataAwsCloudformationType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func DataAwsCloudformationType_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func DataAwsCloudformationType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func DataAwsCloudformationType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		"tfResourceType",
 		&returns,
 	)

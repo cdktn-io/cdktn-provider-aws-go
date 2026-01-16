@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsElasticacheSubnetGroup.DataAwsElasticacheSubnetGroup",
+		"@cdktn/provider-aws.dataAwsElasticacheSubnetGroup.DataAwsElasticacheSubnetGroup",
 		reflect.TypeOf((*DataAwsElasticacheSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsElasticacheSubnetGroup.DataAwsElasticacheSubnetGroupConfig",
+		"@cdktn/provider-aws.dataAwsElasticacheSubnetGroup.DataAwsElasticacheSubnetGroupConfig",
 		reflect.TypeOf((*DataAwsElasticacheSubnetGroupConfig)(nil)).Elem(),
 	)
 }

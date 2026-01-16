@@ -5,14 +5,14 @@ package ec2tag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2tag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2tag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_tag aws_ec2_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_tag aws_ec2_tag}.
 type Ec2Tag interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_Ec2Tag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_tag aws_ec2_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_tag aws_ec2_tag} Resource.
 func NewEc2Tag(scope constructs.Construct, id *string, config *Ec2TagConfig) Ec2Tag {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewEc2Tag(scope constructs.Construct, id *string, config *Ec2TagConfig) Ec2
 	j := jsiiProxy_Ec2Tag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewEc2Tag(scope constructs.Construct, id *string, config *Ec2TagConfig) Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_tag aws_ec2_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_tag aws_ec2_tag} Resource.
 func NewEc2Tag_Override(e Ec2Tag, scope constructs.Construct, id *string, config *Ec2TagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -565,7 +565,7 @@ func Ec2Tag_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func Ec2Tag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Ec2Tag_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func Ec2Tag_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func Ec2Tag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2Tag.Ec2Tag",
+		"@cdktn/provider-aws.ec2Tag.Ec2Tag",
 		"tfResourceType",
 		&returns,
 	)

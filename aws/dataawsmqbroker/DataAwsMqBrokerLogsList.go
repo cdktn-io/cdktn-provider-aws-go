@@ -5,9 +5,9 @@ package dataawsmqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsMqBrokerLogsList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_DataAwsMqBrokerLogsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsMqBrokerLogsList_Override(d DataAwsMqBrokerLogsList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

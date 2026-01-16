@@ -5,9 +5,9 @@ package dataawsappconfigenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappconfigenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappconfigenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppconfigEnvironmentMonitorList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsAppconfigEnvironmentMonitorList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppconfigEnvironmentMonitorList_Override(d DataAwsAppconfigEnviro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

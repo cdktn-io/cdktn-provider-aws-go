@@ -5,9 +5,9 @@ package dsqlclusterpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dsqlclusterpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dsqlclusterpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDsqlClusterPeeringTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DsqlClusterPeeringTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDsqlClusterPeeringTimeoutsOutputReference_Override(d DsqlClusterPeeringT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeeringTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

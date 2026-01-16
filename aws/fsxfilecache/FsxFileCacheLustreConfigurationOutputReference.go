@@ -5,9 +5,9 @@ package fsxfilecache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxfilecache/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxfilecache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -274,7 +274,7 @@ func NewFsxFileCacheLustreConfigurationOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_FsxFileCacheLustreConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -286,7 +286,7 @@ func NewFsxFileCacheLustreConfigurationOutputReference_Override(f FsxFileCacheLu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		f,
 	)

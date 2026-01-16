@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewLbListenerRuleActionForwardOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_LbListenerRuleActionForwardOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionForwardOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionForwardOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewLbListenerRuleActionForwardOutputReference_Override(l LbListenerRuleActi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionForwardOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionForwardOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

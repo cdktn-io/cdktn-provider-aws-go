@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		reflect.TypeOf((*LightsailLbStickinessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicyConfig",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicyConfig",
 		reflect.TypeOf((*LightsailLbStickinessPolicyConfig)(nil)).Elem(),
 	)
 }

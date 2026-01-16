@@ -5,14 +5,14 @@ package workspaceswebbrowsersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebbrowsersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebbrowsersettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings}.
 type WorkspaceswebBrowserSettings interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_WorkspaceswebBrowserSettings) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
 func NewWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsConfig) WorkspaceswebBrowserSettings {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, con
 	j := jsiiProxy_WorkspaceswebBrowserSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
 func NewWorkspaceswebBrowserSettings_Override(w WorkspaceswebBrowserSettings, scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -600,7 +600,7 @@ func WorkspaceswebBrowserSettings_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func WorkspaceswebBrowserSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func WorkspaceswebBrowserSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func WorkspaceswebBrowserSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func WorkspaceswebBrowserSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		"tfResourceType",
 		&returns,
 	)

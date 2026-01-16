@@ -5,9 +5,9 @@ package albtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/albtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/albtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAlbTargetGroupTargetFailoverOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AlbTargetGroupTargetFailoverOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverOutputReference",
+		"@cdktn/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAlbTargetGroupTargetFailoverOutputReference_Override(a AlbTargetGroupTar
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverOutputReference",
+		"@cdktn/provider-aws.albTargetGroup.AlbTargetGroupTargetFailoverOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

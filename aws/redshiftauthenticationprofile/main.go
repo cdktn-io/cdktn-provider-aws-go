@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		reflect.TypeOf((*RedshiftAuthenticationProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfileConfig",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfileConfig",
 		reflect.TypeOf((*RedshiftAuthenticationProfileConfig)(nil)).Elem(),
 	)
 }

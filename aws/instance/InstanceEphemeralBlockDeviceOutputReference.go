@@ -5,9 +5,9 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/instance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/instance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewInstanceEphemeralBlockDeviceOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_InstanceEphemeralBlockDeviceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceEphemeralBlockDeviceOutputReference",
+		"@cdktn/provider-aws.instance.InstanceEphemeralBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewInstanceEphemeralBlockDeviceOutputReference_Override(i InstanceEphemeral
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceEphemeralBlockDeviceOutputReference",
+		"@cdktn/provider-aws.instance.InstanceEphemeralBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

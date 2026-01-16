@@ -5,14 +5,14 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskreplicator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskreplicator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_replicator aws_msk_replicator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_replicator aws_msk_replicator}.
 type MskReplicator interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_MskReplicator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplicatorConfig) MskReplicator {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplica
 	j := jsiiProxy_MskReplicator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_replicator aws_msk_replicator} Resource.
 func NewMskReplicator_Override(m MskReplicator, scope constructs.Construct, id *string, config *MskReplicatorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -728,7 +728,7 @@ func MskReplicator_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func MskReplicator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func MskReplicator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func MskReplicator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func MskReplicator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		"tfResourceType",
 		&returns,
 	)

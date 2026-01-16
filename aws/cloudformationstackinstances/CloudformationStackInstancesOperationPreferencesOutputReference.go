@@ -5,9 +5,9 @@ package cloudformationstackinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationstackinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationstackinstances/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewCloudformationStackInstancesOperationPreferencesOutputReference(terrafor
 	j := jsiiProxy_CloudformationStackInstancesOperationPreferencesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackInstances.CloudformationStackInstancesOperationPreferencesOutputReference",
+		"@cdktn/provider-aws.cloudformationStackInstances.CloudformationStackInstancesOperationPreferencesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewCloudformationStackInstancesOperationPreferencesOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackInstances.CloudformationStackInstancesOperationPreferencesOutputReference",
+		"@cdktn/provider-aws.cloudformationStackInstances.CloudformationStackInstancesOperationPreferencesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

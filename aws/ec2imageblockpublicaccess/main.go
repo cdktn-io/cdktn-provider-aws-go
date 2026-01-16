@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccess",
+		"@cdktn/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccess",
 		reflect.TypeOf((*Ec2ImageBlockPublicAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessConfig",
+		"@cdktn/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessConfig",
 		reflect.TypeOf((*Ec2ImageBlockPublicAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeouts",
+		"@cdktn/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeouts",
 		reflect.TypeOf((*Ec2ImageBlockPublicAccessTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2ImageBlockPublicAccess.Ec2ImageBlockPublicAccessTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2ImageBlockPublicAccessTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

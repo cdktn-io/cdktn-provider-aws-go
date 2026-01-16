@@ -5,14 +5,14 @@ package dataawstransferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstransferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstransferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/transfer_connector aws_transfer_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/transfer_connector aws_transfer_connector}.
 type DataAwsTransferConnector interface {
 	cdktf.TerraformDataSource
 	AccessRole() *string
@@ -398,7 +398,7 @@ func (j *jsiiProxy_DataAwsTransferConnector) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/transfer_connector aws_transfer_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/transfer_connector aws_transfer_connector} Data Source.
 func NewDataAwsTransferConnector(scope constructs.Construct, id *string, config *DataAwsTransferConnectorConfig) DataAwsTransferConnector {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAwsTransferConnector(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsTransferConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -416,12 +416,12 @@ func NewDataAwsTransferConnector(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/transfer_connector aws_transfer_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/transfer_connector aws_transfer_connector} Data Source.
 func NewDataAwsTransferConnector_Override(d DataAwsTransferConnector, scope constructs.Construct, id *string, config *DataAwsTransferConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -505,7 +505,7 @@ func DataAwsTransferConnector_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsTransferConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsTransferConnector_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -578,7 +578,7 @@ func DataAwsTransferConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -591,7 +591,7 @@ func DataAwsTransferConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		"tfResourceType",
 		&returns,
 	)

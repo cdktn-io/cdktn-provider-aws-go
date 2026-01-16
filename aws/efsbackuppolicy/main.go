@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		reflect.TypeOf((*EfsBackupPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,11 +74,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicyBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicyBackupPolicy",
 		reflect.TypeOf((*EfsBackupPolicyBackupPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicyBackupPolicyOutputReference",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicyBackupPolicyOutputReference",
 		reflect.TypeOf((*EfsBackupPolicyBackupPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicyConfig",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicyConfig",
 		reflect.TypeOf((*EfsBackupPolicyConfig)(nil)).Elem(),
 	)
 }

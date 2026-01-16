@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		reflect.TypeOf((*CodedeployDeploymentConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigConfig",
 		reflect.TypeOf((*CodedeployDeploymentConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHosts",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHosts",
 		reflect.TypeOf((*CodedeployDeploymentConfigMinimumHealthyHosts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigMinimumHealthyHostsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfig",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinear)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,15 +265,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfig",
 		reflect.TypeOf((*CodedeployDeploymentConfigZonalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone",
 		reflect.TypeOf((*CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZone)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,7 +311,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigZonalConfigOutputReference",
 		reflect.TypeOf((*CodedeployDeploymentConfigZonalConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

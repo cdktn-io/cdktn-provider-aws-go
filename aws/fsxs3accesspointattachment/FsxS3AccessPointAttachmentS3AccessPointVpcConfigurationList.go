@@ -5,9 +5,9 @@ package fsxs3accesspointattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxs3accesspointattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxs3accesspointattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList(terraformRes
 	j := jsiiProxy_FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewFsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList_Override(f F
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

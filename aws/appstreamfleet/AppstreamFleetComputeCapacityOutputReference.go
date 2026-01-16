@@ -5,9 +5,9 @@ package appstreamfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -240,7 +240,7 @@ func NewAppstreamFleetComputeCapacityOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_AppstreamFleetComputeCapacityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -252,7 +252,7 @@ func NewAppstreamFleetComputeCapacityOutputReference_Override(a AppstreamFleetCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetComputeCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

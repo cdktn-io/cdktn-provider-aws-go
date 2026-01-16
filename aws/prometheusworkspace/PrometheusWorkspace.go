@@ -5,14 +5,14 @@ package prometheusworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_workspace aws_prometheus_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_workspace aws_prometheus_workspace}.
 type PrometheusWorkspace interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_PrometheusWorkspace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
 func NewPrometheusWorkspace(scope constructs.Construct, id *string, config *PrometheusWorkspaceConfig) PrometheusWorkspace {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewPrometheusWorkspace(scope constructs.Construct, id *string, config *Prom
 	j := jsiiProxy_PrometheusWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewPrometheusWorkspace(scope constructs.Construct, id *string, config *Prom
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
 func NewPrometheusWorkspace_Override(p PrometheusWorkspace, scope constructs.Construct, id *string, config *PrometheusWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -649,7 +649,7 @@ func PrometheusWorkspace_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func PrometheusWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func PrometheusWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func PrometheusWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func PrometheusWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		"tfResourceType",
 		&returns,
 	)

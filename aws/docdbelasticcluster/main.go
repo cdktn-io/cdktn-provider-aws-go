@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		reflect.TypeOf((*DocdbelasticCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticClusterConfig",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticClusterConfig",
 		reflect.TypeOf((*DocdbelasticClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticClusterTimeouts",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticClusterTimeouts",
 		reflect.TypeOf((*DocdbelasticClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DocdbelasticClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbContributorInsights.DynamodbContributorInsights",
+		"@cdktn/provider-aws.dynamodbContributorInsights.DynamodbContributorInsights",
 		reflect.TypeOf((*DynamodbContributorInsights)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsConfig",
+		"@cdktn/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsConfig",
 		reflect.TypeOf((*DynamodbContributorInsightsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeouts",
+		"@cdktn/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeouts",
 		reflect.TypeOf((*DynamodbContributorInsightsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeoutsOutputReference",
+		"@cdktn/provider-aws.dynamodbContributorInsights.DynamodbContributorInsightsTimeoutsOutputReference",
 		reflect.TypeOf((*DynamodbContributorInsightsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

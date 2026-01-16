@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		reflect.TypeOf((*DataAwsSsmParametersByPath)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPathConfig",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPathConfig",
 		reflect.TypeOf((*DataAwsSsmParametersByPathConfig)(nil)).Elem(),
 	)
 }

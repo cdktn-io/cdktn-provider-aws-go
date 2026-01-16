@@ -5,9 +5,9 @@ package dataawsamiids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsamiids/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsamiids/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsAmiIdsFilterOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsAmiIdsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsAmiIdsFilterOutputReference_Override(d DataAwsAmiIdsFilterOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsAmiIds.DataAwsAmiIdsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

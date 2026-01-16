@@ -5,9 +5,9 @@ package transferworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferworkflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocatio
 	j := jsiiProxy_TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewTransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocatio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

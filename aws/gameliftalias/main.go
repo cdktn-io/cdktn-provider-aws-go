@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftAlias.GameliftAlias",
+		"@cdktn/provider-aws.gameliftAlias.GameliftAlias",
 		reflect.TypeOf((*GameliftAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftAlias.GameliftAliasConfig",
+		"@cdktn/provider-aws.gameliftAlias.GameliftAliasConfig",
 		reflect.TypeOf((*GameliftAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftAlias.GameliftAliasRoutingStrategy",
+		"@cdktn/provider-aws.gameliftAlias.GameliftAliasRoutingStrategy",
 		reflect.TypeOf((*GameliftAliasRoutingStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftAlias.GameliftAliasRoutingStrategyOutputReference",
+		"@cdktn/provider-aws.gameliftAlias.GameliftAliasRoutingStrategyOutputReference",
 		reflect.TypeOf((*GameliftAliasRoutingStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

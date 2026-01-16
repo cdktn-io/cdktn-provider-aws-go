@@ -5,14 +5,14 @@ package dataawscloudhsmv2cluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudhsmv2cluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudhsmv2cluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
 type DataAwsCloudhsmV2Cluster interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsCloudhsmV2Cluster) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
 func NewDataAwsCloudhsmV2Cluster(scope constructs.Construct, id *string, config *DataAwsCloudhsmV2ClusterConfig) DataAwsCloudhsmV2Cluster {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsCloudhsmV2Cluster(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsCloudhsmV2Cluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAwsCloudhsmV2Cluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
 func NewDataAwsCloudhsmV2Cluster_Override(d DataAwsCloudhsmV2Cluster, scope constructs.Construct, id *string, config *DataAwsCloudhsmV2ClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsCloudhsmV2Cluster_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsCloudhsmV2Cluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsCloudhsmV2Cluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsCloudhsmV2Cluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsCloudhsmV2Cluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
+		"@cdktn/provider-aws.dataAwsCloudhsmV2Cluster.DataAwsCloudhsmV2Cluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package ssmmaintenancewindowtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmmaintenancewindowtask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmmaintenancewindowtask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task}.
 type SsmMaintenanceWindowTask interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_SsmMaintenanceWindowTask) WindowTaskId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task} Resource.
 func NewSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config *SsmMaintenanceWindowTaskConfig) SsmMaintenanceWindowTask {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_SsmMaintenanceWindowTask{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_maintenance_window_task aws_ssm_maintenance_window_task} Resource.
 func NewSsmMaintenanceWindowTask_Override(s SsmMaintenanceWindowTask, scope constructs.Construct, id *string, config *SsmMaintenanceWindowTaskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -880,7 +880,7 @@ func SsmMaintenanceWindowTask_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -915,7 +915,7 @@ func SsmMaintenanceWindowTask_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -934,7 +934,7 @@ func SsmMaintenanceWindowTask_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -953,7 +953,7 @@ func SsmMaintenanceWindowTask_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -966,7 +966,7 @@ func SsmMaintenanceWindowTask_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTask",
 		"tfResourceType",
 		&returns,
 	)

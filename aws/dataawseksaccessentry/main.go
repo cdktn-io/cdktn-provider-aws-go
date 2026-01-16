@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksAccessEntry.DataAwsEksAccessEntry",
+		"@cdktn/provider-aws.dataAwsEksAccessEntry.DataAwsEksAccessEntry",
 		reflect.TypeOf((*DataAwsEksAccessEntry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessEntryArn", GoGetter: "AccessEntryArn"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksAccessEntry.DataAwsEksAccessEntryConfig",
+		"@cdktn/provider-aws.dataAwsEksAccessEntry.DataAwsEksAccessEntryConfig",
 		reflect.TypeOf((*DataAwsEksAccessEntryConfig)(nil)).Elem(),
 	)
 }

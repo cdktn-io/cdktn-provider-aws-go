@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscription",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscription",
 		reflect.TypeOf((*DmsEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscriptionConfig",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscriptionConfig",
 		reflect.TypeOf((*DmsEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscriptionTimeouts",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscriptionTimeouts",
 		reflect.TypeOf((*DmsEventSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsEventSubscription.DmsEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.dmsEventSubscription.DmsEventSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*DmsEventSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

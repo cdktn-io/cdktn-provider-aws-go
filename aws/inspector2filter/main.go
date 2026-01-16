@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2Filter",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2Filter",
 		reflect.TypeOf((*Inspector2Filter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -85,19 +85,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterConfig",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterConfig",
 		reflect.TypeOf((*Inspector2FilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteria",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteria",
 		reflect.TypeOf((*Inspector2FilterFilterCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaAwsAccountId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaAwsAccountIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaAwsAccountIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaAwsAccountIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectName",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectName",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProjectName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProjectNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectNameOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProjectNameOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProjectNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -217,11 +217,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderType",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderType",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProviderType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -243,7 +243,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeRepositoryProviderTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -279,11 +279,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorName",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorName",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -305,7 +305,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -341,11 +341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityDetectorTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -403,11 +403,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePath",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePath",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityFilePath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -429,7 +429,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaCodeVulnerabilityFilePathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -465,11 +465,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -491,7 +491,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -527,11 +527,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentType",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentType",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentTypeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentTypeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -553,7 +553,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentTypeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaComponentTypeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaComponentTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -589,11 +589,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceImageId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceImageIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -615,7 +615,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceImageIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceImageIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -651,11 +651,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceSubnetId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceSubnetIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -677,7 +677,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceSubnetIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -713,11 +713,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceVpcId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceVpcIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -739,7 +739,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEc2InstanceVpcIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEc2InstanceVpcIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -775,11 +775,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitecture",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitecture",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageArchitecture)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitectureList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitectureList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageArchitectureList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -801,7 +801,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitectureOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageArchitectureOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageArchitectureOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -837,11 +837,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHash",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHash",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHashList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHashList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageHashList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -863,7 +863,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHashOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageHashOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -899,11 +899,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCount",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCount",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageInUseCount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCountList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCountList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageInUseCountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -925,7 +925,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageInUseCountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -961,11 +961,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageLastInUseAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageLastInUseAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -987,7 +987,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageLastInUseAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageLastInUseAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1025,11 +1025,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImagePushedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImagePushedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1051,7 +1051,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImagePushedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1089,11 +1089,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistry",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistry",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRegistry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistryList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistryList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRegistryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1115,7 +1115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistryOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRegistryOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRegistryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1151,11 +1151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryName",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryName",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRepositoryName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryNameList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryNameList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRepositoryNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1177,7 +1177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryNameOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageRepositoryNameOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageRepositoryNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1213,11 +1213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTags",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTags",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTagsList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTagsList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1239,7 +1239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTagsOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEcrImageTagsOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEcrImageTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1275,11 +1275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScore",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScore",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEpssScore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScoreList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScoreList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEpssScoreList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1301,7 +1301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScoreOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaEpssScoreOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaEpssScoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1337,11 +1337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailable",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailable",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaExploitAvailable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailableList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailableList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaExploitAvailableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1363,7 +1363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailableOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaExploitAvailableOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaExploitAvailableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1399,11 +1399,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArn",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArn",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArnList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArnList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1425,7 +1425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArnOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingArnOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1461,11 +1461,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatus",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatus",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatusList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatusList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1487,7 +1487,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatusOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingStatusOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1523,11 +1523,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingType",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingType",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingTypeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingTypeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1549,7 +1549,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingTypeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFindingTypeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFindingTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1585,11 +1585,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFirstObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFirstObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1611,7 +1611,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFirstObservedAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFirstObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1649,11 +1649,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailable",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailable",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFixAvailable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailableList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailableList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFixAvailableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1675,7 +1675,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailableOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaFixAvailableOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaFixAvailableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1711,11 +1711,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScore",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScore",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaInspectorScore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScoreList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScoreList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaInspectorScoreList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1737,7 +1737,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScoreOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaInspectorScoreOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaInspectorScoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1773,11 +1773,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1799,7 +1799,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionExecutionRoleArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1835,11 +1835,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1861,7 +1861,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1899,11 +1899,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayers",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayers",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLayers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayersList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayersList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLayersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1925,7 +1925,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayersOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionLayersOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionLayersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1961,11 +1961,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionName",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionName",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionNameList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionNameList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1987,7 +1987,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionNameOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionNameOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2023,11 +2023,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntime",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntime",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionRuntime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntimeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntimeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionRuntimeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2049,7 +2049,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLambdaFunctionRuntimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2085,11 +2085,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLastObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLastObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2111,7 +2111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaLastObservedAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaLastObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2149,7 +2149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2171,11 +2171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocol",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocol",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaNetworkProtocol)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocolList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocolList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaNetworkProtocolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2197,7 +2197,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocolOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaNetworkProtocolOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaNetworkProtocolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2233,7 +2233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsAccountId", GoGetter: "AwsAccountId"},
@@ -2449,11 +2449,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRange",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRange",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaPortRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRangeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRangeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaPortRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2475,7 +2475,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRangeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaPortRangeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaPortRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "beginInclusive", GoGetter: "BeginInclusive"},
@@ -2511,11 +2511,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilities",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilities",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaRelatedVulnerabilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaRelatedVulnerabilitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2537,7 +2537,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaRelatedVulnerabilitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2573,11 +2573,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2599,7 +2599,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2635,11 +2635,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTags",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTags",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTagsList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTagsList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2661,7 +2661,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTagsOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTagsOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2699,11 +2699,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceType",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceType",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTypeList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTypeList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2725,7 +2725,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTypeOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaResourceTypeOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaResourceTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2761,11 +2761,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverity",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverity",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverityList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverityList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2787,7 +2787,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverityOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaSeverityOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2823,11 +2823,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitle",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitle",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaTitle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitleList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitleList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaTitleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2849,7 +2849,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitleOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaTitleOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaTitleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2885,11 +2885,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAt",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAt",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaUpdatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAtList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAtList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaUpdatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2911,7 +2911,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAtOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaUpdatedAtOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaUpdatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2949,11 +2949,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverity",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverity",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVendorSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverityList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverityList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVendorSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2975,7 +2975,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverityOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVendorSeverityOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVendorSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3011,11 +3011,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityId",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityId",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilityId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityIdList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityIdList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilityIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3037,7 +3037,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityIdOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilityIdOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilityIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3073,11 +3073,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySource",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySource",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilitySource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySourceList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySourceList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilitySourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3099,7 +3099,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySourceOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerabilitySourceOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerabilitySourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3135,15 +3135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackages",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackages",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackages)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesArchitecture)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3165,7 +3165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesArchitectureOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3201,11 +3201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpoch",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpoch",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesEpoch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpochList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpochList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesEpochList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3227,7 +3227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpochOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesEpochOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesEpochOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3263,11 +3263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePath",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePath",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesFilePath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesFilePathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3289,7 +3289,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3325,7 +3325,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3347,11 +3347,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesName",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesName",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesNameList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesNameList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3373,7 +3373,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesNameOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesNameOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3409,7 +3409,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
@@ -3473,11 +3473,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesRelease",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesRelease",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesRelease)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesReleaseList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesReleaseList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesReleaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3499,7 +3499,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesReleaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3535,11 +3535,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3561,7 +3561,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3597,11 +3597,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3623,7 +3623,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3659,11 +3659,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersion",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersion",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersionList",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersionList",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesVersionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3685,7 +3685,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersionOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesVersionOutputReference",
 		reflect.TypeOf((*Inspector2FilterFilterCriteriaVulnerablePackagesVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},

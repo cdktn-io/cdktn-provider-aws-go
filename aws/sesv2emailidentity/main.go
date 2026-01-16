@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentity",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentity",
 		reflect.TypeOf((*Sesv2EmailIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityConfig",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityConfig",
 		reflect.TypeOf((*Sesv2EmailIdentityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributes",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributes",
 		reflect.TypeOf((*Sesv2EmailIdentityDkimSigningAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
 		reflect.TypeOf((*Sesv2EmailIdentityDkimSigningAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

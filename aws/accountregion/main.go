@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accountRegion.AccountRegion",
+		"@cdktn/provider-aws.accountRegion.AccountRegion",
 		reflect.TypeOf((*AccountRegion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accountRegion.AccountRegionConfig",
+		"@cdktn/provider-aws.accountRegion.AccountRegionConfig",
 		reflect.TypeOf((*AccountRegionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.accountRegion.AccountRegionTimeouts",
+		"@cdktn/provider-aws.accountRegion.AccountRegionTimeouts",
 		reflect.TypeOf((*AccountRegionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.accountRegion.AccountRegionTimeoutsOutputReference",
+		"@cdktn/provider-aws.accountRegion.AccountRegionTimeoutsOutputReference",
 		reflect.TypeOf((*AccountRegionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaStoreContainer.MediaStoreContainer",
+		"@cdktn/provider-aws.mediaStoreContainer.MediaStoreContainer",
 		reflect.TypeOf((*MediaStoreContainer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaStoreContainer.MediaStoreContainerConfig",
+		"@cdktn/provider-aws.mediaStoreContainer.MediaStoreContainerConfig",
 		reflect.TypeOf((*MediaStoreContainerConfig)(nil)).Elem(),
 	)
 }

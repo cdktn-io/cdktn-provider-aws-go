@@ -5,14 +5,14 @@ package sagemakerdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_domain aws_sagemaker_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_domain aws_sagemaker_domain}.
 type SagemakerDomain interface {
 	cdktf.TerraformResource
 	AppNetworkAccessType() *string
@@ -731,7 +731,7 @@ func (j *jsiiProxy_SagemakerDomain) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
 func NewSagemakerDomain(scope constructs.Construct, id *string, config *SagemakerDomainConfig) SagemakerDomain {
 	_init_.Initialize()
 
@@ -741,7 +741,7 @@ func NewSagemakerDomain(scope constructs.Construct, id *string, config *Sagemake
 	j := jsiiProxy_SagemakerDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -749,12 +749,12 @@ func NewSagemakerDomain(scope constructs.Construct, id *string, config *Sagemake
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_domain aws_sagemaker_domain} Resource.
 func NewSagemakerDomain_Override(s SagemakerDomain, scope constructs.Construct, id *string, config *SagemakerDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -970,7 +970,7 @@ func SagemakerDomain_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1005,7 +1005,7 @@ func SagemakerDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1024,7 +1024,7 @@ func SagemakerDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1043,7 +1043,7 @@ func SagemakerDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1056,7 +1056,7 @@ func SagemakerDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomain",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomain",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package networkflowmonitorscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkflowmonitorscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkflowmonitorscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNetworkflowmonitorScopeTargetTargetIdentifierTargetIdList(terraformResou
 	j := jsiiProxy_NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList",
+		"@cdktn/provider-aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNetworkflowmonitorScopeTargetTargetIdentifierTargetIdList_Override(n Net
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList",
+		"@cdktn/provider-aws.networkflowmonitorScope.NetworkflowmonitorScopeTargetTargetIdentifierTargetIdList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

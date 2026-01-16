@@ -5,9 +5,9 @@ package fsxfilecache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxfilecache/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxfilecache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewFsxFileCacheDataRepositoryAssociationList(terraformResource cdktf.IInter
 	j := jsiiProxy_FsxFileCacheDataRepositoryAssociationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewFsxFileCacheDataRepositoryAssociationList_Override(f FsxFileCacheDataRep
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

@@ -5,9 +5,9 @@ package cloudfrontoriginrequestpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontoriginrequestpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontoriginrequestpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewCloudfrontOriginRequestPolicyQueryStringsConfigOutputReference(terraform
 	j := jsiiProxy_CloudfrontOriginRequestPolicyQueryStringsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyQueryStringsConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyQueryStringsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewCloudfrontOriginRequestPolicyQueryStringsConfigOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyQueryStringsConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontOriginRequestPolicy.CloudfrontOriginRequestPolicyQueryStringsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,9 +5,9 @@ package neptuneparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptuneparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptuneparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewNeptuneParameterGroupParameterOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_NeptuneParameterGroupParameterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewNeptuneParameterGroupParameterOutputReference_Override(n NeptuneParamete
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

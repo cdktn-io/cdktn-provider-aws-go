@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxMacsecKeyAssociation.DxMacsecKeyAssociation",
+		"@cdktn/provider-aws.dxMacsecKeyAssociation.DxMacsecKeyAssociation",
 		reflect.TypeOf((*DxMacsecKeyAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxMacsecKeyAssociation.DxMacsecKeyAssociationConfig",
+		"@cdktn/provider-aws.dxMacsecKeyAssociation.DxMacsecKeyAssociationConfig",
 		reflect.TypeOf((*DxMacsecKeyAssociationConfig)(nil)).Elem(),
 	)
 }

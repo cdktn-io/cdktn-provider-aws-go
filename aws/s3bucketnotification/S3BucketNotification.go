@@ -5,14 +5,14 @@ package s3bucketnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketnotification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketnotification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification}.
 type S3BucketNotification interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -453,7 +453,7 @@ func (j *jsiiProxy_S3BucketNotification) TopicInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification} Resource.
 func NewS3BucketNotification(scope constructs.Construct, id *string, config *S3BucketNotificationConfig) S3BucketNotification {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewS3BucketNotification(scope constructs.Construct, id *string, config *S3B
 	j := jsiiProxy_S3BucketNotification{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewS3BucketNotification(scope constructs.Construct, id *string, config *S3B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_notification aws_s3_bucket_notification} Resource.
 func NewS3BucketNotification_Override(s S3BucketNotification, scope constructs.Construct, id *string, config *S3BucketNotificationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -604,7 +604,7 @@ func S3BucketNotification_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -639,7 +639,7 @@ func S3BucketNotification_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -658,7 +658,7 @@ func S3BucketNotification_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func S3BucketNotification_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func S3BucketNotification_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketNotification.S3BucketNotification",
+		"@cdktn/provider-aws.s3BucketNotification.S3BucketNotification",
 		"tfResourceType",
 		&returns,
 	)

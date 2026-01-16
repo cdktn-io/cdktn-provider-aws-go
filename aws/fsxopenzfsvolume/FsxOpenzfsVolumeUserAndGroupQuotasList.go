@@ -5,9 +5,9 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewFsxOpenzfsVolumeUserAndGroupQuotasList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_FsxOpenzfsVolumeUserAndGroupQuotasList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewFsxOpenzfsVolumeUserAndGroupQuotasList_Override(f FsxOpenzfsVolumeUserAn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeUserAndGroupQuotasList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

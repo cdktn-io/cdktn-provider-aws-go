@@ -5,9 +5,9 @@ package dataawselasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticacheserverlesscache/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticacheserverlesscache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputRefere
 	j := jsiiProxy_DataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheServerlessCache.DataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
+		"@cdktn/provider-aws.dataAwsElasticacheServerlessCache.DataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheServerlessCache.DataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
+		"@cdktn/provider-aws.dataAwsElasticacheServerlessCache.DataAwsElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

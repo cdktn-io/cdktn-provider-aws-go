@@ -5,9 +5,9 @@ package workspacesipgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspacesipgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesipgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewWorkspacesIpGroupRulesOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_WorkspacesIpGroupRulesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewWorkspacesIpGroupRulesOutputReference_Override(w WorkspacesIpGroupRulesO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

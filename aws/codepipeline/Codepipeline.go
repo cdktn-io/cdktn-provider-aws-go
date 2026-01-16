@@ -5,14 +5,14 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline aws_codepipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline aws_codepipeline}.
 type Codepipeline interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_Codepipeline) VariableInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline aws_codepipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline aws_codepipeline} Resource.
 func NewCodepipeline(scope constructs.Construct, id *string, config *CodepipelineConfig) Codepipeline {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewCodepipeline(scope constructs.Construct, id *string, config *Codepipelin
 	j := jsiiProxy_Codepipeline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -610,12 +610,12 @@ func NewCodepipeline(scope constructs.Construct, id *string, config *Codepipelin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codepipeline aws_codepipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline aws_codepipeline} Resource.
 func NewCodepipeline_Override(c Codepipeline, scope constructs.Construct, id *string, config *CodepipelineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -787,7 +787,7 @@ func Codepipeline_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -822,7 +822,7 @@ func Codepipeline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func Codepipeline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func Codepipeline_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func Codepipeline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		"tfResourceType",
 		&returns,
 	)

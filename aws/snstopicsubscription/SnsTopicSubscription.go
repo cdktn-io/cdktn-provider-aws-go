@@ -5,14 +5,14 @@ package snstopicsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/snstopicsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/snstopicsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription}.
 type SnsTopicSubscription interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -663,7 +663,7 @@ func (j *jsiiProxy_SnsTopicSubscription) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) SnsTopicSubscription {
 	_init_.Initialize()
 
@@ -673,7 +673,7 @@ func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *Sns
 	j := jsiiProxy_SnsTopicSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -681,12 +681,12 @@ func NewSnsTopicSubscription(scope constructs.Construct, id *string, config *Sns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_topic_subscription aws_sns_topic_subscription} Resource.
 func NewSnsTopicSubscription_Override(s SnsTopicSubscription, scope constructs.Construct, id *string, config *SnsTopicSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -924,7 +924,7 @@ func SnsTopicSubscription_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -959,7 +959,7 @@ func SnsTopicSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -978,7 +978,7 @@ func SnsTopicSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -997,7 +997,7 @@ func SnsTopicSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1010,7 +1010,7 @@ func SnsTopicSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.snsTopicSubscription.SnsTopicSubscription",
+		"@cdktn/provider-aws.snsTopicSubscription.SnsTopicSubscription",
 		"tfResourceType",
 		&returns,
 	)

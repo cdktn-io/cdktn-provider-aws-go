@@ -5,14 +5,14 @@ package datasynclocationsmb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationsmb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationsmb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_smb aws_datasync_location_smb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_smb aws_datasync_location_smb}.
 type DatasyncLocationSmb interface {
 	cdktf.TerraformResource
 	AgentArns() *[]*string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DatasyncLocationSmb) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) DatasyncLocationSmb {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DatasyncLocationSmb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb_Override(d DatasyncLocationSmb, scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -784,7 +784,7 @@ func DatasyncLocationSmb_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -819,7 +819,7 @@ func DatasyncLocationSmb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func DatasyncLocationSmb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func DatasyncLocationSmb_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func DatasyncLocationSmb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		"tfResourceType",
 		&returns,
 	)

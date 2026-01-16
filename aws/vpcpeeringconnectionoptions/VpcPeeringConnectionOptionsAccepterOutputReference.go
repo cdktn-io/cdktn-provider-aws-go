@@ -5,9 +5,9 @@ package vpcpeeringconnectionoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcpeeringconnectionoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcpeeringconnectionoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewVpcPeeringConnectionOptionsAccepterOutputReference(terraformResource cdk
 	j := jsiiProxy_VpcPeeringConnectionOptionsAccepterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewVpcPeeringConnectionOptionsAccepterOutputReference_Override(v VpcPeering
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

@@ -5,14 +5,14 @@ package memorydbacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_acl aws_memorydb_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_acl aws_memorydb_acl}.
 type MemorydbAcl interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_MemorydbAcl) UserNamesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_acl aws_memorydb_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_acl aws_memorydb_acl} Resource.
 func NewMemorydbAcl(scope constructs.Construct, id *string, config *MemorydbAclConfig) MemorydbAcl {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewMemorydbAcl(scope constructs.Construct, id *string, config *MemorydbAclC
 	j := jsiiProxy_MemorydbAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewMemorydbAcl(scope constructs.Construct, id *string, config *MemorydbAclC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_acl aws_memorydb_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_acl aws_memorydb_acl} Resource.
 func NewMemorydbAcl_Override(m MemorydbAcl, scope constructs.Construct, id *string, config *MemorydbAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -660,7 +660,7 @@ func MemorydbAcl_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func MemorydbAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func MemorydbAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func MemorydbAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func MemorydbAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		"tfResourceType",
 		&returns,
 	)

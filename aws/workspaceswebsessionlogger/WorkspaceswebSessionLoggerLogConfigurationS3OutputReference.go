@@ -5,9 +5,9 @@ package workspaceswebsessionlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebsessionlogger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebsessionlogger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -276,7 +276,7 @@ func NewWorkspaceswebSessionLoggerLogConfigurationS3OutputReference(terraformRes
 	j := jsiiProxy_WorkspaceswebSessionLoggerLogConfigurationS3OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3OutputReference",
+		"@cdktn/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -288,7 +288,7 @@ func NewWorkspaceswebSessionLoggerLogConfigurationS3OutputReference_Override(w W
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3OutputReference",
+		"@cdktn/provider-aws.workspaceswebSessionLogger.WorkspaceswebSessionLoggerLogConfigurationS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

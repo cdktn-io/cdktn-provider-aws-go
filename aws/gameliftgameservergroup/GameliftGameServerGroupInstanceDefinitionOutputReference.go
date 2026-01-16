@@ -5,9 +5,9 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gameliftgameservergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gameliftgameservergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewGameliftGameServerGroupInstanceDefinitionOutputReference(terraformResour
 	j := jsiiProxy_GameliftGameServerGroupInstanceDefinitionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewGameliftGameServerGroupInstanceDefinitionOutputReference_Override(g Game
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)

@@ -5,14 +5,14 @@ package dataawsapigatewayv2apis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsapigatewayv2apis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsapigatewayv2apis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis}.
 type DataAwsApigatewayv2Apis interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsApigatewayv2Apis) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis} Data Source.
 func NewDataAwsApigatewayv2Apis(scope constructs.Construct, id *string, config *DataAwsApigatewayv2ApisConfig) DataAwsApigatewayv2Apis {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsApigatewayv2Apis(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsApigatewayv2Apis{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsApigatewayv2Apis(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_apis aws_apigatewayv2_apis} Data Source.
 func NewDataAwsApigatewayv2Apis_Override(d DataAwsApigatewayv2Apis, scope constructs.Construct, id *string, config *DataAwsApigatewayv2ApisConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -512,7 +512,7 @@ func DataAwsApigatewayv2Apis_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -547,7 +547,7 @@ func DataAwsApigatewayv2Apis_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsApigatewayv2Apis_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsApigatewayv2Apis_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsApigatewayv2Apis_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Apis.DataAwsApigatewayv2Apis",
 		"tfResourceType",
 		&returns,
 	)

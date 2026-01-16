@@ -5,9 +5,9 @@ package sagemakeruserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakeruserprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakeruserprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSagemakerUserProfileUserSettingsSharingSettingsOutputReference(terraform
 	j := jsiiProxy_SagemakerUserProfileUserSettingsSharingSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsSharingSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsSharingSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSagemakerUserProfileUserSettingsSharingSettingsOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsSharingSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsSharingSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

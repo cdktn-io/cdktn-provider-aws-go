@@ -5,9 +5,9 @@ package backupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewBackupVaultTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_BackupVaultTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewBackupVaultTimeoutsOutputReference_Override(b BackupVaultTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-aws.backupVault.BackupVaultTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

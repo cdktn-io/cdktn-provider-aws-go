@@ -123,6 +123,10 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetProvisionersPar
 	return nil
 }
 
+func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetRoutingPolicyLabelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponent.DataAwsImagebuilderComponent",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponent.DataAwsImagebuilderComponent",
 		reflect.TypeOf((*DataAwsImagebuilderComponent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponent.DataAwsImagebuilderComponentConfig",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponent.DataAwsImagebuilderComponentConfig",
 		reflect.TypeOf((*DataAwsImagebuilderComponentConfig)(nil)).Elem(),
 	)
 }

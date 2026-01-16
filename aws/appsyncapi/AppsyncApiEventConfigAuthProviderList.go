@@ -5,9 +5,9 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppsyncApiEventConfigAuthProviderList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_AppsyncApiEventConfigAuthProviderList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppsyncApiEventConfigAuthProviderList_Override(a AppsyncApiEventConfigAu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

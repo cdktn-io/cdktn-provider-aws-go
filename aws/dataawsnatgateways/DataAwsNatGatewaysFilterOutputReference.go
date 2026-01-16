@@ -5,9 +5,9 @@ package dataawsnatgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnatgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateways/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsNatGatewaysFilterOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsNatGatewaysFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsNatGatewaysFilterOutputReference_Override(d DataAwsNatGatewaysFil
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

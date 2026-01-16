@@ -5,14 +5,14 @@ package dbproxyendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbproxyendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbproxyendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint}.
 type DbProxyEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DbProxyEndpoint) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
 func NewDbProxyEndpoint(scope constructs.Construct, id *string, config *DbProxyEndpointConfig) DbProxyEndpoint {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewDbProxyEndpoint(scope constructs.Construct, id *string, config *DbProxyE
 	j := jsiiProxy_DbProxyEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewDbProxyEndpoint(scope constructs.Construct, id *string, config *DbProxyE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
 func NewDbProxyEndpoint_Override(d DbProxyEndpoint, scope constructs.Construct, id *string, config *DbProxyEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -773,7 +773,7 @@ func DbProxyEndpoint_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -808,7 +808,7 @@ func DbProxyEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func DbProxyEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -846,7 +846,7 @@ func DbProxyEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func DbProxyEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		"tfResourceType",
 		&returns,
 	)

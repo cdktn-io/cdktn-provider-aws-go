@@ -5,9 +5,9 @@ package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFsxWindowsFileSystemTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_FsxWindowsFileSystemTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFsxWindowsFileSystemTimeoutsOutputReference_Override(f FsxWindowsFileSys
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxWindowsFileSystem.FsxWindowsFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

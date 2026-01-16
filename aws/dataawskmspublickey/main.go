@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsKmsPublicKey.DataAwsKmsPublicKey",
+		"@cdktn/provider-aws.dataAwsKmsPublicKey.DataAwsKmsPublicKey",
 		reflect.TypeOf((*DataAwsKmsPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsKmsPublicKey.DataAwsKmsPublicKeyConfig",
+		"@cdktn/provider-aws.dataAwsKmsPublicKey.DataAwsKmsPublicKeyConfig",
 		reflect.TypeOf((*DataAwsKmsPublicKeyConfig)(nil)).Elem(),
 	)
 }

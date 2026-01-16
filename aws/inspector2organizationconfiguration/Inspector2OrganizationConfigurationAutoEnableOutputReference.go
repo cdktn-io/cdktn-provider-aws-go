@@ -5,9 +5,9 @@ package inspector2organizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2organizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2organizationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -277,7 +277,7 @@ func NewInspector2OrganizationConfigurationAutoEnableOutputReference(terraformRe
 	j := jsiiProxy_Inspector2OrganizationConfigurationAutoEnableOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2OrganizationConfiguration.Inspector2OrganizationConfigurationAutoEnableOutputReference",
+		"@cdktn/provider-aws.inspector2OrganizationConfiguration.Inspector2OrganizationConfigurationAutoEnableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -289,7 +289,7 @@ func NewInspector2OrganizationConfigurationAutoEnableOutputReference_Override(i 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2OrganizationConfiguration.Inspector2OrganizationConfigurationAutoEnableOutputReference",
+		"@cdktn/provider-aws.inspector2OrganizationConfiguration.Inspector2OrganizationConfigurationAutoEnableOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

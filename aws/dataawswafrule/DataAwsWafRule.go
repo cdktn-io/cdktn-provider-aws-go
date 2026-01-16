@@ -5,14 +5,14 @@ package dataawswafrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rule aws_waf_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rule aws_waf_rule}.
 type DataAwsWafRule interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -288,7 +288,7 @@ func (j *jsiiProxy_DataAwsWafRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
 func NewDataAwsWafRule(scope constructs.Construct, id *string, config *DataAwsWafRuleConfig) DataAwsWafRule {
 	_init_.Initialize()
 
@@ -298,7 +298,7 @@ func NewDataAwsWafRule(scope constructs.Construct, id *string, config *DataAwsWa
 	j := jsiiProxy_DataAwsWafRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -306,12 +306,12 @@ func NewDataAwsWafRule(scope constructs.Construct, id *string, config *DataAwsWa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
 func NewDataAwsWafRule_Override(d DataAwsWafRule, scope constructs.Construct, id *string, config *DataAwsWafRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -395,7 +395,7 @@ func DataAwsWafRule_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -430,7 +430,7 @@ func DataAwsWafRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -449,7 +449,7 @@ func DataAwsWafRule_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataAwsWafRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -481,7 +481,7 @@ func DataAwsWafRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafRule.DataAwsWafRule",
+		"@cdktn/provider-aws.dataAwsWafRule.DataAwsWafRule",
 		"tfResourceType",
 		&returns,
 	)

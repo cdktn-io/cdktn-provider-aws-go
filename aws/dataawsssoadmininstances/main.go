@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminInstances.DataAwsSsoadminInstances",
+		"@cdktn/provider-aws.dataAwsSsoadminInstances.DataAwsSsoadminInstances",
 		reflect.TypeOf((*DataAwsSsoadminInstances)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsoadminInstances.DataAwsSsoadminInstancesConfig",
+		"@cdktn/provider-aws.dataAwsSsoadminInstances.DataAwsSsoadminInstancesConfig",
 		reflect.TypeOf((*DataAwsSsoadminInstancesConfig)(nil)).Elem(),
 	)
 }

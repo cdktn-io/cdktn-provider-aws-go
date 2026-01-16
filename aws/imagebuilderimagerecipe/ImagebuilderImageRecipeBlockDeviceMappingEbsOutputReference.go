@@ -5,9 +5,9 @@ package imagebuilderimagerecipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderimagerecipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderimagerecipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference(terraformRes
 	j := jsiiProxy_ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference",
+		"@cdktn/provider-aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference_Override(i I
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference",
+		"@cdktn/provider-aws.imagebuilderImageRecipe.ImagebuilderImageRecipeBlockDeviceMappingEbsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

@@ -5,9 +5,9 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerfeaturegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSagemakerFeatureGroupThroughputConfigOutputReference(terraformResource c
 	j := jsiiProxy_SagemakerFeatureGroupThroughputConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupThroughputConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupThroughputConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSagemakerFeatureGroupThroughputConfigOutputReference_Override(s Sagemake
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupThroughputConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerFeatureGroup.SagemakerFeatureGroupThroughputConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

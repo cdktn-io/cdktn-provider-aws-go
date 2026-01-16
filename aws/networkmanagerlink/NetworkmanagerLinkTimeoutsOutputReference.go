@@ -5,9 +5,9 @@ package networkmanagerlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerlink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNetworkmanagerLinkTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_NetworkmanagerLinkTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLinkTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNetworkmanagerLinkTimeoutsOutputReference_Override(n NetworkmanagerLinkT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLink.NetworkmanagerLinkTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerLink.NetworkmanagerLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

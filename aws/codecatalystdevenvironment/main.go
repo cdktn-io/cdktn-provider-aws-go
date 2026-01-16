@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironment",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironment",
 		reflect.TypeOf((*CodecatalystDevEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentConfig",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentConfig",
 		reflect.TypeOf((*CodecatalystDevEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdes",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdes",
 		reflect.TypeOf((*CodecatalystDevEnvironmentIdes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentIdesOutputReference",
 		reflect.TypeOf((*CodecatalystDevEnvironmentIdesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorage",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorage",
 		reflect.TypeOf((*CodecatalystDevEnvironmentPersistentStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorageOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentPersistentStorageOutputReference",
 		reflect.TypeOf((*CodecatalystDevEnvironmentPersistentStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositories",
 		reflect.TypeOf((*CodecatalystDevEnvironmentRepositories)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositoriesList",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositoriesList",
 		reflect.TypeOf((*CodecatalystDevEnvironmentRepositoriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositoriesOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentRepositoriesOutputReference",
 		reflect.TypeOf((*CodecatalystDevEnvironmentRepositoriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchName", GoGetter: "BranchName"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeouts",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeouts",
 		reflect.TypeOf((*CodecatalystDevEnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*CodecatalystDevEnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

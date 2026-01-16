@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		reflect.TypeOf((*IotTopicRuleDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationConfig",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationConfig",
 		reflect.TypeOf((*IotTopicRuleDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationTimeouts",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationTimeouts",
 		reflect.TypeOf((*IotTopicRuleDestinationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationTimeoutsOutputReference",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationTimeoutsOutputReference",
 		reflect.TypeOf((*IotTopicRuleDestinationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationVpcConfiguration",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationVpcConfiguration",
 		reflect.TypeOf((*IotTopicRuleDestinationVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestinationVpcConfigurationOutputReference",
 		reflect.TypeOf((*IotTopicRuleDestinationVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

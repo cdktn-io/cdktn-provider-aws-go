@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		reflect.TypeOf((*VerifiedaccessEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptions",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptions",
 		reflect.TypeOf((*VerifiedaccessEndpointCidrOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointCidrOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange",
 		reflect.TypeOf((*VerifiedaccessEndpointCidrOptionsPortRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRangeList",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRangeList",
 		reflect.TypeOf((*VerifiedaccessEndpointCidrOptionsPortRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,7 +199,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRangeOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRangeOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointCidrOptionsPortRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -235,15 +235,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointConfig",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointConfig",
 		reflect.TypeOf((*VerifiedaccessEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptions",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptions",
 		reflect.TypeOf((*VerifiedaccessEndpointLoadBalancerOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointLoadBalancerOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRange",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRange",
 		reflect.TypeOf((*VerifiedaccessEndpointLoadBalancerOptionsPortRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRangeList",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRangeList",
 		reflect.TypeOf((*VerifiedaccessEndpointLoadBalancerOptionsPortRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -317,7 +317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -353,11 +353,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptions",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptions",
 		reflect.TypeOf((*VerifiedaccessEndpointNetworkInterfaceOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -402,11 +402,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRange",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRange",
 		reflect.TypeOf((*VerifiedaccessEndpointNetworkInterfaceOptionsPortRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeList",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeList",
 		reflect.TypeOf((*VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -428,7 +428,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -464,11 +464,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptions",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptions",
 		reflect.TypeOf((*VerifiedaccessEndpointRdsOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointRdsOptionsOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointRdsOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -521,11 +521,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointSseSpecification",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointSseSpecification",
 		reflect.TypeOf((*VerifiedaccessEndpointSseSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointSseSpecificationOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointSseSpecificationOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointSseSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -563,11 +563,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointTimeouts",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointTimeouts",
 		reflect.TypeOf((*VerifiedaccessEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*VerifiedaccessEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

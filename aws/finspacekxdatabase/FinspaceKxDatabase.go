@@ -5,14 +5,14 @@ package finspacekxdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_database aws_finspace_kx_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_database aws_finspace_kx_database}.
 type FinspaceKxDatabase interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_FinspaceKxDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_database aws_finspace_kx_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_database aws_finspace_kx_database} Resource.
 func NewFinspaceKxDatabase(scope constructs.Construct, id *string, config *FinspaceKxDatabaseConfig) FinspaceKxDatabase {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewFinspaceKxDatabase(scope constructs.Construct, id *string, config *Finsp
 	j := jsiiProxy_FinspaceKxDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewFinspaceKxDatabase(scope constructs.Construct, id *string, config *Finsp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_database aws_finspace_kx_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_database aws_finspace_kx_database} Resource.
 func NewFinspaceKxDatabase_Override(f FinspaceKxDatabase, scope constructs.Construct, id *string, config *FinspaceKxDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -693,7 +693,7 @@ func FinspaceKxDatabase_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func FinspaceKxDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func FinspaceKxDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func FinspaceKxDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func FinspaceKxDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabase",
 		"tfResourceType",
 		&returns,
 	)

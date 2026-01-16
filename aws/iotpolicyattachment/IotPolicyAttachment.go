@@ -5,14 +5,14 @@ package iotpolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotpolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotpolicyattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment}.
 type IotPolicyAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_IotPolicyAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment} Resource.
 func NewIotPolicyAttachment(scope constructs.Construct, id *string, config *IotPolicyAttachmentConfig) IotPolicyAttachment {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewIotPolicyAttachment(scope constructs.Construct, id *string, config *IotP
 	j := jsiiProxy_IotPolicyAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewIotPolicyAttachment(scope constructs.Construct, id *string, config *IotP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_policy_attachment aws_iot_policy_attachment} Resource.
 func NewIotPolicyAttachment_Override(i IotPolicyAttachment, scope constructs.Construct, id *string, config *IotPolicyAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -531,7 +531,7 @@ func IotPolicyAttachment_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func IotPolicyAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func IotPolicyAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func IotPolicyAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func IotPolicyAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		"tfResourceType",
 		&returns,
 	)

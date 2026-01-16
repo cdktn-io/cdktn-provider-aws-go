@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSet",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSet",
 		reflect.TypeOf((*WafSizeConstraintSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,19 +73,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetConfig",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetConfig",
 		reflect.TypeOf((*WafSizeConstraintSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints",
 		reflect.TypeOf((*WafSizeConstraintSetSizeConstraints)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsFieldToMatch",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsFieldToMatch",
 		reflect.TypeOf((*WafSizeConstraintSetSizeConstraintsFieldToMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference",
 		reflect.TypeOf((*WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsList",
 		reflect.TypeOf((*WafSizeConstraintSetSizeConstraintsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsOutputReference",
+		"@cdktn/provider-aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraintsOutputReference",
 		reflect.TypeOf((*WafSizeConstraintSetSizeConstraintsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},

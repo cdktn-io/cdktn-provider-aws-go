@@ -5,9 +5,9 @@ package datasynctask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynctask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynctask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewDatasyncTaskTaskReportConfigReportOverridesOutputReference(terraformReso
 	j := jsiiProxy_DatasyncTaskTaskReportConfigReportOverridesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewDatasyncTaskTaskReportConfigReportOverridesOutputReference_Override(d Da
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

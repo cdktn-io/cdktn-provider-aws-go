@@ -5,9 +5,9 @@ package cloudwatchlogtransformer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCloudwatchLogTransformerTransformerConfigSplitStringEntryList(terraformR
 	j := jsiiProxy_CloudwatchLogTransformerTransformerConfigSplitStringEntryList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCloudwatchLogTransformerTransformerConfigSplitStringEntryList_Override(c
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

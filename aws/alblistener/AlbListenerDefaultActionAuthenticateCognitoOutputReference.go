@@ -5,9 +5,9 @@ package alblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -348,7 +348,7 @@ func NewAlbListenerDefaultActionAuthenticateCognitoOutputReference(terraformReso
 	j := jsiiProxy_AlbListenerDefaultActionAuthenticateCognitoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerDefaultActionAuthenticateCognitoOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerDefaultActionAuthenticateCognitoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -360,7 +360,7 @@ func NewAlbListenerDefaultActionAuthenticateCognitoOutputReference_Override(a Al
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerDefaultActionAuthenticateCognitoOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerDefaultActionAuthenticateCognitoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

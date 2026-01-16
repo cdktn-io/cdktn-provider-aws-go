@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmDocument.SsmDocument",
+		"@cdktn/provider-aws.ssmDocument.SsmDocument",
 		reflect.TypeOf((*SsmDocument)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,11 +110,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentAttachmentsSource",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentAttachmentsSource",
 		reflect.TypeOf((*SsmDocumentAttachmentsSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentAttachmentsSourceList",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentAttachmentsSourceList",
 		reflect.TypeOf((*SsmDocumentAttachmentsSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentAttachmentsSourceOutputReference",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentAttachmentsSourceOutputReference",
 		reflect.TypeOf((*SsmDocumentAttachmentsSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,15 +175,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentConfig",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentConfig",
 		reflect.TypeOf((*SsmDocumentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentParameter",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentParameter",
 		reflect.TypeOf((*SsmDocumentParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentParameterList",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentParameterList",
 		reflect.TypeOf((*SsmDocumentParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -204,7 +204,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentParameterOutputReference",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentParameterOutputReference",
 		reflect.TypeOf((*SsmDocumentParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

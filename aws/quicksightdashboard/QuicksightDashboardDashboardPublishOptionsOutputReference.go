@@ -5,9 +5,9 @@ package quicksightdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewQuicksightDashboardDashboardPublishOptionsOutputReference(terraformResou
 	j := jsiiProxy_QuicksightDashboardDashboardPublishOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewQuicksightDashboardDashboardPublishOptionsOutputReference_Override(q Qui
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

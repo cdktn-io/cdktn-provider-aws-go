@@ -5,9 +5,9 @@ package datazoneformtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneformtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneformtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDatazoneFormTypeTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DatazoneFormTypeTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDatazoneFormTypeTimeoutsOutputReference_Override(d DatazoneFormTypeTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

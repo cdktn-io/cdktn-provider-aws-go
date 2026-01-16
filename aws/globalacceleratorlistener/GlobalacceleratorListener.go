@@ -5,14 +5,14 @@ package globalacceleratorlistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/globalacceleratorlistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/globalacceleratorlistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener}.
 type GlobalacceleratorListener interface {
 	cdktf.TerraformResource
 	AcceleratorArn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_GlobalacceleratorListener) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener} Resource.
 func NewGlobalacceleratorListener(scope constructs.Construct, id *string, config *GlobalacceleratorListenerConfig) GlobalacceleratorListener {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewGlobalacceleratorListener(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GlobalacceleratorListener{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewGlobalacceleratorListener(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_listener aws_globalaccelerator_listener} Resource.
 func NewGlobalacceleratorListener_Override(g GlobalacceleratorListener, scope constructs.Construct, id *string, config *GlobalacceleratorListenerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -589,7 +589,7 @@ func GlobalacceleratorListener_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func GlobalacceleratorListener_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func GlobalacceleratorListener_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func GlobalacceleratorListener_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func GlobalacceleratorListener_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
+		"@cdktn/provider-aws.globalacceleratorListener.GlobalacceleratorListener",
 		"tfResourceType",
 		&returns,
 	)

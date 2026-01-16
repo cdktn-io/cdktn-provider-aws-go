@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		reflect.TypeOf((*FisExperimentTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -105,11 +105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateAction",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateAction",
 		reflect.TypeOf((*FisExperimentTemplateAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionList",
 		reflect.TypeOf((*FisExperimentTemplateActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionId", GoGetter: "ActionId"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameter",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameter",
 		reflect.TypeOf((*FisExperimentTemplateActionParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterList",
 		reflect.TypeOf((*FisExperimentTemplateActionParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -207,7 +207,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionParameterOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateActionParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionTarget",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionTarget",
 		reflect.TypeOf((*FisExperimentTemplateActionTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionTargetOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateActionTargetOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateActionTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -283,15 +283,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateConfig",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateConfig",
 		reflect.TypeOf((*FisExperimentTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentOptions",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentOptions",
 		reflect.TypeOf((*FisExperimentTemplateExperimentOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentOptionsOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentOptionsOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountTargeting", GoGetter: "AccountTargeting"},
@@ -329,19 +329,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfiguration",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSources",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationDataSources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardList",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -363,7 +363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboardOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -398,7 +398,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationDataSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchDashboard", GoGetter: "CloudwatchDashboard"},
@@ -434,7 +434,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,11 +480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputs",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationOutputs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationOutputsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -520,11 +520,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateExperimentReportConfigurationOutputsS3ConfigurationOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateExperimentReportConfigurationOutputsS3ConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -561,15 +561,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfiguration",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfiguration",
 		reflect.TypeOf((*FisExperimentTemplateLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration",
 		reflect.TypeOf((*FisExperimentTemplateLogConfigurationCloudwatchLogsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -603,7 +603,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsConfiguration", GoGetter: "CloudwatchLogsConfiguration"},
@@ -645,11 +645,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3Configuration",
 		reflect.TypeOf((*FisExperimentTemplateLogConfigurationS3Configuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -686,11 +686,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopCondition",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopCondition",
 		reflect.TypeOf((*FisExperimentTemplateStopCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopConditionList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopConditionList",
 		reflect.TypeOf((*FisExperimentTemplateStopConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -712,7 +712,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopConditionOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateStopConditionOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateStopConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -749,15 +749,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTarget",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTarget",
 		reflect.TypeOf((*FisExperimentTemplateTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilter",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilter",
 		reflect.TypeOf((*FisExperimentTemplateTargetFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilterList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilterList",
 		reflect.TypeOf((*FisExperimentTemplateTargetFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -779,7 +779,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilterOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetFilterOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateTargetFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -815,7 +815,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetList",
 		reflect.TypeOf((*FisExperimentTemplateTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -837,7 +837,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -889,11 +889,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTag",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTag",
 		reflect.TypeOf((*FisExperimentTemplateTargetResourceTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagList",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagList",
 		reflect.TypeOf((*FisExperimentTemplateTargetResourceTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -915,7 +915,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateTargetResourceTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -951,11 +951,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTimeouts",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTimeouts",
 		reflect.TypeOf((*FisExperimentTemplateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTimeoutsOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTimeoutsOutputReference",
 		reflect.TypeOf((*FisExperimentTemplateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

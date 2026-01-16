@@ -5,9 +5,9 @@ package route53resolverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -241,7 +241,7 @@ func NewRoute53ResolverEndpointIpAddressOutputReference(terraformResource cdktf.
 	j := jsiiProxy_Route53ResolverEndpointIpAddressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -253,7 +253,7 @@ func NewRoute53ResolverEndpointIpAddressOutputReference_Override(r Route53Resolv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

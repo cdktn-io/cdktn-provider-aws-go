@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboard",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboard",
 		reflect.TypeOf((*QuicksightDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,19 +117,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardConfig",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardConfig",
 		reflect.TypeOf((*QuicksightDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptions",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptions",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointDrillUpDownOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointMenuLabelOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointTooltipOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -281,11 +281,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsExportToCsvOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -320,11 +320,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsExportWithHiddenFieldsOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -359,7 +359,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adHocFilteringOption", GoGetter: "AdHocFilteringOption"},
@@ -431,11 +431,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsSheetControlsOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -470,11 +470,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsSheetLayoutElementMaximizationOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -509,11 +509,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualAxisSortOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualAxisSortOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsVisualAxisSortOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsVisualAxisSortOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -548,11 +548,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualMenuOption",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualMenuOption",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsVisualMenuOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualMenuOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsVisualMenuOptionOutputReference",
 		reflect.TypeOf((*QuicksightDashboardDashboardPublishOptionsVisualMenuOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityStatus", GoGetter: "AvailabilityStatus"},
@@ -587,15 +587,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParameters",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParameters",
 		reflect.TypeOf((*QuicksightDashboardParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParameters",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParameters",
 		reflect.TypeOf((*QuicksightDashboardParametersDateTimeParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersList",
 		reflect.TypeOf((*QuicksightDashboardParametersDateTimeParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -617,7 +617,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDateTimeParametersOutputReference",
 		reflect.TypeOf((*QuicksightDashboardParametersDateTimeParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -653,11 +653,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParameters",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParameters",
 		reflect.TypeOf((*QuicksightDashboardParametersDecimalParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParametersList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParametersList",
 		reflect.TypeOf((*QuicksightDashboardParametersDecimalParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -679,7 +679,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersDecimalParametersOutputReference",
 		reflect.TypeOf((*QuicksightDashboardParametersDecimalParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -715,11 +715,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParameters",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParameters",
 		reflect.TypeOf((*QuicksightDashboardParametersIntegerParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParametersList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParametersList",
 		reflect.TypeOf((*QuicksightDashboardParametersIntegerParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -741,7 +741,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersIntegerParametersOutputReference",
 		reflect.TypeOf((*QuicksightDashboardParametersIntegerParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -777,7 +777,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersOutputReference",
 		reflect.TypeOf((*QuicksightDashboardParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -825,11 +825,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParameters",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParameters",
 		reflect.TypeOf((*QuicksightDashboardParametersStringParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParametersList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParametersList",
 		reflect.TypeOf((*QuicksightDashboardParametersStringParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -851,7 +851,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardParametersStringParametersOutputReference",
 		reflect.TypeOf((*QuicksightDashboardParametersStringParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -887,11 +887,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardPermissions",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardPermissions",
 		reflect.TypeOf((*QuicksightDashboardPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardPermissionsList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardPermissionsList",
 		reflect.TypeOf((*QuicksightDashboardPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -913,7 +913,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardPermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardPermissionsOutputReference",
 		reflect.TypeOf((*QuicksightDashboardPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -949,11 +949,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntity",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntity",
 		reflect.TypeOf((*QuicksightDashboardSourceEntity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntityOutputReference",
 		reflect.TypeOf((*QuicksightDashboardSourceEntityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -989,15 +989,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplate",
 		reflect.TypeOf((*QuicksightDashboardSourceEntitySourceTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferences",
 		reflect.TypeOf((*QuicksightDashboardSourceEntitySourceTemplateDataSetReferences)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList",
 		reflect.TypeOf((*QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1019,7 +1019,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference",
 		reflect.TypeOf((*QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1055,7 +1055,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardSourceEntitySourceTemplateOutputReference",
 		reflect.TypeOf((*QuicksightDashboardSourceEntitySourceTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -1092,11 +1092,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardTimeouts",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardTimeouts",
 		reflect.TypeOf((*QuicksightDashboardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightDashboardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

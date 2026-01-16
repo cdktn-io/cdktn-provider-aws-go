@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRule",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRule",
 		reflect.TypeOf((*SecurityGroupRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRuleConfig",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRuleConfig",
 		reflect.TypeOf((*SecurityGroupRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRuleTimeouts",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRuleTimeouts",
 		reflect.TypeOf((*SecurityGroupRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityGroupRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

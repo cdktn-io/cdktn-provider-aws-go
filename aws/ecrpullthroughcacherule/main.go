@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		reflect.TypeOf((*EcrPullThroughCacheRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRuleConfig",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRuleConfig",
 		reflect.TypeOf((*EcrPullThroughCacheRuleConfig)(nil)).Elem(),
 	)
 }

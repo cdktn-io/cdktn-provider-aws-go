@@ -5,14 +5,14 @@ package dataawsoutpostsoutpost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsoutpostsoutpost/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsoutpostsoutpost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outpost aws_outposts_outpost}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outpost aws_outposts_outpost}.
 type DataAwsOutpostsOutpost interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsOutpostsOutpost) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outpost aws_outposts_outpost} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outpost aws_outposts_outpost} Data Source.
 func NewDataAwsOutpostsOutpost(scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostConfig) DataAwsOutpostsOutpost {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewDataAwsOutpostsOutpost(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsOutpostsOutpost{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewDataAwsOutpostsOutpost(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outpost aws_outposts_outpost} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outpost aws_outposts_outpost} Data Source.
 func NewDataAwsOutpostsOutpost_Override(d DataAwsOutpostsOutpost, scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -613,7 +613,7 @@ func DataAwsOutpostsOutpost_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func DataAwsOutpostsOutpost_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func DataAwsOutpostsOutpost_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func DataAwsOutpostsOutpost_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func DataAwsOutpostsOutpost_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
+		"@cdktn/provider-aws.dataAwsOutpostsOutpost.DataAwsOutpostsOutpost",
 		"tfResourceType",
 		&returns,
 	)

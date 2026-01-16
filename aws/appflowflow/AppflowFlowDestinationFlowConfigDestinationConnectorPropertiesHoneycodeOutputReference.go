@@ -5,9 +5,9 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appflowflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appflowflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewAppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeO
 	j := jsiiProxy_AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeOutputReference",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewAppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeOutputReference",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoneycodeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

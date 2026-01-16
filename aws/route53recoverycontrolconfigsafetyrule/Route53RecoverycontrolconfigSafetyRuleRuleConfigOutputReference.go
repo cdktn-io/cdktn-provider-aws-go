@@ -5,9 +5,9 @@ package route53recoverycontrolconfigsafetyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoverycontrolconfigsafetyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoverycontrolconfigsafetyrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewRoute53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference(terrafor
 	j := jsiiProxy_Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigSafetyRule.Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigSafetyRule.Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewRoute53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigSafetyRule.Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigSafetyRule.Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

@@ -5,14 +5,14 @@ package kmsalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmsalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_alias aws_kms_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_alias aws_kms_alias}.
 type KmsAlias interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_KmsAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_alias aws_kms_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_alias aws_kms_alias} Resource.
 func NewKmsAlias(scope constructs.Construct, id *string, config *KmsAliasConfig) KmsAlias {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewKmsAlias(scope constructs.Construct, id *string, config *KmsAliasConfig)
 	j := jsiiProxy_KmsAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewKmsAlias(scope constructs.Construct, id *string, config *KmsAliasConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_alias aws_kms_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_alias aws_kms_alias} Resource.
 func NewKmsAlias_Override(k KmsAlias, scope constructs.Construct, id *string, config *KmsAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -589,7 +589,7 @@ func KmsAlias_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func KmsAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func KmsAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func KmsAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func KmsAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kmsAlias.KmsAlias",
+		"@cdktn/provider-aws.kmsAlias.KmsAlias",
 		"tfResourceType",
 		&returns,
 	)

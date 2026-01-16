@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		reflect.TypeOf((*LightsailInstancePublicPorts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsConfig",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsConfig",
 		reflect.TypeOf((*LightsailInstancePublicPortsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfo",
 		reflect.TypeOf((*LightsailInstancePublicPortsPortInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoList",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoList",
 		reflect.TypeOf((*LightsailInstancePublicPortsPortInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
 		reflect.TypeOf((*LightsailInstancePublicPortsPortInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrListAliases", GoGetter: "CidrListAliases"},

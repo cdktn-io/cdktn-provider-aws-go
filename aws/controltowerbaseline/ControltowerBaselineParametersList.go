@@ -5,9 +5,9 @@ package controltowerbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowerbaseline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowerbaseline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewControltowerBaselineParametersList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_ControltowerBaselineParametersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewControltowerBaselineParametersList_Override(c ControltowerBaselineParame
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

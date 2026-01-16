@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackagev2ChannelGroup.MediaPackagev2ChannelGroup",
+		"@cdktn/provider-aws.mediaPackagev2ChannelGroup.MediaPackagev2ChannelGroup",
 		reflect.TypeOf((*MediaPackagev2ChannelGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaPackagev2ChannelGroup.MediaPackagev2ChannelGroupConfig",
+		"@cdktn/provider-aws.mediaPackagev2ChannelGroup.MediaPackagev2ChannelGroupConfig",
 		reflect.TypeOf((*MediaPackagev2ChannelGroupConfig)(nil)).Elem(),
 	)
 }

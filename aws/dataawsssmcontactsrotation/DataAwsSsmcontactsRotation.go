@@ -5,14 +5,14 @@ package dataawsssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmcontactsrotation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
 type DataAwsSsmcontactsRotation interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsRotation) TimeZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
 func NewDataAwsSsmcontactsRotation(scope constructs.Construct, id *string, config *DataAwsSsmcontactsRotationConfig) DataAwsSsmcontactsRotation {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAwsSsmcontactsRotation(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsSsmcontactsRotation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -383,12 +383,12 @@ func NewDataAwsSsmcontactsRotation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source.
 func NewDataAwsSsmcontactsRotation_Override(d DataAwsSsmcontactsRotation, scope constructs.Construct, id *string, config *DataAwsSsmcontactsRotationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -472,7 +472,7 @@ func DataAwsSsmcontactsRotation_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -507,7 +507,7 @@ func DataAwsSsmcontactsRotation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAwsSsmcontactsRotation_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -545,7 +545,7 @@ func DataAwsSsmcontactsRotation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func DataAwsSsmcontactsRotation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
+		"@cdktn/provider-aws.dataAwsSsmcontactsRotation.DataAwsSsmcontactsRotation",
 		"tfResourceType",
 		&returns,
 	)

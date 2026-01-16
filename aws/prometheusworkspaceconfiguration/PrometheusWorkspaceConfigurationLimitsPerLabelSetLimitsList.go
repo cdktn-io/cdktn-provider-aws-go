@@ -5,9 +5,9 @@ package prometheusworkspaceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusworkspaceconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusworkspaceconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList(terraformRes
 	j := jsiiProxy_PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList",
+		"@cdktn/provider-aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList_Override(p P
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList",
+		"@cdktn/provider-aws.prometheusWorkspaceConfiguration.PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

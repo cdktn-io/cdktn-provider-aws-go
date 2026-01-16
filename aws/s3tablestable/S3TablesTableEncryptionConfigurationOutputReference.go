@@ -5,9 +5,9 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewS3TablesTableEncryptionConfigurationOutputReference(terraformResource cd
 	j := jsiiProxy_S3TablesTableEncryptionConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewS3TablesTableEncryptionConfigurationOutputReference_Override(s S3TablesT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

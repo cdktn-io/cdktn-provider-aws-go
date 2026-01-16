@@ -5,14 +5,14 @@ package dataawsdbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_parameter_group aws_db_parameter_group}.
 type DataAwsDbParameterGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) DataAwsDbParameterGroup {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsDbParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataAwsDbParameterGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_parameter_group aws_db_parameter_group} Data Source.
 func NewDataAwsDbParameterGroup_Override(d DataAwsDbParameterGroup, scope constructs.Construct, id *string, config *DataAwsDbParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -463,7 +463,7 @@ func DataAwsDbParameterGroup_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataAwsDbParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsDbParameterGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsDbParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsDbParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

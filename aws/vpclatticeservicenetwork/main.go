@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeServiceNetwork.VpclatticeServiceNetwork",
+		"@cdktn/provider-aws.vpclatticeServiceNetwork.VpclatticeServiceNetwork",
 		reflect.TypeOf((*VpclatticeServiceNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig",
+		"@cdktn/provider-aws.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig",
 		reflect.TypeOf((*VpclatticeServiceNetworkConfig)(nil)).Elem(),
 	)
 }

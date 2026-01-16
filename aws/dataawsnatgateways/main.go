@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		reflect.TypeOf((*DataAwsNatGateways)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysConfig",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysConfig",
 		reflect.TypeOf((*DataAwsNatGatewaysConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilter",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilter",
 		reflect.TypeOf((*DataAwsNatGatewaysFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterList",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterList",
 		reflect.TypeOf((*DataAwsNatGatewaysFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysFilterOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewaysFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeouts",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeouts",
 		reflect.TypeOf((*DataAwsNatGatewaysTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGatewaysTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewaysTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package detectiveorganizationadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/detectiveorganizationadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/detectiveorganizationadminaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account}.
 type DetectiveOrganizationAdminAccount interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DetectiveOrganizationAdminAccount) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
 func NewDetectiveOrganizationAdminAccount(scope constructs.Construct, id *string, config *DetectiveOrganizationAdminAccountConfig) DetectiveOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDetectiveOrganizationAdminAccount(scope constructs.Construct, id *string
 	j := jsiiProxy_DetectiveOrganizationAdminAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDetectiveOrganizationAdminAccount(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_admin_account aws_detective_organization_admin_account} Resource.
 func NewDetectiveOrganizationAdminAccount_Override(d DetectiveOrganizationAdminAccount, scope constructs.Construct, id *string, config *DetectiveOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DetectiveOrganizationAdminAccount_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DetectiveOrganizationAdminAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DetectiveOrganizationAdminAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DetectiveOrganizationAdminAccount_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DetectiveOrganizationAdminAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		"tfResourceType",
 		&returns,
 	)

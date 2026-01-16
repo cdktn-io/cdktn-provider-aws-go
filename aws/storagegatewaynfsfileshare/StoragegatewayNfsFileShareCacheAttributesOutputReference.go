@@ -5,9 +5,9 @@ package storagegatewaynfsfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewaynfsfileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewaynfsfileshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewStoragegatewayNfsFileShareCacheAttributesOutputReference(terraformResour
 	j := jsiiProxy_StoragegatewayNfsFileShareCacheAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayNfsFileShare.StoragegatewayNfsFileShareCacheAttributesOutputReference",
+		"@cdktn/provider-aws.storagegatewayNfsFileShare.StoragegatewayNfsFileShareCacheAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewStoragegatewayNfsFileShareCacheAttributesOutputReference_Override(s Stor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayNfsFileShare.StoragegatewayNfsFileShareCacheAttributesOutputReference",
+		"@cdktn/provider-aws.storagegatewayNfsFileShare.StoragegatewayNfsFileShareCacheAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

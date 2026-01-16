@@ -5,14 +5,14 @@ package verifiedaccessinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedaccessinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedaccessinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
 type VerifiedaccessInstance interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_VerifiedaccessInstance) VerifiedAccessTrustProviders() Verifi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) VerifiedaccessInstance {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *V
 	j := jsiiProxy_VerifiedaccessInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance_Override(v VerifiedaccessInstance, scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -682,7 +682,7 @@ func VerifiedaccessInstance_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func VerifiedaccessInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func VerifiedaccessInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func VerifiedaccessInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func VerifiedaccessInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		"tfResourceType",
 		&returns,
 	)

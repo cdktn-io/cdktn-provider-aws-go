@@ -5,9 +5,9 @@ package billingview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/billingview/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/billingview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBillingViewDataFilterExpressionTagsList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_BillingViewDataFilterExpressionTagsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBillingViewDataFilterExpressionTagsList_Override(b BillingViewDataFilter
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

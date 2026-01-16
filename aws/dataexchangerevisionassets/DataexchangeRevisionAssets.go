@@ -5,14 +5,14 @@ package dataexchangerevisionassets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataexchangerevisionassets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataexchangerevisionassets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
 type DataexchangeRevisionAssets interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssets) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) DataexchangeRevisionAssets {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataexchangeRevisionAssets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets_Override(d DataexchangeRevisionAssets, scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -705,7 +705,7 @@ func DataexchangeRevisionAssets_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func DataexchangeRevisionAssets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func DataexchangeRevisionAssets_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func DataexchangeRevisionAssets_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func DataexchangeRevisionAssets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
+		"@cdktn/provider-aws.dataexchangeRevisionAssets.DataexchangeRevisionAssets",
 		"tfResourceType",
 		&returns,
 	)

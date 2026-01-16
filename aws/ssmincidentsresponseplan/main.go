@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlan",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlan",
 		reflect.TypeOf((*SsmincidentsResponsePlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -98,11 +98,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanAction",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanAction",
 		reflect.TypeOf((*SsmincidentsResponsePlanAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomation",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomation",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationList",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameter",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameter",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomationParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameterList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameterList",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomationParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameterOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanActionSsmAutomationParameterOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanActionSsmAutomationParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,19 +275,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanConfig",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanConfig",
 		reflect.TypeOf((*SsmincidentsResponsePlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplate",
 		reflect.TypeOf((*SsmincidentsResponsePlanIncidentTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTarget",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTarget",
 		reflect.TypeOf((*SsmincidentsResponsePlanIncidentTemplateNotificationTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetList",
 		reflect.TypeOf((*SsmincidentsResponsePlanIncidentTemplateNotificationTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -309,7 +309,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -343,7 +343,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIncidentTemplateOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanIncidentTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -392,11 +392,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegration",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegration",
 		reflect.TypeOf((*SsmincidentsResponsePlanIntegration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanIntegrationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -432,11 +432,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerduty",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerduty",
 		reflect.TypeOf((*SsmincidentsResponsePlanIntegrationPagerduty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
 		reflect.TypeOf((*SsmincidentsResponsePlanIntegrationPagerdutyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -458,7 +458,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyOutputReference",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyOutputReference",
 		reflect.TypeOf((*SsmincidentsResponsePlanIntegrationPagerdutyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

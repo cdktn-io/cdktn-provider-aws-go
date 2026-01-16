@@ -5,9 +5,9 @@ package timestreamqueryscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewTimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLo
 	j := jsiiProxy_TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLocationOutputReference",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewTimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLocationOutputReference",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryLastRunSummaryErrorReportLocationS3ReportLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		t,
 	)

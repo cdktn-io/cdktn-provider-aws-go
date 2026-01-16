@@ -5,14 +5,14 @@ package s3bucketacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl}.
 type S3BucketAcl interface {
 	cdktf.TerraformResource
 	AccessControlPolicy() S3BucketAclAccessControlPolicyOutputReference
@@ -429,7 +429,7 @@ func (j *jsiiProxy_S3BucketAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
 func NewS3BucketAcl(scope constructs.Construct, id *string, config *S3BucketAclConfig) S3BucketAcl {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewS3BucketAcl(scope constructs.Construct, id *string, config *S3BucketAclC
 	j := jsiiProxy_S3BucketAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewS3BucketAcl(scope constructs.Construct, id *string, config *S3BucketAclC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_acl aws_s3_bucket_acl} Resource.
 func NewS3BucketAcl_Override(s S3BucketAcl, scope constructs.Construct, id *string, config *S3BucketAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -591,7 +591,7 @@ func S3BucketAcl_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -626,7 +626,7 @@ func S3BucketAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -645,7 +645,7 @@ func S3BucketAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func S3BucketAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func S3BucketAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAcl",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAcl",
 		"tfResourceType",
 		&returns,
 	)

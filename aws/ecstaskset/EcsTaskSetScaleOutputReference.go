@@ -5,9 +5,9 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEcsTaskSetScaleOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_EcsTaskSetScaleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetScaleOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetScaleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEcsTaskSetScaleOutputReference_Override(e EcsTaskSetScaleOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetScaleOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetScaleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

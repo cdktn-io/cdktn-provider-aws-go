@@ -5,14 +5,14 @@ package datazoneglossaryterm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneglossaryterm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneglossaryterm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term}.
 type DatazoneGlossaryTerm interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DatazoneGlossaryTerm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) DatazoneGlossaryTerm {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DatazoneGlossaryTerm{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewDatazoneGlossaryTerm(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_glossary_term aws_datazone_glossary_term} Resource.
 func NewDatazoneGlossaryTerm_Override(d DatazoneGlossaryTerm, scope constructs.Construct, id *string, config *DatazoneGlossaryTermConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -717,7 +717,7 @@ func DatazoneGlossaryTerm_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func DatazoneGlossaryTerm_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func DatazoneGlossaryTerm_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DatazoneGlossaryTerm_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func DatazoneGlossaryTerm_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package transcribevocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transcribevocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transcribevocabulary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary}.
 type TranscribeVocabulary interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_TranscribeVocabulary) VocabularyNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
 func NewTranscribeVocabulary(scope constructs.Construct, id *string, config *TranscribeVocabularyConfig) TranscribeVocabulary {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewTranscribeVocabulary(scope constructs.Construct, id *string, config *Tra
 	j := jsiiProxy_TranscribeVocabulary{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewTranscribeVocabulary(scope constructs.Construct, id *string, config *Tra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
 func NewTranscribeVocabulary_Override(t TranscribeVocabulary, scope constructs.Construct, id *string, config *TranscribeVocabularyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -717,7 +717,7 @@ func TranscribeVocabulary_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func TranscribeVocabulary_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func TranscribeVocabulary_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func TranscribeVocabulary_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func TranscribeVocabulary_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		"tfResourceType",
 		&returns,
 	)

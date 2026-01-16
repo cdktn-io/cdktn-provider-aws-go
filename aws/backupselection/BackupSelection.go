@@ -5,14 +5,14 @@ package backupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_selection aws_backup_selection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_selection aws_backup_selection}.
 type BackupSelection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -499,7 +499,7 @@ func (j *jsiiProxy_BackupSelection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_selection aws_backup_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_selection aws_backup_selection} Resource.
 func NewBackupSelection(scope constructs.Construct, id *string, config *BackupSelectionConfig) BackupSelection {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewBackupSelection(scope constructs.Construct, id *string, config *BackupSe
 	j := jsiiProxy_BackupSelection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewBackupSelection(scope constructs.Construct, id *string, config *BackupSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_selection aws_backup_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_selection aws_backup_selection} Resource.
 func NewBackupSelection_Override(b BackupSelection, scope constructs.Construct, id *string, config *BackupSelectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -683,7 +683,7 @@ func BackupSelection_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func BackupSelection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func BackupSelection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func BackupSelection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func BackupSelection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.backupSelection.BackupSelection",
+		"@cdktn/provider-aws.backupSelection.BackupSelection",
 		"tfResourceType",
 		&returns,
 	)

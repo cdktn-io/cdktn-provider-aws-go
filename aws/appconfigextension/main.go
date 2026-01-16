@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtension",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtension",
 		reflect.TypeOf((*AppconfigExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionPoint", GoGetter: "ActionPoint"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPoint",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPoint",
 		reflect.TypeOf((*AppconfigExtensionActionPoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPointAction",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPointAction",
 		reflect.TypeOf((*AppconfigExtensionActionPointAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPointActionList",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPointActionList",
 		reflect.TypeOf((*AppconfigExtensionActionPointActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPointActionOutputReference",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPointActionOutputReference",
 		reflect.TypeOf((*AppconfigExtensionActionPointActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPointList",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPointList",
 		reflect.TypeOf((*AppconfigExtensionActionPointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -183,7 +183,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionActionPointOutputReference",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionActionPointOutputReference",
 		reflect.TypeOf((*AppconfigExtensionActionPointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -220,15 +220,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionConfig",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionConfig",
 		reflect.TypeOf((*AppconfigExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionParameter",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionParameter",
 		reflect.TypeOf((*AppconfigExtensionParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionParameterList",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionParameterList",
 		reflect.TypeOf((*AppconfigExtensionParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtension.AppconfigExtensionParameterOutputReference",
+		"@cdktn/provider-aws.appconfigExtension.AppconfigExtensionParameterOutputReference",
 		reflect.TypeOf((*AppconfigExtensionParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

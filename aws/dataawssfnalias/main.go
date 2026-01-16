@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAlias",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAlias",
 		reflect.TypeOf((*DataAwsSfnAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasConfig",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasConfig",
 		reflect.TypeOf((*DataAwsSfnAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfiguration",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfiguration",
 		reflect.TypeOf((*DataAwsSfnAliasRoutingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationList",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationList",
 		reflect.TypeOf((*DataAwsSfnAliasRoutingConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsSfnAliasRoutingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

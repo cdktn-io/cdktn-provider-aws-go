@@ -5,14 +5,14 @@ package dataawscloudwatchloggroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatchloggroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatchloggroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups}.
 type DataAwsCloudwatchLogGroups interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups} Data Source.
 func NewDataAwsCloudwatchLogGroups(scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupsConfig) DataAwsCloudwatchLogGroups {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAwsCloudwatchLogGroups(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsCloudwatchLogGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAwsCloudwatchLogGroups(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_log_groups aws_cloudwatch_log_groups} Data Source.
 func NewDataAwsCloudwatchLogGroups_Override(d DataAwsCloudwatchLogGroups, scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -453,7 +453,7 @@ func DataAwsCloudwatchLogGroups_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataAwsCloudwatchLogGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataAwsCloudwatchLogGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAwsCloudwatchLogGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsCloudwatchLogGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
+		"@cdktn/provider-aws.dataAwsCloudwatchLogGroups.DataAwsCloudwatchLogGroups",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package vpcendpointsecuritygroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointsecuritygroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointsecuritygroupassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association}.
 type VpcEndpointSecurityGroupAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_VpcEndpointSecurityGroupAssociation) VpcEndpointIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
 func NewVpcEndpointSecurityGroupAssociation(scope constructs.Construct, id *string, config *VpcEndpointSecurityGroupAssociationConfig) VpcEndpointSecurityGroupAssociation {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewVpcEndpointSecurityGroupAssociation(scope constructs.Construct, id *stri
 	j := jsiiProxy_VpcEndpointSecurityGroupAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewVpcEndpointSecurityGroupAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_security_group_association aws_vpc_endpoint_security_group_association} Resource.
 func NewVpcEndpointSecurityGroupAssociation_Override(v VpcEndpointSecurityGroupAssociation, scope constructs.Construct, id *string, config *VpcEndpointSecurityGroupAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -566,7 +566,7 @@ func VpcEndpointSecurityGroupAssociation_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func VpcEndpointSecurityGroupAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func VpcEndpointSecurityGroupAssociation_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func VpcEndpointSecurityGroupAssociation_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func VpcEndpointSecurityGroupAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
+		"@cdktn/provider-aws.vpcEndpointSecurityGroupAssociation.VpcEndpointSecurityGroupAssociation",
 		"tfResourceType",
 		&returns,
 	)

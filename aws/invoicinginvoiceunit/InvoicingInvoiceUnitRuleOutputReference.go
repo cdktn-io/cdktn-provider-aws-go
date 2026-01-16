@@ -5,9 +5,9 @@ package invoicinginvoiceunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/invoicinginvoiceunit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/invoicinginvoiceunit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewInvoicingInvoiceUnitRuleOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_InvoicingInvoiceUnitRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewInvoicingInvoiceUnitRuleOutputReference_Override(i InvoicingInvoiceUnitR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

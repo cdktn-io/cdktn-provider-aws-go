@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		reflect.TypeOf((*BedrockagentcoreMemory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryConfig",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryConfig",
 		reflect.TypeOf((*BedrockagentcoreMemoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeouts",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeouts",
 		reflect.TypeOf((*BedrockagentcoreMemoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemoryTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockagentcoreMemoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

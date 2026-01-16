@@ -5,14 +5,14 @@ package wafregionalrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group}.
 type WafregionalRuleGroup interface {
 	cdktf.TerraformResource
 	ActivatedRule() WafregionalRuleGroupActivatedRuleList
@@ -463,7 +463,7 @@ func (j *jsiiProxy_WafregionalRuleGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group} Resource.
 func NewWafregionalRuleGroup(scope constructs.Construct, id *string, config *WafregionalRuleGroupConfig) WafregionalRuleGroup {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewWafregionalRuleGroup(scope constructs.Construct, id *string, config *Waf
 	j := jsiiProxy_WafregionalRuleGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewWafregionalRuleGroup(scope constructs.Construct, id *string, config *Waf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule_group aws_wafregional_rule_group} Resource.
 func NewWafregionalRuleGroup_Override(w WafregionalRuleGroup, scope constructs.Construct, id *string, config *WafregionalRuleGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -636,7 +636,7 @@ func WafregionalRuleGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func WafregionalRuleGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func WafregionalRuleGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func WafregionalRuleGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func WafregionalRuleGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		"tfResourceType",
 		&returns,
 	)

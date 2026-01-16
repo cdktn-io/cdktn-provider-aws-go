@@ -5,14 +5,14 @@ package appfabricingestiondestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination}.
 type AppfabricIngestionDestination interface {
 	cdktf.TerraformResource
 	AppBundleArn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_AppfabricIngestionDestination) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
 func NewAppfabricIngestionDestination(scope constructs.Construct, id *string, config *AppfabricIngestionDestinationConfig) AppfabricIngestionDestination {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewAppfabricIngestionDestination(scope constructs.Construct, id *string, co
 	j := jsiiProxy_AppfabricIngestionDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewAppfabricIngestionDestination(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion_destination aws_appfabric_ingestion_destination} Resource.
 func NewAppfabricIngestionDestination_Override(a AppfabricIngestionDestination, scope constructs.Construct, id *string, config *AppfabricIngestionDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -636,7 +636,7 @@ func AppfabricIngestionDestination_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func AppfabricIngestionDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func AppfabricIngestionDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func AppfabricIngestionDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func AppfabricIngestionDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestination",
 		"tfResourceType",
 		&returns,
 	)

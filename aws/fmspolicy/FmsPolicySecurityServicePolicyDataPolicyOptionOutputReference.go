@@ -5,9 +5,9 @@ package fmspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fmspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fmspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFmsPolicySecurityServicePolicyDataPolicyOptionOutputReference(terraformR
 	j := jsiiProxy_FmsPolicySecurityServicePolicyDataPolicyOptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionOutputReference",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFmsPolicySecurityServicePolicyDataPolicyOptionOutputReference_Override(f
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionOutputReference",
+		"@cdktn/provider-aws.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

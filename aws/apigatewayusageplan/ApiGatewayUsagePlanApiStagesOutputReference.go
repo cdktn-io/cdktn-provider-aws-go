@@ -5,9 +5,9 @@ package apigatewayusageplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayusageplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayusageplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewApiGatewayUsagePlanApiStagesOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_ApiGatewayUsagePlanApiStagesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewApiGatewayUsagePlanApiStagesOutputReference_Override(a ApiGatewayUsagePl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

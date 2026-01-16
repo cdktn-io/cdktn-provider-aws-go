@@ -5,14 +5,14 @@ package sagemakerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app aws_sagemaker_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app aws_sagemaker_app}.
 type SagemakerApp interface {
 	cdktf.TerraformResource
 	AppName() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_SagemakerApp) UserProfileNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app aws_sagemaker_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app aws_sagemaker_app} Resource.
 func NewSagemakerApp(scope constructs.Construct, id *string, config *SagemakerAppConfig) SagemakerApp {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewSagemakerApp(scope constructs.Construct, id *string, config *SagemakerAp
 	j := jsiiProxy_SagemakerApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewSagemakerApp(scope constructs.Construct, id *string, config *SagemakerAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app aws_sagemaker_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app aws_sagemaker_app} Resource.
 func NewSagemakerApp_Override(s SagemakerApp, scope constructs.Construct, id *string, config *SagemakerAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -740,7 +740,7 @@ func SagemakerApp_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func SagemakerApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func SagemakerApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func SagemakerApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func SagemakerApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerApp.SagemakerApp",
+		"@cdktn/provider-aws.sagemakerApp.SagemakerApp",
 		"tfResourceType",
 		&returns,
 	)

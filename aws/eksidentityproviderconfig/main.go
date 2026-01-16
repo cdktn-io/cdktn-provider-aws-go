@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfig",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfig",
 		reflect.TypeOf((*EksIdentityProviderConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigConfig",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigConfig",
 		reflect.TypeOf((*EksIdentityProviderConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidc",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidc",
 		reflect.TypeOf((*EksIdentityProviderConfigOidc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
 		reflect.TypeOf((*EksIdentityProviderConfigOidcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigTimeouts",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigTimeouts",
 		reflect.TypeOf((*EksIdentityProviderConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigTimeoutsOutputReference",
 		reflect.TypeOf((*EksIdentityProviderConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

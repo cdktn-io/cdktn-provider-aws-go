@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeResourcePolicy.DataAwsVpclatticeResourcePolicy",
+		"@cdktn/provider-aws.dataAwsVpclatticeResourcePolicy.DataAwsVpclatticeResourcePolicy",
 		reflect.TypeOf((*DataAwsVpclatticeResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpclatticeResourcePolicy.DataAwsVpclatticeResourcePolicyConfig",
+		"@cdktn/provider-aws.dataAwsVpclatticeResourcePolicy.DataAwsVpclatticeResourcePolicyConfig",
 		reflect.TypeOf((*DataAwsVpclatticeResourcePolicyConfig)(nil)).Elem(),
 	)
 }

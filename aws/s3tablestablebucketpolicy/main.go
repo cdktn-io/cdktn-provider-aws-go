@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy",
+		"@cdktn/provider-aws.s3TablesTableBucketPolicy.S3TablesTableBucketPolicy",
 		reflect.TypeOf((*S3TablesTableBucketPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableBucketPolicy.S3TablesTableBucketPolicyConfig",
+		"@cdktn/provider-aws.s3TablesTableBucketPolicy.S3TablesTableBucketPolicyConfig",
 		reflect.TypeOf((*S3TablesTableBucketPolicyConfig)(nil)).Elem(),
 	)
 }

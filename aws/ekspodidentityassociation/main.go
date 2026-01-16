@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksPodIdentityAssociation.EksPodIdentityAssociation",
+		"@cdktn/provider-aws.eksPodIdentityAssociation.EksPodIdentityAssociation",
 		reflect.TypeOf((*EksPodIdentityAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksPodIdentityAssociation.EksPodIdentityAssociationConfig",
+		"@cdktn/provider-aws.eksPodIdentityAssociation.EksPodIdentityAssociationConfig",
 		reflect.TypeOf((*EksPodIdentityAssociationConfig)(nil)).Elem(),
 	)
 }

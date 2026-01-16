@@ -5,9 +5,9 @@ package lakeformationdatalakesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationdatalakesettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationdatalakesettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReferenc
 	j := jsiiProxy_LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReference",
+		"@cdktn/provider-aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReferenc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReference",
+		"@cdktn/provider-aws.lakeformationDataLakeSettings.LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		reflect.TypeOf((*NeptuneParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupConfig",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupConfig",
 		reflect.TypeOf((*NeptuneParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameter",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameter",
 		reflect.TypeOf((*NeptuneParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterList",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterList",
 		reflect.TypeOf((*NeptuneParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroupParameterOutputReference",
 		reflect.TypeOf((*NeptuneParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		reflect.TypeOf((*IamRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamRole.IamRoleConfig",
+		"@cdktn/provider-aws.iamRole.IamRoleConfig",
 		reflect.TypeOf((*IamRoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamRole.IamRoleInlinePolicy",
+		"@cdktn/provider-aws.iamRole.IamRoleInlinePolicy",
 		reflect.TypeOf((*IamRoleInlinePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamRole.IamRoleInlinePolicyList",
+		"@cdktn/provider-aws.iamRole.IamRoleInlinePolicyList",
 		reflect.TypeOf((*IamRoleInlinePolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamRole.IamRoleInlinePolicyOutputReference",
+		"@cdktn/provider-aws.iamRole.IamRoleInlinePolicyOutputReference",
 		reflect.TypeOf((*IamRoleInlinePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

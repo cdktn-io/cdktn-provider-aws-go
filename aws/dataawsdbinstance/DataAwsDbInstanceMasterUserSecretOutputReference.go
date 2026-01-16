@@ -5,9 +5,9 @@ package dataawsdbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsDbInstanceMasterUserSecretOutputReference(terraformResource cdktf
 	j := jsiiProxy_DataAwsDbInstanceMasterUserSecretOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsDbInstanceMasterUserSecretOutputReference_Override(d DataAwsDbIns
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

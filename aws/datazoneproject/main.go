@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		reflect.TypeOf((*DatazoneProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectConfig",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectConfig",
 		reflect.TypeOf((*DatazoneProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectFailureReasons",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectFailureReasons",
 		reflect.TypeOf((*DatazoneProjectFailureReasons)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectFailureReasonsList",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectFailureReasonsList",
 		reflect.TypeOf((*DatazoneProjectFailureReasonsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectFailureReasonsOutputReference",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectFailureReasonsOutputReference",
 		reflect.TypeOf((*DatazoneProjectFailureReasonsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectTimeouts",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectTimeouts",
 		reflect.TypeOf((*DatazoneProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProjectTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

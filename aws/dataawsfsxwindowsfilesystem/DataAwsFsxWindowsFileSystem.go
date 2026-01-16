@@ -5,14 +5,14 @@ package dataawsfsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsfsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsfsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system}.
 type DataAwsFsxWindowsFileSystem interface {
 	cdktf.TerraformDataSource
 	ActiveDirectoryId() *string
@@ -576,7 +576,7 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystem) WeeklyMaintenanceStartTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
 func NewDataAwsFsxWindowsFileSystem(scope constructs.Construct, id *string, config *DataAwsFsxWindowsFileSystemConfig) DataAwsFsxWindowsFileSystem {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewDataAwsFsxWindowsFileSystem(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsFsxWindowsFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,12 +594,12 @@ func NewDataAwsFsxWindowsFileSystem(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
 func NewDataAwsFsxWindowsFileSystem_Override(d DataAwsFsxWindowsFileSystem, scope constructs.Construct, id *string, config *DataAwsFsxWindowsFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -694,7 +694,7 @@ func DataAwsFsxWindowsFileSystem_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -729,7 +729,7 @@ func DataAwsFsxWindowsFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func DataAwsFsxWindowsFileSystem_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func DataAwsFsxWindowsFileSystem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func DataAwsFsxWindowsFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
+		"@cdktn/provider-aws.dataAwsFsxWindowsFileSystem.DataAwsFsxWindowsFileSystem",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepository",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepository",
 		reflect.TypeOf((*DataAwsEcrRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryConfig",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryConfig",
 		reflect.TypeOf((*DataAwsEcrRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfiguration",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfiguration",
 		reflect.TypeOf((*DataAwsEcrRepositoryEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfigurationList",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfigurationList",
 		reflect.TypeOf((*DataAwsEcrRepositoryEncryptionConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsEcrRepositoryEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfiguration",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfiguration",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageScanningConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfigurationList",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfigurationList",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageScanningConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageScanningConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageScanningConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -197,11 +197,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilter",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilter",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageTagMutabilityExclusionFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilterList",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilterList",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageTagMutabilityExclusionFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -222,7 +222,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrRepository.DataAwsEcrRepositoryImageTagMutabilityExclusionFilterOutputReference",
 		reflect.TypeOf((*DataAwsEcrRepositoryImageTagMutabilityExclusionFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

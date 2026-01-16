@@ -5,14 +5,14 @@ package auditmanagerassessmentdelegation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagerassessmentdelegation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagerassessmentdelegation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation}.
 type AuditmanagerAssessmentDelegation interface {
 	cdktf.TerraformResource
 	AssessmentId() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_AuditmanagerAssessmentDelegation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
 func NewAuditmanagerAssessmentDelegation(scope constructs.Construct, id *string, config *AuditmanagerAssessmentDelegationConfig) AuditmanagerAssessmentDelegation {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewAuditmanagerAssessmentDelegation(scope constructs.Construct, id *string,
 	j := jsiiProxy_AuditmanagerAssessmentDelegation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -477,12 +477,12 @@ func NewAuditmanagerAssessmentDelegation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_delegation aws_auditmanager_assessment_delegation} Resource.
 func NewAuditmanagerAssessmentDelegation_Override(a AuditmanagerAssessmentDelegation, scope constructs.Construct, id *string, config *AuditmanagerAssessmentDelegationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -632,7 +632,7 @@ func AuditmanagerAssessmentDelegation_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -667,7 +667,7 @@ func AuditmanagerAssessmentDelegation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func AuditmanagerAssessmentDelegation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func AuditmanagerAssessmentDelegation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func AuditmanagerAssessmentDelegation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		"tfResourceType",
 		&returns,
 	)

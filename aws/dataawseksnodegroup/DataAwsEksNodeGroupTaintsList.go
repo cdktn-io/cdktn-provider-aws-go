@@ -5,9 +5,9 @@ package dataawseksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEksNodeGroupTaintsList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DataAwsEksNodeGroupTaintsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupTaintsList",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupTaintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEksNodeGroupTaintsList_Override(d DataAwsEksNodeGroupTaintsList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupTaintsList",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupTaintsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package syntheticscanary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/syntheticscanary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/syntheticscanary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/synthetics_canary aws_synthetics_canary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/synthetics_canary aws_synthetics_canary}.
 type SyntheticsCanary interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -839,7 +839,7 @@ func (j *jsiiProxy_SyntheticsCanary) ZipFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary(scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) SyntheticsCanary {
 	_init_.Initialize()
 
@@ -849,7 +849,7 @@ func NewSyntheticsCanary(scope constructs.Construct, id *string, config *Synthet
 	j := jsiiProxy_SyntheticsCanary{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -857,12 +857,12 @@ func NewSyntheticsCanary(scope constructs.Construct, id *string, config *Synthet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary_Override(s SyntheticsCanary, scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1133,7 +1133,7 @@ func SyntheticsCanary_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1168,7 +1168,7 @@ func SyntheticsCanary_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1187,7 +1187,7 @@ func SyntheticsCanary_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1206,7 +1206,7 @@ func SyntheticsCanary_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1219,7 +1219,7 @@ func SyntheticsCanary_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		"tfResourceType",
 		&returns,
 	)

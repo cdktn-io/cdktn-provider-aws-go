@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		reflect.TypeOf((*ApiGatewayRestApiPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicyConfig",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicyConfig",
 		reflect.TypeOf((*ApiGatewayRestApiPolicyConfig)(nil)).Elem(),
 	)
 }

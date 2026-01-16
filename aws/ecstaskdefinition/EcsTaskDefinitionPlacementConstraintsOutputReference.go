@@ -5,9 +5,9 @@ package ecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewEcsTaskDefinitionPlacementConstraintsOutputReference(terraformResource c
 	j := jsiiProxy_EcsTaskDefinitionPlacementConstraintsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraintsOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewEcsTaskDefinitionPlacementConstraintsOutputReference_Override(e EcsTaskD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraintsOutputReference",
+		"@cdktn/provider-aws.ecsTaskDefinition.EcsTaskDefinitionPlacementConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

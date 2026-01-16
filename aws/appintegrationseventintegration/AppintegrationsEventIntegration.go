@@ -5,14 +5,14 @@ package appintegrationseventintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appintegrationseventintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appintegrationseventintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration}.
 type AppintegrationsEventIntegration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_AppintegrationsEventIntegration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) AppintegrationsEventIntegration {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, 
 	j := jsiiProxy_AppintegrationsEventIntegration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appintegrations_event_integration aws_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration_Override(a AppintegrationsEventIntegration, scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -670,7 +670,7 @@ func AppintegrationsEventIntegration_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func AppintegrationsEventIntegration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func AppintegrationsEventIntegration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func AppintegrationsEventIntegration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func AppintegrationsEventIntegration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegration",
 		"tfResourceType",
 		&returns,
 	)

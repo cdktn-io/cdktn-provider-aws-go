@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabels",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabels",
 		reflect.TypeOf((*DataAwsEmrReleaseLabels)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsConfig",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsConfig",
 		reflect.TypeOf((*DataAwsEmrReleaseLabelsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFilters",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFilters",
 		reflect.TypeOf((*DataAwsEmrReleaseLabelsFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
 		reflect.TypeOf((*DataAwsEmrReleaseLabelsFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "application", GoGetter: "Application"},

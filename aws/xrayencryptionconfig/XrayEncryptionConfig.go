@@ -5,14 +5,14 @@ package xrayencryptionconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/xrayencryptionconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/xrayencryptionconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_encryption_config aws_xray_encryption_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_encryption_config aws_xray_encryption_config}.
 type XrayEncryptionConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_XrayEncryptionConfig) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
 func NewXrayEncryptionConfig(scope constructs.Construct, id *string, config *XrayEncryptionConfigConfig) XrayEncryptionConfig {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewXrayEncryptionConfig(scope constructs.Construct, id *string, config *Xra
 	j := jsiiProxy_XrayEncryptionConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewXrayEncryptionConfig(scope constructs.Construct, id *string, config *Xra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
 func NewXrayEncryptionConfig_Override(x XrayEncryptionConfig, scope constructs.Construct, id *string, config *XrayEncryptionConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		[]interface{}{scope, id, config},
 		x,
 	)
@@ -532,7 +532,7 @@ func XrayEncryptionConfig_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func XrayEncryptionConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func XrayEncryptionConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func XrayEncryptionConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func XrayEncryptionConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		"tfResourceType",
 		&returns,
 	)

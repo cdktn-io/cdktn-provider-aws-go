@@ -5,9 +5,9 @@ package datazoneenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDatazoneEnvironmentLastDeploymentList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DatazoneEnvironmentLastDeploymentList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDatazoneEnvironmentLastDeploymentList_Override(d DatazoneEnvironmentLast
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

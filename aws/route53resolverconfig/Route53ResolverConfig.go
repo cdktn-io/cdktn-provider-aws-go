@@ -5,14 +5,14 @@ package route53resolverconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_config aws_route53_resolver_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_config aws_route53_resolver_config}.
 type Route53ResolverConfig interface {
 	cdktf.TerraformResource
 	AutodefinedReverseFlag() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_Route53ResolverConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
 func NewRoute53ResolverConfig(scope constructs.Construct, id *string, config *Route53ResolverConfigConfig) Route53ResolverConfig {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewRoute53ResolverConfig(scope constructs.Construct, id *string, config *Ro
 	j := jsiiProxy_Route53ResolverConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewRoute53ResolverConfig(scope constructs.Construct, id *string, config *Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_config aws_route53_resolver_config} Resource.
 func NewRoute53ResolverConfig_Override(r Route53ResolverConfig, scope constructs.Construct, id *string, config *Route53ResolverConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -542,7 +542,7 @@ func Route53ResolverConfig_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func Route53ResolverConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func Route53ResolverConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func Route53ResolverConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func Route53ResolverConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		"tfResourceType",
 		&returns,
 	)

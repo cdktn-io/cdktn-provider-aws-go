@@ -5,14 +5,14 @@ package acmpcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/acmpcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/acmpcacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_certificate aws_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_certificate aws_acmpca_certificate}.
 type AcmpcaCertificate interface {
 	cdktf.TerraformResource
 	ApiPassthrough() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_AcmpcaCertificate) ValidityInput() *AcmpcaCertificateValidity
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
 func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) AcmpcaCertificate {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *Acmpca
 	j := jsiiProxy_AcmpcaCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -525,12 +525,12 @@ func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *Acmpca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
 func NewAcmpcaCertificate_Override(a AcmpcaCertificate, scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -691,7 +691,7 @@ func AcmpcaCertificate_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func AcmpcaCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func AcmpcaCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func AcmpcaCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func AcmpcaCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.acmpcaCertificate.AcmpcaCertificate",
+		"@cdktn/provider-aws.acmpcaCertificate.AcmpcaCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package redshiftdatashareconsumerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftdatashareconsumerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftdatashareconsumerassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association}.
 type RedshiftDataShareConsumerAssociation interface {
 	cdktf.TerraformResource
 	AllowWrites() interface{}
@@ -462,7 +462,7 @@ func (j *jsiiProxy_RedshiftDataShareConsumerAssociation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) RedshiftDataShareConsumerAssociation {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *str
 	j := jsiiProxy_RedshiftDataShareConsumerAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewRedshiftDataShareConsumerAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_consumer_association aws_redshift_data_share_consumer_association} Resource.
 func NewRedshiftDataShareConsumerAssociation_Override(r RedshiftDataShareConsumerAssociation, scope constructs.Construct, id *string, config *RedshiftDataShareConsumerAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -635,7 +635,7 @@ func RedshiftDataShareConsumerAssociation_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func RedshiftDataShareConsumerAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func RedshiftDataShareConsumerAssociation_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func RedshiftDataShareConsumerAssociation_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func RedshiftDataShareConsumerAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
+		"@cdktn/provider-aws.redshiftDataShareConsumerAssociation.RedshiftDataShareConsumerAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package cloudcontrolapiresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudcontrolapiresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudcontrolapiresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCloudcontrolapiResourceTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_CloudcontrolapiResourceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCloudcontrolapiResourceTimeoutsOutputReference_Override(c Cloudcontrolap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

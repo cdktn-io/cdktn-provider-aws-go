@@ -5,9 +5,9 @@ package lightsailinstancepublicports
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailinstancepublicports/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailinstancepublicports/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -300,7 +300,7 @@ func NewLightsailInstancePublicPortsPortInfoOutputReference(terraformResource cd
 	j := jsiiProxy_LightsailInstancePublicPortsPortInfoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -312,7 +312,7 @@ func NewLightsailInstancePublicPortsPortInfoOutputReference_Override(l Lightsail
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPortsPortInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

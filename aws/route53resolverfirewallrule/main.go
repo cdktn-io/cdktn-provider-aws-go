@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		reflect.TypeOf((*Route53ResolverFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -27,16 +27,21 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "blockResponse", GoGetter: "BlockResponse"},
 			_jsii_.MemberProperty{JsiiProperty: "blockResponseInput", GoGetter: "BlockResponseInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "confidenceThreshold", GoGetter: "ConfidenceThreshold"},
+			_jsii_.MemberProperty{JsiiProperty: "confidenceThresholdInput", GoGetter: "ConfidenceThresholdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsThreatProtection", GoGetter: "DnsThreatProtection"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsThreatProtectionInput", GoGetter: "DnsThreatProtectionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallDomainListId", GoGetter: "FirewallDomainListId"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallDomainListIdInput", GoGetter: "FirewallDomainListIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallDomainRedirectionAction", GoGetter: "FirewallDomainRedirectionAction"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallDomainRedirectionActionInput", GoGetter: "FirewallDomainRedirectionActionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallRuleGroupId", GoGetter: "FirewallRuleGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "firewallRuleGroupIdInput", GoGetter: "FirewallRuleGroupIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "firewallThreatProtectionId", GoGetter: "FirewallThreatProtectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
@@ -75,6 +80,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetBlockOverrideDomain", GoMethod: "ResetBlockOverrideDomain"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBlockOverrideTtl", GoMethod: "ResetBlockOverrideTtl"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBlockResponse", GoMethod: "ResetBlockResponse"},
+			_jsii_.MemberMethod{JsiiMethod: "resetConfidenceThreshold", GoMethod: "ResetConfidenceThreshold"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDnsThreatProtection", GoMethod: "ResetDnsThreatProtection"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFirewallDomainListId", GoMethod: "ResetFirewallDomainListId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFirewallDomainRedirectionAction", GoMethod: "ResetFirewallDomainRedirectionAction"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -97,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRuleConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRuleConfig",
 		reflect.TypeOf((*Route53ResolverFirewallRuleConfig)(nil)).Elem(),
 	)
 }

@@ -83,6 +83,10 @@ func (i *jsiiProxy_ImagebuilderImagePipeline) validatePutImageTestsConfiguration
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderImagePipeline) validatePutLoggingConfigurationParameters(value *ImagebuilderImagePipelineLoggingConfiguration) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderImagePipeline) validatePutScheduleParameters(value *ImagebuilderImagePipelineSchedule) error {
 	return nil
 }

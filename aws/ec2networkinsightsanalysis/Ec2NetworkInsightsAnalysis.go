@@ -5,14 +5,14 @@ package ec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2networkinsightsanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2networkinsightsanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis}.
 type Ec2NetworkInsightsAnalysis interface {
 	cdktf.TerraformResource
 	AlternatePathHints() Ec2NetworkInsightsAnalysisAlternatePathHintsList
@@ -563,7 +563,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAnalysis) WarningMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
 func NewEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, config *Ec2NetworkInsightsAnalysisConfig) Ec2NetworkInsightsAnalysis {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_Ec2NetworkInsightsAnalysis{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -581,12 +581,12 @@ func NewEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_analysis aws_ec2_network_insights_analysis} Resource.
 func NewEc2NetworkInsightsAnalysis_Override(e Ec2NetworkInsightsAnalysis, scope constructs.Construct, id *string, config *Ec2NetworkInsightsAnalysisConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -747,7 +747,7 @@ func Ec2NetworkInsightsAnalysis_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -782,7 +782,7 @@ func Ec2NetworkInsightsAnalysis_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func Ec2NetworkInsightsAnalysis_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -820,7 +820,7 @@ func Ec2NetworkInsightsAnalysis_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -833,7 +833,7 @@ func Ec2NetworkInsightsAnalysis_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
+		"@cdktn/provider-aws.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis",
 		"tfResourceType",
 		&returns,
 	)

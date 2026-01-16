@@ -5,9 +5,9 @@ package networkflowmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewNetworkflowmonitorMonitorLocalResourceOutputReference(terraformResource 
 	j := jsiiProxy_NetworkflowmonitorMonitorLocalResourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewNetworkflowmonitorMonitorLocalResourceOutputReference_Override(n Network
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

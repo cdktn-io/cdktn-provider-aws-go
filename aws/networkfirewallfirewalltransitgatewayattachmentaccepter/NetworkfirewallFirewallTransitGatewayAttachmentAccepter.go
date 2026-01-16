@@ -5,14 +5,14 @@ package networkfirewallfirewalltransitgatewayattachmentaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewallfirewalltransitgatewayattachmentaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallfirewalltransitgatewayattachmentaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
 type NetworkfirewallFirewallTransitGatewayAttachmentAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) Tran
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) NetworkfirewallFirewallTransitGatewayAttachmentAccepter {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs
 	j := jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter_Override(n NetworkfirewallFirewallTransitGatewayAttachmentAccepter, scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -486,7 +486,7 @@ func NetworkfirewallFirewallTransitGatewayAttachmentAccepter_GenerateConfigForIm
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func NetworkfirewallFirewallTransitGatewayAttachmentAccepter_IsConstruct(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func NetworkfirewallFirewallTransitGatewayAttachmentAccepter_IsTerraformElement(
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func NetworkfirewallFirewallTransitGatewayAttachmentAccepter_IsTerraformResource
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func NetworkfirewallFirewallTransitGatewayAttachmentAccepter_TfResourceType() *s
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
+		"@cdktn/provider-aws.networkfirewallFirewallTransitGatewayAttachmentAccepter.NetworkfirewallFirewallTransitGatewayAttachmentAccepter",
 		"tfResourceType",
 		&returns,
 	)

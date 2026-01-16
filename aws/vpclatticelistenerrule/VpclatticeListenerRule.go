@@ -5,14 +5,14 @@ package vpclatticelistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule}.
 type VpclatticeListenerRule interface {
 	cdktf.TerraformResource
 	Action() VpclatticeListenerRuleActionOutputReference
@@ -566,7 +566,7 @@ func (j *jsiiProxy_VpclatticeListenerRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
 func NewVpclatticeListenerRule(scope constructs.Construct, id *string, config *VpclatticeListenerRuleConfig) VpclatticeListenerRule {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewVpclatticeListenerRule(scope constructs.Construct, id *string, config *V
 	j := jsiiProxy_VpclatticeListenerRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -584,12 +584,12 @@ func NewVpclatticeListenerRule(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_listener_rule aws_vpclattice_listener_rule} Resource.
 func NewVpclatticeListenerRule_Override(v VpclatticeListenerRule, scope constructs.Construct, id *string, config *VpclatticeListenerRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -761,7 +761,7 @@ func VpclatticeListenerRule_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func VpclatticeListenerRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func VpclatticeListenerRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func VpclatticeListenerRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func VpclatticeListenerRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRule",
 		"tfResourceType",
 		&returns,
 	)

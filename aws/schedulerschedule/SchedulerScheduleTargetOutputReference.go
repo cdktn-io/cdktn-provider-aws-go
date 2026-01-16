@@ -5,9 +5,9 @@ package schedulerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schedulerschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schedulerschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -397,7 +397,7 @@ func NewSchedulerScheduleTargetOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_SchedulerScheduleTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -409,7 +409,7 @@ func NewSchedulerScheduleTargetOutputReference_Override(s SchedulerScheduleTarge
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

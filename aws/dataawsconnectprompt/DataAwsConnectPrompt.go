@@ -5,14 +5,14 @@ package dataawsconnectprompt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectprompt/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectprompt/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_prompt aws_connect_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_prompt aws_connect_prompt}.
 type DataAwsConnectPrompt interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsConnectPrompt) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_prompt aws_connect_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_prompt aws_connect_prompt} Data Source.
 func NewDataAwsConnectPrompt(scope constructs.Construct, id *string, config *DataAwsConnectPromptConfig) DataAwsConnectPrompt {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAwsConnectPrompt(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsConnectPrompt{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAwsConnectPrompt(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_prompt aws_connect_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_prompt aws_connect_prompt} Data Source.
 func NewDataAwsConnectPrompt_Override(d DataAwsConnectPrompt, scope constructs.Construct, id *string, config *DataAwsConnectPromptConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAwsConnectPrompt_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAwsConnectPrompt_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsConnectPrompt_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsConnectPrompt_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAwsConnectPrompt_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
+		"@cdktn/provider-aws.dataAwsConnectPrompt.DataAwsConnectPrompt",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsopensearchserverlesslifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsopensearchserverlesslifecyclepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsopensearchserverlesslifecyclepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy}.
 type DataAwsOpensearchserverlessLifecyclePolicy interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) TypeInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy} Data Source.
 func NewDataAwsOpensearchserverlessLifecyclePolicy(scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessLifecyclePolicyConfig) DataAwsOpensearchserverlessLifecyclePolicy {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataAwsOpensearchserverlessLifecyclePolicy(scope constructs.Construct, i
 	j := jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -395,12 +395,12 @@ func NewDataAwsOpensearchserverlessLifecyclePolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/opensearchserverless_lifecycle_policy aws_opensearchserverless_lifecycle_policy} Data Source.
 func NewDataAwsOpensearchserverlessLifecyclePolicy_Override(d DataAwsOpensearchserverlessLifecyclePolicy, scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessLifecyclePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -495,7 +495,7 @@ func DataAwsOpensearchserverlessLifecyclePolicy_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -530,7 +530,7 @@ func DataAwsOpensearchserverlessLifecyclePolicy_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsOpensearchserverlessLifecyclePolicy_IsTerraformDataSource(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -568,7 +568,7 @@ func DataAwsOpensearchserverlessLifecyclePolicy_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAwsOpensearchserverlessLifecyclePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsOpensearchserverlessLifecyclePolicy.DataAwsOpensearchserverlessLifecyclePolicy",
 		"tfResourceType",
 		&returns,
 	)

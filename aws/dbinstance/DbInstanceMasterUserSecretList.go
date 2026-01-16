@@ -5,9 +5,9 @@ package dbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDbInstanceMasterUserSecretList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DbInstanceMasterUserSecretList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
+		"@cdktn/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDbInstanceMasterUserSecretList_Override(d DbInstanceMasterUserSecretList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
+		"@cdktn/provider-aws.dbInstance.DbInstanceMasterUserSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

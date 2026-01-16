@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpoint",
 		reflect.TypeOf((*NeptuneClusterEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpointConfig",
+		"@cdktn/provider-aws.neptuneClusterEndpoint.NeptuneClusterEndpointConfig",
 		reflect.TypeOf((*NeptuneClusterEndpointConfig)(nil)).Elem(),
 	)
 }

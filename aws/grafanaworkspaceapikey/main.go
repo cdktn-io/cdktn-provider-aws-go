@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaWorkspaceApiKey.GrafanaWorkspaceApiKey",
+		"@cdktn/provider-aws.grafanaWorkspaceApiKey.GrafanaWorkspaceApiKey",
 		reflect.TypeOf((*GrafanaWorkspaceApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaWorkspaceApiKey.GrafanaWorkspaceApiKeyConfig",
+		"@cdktn/provider-aws.grafanaWorkspaceApiKey.GrafanaWorkspaceApiKeyConfig",
 		reflect.TypeOf((*GrafanaWorkspaceApiKeyConfig)(nil)).Elem(),
 	)
 }

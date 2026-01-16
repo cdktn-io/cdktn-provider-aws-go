@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubOrganizationAdminAccount.SecurityhubOrganizationAdminAccount",
+		"@cdktn/provider-aws.securityhubOrganizationAdminAccount.SecurityhubOrganizationAdminAccount",
 		reflect.TypeOf((*SecurityhubOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubOrganizationAdminAccount.SecurityhubOrganizationAdminAccountConfig",
+		"@cdktn/provider-aws.securityhubOrganizationAdminAccount.SecurityhubOrganizationAdminAccountConfig",
 		reflect.TypeOf((*SecurityhubOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 }

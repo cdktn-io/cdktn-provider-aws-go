@@ -5,14 +5,14 @@ package verifiedaccessendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedaccessendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedaccessendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint}.
 type VerifiedaccessEndpoint interface {
 	cdktf.TerraformResource
 	ApplicationDomain() *string
@@ -772,7 +772,7 @@ func (j *jsiiProxy_VerifiedaccessEndpoint) VerifiedAccessInstanceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) VerifiedaccessEndpoint {
 	_init_.Initialize()
 
@@ -782,7 +782,7 @@ func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *V
 	j := jsiiProxy_VerifiedaccessEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -790,12 +790,12 @@ func NewVerifiedaccessEndpoint(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_endpoint aws_verifiedaccess_endpoint} Resource.
 func NewVerifiedaccessEndpoint_Override(v VerifiedaccessEndpoint, scope constructs.Construct, id *string, config *VerifiedaccessEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -1022,7 +1022,7 @@ func VerifiedaccessEndpoint_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1057,7 +1057,7 @@ func VerifiedaccessEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1076,7 +1076,7 @@ func VerifiedaccessEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func VerifiedaccessEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1108,7 +1108,7 @@ func VerifiedaccessEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
+		"@cdktn/provider-aws.verifiedaccessEndpoint.VerifiedaccessEndpoint",
 		"tfResourceType",
 		&returns,
 	)

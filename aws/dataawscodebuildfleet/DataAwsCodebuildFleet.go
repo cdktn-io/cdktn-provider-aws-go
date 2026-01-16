@@ -5,14 +5,14 @@ package dataawscodebuildfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscodebuildfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscodebuildfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet}.
 type DataAwsCodebuildFleet interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataAwsCodebuildFleet) VpcConfig() DataAwsCodebuildFleetVpcCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet} Data Source.
 func NewDataAwsCodebuildFleet(scope constructs.Construct, id *string, config *DataAwsCodebuildFleetConfig) DataAwsCodebuildFleet {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewDataAwsCodebuildFleet(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsCodebuildFleet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -484,12 +484,12 @@ func NewDataAwsCodebuildFleet(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codebuild_fleet aws_codebuild_fleet} Data Source.
 func NewDataAwsCodebuildFleet_Override(d DataAwsCodebuildFleet, scope constructs.Construct, id *string, config *DataAwsCodebuildFleetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -584,7 +584,7 @@ func DataAwsCodebuildFleet_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -619,7 +619,7 @@ func DataAwsCodebuildFleet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAwsCodebuildFleet_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func DataAwsCodebuildFleet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -670,7 +670,7 @@ func DataAwsCodebuildFleet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		"tfResourceType",
 		&returns,
 	)

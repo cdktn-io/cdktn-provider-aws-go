@@ -5,9 +5,9 @@ package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFinspaceKxClusterSavedownStorageConfigurationOutputReference(terraformRe
 	j := jsiiProxy_FinspaceKxClusterSavedownStorageConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFinspaceKxClusterSavedownStorageConfigurationOutputReference_Override(f 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

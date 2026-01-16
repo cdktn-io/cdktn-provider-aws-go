@@ -5,9 +5,9 @@ package networkmanagerconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -35,7 +35,7 @@ type NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference inte
 	InternalValue() *NetworkmanagerConnectPeerConfigurationBgpConfigurations
 	SetInternalValue(val *NetworkmanagerConnectPeerConfigurationBgpConfigurations)
 	PeerAddress() *string
-	PeerAsn() *float64
+	PeerAsn() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -163,8 +163,8 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutput
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) PeerAsn() *float64 {
-	var returns *float64
+func (j *jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference) PeerAsn() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"peerAsn",
@@ -203,7 +203,7 @@ func NewNetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference(t
 	j := jsiiProxy_NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewNetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

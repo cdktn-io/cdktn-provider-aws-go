@@ -5,14 +5,14 @@ package apigatewayusageplankey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayusageplankey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayusageplankey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key}.
 type ApiGatewayUsagePlanKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlanKey) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
 func NewApiGatewayUsagePlanKey(scope constructs.Construct, id *string, config *ApiGatewayUsagePlanKeyConfig) ApiGatewayUsagePlanKey {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewApiGatewayUsagePlanKey(scope constructs.Construct, id *string, config *A
 	j := jsiiProxy_ApiGatewayUsagePlanKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewApiGatewayUsagePlanKey(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
 func NewApiGatewayUsagePlanKey_Override(a ApiGatewayUsagePlanKey, scope constructs.Construct, id *string, config *ApiGatewayUsagePlanKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -587,7 +587,7 @@ func ApiGatewayUsagePlanKey_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func ApiGatewayUsagePlanKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ApiGatewayUsagePlanKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func ApiGatewayUsagePlanKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ApiGatewayUsagePlanKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		"tfResourceType",
 		&returns,
 	)

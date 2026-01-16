@@ -5,14 +5,14 @@ package ebssnapshotimport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebssnapshotimport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebssnapshotimport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import}.
 type EbsSnapshotImport interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -698,7 +698,7 @@ func (j *jsiiProxy_EbsSnapshotImport) VolumeSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) EbsSnapshotImport {
 	_init_.Initialize()
 
@@ -708,7 +708,7 @@ func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSna
 	j := jsiiProxy_EbsSnapshotImport{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -716,12 +716,12 @@ func NewEbsSnapshotImport(scope constructs.Construct, id *string, config *EbsSna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_import aws_ebs_snapshot_import} Resource.
 func NewEbsSnapshotImport_Override(e EbsSnapshotImport, scope constructs.Construct, id *string, config *EbsSnapshotImportConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -926,7 +926,7 @@ func EbsSnapshotImport_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -961,7 +961,7 @@ func EbsSnapshotImport_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -980,7 +980,7 @@ func EbsSnapshotImport_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func EbsSnapshotImport_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1012,7 +1012,7 @@ func EbsSnapshotImport_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImport",
 		"tfResourceType",
 		&returns,
 	)

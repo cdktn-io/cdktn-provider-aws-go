@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamGroupPoliciesExclusive.IamGroupPoliciesExclusive",
+		"@cdktn/provider-aws.iamGroupPoliciesExclusive.IamGroupPoliciesExclusive",
 		reflect.TypeOf((*IamGroupPoliciesExclusive)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamGroupPoliciesExclusive.IamGroupPoliciesExclusiveConfig",
+		"@cdktn/provider-aws.iamGroupPoliciesExclusive.IamGroupPoliciesExclusiveConfig",
 		reflect.TypeOf((*IamGroupPoliciesExclusiveConfig)(nil)).Elem(),
 	)
 }

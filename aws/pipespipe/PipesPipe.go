@@ -5,14 +5,14 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pipes_pipe aws_pipes_pipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe aws_pipes_pipe}.
 type PipesPipe interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -726,7 +726,7 @@ func (j *jsiiProxy_PipesPipe) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
 func NewPipesPipe(scope constructs.Construct, id *string, config *PipesPipeConfig) PipesPipe {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewPipesPipe(scope constructs.Construct, id *string, config *PipesPipeConfi
 	j := jsiiProxy_PipesPipe{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -744,12 +744,12 @@ func NewPipesPipe(scope constructs.Construct, id *string, config *PipesPipeConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe aws_pipes_pipe} Resource.
 func NewPipesPipe_Override(p PipesPipe, scope constructs.Construct, id *string, config *PipesPipeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -976,7 +976,7 @@ func PipesPipe_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1011,7 +1011,7 @@ func PipesPipe_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1030,7 +1030,7 @@ func PipesPipe_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1049,7 +1049,7 @@ func PipesPipe_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1062,7 +1062,7 @@ func PipesPipe_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		"tfResourceType",
 		&returns,
 	)

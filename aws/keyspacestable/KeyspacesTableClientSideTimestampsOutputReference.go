@@ -5,9 +5,9 @@ package keyspacestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/keyspacestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspacestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewKeyspacesTableClientSideTimestampsOutputReference(terraformResource cdkt
 	j := jsiiProxy_KeyspacesTableClientSideTimestampsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableClientSideTimestampsOutputReference",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableClientSideTimestampsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewKeyspacesTableClientSideTimestampsOutputReference_Override(k KeyspacesTa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableClientSideTimestampsOutputReference",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableClientSideTimestampsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

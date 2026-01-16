@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		reflect.TypeOf((*Ec2AvailabilityZoneGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroupConfig",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroupConfig",
 		reflect.TypeOf((*Ec2AvailabilityZoneGroupConfig)(nil)).Elem(),
 	)
 }

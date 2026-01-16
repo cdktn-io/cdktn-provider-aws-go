@@ -5,14 +5,14 @@ package lexv2modelsbotversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbotversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbotversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
 type Lexv2ModelsBotVersion interface {
 	cdktf.TerraformResource
 	BotId() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) Lexv2ModelsBotVersion {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Le
 	j := jsiiProxy_Lexv2ModelsBotVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Le
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion_Override(l Lexv2ModelsBotVersion, scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -590,7 +590,7 @@ func Lexv2ModelsBotVersion_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func Lexv2ModelsBotVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func Lexv2ModelsBotVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func Lexv2ModelsBotVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func Lexv2ModelsBotVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersion",
 		"tfResourceType",
 		&returns,
 	)

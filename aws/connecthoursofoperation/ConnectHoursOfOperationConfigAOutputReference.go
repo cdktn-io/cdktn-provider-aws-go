@@ -5,9 +5,9 @@ package connecthoursofoperation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connecthoursofoperation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connecthoursofoperation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewConnectHoursOfOperationConfigAOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_ConnectHoursOfOperationConfigAOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewConnectHoursOfOperationConfigAOutputReference_Override(c ConnectHoursOfO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

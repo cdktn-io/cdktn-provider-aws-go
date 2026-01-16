@@ -5,9 +5,9 @@ package lb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLbMinimumLoadBalancerCapacityOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_LbMinimumLoadBalancerCapacityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
+		"@cdktn/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLbMinimumLoadBalancerCapacityOutputReference_Override(l LbMinimumLoadBal
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
+		"@cdktn/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

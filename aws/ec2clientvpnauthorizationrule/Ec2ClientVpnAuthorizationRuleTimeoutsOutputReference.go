@@ -5,9 +5,9 @@ package ec2clientvpnauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2clientvpnauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2clientvpnauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEc2ClientVpnAuthorizationRuleTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEc2ClientVpnAuthorizationRuleTimeoutsOutputReference_Override(e Ec2Clien
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

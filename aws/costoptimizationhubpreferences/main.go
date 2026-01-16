@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.costoptimizationhubPreferences.CostoptimizationhubPreferences",
+		"@cdktn/provider-aws.costoptimizationhubPreferences.CostoptimizationhubPreferences",
 		reflect.TypeOf((*CostoptimizationhubPreferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.costoptimizationhubPreferences.CostoptimizationhubPreferencesConfig",
+		"@cdktn/provider-aws.costoptimizationhubPreferences.CostoptimizationhubPreferencesConfig",
 		reflect.TypeOf((*CostoptimizationhubPreferencesConfig)(nil)).Elem(),
 	)
 }

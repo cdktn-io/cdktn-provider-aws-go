@@ -5,9 +5,9 @@ package iamservercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamservercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamservercertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewIamServerCertificateTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_IamServerCertificateTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewIamServerCertificateTimeoutsOutputReference_Override(i IamServerCertific
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
+		"@cdktn/provider-aws.iamServerCertificate.IamServerCertificateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

@@ -5,14 +5,14 @@ package spotfleetrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/spotfleetrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/spotfleetrequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_fleet_request aws_spot_fleet_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_fleet_request aws_spot_fleet_request}.
 type SpotFleetRequest interface {
 	cdktf.TerraformResource
 	AllocationStrategy() *string
@@ -1002,7 +1002,7 @@ func (j *jsiiProxy_SpotFleetRequest) WaitForFulfillmentInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
 func NewSpotFleetRequest(scope constructs.Construct, id *string, config *SpotFleetRequestConfig) SpotFleetRequest {
 	_init_.Initialize()
 
@@ -1012,7 +1012,7 @@ func NewSpotFleetRequest(scope constructs.Construct, id *string, config *SpotFle
 	j := jsiiProxy_SpotFleetRequest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1020,12 +1020,12 @@ func NewSpotFleetRequest(scope constructs.Construct, id *string, config *SpotFle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
 func NewSpotFleetRequest_Override(s SpotFleetRequest, scope constructs.Construct, id *string, config *SpotFleetRequestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1384,7 +1384,7 @@ func SpotFleetRequest_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1419,7 +1419,7 @@ func SpotFleetRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1438,7 +1438,7 @@ func SpotFleetRequest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1457,7 +1457,7 @@ func SpotFleetRequest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1470,7 +1470,7 @@ func SpotFleetRequest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.spotFleetRequest.SpotFleetRequest",
+		"@cdktn/provider-aws.spotFleetRequest.SpotFleetRequest",
 		"tfResourceType",
 		&returns,
 	)

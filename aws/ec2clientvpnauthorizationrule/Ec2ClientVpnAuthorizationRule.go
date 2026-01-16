@@ -5,14 +5,14 @@ package ec2clientvpnauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2clientvpnauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2clientvpnauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule}.
 type Ec2ClientVpnAuthorizationRule interface {
 	cdktf.TerraformResource
 	AccessGroupId() *string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_Ec2ClientVpnAuthorizationRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule} Resource.
 func NewEc2ClientVpnAuthorizationRule(scope constructs.Construct, id *string, config *Ec2ClientVpnAuthorizationRuleConfig) Ec2ClientVpnAuthorizationRule {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewEc2ClientVpnAuthorizationRule(scope constructs.Construct, id *string, co
 	j := jsiiProxy_Ec2ClientVpnAuthorizationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewEc2ClientVpnAuthorizationRule(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_authorization_rule aws_ec2_client_vpn_authorization_rule} Resource.
 func NewEc2ClientVpnAuthorizationRule_Override(e Ec2ClientVpnAuthorizationRule, scope constructs.Construct, id *string, config *Ec2ClientVpnAuthorizationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -660,7 +660,7 @@ func Ec2ClientVpnAuthorizationRule_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func Ec2ClientVpnAuthorizationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func Ec2ClientVpnAuthorizationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func Ec2ClientVpnAuthorizationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func Ec2ClientVpnAuthorizationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
+		"@cdktn/provider-aws.ec2ClientVpnAuthorizationRule.Ec2ClientVpnAuthorizationRule",
 		"tfResourceType",
 		&returns,
 	)

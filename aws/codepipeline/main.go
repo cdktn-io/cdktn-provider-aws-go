@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.Codepipeline",
+		"@cdktn/provider-aws.codepipeline.Codepipeline",
 		reflect.TypeOf((*Codepipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineArtifactStore",
+		"@cdktn/provider-aws.codepipeline.CodepipelineArtifactStore",
 		reflect.TypeOf((*CodepipelineArtifactStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineArtifactStoreEncryptionKey",
+		"@cdktn/provider-aws.codepipeline.CodepipelineArtifactStoreEncryptionKey",
 		reflect.TypeOf((*CodepipelineArtifactStoreEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineArtifactStoreEncryptionKeyOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineArtifactStoreEncryptionKeyOutputReference",
 		reflect.TypeOf((*CodepipelineArtifactStoreEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,7 +145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineArtifactStoreList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineArtifactStoreList",
 		reflect.TypeOf((*CodepipelineArtifactStoreList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineArtifactStoreOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineArtifactStoreOutputReference",
 		reflect.TypeOf((*CodepipelineArtifactStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,19 +210,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineConfig",
+		"@cdktn/provider-aws.codepipeline.CodepipelineConfig",
 		reflect.TypeOf((*CodepipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStage",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStage",
 		reflect.TypeOf((*CodepipelineStage)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageAction",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageAction",
 		reflect.TypeOf((*CodepipelineStageAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageActionList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageActionList",
 		reflect.TypeOf((*CodepipelineStageActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -244,7 +244,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageActionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageActionOutputReference",
 		reflect.TypeOf((*CodepipelineStageActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
@@ -310,15 +310,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntry",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntry",
 		reflect.TypeOf((*CodepipelineStageBeforeEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryCondition",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryCondition",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -356,11 +356,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRule",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRule",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleList",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -382,7 +382,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleOutputReference",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
@@ -437,11 +437,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleRuleTypeId",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleRuleTypeId",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionRuleRuleTypeId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
@@ -483,7 +483,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryOutputReference",
 		reflect.TypeOf((*CodepipelineStageBeforeEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -518,7 +518,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageList",
 		reflect.TypeOf((*CodepipelineStageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -540,15 +540,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailure",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailure",
 		reflect.TypeOf((*CodepipelineStageOnFailure)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureCondition",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureCondition",
 		reflect.TypeOf((*CodepipelineStageOnFailureCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -586,11 +586,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRule",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRule",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleList",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -612,7 +612,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
@@ -667,11 +667,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleRuleTypeId",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleRuleTypeId",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionRuleRuleTypeId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
@@ -713,7 +713,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnFailureOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -756,11 +756,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureRetryConfiguration",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureRetryConfiguration",
 		reflect.TypeOf((*CodepipelineStageOnFailureRetryConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnFailureRetryConfigurationOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnFailureRetryConfigurationOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnFailureRetryConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -795,15 +795,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccess",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccess",
 		reflect.TypeOf((*CodepipelineStageOnSuccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessCondition",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessCondition",
 		reflect.TypeOf((*CodepipelineStageOnSuccessCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -841,11 +841,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRule",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRule",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleList",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -867,7 +867,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
@@ -922,11 +922,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleRuleTypeId",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleRuleTypeId",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionRuleRuleTypeId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
@@ -968,7 +968,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOnSuccessOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOnSuccessOutputReference",
 		reflect.TypeOf((*CodepipelineStageOnSuccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1003,7 +1003,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageOutputReference",
 		reflect.TypeOf((*CodepipelineStageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1052,19 +1052,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTrigger",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTrigger",
 		reflect.TypeOf((*CodepipelineTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAll",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAll",
 		reflect.TypeOf((*CodepipelineTriggerAll)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfiguration",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfiguration",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1085,7 +1085,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1120,15 +1120,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequest",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequest",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequest)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranches",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranches",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestBranches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranchesList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranchesList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestBranchesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1149,7 +1149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranchesOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestBranchesOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestBranchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1183,11 +1183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePaths",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePaths",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestFilePaths)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestFilePathsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1208,7 +1208,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePathsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestFilePathsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestFilePathsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1242,7 +1242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1263,7 +1263,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPullRequestOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPullRequestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
@@ -1298,15 +1298,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPush",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPush",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPush)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranches",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranches",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushBranches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranchesList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranchesList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushBranchesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1327,7 +1327,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranchesOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushBranchesOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushBranchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1361,11 +1361,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePaths",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePaths",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushFilePaths)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePathsList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePathsList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushFilePathsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1386,7 +1386,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePathsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushFilePathsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushFilePathsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1420,7 +1420,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1441,7 +1441,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
@@ -1476,11 +1476,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTags",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTags",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTagsList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTagsList",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1501,7 +1501,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTagsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushTagsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllGitConfigurationPushTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1535,7 +1535,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllList",
 		reflect.TypeOf((*CodepipelineTriggerAllList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1556,7 +1556,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerAllOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1590,11 +1590,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfiguration",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfiguration",
 		reflect.TypeOf((*CodepipelineTriggerGitConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1636,15 +1636,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequest",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequest)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestBranches",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestBranches",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestBranches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1682,11 +1682,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestFilePaths",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestFilePaths",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestFilePaths)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1724,7 +1724,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestList",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1746,7 +1746,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPullRequestOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPullRequestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
@@ -1789,15 +1789,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPush",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPush",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPush)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushBranches",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushBranches",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushBranches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushBranchesOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushBranchesOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushBranchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1835,11 +1835,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushFilePaths",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushFilePaths",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushFilePaths)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushFilePathsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushFilePathsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushFilePathsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1877,7 +1877,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushList",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1899,7 +1899,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
@@ -1943,11 +1943,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushTags",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushTags",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushTagsOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerGitConfigurationPushTagsOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerGitConfigurationPushTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1985,7 +1985,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerList",
 		reflect.TypeOf((*CodepipelineTriggerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2007,7 +2007,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerOutputReference",
 		reflect.TypeOf((*CodepipelineTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2044,11 +2044,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipeline.CodepipelineVariable",
+		"@cdktn/provider-aws.codepipeline.CodepipelineVariable",
 		reflect.TypeOf((*CodepipelineVariable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineVariableList",
+		"@cdktn/provider-aws.codepipeline.CodepipelineVariableList",
 		reflect.TypeOf((*CodepipelineVariableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2070,7 +2070,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipeline.CodepipelineVariableOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineVariableOutputReference",
 		reflect.TypeOf((*CodepipelineVariableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

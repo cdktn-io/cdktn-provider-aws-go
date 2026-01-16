@@ -5,9 +5,9 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubautomationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSecurityhubAutomationRuleActionsFindingFieldsUpdateList(terraformResourc
 	j := jsiiProxy_SecurityhubAutomationRuleActionsFindingFieldsUpdateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSecurityhubAutomationRuleActionsFindingFieldsUpdateList_Override(s Secur
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleActionsFindingFieldsUpdateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

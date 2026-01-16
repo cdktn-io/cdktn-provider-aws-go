@@ -5,14 +5,14 @@ package apigatewaydocumentationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaydocumentationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydocumentationversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version}.
 type ApiGatewayDocumentationVersion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ApiGatewayDocumentationVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version} Resource.
 func NewApiGatewayDocumentationVersion(scope constructs.Construct, id *string, config *ApiGatewayDocumentationVersionConfig) ApiGatewayDocumentationVersion {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewApiGatewayDocumentationVersion(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ApiGatewayDocumentationVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewApiGatewayDocumentationVersion(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_version aws_api_gateway_documentation_version} Resource.
 func NewApiGatewayDocumentationVersion_Override(a ApiGatewayDocumentationVersion, scope constructs.Construct, id *string, config *ApiGatewayDocumentationVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -566,7 +566,7 @@ func ApiGatewayDocumentationVersion_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func ApiGatewayDocumentationVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func ApiGatewayDocumentationVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func ApiGatewayDocumentationVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func ApiGatewayDocumentationVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
+		"@cdktn/provider-aws.apiGatewayDocumentationVersion.ApiGatewayDocumentationVersion",
 		"tfResourceType",
 		&returns,
 	)

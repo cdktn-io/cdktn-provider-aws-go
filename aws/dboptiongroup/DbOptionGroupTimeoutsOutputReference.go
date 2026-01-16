@@ -5,9 +5,9 @@ package dboptiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dboptiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dboptiongroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDbOptionGroupTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_DbOptionGroupTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbOptionGroup.DbOptionGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbOptionGroup.DbOptionGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDbOptionGroupTimeoutsOutputReference_Override(d DbOptionGroupTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbOptionGroup.DbOptionGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbOptionGroup.DbOptionGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

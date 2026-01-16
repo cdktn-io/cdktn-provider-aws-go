@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		reflect.TypeOf((*AppsyncGraphqlApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalAuthenticationProvider", GoGetter: "AdditionalAuthenticationProvider"},
@@ -129,15 +129,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProvider",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProvider",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
@@ -177,7 +177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderList",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderList",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
@@ -292,11 +292,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},
@@ -336,15 +336,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiEnhancedMetricsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiEnhancedMetricsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -382,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLambdaAuthorizerConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLambdaAuthorizerConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiLambdaAuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
@@ -426,11 +426,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiLogConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArn", GoGetter: "CloudwatchLogsRoleArn"},
@@ -469,11 +469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiOpenidConnectConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiOpenidConnectConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiOpenidConnectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiOpenidConnectConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiOpenidConnectConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiOpenidConnectConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
@@ -516,11 +516,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiUserPoolConfig",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiUserPoolConfig",
 		reflect.TypeOf((*AppsyncGraphqlApiUserPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiUserPoolConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiUserPoolConfigOutputReference",
 		reflect.TypeOf((*AppsyncGraphqlApiUserPoolConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},

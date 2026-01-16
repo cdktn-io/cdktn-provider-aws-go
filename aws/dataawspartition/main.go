@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPartition.DataAwsPartition",
+		"@cdktn/provider-aws.dataAwsPartition.DataAwsPartition",
 		reflect.TypeOf((*DataAwsPartition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,7 +61,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPartition.DataAwsPartitionConfig",
+		"@cdktn/provider-aws.dataAwsPartition.DataAwsPartitionConfig",
 		reflect.TypeOf((*DataAwsPartitionConfig)(nil)).Elem(),
 	)
 }

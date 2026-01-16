@@ -5,14 +5,14 @@ package lambdaalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdaalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdaalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_alias aws_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_alias aws_lambda_alias}.
 type LambdaAlias interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_LambdaAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasConfig) LambdaAlias {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasC
 	j := jsiiProxy_LambdaAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias_Override(l LambdaAlias, scope constructs.Construct, id *string, config *LambdaAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -646,7 +646,7 @@ func LambdaAlias_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func LambdaAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func LambdaAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func LambdaAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func LambdaAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaAlias.LambdaAlias",
+		"@cdktn/provider-aws.lambdaAlias.LambdaAlias",
 		"tfResourceType",
 		&returns,
 	)

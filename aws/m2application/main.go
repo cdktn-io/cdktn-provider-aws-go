@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		reflect.TypeOf((*M2Application)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Application.M2ApplicationConfig",
+		"@cdktn/provider-aws.m2Application.M2ApplicationConfig",
 		reflect.TypeOf((*M2ApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Application.M2ApplicationDefinition",
+		"@cdktn/provider-aws.m2Application.M2ApplicationDefinition",
 		reflect.TypeOf((*M2ApplicationDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Application.M2ApplicationDefinitionList",
+		"@cdktn/provider-aws.m2Application.M2ApplicationDefinitionList",
 		reflect.TypeOf((*M2ApplicationDefinitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
+		"@cdktn/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
 		reflect.TypeOf((*M2ApplicationDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.m2Application.M2ApplicationTimeouts",
+		"@cdktn/provider-aws.m2Application.M2ApplicationTimeouts",
 		reflect.TypeOf((*M2ApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.m2Application.M2ApplicationTimeoutsOutputReference",
+		"@cdktn/provider-aws.m2Application.M2ApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*M2ApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

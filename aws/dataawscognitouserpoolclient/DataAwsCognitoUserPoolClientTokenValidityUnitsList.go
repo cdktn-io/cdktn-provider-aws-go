@@ -5,9 +5,9 @@ package dataawscognitouserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscognitouserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscognitouserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsCognitoUserPoolClientTokenValidityUnitsList(terraformResource cdk
 	j := jsiiProxy_DataAwsCognitoUserPoolClientTokenValidityUnitsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPoolClient.DataAwsCognitoUserPoolClientTokenValidityUnitsList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPoolClient.DataAwsCognitoUserPoolClientTokenValidityUnitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsCognitoUserPoolClientTokenValidityUnitsList_Override(d DataAwsCog
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPoolClient.DataAwsCognitoUserPoolClientTokenValidityUnitsList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPoolClient.DataAwsCognitoUserPoolClientTokenValidityUnitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

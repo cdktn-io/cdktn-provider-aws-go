@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigExtensionAssociation.AppconfigExtensionAssociation",
+		"@cdktn/provider-aws.appconfigExtensionAssociation.AppconfigExtensionAssociation",
 		reflect.TypeOf((*AppconfigExtensionAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigExtensionAssociation.AppconfigExtensionAssociationConfig",
+		"@cdktn/provider-aws.appconfigExtensionAssociation.AppconfigExtensionAssociationConfig",
 		reflect.TypeOf((*AppconfigExtensionAssociationConfig)(nil)).Elem(),
 	)
 }

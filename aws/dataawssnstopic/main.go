@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSnsTopic.DataAwsSnsTopic",
+		"@cdktn/provider-aws.dataAwsSnsTopic.DataAwsSnsTopic",
 		reflect.TypeOf((*DataAwsSnsTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSnsTopic.DataAwsSnsTopicConfig",
+		"@cdktn/provider-aws.dataAwsSnsTopic.DataAwsSnsTopicConfig",
 		reflect.TypeOf((*DataAwsSnsTopicConfig)(nil)).Elem(),
 	)
 }

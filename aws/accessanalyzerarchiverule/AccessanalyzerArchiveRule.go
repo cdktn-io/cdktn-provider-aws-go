@@ -5,14 +5,14 @@ package accessanalyzerarchiverule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/accessanalyzerarchiverule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accessanalyzerarchiverule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule}.
 type AccessanalyzerArchiveRule interface {
 	cdktf.TerraformResource
 	AnalyzerName() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) AccessanalyzerArchiveRule {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config
 	j := jsiiProxy_AccessanalyzerArchiveRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule_Override(a AccessanalyzerArchiveRule, scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -554,7 +554,7 @@ func AccessanalyzerArchiveRule_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func AccessanalyzerArchiveRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func AccessanalyzerArchiveRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func AccessanalyzerArchiveRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func AccessanalyzerArchiveRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRule",
 		"tfResourceType",
 		&returns,
 	)

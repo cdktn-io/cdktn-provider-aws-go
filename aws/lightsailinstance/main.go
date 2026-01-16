@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstance",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstance",
 		reflect.TypeOf((*LightsailInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,11 +105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstanceAddOn",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstanceAddOn",
 		reflect.TypeOf((*LightsailInstanceAddOn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstanceAddOnOutputReference",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstanceAddOnOutputReference",
 		reflect.TypeOf((*LightsailInstanceAddOnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,7 +147,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailInstance.LightsailInstanceConfig",
+		"@cdktn/provider-aws.lightsailInstance.LightsailInstanceConfig",
 		reflect.TypeOf((*LightsailInstanceConfig)(nil)).Elem(),
 	)
 }

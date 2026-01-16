@@ -5,14 +5,14 @@ package redshiftsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group}.
 type RedshiftSubnetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_RedshiftSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
 func NewRedshiftSubnetGroup(scope constructs.Construct, id *string, config *RedshiftSubnetGroupConfig) RedshiftSubnetGroup {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewRedshiftSubnetGroup(scope constructs.Construct, id *string, config *Reds
 	j := jsiiProxy_RedshiftSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewRedshiftSubnetGroup(scope constructs.Construct, id *string, config *Reds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
 func NewRedshiftSubnetGroup_Override(r RedshiftSubnetGroup, scope constructs.Construct, id *string, config *RedshiftSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -647,7 +647,7 @@ func RedshiftSubnetGroup_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func RedshiftSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func RedshiftSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func RedshiftSubnetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func RedshiftSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

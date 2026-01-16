@@ -5,9 +5,9 @@ package cloudwatchlogtransformer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -711,7 +711,7 @@ func NewCloudwatchLogTransformerTransformerConfigOutputReference(terraformResour
 	j := jsiiProxy_CloudwatchLogTransformerTransformerConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -723,7 +723,7 @@ func NewCloudwatchLogTransformerTransformerConfigOutputReference_Override(c Clou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

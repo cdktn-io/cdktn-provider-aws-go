@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		reflect.TypeOf((*DataAwsConnectVocabulary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabularyConfig",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabularyConfig",
 		reflect.TypeOf((*DataAwsConnectVocabularyConfig)(nil)).Elem(),
 	)
 }

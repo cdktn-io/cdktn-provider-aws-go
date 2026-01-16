@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupGlobalSettings.BackupGlobalSettings",
+		"@cdktn/provider-aws.backupGlobalSettings.BackupGlobalSettings",
 		reflect.TypeOf((*BackupGlobalSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupGlobalSettings.BackupGlobalSettingsConfig",
+		"@cdktn/provider-aws.backupGlobalSettings.BackupGlobalSettingsConfig",
 		reflect.TypeOf((*BackupGlobalSettingsConfig)(nil)).Elem(),
 	)
 }

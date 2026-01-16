@@ -5,9 +5,9 @@ package redshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRedshiftClusterTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_RedshiftClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRedshiftClusterTimeoutsOutputReference_Override(r RedshiftClusterTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

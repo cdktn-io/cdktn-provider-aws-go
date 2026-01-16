@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegation",
 		reflect.TypeOf((*AuditmanagerAssessmentDelegation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegationConfig",
+		"@cdktn/provider-aws.auditmanagerAssessmentDelegation.AuditmanagerAssessmentDelegationConfig",
 		reflect.TypeOf((*AuditmanagerAssessmentDelegationConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package codestarconnectionshost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codestarconnectionshost/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codestarconnectionshost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codestarconnections_host aws_codestarconnections_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codestarconnections_host aws_codestarconnections_host}.
 type CodestarconnectionsHost interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_CodestarconnectionsHost) VpcConfigurationInput() *Codestarcon
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codestarconnections_host aws_codestarconnections_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codestarconnections_host aws_codestarconnections_host} Resource.
 func NewCodestarconnectionsHost(scope constructs.Construct, id *string, config *CodestarconnectionsHostConfig) CodestarconnectionsHost {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewCodestarconnectionsHost(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CodestarconnectionsHost{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewCodestarconnectionsHost(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codestarconnections_host aws_codestarconnections_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codestarconnections_host aws_codestarconnections_host} Resource.
 func NewCodestarconnectionsHost_Override(c CodestarconnectionsHost, scope constructs.Construct, id *string, config *CodestarconnectionsHostConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func CodestarconnectionsHost_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func CodestarconnectionsHost_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func CodestarconnectionsHost_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func CodestarconnectionsHost_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func CodestarconnectionsHost_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
+		"@cdktn/provider-aws.codestarconnectionsHost.CodestarconnectionsHost",
 		"tfResourceType",
 		&returns,
 	)

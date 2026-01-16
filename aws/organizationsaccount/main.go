@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccount",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccount",
 		reflect.TypeOf((*OrganizationsAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccountConfig",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccountConfig",
 		reflect.TypeOf((*OrganizationsAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccountTimeouts",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccountTimeouts",
 		reflect.TypeOf((*OrganizationsAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
 		reflect.TypeOf((*OrganizationsAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

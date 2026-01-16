@@ -47,6 +47,10 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) validatePutEdgeLocationAssociationParameters(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) validatePutViaParameters(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsVia) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package cloudhsmv2cluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudhsmv2cluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudhsmv2cluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewCloudhsmV2ClusterClusterCertificatesList(terraformResource cdktf.IInterp
 	j := jsiiProxy_CloudhsmV2ClusterClusterCertificatesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewCloudhsmV2ClusterClusterCertificatesList_Override(c CloudhsmV2ClusterClu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

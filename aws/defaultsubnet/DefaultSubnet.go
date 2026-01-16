@@ -5,14 +5,14 @@ package defaultsubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/defaultsubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/defaultsubnet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_subnet aws_default_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_subnet aws_default_subnet}.
 type DefaultSubnet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -792,7 +792,7 @@ func (j *jsiiProxy_DefaultSubnet) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_subnet aws_default_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_subnet aws_default_subnet} Resource.
 func NewDefaultSubnet(scope constructs.Construct, id *string, config *DefaultSubnetConfig) DefaultSubnet {
 	_init_.Initialize()
 
@@ -802,7 +802,7 @@ func NewDefaultSubnet(scope constructs.Construct, id *string, config *DefaultSub
 	j := jsiiProxy_DefaultSubnet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -810,12 +810,12 @@ func NewDefaultSubnet(scope constructs.Construct, id *string, config *DefaultSub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_subnet aws_default_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_subnet aws_default_subnet} Resource.
 func NewDefaultSubnet_Override(d DefaultSubnet, scope constructs.Construct, id *string, config *DefaultSubnetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1075,7 +1075,7 @@ func DefaultSubnet_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1110,7 +1110,7 @@ func DefaultSubnet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1129,7 +1129,7 @@ func DefaultSubnet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1148,7 +1148,7 @@ func DefaultSubnet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1161,7 +1161,7 @@ func DefaultSubnet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.defaultSubnet.DefaultSubnet",
+		"@cdktn/provider-aws.defaultSubnet.DefaultSubnet",
 		"tfResourceType",
 		&returns,
 	)

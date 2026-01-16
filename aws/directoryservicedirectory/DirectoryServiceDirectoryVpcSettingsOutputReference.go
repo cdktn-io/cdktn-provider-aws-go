@@ -5,9 +5,9 @@ package directoryservicedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryservicedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryservicedirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -216,7 +216,7 @@ func NewDirectoryServiceDirectoryVpcSettingsOutputReference(terraformResource cd
 	j := jsiiProxy_DirectoryServiceDirectoryVpcSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -228,7 +228,7 @@ func NewDirectoryServiceDirectoryVpcSettingsOutputReference_Override(d Directory
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,9 +5,9 @@ package emrcontainersjobtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcontainersjobtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcontainersjobtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference(terrafor
 	j := jsiiProxy_EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference",
+		"@cdktn/provider-aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference",
+		"@cdktn/provider-aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataJobDriverOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

@@ -5,14 +5,14 @@ package dataawsconnectvocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectvocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectvocabulary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary}.
 type DataAwsConnectVocabulary interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DataAwsConnectVocabulary) VocabularyIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary} Data Source.
 func NewDataAwsConnectVocabulary(scope constructs.Construct, id *string, config *DataAwsConnectVocabularyConfig) DataAwsConnectVocabulary {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDataAwsConnectVocabulary(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsConnectVocabulary{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewDataAwsConnectVocabulary(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_vocabulary aws_connect_vocabulary} Data Source.
 func NewDataAwsConnectVocabulary_Override(d DataAwsConnectVocabulary, scope constructs.Construct, id *string, config *DataAwsConnectVocabularyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -601,7 +601,7 @@ func DataAwsConnectVocabulary_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func DataAwsConnectVocabulary_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func DataAwsConnectVocabulary_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAwsConnectVocabulary_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func DataAwsConnectVocabulary_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
+		"@cdktn/provider-aws.dataAwsConnectVocabulary.DataAwsConnectVocabulary",
 		"tfResourceType",
 		&returns,
 	)

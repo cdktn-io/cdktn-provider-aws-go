@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicy",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicy",
 		reflect.TypeOf((*VpclatticeAuthPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig",
 		reflect.TypeOf((*VpclatticeAuthPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeouts",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeouts",
 		reflect.TypeOf((*VpclatticeAuthPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeAuthPolicy.VpclatticeAuthPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*VpclatticeAuthPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

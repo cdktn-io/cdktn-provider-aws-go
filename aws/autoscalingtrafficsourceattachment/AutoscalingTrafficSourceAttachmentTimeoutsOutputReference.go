@@ -5,9 +5,9 @@ package autoscalingtrafficsourceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalingtrafficsourceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingtrafficsourceattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAutoscalingTrafficSourceAttachmentTimeoutsOutputReference(terraformResou
 	j := jsiiProxy_AutoscalingTrafficSourceAttachmentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAutoscalingTrafficSourceAttachmentTimeoutsOutputReference_Override(a Aut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.autoscalingTrafficSourceAttachment.AutoscalingTrafficSourceAttachmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

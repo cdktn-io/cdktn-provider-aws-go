@@ -5,9 +5,9 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewPipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputRefere
 	j := jsiiProxy_PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewPipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

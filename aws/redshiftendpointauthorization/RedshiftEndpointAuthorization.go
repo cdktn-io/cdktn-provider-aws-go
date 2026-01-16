@@ -5,14 +5,14 @@ package redshiftendpointauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftendpointauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftendpointauthorization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization}.
 type RedshiftEndpointAuthorization interface {
 	cdktf.TerraformResource
 	Account() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_RedshiftEndpointAuthorization) VpcIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization} Resource.
 func NewRedshiftEndpointAuthorization(scope constructs.Construct, id *string, config *RedshiftEndpointAuthorizationConfig) RedshiftEndpointAuthorization {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewRedshiftEndpointAuthorization(scope constructs.Construct, id *string, co
 	j := jsiiProxy_RedshiftEndpointAuthorization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewRedshiftEndpointAuthorization(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_authorization aws_redshift_endpoint_authorization} Resource.
 func NewRedshiftEndpointAuthorization_Override(r RedshiftEndpointAuthorization, scope constructs.Construct, id *string, config *RedshiftEndpointAuthorizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -645,7 +645,7 @@ func RedshiftEndpointAuthorization_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func RedshiftEndpointAuthorization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func RedshiftEndpointAuthorization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func RedshiftEndpointAuthorization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func RedshiftEndpointAuthorization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
+		"@cdktn/provider-aws.redshiftEndpointAuthorization.RedshiftEndpointAuthorization",
 		"tfResourceType",
 		&returns,
 	)

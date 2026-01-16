@@ -5,9 +5,9 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewDataAwsAppmeshRouteSpecTcpRouteActionOutputReference(terraformResource c
 	j := jsiiProxy_DataAwsAppmeshRouteSpecTcpRouteActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionOutputReference",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewDataAwsAppmeshRouteSpecTcpRouteActionOutputReference_Override(d DataAwsA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionOutputReference",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

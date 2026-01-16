@@ -5,9 +5,9 @@ package medialivemultiplex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialivemultiplex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialivemultiplex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewMedialiveMultiplexTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_MedialiveMultiplexTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewMedialiveMultiplexTimeoutsOutputReference_Override(m MedialiveMultiplexT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsAccountSettingDefault.EcsAccountSettingDefault",
+		"@cdktn/provider-aws.ecsAccountSettingDefault.EcsAccountSettingDefault",
 		reflect.TypeOf((*EcsAccountSettingDefault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsAccountSettingDefault.EcsAccountSettingDefaultConfig",
+		"@cdktn/provider-aws.ecsAccountSettingDefault.EcsAccountSettingDefaultConfig",
 		reflect.TypeOf((*EcsAccountSettingDefaultConfig)(nil)).Elem(),
 	)
 }

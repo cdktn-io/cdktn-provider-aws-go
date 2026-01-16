@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		reflect.TypeOf((*NetworkAclAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociationConfig",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociationConfig",
 		reflect.TypeOf((*NetworkAclAssociationConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlySegment.EvidentlySegment",
+		"@cdktn/provider-aws.evidentlySegment.EvidentlySegment",
 		reflect.TypeOf((*EvidentlySegment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlySegment.EvidentlySegmentConfig",
+		"@cdktn/provider-aws.evidentlySegment.EvidentlySegmentConfig",
 		reflect.TypeOf((*EvidentlySegmentConfig)(nil)).Elem(),
 	)
 }

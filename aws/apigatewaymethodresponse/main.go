@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		reflect.TypeOf((*ApiGatewayMethodResponse)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponseConfig",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponseConfig",
 		reflect.TypeOf((*ApiGatewayMethodResponseConfig)(nil)).Elem(),
 	)
 }

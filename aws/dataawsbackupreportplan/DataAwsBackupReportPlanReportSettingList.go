@@ -5,9 +5,9 @@ package dataawsbackupreportplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsBackupReportPlanReportSettingList(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsBackupReportPlanReportSettingList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsBackupReportPlanReportSettingList_Override(d DataAwsBackupReportP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

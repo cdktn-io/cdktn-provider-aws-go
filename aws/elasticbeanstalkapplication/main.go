@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		reflect.TypeOf((*ElasticBeanstalkApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,11 +85,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycle",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycle",
 		reflect.TypeOf((*ElasticBeanstalkApplicationAppversionLifecycle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
 		reflect.TypeOf((*ElasticBeanstalkApplicationAppversionLifecycleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationConfig",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationConfig",
 		reflect.TypeOf((*ElasticBeanstalkApplicationConfig)(nil)).Elem(),
 	)
 }

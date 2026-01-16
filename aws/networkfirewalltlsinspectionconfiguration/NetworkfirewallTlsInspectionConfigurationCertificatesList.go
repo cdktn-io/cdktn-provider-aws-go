@@ -5,9 +5,9 @@ package networkfirewalltlsinspectionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewalltlsinspectionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewalltlsinspectionconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewNetworkfirewallTlsInspectionConfigurationCertificatesList(terraformResou
 	j := jsiiProxy_NetworkfirewallTlsInspectionConfigurationCertificatesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfigurationCertificatesList",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfigurationCertificatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewNetworkfirewallTlsInspectionConfigurationCertificatesList_Override(n Net
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfigurationCertificatesList",
+		"@cdktn/provider-aws.networkfirewallTlsInspectionConfiguration.NetworkfirewallTlsInspectionConfigurationCertificatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

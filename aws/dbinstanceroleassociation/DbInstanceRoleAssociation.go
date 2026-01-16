@@ -5,14 +5,14 @@ package dbinstanceroleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbinstanceroleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbinstanceroleassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_role_association aws_db_instance_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_role_association aws_db_instance_role_association}.
 type DbInstanceRoleAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_DbInstanceRoleAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
 func NewDbInstanceRoleAssociation(scope constructs.Construct, id *string, config *DbInstanceRoleAssociationConfig) DbInstanceRoleAssociation {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewDbInstanceRoleAssociation(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DbInstanceRoleAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewDbInstanceRoleAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
 func NewDbInstanceRoleAssociation_Override(d DbInstanceRoleAssociation, scope constructs.Construct, id *string, config *DbInstanceRoleAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -589,7 +589,7 @@ func DbInstanceRoleAssociation_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func DbInstanceRoleAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func DbInstanceRoleAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DbInstanceRoleAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DbInstanceRoleAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		"tfResourceType",
 		&returns,
 	)

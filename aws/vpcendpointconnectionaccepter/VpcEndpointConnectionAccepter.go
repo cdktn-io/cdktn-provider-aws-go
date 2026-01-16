@@ -5,14 +5,14 @@ package vpcendpointconnectionaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointconnectionaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointconnectionaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter}.
 type VpcEndpointConnectionAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_VpcEndpointConnectionAccepter) VpcEndpointState() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
 func NewVpcEndpointConnectionAccepter(scope constructs.Construct, id *string, config *VpcEndpointConnectionAccepterConfig) VpcEndpointConnectionAccepter {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewVpcEndpointConnectionAccepter(scope constructs.Construct, id *string, co
 	j := jsiiProxy_VpcEndpointConnectionAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewVpcEndpointConnectionAccepter(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_connection_accepter aws_vpc_endpoint_connection_accepter} Resource.
 func NewVpcEndpointConnectionAccepter_Override(v VpcEndpointConnectionAccepter, scope constructs.Construct, id *string, config *VpcEndpointConnectionAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -542,7 +542,7 @@ func VpcEndpointConnectionAccepter_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func VpcEndpointConnectionAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func VpcEndpointConnectionAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func VpcEndpointConnectionAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func VpcEndpointConnectionAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
+		"@cdktn/provider-aws.vpcEndpointConnectionAccepter.VpcEndpointConnectionAccepter",
 		"tfResourceType",
 		&returns,
 	)

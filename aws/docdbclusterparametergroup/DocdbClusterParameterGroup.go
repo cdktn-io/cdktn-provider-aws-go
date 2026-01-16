@@ -5,14 +5,14 @@ package docdbclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbclusterparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group}.
 type DocdbClusterParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DocdbClusterParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group} Resource.
 func NewDocdbClusterParameterGroup(scope constructs.Construct, id *string, config *DocdbClusterParameterGroupConfig) DocdbClusterParameterGroup {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewDocdbClusterParameterGroup(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DocdbClusterParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewDocdbClusterParameterGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_parameter_group aws_docdb_cluster_parameter_group} Resource.
 func NewDocdbClusterParameterGroup_Override(d DocdbClusterParameterGroup, scope constructs.Construct, id *string, config *DocdbClusterParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -707,7 +707,7 @@ func DocdbClusterParameterGroup_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func DocdbClusterParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func DocdbClusterParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func DocdbClusterParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func DocdbClusterParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

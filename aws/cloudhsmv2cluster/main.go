@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2Cluster",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2Cluster",
 		reflect.TypeOf((*CloudhsmV2Cluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificates",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificates",
 		reflect.TypeOf((*CloudhsmV2ClusterClusterCertificates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesList",
 		reflect.TypeOf((*CloudhsmV2ClusterClusterCertificatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesOutputReference",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterClusterCertificatesOutputReference",
 		reflect.TypeOf((*CloudhsmV2ClusterClusterCertificatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsHardwareCertificate", GoGetter: "AwsHardwareCertificate"},
@@ -156,15 +156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterConfig",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterConfig",
 		reflect.TypeOf((*CloudhsmV2ClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeouts",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeouts",
 		reflect.TypeOf((*CloudhsmV2ClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
 		reflect.TypeOf((*CloudhsmV2ClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

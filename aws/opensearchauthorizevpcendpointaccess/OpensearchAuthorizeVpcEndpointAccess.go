@@ -5,14 +5,14 @@ package opensearchauthorizevpcendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchauthorizevpcendpointaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchauthorizevpcendpointaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access}.
 type OpensearchAuthorizeVpcEndpointAccess interface {
 	cdktf.TerraformResource
 	Account() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) OpensearchAuthorizeVpcEndpointAccess {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *str
 	j := jsiiProxy_OpensearchAuthorizeVpcEndpointAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewOpensearchAuthorizeVpcEndpointAccess(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_authorize_vpc_endpoint_access aws_opensearch_authorize_vpc_endpoint_access} Resource.
 func NewOpensearchAuthorizeVpcEndpointAccess_Override(o OpensearchAuthorizeVpcEndpointAccess, scope constructs.Construct, id *string, config *OpensearchAuthorizeVpcEndpointAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -507,7 +507,7 @@ func OpensearchAuthorizeVpcEndpointAccess_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func OpensearchAuthorizeVpcEndpointAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func OpensearchAuthorizeVpcEndpointAccess_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func OpensearchAuthorizeVpcEndpointAccess_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func OpensearchAuthorizeVpcEndpointAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
+		"@cdktn/provider-aws.opensearchAuthorizeVpcEndpointAccess.OpensearchAuthorizeVpcEndpointAccess",
 		"tfResourceType",
 		&returns,
 	)

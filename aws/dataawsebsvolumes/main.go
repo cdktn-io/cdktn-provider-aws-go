@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumes",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumes",
 		reflect.TypeOf((*DataAwsEbsVolumes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesConfig",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesConfig",
 		reflect.TypeOf((*DataAwsEbsVolumesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilter",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilter",
 		reflect.TypeOf((*DataAwsEbsVolumesFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilterList",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilterList",
 		reflect.TypeOf((*DataAwsEbsVolumesFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesFilterOutputReference",
 		reflect.TypeOf((*DataAwsEbsVolumesFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesTimeouts",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesTimeouts",
 		reflect.TypeOf((*DataAwsEbsVolumesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEbsVolumes.DataAwsEbsVolumesTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsEbsVolumesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

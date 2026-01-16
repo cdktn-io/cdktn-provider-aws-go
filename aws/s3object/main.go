@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		reflect.TypeOf((*S3Object)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acl", GoGetter: "Acl"},
@@ -156,19 +156,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3Object.S3ObjectConfig",
+		"@cdktn/provider-aws.s3Object.S3ObjectConfig",
 		reflect.TypeOf((*S3ObjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3Object.S3ObjectOverrideProvider",
+		"@cdktn/provider-aws.s3Object.S3ObjectOverrideProvider",
 		reflect.TypeOf((*S3ObjectOverrideProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3Object.S3ObjectOverrideProviderDefaultTags",
+		"@cdktn/provider-aws.s3Object.S3ObjectOverrideProviderDefaultTags",
 		reflect.TypeOf((*S3ObjectOverrideProviderDefaultTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3Object.S3ObjectOverrideProviderDefaultTagsOutputReference",
+		"@cdktn/provider-aws.s3Object.S3ObjectOverrideProviderDefaultTagsOutputReference",
 		reflect.TypeOf((*S3ObjectOverrideProviderDefaultTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3Object.S3ObjectOverrideProviderOutputReference",
+		"@cdktn/provider-aws.s3Object.S3ObjectOverrideProviderOutputReference",
 		reflect.TypeOf((*S3ObjectOverrideProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

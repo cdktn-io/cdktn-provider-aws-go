@@ -5,14 +5,14 @@ package inspector2enabler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2enabler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2enabler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_enabler aws_inspector2_enabler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_enabler aws_inspector2_enabler}.
 type Inspector2Enabler interface {
 	cdktf.TerraformResource
 	AccountIds() *[]*string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Inspector2Enabler) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
 func NewInspector2Enabler(scope constructs.Construct, id *string, config *Inspector2EnablerConfig) Inspector2Enabler {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewInspector2Enabler(scope constructs.Construct, id *string, config *Inspec
 	j := jsiiProxy_Inspector2Enabler{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewInspector2Enabler(scope constructs.Construct, id *string, config *Inspec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_enabler aws_inspector2_enabler} Resource.
 func NewInspector2Enabler_Override(i Inspector2Enabler, scope constructs.Construct, id *string, config *Inspector2EnablerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -555,7 +555,7 @@ func Inspector2Enabler_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func Inspector2Enabler_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func Inspector2Enabler_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func Inspector2Enabler_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func Inspector2Enabler_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2Enabler",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2Enabler",
 		"tfResourceType",
 		&returns,
 	)

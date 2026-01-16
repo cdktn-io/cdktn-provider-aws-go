@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		reflect.TypeOf((*WafregionalXssMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,19 +75,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetConfig",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetConfig",
 		reflect.TypeOf((*WafregionalXssMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTuple",
 		reflect.TypeOf((*WafregionalXssMatchSetXssMatchTuple)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleFieldToMatch",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleFieldToMatch",
 		reflect.TypeOf((*WafregionalXssMatchSetXssMatchTupleFieldToMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleFieldToMatchOutputReference",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleFieldToMatchOutputReference",
 		reflect.TypeOf((*WafregionalXssMatchSetXssMatchTupleFieldToMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleList",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleList",
 		reflect.TypeOf((*WafregionalXssMatchSetXssMatchTupleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleOutputReference",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSetXssMatchTupleOutputReference",
 		reflect.TypeOf((*WafregionalXssMatchSetXssMatchTupleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

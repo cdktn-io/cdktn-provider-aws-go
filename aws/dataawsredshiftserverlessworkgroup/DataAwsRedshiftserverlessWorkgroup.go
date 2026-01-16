@@ -5,14 +5,14 @@ package dataawsredshiftserverlessworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsredshiftserverlessworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsredshiftserverlessworkgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup}.
 type DataAwsRedshiftserverlessWorkgroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroup) WorkgroupNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
 func NewDataAwsRedshiftserverlessWorkgroup(scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessWorkgroupConfig) DataAwsRedshiftserverlessWorkgroup {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewDataAwsRedshiftserverlessWorkgroup(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsRedshiftserverlessWorkgroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -429,12 +429,12 @@ func NewDataAwsRedshiftserverlessWorkgroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
 func NewDataAwsRedshiftserverlessWorkgroup_Override(d DataAwsRedshiftserverlessWorkgroup, scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessWorkgroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -529,7 +529,7 @@ func DataAwsRedshiftserverlessWorkgroup_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -564,7 +564,7 @@ func DataAwsRedshiftserverlessWorkgroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAwsRedshiftserverlessWorkgroup_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -602,7 +602,7 @@ func DataAwsRedshiftserverlessWorkgroup_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataAwsRedshiftserverlessWorkgroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
+		"@cdktn/provider-aws.dataAwsRedshiftserverlessWorkgroup.DataAwsRedshiftserverlessWorkgroup",
 		"tfResourceType",
 		&returns,
 	)

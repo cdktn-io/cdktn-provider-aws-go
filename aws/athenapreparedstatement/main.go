@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatement",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatement",
 		reflect.TypeOf((*AthenaPreparedStatement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatementConfig",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatementConfig",
 		reflect.TypeOf((*AthenaPreparedStatementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeouts",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeouts",
 		reflect.TypeOf((*AthenaPreparedStatementTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
+		"@cdktn/provider-aws.athenaPreparedStatement.AthenaPreparedStatementTimeoutsOutputReference",
 		reflect.TypeOf((*AthenaPreparedStatementTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package dataawstimestreamwritetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstimestreamwritetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstimestreamwritetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsTimestreamwriteTableSchemaList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsTimestreamwriteTableSchemaList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTableSchemaList",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTableSchemaList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsTimestreamwriteTableSchemaList_Override(d DataAwsTimestreamwriteT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTableSchemaList",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTableSchemaList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurus",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurus",
 		reflect.TypeOf((*KendraThesaurus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusConfig",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusConfig",
 		reflect.TypeOf((*KendraThesaurusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusSourceS3Path",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusSourceS3Path",
 		reflect.TypeOf((*KendraThesaurusSourceS3Path)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
 		reflect.TypeOf((*KendraThesaurusSourceS3PathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusTimeouts",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusTimeouts",
 		reflect.TypeOf((*KendraThesaurusTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusTimeoutsOutputReference",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusTimeoutsOutputReference",
 		reflect.TypeOf((*KendraThesaurusTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

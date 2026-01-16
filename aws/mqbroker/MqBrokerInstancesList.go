@@ -5,9 +5,9 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewMqBrokerInstancesList(terraformResource cdktf.IInterpolatingParent, terr
 	j := jsiiProxy_MqBrokerInstancesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerInstancesList",
+		"@cdktn/provider-aws.mqBroker.MqBrokerInstancesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewMqBrokerInstancesList_Override(m MqBrokerInstancesList, terraformResourc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBrokerInstancesList",
+		"@cdktn/provider-aws.mqBroker.MqBrokerInstancesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

@@ -5,14 +5,14 @@ package dataawsidentitystoregroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsidentitystoregroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsidentitystoregroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_groups aws_identitystore_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_groups aws_identitystore_groups}.
 type DataAwsIdentitystoreGroups interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_groups aws_identitystore_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_groups aws_identitystore_groups} Data Source.
 func NewDataAwsIdentitystoreGroups(scope constructs.Construct, id *string, config *DataAwsIdentitystoreGroupsConfig) DataAwsIdentitystoreGroups {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsIdentitystoreGroups(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsIdentitystoreGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsIdentitystoreGroups(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_groups aws_identitystore_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_groups aws_identitystore_groups} Data Source.
 func NewDataAwsIdentitystoreGroups_Override(d DataAwsIdentitystoreGroups, scope constructs.Construct, id *string, config *DataAwsIdentitystoreGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsIdentitystoreGroups_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsIdentitystoreGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsIdentitystoreGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsIdentitystoreGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsIdentitystoreGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
+		"@cdktn/provider-aws.dataAwsIdentitystoreGroups.DataAwsIdentitystoreGroups",
 		"tfResourceType",
 		&returns,
 	)

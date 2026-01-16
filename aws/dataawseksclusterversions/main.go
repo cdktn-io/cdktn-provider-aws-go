@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersions",
+		"@cdktn/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersions",
 		reflect.TypeOf((*DataAwsEksClusterVersions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,11 +74,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersions",
+		"@cdktn/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersions",
 		reflect.TypeOf((*DataAwsEksClusterVersionsClusterVersions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsList",
+		"@cdktn/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsList",
 		reflect.TypeOf((*DataAwsEksClusterVersionsClusterVersionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -99,7 +99,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsOutputReference",
+		"@cdktn/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsOutputReference",
 		reflect.TypeOf((*DataAwsEksClusterVersionsClusterVersionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterType", GoGetter: "ClusterType"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsConfig",
+		"@cdktn/provider-aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsConfig",
 		reflect.TypeOf((*DataAwsEksClusterVersionsConfig)(nil)).Elem(),
 	)
 }

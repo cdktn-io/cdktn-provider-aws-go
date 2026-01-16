@@ -5,9 +5,9 @@ package dataawsekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEksClusterStorageConfigBlockStorageList(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsEksClusterStorageConfigBlockStorageList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterStorageConfigBlockStorageList",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterStorageConfigBlockStorageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEksClusterStorageConfigBlockStorageList_Override(d DataAwsEksClus
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterStorageConfigBlockStorageList",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterStorageConfigBlockStorageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

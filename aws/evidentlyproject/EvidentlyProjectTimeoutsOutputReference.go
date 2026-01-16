@@ -5,9 +5,9 @@ package evidentlyproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEvidentlyProjectTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EvidentlyProjectTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProjectTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEvidentlyProjectTimeoutsOutputReference_Override(e EvidentlyProjectTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProjectTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

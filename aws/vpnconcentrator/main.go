@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		reflect.TypeOf((*VpnConcentrator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentratorConfig",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentratorConfig",
 		reflect.TypeOf((*VpnConcentratorConfig)(nil)).Elem(),
 	)
 }

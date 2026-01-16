@@ -5,9 +5,9 @@ package autoscalinggrouptag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalinggrouptag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalinggrouptag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewAutoscalingGroupTagTagOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_AutoscalingGroupTagTagOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewAutoscalingGroupTagTagOutputReference_Override(a AutoscalingGroupTagTagO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

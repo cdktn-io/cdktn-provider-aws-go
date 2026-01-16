@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		reflect.TypeOf((*LambdaInvocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocationConfig",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocationConfig",
 		reflect.TypeOf((*LambdaInvocationConfig)(nil)).Elem(),
 	)
 }

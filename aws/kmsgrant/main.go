@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsGrant.KmsGrant",
+		"@cdktn/provider-aws.kmsGrant.KmsGrant",
 		reflect.TypeOf((*KmsGrant)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConfig",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConfig",
 		reflect.TypeOf((*KmsGrantConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConstraints",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConstraints",
 		reflect.TypeOf((*KmsGrantConstraints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConstraintsList",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConstraintsList",
 		reflect.TypeOf((*KmsGrantConstraintsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsGrant.KmsGrantConstraintsOutputReference",
+		"@cdktn/provider-aws.kmsGrant.KmsGrantConstraintsOutputReference",
 		reflect.TypeOf((*KmsGrantConstraintsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

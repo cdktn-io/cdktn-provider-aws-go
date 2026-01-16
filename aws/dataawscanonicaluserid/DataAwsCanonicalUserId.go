@@ -5,14 +5,14 @@ package dataawscanonicaluserid
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscanonicaluserid/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscanonicaluserid/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/canonical_user_id aws_canonical_user_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/canonical_user_id aws_canonical_user_id}.
 type DataAwsCanonicalUserId interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsCanonicalUserId) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/canonical_user_id aws_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/canonical_user_id aws_canonical_user_id} Data Source.
 func NewDataAwsCanonicalUserId(scope constructs.Construct, id *string, config *DataAwsCanonicalUserIdConfig) DataAwsCanonicalUserId {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsCanonicalUserId(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsCanonicalUserId{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsCanonicalUserId(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/canonical_user_id aws_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/canonical_user_id aws_canonical_user_id} Data Source.
 func NewDataAwsCanonicalUserId_Override(d DataAwsCanonicalUserId, scope constructs.Construct, id *string, config *DataAwsCanonicalUserIdConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsCanonicalUserId_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsCanonicalUserId_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsCanonicalUserId_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsCanonicalUserId_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsCanonicalUserId_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package redshiftsnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftsnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftsnapshotcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
 type RedshiftSnapshotCopy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) RedshiftSnapshotCopy {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *Red
 	j := jsiiProxy_RedshiftSnapshotCopy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *Red
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy_Override(r RedshiftSnapshotCopy, scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -612,7 +612,7 @@ func RedshiftSnapshotCopy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func RedshiftSnapshotCopy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func RedshiftSnapshotCopy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func RedshiftSnapshotCopy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func RedshiftSnapshotCopy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
+		"@cdktn/provider-aws.redshiftSnapshotCopy.RedshiftSnapshotCopy",
 		"tfResourceType",
 		&returns,
 	)

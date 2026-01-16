@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueJob.GlueJob",
+		"@cdktn/provider-aws.glueJob.GlueJob",
 		reflect.TypeOf((*GlueJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueJob.GlueJobCommand",
+		"@cdktn/provider-aws.glueJob.GlueJobCommand",
 		reflect.TypeOf((*GlueJobCommand)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueJob.GlueJobCommandOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobCommandOutputReference",
 		reflect.TypeOf((*GlueJobCommandOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,15 +187,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueJob.GlueJobConfig",
+		"@cdktn/provider-aws.glueJob.GlueJobConfig",
 		reflect.TypeOf((*GlueJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueJob.GlueJobExecutionProperty",
+		"@cdktn/provider-aws.glueJob.GlueJobExecutionProperty",
 		reflect.TypeOf((*GlueJobExecutionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueJob.GlueJobExecutionPropertyOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobExecutionPropertyOutputReference",
 		reflect.TypeOf((*GlueJobExecutionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueJob.GlueJobNotificationProperty",
+		"@cdktn/provider-aws.glueJob.GlueJobNotificationProperty",
 		reflect.TypeOf((*GlueJobNotificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueJob.GlueJobNotificationPropertyOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobNotificationPropertyOutputReference",
 		reflect.TypeOf((*GlueJobNotificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -269,11 +269,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueJob.GlueJobSourceControlDetails",
+		"@cdktn/provider-aws.glueJob.GlueJobSourceControlDetails",
 		reflect.TypeOf((*GlueJobSourceControlDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
 		reflect.TypeOf((*GlueJobSourceControlDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authStrategy", GoGetter: "AuthStrategy"},

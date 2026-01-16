@@ -5,14 +5,14 @@ package dataawselasticbeanstalkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticbeanstalkapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticbeanstalkapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application}.
 type DataAwsElasticBeanstalkApplication interface {
 	cdktf.TerraformDataSource
 	AppversionLifecycle() DataAwsElasticBeanstalkApplicationAppversionLifecycleList
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkApplication) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application} Data Source.
 func NewDataAwsElasticBeanstalkApplication(scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkApplicationConfig) DataAwsElasticBeanstalkApplication {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAwsElasticBeanstalkApplication(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsElasticBeanstalkApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataAwsElasticBeanstalkApplication(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_application aws_elastic_beanstalk_application} Data Source.
 func NewDataAwsElasticBeanstalkApplication_Override(d DataAwsElasticBeanstalkApplication, scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -463,7 +463,7 @@ func DataAwsElasticBeanstalkApplication_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataAwsElasticBeanstalkApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsElasticBeanstalkApplication_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsElasticBeanstalkApplication_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsElasticBeanstalkApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplication",
 		"tfResourceType",
 		&returns,
 	)

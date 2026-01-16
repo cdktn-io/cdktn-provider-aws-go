@@ -5,14 +5,14 @@ package servicecatalogportfolio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogportfolio/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogportfolio/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
 type ServicecatalogPortfolio interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ServicecatalogPortfolio) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
 func NewServicecatalogPortfolio(scope constructs.Construct, id *string, config *ServicecatalogPortfolioConfig) ServicecatalogPortfolio {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewServicecatalogPortfolio(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ServicecatalogPortfolio{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewServicecatalogPortfolio(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
 func NewServicecatalogPortfolio_Override(s ServicecatalogPortfolio, scope constructs.Construct, id *string, config *ServicecatalogPortfolioConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -682,7 +682,7 @@ func ServicecatalogPortfolio_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func ServicecatalogPortfolio_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func ServicecatalogPortfolio_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func ServicecatalogPortfolio_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func ServicecatalogPortfolio_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
+		"@cdktn/provider-aws.servicecatalogPortfolio.ServicecatalogPortfolio",
 		"tfResourceType",
 		&returns,
 	)

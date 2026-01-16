@@ -5,9 +5,9 @@ package datasynclocationfsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationfsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationfsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewDatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference(terraformRe
 	j := jsiiProxy_DatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewDatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference_Override(d 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystemProtocolNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

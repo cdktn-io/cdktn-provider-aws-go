@@ -5,9 +5,9 @@ package glaciervault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/glaciervault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glaciervault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewGlacierVaultNotificationOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_GlacierVaultNotificationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
+		"@cdktn/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewGlacierVaultNotificationOutputReference_Override(g GlacierVaultNotificat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
+		"@cdktn/provider-aws.glacierVault.GlacierVaultNotificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

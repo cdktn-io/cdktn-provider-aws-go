@@ -5,9 +5,9 @@ package lightsailcontainerservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailcontainerservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailcontainerservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -194,7 +194,7 @@ func NewLightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputRe
 	j := jsiiProxy_LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference",
+		"@cdktn/provider-aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -206,7 +206,7 @@ func NewLightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference",
+		"@cdktn/provider-aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

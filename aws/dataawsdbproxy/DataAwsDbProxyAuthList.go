@@ -5,9 +5,9 @@ package dataawsdbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsDbProxyAuthList(terraformResource cdktf.IInterpolatingParent, ter
 	j := jsiiProxy_DataAwsDbProxyAuthList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsDbProxyAuthList_Override(d DataAwsDbProxyAuthList, terraformResou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxyAuthList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

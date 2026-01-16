@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayIntegration.ApiGatewayIntegration",
+		"@cdktn/provider-aws.apiGatewayIntegration.ApiGatewayIntegration",
 		reflect.TypeOf((*ApiGatewayIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationConfig",
+		"@cdktn/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationConfig",
 		reflect.TypeOf((*ApiGatewayIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationTlsConfig",
+		"@cdktn/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationTlsConfig",
 		reflect.TypeOf((*ApiGatewayIntegrationTlsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationTlsConfigOutputReference",
+		"@cdktn/provider-aws.apiGatewayIntegration.ApiGatewayIntegrationTlsConfigOutputReference",
 		reflect.TypeOf((*ApiGatewayIntegrationTlsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

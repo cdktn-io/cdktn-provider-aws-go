@@ -5,14 +5,14 @@ package dataawswafipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafipset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafipset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_ipset aws_waf_ipset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset}.
 type DataAwsWafIpset interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -288,7 +288,7 @@ func (j *jsiiProxy_DataAwsWafIpset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
 func NewDataAwsWafIpset(scope constructs.Construct, id *string, config *DataAwsWafIpsetConfig) DataAwsWafIpset {
 	_init_.Initialize()
 
@@ -298,7 +298,7 @@ func NewDataAwsWafIpset(scope constructs.Construct, id *string, config *DataAwsW
 	j := jsiiProxy_DataAwsWafIpset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -306,12 +306,12 @@ func NewDataAwsWafIpset(scope constructs.Construct, id *string, config *DataAwsW
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
 func NewDataAwsWafIpset_Override(d DataAwsWafIpset, scope constructs.Construct, id *string, config *DataAwsWafIpsetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -395,7 +395,7 @@ func DataAwsWafIpset_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -430,7 +430,7 @@ func DataAwsWafIpset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -449,7 +449,7 @@ func DataAwsWafIpset_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataAwsWafIpset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -481,7 +481,7 @@ func DataAwsWafIpset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
+		"@cdktn/provider-aws.dataAwsWafIpset.DataAwsWafIpset",
 		"tfResourceType",
 		&returns,
 	)

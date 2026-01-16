@@ -5,14 +5,14 @@ package redshifthsmclientcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshifthsmclientcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshifthsmclientcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate}.
 type RedshiftHsmClientCertificate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_RedshiftHsmClientCertificate) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
 func NewRedshiftHsmClientCertificate(scope constructs.Construct, id *string, config *RedshiftHsmClientCertificateConfig) RedshiftHsmClientCertificate {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewRedshiftHsmClientCertificate(scope constructs.Construct, id *string, con
 	j := jsiiProxy_RedshiftHsmClientCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewRedshiftHsmClientCertificate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_hsm_client_certificate aws_redshift_hsm_client_certificate} Resource.
 func NewRedshiftHsmClientCertificate_Override(r RedshiftHsmClientCertificate, scope constructs.Construct, id *string, config *RedshiftHsmClientCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -589,7 +589,7 @@ func RedshiftHsmClientCertificate_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func RedshiftHsmClientCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func RedshiftHsmClientCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func RedshiftHsmClientCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func RedshiftHsmClientCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		"tfResourceType",
 		&returns,
 	)

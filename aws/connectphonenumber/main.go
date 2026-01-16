@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumber",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumber",
 		reflect.TypeOf((*ConnectPhoneNumber)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberConfig",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberConfig",
 		reflect.TypeOf((*ConnectPhoneNumberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatus",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatus",
 		reflect.TypeOf((*ConnectPhoneNumberStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
 		reflect.TypeOf((*ConnectPhoneNumberStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusOutputReference",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusOutputReference",
 		reflect.TypeOf((*ConnectPhoneNumberStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberTimeouts",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberTimeouts",
 		reflect.TypeOf((*ConnectPhoneNumberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberTimeoutsOutputReference",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberTimeoutsOutputReference",
 		reflect.TypeOf((*ConnectPhoneNumberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

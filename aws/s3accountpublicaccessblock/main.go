@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		reflect.TypeOf((*S3AccountPublicAccessBlock)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlockConfig",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlockConfig",
 		reflect.TypeOf((*S3AccountPublicAccessBlockConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package signersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/signersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/signersigningprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSignerSigningProfileSignatureValidityPeriodOutputReference(terraformReso
 	j := jsiiProxy_SignerSigningProfileSignatureValidityPeriodOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSignerSigningProfileSignatureValidityPeriodOutputReference_Override(s Si
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

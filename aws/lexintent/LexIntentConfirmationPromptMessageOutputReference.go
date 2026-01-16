@@ -5,9 +5,9 @@ package lexintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewLexIntentConfirmationPromptMessageOutputReference(terraformResource cdkt
 	j := jsiiProxy_LexIntentConfirmationPromptMessageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewLexIntentConfirmationPromptMessageOutputReference_Override(l LexIntentCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
+		"@cdktn/provider-aws.lexIntent.LexIntentConfirmationPromptMessageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

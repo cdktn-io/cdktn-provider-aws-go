@@ -5,9 +5,9 @@ package autoscalingplansscalingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalingplansscalingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingplansscalingplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAutoscalingplansScalingPlanApplicationSourceOutputReference(terraformRes
 	j := jsiiProxy_AutoscalingplansScalingPlanApplicationSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceOutputReference",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAutoscalingplansScalingPlanApplicationSourceOutputReference_Override(a A
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceOutputReference",
+		"@cdktn/provider-aws.autoscalingplansScalingPlan.AutoscalingplansScalingPlanApplicationSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

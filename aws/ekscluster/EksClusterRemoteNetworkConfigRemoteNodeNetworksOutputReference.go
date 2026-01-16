@@ -5,9 +5,9 @@ package ekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewEksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference(terraform
 	j := jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewEksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

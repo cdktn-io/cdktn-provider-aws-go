@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfile",
 		reflect.TypeOf((*DevicefarmNetworkProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfileConfig",
+		"@cdktn/provider-aws.devicefarmNetworkProfile.DevicefarmNetworkProfileConfig",
 		reflect.TypeOf((*DevicefarmNetworkProfileConfig)(nil)).Elem(),
 	)
 }

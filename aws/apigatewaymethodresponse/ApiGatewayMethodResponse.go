@@ -5,14 +5,14 @@ package apigatewaymethodresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaymethodresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaymethodresponse/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response}.
 type ApiGatewayMethodResponse interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_ApiGatewayMethodResponse) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response} Resource.
 func NewApiGatewayMethodResponse(scope constructs.Construct, id *string, config *ApiGatewayMethodResponseConfig) ApiGatewayMethodResponse {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewApiGatewayMethodResponse(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ApiGatewayMethodResponse{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewApiGatewayMethodResponse(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method_response aws_api_gateway_method_response} Resource.
 func NewApiGatewayMethodResponse_Override(a ApiGatewayMethodResponse, scope constructs.Construct, id *string, config *ApiGatewayMethodResponseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -669,7 +669,7 @@ func ApiGatewayMethodResponse_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func ApiGatewayMethodResponse_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func ApiGatewayMethodResponse_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func ApiGatewayMethodResponse_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func ApiGatewayMethodResponse_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
+		"@cdktn/provider-aws.apiGatewayMethodResponse.ApiGatewayMethodResponse",
 		"tfResourceType",
 		&returns,
 	)

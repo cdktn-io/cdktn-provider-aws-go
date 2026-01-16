@@ -5,14 +5,14 @@ package dataawsec2instancetype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2instancetype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2instancetype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type}.
 type DataAwsEc2InstanceType interface {
 	cdktf.TerraformDataSource
 	AutoRecoverySupported() cdktf.IResolvable
@@ -1018,7 +1018,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) ValidThreadsPerCore() *[]*float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
 func NewDataAwsEc2InstanceType(scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypeConfig) DataAwsEc2InstanceType {
 	_init_.Initialize()
 
@@ -1028,7 +1028,7 @@ func NewDataAwsEc2InstanceType(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsEc2InstanceType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1036,12 +1036,12 @@ func NewDataAwsEc2InstanceType(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
 func NewDataAwsEc2InstanceType_Override(d DataAwsEc2InstanceType, scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1136,7 +1136,7 @@ func DataAwsEc2InstanceType_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1171,7 +1171,7 @@ func DataAwsEc2InstanceType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1190,7 +1190,7 @@ func DataAwsEc2InstanceType_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -1209,7 +1209,7 @@ func DataAwsEc2InstanceType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1222,7 +1222,7 @@ func DataAwsEc2InstanceType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
+		"@cdktn/provider-aws.dataAwsEc2InstanceType.DataAwsEc2InstanceType",
 		"tfResourceType",
 		&returns,
 	)

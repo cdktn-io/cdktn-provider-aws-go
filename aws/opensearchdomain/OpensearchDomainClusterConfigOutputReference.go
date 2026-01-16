@@ -5,9 +5,9 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -471,7 +471,7 @@ func NewOpensearchDomainClusterConfigOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_OpensearchDomainClusterConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainClusterConfigOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainClusterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -483,7 +483,7 @@ func NewOpensearchDomainClusterConfigOutputReference_Override(o OpensearchDomain
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainClusterConfigOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainClusterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

@@ -5,14 +5,14 @@ package servicecatalogbudgetresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogbudgetresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogbudgetresourceassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association}.
 type ServicecatalogBudgetResourceAssociation interface {
 	cdktf.TerraformResource
 	BudgetName() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ServicecatalogBudgetResourceAssociation) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
 func NewServicecatalogBudgetResourceAssociation(scope constructs.Construct, id *string, config *ServicecatalogBudgetResourceAssociationConfig) ServicecatalogBudgetResourceAssociation {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewServicecatalogBudgetResourceAssociation(scope constructs.Construct, id *
 	j := jsiiProxy_ServicecatalogBudgetResourceAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewServicecatalogBudgetResourceAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
 func NewServicecatalogBudgetResourceAssociation_Override(s ServicecatalogBudgetResourceAssociation, scope constructs.Construct, id *string, config *ServicecatalogBudgetResourceAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -555,7 +555,7 @@ func ServicecatalogBudgetResourceAssociation_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func ServicecatalogBudgetResourceAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func ServicecatalogBudgetResourceAssociation_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ServicecatalogBudgetResourceAssociation_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ServicecatalogBudgetResourceAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
+		"@cdktn/provider-aws.servicecatalogBudgetResourceAssociation.ServicecatalogBudgetResourceAssociation",
 		"tfResourceType",
 		&returns,
 	)

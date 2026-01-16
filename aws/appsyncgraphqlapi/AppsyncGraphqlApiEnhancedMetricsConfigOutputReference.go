@@ -5,9 +5,9 @@ package appsyncgraphqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewAppsyncGraphqlApiEnhancedMetricsConfigOutputReference(terraformResource 
 	j := jsiiProxy_AppsyncGraphqlApiEnhancedMetricsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewAppsyncGraphqlApiEnhancedMetricsConfigOutputReference_Override(a Appsync
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApiEnhancedMetricsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

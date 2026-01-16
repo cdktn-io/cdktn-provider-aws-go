@@ -5,14 +5,14 @@ package networkmanagertransitgatewayroutetableattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagertransitgatewayroutetableattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagertransitgatewayroutetableattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment}.
 type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -69,6 +69,9 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceArn() *string
+	RoutingPolicyLabel() *string
+	SetRoutingPolicyLabel(val *string)
+	RoutingPolicyLabelInput() *string
 	SegmentName() *string
 	State() *string
 	Tags() *map[string]*string
@@ -136,6 +139,7 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicyLabel()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -407,6 +411,26 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResourceArn
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) RoutingPolicyLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) RoutingPolicyLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) SegmentName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -538,7 +562,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) TransitGate
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) NetworkmanagerTransitGatewayRouteTableAttachment {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Constr
 	j := jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -556,12 +580,12 @@ func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_route_table_attachment aws_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment_Override(n NetworkmanagerTransitGatewayRouteTableAttachment, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -657,6 +681,17 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetProvision
 	)
 }
 
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetRoutingPolicyLabel(val *string) {
+	if err := j.validateSetRoutingPolicyLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyLabel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -700,7 +735,7 @@ func NetworkmanagerTransitGatewayRouteTableAttachment_GenerateConfigForImport(sc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -735,7 +770,7 @@ func NetworkmanagerTransitGatewayRouteTableAttachment_IsConstruct(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +789,7 @@ func NetworkmanagerTransitGatewayRouteTableAttachment_IsTerraformElement(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +808,7 @@ func NetworkmanagerTransitGatewayRouteTableAttachment_IsTerraformResource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -786,7 +821,7 @@ func NetworkmanagerTransitGatewayRouteTableAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
+		"@cdktn/provider-aws.networkmanagerTransitGatewayRouteTableAttachment.NetworkmanagerTransitGatewayRouteTableAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -1066,6 +1101,14 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResetOverri
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResetRoutingPolicyLabel() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoutingPolicyLabel",
 		nil, // no parameters
 	)
 }

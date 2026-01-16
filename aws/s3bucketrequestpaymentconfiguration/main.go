@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketRequestPaymentConfiguration.S3BucketRequestPaymentConfiguration",
+		"@cdktn/provider-aws.s3BucketRequestPaymentConfiguration.S3BucketRequestPaymentConfiguration",
 		reflect.TypeOf((*S3BucketRequestPaymentConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketRequestPaymentConfiguration.S3BucketRequestPaymentConfigurationConfig",
+		"@cdktn/provider-aws.s3BucketRequestPaymentConfiguration.S3BucketRequestPaymentConfigurationConfig",
 		reflect.TypeOf((*S3BucketRequestPaymentConfigurationConfig)(nil)).Elem(),
 	)
 }

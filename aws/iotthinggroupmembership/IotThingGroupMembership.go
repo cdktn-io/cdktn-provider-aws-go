@@ -5,14 +5,14 @@ package iotthinggroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotthinggroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotthinggroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership}.
 type IotThingGroupMembership interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_IotThingGroupMembership) ThingNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) IotThingGroupMembership {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IotThingGroupMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewIotThingGroupMembership(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group_membership aws_iot_thing_group_membership} Resource.
 func NewIotThingGroupMembership_Override(i IotThingGroupMembership, scope constructs.Construct, id *string, config *IotThingGroupMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -566,7 +566,7 @@ func IotThingGroupMembership_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func IotThingGroupMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func IotThingGroupMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func IotThingGroupMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func IotThingGroupMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
+		"@cdktn/provider-aws.iotThingGroupMembership.IotThingGroupMembership",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferAgreement.TransferAgreement",
+		"@cdktn/provider-aws.transferAgreement.TransferAgreement",
 		reflect.TypeOf((*TransferAgreement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferAgreement.TransferAgreementConfig",
+		"@cdktn/provider-aws.transferAgreement.TransferAgreementConfig",
 		reflect.TypeOf((*TransferAgreementConfig)(nil)).Elem(),
 	)
 }

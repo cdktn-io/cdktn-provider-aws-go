@@ -5,14 +5,14 @@ package dataawstimestreamwritetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstimestreamwritetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstimestreamwritetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table}.
 type DataAwsTimestreamwriteTable interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteTable) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
 func NewDataAwsTimestreamwriteTable(scope constructs.Construct, id *string, config *DataAwsTimestreamwriteTableConfig) DataAwsTimestreamwriteTable {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataAwsTimestreamwriteTable(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsTimestreamwriteTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -406,12 +406,12 @@ func NewDataAwsTimestreamwriteTable(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/timestreamwrite_table aws_timestreamwrite_table} Data Source.
 func NewDataAwsTimestreamwriteTable_Override(d DataAwsTimestreamwriteTable, scope constructs.Construct, id *string, config *DataAwsTimestreamwriteTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -506,7 +506,7 @@ func DataAwsTimestreamwriteTable_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -541,7 +541,7 @@ func DataAwsTimestreamwriteTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsTimestreamwriteTable_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsTimestreamwriteTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataAwsTimestreamwriteTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
+		"@cdktn/provider-aws.dataAwsTimestreamwriteTable.DataAwsTimestreamwriteTable",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawsopensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsopensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsopensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference(terraform
 	j := jsiiProxy_DataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainClusterConfigNodeOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

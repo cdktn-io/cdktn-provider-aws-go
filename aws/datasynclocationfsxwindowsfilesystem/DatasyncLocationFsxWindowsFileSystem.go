@@ -5,14 +5,14 @@ package datasynclocationfsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationfsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationfsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system}.
 type DatasyncLocationFsxWindowsFileSystem interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_DatasyncLocationFsxWindowsFileSystem) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
 func NewDatasyncLocationFsxWindowsFileSystem(scope constructs.Construct, id *string, config *DatasyncLocationFsxWindowsFileSystemConfig) DatasyncLocationFsxWindowsFileSystem {
 	_init_.Initialize()
 
@@ -565,7 +565,7 @@ func NewDatasyncLocationFsxWindowsFileSystem(scope constructs.Construct, id *str
 	j := jsiiProxy_DatasyncLocationFsxWindowsFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -573,12 +573,12 @@ func NewDatasyncLocationFsxWindowsFileSystem(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
 func NewDatasyncLocationFsxWindowsFileSystem_Override(d DatasyncLocationFsxWindowsFileSystem, scope constructs.Construct, id *string, config *DatasyncLocationFsxWindowsFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -772,7 +772,7 @@ func DatasyncLocationFsxWindowsFileSystem_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -807,7 +807,7 @@ func DatasyncLocationFsxWindowsFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func DatasyncLocationFsxWindowsFileSystem_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -845,7 +845,7 @@ func DatasyncLocationFsxWindowsFileSystem_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func DatasyncLocationFsxWindowsFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxWindowsFileSystem.DatasyncLocationFsxWindowsFileSystem",
 		"tfResourceType",
 		&returns,
 	)

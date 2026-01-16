@@ -5,9 +5,9 @@ package medialivechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialivechannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialivechannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMedialiveChannelMaintenanceOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_MedialiveChannelMaintenanceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveChannel.MedialiveChannelMaintenanceOutputReference",
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelMaintenanceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMedialiveChannelMaintenanceOutputReference_Override(m MedialiveChannelMa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveChannel.MedialiveChannelMaintenanceOutputReference",
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelMaintenanceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

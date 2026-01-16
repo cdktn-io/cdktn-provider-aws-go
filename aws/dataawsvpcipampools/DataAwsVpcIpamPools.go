@@ -5,14 +5,14 @@ package dataawsvpcipampools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcipampools/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipampools/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools}.
 type DataAwsVpcIpamPools interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPools) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools} Data Source.
 func NewDataAwsVpcIpamPools(scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolsConfig) DataAwsVpcIpamPools {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsVpcIpamPools(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsVpcIpamPools{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsVpcIpamPools(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pools aws_vpc_ipam_pools} Data Source.
 func NewDataAwsVpcIpamPools_Override(d DataAwsVpcIpamPools, scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -431,7 +431,7 @@ func DataAwsVpcIpamPools_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -466,7 +466,7 @@ func DataAwsVpcIpamPools_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsVpcIpamPools_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsVpcIpamPools_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsVpcIpamPools_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
+		"@cdktn/provider-aws.dataAwsVpcIpamPools.DataAwsVpcIpamPools",
 		"tfResourceType",
 		&returns,
 	)

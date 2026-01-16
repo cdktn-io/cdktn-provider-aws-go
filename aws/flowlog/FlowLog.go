@@ -5,14 +5,14 @@ package flowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/flowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/flowlog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/flow_log aws_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/flow_log aws_flow_log}.
 type FlowLog interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -729,7 +729,7 @@ func (j *jsiiProxy_FlowLog) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) FlowLog {
 	_init_.Initialize()
 
@@ -739,7 +739,7 @@ func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) F
 	j := jsiiProxy_FlowLog{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -747,12 +747,12 @@ func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog_Override(f FlowLog, scope constructs.Construct, id *string, config *FlowLogConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1023,7 +1023,7 @@ func FlowLog_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1058,7 +1058,7 @@ func FlowLog_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1077,7 +1077,7 @@ func FlowLog_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1096,7 +1096,7 @@ func FlowLog_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1109,7 +1109,7 @@ func FlowLog_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.flowLog.FlowLog",
+		"@cdktn/provider-aws.flowLog.FlowLog",
 		"tfResourceType",
 		&returns,
 	)

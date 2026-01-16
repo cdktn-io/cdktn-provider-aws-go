@@ -5,9 +5,9 @@ package ssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsmcontactsPlanStageList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_SsmcontactsPlanStageList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsmcontactsPlanStageList_Override(s SsmcontactsPlanStageList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

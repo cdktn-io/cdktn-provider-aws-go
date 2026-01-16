@@ -5,9 +5,9 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewRoute53DomainsDomainBillingContactOutputReference(terraformResource cdkt
 	j := jsiiProxy_Route53DomainsDomainBillingContactOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainBillingContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainBillingContactOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewRoute53DomainsDomainBillingContactOutputReference_Override(r Route53Doma
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainBillingContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainBillingContactOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

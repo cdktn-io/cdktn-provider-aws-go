@@ -5,9 +5,9 @@ package sesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2configurationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSesv2ConfigurationSetTrackingOptionsOutputReference(terraformResource cd
 	j := jsiiProxy_Sesv2ConfigurationSetTrackingOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetTrackingOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetTrackingOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSesv2ConfigurationSetTrackingOptionsOutputReference_Override(s Sesv2Conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetTrackingOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetTrackingOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

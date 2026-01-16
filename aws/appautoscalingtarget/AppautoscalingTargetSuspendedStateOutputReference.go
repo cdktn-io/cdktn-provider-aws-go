@@ -5,9 +5,9 @@ package appautoscalingtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appautoscalingtarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appautoscalingtarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAppautoscalingTargetSuspendedStateOutputReference(terraformResource cdkt
 	j := jsiiProxy_AppautoscalingTargetSuspendedStateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAppautoscalingTargetSuspendedStateOutputReference_Override(a Appautoscal
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
+		"@cdktn/provider-aws.appautoscalingTarget.AppautoscalingTargetSuspendedStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

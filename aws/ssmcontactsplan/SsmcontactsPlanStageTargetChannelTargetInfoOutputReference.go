@@ -5,9 +5,9 @@ package ssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSsmcontactsPlanStageTargetChannelTargetInfoOutputReference(terraformReso
 	j := jsiiProxy_SsmcontactsPlanStageTargetChannelTargetInfoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSsmcontactsPlanStageTargetChannelTargetInfoOutputReference_Override(s Ss
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetChannelTargetInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

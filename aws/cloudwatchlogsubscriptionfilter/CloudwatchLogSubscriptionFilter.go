@@ -5,16 +5,19 @@ package cloudwatchlogsubscriptionfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogsubscriptionfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogsubscriptionfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter}.
 type CloudwatchLogSubscriptionFilter interface {
 	cdktf.TerraformResource
+	ApplyOnTransformedLogs() interface{}
+	SetApplyOnTransformedLogs(val interface{})
+	ApplyOnTransformedLogsInput() interface{}
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
 	// Experimental.
@@ -37,6 +40,9 @@ type CloudwatchLogSubscriptionFilter interface {
 	Distribution() *string
 	SetDistribution(val *string)
 	DistributionInput() *string
+	EmitSystemFields() *[]*string
+	SetEmitSystemFields(val *[]*string)
+	EmitSystemFieldsInput() *[]*string
 	FilterPattern() *string
 	SetFilterPattern(val *string)
 	FilterPatternInput() *string
@@ -128,7 +134,9 @@ type CloudwatchLogSubscriptionFilter interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetApplyOnTransformedLogs()
 	ResetDistribution()
+	ResetEmitSystemFields()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -151,6 +159,26 @@ type CloudwatchLogSubscriptionFilter interface {
 // The jsii proxy struct for CloudwatchLogSubscriptionFilter
 type jsiiProxy_CloudwatchLogSubscriptionFilter struct {
 	internal.Type__cdktfTerraformResource
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) ApplyOnTransformedLogs() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"applyOnTransformedLogs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) ApplyOnTransformedLogsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"applyOnTransformedLogsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) CdktfStack() cdktf.TerraformStack {
@@ -238,6 +266,26 @@ func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) DistributionInput() *string 
 	_jsii_.Get(
 		j,
 		"distributionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) EmitSystemFields() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"emitSystemFields",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) EmitSystemFieldsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"emitSystemFieldsInput",
 		&returns,
 	)
 	return returns
@@ -474,7 +522,7 @@ func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
 func NewCloudwatchLogSubscriptionFilter(scope constructs.Construct, id *string, config *CloudwatchLogSubscriptionFilterConfig) CloudwatchLogSubscriptionFilter {
 	_init_.Initialize()
 
@@ -484,7 +532,7 @@ func NewCloudwatchLogSubscriptionFilter(scope constructs.Construct, id *string, 
 	j := jsiiProxy_CloudwatchLogSubscriptionFilter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,14 +540,25 @@ func NewCloudwatchLogSubscriptionFilter(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_subscription_filter aws_cloudwatch_log_subscription_filter} Resource.
 func NewCloudwatchLogSubscriptionFilter_Override(c CloudwatchLogSubscriptionFilter, scope constructs.Construct, id *string, config *CloudwatchLogSubscriptionFilterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		[]interface{}{scope, id, config},
 		c,
+	)
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter)SetApplyOnTransformedLogs(val interface{}) {
+	if err := j.validateSetApplyOnTransformedLogsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"applyOnTransformedLogs",
+		val,
 	)
 }
 
@@ -551,6 +610,17 @@ func (j *jsiiProxy_CloudwatchLogSubscriptionFilter)SetDistribution(val *string) 
 	_jsii_.Set(
 		j,
 		"distribution",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter)SetEmitSystemFields(val *[]*string) {
+	if err := j.validateSetEmitSystemFieldsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"emitSystemFields",
 		val,
 	)
 }
@@ -669,7 +739,7 @@ func CloudwatchLogSubscriptionFilter_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +774,7 @@ func CloudwatchLogSubscriptionFilter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +793,7 @@ func CloudwatchLogSubscriptionFilter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +812,7 @@ func CloudwatchLogSubscriptionFilter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +825,7 @@ func CloudwatchLogSubscriptionFilter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		"tfResourceType",
 		&returns,
 	)
@@ -1012,10 +1082,26 @@ func (c *jsiiProxy_CloudwatchLogSubscriptionFilter) OverrideLogicalId(newLogical
 	)
 }
 
+func (c *jsiiProxy_CloudwatchLogSubscriptionFilter) ResetApplyOnTransformedLogs() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetApplyOnTransformedLogs",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CloudwatchLogSubscriptionFilter) ResetDistribution() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDistribution",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchLogSubscriptionFilter) ResetEmitSystemFields() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEmitSystemFields",
 		nil, // no parameters
 	)
 }

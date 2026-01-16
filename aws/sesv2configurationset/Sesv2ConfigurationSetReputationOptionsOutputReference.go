@@ -5,9 +5,9 @@ package sesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2configurationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -194,7 +194,7 @@ func NewSesv2ConfigurationSetReputationOptionsOutputReference(terraformResource 
 	j := jsiiProxy_Sesv2ConfigurationSetReputationOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetReputationOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetReputationOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -206,7 +206,7 @@ func NewSesv2ConfigurationSetReputationOptionsOutputReference_Override(s Sesv2Co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetReputationOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetReputationOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

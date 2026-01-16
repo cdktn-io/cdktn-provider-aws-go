@@ -5,14 +5,14 @@ package apigatewaydeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaydeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment}.
 type ApiGatewayDeployment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_ApiGatewayDeployment) VariablesInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment} Resource.
 func NewApiGatewayDeployment(scope constructs.Construct, id *string, config *ApiGatewayDeploymentConfig) ApiGatewayDeployment {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewApiGatewayDeployment(scope constructs.Construct, id *string, config *Api
 	j := jsiiProxy_ApiGatewayDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewApiGatewayDeployment(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_deployment aws_api_gateway_deployment} Resource.
 func NewApiGatewayDeployment_Override(a ApiGatewayDeployment, scope constructs.Construct, id *string, config *ApiGatewayDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -613,7 +613,7 @@ func ApiGatewayDeployment_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func ApiGatewayDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func ApiGatewayDeployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func ApiGatewayDeployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func ApiGatewayDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
+		"@cdktn/provider-aws.apiGatewayDeployment.ApiGatewayDeployment",
 		"tfResourceType",
 		&returns,
 	)

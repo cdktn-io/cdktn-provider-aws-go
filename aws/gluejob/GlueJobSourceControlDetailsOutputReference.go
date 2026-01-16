@@ -5,9 +5,9 @@ package gluejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluejob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluejob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewGlueJobSourceControlDetailsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_GlueJobSourceControlDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewGlueJobSourceControlDetailsOutputReference_Override(g GlueJobSourceContr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
+		"@cdktn/provider-aws.glueJob.GlueJobSourceControlDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

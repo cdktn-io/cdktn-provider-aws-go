@@ -5,9 +5,9 @@ package dataawscloudwatcheventbus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatcheventbus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatcheventbus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsCloudwatchEventBusDeadLetterConfigList(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsCloudwatchEventBusDeadLetterConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsCloudwatchEventBusDeadLetterConfigList_Override(d DataAwsCloudwat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

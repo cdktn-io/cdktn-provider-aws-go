@@ -5,9 +5,9 @@ package accessanalyzeranalyzer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/accessanalyzeranalyzer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accessanalyzeranalyzer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList
 	j := jsiiProxy_AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerAnalyzer.AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList",
+		"@cdktn/provider-aws.accessanalyzerAnalyzer.AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerAnalyzer.AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList",
+		"@cdktn/provider-aws.accessanalyzerAnalyzer.AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

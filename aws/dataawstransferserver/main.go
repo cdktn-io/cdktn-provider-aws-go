@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferServer.DataAwsTransferServer",
+		"@cdktn/provider-aws.dataAwsTransferServer.DataAwsTransferServer",
 		reflect.TypeOf((*DataAwsTransferServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferServer.DataAwsTransferServerConfig",
+		"@cdktn/provider-aws.dataAwsTransferServer.DataAwsTransferServerConfig",
 		reflect.TypeOf((*DataAwsTransferServerConfig)(nil)).Elem(),
 	)
 }

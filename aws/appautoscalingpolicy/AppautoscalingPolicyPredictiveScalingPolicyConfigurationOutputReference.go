@@ -5,9 +5,9 @@ package appautoscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appautoscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appautoscalingpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewAppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference(
 	j := jsiiProxy_AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewAppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference",
+		"@cdktn/provider-aws.appautoscalingPolicy.AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

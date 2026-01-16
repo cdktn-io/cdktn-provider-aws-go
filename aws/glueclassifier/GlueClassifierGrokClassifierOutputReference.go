@@ -5,9 +5,9 @@ package glueclassifier
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/glueclassifier/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glueclassifier/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewGlueClassifierGrokClassifierOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_GlueClassifierGrokClassifierOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueClassifier.GlueClassifierGrokClassifierOutputReference",
+		"@cdktn/provider-aws.glueClassifier.GlueClassifierGrokClassifierOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewGlueClassifierGrokClassifierOutputReference_Override(g GlueClassifierGro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueClassifier.GlueClassifierGrokClassifierOutputReference",
+		"@cdktn/provider-aws.glueClassifier.GlueClassifierGrokClassifierOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

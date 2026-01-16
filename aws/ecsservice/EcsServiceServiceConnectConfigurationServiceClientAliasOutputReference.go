@@ -5,9 +5,9 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEcsServiceServiceConnectConfigurationServiceClientAliasOutputReference(t
 	j := jsiiProxy_EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEcsServiceServiceConnectConfigurationServiceClientAliasOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceClientAliasOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

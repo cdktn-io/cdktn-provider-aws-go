@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExport",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExport",
 		reflect.TypeOf((*BcmdataexportsExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,19 +77,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportConfig",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportConfig",
 		reflect.TypeOf((*BcmdataexportsExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExport",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExport",
 		reflect.TypeOf((*BcmdataexportsExportExport)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQuery",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQuery",
 		reflect.TypeOf((*BcmdataexportsExportExportDataQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQueryList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQueryList",
 		reflect.TypeOf((*BcmdataexportsExportExportDataQueryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQueryOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDataQueryOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportDataQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurations",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurations",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsList",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3Destination",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationList",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3DestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -236,7 +236,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -304,7 +304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -344,7 +344,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportList",
 		reflect.TypeOf((*BcmdataexportsExportExportList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -366,7 +366,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -416,11 +416,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadence",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadence",
 		reflect.TypeOf((*BcmdataexportsExportExportRefreshCadence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadenceList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadenceList",
 		reflect.TypeOf((*BcmdataexportsExportExportRefreshCadenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -442,7 +442,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadenceOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportRefreshCadenceOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportExportRefreshCadenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -476,11 +476,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportTimeouts",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportTimeouts",
 		reflect.TypeOf((*BcmdataexportsExportTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportTimeoutsOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportTimeoutsOutputReference",
 		reflect.TypeOf((*BcmdataexportsExportTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

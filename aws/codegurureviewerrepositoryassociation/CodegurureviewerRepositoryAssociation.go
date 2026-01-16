@@ -5,14 +5,14 @@ package codegurureviewerrepositoryassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codegurureviewerrepositoryassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codegurureviewerrepositoryassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association}.
 type CodegurureviewerRepositoryAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association} Resource.
 func NewCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *string, config *CodegurureviewerRepositoryAssociationConfig) CodegurureviewerRepositoryAssociation {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *st
 	j := jsiiProxy_CodegurureviewerRepositoryAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -570,12 +570,12 @@ func NewCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codegurureviewer_repository_association aws_codegurureviewer_repository_association} Resource.
 func NewCodegurureviewerRepositoryAssociation_Override(c CodegurureviewerRepositoryAssociation, scope constructs.Construct, id *string, config *CodegurureviewerRepositoryAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -703,7 +703,7 @@ func CodegurureviewerRepositoryAssociation_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func CodegurureviewerRepositoryAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func CodegurureviewerRepositoryAssociation_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func CodegurureviewerRepositoryAssociation_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func CodegurureviewerRepositoryAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociation",
 		"tfResourceType",
 		&returns,
 	)

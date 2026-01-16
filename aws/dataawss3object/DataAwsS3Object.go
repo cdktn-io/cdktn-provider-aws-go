@@ -5,14 +5,14 @@ package dataawss3object
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawss3object/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3object/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_object aws_s3_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object}.
 type DataAwsS3Object interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_DataAwsS3Object) WebsiteRedirectLocation() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_object aws_s3_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object} Data Source.
 func NewDataAwsS3Object(scope constructs.Construct, id *string, config *DataAwsS3ObjectConfig) DataAwsS3Object {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewDataAwsS3Object(scope constructs.Construct, id *string, config *DataAwsS
 	j := jsiiProxy_DataAwsS3Object{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -735,12 +735,12 @@ func NewDataAwsS3Object(scope constructs.Construct, id *string, config *DataAwsS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_object aws_s3_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object} Data Source.
 func NewDataAwsS3Object_Override(d DataAwsS3Object, scope constructs.Construct, id *string, config *DataAwsS3ObjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -890,7 +890,7 @@ func DataAwsS3Object_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -925,7 +925,7 @@ func DataAwsS3Object_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func DataAwsS3Object_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -963,7 +963,7 @@ func DataAwsS3Object_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -976,7 +976,7 @@ func DataAwsS3Object_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsS3Object.DataAwsS3Object",
+		"@cdktn/provider-aws.dataAwsS3Object.DataAwsS3Object",
 		"tfResourceType",
 		&returns,
 	)

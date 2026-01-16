@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		reflect.TypeOf((*DataAwsLb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLogs", GoGetter: "AccessLogs"},
@@ -105,11 +105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbAccessLogs",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbAccessLogs",
 		reflect.TypeOf((*DataAwsLbAccessLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbAccessLogsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbAccessLogsList",
 		reflect.TypeOf((*DataAwsLbAccessLogsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbAccessLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbAccessLogsOutputReference",
 		reflect.TypeOf((*DataAwsLbAccessLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -165,15 +165,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConfig",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConfig",
 		reflect.TypeOf((*DataAwsLbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConnectionLogs",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConnectionLogs",
 		reflect.TypeOf((*DataAwsLbConnectionLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
 		reflect.TypeOf((*DataAwsLbConnectionLogsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -194,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConnectionLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConnectionLogsOutputReference",
 		reflect.TypeOf((*DataAwsLbConnectionLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -229,11 +229,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogs",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogs",
 		reflect.TypeOf((*DataAwsLbHealthCheckLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogsList",
 		reflect.TypeOf((*DataAwsLbHealthCheckLogsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -254,7 +254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbHealthCheckLogsOutputReference",
 		reflect.TypeOf((*DataAwsLbHealthCheckLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -289,11 +289,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbIpamPools",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbIpamPools",
 		reflect.TypeOf((*DataAwsLbIpamPools)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbIpamPoolsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbIpamPoolsList",
 		reflect.TypeOf((*DataAwsLbIpamPoolsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -314,7 +314,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbIpamPoolsOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbIpamPoolsOutputReference",
 		reflect.TypeOf((*DataAwsLbIpamPoolsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -347,11 +347,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbSubnetMapping",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbSubnetMapping",
 		reflect.TypeOf((*DataAwsLbSubnetMapping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbSubnetMappingList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbSubnetMappingList",
 		reflect.TypeOf((*DataAwsLbSubnetMappingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -372,7 +372,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbSubnetMappingOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbSubnetMappingOutputReference",
 		reflect.TypeOf((*DataAwsLbSubnetMappingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationId", GoGetter: "AllocationId"},
@@ -409,11 +409,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbTimeouts",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbTimeouts",
 		reflect.TypeOf((*DataAwsLbTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsLbTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

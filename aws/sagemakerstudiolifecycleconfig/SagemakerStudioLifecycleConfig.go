@@ -5,14 +5,14 @@ package sagemakerstudiolifecycleconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerstudiolifecycleconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerstudiolifecycleconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config}.
 type SagemakerStudioLifecycleConfig interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SagemakerStudioLifecycleConfig) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config} Resource.
 func NewSagemakerStudioLifecycleConfig(scope constructs.Construct, id *string, config *SagemakerStudioLifecycleConfigConfig) SagemakerStudioLifecycleConfig {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewSagemakerStudioLifecycleConfig(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SagemakerStudioLifecycleConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewSagemakerStudioLifecycleConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_studio_lifecycle_config aws_sagemaker_studio_lifecycle_config} Resource.
 func NewSagemakerStudioLifecycleConfig_Override(s SagemakerStudioLifecycleConfig, scope constructs.Construct, id *string, config *SagemakerStudioLifecycleConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -646,7 +646,7 @@ func SagemakerStudioLifecycleConfig_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func SagemakerStudioLifecycleConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func SagemakerStudioLifecycleConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func SagemakerStudioLifecycleConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func SagemakerStudioLifecycleConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
+		"@cdktn/provider-aws.sagemakerStudioLifecycleConfig.SagemakerStudioLifecycleConfig",
 		"tfResourceType",
 		&returns,
 	)

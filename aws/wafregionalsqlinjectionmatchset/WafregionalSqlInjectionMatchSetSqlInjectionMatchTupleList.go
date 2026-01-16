@@ -5,9 +5,9 @@ package wafregionalsqlinjectionmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalsqlinjectionmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalsqlinjectionmatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList(terraformResou
 	j := jsiiProxy_WafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList",
+		"@cdktn/provider-aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList_Override(w Waf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList",
+		"@cdktn/provider-aws.wafregionalSqlInjectionMatchSet.WafregionalSqlInjectionMatchSetSqlInjectionMatchTupleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

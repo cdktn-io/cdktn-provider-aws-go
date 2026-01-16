@@ -5,9 +5,9 @@ package billingview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/billingview/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/billingview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewBillingViewDataFilterExpressionDimensionsOutputReference(terraformResour
 	j := jsiiProxy_BillingViewDataFilterExpressionDimensionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewBillingViewDataFilterExpressionDimensionsOutputReference_Override(b Bill
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

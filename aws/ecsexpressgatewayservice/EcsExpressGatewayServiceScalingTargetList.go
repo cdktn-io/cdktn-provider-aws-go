@@ -5,9 +5,9 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEcsExpressGatewayServiceScalingTargetList(terraformResource cdktf.IInter
 	j := jsiiProxy_EcsExpressGatewayServiceScalingTargetList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTargetList",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEcsExpressGatewayServiceScalingTargetList_Override(e EcsExpressGatewaySe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTargetList",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServiceScalingTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

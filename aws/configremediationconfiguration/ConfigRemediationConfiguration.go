@@ -5,14 +5,14 @@ package configremediationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configremediationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configremediationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
 type ConfigRemediationConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -582,7 +582,7 @@ func (j *jsiiProxy_ConfigRemediationConfiguration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) ConfigRemediationConfiguration {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ConfigRemediationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -600,12 +600,12 @@ func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration_Override(c ConfigRemediationConfiguration, scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -799,7 +799,7 @@ func ConfigRemediationConfiguration_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func ConfigRemediationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func ConfigRemediationConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func ConfigRemediationConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func ConfigRemediationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueConnection.GlueConnection",
+		"@cdktn/provider-aws.glueConnection.GlueConnection",
 		reflect.TypeOf((*GlueConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueConnection.GlueConnectionConfig",
+		"@cdktn/provider-aws.glueConnection.GlueConnectionConfig",
 		reflect.TypeOf((*GlueConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueConnection.GlueConnectionPhysicalConnectionRequirements",
+		"@cdktn/provider-aws.glueConnection.GlueConnectionPhysicalConnectionRequirements",
 		reflect.TypeOf((*GlueConnectionPhysicalConnectionRequirements)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueConnection.GlueConnectionPhysicalConnectionRequirementsOutputReference",
+		"@cdktn/provider-aws.glueConnection.GlueConnectionPhysicalConnectionRequirementsOutputReference",
 		reflect.TypeOf((*GlueConnectionPhysicalConnectionRequirementsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},

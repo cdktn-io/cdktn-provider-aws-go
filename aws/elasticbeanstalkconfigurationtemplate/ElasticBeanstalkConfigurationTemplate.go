@@ -5,14 +5,14 @@ package elasticbeanstalkconfigurationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticbeanstalkconfigurationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticbeanstalkconfigurationtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template}.
 type ElasticBeanstalkConfigurationTemplate interface {
 	cdktf.TerraformResource
 	Application() *string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_ElasticBeanstalkConfigurationTemplate) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template} Resource.
 func NewElasticBeanstalkConfigurationTemplate(scope constructs.Construct, id *string, config *ElasticBeanstalkConfigurationTemplateConfig) ElasticBeanstalkConfigurationTemplate {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewElasticBeanstalkConfigurationTemplate(scope constructs.Construct, id *st
 	j := jsiiProxy_ElasticBeanstalkConfigurationTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewElasticBeanstalkConfigurationTemplate(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_configuration_template aws_elastic_beanstalk_configuration_template} Resource.
 func NewElasticBeanstalkConfigurationTemplate_Override(e ElasticBeanstalkConfigurationTemplate, scope constructs.Construct, id *string, config *ElasticBeanstalkConfigurationTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -660,7 +660,7 @@ func ElasticBeanstalkConfigurationTemplate_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func ElasticBeanstalkConfigurationTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func ElasticBeanstalkConfigurationTemplate_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func ElasticBeanstalkConfigurationTemplate_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func ElasticBeanstalkConfigurationTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
+		"@cdktn/provider-aws.elasticBeanstalkConfigurationTemplate.ElasticBeanstalkConfigurationTemplate",
 		"tfResourceType",
 		&returns,
 	)

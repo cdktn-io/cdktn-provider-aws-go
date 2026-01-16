@@ -83,6 +83,10 @@ func (a *jsiiProxy_ApiGatewayDomainName) validatePutMutualTlsAuthenticationParam
 	return nil
 }
 
+func (a *jsiiProxy_ApiGatewayDomainName) validatePutTimeoutsParameters(value *ApiGatewayDomainNameTimeouts) error {
+	return nil
+}
+
 func validateApiGatewayDomainName_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (j *jsiiProxy_ApiGatewayDomainName) validateSetCountParameters(val interfac
 }
 
 func (j *jsiiProxy_ApiGatewayDomainName) validateSetDomainNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName) validateSetEndpointAccessModeParameters(val *string) error {
 	return nil
 }
 

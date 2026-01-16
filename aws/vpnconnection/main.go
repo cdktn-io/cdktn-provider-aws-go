@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		reflect.TypeOf((*VpnConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -261,15 +261,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionConfig",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionConfig",
 		reflect.TypeOf((*VpnConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionRoutes",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionRoutes",
 		reflect.TypeOf((*VpnConnectionRoutes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionRoutesList",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionRoutesList",
 		reflect.TypeOf((*VpnConnectionRoutesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -290,7 +290,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
 		reflect.TypeOf((*VpnConnectionRoutesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -325,15 +325,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptions",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptions",
 		reflect.TypeOf((*VpnConnectionTunnel1LogOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsCloudwatchLogOptions",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsCloudwatchLogOptions",
 		reflect.TypeOf((*VpnConnectionTunnel1LogOptionsCloudwatchLogOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference",
 		reflect.TypeOf((*VpnConnectionTunnel1LogOptionsCloudwatchLogOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bgpLogEnabled", GoGetter: "BgpLogEnabled"},
@@ -383,7 +383,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel1LogOptionsOutputReference",
 		reflect.TypeOf((*VpnConnectionTunnel1LogOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogOptions", GoGetter: "CloudwatchLogOptions"},
@@ -419,15 +419,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptions",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptions",
 		reflect.TypeOf((*VpnConnectionTunnel2LogOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsCloudwatchLogOptions",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsCloudwatchLogOptions",
 		reflect.TypeOf((*VpnConnectionTunnel2LogOptionsCloudwatchLogOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference",
 		reflect.TypeOf((*VpnConnectionTunnel2LogOptionsCloudwatchLogOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bgpLogEnabled", GoGetter: "BgpLogEnabled"},
@@ -477,7 +477,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionTunnel2LogOptionsOutputReference",
 		reflect.TypeOf((*VpnConnectionTunnel2LogOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogOptions", GoGetter: "CloudwatchLogOptions"},
@@ -513,11 +513,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionVgwTelemetry",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionVgwTelemetry",
 		reflect.TypeOf((*VpnConnectionVgwTelemetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionVgwTelemetryList",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionVgwTelemetryList",
 		reflect.TypeOf((*VpnConnectionVgwTelemetryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -538,7 +538,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionVgwTelemetryOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionVgwTelemetryOutputReference",
 		reflect.TypeOf((*VpnConnectionVgwTelemetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptedRouteCount", GoGetter: "AcceptedRouteCount"},

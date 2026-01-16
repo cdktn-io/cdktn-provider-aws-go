@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		reflect.TypeOf((*DataAwsRdsClusterParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroupConfig",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroupConfig",
 		reflect.TypeOf((*DataAwsRdsClusterParameterGroupConfig)(nil)).Elem(),
 	)
 }

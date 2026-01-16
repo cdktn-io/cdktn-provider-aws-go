@@ -5,14 +5,14 @@ package sagemakerdevicefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerdevicefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerdevicefleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet}.
 type SagemakerDeviceFleet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_SagemakerDeviceFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
 func NewSagemakerDeviceFleet(scope constructs.Construct, id *string, config *SagemakerDeviceFleetConfig) SagemakerDeviceFleet {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewSagemakerDeviceFleet(scope constructs.Construct, id *string, config *Sag
 	j := jsiiProxy_SagemakerDeviceFleet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewSagemakerDeviceFleet(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_device_fleet aws_sagemaker_device_fleet} Resource.
 func NewSagemakerDeviceFleet_Override(s SagemakerDeviceFleet, scope constructs.Construct, id *string, config *SagemakerDeviceFleetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -716,7 +716,7 @@ func SagemakerDeviceFleet_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func SagemakerDeviceFleet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func SagemakerDeviceFleet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func SagemakerDeviceFleet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func SagemakerDeviceFleet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleet",
 		"tfResourceType",
 		&returns,
 	)

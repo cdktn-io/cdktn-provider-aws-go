@@ -5,14 +5,14 @@ package lambdapermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdapermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdapermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_permission aws_lambda_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_permission aws_lambda_permission}.
 type LambdaPermission interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -54,6 +54,9 @@ type LambdaPermission interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InvokedViaFunctionUrl() interface{}
+	SetInvokedViaFunctionUrl(val interface{})
+	InvokedViaFunctionUrlInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -146,6 +149,7 @@ type LambdaPermission interface {
 	ResetEventSourceToken()
 	ResetFunctionUrlAuthType()
 	ResetId()
+	ResetInvokedViaFunctionUrl()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -349,6 +353,26 @@ func (j *jsiiProxy_LambdaPermission) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaPermission) InvokedViaFunctionUrl() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"invokedViaFunctionUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaPermission) InvokedViaFunctionUrlInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"invokedViaFunctionUrlInput",
 		&returns,
 	)
 	return returns
@@ -595,7 +619,7 @@ func (j *jsiiProxy_LambdaPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaPermissionConfig) LambdaPermission {
 	_init_.Initialize()
 
@@ -605,7 +629,7 @@ func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaP
 	j := jsiiProxy_LambdaPermission{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,12 +637,12 @@ func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission_Override(l LambdaPermission, scope constructs.Construct, id *string, config *LambdaPermissionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -713,6 +737,17 @@ func (j *jsiiProxy_LambdaPermission)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaPermission)SetInvokedViaFunctionUrl(val interface{}) {
+	if err := j.validateSetInvokedViaFunctionUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"invokedViaFunctionUrl",
 		val,
 	)
 }
@@ -845,7 +880,7 @@ func LambdaPermission_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -880,7 +915,7 @@ func LambdaPermission_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -899,7 +934,7 @@ func LambdaPermission_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +953,7 @@ func LambdaPermission_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +966,7 @@ func LambdaPermission_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		"tfResourceType",
 		&returns,
 	)
@@ -1208,6 +1243,14 @@ func (l *jsiiProxy_LambdaPermission) ResetId() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaPermission) ResetInvokedViaFunctionUrl() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetInvokedViaFunctionUrl",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package macie2member
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2member/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2member/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_member aws_macie2_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_member aws_macie2_member}.
 type Macie2Member interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_Macie2Member) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_member aws_macie2_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_member aws_macie2_member} Resource.
 func NewMacie2Member(scope constructs.Construct, id *string, config *Macie2MemberConfig) Macie2Member {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewMacie2Member(scope constructs.Construct, id *string, config *Macie2Membe
 	j := jsiiProxy_Macie2Member{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -632,12 +632,12 @@ func NewMacie2Member(scope constructs.Construct, id *string, config *Macie2Membe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_member aws_macie2_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_member aws_macie2_member} Resource.
 func NewMacie2Member_Override(m Macie2Member, scope constructs.Construct, id *string, config *Macie2MemberConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -831,7 +831,7 @@ func Macie2Member_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -866,7 +866,7 @@ func Macie2Member_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func Macie2Member_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -904,7 +904,7 @@ func Macie2Member_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func Macie2Member_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.macie2Member.Macie2Member",
+		"@cdktn/provider-aws.macie2Member.Macie2Member",
 		"tfResourceType",
 		&returns,
 	)

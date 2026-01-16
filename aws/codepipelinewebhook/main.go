@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhook",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhook",
 		reflect.TypeOf((*CodepipelineWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookAuthenticationConfiguration",
 		reflect.TypeOf((*CodepipelineWebhookAuthenticationConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookAuthenticationConfigurationOutputReference",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookAuthenticationConfigurationOutputReference",
 		reflect.TypeOf((*CodepipelineWebhookAuthenticationConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedIpRange", GoGetter: "AllowedIpRange"},
@@ -134,15 +134,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookConfig",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookConfig",
 		reflect.TypeOf((*CodepipelineWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookFilter",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookFilter",
 		reflect.TypeOf((*CodepipelineWebhookFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookFilterList",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookFilterList",
 		reflect.TypeOf((*CodepipelineWebhookFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codepipelineWebhook.CodepipelineWebhookFilterOutputReference",
+		"@cdktn/provider-aws.codepipelineWebhook.CodepipelineWebhookFilterOutputReference",
 		reflect.TypeOf((*CodepipelineWebhookFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

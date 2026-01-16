@@ -5,14 +5,14 @@ package lambdafunctionurl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunctionurl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunctionurl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_url aws_lambda_function_url}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_url aws_lambda_function_url}.
 type LambdaFunctionUrl interface {
 	cdktf.TerraformResource
 	AuthorizationType() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_LambdaFunctionUrl) UrlId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_url aws_lambda_function_url} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_url aws_lambda_function_url} Resource.
 func NewLambdaFunctionUrl(scope constructs.Construct, id *string, config *LambdaFunctionUrlConfig) LambdaFunctionUrl {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewLambdaFunctionUrl(scope constructs.Construct, id *string, config *Lambda
 	j := jsiiProxy_LambdaFunctionUrl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewLambdaFunctionUrl(scope constructs.Construct, id *string, config *Lambda
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_url aws_lambda_function_url} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_url aws_lambda_function_url} Resource.
 func NewLambdaFunctionUrl_Override(l LambdaFunctionUrl, scope constructs.Construct, id *string, config *LambdaFunctionUrlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -682,7 +682,7 @@ func LambdaFunctionUrl_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func LambdaFunctionUrl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func LambdaFunctionUrl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func LambdaFunctionUrl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func LambdaFunctionUrl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		"tfResourceType",
 		&returns,
 	)

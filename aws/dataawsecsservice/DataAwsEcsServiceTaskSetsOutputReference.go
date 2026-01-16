@@ -5,9 +5,9 @@ package dataawsecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -258,7 +258,7 @@ func NewDataAwsEcsServiceTaskSetsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsEcsServiceTaskSetsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsService.DataAwsEcsServiceTaskSetsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsService.DataAwsEcsServiceTaskSetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -270,7 +270,7 @@ func NewDataAwsEcsServiceTaskSetsOutputReference_Override(d DataAwsEcsServiceTas
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsService.DataAwsEcsServiceTaskSetsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsService.DataAwsEcsServiceTaskSetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

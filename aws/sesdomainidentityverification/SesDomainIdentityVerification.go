@@ -5,14 +5,14 @@ package sesdomainidentityverification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesdomainidentityverification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesdomainidentityverification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification}.
 type SesDomainIdentityVerification interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -392,7 +392,7 @@ func (j *jsiiProxy_SesDomainIdentityVerification) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
 func NewSesDomainIdentityVerification(scope constructs.Construct, id *string, config *SesDomainIdentityVerificationConfig) SesDomainIdentityVerification {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewSesDomainIdentityVerification(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SesDomainIdentityVerification{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewSesDomainIdentityVerification(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_identity_verification aws_ses_domain_identity_verification} Resource.
 func NewSesDomainIdentityVerification_Override(s SesDomainIdentityVerification, scope constructs.Construct, id *string, config *SesDomainIdentityVerificationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -532,7 +532,7 @@ func SesDomainIdentityVerification_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func SesDomainIdentityVerification_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func SesDomainIdentityVerification_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func SesDomainIdentityVerification_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func SesDomainIdentityVerification_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		"tfResourceType",
 		&returns,
 	)

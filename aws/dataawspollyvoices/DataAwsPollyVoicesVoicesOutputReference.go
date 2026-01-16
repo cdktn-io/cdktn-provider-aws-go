@@ -5,9 +5,9 @@ package dataawspollyvoices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawspollyvoices/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawspollyvoices/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -236,7 +236,7 @@ func NewDataAwsPollyVoicesVoicesOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsPollyVoicesVoicesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,7 +248,7 @@ func NewDataAwsPollyVoicesVoicesOutputReference_Override(d DataAwsPollyVoicesVoi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

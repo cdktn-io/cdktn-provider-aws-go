@@ -5,9 +5,9 @@ package dataawsconnectuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataAwsConnectUserPhoneConfigOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsConnectUserPhoneConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataAwsConnectUserPhoneConfigOutputReference_Override(d DataAwsConnectUs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

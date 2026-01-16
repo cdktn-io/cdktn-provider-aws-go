@@ -5,9 +5,9 @@ package ec2instancestate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2instancestate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2instancestate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEc2InstanceStateTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_Ec2InstanceStateTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2InstanceState.Ec2InstanceStateTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2InstanceState.Ec2InstanceStateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEc2InstanceStateTimeoutsOutputReference_Override(e Ec2InstanceStateTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2InstanceState.Ec2InstanceStateTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2InstanceState.Ec2InstanceStateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

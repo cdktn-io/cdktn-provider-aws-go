@@ -5,9 +5,9 @@ package cloudtraileventdatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudtraileventdatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudtraileventdatastore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewCloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReferenc
 	j := jsiiProxy_CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReference",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewCloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReferenc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReference",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

@@ -5,9 +5,9 @@ package dataawsecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecstaskdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -225,7 +225,7 @@ func NewDataAwsEcsTaskDefinitionVolumeOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsEcsTaskDefinitionVolumeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionVolumeOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -237,7 +237,7 @@ func NewDataAwsEcsTaskDefinitionVolumeOutputReference_Override(d DataAwsEcsTaskD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionVolumeOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

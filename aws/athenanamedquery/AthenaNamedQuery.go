@@ -5,14 +5,14 @@ package athenanamedquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenanamedquery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenanamedquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_named_query aws_athena_named_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_named_query aws_athena_named_query}.
 type AthenaNamedQuery interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_AthenaNamedQuery) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
 func NewAthenaNamedQuery(scope constructs.Construct, id *string, config *AthenaNamedQueryConfig) AthenaNamedQuery {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewAthenaNamedQuery(scope constructs.Construct, id *string, config *AthenaN
 	j := jsiiProxy_AthenaNamedQuery{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewAthenaNamedQuery(scope constructs.Construct, id *string, config *AthenaN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_named_query aws_athena_named_query} Resource.
 func NewAthenaNamedQuery_Override(a AthenaNamedQuery, scope constructs.Construct, id *string, config *AthenaNamedQueryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -635,7 +635,7 @@ func AthenaNamedQuery_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func AthenaNamedQuery_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func AthenaNamedQuery_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func AthenaNamedQuery_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func AthenaNamedQuery_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.athenaNamedQuery.AthenaNamedQuery",
+		"@cdktn/provider-aws.athenaNamedQuery.AthenaNamedQuery",
 		"tfResourceType",
 		&returns,
 	)

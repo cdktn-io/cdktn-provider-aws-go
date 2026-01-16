@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociation",
+		"@cdktn/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociation",
 		reflect.TypeOf((*VpcEndpointSubnetAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationConfig",
+		"@cdktn/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationConfig",
 		reflect.TypeOf((*VpcEndpointSubnetAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeouts",
+		"@cdktn/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeouts",
 		reflect.TypeOf((*VpcEndpointSubnetAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEndpointSubnetAssociation.VpcEndpointSubnetAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*VpcEndpointSubnetAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

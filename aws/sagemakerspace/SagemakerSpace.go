@@ -5,14 +5,14 @@ package sagemakerspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_space aws_sagemaker_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_space aws_sagemaker_space}.
 type SagemakerSpace interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_SagemakerSpace) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_space aws_sagemaker_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_space aws_sagemaker_space} Resource.
 func NewSagemakerSpace(scope constructs.Construct, id *string, config *SagemakerSpaceConfig) SagemakerSpace {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewSagemakerSpace(scope constructs.Construct, id *string, config *Sagemaker
 	j := jsiiProxy_SagemakerSpace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -575,12 +575,12 @@ func NewSagemakerSpace(scope constructs.Construct, id *string, config *Sagemaker
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_space aws_sagemaker_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_space aws_sagemaker_space} Resource.
 func NewSagemakerSpace_Override(s SagemakerSpace, scope constructs.Construct, id *string, config *SagemakerSpaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -741,7 +741,7 @@ func SagemakerSpace_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -776,7 +776,7 @@ func SagemakerSpace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func SagemakerSpace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func SagemakerSpace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func SagemakerSpace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerSpace.SagemakerSpace",
+		"@cdktn/provider-aws.sagemakerSpace.SagemakerSpace",
 		"tfResourceType",
 		&returns,
 	)

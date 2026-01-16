@@ -5,14 +5,14 @@ package autoscalingnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalingnotification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingnotification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_notification aws_autoscaling_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_notification aws_autoscaling_notification}.
 type AutoscalingNotification interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_AutoscalingNotification) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
 func NewAutoscalingNotification(scope constructs.Construct, id *string, config *AutoscalingNotificationConfig) AutoscalingNotification {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewAutoscalingNotification(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AutoscalingNotification{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewAutoscalingNotification(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_notification aws_autoscaling_notification} Resource.
 func NewAutoscalingNotification_Override(a AutoscalingNotification, scope constructs.Construct, id *string, config *AutoscalingNotificationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -565,7 +565,7 @@ func AutoscalingNotification_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func AutoscalingNotification_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func AutoscalingNotification_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func AutoscalingNotification_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func AutoscalingNotification_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.autoscalingNotification.AutoscalingNotification",
+		"@cdktn/provider-aws.autoscalingNotification.AutoscalingNotification",
 		"tfResourceType",
 		&returns,
 	)

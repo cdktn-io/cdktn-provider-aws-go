@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRegion.DataAwsRegion",
+		"@cdktn/provider-aws.dataAwsRegion.DataAwsRegion",
 		reflect.TypeOf((*DataAwsRegion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRegion.DataAwsRegionConfig",
+		"@cdktn/provider-aws.dataAwsRegion.DataAwsRegionConfig",
 		reflect.TypeOf((*DataAwsRegionConfig)(nil)).Elem(),
 	)
 }

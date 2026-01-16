@@ -5,9 +5,9 @@ package customerprofilesprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/customerprofilesprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/customerprofilesprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewCustomerprofilesProfileAddressOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_CustomerprofilesProfileAddressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewCustomerprofilesProfileAddressOutputReference_Override(c Customerprofile
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

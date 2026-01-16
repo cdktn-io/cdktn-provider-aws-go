@@ -5,14 +5,14 @@ package dataawss3bucketobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawss3bucketobject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3bucketobject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object}.
 type DataAwsS3BucketObject interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_DataAwsS3BucketObject) WebsiteRedirectLocation() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object} Data Source.
 func NewDataAwsS3BucketObject(scope constructs.Construct, id *string, config *DataAwsS3BucketObjectConfig) DataAwsS3BucketObject {
 	_init_.Initialize()
 
@@ -648,7 +648,7 @@ func NewDataAwsS3BucketObject(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsS3BucketObject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -656,12 +656,12 @@ func NewDataAwsS3BucketObject(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_bucket_object aws_s3_bucket_object} Data Source.
 func NewDataAwsS3BucketObject_Override(d DataAwsS3BucketObject, scope constructs.Construct, id *string, config *DataAwsS3BucketObjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -800,7 +800,7 @@ func DataAwsS3BucketObject_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func DataAwsS3BucketObject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func DataAwsS3BucketObject_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func DataAwsS3BucketObject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func DataAwsS3BucketObject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
+		"@cdktn/provider-aws.dataAwsS3BucketObject.DataAwsS3BucketObject",
 		"tfResourceType",
 		&returns,
 	)

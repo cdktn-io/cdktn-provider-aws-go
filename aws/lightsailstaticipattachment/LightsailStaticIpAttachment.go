@@ -5,14 +5,14 @@ package lightsailstaticipattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailstaticipattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailstaticipattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment}.
 type LightsailStaticIpAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_LightsailStaticIpAttachment) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
 func NewLightsailStaticIpAttachment(scope constructs.Construct, id *string, config *LightsailStaticIpAttachmentConfig) LightsailStaticIpAttachment {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewLightsailStaticIpAttachment(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_LightsailStaticIpAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewLightsailStaticIpAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
 func NewLightsailStaticIpAttachment_Override(l LightsailStaticIpAttachment, scope constructs.Construct, id *string, config *LightsailStaticIpAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -542,7 +542,7 @@ func LightsailStaticIpAttachment_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func LightsailStaticIpAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func LightsailStaticIpAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func LightsailStaticIpAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func LightsailStaticIpAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
+		"@cdktn/provider-aws.lightsailStaticIpAttachment.LightsailStaticIpAttachment",
 		"tfResourceType",
 		&returns,
 	)

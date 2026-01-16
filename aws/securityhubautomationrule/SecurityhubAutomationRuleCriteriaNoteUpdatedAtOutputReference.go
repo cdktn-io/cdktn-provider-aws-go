@@ -5,9 +5,9 @@ package securityhubautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubautomationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference(terraformR
 	j := jsiiProxy_SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference_Override(s
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubAutomationRule.SecurityhubAutomationRuleCriteriaNoteUpdatedAtOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

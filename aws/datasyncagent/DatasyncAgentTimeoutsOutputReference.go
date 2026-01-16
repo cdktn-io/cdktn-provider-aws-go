@@ -5,9 +5,9 @@ package datasyncagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasyncagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasyncagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDatasyncAgentTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_DatasyncAgentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDatasyncAgentTimeoutsOutputReference_Override(d DatasyncAgentTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

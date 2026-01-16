@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplate",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplate",
 		reflect.TypeOf((*PinpointEmailTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,19 +77,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateConfig",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateConfig",
 		reflect.TypeOf((*PinpointEmailTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeader",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeader",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplateHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderList",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderList",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplateHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplateHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateList",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateList",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateOutputReference",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateOutputReference",
 		reflect.TypeOf((*PinpointEmailTemplateEmailTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

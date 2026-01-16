@@ -5,14 +5,14 @@ package cognitoresourceserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoresourceserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoresourceserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_resource_server aws_cognito_resource_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server}.
 type CognitoResourceServer interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_CognitoResourceServer) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
 func NewCognitoResourceServer(scope constructs.Construct, id *string, config *CognitoResourceServerConfig) CognitoResourceServer {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewCognitoResourceServer(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_CognitoResourceServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewCognitoResourceServer(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
 func NewCognitoResourceServer_Override(c CognitoResourceServer, scope constructs.Construct, id *string, config *CognitoResourceServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -600,7 +600,7 @@ func CognitoResourceServer_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func CognitoResourceServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func CognitoResourceServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func CognitoResourceServer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func CognitoResourceServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package ec2transitgatewayvpcattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2transitgatewayvpcattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgatewayvpcattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment}.
 type Ec2TransitGatewayVpcAttachment interface {
 	cdktf.TerraformResource
 	ApplianceModeSupport() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) VpcOwnerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Resource.
 func NewEc2TransitGatewayVpcAttachment(scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentConfig) Ec2TransitGatewayVpcAttachment {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewEc2TransitGatewayVpcAttachment(scope constructs.Construct, id *string, c
 	j := jsiiProxy_Ec2TransitGatewayVpcAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewEc2TransitGatewayVpcAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Resource.
 func NewEc2TransitGatewayVpcAttachment_Override(e Ec2TransitGatewayVpcAttachment, scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -867,7 +867,7 @@ func Ec2TransitGatewayVpcAttachment_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -902,7 +902,7 @@ func Ec2TransitGatewayVpcAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func Ec2TransitGatewayVpcAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -940,7 +940,7 @@ func Ec2TransitGatewayVpcAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -953,7 +953,7 @@ func Ec2TransitGatewayVpcAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachment.Ec2TransitGatewayVpcAttachment",
 		"tfResourceType",
 		&returns,
 	)

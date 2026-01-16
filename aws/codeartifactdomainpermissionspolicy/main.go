@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactDomainPermissionsPolicy.CodeartifactDomainPermissionsPolicy",
+		"@cdktn/provider-aws.codeartifactDomainPermissionsPolicy.CodeartifactDomainPermissionsPolicy",
 		reflect.TypeOf((*CodeartifactDomainPermissionsPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeartifactDomainPermissionsPolicy.CodeartifactDomainPermissionsPolicyConfig",
+		"@cdktn/provider-aws.codeartifactDomainPermissionsPolicy.CodeartifactDomainPermissionsPolicyConfig",
 		reflect.TypeOf((*CodeartifactDomainPermissionsPolicyConfig)(nil)).Elem(),
 	)
 }

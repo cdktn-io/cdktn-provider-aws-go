@@ -5,14 +5,14 @@ package mqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mq_broker aws_mq_broker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mq_broker aws_mq_broker}.
 type MqBroker interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -914,7 +914,7 @@ func (j *jsiiProxy_MqBroker) UserInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig) MqBroker {
 	_init_.Initialize()
 
@@ -924,7 +924,7 @@ func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig)
 	j := jsiiProxy_MqBroker{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -932,12 +932,12 @@ func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker_Override(m MqBroker, scope constructs.Construct, id *string, config *MqBrokerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1219,7 +1219,7 @@ func MqBroker_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1254,7 +1254,7 @@ func MqBroker_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1273,7 +1273,7 @@ func MqBroker_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1292,7 +1292,7 @@ func MqBroker_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1305,7 +1305,7 @@ func MqBroker_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mqBroker.MqBroker",
+		"@cdktn/provider-aws.mqBroker.MqBroker",
 		"tfResourceType",
 		&returns,
 	)

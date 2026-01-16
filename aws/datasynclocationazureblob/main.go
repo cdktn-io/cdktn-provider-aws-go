@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		reflect.TypeOf((*DatasyncLocationAzureBlob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTier", GoGetter: "AccessTier"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobConfig",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobConfig",
 		reflect.TypeOf((*DatasyncLocationAzureBlobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfiguration",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfiguration",
 		reflect.TypeOf((*DatasyncLocationAzureBlobSasConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
 		reflect.TypeOf((*DatasyncLocationAzureBlobSasConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

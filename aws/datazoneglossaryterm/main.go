@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTerm",
 		reflect.TypeOf((*DatazoneGlossaryTerm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermConfig",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermConfig",
 		reflect.TypeOf((*DatazoneGlossaryTermConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations",
 		reflect.TypeOf((*DatazoneGlossaryTermTermRelations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
 		reflect.TypeOf((*DatazoneGlossaryTermTermRelationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsOutputReference",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsOutputReference",
 		reflect.TypeOf((*DatazoneGlossaryTermTermRelationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classifies", GoGetter: "Classifies"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeouts",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeouts",
 		reflect.TypeOf((*DatazoneGlossaryTermTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneGlossaryTermTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

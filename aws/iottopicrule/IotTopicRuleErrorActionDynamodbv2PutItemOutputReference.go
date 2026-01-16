@@ -5,9 +5,9 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewIotTopicRuleErrorActionDynamodbv2PutItemOutputReference(terraformResourc
 	j := jsiiProxy_IotTopicRuleErrorActionDynamodbv2PutItemOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionDynamodbv2PutItemOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionDynamodbv2PutItemOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewIotTopicRuleErrorActionDynamodbv2PutItemOutputReference_Override(i IotTo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionDynamodbv2PutItemOutputReference",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionDynamodbv2PutItemOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

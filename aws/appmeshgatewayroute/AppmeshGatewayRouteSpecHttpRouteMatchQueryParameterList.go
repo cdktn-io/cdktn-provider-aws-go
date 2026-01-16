@@ -5,9 +5,9 @@ package appmeshgatewayroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshgatewayroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList(terraformResourc
 	j := jsiiProxy_AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList_Override(a Appme
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList",
+		"@cdktn/provider-aws.appmeshGatewayRoute.AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneEventSubscription.NeptuneEventSubscription",
+		"@cdktn/provider-aws.neptuneEventSubscription.NeptuneEventSubscription",
 		reflect.TypeOf((*NeptuneEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionConfig",
+		"@cdktn/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionConfig",
 		reflect.TypeOf((*NeptuneEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionTimeouts",
+		"@cdktn/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionTimeouts",
 		reflect.TypeOf((*NeptuneEventSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptuneEventSubscription.NeptuneEventSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*NeptuneEventSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

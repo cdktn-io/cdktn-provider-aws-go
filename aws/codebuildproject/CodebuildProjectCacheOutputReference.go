@@ -5,14 +5,17 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
 type CodebuildProjectCacheOutputReference interface {
 	cdktf.ComplexObject
+	CacheNamespace() *string
+	SetCacheNamespace(val *string)
+	CacheNamespaceInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -73,6 +76,7 @@ type CodebuildProjectCacheOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	ResetCacheNamespace()
 	ResetLocation()
 	ResetModes()
 	ResetType()
@@ -89,6 +93,26 @@ type CodebuildProjectCacheOutputReference interface {
 // The jsii proxy struct for CodebuildProjectCacheOutputReference
 type jsiiProxy_CodebuildProjectCacheOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_CodebuildProjectCacheOutputReference) CacheNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cacheNamespace",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodebuildProjectCacheOutputReference) CacheNamespaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cacheNamespaceInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CodebuildProjectCacheOutputReference) ComplexObjectIndex() interface{} {
@@ -231,7 +255,7 @@ func NewCodebuildProjectCacheOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_CodebuildProjectCacheOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectCacheOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectCacheOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,9 +267,20 @@ func NewCodebuildProjectCacheOutputReference_Override(c CodebuildProjectCacheOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectCacheOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectCacheOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
+	)
+}
+
+func (j *jsiiProxy_CodebuildProjectCacheOutputReference)SetCacheNamespace(val *string) {
+	if err := j.validateSetCacheNamespaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cacheNamespace",
+		val,
 	)
 }
 
@@ -521,6 +556,14 @@ func (c *jsiiProxy_CodebuildProjectCacheOutputReference) InterpolationForAttribu
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CodebuildProjectCacheOutputReference) ResetCacheNamespace() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCacheNamespace",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CodebuildProjectCacheOutputReference) ResetLocation() {

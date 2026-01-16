@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingA",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingA",
 		reflect.TypeOf((*S3BucketLoggingA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,19 +86,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingAConfig",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingAConfig",
 		reflect.TypeOf((*S3BucketLoggingAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrant",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrant",
 		reflect.TypeOf((*S3BucketLoggingTargetGrant)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantGrantee",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantGrantee",
 		reflect.TypeOf((*S3BucketLoggingTargetGrantGrantee)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantGranteeOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantGranteeOutputReference",
 		reflect.TypeOf((*S3BucketLoggingTargetGrantGranteeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,7 +142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantList",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantList",
 		reflect.TypeOf((*S3BucketLoggingTargetGrantList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetGrantOutputReference",
 		reflect.TypeOf((*S3BucketLoggingTargetGrantOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormat",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormat",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormat)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatOutputReference",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormatOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormatPartitionedPrefix)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -283,11 +283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatSimplePrefix",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatSimplePrefix",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormatSimplePrefix)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatSimplePrefixOutputReference",
+		"@cdktn/provider-aws.s3BucketLogging.S3BucketLoggingTargetObjectKeyFormatSimplePrefixOutputReference",
 		reflect.TypeOf((*S3BucketLoggingTargetObjectKeyFormatSimplePrefixOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

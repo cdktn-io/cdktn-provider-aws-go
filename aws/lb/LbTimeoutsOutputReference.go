@@ -5,9 +5,9 @@ package lb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLbTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_LbTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbTimeoutsOutputReference",
+		"@cdktn/provider-aws.lb.LbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLbTimeoutsOutputReference_Override(l LbTimeoutsOutputReference, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbTimeoutsOutputReference",
+		"@cdktn/provider-aws.lb.LbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

@@ -5,9 +5,9 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsInstanceFilterList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_DataAwsInstanceFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceFilterList",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsInstanceFilterList_Override(d DataAwsInstanceFilterList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceFilterList",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

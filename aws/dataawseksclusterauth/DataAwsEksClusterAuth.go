@@ -5,14 +5,14 @@ package dataawseksclusterauth
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksclusterauth/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksclusterauth/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth}.
 type DataAwsEksClusterAuth interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsEksClusterAuth) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
 func NewDataAwsEksClusterAuth(scope constructs.Construct, id *string, config *DataAwsEksClusterAuthConfig) DataAwsEksClusterAuth {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsEksClusterAuth(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsEksClusterAuth{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsEksClusterAuth(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
 func NewDataAwsEksClusterAuth_Override(d DataAwsEksClusterAuth, scope constructs.Construct, id *string, config *DataAwsEksClusterAuthConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsEksClusterAuth_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsEksClusterAuth_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsEksClusterAuth_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsEksClusterAuth_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsEksClusterAuth_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
+		"@cdktn/provider-aws.dataAwsEksClusterAuth.DataAwsEksClusterAuth",
 		"tfResourceType",
 		&returns,
 	)

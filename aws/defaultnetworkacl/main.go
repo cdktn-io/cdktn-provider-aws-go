@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		reflect.TypeOf((*DefaultNetworkAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclConfig",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclConfig",
 		reflect.TypeOf((*DefaultNetworkAclConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgress",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgress",
 		reflect.TypeOf((*DefaultNetworkAclEgress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressList",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressList",
 		reflect.TypeOf((*DefaultNetworkAclEgressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
 		reflect.TypeOf((*DefaultNetworkAclEgressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngress",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngress",
 		reflect.TypeOf((*DefaultNetworkAclIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngressList",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngressList",
 		reflect.TypeOf((*DefaultNetworkAclIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -201,7 +201,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngressOutputReference",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclIngressOutputReference",
 		reflect.TypeOf((*DefaultNetworkAclIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},

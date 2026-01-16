@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		reflect.TypeOf((*VpclatticeTargetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfig",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfig",
 		reflect.TypeOf((*VpclatticeTargetGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigA",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigA",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigAOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigAOutputReference",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,15 +151,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheck",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheck",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcher",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcher",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigHealthCheckMatcher)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcherOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckMatcherOutputReference",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigHealthCheckMatcherOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
 		reflect.TypeOf((*VpclatticeTargetGroupConfigHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -257,11 +257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupTimeouts",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupTimeouts",
 		reflect.TypeOf((*VpclatticeTargetGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupTimeoutsOutputReference",
 		reflect.TypeOf((*VpclatticeTargetGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

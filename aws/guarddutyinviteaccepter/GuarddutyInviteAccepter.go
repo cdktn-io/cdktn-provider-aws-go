@@ -5,14 +5,14 @@ package guarddutyinviteaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutyinviteaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutyinviteaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter}.
 type GuarddutyInviteAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_GuarddutyInviteAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) GuarddutyInviteAccepter {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GuarddutyInviteAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewGuarddutyInviteAccepter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_invite_accepter aws_guardduty_invite_accepter} Resource.
 func NewGuarddutyInviteAccepter_Override(g GuarddutyInviteAccepter, scope constructs.Construct, id *string, config *GuarddutyInviteAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -555,7 +555,7 @@ func GuarddutyInviteAccepter_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func GuarddutyInviteAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func GuarddutyInviteAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func GuarddutyInviteAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func GuarddutyInviteAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		"tfResourceType",
 		&returns,
 	)

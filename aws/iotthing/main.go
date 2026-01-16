@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThing.IotThing",
+		"@cdktn/provider-aws.iotThing.IotThing",
 		reflect.TypeOf((*IotThing)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThing.IotThingConfig",
+		"@cdktn/provider-aws.iotThing.IotThingConfig",
 		reflect.TypeOf((*IotThingConfig)(nil)).Elem(),
 	)
 }

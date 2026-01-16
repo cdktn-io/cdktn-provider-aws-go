@@ -5,14 +5,14 @@ package evidentlylaunch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlylaunch/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlylaunch/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_launch aws_evidently_launch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_launch aws_evidently_launch}.
 type EvidentlyLaunch interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -648,7 +648,7 @@ func (j *jsiiProxy_EvidentlyLaunch) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_launch aws_evidently_launch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_launch aws_evidently_launch} Resource.
 func NewEvidentlyLaunch(scope constructs.Construct, id *string, config *EvidentlyLaunchConfig) EvidentlyLaunch {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewEvidentlyLaunch(scope constructs.Construct, id *string, config *Evidentl
 	j := jsiiProxy_EvidentlyLaunch{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -666,12 +666,12 @@ func NewEvidentlyLaunch(scope constructs.Construct, id *string, config *Evidentl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_launch aws_evidently_launch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_launch aws_evidently_launch} Resource.
 func NewEvidentlyLaunch_Override(e EvidentlyLaunch, scope constructs.Construct, id *string, config *EvidentlyLaunchConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -843,7 +843,7 @@ func EvidentlyLaunch_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func EvidentlyLaunch_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func EvidentlyLaunch_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func EvidentlyLaunch_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func EvidentlyLaunch_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.evidentlyLaunch.EvidentlyLaunch",
+		"@cdktn/provider-aws.evidentlyLaunch.EvidentlyLaunch",
 		"tfResourceType",
 		&returns,
 	)

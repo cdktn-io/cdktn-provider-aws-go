@@ -5,14 +5,14 @@ package memorydbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group}.
 type MemorydbParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_MemorydbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group} Resource.
 func NewMemorydbParameterGroup(scope constructs.Construct, id *string, config *MemorydbParameterGroupConfig) MemorydbParameterGroup {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewMemorydbParameterGroup(scope constructs.Construct, id *string, config *M
 	j := jsiiProxy_MemorydbParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewMemorydbParameterGroup(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_parameter_group aws_memorydb_parameter_group} Resource.
 func NewMemorydbParameterGroup_Override(m MemorydbParameterGroup, scope constructs.Construct, id *string, config *MemorydbParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -707,7 +707,7 @@ func MemorydbParameterGroup_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func MemorydbParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func MemorydbParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func MemorydbParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func MemorydbParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

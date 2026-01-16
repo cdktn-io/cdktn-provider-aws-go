@@ -5,14 +5,14 @@ package swfdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/swfdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/swfdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/swf_domain aws_swf_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/swf_domain aws_swf_domain}.
 type SwfDomain interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_SwfDomain) WorkflowExecutionRetentionPeriodInDaysInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/swf_domain aws_swf_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/swf_domain aws_swf_domain} Resource.
 func NewSwfDomain(scope constructs.Construct, id *string, config *SwfDomainConfig) SwfDomain {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewSwfDomain(scope constructs.Construct, id *string, config *SwfDomainConfi
 	j := jsiiProxy_SwfDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewSwfDomain(scope constructs.Construct, id *string, config *SwfDomainConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/swf_domain aws_swf_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/swf_domain aws_swf_domain} Resource.
 func NewSwfDomain_Override(s SwfDomain, scope constructs.Construct, id *string, config *SwfDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -683,7 +683,7 @@ func SwfDomain_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func SwfDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func SwfDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func SwfDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func SwfDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.swfDomain.SwfDomain",
+		"@cdktn/provider-aws.swfDomain.SwfDomain",
 		"tfResourceType",
 		&returns,
 	)

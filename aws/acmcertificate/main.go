@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificate",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificate",
 		reflect.TypeOf((*AcmCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,15 +120,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateConfig",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateConfig",
 		reflect.TypeOf((*AcmCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateDomainValidationOptions",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateDomainValidationOptions",
 		reflect.TypeOf((*AcmCertificateDomainValidationOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateDomainValidationOptionsList",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateDomainValidationOptionsList",
 		reflect.TypeOf((*AcmCertificateDomainValidationOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateDomainValidationOptionsOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateDomainValidationOptionsOutputReference",
 		reflect.TypeOf((*AcmCertificateDomainValidationOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateOptions",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateOptions",
 		reflect.TypeOf((*AcmCertificateOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
 		reflect.TypeOf((*AcmCertificateOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateTransparencyLoggingPreference", GoGetter: "CertificateTransparencyLoggingPreference"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateRenewalSummary",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateRenewalSummary",
 		reflect.TypeOf((*AcmCertificateRenewalSummary)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateRenewalSummaryList",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateRenewalSummaryList",
 		reflect.TypeOf((*AcmCertificateRenewalSummaryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -252,7 +252,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateRenewalSummaryOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateRenewalSummaryOutputReference",
 		reflect.TypeOf((*AcmCertificateRenewalSummaryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateValidationOption",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateValidationOption",
 		reflect.TypeOf((*AcmCertificateValidationOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateValidationOptionList",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateValidationOptionList",
 		reflect.TypeOf((*AcmCertificateValidationOptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateValidationOptionOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateValidationOptionOutputReference",
 		reflect.TypeOf((*AcmCertificateValidationOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

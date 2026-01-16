@@ -5,14 +5,14 @@ package oamsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/oamsink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/oamsink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink aws_oam_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink aws_oam_sink}.
 type OamSink interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_OamSink) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink aws_oam_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink aws_oam_sink} Resource.
 func NewOamSink(scope constructs.Construct, id *string, config *OamSinkConfig) OamSink {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewOamSink(scope constructs.Construct, id *string, config *OamSinkConfig) O
 	j := jsiiProxy_OamSink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewOamSink(scope constructs.Construct, id *string, config *OamSinkConfig) O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink aws_oam_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink aws_oam_sink} Resource.
 func NewOamSink_Override(o OamSink, scope constructs.Construct, id *string, config *OamSinkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -613,7 +613,7 @@ func OamSink_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func OamSink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func OamSink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func OamSink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func OamSink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		"tfResourceType",
 		&returns,
 	)

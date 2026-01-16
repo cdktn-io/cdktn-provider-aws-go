@@ -5,14 +5,14 @@ package organizationsdelegatedadministrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsdelegatedadministrator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsdelegatedadministrator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator}.
 type OrganizationsDelegatedAdministrator interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -433,7 +433,7 @@ func (j *jsiiProxy_OrganizationsDelegatedAdministrator) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator} Resource.
 func NewOrganizationsDelegatedAdministrator(scope constructs.Construct, id *string, config *OrganizationsDelegatedAdministratorConfig) OrganizationsDelegatedAdministrator {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewOrganizationsDelegatedAdministrator(scope constructs.Construct, id *stri
 	j := jsiiProxy_OrganizationsDelegatedAdministrator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -451,12 +451,12 @@ func NewOrganizationsDelegatedAdministrator(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_delegated_administrator aws_organizations_delegated_administrator} Resource.
 func NewOrganizationsDelegatedAdministrator_Override(o OrganizationsDelegatedAdministrator, scope constructs.Construct, id *string, config *OrganizationsDelegatedAdministratorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -573,7 +573,7 @@ func OrganizationsDelegatedAdministrator_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -608,7 +608,7 @@ func OrganizationsDelegatedAdministrator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func OrganizationsDelegatedAdministrator_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -646,7 +646,7 @@ func OrganizationsDelegatedAdministrator_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -659,7 +659,7 @@ func OrganizationsDelegatedAdministrator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		"tfResourceType",
 		&returns,
 	)

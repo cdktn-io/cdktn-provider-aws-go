@@ -5,14 +5,14 @@ package globalacceleratorcrossaccountattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/globalacceleratorcrossaccountattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/globalacceleratorcrossaccountattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment}.
 type GlobalacceleratorCrossAccountAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) GlobalacceleratorCrossAccountAttachment {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *
 	j := jsiiProxy_GlobalacceleratorCrossAccountAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/globalaccelerator_cross_account_attachment aws_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment_Override(g GlobalacceleratorCrossAccountAttachment, scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -576,7 +576,7 @@ func GlobalacceleratorCrossAccountAttachment_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func GlobalacceleratorCrossAccountAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func GlobalacceleratorCrossAccountAttachment_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func GlobalacceleratorCrossAccountAttachment_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func GlobalacceleratorCrossAccountAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
+		"@cdktn/provider-aws.globalacceleratorCrossAccountAttachment.GlobalacceleratorCrossAccountAttachment",
 		"tfResourceType",
 		&returns,
 	)

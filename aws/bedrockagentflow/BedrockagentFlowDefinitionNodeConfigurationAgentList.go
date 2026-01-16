@@ -5,9 +5,9 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationAgentList(terraformResource c
 	j := jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationAgentList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationAgentList_Override(b Bedrocka
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationAgentList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

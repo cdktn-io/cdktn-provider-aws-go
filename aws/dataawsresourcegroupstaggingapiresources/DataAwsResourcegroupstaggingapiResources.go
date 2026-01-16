@@ -5,14 +5,14 @@ package dataawsresourcegroupstaggingapiresources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsresourcegroupstaggingapiresources/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsresourcegroupstaggingapiresources/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources}.
 type DataAwsResourcegroupstaggingapiResources interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -420,7 +420,7 @@ func (j *jsiiProxy_DataAwsResourcegroupstaggingapiResources) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources} Data Source.
 func NewDataAwsResourcegroupstaggingapiResources(scope constructs.Construct, id *string, config *DataAwsResourcegroupstaggingapiResourcesConfig) DataAwsResourcegroupstaggingapiResources {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAwsResourcegroupstaggingapiResources(scope constructs.Construct, id 
 	j := jsiiProxy_DataAwsResourcegroupstaggingapiResources{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,12 +438,12 @@ func NewDataAwsResourcegroupstaggingapiResources(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourcegroupstaggingapi_resources aws_resourcegroupstaggingapi_resources} Data Source.
 func NewDataAwsResourcegroupstaggingapiResources_Override(d DataAwsResourcegroupstaggingapiResources, scope constructs.Construct, id *string, config *DataAwsResourcegroupstaggingapiResourcesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -571,7 +571,7 @@ func DataAwsResourcegroupstaggingapiResources_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsResourcegroupstaggingapiResources_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAwsResourcegroupstaggingapiResources_IsTerraformDataSource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func DataAwsResourcegroupstaggingapiResources_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func DataAwsResourcegroupstaggingapiResources_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
+		"@cdktn/provider-aws.dataAwsResourcegroupstaggingapiResources.DataAwsResourcegroupstaggingapiResources",
 		"tfResourceType",
 		&returns,
 	)

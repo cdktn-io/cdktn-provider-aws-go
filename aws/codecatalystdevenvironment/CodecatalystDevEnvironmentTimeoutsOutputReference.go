@@ -5,9 +5,9 @@ package codecatalystdevenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codecatalystdevenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codecatalystdevenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCodecatalystDevEnvironmentTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_CodecatalystDevEnvironmentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCodecatalystDevEnvironmentTimeoutsOutputReference_Override(c Codecatalys
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.codecatalystDevEnvironment.CodecatalystDevEnvironmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

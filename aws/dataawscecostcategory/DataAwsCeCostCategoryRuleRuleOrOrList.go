@@ -5,9 +5,9 @@ package dataawscecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscecostcategory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsCeCostCategoryRuleRuleOrOrList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsCeCostCategoryRuleRuleOrOrList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleOrOrList",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleOrOrList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsCeCostCategoryRuleRuleOrOrList_Override(d DataAwsCeCostCategoryRu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleOrOrList",
+		"@cdktn/provider-aws.dataAwsCeCostCategory.DataAwsCeCostCategoryRuleRuleOrOrList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

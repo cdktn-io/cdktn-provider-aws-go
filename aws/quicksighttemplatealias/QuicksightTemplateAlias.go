@@ -5,14 +5,14 @@ package quicksighttemplatealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttemplatealias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttemplatealias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias}.
 type QuicksightTemplateAlias interface {
 	cdktf.TerraformResource
 	AliasName() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_QuicksightTemplateAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
 func NewQuicksightTemplateAlias(scope constructs.Construct, id *string, config *QuicksightTemplateAliasConfig) QuicksightTemplateAlias {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewQuicksightTemplateAlias(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_QuicksightTemplateAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewQuicksightTemplateAlias(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template_alias aws_quicksight_template_alias} Resource.
 func NewQuicksightTemplateAlias_Override(q QuicksightTemplateAlias, scope constructs.Construct, id *string, config *QuicksightTemplateAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -587,7 +587,7 @@ func QuicksightTemplateAlias_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func QuicksightTemplateAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func QuicksightTemplateAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func QuicksightTemplateAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func QuicksightTemplateAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
+		"@cdktn/provider-aws.quicksightTemplateAlias.QuicksightTemplateAlias",
 		"tfResourceType",
 		&returns,
 	)

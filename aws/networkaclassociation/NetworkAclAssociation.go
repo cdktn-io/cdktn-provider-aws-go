@@ -5,14 +5,14 @@ package networkaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkaclassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_association aws_network_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_association aws_network_acl_association}.
 type NetworkAclAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_NetworkAclAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) NetworkAclAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NetworkAclAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation_Override(n NetworkAclAssociation, scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -531,7 +531,7 @@ func NetworkAclAssociation_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func NetworkAclAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func NetworkAclAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func NetworkAclAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func NetworkAclAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkAclAssociation.NetworkAclAssociation",
+		"@cdktn/provider-aws.networkAclAssociation.NetworkAclAssociation",
 		"tfResourceType",
 		&returns,
 	)

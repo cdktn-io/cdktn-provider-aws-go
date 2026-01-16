@@ -5,9 +5,9 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAppsyncApiEventConfigDefaultPublishAuthModeOutputReference(terraformReso
 	j := jsiiProxy_AppsyncApiEventConfigDefaultPublishAuthModeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAppsyncApiEventConfigDefaultPublishAuthModeOutputReference_Override(a Ap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

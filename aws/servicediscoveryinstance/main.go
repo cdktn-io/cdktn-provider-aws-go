@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		reflect.TypeOf((*ServiceDiscoveryInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstanceConfig",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstanceConfig",
 		reflect.TypeOf((*ServiceDiscoveryInstanceConfig)(nil)).Elem(),
 	)
 }

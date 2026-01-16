@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociation",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociation",
 		reflect.TypeOf((*EksAccessPolicyAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessScope", GoGetter: "AccessScope"},
@@ -84,11 +84,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationAccessScope",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationAccessScope",
 		reflect.TypeOf((*EksAccessPolicyAssociationAccessScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationAccessScopeOutputReference",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationAccessScopeOutputReference",
 		reflect.TypeOf((*EksAccessPolicyAssociationAccessScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,15 +125,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationConfig",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationConfig",
 		reflect.TypeOf((*EksAccessPolicyAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeouts",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeouts",
 		reflect.TypeOf((*EksAccessPolicyAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAccessPolicyAssociation.EksAccessPolicyAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*EksAccessPolicyAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

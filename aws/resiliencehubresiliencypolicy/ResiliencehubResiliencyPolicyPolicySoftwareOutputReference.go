@@ -5,9 +5,9 @@ package resiliencehubresiliencypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resiliencehubresiliencypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resiliencehubresiliencypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewResiliencehubResiliencyPolicyPolicySoftwareOutputReference(terraformReso
 	j := jsiiProxy_ResiliencehubResiliencyPolicyPolicySoftwareOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftwareOutputReference",
+		"@cdktn/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftwareOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewResiliencehubResiliencyPolicyPolicySoftwareOutputReference_Override(r Re
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftwareOutputReference",
+		"@cdktn/provider-aws.resiliencehubResiliencyPolicy.ResiliencehubResiliencyPolicyPolicySoftwareOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

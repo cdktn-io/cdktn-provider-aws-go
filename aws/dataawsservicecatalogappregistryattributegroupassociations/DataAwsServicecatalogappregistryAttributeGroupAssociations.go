@@ -5,14 +5,14 @@ package dataawsservicecatalogappregistryattributegroupassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecatalogappregistryattributegroupassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogappregistryattributegroupassociations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations}.
 type DataAwsServicecatalogappregistryAttributeGroupAssociations interface {
 	cdktf.TerraformDataSource
 	AttributeGroupIds() *[]*string
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroupAssociations(scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig) DataAwsServicecatalogappregistryAttributeGroupAssociations {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsServicecatalogappregistryAttributeGroupAssociations(scope constru
 	j := jsiiProxy_DataAwsServicecatalogappregistryAttributeGroupAssociations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsServicecatalogappregistryAttributeGroupAssociations(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_attribute_group_associations aws_servicecatalogappregistry_attribute_group_associations} Data Source.
 func NewDataAwsServicecatalogappregistryAttributeGroupAssociations_Override(d DataAwsServicecatalogappregistryAttributeGroupAssociations, scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataAwsServicecatalogappregistryAttributeGroupAssociations_GenerateConfigFo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataAwsServicecatalogappregistryAttributeGroupAssociations_IsConstruct(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataAwsServicecatalogappregistryAttributeGroupAssociations_IsTerraformDataS
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsServicecatalogappregistryAttributeGroupAssociations_IsTerraformEleme
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsServicecatalogappregistryAttributeGroupAssociations_TfResourceType()
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawsprefixlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsprefixlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsprefixlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsPrefixListFilterList(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_DataAwsPrefixListFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsPrefixListFilterList_Override(d DataAwsPrefixListFilterList, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

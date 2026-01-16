@@ -5,9 +5,9 @@ package kinesisanalyticsapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -216,7 +216,7 @@ func NewKinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference(terra
 	j := jsiiProxy_KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -228,7 +228,7 @@ func NewKinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference",
+		"@cdktn/provider-aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

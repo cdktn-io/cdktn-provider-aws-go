@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermission",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermission",
 		reflect.TypeOf((*NetworkInterfacePermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermissionConfig",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermissionConfig",
 		reflect.TypeOf((*NetworkInterfacePermissionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeouts",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeouts",
 		reflect.TypeOf((*NetworkInterfacePermissionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkInterfacePermissionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

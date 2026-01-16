@@ -5,9 +5,9 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusscraper/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusscraper/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPrometheusScraperSourceEksList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_PrometheusScraperSourceEksList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPrometheusScraperSourceEksList_Override(p PrometheusScraperSourceEksList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraperSourceEksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

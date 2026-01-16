@@ -5,9 +5,9 @@ package cloudsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudsearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCloudsearchDomainScalingParametersOutputReference(terraformResource cdkt
 	j := jsiiProxy_CloudsearchDomainScalingParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCloudsearchDomainScalingParametersOutputReference_Override(c Cloudsearch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
+		"@cdktn/provider-aws.cloudsearchDomain.CloudsearchDomainScalingParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

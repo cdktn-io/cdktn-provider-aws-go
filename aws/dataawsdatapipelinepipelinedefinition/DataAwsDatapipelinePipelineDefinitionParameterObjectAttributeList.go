@@ -5,9 +5,9 @@ package dataawsdatapipelinepipelinedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdatapipelinepipelinedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdatapipelinepipelinedefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList(terraf
 	j := jsiiProxy_DataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipelineDefinition.DataAwsDatapipelinePipelineDefinitionParameterObjectAttributeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

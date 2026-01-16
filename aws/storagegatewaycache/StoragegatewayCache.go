@@ -5,14 +5,14 @@ package storagegatewaycache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewaycache/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewaycache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_cache aws_storagegateway_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_cache aws_storagegateway_cache}.
 type StoragegatewayCache interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_StoragegatewayCache) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
 func NewStoragegatewayCache(scope constructs.Construct, id *string, config *StoragegatewayCacheConfig) StoragegatewayCache {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewStoragegatewayCache(scope constructs.Construct, id *string, config *Stor
 	j := jsiiProxy_StoragegatewayCache{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewStoragegatewayCache(scope constructs.Construct, id *string, config *Stor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_cache aws_storagegateway_cache} Resource.
 func NewStoragegatewayCache_Override(s StoragegatewayCache, scope constructs.Construct, id *string, config *StoragegatewayCacheConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func StoragegatewayCache_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func StoragegatewayCache_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func StoragegatewayCache_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func StoragegatewayCache_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func StoragegatewayCache_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		"tfResourceType",
 		&returns,
 	)

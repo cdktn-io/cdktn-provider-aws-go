@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ceAnomalyMonitor.CeAnomalyMonitor",
+		"@cdktn/provider-aws.ceAnomalyMonitor.CeAnomalyMonitor",
 		reflect.TypeOf((*CeAnomalyMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ceAnomalyMonitor.CeAnomalyMonitorConfig",
+		"@cdktn/provider-aws.ceAnomalyMonitor.CeAnomalyMonitorConfig",
 		reflect.TypeOf((*CeAnomalyMonitorConfig)(nil)).Elem(),
 	)
 }

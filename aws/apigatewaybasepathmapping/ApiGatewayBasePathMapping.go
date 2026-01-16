@@ -5,14 +5,14 @@ package apigatewaybasepathmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaybasepathmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaybasepathmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
 type ApiGatewayBasePathMapping interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_ApiGatewayBasePathMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) ApiGatewayBasePathMapping {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApiGatewayBasePathMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping_Override(a ApiGatewayBasePathMapping, scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -636,7 +636,7 @@ func ApiGatewayBasePathMapping_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func ApiGatewayBasePathMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func ApiGatewayBasePathMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func ApiGatewayBasePathMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func ApiGatewayBasePathMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		"tfResourceType",
 		&returns,
 	)

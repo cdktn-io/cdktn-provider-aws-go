@@ -5,9 +5,9 @@ package dataawssecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsSecurityGroupFilterList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DataAwsSecurityGroupFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterList",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsSecurityGroupFilterList_Override(d DataAwsSecurityGroupFilterList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterList",
+		"@cdktn/provider-aws.dataAwsSecurityGroup.DataAwsSecurityGroupFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

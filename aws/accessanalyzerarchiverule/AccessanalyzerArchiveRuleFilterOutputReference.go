@@ -5,9 +5,9 @@ package accessanalyzerarchiverule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/accessanalyzerarchiverule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accessanalyzerarchiverule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewAccessanalyzerArchiveRuleFilterOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_AccessanalyzerArchiveRuleFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewAccessanalyzerArchiveRuleFilterOutputReference_Override(a Accessanalyzer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
+		"@cdktn/provider-aws.accessanalyzerArchiveRule.AccessanalyzerArchiveRuleFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

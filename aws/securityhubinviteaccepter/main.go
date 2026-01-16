@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepter",
 		reflect.TypeOf((*SecurityhubInviteAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepterConfig",
+		"@cdktn/provider-aws.securityhubInviteAccepter.SecurityhubInviteAccepterConfig",
 		reflect.TypeOf((*SecurityhubInviteAccepterConfig)(nil)).Elem(),
 	)
 }

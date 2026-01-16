@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventConnection.DataAwsCloudwatchEventConnection",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventConnection.DataAwsCloudwatchEventConnection",
 		reflect.TypeOf((*DataAwsCloudwatchEventConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventConnection.DataAwsCloudwatchEventConnectionConfig",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventConnection.DataAwsCloudwatchEventConnectionConfig",
 		reflect.TypeOf((*DataAwsCloudwatchEventConnectionConfig)(nil)).Elem(),
 	)
 }

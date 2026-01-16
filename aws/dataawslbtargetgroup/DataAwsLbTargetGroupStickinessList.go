@@ -5,9 +5,9 @@ package dataawslbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslbtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslbtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLbTargetGroupStickinessList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsLbTargetGroupStickinessList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupStickinessList",
+		"@cdktn/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupStickinessList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLbTargetGroupStickinessList_Override(d DataAwsLbTargetGroupSticki
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupStickinessList",
+		"@cdktn/provider-aws.dataAwsLbTargetGroup.DataAwsLbTargetGroupStickinessList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

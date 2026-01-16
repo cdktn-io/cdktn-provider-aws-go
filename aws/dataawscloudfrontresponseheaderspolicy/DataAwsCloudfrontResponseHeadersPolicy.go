@@ -5,14 +5,14 @@ package dataawscloudfrontresponseheaderspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudfrontresponseheaderspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontresponseheaderspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy}.
 type DataAwsCloudfrontResponseHeadersPolicy interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAwsCloudfrontResponseHeadersPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy} Data Source.
 func NewDataAwsCloudfrontResponseHeadersPolicy(scope constructs.Construct, id *string, config *DataAwsCloudfrontResponseHeadersPolicyConfig) DataAwsCloudfrontResponseHeadersPolicy {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataAwsCloudfrontResponseHeadersPolicy(scope constructs.Construct, id *s
 	j := jsiiProxy_DataAwsCloudfrontResponseHeadersPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -395,12 +395,12 @@ func NewDataAwsCloudfrontResponseHeadersPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_response_headers_policy aws_cloudfront_response_headers_policy} Data Source.
 func NewDataAwsCloudfrontResponseHeadersPolicy_Override(d DataAwsCloudfrontResponseHeadersPolicy, scope constructs.Construct, id *string, config *DataAwsCloudfrontResponseHeadersPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -484,7 +484,7 @@ func DataAwsCloudfrontResponseHeadersPolicy_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -519,7 +519,7 @@ func DataAwsCloudfrontResponseHeadersPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataAwsCloudfrontResponseHeadersPolicy_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -557,7 +557,7 @@ func DataAwsCloudfrontResponseHeadersPolicy_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsCloudfrontResponseHeadersPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
+		"@cdktn/provider-aws.dataAwsCloudfrontResponseHeadersPolicy.DataAwsCloudfrontResponseHeadersPolicy",
 		"tfResourceType",
 		&returns,
 	)

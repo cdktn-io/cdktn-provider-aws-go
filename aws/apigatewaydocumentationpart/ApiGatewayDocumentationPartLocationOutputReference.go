@@ -5,9 +5,9 @@ package apigatewaydocumentationpart
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaydocumentationpart/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydocumentationpart/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewApiGatewayDocumentationPartLocationOutputReference(terraformResource cdk
 	j := jsiiProxy_ApiGatewayDocumentationPartLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewApiGatewayDocumentationPartLocationOutputReference_Override(a ApiGateway
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

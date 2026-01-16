@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollection",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollection",
 		reflect.TypeOf((*DevopsguruResourceCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformation",
 		reflect.TypeOf((*DevopsguruResourceCollectionCloudformation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformationList",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformationList",
 		reflect.TypeOf((*DevopsguruResourceCollectionCloudformationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformationOutputReference",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionCloudformationOutputReference",
 		reflect.TypeOf((*DevopsguruResourceCollectionCloudformationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,15 +137,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionConfig",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionConfig",
 		reflect.TypeOf((*DevopsguruResourceCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTags",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTags",
 		reflect.TypeOf((*DevopsguruResourceCollectionTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTagsList",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTagsList",
 		reflect.TypeOf((*DevopsguruResourceCollectionTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTagsOutputReference",
+		"@cdktn/provider-aws.devopsguruResourceCollection.DevopsguruResourceCollectionTagsOutputReference",
 		reflect.TypeOf((*DevopsguruResourceCollectionTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appBoundaryKey", GoGetter: "AppBoundaryKey"},

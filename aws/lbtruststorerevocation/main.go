@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		reflect.TypeOf((*LbTrustStoreRevocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationConfig",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationConfig",
 		reflect.TypeOf((*LbTrustStoreRevocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeouts",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeouts",
 		reflect.TypeOf((*LbTrustStoreRevocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
 		reflect.TypeOf((*LbTrustStoreRevocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

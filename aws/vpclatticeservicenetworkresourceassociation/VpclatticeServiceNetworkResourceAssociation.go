@@ -5,14 +5,14 @@ package vpclatticeservicenetworkresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticeservicenetworkresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticeservicenetworkresourceassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association}.
 type VpclatticeServiceNetworkResourceAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -48,6 +48,9 @@ type VpclatticeServiceNetworkResourceAssociation interface {
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	PrivateDnsEnabled() interface{}
+	SetPrivateDnsEnabled(val interface{})
+	PrivateDnsEnabledInput() interface{}
 	// Experimental.
 	Provider() cdktf.TerraformProvider
 	// Experimental.
@@ -126,6 +129,7 @@ type VpclatticeServiceNetworkResourceAssociation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrivateDnsEnabled()
 	ResetRegion()
 	ResetTags()
 	ResetTimeouts()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) Node() construct
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) PrivateDnsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) PrivateDnsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateDnsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -448,7 +472,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) VpclatticeServiceNetworkResourceAssociation {
 	_init_.Initialize()
 
@@ -458,7 +482,7 @@ func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, 
 	j := jsiiProxy_VpclatticeServiceNetworkResourceAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +490,12 @@ func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation_Override(v VpclatticeServiceNetworkResourceAssociation, scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -522,6 +546,17 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation)SetLifecycle(val 
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation)SetPrivateDnsEnabled(val interface{}) {
+	if err := j.validateSetPrivateDnsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateDnsEnabled",
 		val,
 	)
 }
@@ -599,7 +634,7 @@ func VpclatticeServiceNetworkResourceAssociation_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +669,7 @@ func VpclatticeServiceNetworkResourceAssociation_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +688,7 @@ func VpclatticeServiceNetworkResourceAssociation_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +707,7 @@ func VpclatticeServiceNetworkResourceAssociation_IsTerraformResource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +720,7 @@ func VpclatticeServiceNetworkResourceAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
+		"@cdktn/provider-aws.vpclatticeServiceNetworkResourceAssociation.VpclatticeServiceNetworkResourceAssociation",
 		"tfResourceType",
 		&returns,
 	)
@@ -957,6 +992,14 @@ func (v *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) ResetOverrideLog
 	_jsii_.InvokeVoid(
 		v,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) ResetPrivateDnsEnabled() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetPrivateDnsEnabled",
 		nil, // no parameters
 	)
 }

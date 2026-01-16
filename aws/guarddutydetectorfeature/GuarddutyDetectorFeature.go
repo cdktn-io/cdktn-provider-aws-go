@@ -5,14 +5,14 @@ package guarddutydetectorfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutydetectorfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutydetectorfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature}.
 type GuarddutyDetectorFeature interface {
 	cdktf.TerraformResource
 	AdditionalConfiguration() GuarddutyDetectorFeatureAdditionalConfigurationList
@@ -427,7 +427,7 @@ func (j *jsiiProxy_GuarddutyDetectorFeature) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
 func NewGuarddutyDetectorFeature(scope constructs.Construct, id *string, config *GuarddutyDetectorFeatureConfig) GuarddutyDetectorFeature {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewGuarddutyDetectorFeature(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_GuarddutyDetectorFeature{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewGuarddutyDetectorFeature(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
 func NewGuarddutyDetectorFeature_Override(g GuarddutyDetectorFeature, scope constructs.Construct, id *string, config *GuarddutyDetectorFeatureConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -589,7 +589,7 @@ func GuarddutyDetectorFeature_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func GuarddutyDetectorFeature_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func GuarddutyDetectorFeature_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func GuarddutyDetectorFeature_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func GuarddutyDetectorFeature_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		"tfResourceType",
 		&returns,
 	)

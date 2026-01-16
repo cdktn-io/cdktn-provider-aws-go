@@ -5,9 +5,9 @@ package connectuserhierarchystructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectuserhierarchystructure/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectuserhierarchystructure/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -204,7 +204,7 @@ func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference
 	j := jsiiProxy_ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference",
+		"@cdktn/provider-aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -216,7 +216,7 @@ func NewConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference",
+		"@cdktn/provider-aws.connectUserHierarchyStructure.ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,14 +5,14 @@ package dataawsdefaulttags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdefaulttags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdefaulttags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/default_tags aws_default_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/default_tags aws_default_tags}.
 type DataAwsDefaultTags interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsDefaultTags) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/default_tags aws_default_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/default_tags aws_default_tags} Data Source.
 func NewDataAwsDefaultTags(scope constructs.Construct, id *string, config *DataAwsDefaultTagsConfig) DataAwsDefaultTags {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsDefaultTags(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsDefaultTags{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsDefaultTags(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/default_tags aws_default_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/default_tags aws_default_tags} Data Source.
 func NewDataAwsDefaultTags_Override(d DataAwsDefaultTags, scope constructs.Construct, id *string, config *DataAwsDefaultTagsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsDefaultTags_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsDefaultTags_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsDefaultTags_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsDefaultTags_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsDefaultTags_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
+		"@cdktn/provider-aws.dataAwsDefaultTags.DataAwsDefaultTags",
 		"tfResourceType",
 		&returns,
 	)

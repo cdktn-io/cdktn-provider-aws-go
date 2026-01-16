@@ -5,9 +5,9 @@ package dataawsekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEksClusterComputeConfigList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsEksClusterComputeConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterComputeConfigList",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterComputeConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEksClusterComputeConfigList_Override(d DataAwsEksClusterComputeCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterComputeConfigList",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterComputeConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

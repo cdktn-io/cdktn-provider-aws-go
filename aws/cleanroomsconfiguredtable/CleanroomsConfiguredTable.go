@@ -5,14 +5,14 @@ package cleanroomsconfiguredtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cleanroomsconfiguredtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cleanroomsconfiguredtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table}.
 type CleanroomsConfiguredTable interface {
 	cdktf.TerraformResource
 	AllowedColumns() *[]*string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_CleanroomsConfiguredTable) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) CleanroomsConfiguredTable {
 	_init_.Initialize()
 
@@ -565,7 +565,7 @@ func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CleanroomsConfiguredTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -573,12 +573,12 @@ func NewCleanroomsConfiguredTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_configured_table aws_cleanrooms_configured_table} Resource.
 func NewCleanroomsConfiguredTable_Override(c CleanroomsConfiguredTable, scope constructs.Construct, id *string, config *CleanroomsConfiguredTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -750,7 +750,7 @@ func CleanroomsConfiguredTable_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -785,7 +785,7 @@ func CleanroomsConfiguredTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func CleanroomsConfiguredTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -823,7 +823,7 @@ func CleanroomsConfiguredTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func CleanroomsConfiguredTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
+		"@cdktn/provider-aws.cleanroomsConfiguredTable.CleanroomsConfiguredTable",
 		"tfResourceType",
 		&returns,
 	)

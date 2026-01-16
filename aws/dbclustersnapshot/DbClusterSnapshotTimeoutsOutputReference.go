@@ -5,9 +5,9 @@ package dbclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbclustersnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDbClusterSnapshotTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DbClusterSnapshotTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDbClusterSnapshotTimeoutsOutputReference_Override(d DbClusterSnapshotTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbClusterSnapshot.DbClusterSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbClusterSnapshot.DbClusterSnapshotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

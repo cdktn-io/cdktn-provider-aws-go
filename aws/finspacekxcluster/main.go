@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		reflect.TypeOf((*FinspaceKxCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterAutoScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterAutoScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingMetric", GoGetter: "AutoScalingMetric"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations",
 		reflect.TypeOf((*FinspaceKxClusterCacheStorageConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurationsList",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurationsList",
 		reflect.TypeOf((*FinspaceKxClusterCacheStorageConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -218,7 +218,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurationsOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurationsOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterCacheStorageConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -254,11 +254,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCapacityConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCapacityConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterCapacityConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCapacityConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCapacityConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterCapacityConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCode",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCode",
 		reflect.TypeOf((*FinspaceKxClusterCode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterCodeOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterCodeOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterCodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,19 +337,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterConfig",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterConfig",
 		reflect.TypeOf((*FinspaceKxClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabase",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabase",
 		reflect.TypeOf((*FinspaceKxClusterDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurations",
 		reflect.TypeOf((*FinspaceKxClusterDatabaseCacheConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurationsList",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurationsList",
 		reflect.TypeOf((*FinspaceKxClusterDatabaseCacheConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -371,7 +371,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurationsOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseCacheConfigurationsOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterDatabaseCacheConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheType", GoGetter: "CacheType"},
@@ -408,7 +408,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseList",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseList",
 		reflect.TypeOf((*FinspaceKxClusterDatabaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -430,7 +430,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterDatabaseOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheConfigurations", GoGetter: "CacheConfigurations"},
@@ -474,11 +474,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterSavedownStorageConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterSavedownStorageConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -519,11 +519,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterScalingGroupConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterScalingGroupConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -567,11 +567,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterTickerplantLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfigurationList",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfigurationList",
 		reflect.TypeOf((*FinspaceKxClusterTickerplantLogConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -593,7 +593,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterTickerplantLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -627,11 +627,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterTimeouts",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterTimeouts",
 		reflect.TypeOf((*FinspaceKxClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterTimeoutsOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -672,11 +672,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterVpcConfiguration",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterVpcConfiguration",
 		reflect.TypeOf((*FinspaceKxClusterVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterVpcConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxClusterVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

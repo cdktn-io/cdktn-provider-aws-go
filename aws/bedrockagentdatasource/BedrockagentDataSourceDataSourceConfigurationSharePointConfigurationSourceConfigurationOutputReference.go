@@ -5,9 +5,9 @@ package bedrockagentdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -298,7 +298,7 @@ func NewBedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSour
 	j := jsiiProxy_BedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSourceConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -310,7 +310,7 @@ func NewBedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSour
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSourceDataSourceConfigurationSharePointConfigurationSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

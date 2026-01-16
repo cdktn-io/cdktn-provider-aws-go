@@ -75,6 +75,10 @@ func (c *jsiiProxy_CloudfrontDistribution) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) validatePutConnectionFunctionAssociationParameters(value *CloudfrontDistributionConnectionFunctionAssociation) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) validatePutCustomErrorResponseParameters(value interface{}) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (c *jsiiProxy_CloudfrontDistribution) validatePutRestrictionsParameters(val
 }
 
 func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerCertificateParameters(value *CloudfrontDistributionViewerCertificate) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerMtlsConfigParameters(value *CloudfrontDistributionViewerMtlsConfig) error {
 	return nil
 }
 

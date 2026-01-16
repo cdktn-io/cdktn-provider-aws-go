@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsControltowerControls.DataAwsControltowerControls",
+		"@cdktn/provider-aws.dataAwsControltowerControls.DataAwsControltowerControls",
 		reflect.TypeOf((*DataAwsControltowerControls)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsControltowerControls.DataAwsControltowerControlsConfig",
+		"@cdktn/provider-aws.dataAwsControltowerControls.DataAwsControltowerControlsConfig",
 		reflect.TypeOf((*DataAwsControltowerControlsConfig)(nil)).Elem(),
 	)
 }

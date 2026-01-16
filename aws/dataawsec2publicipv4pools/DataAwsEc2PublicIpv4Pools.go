@@ -5,14 +5,14 @@ package dataawsec2publicipv4pools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2publicipv4pools/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2publicipv4pools/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools}.
 type DataAwsEc2PublicIpv4Pools interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4Pools) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools} Data Source.
 func NewDataAwsEc2PublicIpv4Pools(scope constructs.Construct, id *string, config *DataAwsEc2PublicIpv4PoolsConfig) DataAwsEc2PublicIpv4Pools {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAwsEc2PublicIpv4Pools(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsEc2PublicIpv4Pools{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAwsEc2PublicIpv4Pools(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_public_ipv4_pools aws_ec2_public_ipv4_pools} Data Source.
 func NewDataAwsEc2PublicIpv4Pools_Override(d DataAwsEc2PublicIpv4Pools, scope constructs.Construct, id *string, config *DataAwsEc2PublicIpv4PoolsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -466,7 +466,7 @@ func DataAwsEc2PublicIpv4Pools_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsEc2PublicIpv4Pools_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func DataAwsEc2PublicIpv4Pools_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsEc2PublicIpv4Pools_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsEc2PublicIpv4Pools_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
+		"@cdktn/provider-aws.dataAwsEc2PublicIpv4Pools.DataAwsEc2PublicIpv4Pools",
 		"tfResourceType",
 		&returns,
 	)

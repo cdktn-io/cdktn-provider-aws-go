@@ -5,14 +5,14 @@ package s3vectorsvectorbucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3vectorsvectorbucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3vectorsvectorbucketpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy}.
 type S3VectorsVectorBucketPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_S3VectorsVectorBucketPolicy) VectorBucketArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
 func NewS3VectorsVectorBucketPolicy(scope constructs.Construct, id *string, config *S3VectorsVectorBucketPolicyConfig) S3VectorsVectorBucketPolicy {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewS3VectorsVectorBucketPolicy(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_S3VectorsVectorBucketPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewS3VectorsVectorBucketPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket_policy aws_s3vectors_vector_bucket_policy} Resource.
 func NewS3VectorsVectorBucketPolicy_Override(s S3VectorsVectorBucketPolicy, scope constructs.Construct, id *string, config *S3VectorsVectorBucketPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -496,7 +496,7 @@ func S3VectorsVectorBucketPolicy_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func S3VectorsVectorBucketPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func S3VectorsVectorBucketPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func S3VectorsVectorBucketPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func S3VectorsVectorBucketPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
+		"@cdktn/provider-aws.s3VectorsVectorBucketPolicy.S3VectorsVectorBucketPolicy",
 		"tfResourceType",
 		&returns,
 	)

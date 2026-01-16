@@ -5,14 +5,14 @@ package dynamodbkinesisstreamingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbkinesisstreamingdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbkinesisstreamingdestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
 type DynamodbKinesisStreamingDestination interface {
 	cdktf.TerraformResource
 	ApproximateCreationDateTimePrecision() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_DynamodbKinesisStreamingDestination) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) DynamodbKinesisStreamingDestination {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *stri
 	j := jsiiProxy_DynamodbKinesisStreamingDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination_Override(d DynamodbKinesisStreamingDestination, scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -566,7 +566,7 @@ func DynamodbKinesisStreamingDestination_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func DynamodbKinesisStreamingDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func DynamodbKinesisStreamingDestination_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func DynamodbKinesisStreamingDestination_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func DynamodbKinesisStreamingDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		"tfResourceType",
 		&returns,
 	)

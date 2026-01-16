@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		reflect.TypeOf((*EksCapability)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,23 +90,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfig",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfig",
 		reflect.TypeOf((*EksCapabilityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfiguration",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfiguration",
 		reflect.TypeOf((*EksCapabilityConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCd",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCd",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCd)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdc",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdAwsIdc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdcList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdcList",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdAwsIdcList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdcOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdAwsIdcOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdAwsIdcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdList",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,11 +188,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccess",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdNetworkAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccessList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccessList",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdNetworkAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccessOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdNetworkAccessOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdNetworkAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,7 +249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsIdc", GoGetter: "AwsIdc"},
@@ -297,15 +297,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMapping)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMappingIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityList",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -327,7 +327,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMappingIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -363,7 +363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingList",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMappingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -385,7 +385,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationArgoCdRbacRoleMappingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -423,7 +423,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationList",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationList",
 		reflect.TypeOf((*EksCapabilityConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -445,7 +445,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityConfigurationOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityConfigurationOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "argoCd", GoGetter: "ArgoCd"},
@@ -481,11 +481,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityTimeouts",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityTimeouts",
 		reflect.TypeOf((*EksCapabilityTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksCapability.EksCapabilityTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksCapability.EksCapabilityTimeoutsOutputReference",
 		reflect.TypeOf((*EksCapabilityTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

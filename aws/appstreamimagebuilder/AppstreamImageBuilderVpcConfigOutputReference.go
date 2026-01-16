@@ -5,9 +5,9 @@ package appstreamimagebuilder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamimagebuilder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamimagebuilder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppstreamImageBuilderVpcConfigOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_AppstreamImageBuilderVpcConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppstreamImageBuilderVpcConfigOutputReference_Override(a AppstreamImageB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

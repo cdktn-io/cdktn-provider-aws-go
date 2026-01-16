@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicy",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicy",
 		reflect.TypeOf((*BatchSchedulingPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyConfig",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyConfig",
 		reflect.TypeOf((*BatchSchedulingPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicy",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicy",
 		reflect.TypeOf((*BatchSchedulingPolicyFairSharePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyOutputReference",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyOutputReference",
 		reflect.TypeOf((*BatchSchedulingPolicyFairSharePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution",
 		reflect.TypeOf((*BatchSchedulingPolicyFairSharePolicyShareDistribution)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistributionList",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistributionList",
 		reflect.TypeOf((*BatchSchedulingPolicyFairSharePolicyShareDistributionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReference",
+		"@cdktn/provider-aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReference",
 		reflect.TypeOf((*BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

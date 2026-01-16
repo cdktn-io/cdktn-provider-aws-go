@@ -5,14 +5,14 @@ package wafregexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregexpatternset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set}.
 type WafRegexPatternSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_WafRegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
 func NewWafRegexPatternSet(scope constructs.Construct, id *string, config *WafRegexPatternSetConfig) WafRegexPatternSet {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewWafRegexPatternSet(scope constructs.Construct, id *string, config *WafRe
 	j := jsiiProxy_WafRegexPatternSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewWafRegexPatternSet(scope constructs.Construct, id *string, config *WafRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_regex_pattern_set aws_waf_regex_pattern_set} Resource.
 func NewWafRegexPatternSet_Override(w WafRegexPatternSet, scope constructs.Construct, id *string, config *WafRegexPatternSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -508,7 +508,7 @@ func WafRegexPatternSet_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func WafRegexPatternSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func WafRegexPatternSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func WafRegexPatternSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func WafRegexPatternSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
+		"@cdktn/provider-aws.wafRegexPatternSet.WafRegexPatternSet",
 		"tfResourceType",
 		&returns,
 	)

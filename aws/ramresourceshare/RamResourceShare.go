@@ -5,14 +5,14 @@ package ramresourceshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ramresourceshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ramresourceshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share aws_ram_resource_share}.
 type RamResourceShare interface {
 	cdktf.TerraformResource
 	AllowExternalPrincipals() interface{}
@@ -488,7 +488,7 @@ func (j *jsiiProxy_RamResourceShare) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare(scope constructs.Construct, id *string, config *RamResourceShareConfig) RamResourceShare {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewRamResourceShare(scope constructs.Construct, id *string, config *RamReso
 	j := jsiiProxy_RamResourceShare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewRamResourceShare(scope constructs.Construct, id *string, config *RamReso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share aws_ram_resource_share} Resource.
 func NewRamResourceShare_Override(r RamResourceShare, scope constructs.Construct, id *string, config *RamResourceShareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -672,7 +672,7 @@ func RamResourceShare_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func RamResourceShare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func RamResourceShare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func RamResourceShare_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func RamResourceShare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShare",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShare",
 		"tfResourceType",
 		&returns,
 	)

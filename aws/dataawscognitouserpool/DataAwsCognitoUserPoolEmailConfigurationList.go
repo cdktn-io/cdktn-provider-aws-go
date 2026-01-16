@@ -5,9 +5,9 @@ package dataawscognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsCognitoUserPoolEmailConfigurationList(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsCognitoUserPoolEmailConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolEmailConfigurationList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolEmailConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsCognitoUserPoolEmailConfigurationList_Override(d DataAwsCognitoUs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolEmailConfigurationList",
+		"@cdktn/provider-aws.dataAwsCognitoUserPool.DataAwsCognitoUserPoolEmailConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

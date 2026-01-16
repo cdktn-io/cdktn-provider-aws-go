@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKey",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKey",
 		reflect.TypeOf((*TransferSshKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferSshKey.TransferSshKeyConfig",
+		"@cdktn/provider-aws.transferSshKey.TransferSshKeyConfig",
 		reflect.TypeOf((*TransferSshKeyConfig)(nil)).Elem(),
 	)
 }

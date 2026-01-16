@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGateway",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGateway",
 		reflect.TypeOf((*StoragegatewayGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationKey", GoGetter: "ActivationKey"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayConfig",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayConfig",
 		reflect.TypeOf((*StoragegatewayGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterface",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterface",
 		reflect.TypeOf((*StoragegatewayGatewayGatewayNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterfaceList",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterfaceList",
 		reflect.TypeOf((*StoragegatewayGatewayGatewayNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterfaceOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayGatewayNetworkInterfaceOutputReference",
 		reflect.TypeOf((*StoragegatewayGatewayGatewayNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTime",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTime",
 		reflect.TypeOf((*StoragegatewayGatewayMaintenanceStartTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayMaintenanceStartTimeOutputReference",
 		reflect.TypeOf((*StoragegatewayGatewayMaintenanceStartTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettings",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettings",
 		reflect.TypeOf((*StoragegatewayGatewaySmbActiveDirectorySettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
 		reflect.TypeOf((*StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryStatus", GoGetter: "ActiveDirectoryStatus"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayTimeouts",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayTimeouts",
 		reflect.TypeOf((*StoragegatewayGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*StoragegatewayGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

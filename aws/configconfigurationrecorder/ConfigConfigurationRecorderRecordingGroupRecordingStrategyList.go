@@ -5,9 +5,9 @@ package configconfigurationrecorder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconfigurationrecorder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconfigurationrecorder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewConfigConfigurationRecorderRecordingGroupRecordingStrategyList(terraform
 	j := jsiiProxy_ConfigConfigurationRecorderRecordingGroupRecordingStrategyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategyList",
+		"@cdktn/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewConfigConfigurationRecorderRecordingGroupRecordingStrategyList_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategyList",
+		"@cdktn/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupRecordingStrategyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

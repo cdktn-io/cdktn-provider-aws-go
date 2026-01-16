@@ -5,9 +5,9 @@ package s3bucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewS3BucketGrantOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_S3BucketGrantOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketGrantOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketGrantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewS3BucketGrantOutputReference_Override(s S3BucketGrantOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketGrantOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketGrantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

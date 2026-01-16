@@ -5,9 +5,9 @@ package lightsailcontainerservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailcontainerservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailcontainerservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLightsailContainerServicePublicDomainNamesCertificateList(terraformResou
 	j := jsiiProxy_LightsailContainerServicePublicDomainNamesCertificateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificateList",
+		"@cdktn/provider-aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLightsailContainerServicePublicDomainNamesCertificateList_Override(l Lig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificateList",
+		"@cdktn/provider-aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

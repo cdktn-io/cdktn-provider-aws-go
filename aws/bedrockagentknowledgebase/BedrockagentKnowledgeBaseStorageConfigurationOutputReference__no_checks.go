@@ -47,6 +47,18 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutMongoDbAtlasConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutNeptuneAnalyticsConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutOpensearchManagedClusterConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutOpensearchServerlessConfigurationParameters(value interface{}) error {
 	return nil
 }
@@ -60,6 +72,10 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 }
 
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutRedisEnterpriseCloudConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutS3VectorsConfigurationParameters(value interface{}) error {
 	return nil
 }
 

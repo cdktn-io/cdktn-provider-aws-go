@@ -5,9 +5,9 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -422,7 +422,7 @@ func NewEcsServiceVolumeConfigurationManagedEbsVolumeOutputReference(terraformRe
 	j := jsiiProxy_EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -434,7 +434,7 @@ func NewEcsServiceVolumeConfigurationManagedEbsVolumeOutputReference_Override(e 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

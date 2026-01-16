@@ -5,14 +5,14 @@ package workspaceswebusersettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebusersettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebusersettingsassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association}.
 type WorkspaceswebUserSettingsAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_WorkspaceswebUserSettingsAssociation) UserSettingsArnInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
 func NewWorkspaceswebUserSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsAssociationConfig) WorkspaceswebUserSettingsAssociation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewWorkspaceswebUserSettingsAssociation(scope constructs.Construct, id *str
 	j := jsiiProxy_WorkspaceswebUserSettingsAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewWorkspaceswebUserSettingsAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_user_settings_association aws_workspacesweb_user_settings_association} Resource.
 func NewWorkspaceswebUserSettingsAssociation_Override(w WorkspaceswebUserSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebUserSettingsAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -496,7 +496,7 @@ func WorkspaceswebUserSettingsAssociation_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func WorkspaceswebUserSettingsAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func WorkspaceswebUserSettingsAssociation_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func WorkspaceswebUserSettingsAssociation_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func WorkspaceswebUserSettingsAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebUserSettingsAssociation.WorkspaceswebUserSettingsAssociation",
 		"tfResourceType",
 		&returns,
 	)

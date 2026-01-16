@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystem",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystem",
 		reflect.TypeOf((*DataAwsEfsFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemConfig",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemConfig",
 		reflect.TypeOf((*DataAwsEfsFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicy",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicy",
 		reflect.TypeOf((*DataAwsEfsFileSystemLifecyclePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicyList",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicyList",
 		reflect.TypeOf((*DataAwsEfsFileSystemLifecyclePolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicyOutputReference",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemLifecyclePolicyOutputReference",
 		reflect.TypeOf((*DataAwsEfsFileSystemLifecyclePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtection",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtection",
 		reflect.TypeOf((*DataAwsEfsFileSystemProtection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtectionList",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtectionList",
 		reflect.TypeOf((*DataAwsEfsFileSystemProtectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtectionOutputReference",
+		"@cdktn/provider-aws.dataAwsEfsFileSystem.DataAwsEfsFileSystemProtectionOutputReference",
 		reflect.TypeOf((*DataAwsEfsFileSystemProtectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

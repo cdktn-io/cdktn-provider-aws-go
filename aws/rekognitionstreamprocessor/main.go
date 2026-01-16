@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		reflect.TypeOf((*RekognitionStreamProcessor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorConfig",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorConfig",
 		reflect.TypeOf((*RekognitionStreamProcessorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreference",
 		reflect.TypeOf((*RekognitionStreamProcessorDataSharingPreference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreferenceList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreferenceList",
 		reflect.TypeOf((*RekognitionStreamProcessorDataSharingPreferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreferenceOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorDataSharingPreferenceOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorDataSharingPreferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,15 +171,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInput",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInput",
 		reflect.TypeOf((*RekognitionStreamProcessorInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStream",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStream",
 		reflect.TypeOf((*RekognitionStreamProcessorInputKinesisVideoStream)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStreamList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStreamList",
 		reflect.TypeOf((*RekognitionStreamProcessorInputKinesisVideoStreamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -201,7 +201,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStreamOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputKinesisVideoStreamOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorInputKinesisVideoStreamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -235,7 +235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputList",
 		reflect.TypeOf((*RekognitionStreamProcessorInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -257,7 +257,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorInputOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -293,11 +293,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannel",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannel",
 		reflect.TypeOf((*RekognitionStreamProcessorNotificationChannel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannelList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannelList",
 		reflect.TypeOf((*RekognitionStreamProcessorNotificationChannelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -319,7 +319,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannelOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorNotificationChannelOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorNotificationChannelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,15 +354,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutput",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutput",
 		reflect.TypeOf((*RekognitionStreamProcessorOutput)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStream",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStream",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputKinesisDataStream)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStreamList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStreamList",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputKinesisDataStreamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -384,7 +384,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStreamOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputKinesisDataStreamOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputKinesisDataStreamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -419,7 +419,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputList",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -441,7 +441,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -481,11 +481,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3Destination",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3Destination",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3DestinationList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3DestinationList",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputS3DestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -507,7 +507,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3DestinationOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputS3DestinationOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorOutputS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -545,15 +545,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterest",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterest",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterest)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBox",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBox",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestBoundingBox)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBoxList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBoxList",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestBoundingBoxList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -575,7 +575,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -619,7 +619,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestList",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -641,7 +641,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "boundingBox", GoGetter: "BoundingBox"},
@@ -681,11 +681,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygon",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygon",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestPolygon)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygonList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygonList",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestPolygonList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -707,7 +707,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -745,15 +745,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettings",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettings",
 		reflect.TypeOf((*RekognitionStreamProcessorSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHome",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHome",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsConnectedHome)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHomeList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHomeList",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsConnectedHomeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -775,7 +775,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHomeOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsConnectedHomeOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsConnectedHomeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -813,11 +813,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearch",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearch",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsFaceSearch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearchList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearchList",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsFaceSearchList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -839,7 +839,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearchOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsFaceSearchOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsFaceSearchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionId", GoGetter: "CollectionId"},
@@ -876,7 +876,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsList",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsList",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -898,7 +898,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorSettingsOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -938,11 +938,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeouts",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeouts",
 		reflect.TypeOf((*RekognitionStreamProcessorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
 		reflect.TypeOf((*RekognitionStreamProcessorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

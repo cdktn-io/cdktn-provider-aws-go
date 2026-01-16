@@ -5,9 +5,9 @@ package lblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -417,7 +417,7 @@ func NewLbListenerRuleActionAuthenticateOidcOutputReference(terraformResource cd
 	j := jsiiProxy_LbListenerRuleActionAuthenticateOidcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionAuthenticateOidcOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionAuthenticateOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -429,7 +429,7 @@ func NewLbListenerRuleActionAuthenticateOidcOutputReference_Override(l LbListene
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerRule.LbListenerRuleActionAuthenticateOidcOutputReference",
+		"@cdktn/provider-aws.lbListenerRule.LbListenerRuleActionAuthenticateOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		reflect.TypeOf((*QuicksightIngestion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestionConfig",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestionConfig",
 		reflect.TypeOf((*QuicksightIngestionConfig)(nil)).Elem(),
 	)
 }

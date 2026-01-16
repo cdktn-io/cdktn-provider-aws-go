@@ -5,14 +5,14 @@ package schemasregistrypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schemasregistrypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schemasregistrypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy}.
 type SchemasRegistryPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SchemasRegistryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy} Resource.
 func NewSchemasRegistryPolicy(scope constructs.Construct, id *string, config *SchemasRegistryPolicyConfig) SchemasRegistryPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSchemasRegistryPolicy(scope constructs.Construct, id *string, config *Sc
 	j := jsiiProxy_SchemasRegistryPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSchemasRegistryPolicy(scope constructs.Construct, id *string, config *Sc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry_policy aws_schemas_registry_policy} Resource.
 func NewSchemasRegistryPolicy_Override(s SchemasRegistryPolicy, scope constructs.Construct, id *string, config *SchemasRegistryPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func SchemasRegistryPolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func SchemasRegistryPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func SchemasRegistryPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func SchemasRegistryPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func SchemasRegistryPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
+		"@cdktn/provider-aws.schemasRegistryPolicy.SchemasRegistryPolicy",
 		"tfResourceType",
 		&returns,
 	)

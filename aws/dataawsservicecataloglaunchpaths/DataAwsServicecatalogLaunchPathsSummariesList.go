@@ -5,9 +5,9 @@ package dataawsservicecataloglaunchpaths
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecataloglaunchpaths/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecataloglaunchpaths/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsServicecatalogLaunchPathsSummariesList(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsServicecatalogLaunchPathsSummariesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogLaunchPaths.DataAwsServicecatalogLaunchPathsSummariesList",
+		"@cdktn/provider-aws.dataAwsServicecatalogLaunchPaths.DataAwsServicecatalogLaunchPathsSummariesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsServicecatalogLaunchPathsSummariesList_Override(d DataAwsServicec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogLaunchPaths.DataAwsServicecatalogLaunchPathsSummariesList",
+		"@cdktn/provider-aws.dataAwsServicecatalogLaunchPaths.DataAwsServicecatalogLaunchPathsSummariesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

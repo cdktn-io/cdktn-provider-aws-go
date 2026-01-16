@@ -5,9 +5,9 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewWafv2WebAclDataProtectionConfigDataProtectionOutputReference(terraformRe
 	j := jsiiProxy_Wafv2WebAclDataProtectionConfigDataProtectionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewWafv2WebAclDataProtectionConfigDataProtectionOutputReference_Override(w 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclDataProtectionConfigDataProtectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

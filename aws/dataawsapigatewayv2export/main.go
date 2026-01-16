@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		reflect.TypeOf((*DataAwsApigatewayv2Export)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2ExportConfig",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2ExportConfig",
 		reflect.TypeOf((*DataAwsApigatewayv2ExportConfig)(nil)).Elem(),
 	)
 }

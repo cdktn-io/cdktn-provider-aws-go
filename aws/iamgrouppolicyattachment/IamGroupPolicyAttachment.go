@@ -5,14 +5,14 @@ package iamgrouppolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamgrouppolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamgrouppolicyattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment}.
 type IamGroupPolicyAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_IamGroupPolicyAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
 func NewIamGroupPolicyAttachment(scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentConfig) IamGroupPolicyAttachment {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewIamGroupPolicyAttachment(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamGroupPolicyAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewIamGroupPolicyAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachment aws_iam_group_policy_attachment} Resource.
 func NewIamGroupPolicyAttachment_Override(i IamGroupPolicyAttachment, scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -496,7 +496,7 @@ func IamGroupPolicyAttachment_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func IamGroupPolicyAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func IamGroupPolicyAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func IamGroupPolicyAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func IamGroupPolicyAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
+		"@cdktn/provider-aws.iamGroupPolicyAttachment.IamGroupPolicyAttachment",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawsmedialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsMedialiveInputMediaConnectFlowsList(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsMedialiveInputMediaConnectFlowsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsMedialiveInputMediaConnectFlowsList_Override(d DataAwsMedialiveIn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInputMediaConnectFlowsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

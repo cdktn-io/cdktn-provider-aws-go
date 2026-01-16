@@ -5,14 +5,14 @@ package grafanaworkspaceserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/grafanaworkspaceserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/grafanaworkspaceserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account}.
 type GrafanaWorkspaceServiceAccount interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_GrafanaWorkspaceServiceAccount) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
 func NewGrafanaWorkspaceServiceAccount(scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountConfig) GrafanaWorkspaceServiceAccount {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewGrafanaWorkspaceServiceAccount(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GrafanaWorkspaceServiceAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewGrafanaWorkspaceServiceAccount(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace_service_account aws_grafana_workspace_service_account} Resource.
 func NewGrafanaWorkspaceServiceAccount_Override(g GrafanaWorkspaceServiceAccount, scope constructs.Construct, id *string, config *GrafanaWorkspaceServiceAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -552,7 +552,7 @@ func GrafanaWorkspaceServiceAccount_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func GrafanaWorkspaceServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func GrafanaWorkspaceServiceAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func GrafanaWorkspaceServiceAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func GrafanaWorkspaceServiceAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
+		"@cdktn/provider-aws.grafanaWorkspaceServiceAccount.GrafanaWorkspaceServiceAccount",
 		"tfResourceType",
 		&returns,
 	)

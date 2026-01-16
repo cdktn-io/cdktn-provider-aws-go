@@ -5,9 +5,9 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewMskconnectConnectorCapacityOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_MskconnectConnectorCapacityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewMskconnectConnectorCapacityOutputReference_Override(m MskconnectConnecto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorCapacityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

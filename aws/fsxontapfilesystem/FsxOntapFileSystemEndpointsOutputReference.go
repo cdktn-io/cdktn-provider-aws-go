@@ -5,9 +5,9 @@ package fsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewFsxOntapFileSystemEndpointsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_FsxOntapFileSystemEndpointsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsOutputReference",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewFsxOntapFileSystemEndpointsOutputReference_Override(f FsxOntapFileSystem
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsOutputReference",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		f,
 	)

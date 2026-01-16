@@ -5,14 +5,14 @@ package dataawssfnstatemachineversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssfnstatemachineversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssfnstatemachineversions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions}.
 type DataAwsSfnStateMachineVersions interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsSfnStateMachineVersions) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
 func NewDataAwsSfnStateMachineVersions(scope constructs.Construct, id *string, config *DataAwsSfnStateMachineVersionsConfig) DataAwsSfnStateMachineVersions {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsSfnStateMachineVersions(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAwsSfnStateMachineVersions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsSfnStateMachineVersions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
 func NewDataAwsSfnStateMachineVersions_Override(d DataAwsSfnStateMachineVersions, scope constructs.Construct, id *string, config *DataAwsSfnStateMachineVersionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsSfnStateMachineVersions_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsSfnStateMachineVersions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsSfnStateMachineVersions_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsSfnStateMachineVersions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsSfnStateMachineVersions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		"tfResourceType",
 		&returns,
 	)

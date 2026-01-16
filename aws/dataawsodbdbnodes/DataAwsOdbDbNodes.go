@@ -5,14 +5,14 @@ package dataawsodbdbnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbdbnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbnodes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
 type DataAwsOdbDbNodes interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOdbDbNodes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) DataAwsOdbDbNodes {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsOdbDbNodes{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes_Override(d DataAwsOdbDbNodes, scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsOdbDbNodes_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsOdbDbNodes_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsOdbDbNodes_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsOdbDbNodes_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsOdbDbNodes_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		"tfResourceType",
 		&returns,
 	)

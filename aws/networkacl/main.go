@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAcl.NetworkAcl",
+		"@cdktn/provider-aws.networkAcl.NetworkAcl",
 		reflect.TypeOf((*NetworkAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkAcl.NetworkAclConfig",
+		"@cdktn/provider-aws.networkAcl.NetworkAclConfig",
 		reflect.TypeOf((*NetworkAclConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkAcl.NetworkAclEgress",
+		"@cdktn/provider-aws.networkAcl.NetworkAclEgress",
 		reflect.TypeOf((*NetworkAclEgress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAcl.NetworkAclEgressList",
+		"@cdktn/provider-aws.networkAcl.NetworkAclEgressList",
 		reflect.TypeOf((*NetworkAclEgressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAcl.NetworkAclEgressOutputReference",
+		"@cdktn/provider-aws.networkAcl.NetworkAclEgressOutputReference",
 		reflect.TypeOf((*NetworkAclEgressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkAcl.NetworkAclIngress",
+		"@cdktn/provider-aws.networkAcl.NetworkAclIngress",
 		reflect.TypeOf((*NetworkAclIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAcl.NetworkAclIngressList",
+		"@cdktn/provider-aws.networkAcl.NetworkAclIngressList",
 		reflect.TypeOf((*NetworkAclIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAcl.NetworkAclIngressOutputReference",
+		"@cdktn/provider-aws.networkAcl.NetworkAclIngressOutputReference",
 		reflect.TypeOf((*NetworkAclIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},

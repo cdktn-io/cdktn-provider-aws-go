@@ -5,14 +5,14 @@ package fsxs3accesspointattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxs3accesspointattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxs3accesspointattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment}.
 type FsxS3AccessPointAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_FsxS3AccessPointAttachment) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.
 func NewFsxS3AccessPointAttachment(scope constructs.Construct, id *string, config *FsxS3AccessPointAttachmentConfig) FsxS3AccessPointAttachment {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewFsxS3AccessPointAttachment(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_FsxS3AccessPointAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewFsxS3AccessPointAttachment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.
 func NewFsxS3AccessPointAttachment_Override(f FsxS3AccessPointAttachment, scope constructs.Construct, id *string, config *FsxS3AccessPointAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -590,7 +590,7 @@ func FsxS3AccessPointAttachment_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func FsxS3AccessPointAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func FsxS3AccessPointAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func FsxS3AccessPointAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func FsxS3AccessPointAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
+		"@cdktn/provider-aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment",
 		"tfResourceType",
 		&returns,
 	)

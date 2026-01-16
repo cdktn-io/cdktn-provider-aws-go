@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProject",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProject",
 		reflect.TypeOf((*RekognitionProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProjectConfig",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProjectConfig",
 		reflect.TypeOf((*RekognitionProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProjectTimeouts",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProjectTimeouts",
 		reflect.TypeOf((*RekognitionProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionProject.RekognitionProjectTimeoutsOutputReference",
 		reflect.TypeOf((*RekognitionProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

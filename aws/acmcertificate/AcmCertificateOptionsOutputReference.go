@@ -5,9 +5,9 @@ package acmcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/acmcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/acmcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAcmCertificateOptionsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_AcmCertificateOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAcmCertificateOptionsOutputReference_Override(a AcmCertificateOptionsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
+		"@cdktn/provider-aws.acmCertificate.AcmCertificateOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

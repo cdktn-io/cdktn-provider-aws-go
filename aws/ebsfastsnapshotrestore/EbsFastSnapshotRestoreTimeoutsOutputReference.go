@@ -5,9 +5,9 @@ package ebsfastsnapshotrestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebsfastsnapshotrestore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebsfastsnapshotrestore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEbsFastSnapshotRestoreTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_EbsFastSnapshotRestoreTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEbsFastSnapshotRestoreTimeoutsOutputReference_Override(e EbsFastSnapshot
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

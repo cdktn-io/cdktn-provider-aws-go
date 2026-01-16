@@ -5,9 +5,9 @@ package sesreceiptrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesreceiptrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesreceiptrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -301,7 +301,7 @@ func NewSesReceiptRuleS3ActionOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_SesReceiptRuleS3ActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionOutputReference",
+		"@cdktn/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -313,7 +313,7 @@ func NewSesReceiptRuleS3ActionOutputReference_Override(s SesReceiptRuleS3ActionO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionOutputReference",
+		"@cdktn/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

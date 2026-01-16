@@ -5,9 +5,9 @@ package transferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewTransferConnectorEgressConfigVpcLatticeOutputReference(terraformResource
 	j := jsiiProxy_TransferConnectorEgressConfigVpcLatticeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewTransferConnectorEgressConfigVpcLatticeOutputReference_Override(t Transf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

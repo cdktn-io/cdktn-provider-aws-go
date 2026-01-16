@@ -5,14 +5,14 @@ package appconfighostedconfigurationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appconfighostedconfigurationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appconfighostedconfigurationversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version}.
 type AppconfigHostedConfigurationVersion interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionNumber() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) AppconfigHostedConfigurationVersion {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *stri
 	j := jsiiProxy_AppconfigHostedConfigurationVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion_Override(a AppconfigHostedConfigurationVersion, scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -656,7 +656,7 @@ func AppconfigHostedConfigurationVersion_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func AppconfigHostedConfigurationVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func AppconfigHostedConfigurationVersion_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func AppconfigHostedConfigurationVersion_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func AppconfigHostedConfigurationVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		"tfResourceType",
 		&returns,
 	)

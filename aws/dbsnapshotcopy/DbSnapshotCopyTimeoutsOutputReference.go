@@ -5,9 +5,9 @@ package dbsnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbsnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbsnapshotcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDbSnapshotCopyTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DbSnapshotCopyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSnapshotCopy.DbSnapshotCopyTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbSnapshotCopy.DbSnapshotCopyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDbSnapshotCopyTimeoutsOutputReference_Override(d DbSnapshotCopyTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSnapshotCopy.DbSnapshotCopyTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbSnapshotCopy.DbSnapshotCopyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

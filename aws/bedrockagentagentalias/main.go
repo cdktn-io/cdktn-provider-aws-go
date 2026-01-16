@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAlias",
 		reflect.TypeOf((*BedrockagentAgentAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasConfig",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasConfig",
 		reflect.TypeOf((*BedrockagentAgentAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfiguration",
 		reflect.TypeOf((*BedrockagentAgentAliasRoutingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfigurationList",
 		reflect.TypeOf((*BedrockagentAgentAliasRoutingConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasRoutingConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentAgentAliasRoutingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentVersion", GoGetter: "AgentVersion"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasTimeouts",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasTimeouts",
 		reflect.TypeOf((*BedrockagentAgentAliasTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgentAlias.BedrockagentAgentAliasTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockagentAgentAliasTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisStream.KinesisStream",
+		"@cdktn/provider-aws.kinesisStream.KinesisStream",
 		reflect.TypeOf((*KinesisStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisStream.KinesisStreamConfig",
+		"@cdktn/provider-aws.kinesisStream.KinesisStreamConfig",
 		reflect.TypeOf((*KinesisStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisStream.KinesisStreamStreamModeDetails",
+		"@cdktn/provider-aws.kinesisStream.KinesisStreamStreamModeDetails",
 		reflect.TypeOf((*KinesisStreamStreamModeDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisStream.KinesisStreamStreamModeDetailsOutputReference",
+		"@cdktn/provider-aws.kinesisStream.KinesisStreamStreamModeDetailsOutputReference",
 		reflect.TypeOf((*KinesisStreamStreamModeDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisStream.KinesisStreamTimeouts",
+		"@cdktn/provider-aws.kinesisStream.KinesisStreamTimeouts",
 		reflect.TypeOf((*KinesisStreamTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisStream.KinesisStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.kinesisStream.KinesisStreamTimeoutsOutputReference",
 		reflect.TypeOf((*KinesisStreamTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

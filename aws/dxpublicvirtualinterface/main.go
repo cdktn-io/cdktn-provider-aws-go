@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterface",
+		"@cdktn/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterface",
 		reflect.TypeOf((*DxPublicVirtualInterface)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceConfig",
+		"@cdktn/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceConfig",
 		reflect.TypeOf((*DxPublicVirtualInterfaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceTimeouts",
+		"@cdktn/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceTimeouts",
 		reflect.TypeOf((*DxPublicVirtualInterfaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceTimeoutsOutputReference",
 		reflect.TypeOf((*DxPublicVirtualInterfaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

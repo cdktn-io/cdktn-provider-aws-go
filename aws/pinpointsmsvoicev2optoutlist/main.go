@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		reflect.TypeOf((*Pinpointsmsvoicev2OptOutList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutListConfig",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutListConfig",
 		reflect.TypeOf((*Pinpointsmsvoicev2OptOutListConfig)(nil)).Elem(),
 	)
 }

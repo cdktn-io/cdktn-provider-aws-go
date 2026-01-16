@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		reflect.TypeOf((*VpcIpamPoolCidrAllocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocationConfig",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocationConfig",
 		reflect.TypeOf((*VpcIpamPoolCidrAllocationConfig)(nil)).Elem(),
 	)
 }

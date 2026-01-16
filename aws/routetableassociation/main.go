@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.routeTableAssociation.RouteTableAssociation",
+		"@cdktn/provider-aws.routeTableAssociation.RouteTableAssociation",
 		reflect.TypeOf((*RouteTableAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.routeTableAssociation.RouteTableAssociationConfig",
+		"@cdktn/provider-aws.routeTableAssociation.RouteTableAssociationConfig",
 		reflect.TypeOf((*RouteTableAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.routeTableAssociation.RouteTableAssociationTimeouts",
+		"@cdktn/provider-aws.routeTableAssociation.RouteTableAssociationTimeouts",
 		reflect.TypeOf((*RouteTableAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.routeTableAssociation.RouteTableAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.routeTableAssociation.RouteTableAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*RouteTableAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbCookieStickinessPolicy.LbCookieStickinessPolicy",
+		"@cdktn/provider-aws.lbCookieStickinessPolicy.LbCookieStickinessPolicy",
 		reflect.TypeOf((*LbCookieStickinessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbCookieStickinessPolicy.LbCookieStickinessPolicyConfig",
+		"@cdktn/provider-aws.lbCookieStickinessPolicy.LbCookieStickinessPolicyConfig",
 		reflect.TypeOf((*LbCookieStickinessPolicyConfig)(nil)).Elem(),
 	)
 }

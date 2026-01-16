@@ -5,9 +5,9 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppmeshRouteSpecTcpRouteActionList(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsAppmeshRouteSpecTcpRouteActionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionList",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppmeshRouteSpecTcpRouteActionList_Override(d DataAwsAppmeshRoute
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionList",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecTcpRouteActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

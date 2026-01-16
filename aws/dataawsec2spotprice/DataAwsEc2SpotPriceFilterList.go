@@ -5,9 +5,9 @@ package dataawsec2spotprice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2spotprice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2spotprice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsEc2SpotPriceFilterList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DataAwsEc2SpotPriceFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsEc2SpotPriceFilterList_Override(d DataAwsEc2SpotPriceFilterList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

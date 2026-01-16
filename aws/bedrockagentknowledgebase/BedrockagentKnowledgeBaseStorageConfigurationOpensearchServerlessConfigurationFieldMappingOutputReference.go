@@ -5,9 +5,9 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -73,9 +73,6 @@ type BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurat
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
-	ResetMetadataField()
-	ResetTextField()
-	ResetVectorField()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -231,7 +228,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
 	j := jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +240,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -521,30 +518,6 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServer
 	)
 
 	return returns
-}
-
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference) ResetMetadataField() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetMetadataField",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference) ResetTextField() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetTextField",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference) ResetVectorField() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetVectorField",
-		nil, // no parameters
-	)
 }
 
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationFieldMappingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {

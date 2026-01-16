@@ -5,14 +5,14 @@ package vpcendpointroutetableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointroutetableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointroutetableassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association}.
 type VpcEndpointRouteTableAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_VpcEndpointRouteTableAssociation) VpcEndpointIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
 func NewVpcEndpointRouteTableAssociation(scope constructs.Construct, id *string, config *VpcEndpointRouteTableAssociationConfig) VpcEndpointRouteTableAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewVpcEndpointRouteTableAssociation(scope constructs.Construct, id *string,
 	j := jsiiProxy_VpcEndpointRouteTableAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewVpcEndpointRouteTableAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
 func NewVpcEndpointRouteTableAssociation_Override(v VpcEndpointRouteTableAssociation, scope constructs.Construct, id *string, config *VpcEndpointRouteTableAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -531,7 +531,7 @@ func VpcEndpointRouteTableAssociation_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func VpcEndpointRouteTableAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func VpcEndpointRouteTableAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func VpcEndpointRouteTableAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func VpcEndpointRouteTableAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
+		"@cdktn/provider-aws.vpcEndpointRouteTableAssociation.VpcEndpointRouteTableAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsvpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpc/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc aws_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc aws_vpc}.
 type DataAwsVpc interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DataAwsVpc) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc aws_vpc} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc aws_vpc} Data Source.
 func NewDataAwsVpc(scope constructs.Construct, id *string, config *DataAwsVpcConfig) DataAwsVpc {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewDataAwsVpc(scope constructs.Construct, id *string, config *DataAwsVpcCon
 	j := jsiiProxy_DataAwsVpc{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewDataAwsVpc(scope constructs.Construct, id *string, config *DataAwsVpcCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc aws_vpc} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc aws_vpc} Data Source.
 func NewDataAwsVpc_Override(d DataAwsVpc, scope constructs.Construct, id *string, config *DataAwsVpcConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -729,7 +729,7 @@ func DataAwsVpc_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func DataAwsVpc_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func DataAwsVpc_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DataAwsVpc_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func DataAwsVpc_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpc",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpc",
 		"tfResourceType",
 		&returns,
 	)

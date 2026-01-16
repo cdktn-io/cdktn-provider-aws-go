@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHub",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHub",
 		reflect.TypeOf((*SagemakerHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHubConfig",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHubConfig",
 		reflect.TypeOf((*SagemakerHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHubS3StorageConfig",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHubS3StorageConfig",
 		reflect.TypeOf((*SagemakerHubS3StorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
 		reflect.TypeOf((*SagemakerHubS3StorageConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

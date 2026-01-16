@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestore",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestore",
 		reflect.TypeOf((*EbsFastSnapshotRestore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreConfig",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreConfig",
 		reflect.TypeOf((*EbsFastSnapshotRestoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeouts",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeouts",
 		reflect.TypeOf((*EbsFastSnapshotRestoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.ebsFastSnapshotRestore.EbsFastSnapshotRestoreTimeoutsOutputReference",
 		reflect.TypeOf((*EbsFastSnapshotRestoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

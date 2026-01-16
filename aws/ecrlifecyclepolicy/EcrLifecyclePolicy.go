@@ -5,14 +5,14 @@ package ecrlifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrlifecyclepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrlifecyclepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy}.
 type EcrLifecyclePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_EcrLifecyclePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy} Resource.
 func NewEcrLifecyclePolicy(scope constructs.Construct, id *string, config *EcrLifecyclePolicyConfig) EcrLifecyclePolicy {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewEcrLifecyclePolicy(scope constructs.Construct, id *string, config *EcrLi
 	j := jsiiProxy_EcrLifecyclePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewEcrLifecyclePolicy(scope constructs.Construct, id *string, config *EcrLi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_lifecycle_policy aws_ecr_lifecycle_policy} Resource.
 func NewEcrLifecyclePolicy_Override(e EcrLifecyclePolicy, scope constructs.Construct, id *string, config *EcrLifecyclePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -542,7 +542,7 @@ func EcrLifecyclePolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func EcrLifecyclePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func EcrLifecyclePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func EcrLifecyclePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func EcrLifecyclePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawslb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLbConnectionLogsList(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_DataAwsLbConnectionLogsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLbConnectionLogsList_Override(d DataAwsLbConnectionLogsList, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLbConnectionLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

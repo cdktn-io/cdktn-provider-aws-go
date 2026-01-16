@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoIdentityPool.CognitoIdentityPool",
+		"@cdktn/provider-aws.cognitoIdentityPool.CognitoIdentityPool",
 		reflect.TypeOf((*CognitoIdentityPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,11 +100,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProviders",
+		"@cdktn/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProviders",
 		reflect.TypeOf((*CognitoIdentityPoolCognitoIdentityProviders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProvidersList",
+		"@cdktn/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProvidersList",
 		reflect.TypeOf((*CognitoIdentityPoolCognitoIdentityProvidersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProvidersOutputReference",
+		"@cdktn/provider-aws.cognitoIdentityPool.CognitoIdentityPoolCognitoIdentityProvidersOutputReference",
 		reflect.TypeOf((*CognitoIdentityPoolCognitoIdentityProvidersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoIdentityPool.CognitoIdentityPoolConfig",
+		"@cdktn/provider-aws.cognitoIdentityPool.CognitoIdentityPoolConfig",
 		reflect.TypeOf((*CognitoIdentityPoolConfig)(nil)).Elem(),
 	)
 }

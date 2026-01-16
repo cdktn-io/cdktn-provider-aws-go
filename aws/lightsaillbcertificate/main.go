@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailLbCertificate.LightsailLbCertificate",
+		"@cdktn/provider-aws.lightsailLbCertificate.LightsailLbCertificate",
 		reflect.TypeOf((*LightsailLbCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailLbCertificate.LightsailLbCertificateConfig",
+		"@cdktn/provider-aws.lightsailLbCertificate.LightsailLbCertificateConfig",
 		reflect.TypeOf((*LightsailLbCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecords",
+		"@cdktn/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecords",
 		reflect.TypeOf((*LightsailLbCertificateDomainValidationRecords)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecordsList",
+		"@cdktn/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecordsList",
 		reflect.TypeOf((*LightsailLbCertificateDomainValidationRecordsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecordsOutputReference",
+		"@cdktn/provider-aws.lightsailLbCertificate.LightsailLbCertificateDomainValidationRecordsOutputReference",
 		reflect.TypeOf((*LightsailLbCertificateDomainValidationRecordsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

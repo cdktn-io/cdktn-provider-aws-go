@@ -5,14 +5,14 @@ package s3object
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3object/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3object/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object aws_s3_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object aws_s3_object}.
 type S3Object interface {
 	cdktf.TerraformResource
 	Acl() *string
@@ -1057,7 +1057,7 @@ func (j *jsiiProxy_S3Object) WebsiteRedirectInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object aws_s3_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object aws_s3_object} Resource.
 func NewS3Object(scope constructs.Construct, id *string, config *S3ObjectConfig) S3Object {
 	_init_.Initialize()
 
@@ -1067,7 +1067,7 @@ func NewS3Object(scope constructs.Construct, id *string, config *S3ObjectConfig)
 	j := jsiiProxy_S3Object{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1075,12 +1075,12 @@ func NewS3Object(scope constructs.Construct, id *string, config *S3ObjectConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object aws_s3_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object aws_s3_object} Resource.
 func NewS3Object_Override(s S3Object, scope constructs.Construct, id *string, config *S3ObjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1472,7 +1472,7 @@ func S3Object_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1507,7 +1507,7 @@ func S3Object_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1526,7 +1526,7 @@ func S3Object_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1545,7 +1545,7 @@ func S3Object_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1558,7 +1558,7 @@ func S3Object_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3Object.S3Object",
+		"@cdktn/provider-aws.s3Object.S3Object",
 		"tfResourceType",
 		&returns,
 	)

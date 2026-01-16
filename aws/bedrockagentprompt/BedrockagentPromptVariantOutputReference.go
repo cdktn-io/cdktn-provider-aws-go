@@ -5,9 +5,9 @@ package bedrockagentprompt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentprompt/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentprompt/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -349,7 +349,7 @@ func NewBedrockagentPromptVariantOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_BedrockagentPromptVariantOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentPrompt.BedrockagentPromptVariantOutputReference",
+		"@cdktn/provider-aws.bedrockagentPrompt.BedrockagentPromptVariantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -361,7 +361,7 @@ func NewBedrockagentPromptVariantOutputReference_Override(b BedrockagentPromptVa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentPrompt.BedrockagentPromptVariantOutputReference",
+		"@cdktn/provider-aws.bedrockagentPrompt.BedrockagentPromptVariantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

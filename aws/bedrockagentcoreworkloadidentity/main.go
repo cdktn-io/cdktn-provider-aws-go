@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		reflect.TypeOf((*BedrockagentcoreWorkloadIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityConfig",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityConfig",
 		reflect.TypeOf((*BedrockagentcoreWorkloadIdentityConfig)(nil)).Elem(),
 	)
 }

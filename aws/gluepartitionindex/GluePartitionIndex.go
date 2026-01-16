@@ -5,14 +5,14 @@ package gluepartitionindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluepartitionindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluepartitionindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition_index aws_glue_partition_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition_index aws_glue_partition_index}.
 type GluePartitionIndex interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_GluePartitionIndex) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
 func NewGluePartitionIndex(scope constructs.Construct, id *string, config *GluePartitionIndexConfig) GluePartitionIndex {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewGluePartitionIndex(scope constructs.Construct, id *string, config *GlueP
 	j := jsiiProxy_GluePartitionIndex{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewGluePartitionIndex(scope constructs.Construct, id *string, config *GlueP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition_index aws_glue_partition_index} Resource.
 func NewGluePartitionIndex_Override(g GluePartitionIndex, scope constructs.Construct, id *string, config *GluePartitionIndexConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -613,7 +613,7 @@ func GluePartitionIndex_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func GluePartitionIndex_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func GluePartitionIndex_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GluePartitionIndex_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func GluePartitionIndex_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndex",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndex",
 		"tfResourceType",
 		&returns,
 	)

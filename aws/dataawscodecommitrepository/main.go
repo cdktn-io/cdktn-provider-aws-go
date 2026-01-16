@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		reflect.TypeOf((*DataAwsCodecommitRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepositoryConfig",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepositoryConfig",
 		reflect.TypeOf((*DataAwsCodecommitRepositoryConfig)(nil)).Elem(),
 	)
 }

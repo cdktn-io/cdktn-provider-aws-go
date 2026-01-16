@@ -5,9 +5,9 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewPipesPipeEnrichmentParametersHttpParametersOutputReference(terraformReso
 	j := jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewPipesPipeEnrichmentParametersHttpParametersOutputReference_Override(p Pi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

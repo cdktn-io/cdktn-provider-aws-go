@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Route.Apigatewayv2Route",
+		"@cdktn/provider-aws.apigatewayv2Route.Apigatewayv2Route",
 		reflect.TypeOf((*Apigatewayv2Route)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Route.Apigatewayv2RouteConfig",
+		"@cdktn/provider-aws.apigatewayv2Route.Apigatewayv2RouteConfig",
 		reflect.TypeOf((*Apigatewayv2RouteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameter",
+		"@cdktn/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameter",
 		reflect.TypeOf((*Apigatewayv2RouteRequestParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameterList",
+		"@cdktn/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameterList",
 		reflect.TypeOf((*Apigatewayv2RouteRequestParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameterOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Route.Apigatewayv2RouteRequestParameterOutputReference",
 		reflect.TypeOf((*Apigatewayv2RouteRequestParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

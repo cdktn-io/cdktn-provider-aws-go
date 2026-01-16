@@ -5,9 +5,9 @@ package rdsclustersnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsclustersnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsclustersnapshotcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewRdsClusterSnapshotCopyTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_RdsClusterSnapshotCopyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewRdsClusterSnapshotCopyTimeoutsOutputReference_Override(r RdsClusterSnaps
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

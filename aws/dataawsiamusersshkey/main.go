@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamUserSshKey.DataAwsIamUserSshKey",
+		"@cdktn/provider-aws.dataAwsIamUserSshKey.DataAwsIamUserSshKey",
 		reflect.TypeOf((*DataAwsIamUserSshKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamUserSshKey.DataAwsIamUserSshKeyConfig",
+		"@cdktn/provider-aws.dataAwsIamUserSshKey.DataAwsIamUserSshKeyConfig",
 		reflect.TypeOf((*DataAwsIamUserSshKeyConfig)(nil)).Elem(),
 	)
 }

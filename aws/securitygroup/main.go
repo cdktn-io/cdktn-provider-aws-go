@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroup",
+		"@cdktn/provider-aws.securityGroup.SecurityGroup",
 		reflect.TypeOf((*SecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupConfig",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupConfig",
 		reflect.TypeOf((*SecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupEgress",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupEgress",
 		reflect.TypeOf((*SecurityGroupEgress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupEgressList",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupEgressList",
 		reflect.TypeOf((*SecurityGroupEgressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
 		reflect.TypeOf((*SecurityGroupEgressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlocks", GoGetter: "CidrBlocks"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupIngress",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupIngress",
 		reflect.TypeOf((*SecurityGroupIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupIngressList",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupIngressList",
 		reflect.TypeOf((*SecurityGroupIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupIngressOutputReference",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupIngressOutputReference",
 		reflect.TypeOf((*SecurityGroupIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlocks", GoGetter: "CidrBlocks"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupTimeouts",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupTimeouts",
 		reflect.TypeOf((*SecurityGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

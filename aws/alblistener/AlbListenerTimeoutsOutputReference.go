@@ -5,9 +5,9 @@ package alblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAlbListenerTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_AlbListenerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerTimeoutsOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAlbListenerTimeoutsOutputReference_Override(a AlbListenerTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListener.AlbListenerTimeoutsOutputReference",
+		"@cdktn/provider-aws.albListener.AlbListenerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

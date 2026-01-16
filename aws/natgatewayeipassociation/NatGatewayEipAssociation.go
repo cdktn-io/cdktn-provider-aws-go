@@ -5,14 +5,14 @@ package natgatewayeipassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/natgatewayeipassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/natgatewayeipassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association}.
 type NatGatewayEipAssociation interface {
 	cdktf.TerraformResource
 	AllocationId() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_NatGatewayEipAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
 func NewNatGatewayEipAssociation(scope constructs.Construct, id *string, config *NatGatewayEipAssociationConfig) NatGatewayEipAssociation {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewNatGatewayEipAssociation(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_NatGatewayEipAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewNatGatewayEipAssociation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
 func NewNatGatewayEipAssociation_Override(n NatGatewayEipAssociation, scope constructs.Construct, id *string, config *NatGatewayEipAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -531,7 +531,7 @@ func NatGatewayEipAssociation_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func NatGatewayEipAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func NatGatewayEipAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func NatGatewayEipAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func NatGatewayEipAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		"tfResourceType",
 		&returns,
 	)

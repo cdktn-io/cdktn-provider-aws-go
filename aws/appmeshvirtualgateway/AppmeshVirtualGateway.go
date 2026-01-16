@@ -5,14 +5,14 @@ package appmeshvirtualgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway}.
 type AppmeshVirtualGateway interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_AppmeshVirtualGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
 func NewAppmeshVirtualGateway(scope constructs.Construct, id *string, config *AppmeshVirtualGatewayConfig) AppmeshVirtualGateway {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewAppmeshVirtualGateway(scope constructs.Construct, id *string, config *Ap
 	j := jsiiProxy_AppmeshVirtualGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewAppmeshVirtualGateway(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_gateway aws_appmesh_virtual_gateway} Resource.
 func NewAppmeshVirtualGateway_Override(a AppmeshVirtualGateway, scope constructs.Construct, id *string, config *AppmeshVirtualGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -703,7 +703,7 @@ func AppmeshVirtualGateway_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func AppmeshVirtualGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func AppmeshVirtualGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func AppmeshVirtualGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func AppmeshVirtualGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
+		"@cdktn/provider-aws.appmeshVirtualGateway.AppmeshVirtualGateway",
 		"tfResourceType",
 		&returns,
 	)

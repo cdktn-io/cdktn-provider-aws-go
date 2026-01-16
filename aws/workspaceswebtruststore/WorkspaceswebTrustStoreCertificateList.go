@@ -5,9 +5,9 @@ package workspaceswebtruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebtruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebtruststore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWorkspaceswebTrustStoreCertificateList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_WorkspaceswebTrustStoreCertificateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWorkspaceswebTrustStoreCertificateList_Override(w WorkspaceswebTrustStor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

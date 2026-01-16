@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		reflect.TypeOf((*WafregionalByteMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuples",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuples",
 		reflect.TypeOf((*WafregionalByteMatchSetByteMatchTuples)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatch",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatch",
 		reflect.TypeOf((*WafregionalByteMatchSetByteMatchTuplesFieldToMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference",
 		reflect.TypeOf((*WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
 		reflect.TypeOf((*WafregionalByteMatchSetByteMatchTuplesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -142,7 +142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesOutputReference",
 		reflect.TypeOf((*WafregionalByteMatchSetByteMatchTuplesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetConfig",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetConfig",
 		reflect.TypeOf((*WafregionalByteMatchSetConfig)(nil)).Elem(),
 	)
 }

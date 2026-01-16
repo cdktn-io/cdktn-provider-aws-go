@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxyTarget.DbProxyTarget",
+		"@cdktn/provider-aws.dbProxyTarget.DbProxyTarget",
 		reflect.TypeOf((*DbProxyTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxyTarget.DbProxyTargetConfig",
+		"@cdktn/provider-aws.dbProxyTarget.DbProxyTargetConfig",
 		reflect.TypeOf((*DbProxyTargetConfig)(nil)).Elem(),
 	)
 }

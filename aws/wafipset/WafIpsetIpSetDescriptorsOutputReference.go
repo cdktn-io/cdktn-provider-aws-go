@@ -5,9 +5,9 @@ package wafipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafipset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafipset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewWafIpsetIpSetDescriptorsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_WafIpsetIpSetDescriptorsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
+		"@cdktn/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewWafIpsetIpSetDescriptorsOutputReference_Override(w WafIpsetIpSetDescript
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
+		"@cdktn/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

@@ -5,14 +5,14 @@ package appsyncsourceapiassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncsourceapiassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncsourceapiassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association}.
 type AppsyncSourceApiAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -511,7 +511,7 @@ func (j *jsiiProxy_AppsyncSourceApiAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource.
 func NewAppsyncSourceApiAssociation(scope constructs.Construct, id *string, config *AppsyncSourceApiAssociationConfig) AppsyncSourceApiAssociation {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewAppsyncSourceApiAssociation(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_AppsyncSourceApiAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewAppsyncSourceApiAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_source_api_association aws_appsync_source_api_association} Resource.
 func NewAppsyncSourceApiAssociation_Override(a AppsyncSourceApiAssociation, scope constructs.Construct, id *string, config *AppsyncSourceApiAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -684,7 +684,7 @@ func AppsyncSourceApiAssociation_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func AppsyncSourceApiAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func AppsyncSourceApiAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func AppsyncSourceApiAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func AppsyncSourceApiAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
+		"@cdktn/provider-aws.appsyncSourceApiAssociation.AppsyncSourceApiAssociation",
 		"tfResourceType",
 		&returns,
 	)

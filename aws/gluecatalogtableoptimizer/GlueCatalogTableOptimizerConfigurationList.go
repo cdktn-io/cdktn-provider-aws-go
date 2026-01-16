@@ -5,9 +5,9 @@ package gluecatalogtableoptimizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecatalogtableoptimizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogtableoptimizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewGlueCatalogTableOptimizerConfigurationList(terraformResource cdktf.IInte
 	j := jsiiProxy_GlueCatalogTableOptimizerConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationList",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewGlueCatalogTableOptimizerConfigurationList_Override(g GlueCatalogTableOp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationList",
+		"@cdktn/provider-aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)

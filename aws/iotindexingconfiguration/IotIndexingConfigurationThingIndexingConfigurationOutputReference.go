@@ -5,9 +5,9 @@ package iotindexingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotindexingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotindexingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -326,7 +326,7 @@ func NewIotIndexingConfigurationThingIndexingConfigurationOutputReference(terraf
 	j := jsiiProxy_IotIndexingConfigurationThingIndexingConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationOutputReference",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -338,7 +338,7 @@ func NewIotIndexingConfigurationThingIndexingConfigurationOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationOutputReference",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfigurationThingIndexingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

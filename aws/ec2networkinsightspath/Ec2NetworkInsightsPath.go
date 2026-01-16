@@ -5,14 +5,14 @@ package ec2networkinsightspath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2networkinsightspath/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2networkinsightspath/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}.
 type Ec2NetworkInsightsPath interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsPath) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
 func NewEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *Ec2NetworkInsightsPathConfig) Ec2NetworkInsightsPath {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_Ec2NetworkInsightsPath{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -623,12 +623,12 @@ func NewEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource.
 func NewEc2NetworkInsightsPath_Override(e Ec2NetworkInsightsPath, scope constructs.Construct, id *string, config *Ec2NetworkInsightsPathConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -822,7 +822,7 @@ func Ec2NetworkInsightsPath_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -857,7 +857,7 @@ func Ec2NetworkInsightsPath_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func Ec2NetworkInsightsPath_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func Ec2NetworkInsightsPath_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func Ec2NetworkInsightsPath_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
+		"@cdktn/provider-aws.ec2NetworkInsightsPath.Ec2NetworkInsightsPath",
 		"tfResourceType",
 		&returns,
 	)

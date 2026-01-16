@@ -5,14 +5,14 @@ package docdbclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbclusterinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbclusterinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance}.
 type DocdbClusterInstance interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -861,7 +861,7 @@ func (j *jsiiProxy_DocdbClusterInstance) Writer() cdktf.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
 func NewDocdbClusterInstance(scope constructs.Construct, id *string, config *DocdbClusterInstanceConfig) DocdbClusterInstance {
 	_init_.Initialize()
 
@@ -871,7 +871,7 @@ func NewDocdbClusterInstance(scope constructs.Construct, id *string, config *Doc
 	j := jsiiProxy_DocdbClusterInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -879,12 +879,12 @@ func NewDocdbClusterInstance(scope constructs.Construct, id *string, config *Doc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
 func NewDocdbClusterInstance_Override(d DocdbClusterInstance, scope constructs.Construct, id *string, config *DocdbClusterInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1166,7 +1166,7 @@ func DocdbClusterInstance_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1201,7 +1201,7 @@ func DocdbClusterInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1220,7 +1220,7 @@ func DocdbClusterInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1239,7 +1239,7 @@ func DocdbClusterInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1252,7 +1252,7 @@ func DocdbClusterInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.docdbClusterInstance.DocdbClusterInstance",
+		"@cdktn/provider-aws.docdbClusterInstance.DocdbClusterInstance",
 		"tfResourceType",
 		&returns,
 	)

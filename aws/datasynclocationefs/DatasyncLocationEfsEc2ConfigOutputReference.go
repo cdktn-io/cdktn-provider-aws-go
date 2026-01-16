@@ -5,9 +5,9 @@ package datasynclocationefs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationefs/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationefs/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDatasyncLocationEfsEc2ConfigOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DatasyncLocationEfsEc2ConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfsEc2ConfigOutputReference",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfsEc2ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDatasyncLocationEfsEc2ConfigOutputReference_Override(d DatasyncLocationE
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfsEc2ConfigOutputReference",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfsEc2ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

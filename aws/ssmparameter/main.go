@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmParameter.SsmParameter",
+		"@cdktn/provider-aws.ssmParameter.SsmParameter",
 		reflect.TypeOf((*SsmParameter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmParameter.SsmParameterConfig",
+		"@cdktn/provider-aws.ssmParameter.SsmParameterConfig",
 		reflect.TypeOf((*SsmParameterConfig)(nil)).Elem(),
 	)
 }

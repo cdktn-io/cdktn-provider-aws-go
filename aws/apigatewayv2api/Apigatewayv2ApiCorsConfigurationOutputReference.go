@@ -5,9 +5,9 @@ package apigatewayv2api
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2api/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2api/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewApigatewayv2ApiCorsConfigurationOutputReference(terraformResource cdktf.
 	j := jsiiProxy_Apigatewayv2ApiCorsConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewApigatewayv2ApiCorsConfigurationOutputReference_Override(a Apigatewayv2A
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -5,9 +5,9 @@ package medialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewMedialiveInputVpcOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_MedialiveInputVpcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputVpcOutputReference",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputVpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewMedialiveInputVpcOutputReference_Override(m MedialiveInputVpcOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputVpcOutputReference",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputVpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

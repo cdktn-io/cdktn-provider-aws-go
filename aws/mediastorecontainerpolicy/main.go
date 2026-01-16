@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicy",
 		reflect.TypeOf((*MediaStoreContainerPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicyConfig",
+		"@cdktn/provider-aws.mediaStoreContainerPolicy.MediaStoreContainerPolicyConfig",
 		reflect.TypeOf((*MediaStoreContainerPolicyConfig)(nil)).Elem(),
 	)
 }

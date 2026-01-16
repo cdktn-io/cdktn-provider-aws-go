@@ -5,14 +5,14 @@ package dataawsdevopsgururesourcecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdevopsgururesourcecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdevopsgururesourcecollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
 type DataAwsDevopsguruResourceCollection interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
 func NewDataAwsDevopsguruResourceCollection(scope constructs.Construct, id *string, config *DataAwsDevopsguruResourceCollectionConfig) DataAwsDevopsguruResourceCollection {
 	_init_.Initialize()
 
@@ -331,7 +331,7 @@ func NewDataAwsDevopsguruResourceCollection(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsDevopsguruResourceCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +339,12 @@ func NewDataAwsDevopsguruResourceCollection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
 func NewDataAwsDevopsguruResourceCollection_Override(d DataAwsDevopsguruResourceCollection, scope constructs.Construct, id *string, config *DataAwsDevopsguruResourceCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataAwsDevopsguruResourceCollection_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataAwsDevopsguruResourceCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAwsDevopsguruResourceCollection_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsDevopsguruResourceCollection_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsDevopsguruResourceCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
+		"@cdktn/provider-aws.dataAwsDevopsguruResourceCollection.DataAwsDevopsguruResourceCollection",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package ec2transitgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2transitgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEc2TransitGatewayTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_Ec2TransitGatewayTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGateway.Ec2TransitGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2TransitGateway.Ec2TransitGatewayTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEc2TransitGatewayTimeoutsOutputReference_Override(e Ec2TransitGatewayTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGateway.Ec2TransitGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2TransitGateway.Ec2TransitGatewayTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptions",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptions",
 		reflect.TypeOf((*VpcPeeringConnectionOptions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accepter", GoGetter: "Accepter"},
@@ -79,11 +79,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepter",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepter",
 		reflect.TypeOf((*VpcPeeringConnectionOptionsAccepter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsAccepterOutputReference",
 		reflect.TypeOf((*VpcPeeringConnectionOptionsAccepterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowRemoteVpcDnsResolution", GoGetter: "AllowRemoteVpcDnsResolution"},
@@ -118,15 +118,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsConfig",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsConfig",
 		reflect.TypeOf((*VpcPeeringConnectionOptionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsRequester",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsRequester",
 		reflect.TypeOf((*VpcPeeringConnectionOptionsRequester)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsRequesterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnectionOptions.VpcPeeringConnectionOptionsRequesterOutputReference",
 		reflect.TypeOf((*VpcPeeringConnectionOptionsRequesterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowRemoteVpcDnsResolution", GoGetter: "AllowRemoteVpcDnsResolution"},

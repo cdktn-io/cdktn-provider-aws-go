@@ -5,14 +5,14 @@ package route53recoveryreadinessreadinesscheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoveryreadinessreadinesscheck/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoveryreadinessreadinesscheck/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check}.
 type Route53RecoveryreadinessReadinessCheck interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessReadinessCheck) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check} Resource.
 func NewRoute53RecoveryreadinessReadinessCheck(scope constructs.Construct, id *string, config *Route53RecoveryreadinessReadinessCheckConfig) Route53RecoveryreadinessReadinessCheck {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewRoute53RecoveryreadinessReadinessCheck(scope constructs.Construct, id *s
 	j := jsiiProxy_Route53RecoveryreadinessReadinessCheck{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewRoute53RecoveryreadinessReadinessCheck(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_readiness_check aws_route53recoveryreadiness_readiness_check} Resource.
 func NewRoute53RecoveryreadinessReadinessCheck_Override(r Route53RecoveryreadinessReadinessCheck, scope constructs.Construct, id *string, config *Route53RecoveryreadinessReadinessCheckConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -601,7 +601,7 @@ func Route53RecoveryreadinessReadinessCheck_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func Route53RecoveryreadinessReadinessCheck_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func Route53RecoveryreadinessReadinessCheck_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func Route53RecoveryreadinessReadinessCheck_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func Route53RecoveryreadinessReadinessCheck_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheck",
 		"tfResourceType",
 		&returns,
 	)

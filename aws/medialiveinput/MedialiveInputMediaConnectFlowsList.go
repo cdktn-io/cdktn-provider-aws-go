@@ -5,9 +5,9 @@ package medialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMedialiveInputMediaConnectFlowsList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_MedialiveInputMediaConnectFlowsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputMediaConnectFlowsList",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputMediaConnectFlowsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMedialiveInputMediaConnectFlowsList_Override(m MedialiveInputMediaConnec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputMediaConnectFlowsList",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputMediaConnectFlowsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

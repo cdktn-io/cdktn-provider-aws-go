@@ -5,9 +5,9 @@ package dataawsvpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpc/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsVpcFilterOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_DataAwsVpcFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsVpcFilterOutputReference_Override(d DataAwsVpcFilterOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

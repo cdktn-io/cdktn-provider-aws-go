@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.autoscalingAttachment.AutoscalingAttachment",
+		"@cdktn/provider-aws.autoscalingAttachment.AutoscalingAttachment",
 		reflect.TypeOf((*AutoscalingAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.autoscalingAttachment.AutoscalingAttachmentConfig",
+		"@cdktn/provider-aws.autoscalingAttachment.AutoscalingAttachmentConfig",
 		reflect.TypeOf((*AutoscalingAttachmentConfig)(nil)).Elem(),
 	)
 }

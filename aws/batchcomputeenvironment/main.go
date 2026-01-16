@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironment",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironment",
 		reflect.TypeOf((*BatchComputeEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResources",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResources",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2Configuration",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesEc2Configuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2ConfigurationList",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2ConfigurationList",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesEc2ConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,11 +176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplate",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplate",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesLaunchTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,7 +221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentComputeResourcesOutputReference",
 		reflect.TypeOf((*BatchComputeEnvironmentComputeResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -303,15 +303,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentConfig",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentConfig",
 		reflect.TypeOf((*BatchComputeEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfiguration",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfiguration",
 		reflect.TypeOf((*BatchComputeEnvironmentEksConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfigurationOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentEksConfigurationOutputReference",
 		reflect.TypeOf((*BatchComputeEnvironmentEksConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -347,11 +347,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentUpdatePolicy",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentUpdatePolicy",
 		reflect.TypeOf((*BatchComputeEnvironmentUpdatePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentUpdatePolicyOutputReference",
+		"@cdktn/provider-aws.batchComputeEnvironment.BatchComputeEnvironmentUpdatePolicyOutputReference",
 		reflect.TypeOf((*BatchComputeEnvironmentUpdatePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

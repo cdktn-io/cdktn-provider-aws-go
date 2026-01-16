@@ -5,9 +5,9 @@ package dataawsopensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsopensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsopensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsOpensearchDomainCognitoOptionsList(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsOpensearchDomainCognitoOptionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainCognitoOptionsList",
+		"@cdktn/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainCognitoOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsOpensearchDomainCognitoOptionsList_Override(d DataAwsOpensearchDo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainCognitoOptionsList",
+		"@cdktn/provider-aws.dataAwsOpensearchDomain.DataAwsOpensearchDomainCognitoOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

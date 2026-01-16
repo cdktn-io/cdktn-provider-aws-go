@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		reflect.TypeOf((*DevicefarmDevicePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolConfig",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolConfig",
 		reflect.TypeOf((*DevicefarmDevicePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRule",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRule",
 		reflect.TypeOf((*DevicefarmDevicePoolRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
 		reflect.TypeOf((*DevicefarmDevicePoolRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
 		reflect.TypeOf((*DevicefarmDevicePoolRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},

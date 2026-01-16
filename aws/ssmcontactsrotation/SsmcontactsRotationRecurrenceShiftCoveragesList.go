@@ -5,9 +5,9 @@ package ssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsrotation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsmcontactsRotationRecurrenceShiftCoveragesList(terraformResource cdktf.
 	j := jsiiProxy_SsmcontactsRotationRecurrenceShiftCoveragesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesList",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsmcontactsRotationRecurrenceShiftCoveragesList_Override(s SsmcontactsRo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesList",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceShiftCoveragesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

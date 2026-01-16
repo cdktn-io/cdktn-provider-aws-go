@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepter",
 		reflect.TypeOf((*GuarddutyInviteAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterConfig",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterConfig",
 		reflect.TypeOf((*GuarddutyInviteAccepterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeouts",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeouts",
 		reflect.TypeOf((*GuarddutyInviteAccepterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.guarddutyInviteAccepter.GuarddutyInviteAccepterTimeoutsOutputReference",
 		reflect.TypeOf((*GuarddutyInviteAccepterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

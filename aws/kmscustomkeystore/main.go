@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStore",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStore",
 		reflect.TypeOf((*KmsCustomKeyStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreConfig",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreConfig",
 		reflect.TypeOf((*KmsCustomKeyStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreTimeouts",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreTimeouts",
 		reflect.TypeOf((*KmsCustomKeyStoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreTimeoutsOutputReference",
 		reflect.TypeOf((*KmsCustomKeyStoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredential",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredential",
 		reflect.TypeOf((*KmsCustomKeyStoreXksProxyAuthenticationCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
 		reflect.TypeOf((*KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},

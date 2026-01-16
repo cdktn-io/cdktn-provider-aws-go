@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		reflect.TypeOf((*ApprunnerDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeploymentConfig",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeploymentConfig",
 		reflect.TypeOf((*ApprunnerDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeouts",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeouts",
 		reflect.TypeOf((*ApprunnerDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*ApprunnerDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

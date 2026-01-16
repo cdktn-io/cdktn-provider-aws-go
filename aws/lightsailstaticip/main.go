@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		reflect.TypeOf((*LightsailStaticIp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIpConfig",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIpConfig",
 		reflect.TypeOf((*LightsailStaticIpConfig)(nil)).Elem(),
 	)
 }

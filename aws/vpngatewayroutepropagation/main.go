@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagation",
+		"@cdktn/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagation",
 		reflect.TypeOf((*VpnGatewayRoutePropagation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationConfig",
+		"@cdktn/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationConfig",
 		reflect.TypeOf((*VpnGatewayRoutePropagationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationTimeouts",
+		"@cdktn/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationTimeouts",
 		reflect.TypeOf((*VpnGatewayRoutePropagationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpnGatewayRoutePropagation.VpnGatewayRoutePropagationTimeoutsOutputReference",
 		reflect.TypeOf((*VpnGatewayRoutePropagationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

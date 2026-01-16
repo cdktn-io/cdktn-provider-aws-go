@@ -5,9 +5,9 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewTransferServerWorkflowDetailsOnPartialUploadOutputReference(terraformRes
 	j := jsiiProxy_TransferServerWorkflowDetailsOnPartialUploadOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewTransferServerWorkflowDetailsOnPartialUploadOutputReference_Override(t T
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOnPartialUploadOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

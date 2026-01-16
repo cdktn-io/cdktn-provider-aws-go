@@ -5,14 +5,14 @@ package eipassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eipassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eipassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_association aws_eip_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_association aws_eip_association}.
 type EipAssociation interface {
 	cdktf.TerraformResource
 	AllocationId() *string
@@ -478,7 +478,7 @@ func (j *jsiiProxy_EipAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_association aws_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_association aws_eip_association} Resource.
 func NewEipAssociation(scope constructs.Construct, id *string, config *EipAssociationConfig) EipAssociation {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewEipAssociation(scope constructs.Construct, id *string, config *EipAssoci
 	j := jsiiProxy_EipAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -496,12 +496,12 @@ func NewEipAssociation(scope constructs.Construct, id *string, config *EipAssoci
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_association aws_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_association aws_eip_association} Resource.
 func NewEipAssociation_Override(e EipAssociation, scope constructs.Construct, id *string, config *EipAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -673,7 +673,7 @@ func EipAssociation_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -708,7 +708,7 @@ func EipAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func EipAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func EipAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func EipAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		"tfResourceType",
 		&returns,
 	)

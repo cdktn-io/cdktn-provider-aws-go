@@ -5,9 +5,9 @@ package guarddutymember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutymember/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutymember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewGuarddutyMemberTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_GuarddutyMemberTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGuarddutyMemberTimeoutsOutputReference_Override(g GuarddutyMemberTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
+		"@cdktn/provider-aws.guarddutyMember.GuarddutyMemberTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

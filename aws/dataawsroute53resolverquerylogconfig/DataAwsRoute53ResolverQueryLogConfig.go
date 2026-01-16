@@ -5,14 +5,14 @@ package dataawsroute53resolverquerylogconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53resolverquerylogconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53resolverquerylogconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
 type DataAwsRoute53ResolverQueryLogConfig interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) DataAwsRoute53ResolverQueryLogConfig {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsRoute53ResolverQueryLogConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewDataAwsRoute53ResolverQueryLogConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Data Source.
 func NewDataAwsRoute53ResolverQueryLogConfig_Override(d DataAwsRoute53ResolverQueryLogConfig, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverQueryLogConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -569,7 +569,7 @@ func DataAwsRoute53ResolverQueryLogConfig_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsRoute53ResolverQueryLogConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -623,7 +623,7 @@ func DataAwsRoute53ResolverQueryLogConfig_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DataAwsRoute53ResolverQueryLogConfig_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func DataAwsRoute53ResolverQueryLogConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverQueryLogConfig.DataAwsRoute53ResolverQueryLogConfig",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstance",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstance",
 		reflect.TypeOf((*DmsReplicationInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -132,15 +132,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstanceConfig",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstanceConfig",
 		reflect.TypeOf((*DmsReplicationInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstanceKerberosAuthenticationSettings",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstanceKerberosAuthenticationSettings",
 		reflect.TypeOf((*DmsReplicationInstanceKerberosAuthenticationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference",
 		reflect.TypeOf((*DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstanceTimeouts",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstanceTimeouts",
 		reflect.TypeOf((*DmsReplicationInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationInstance.DmsReplicationInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dmsReplicationInstance.DmsReplicationInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*DmsReplicationInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

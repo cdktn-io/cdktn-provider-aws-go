@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		reflect.TypeOf((*AwsProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTokenBucketRateLimiterCapacity", GoMethod: "ResetTokenBucketRateLimiterCapacity"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUseDualstackEndpoint", GoMethod: "ResetUseDualstackEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUseFipsEndpoint", GoMethod: "ResetUseFipsEndpoint"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUserAgent", GoMethod: "ResetUserAgent"},
 			_jsii_.MemberProperty{JsiiProperty: "retryMode", GoGetter: "RetryMode"},
 			_jsii_.MemberProperty{JsiiProperty: "retryModeInput", GoGetter: "RetryModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "s3UsEast1RegionalEndpoint", GoGetter: "S3UsEast1RegionalEndpoint"},
@@ -138,6 +139,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useDualstackEndpointInput", GoGetter: "UseDualstackEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useFipsEndpoint", GoGetter: "UseFipsEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "useFipsEndpointInput", GoGetter: "UseFipsEndpointInput"},
+			_jsii_.MemberProperty{JsiiProperty: "userAgent", GoGetter: "UserAgent"},
+			_jsii_.MemberProperty{JsiiProperty: "userAgentInput", GoGetter: "UserAgentInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsProvider{}
@@ -146,27 +149,27 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderAssumeRole",
+		"@cdktn/provider-aws.provider.AwsProviderAssumeRole",
 		reflect.TypeOf((*AwsProviderAssumeRole)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderAssumeRoleWithWebIdentity",
+		"@cdktn/provider-aws.provider.AwsProviderAssumeRoleWithWebIdentity",
 		reflect.TypeOf((*AwsProviderAssumeRoleWithWebIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderConfig",
+		"@cdktn/provider-aws.provider.AwsProviderConfig",
 		reflect.TypeOf((*AwsProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderDefaultTags",
+		"@cdktn/provider-aws.provider.AwsProviderDefaultTags",
 		reflect.TypeOf((*AwsProviderDefaultTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderEndpoints",
+		"@cdktn/provider-aws.provider.AwsProviderEndpoints",
 		reflect.TypeOf((*AwsProviderEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.provider.AwsProviderIgnoreTags",
+		"@cdktn/provider-aws.provider.AwsProviderIgnoreTags",
 		reflect.TypeOf((*AwsProviderIgnoreTags)(nil)).Elem(),
 	)
 }

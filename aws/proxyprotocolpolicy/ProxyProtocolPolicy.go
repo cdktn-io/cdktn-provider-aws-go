@@ -5,14 +5,14 @@ package proxyprotocolpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/proxyprotocolpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/proxyprotocolpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy}.
 type ProxyProtocolPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_ProxyProtocolPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
 func NewProxyProtocolPolicy(scope constructs.Construct, id *string, config *ProxyProtocolPolicyConfig) ProxyProtocolPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewProxyProtocolPolicy(scope constructs.Construct, id *string, config *Prox
 	j := jsiiProxy_ProxyProtocolPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewProxyProtocolPolicy(scope constructs.Construct, id *string, config *Prox
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
 func NewProxyProtocolPolicy_Override(p ProxyProtocolPolicy, scope constructs.Construct, id *string, config *ProxyProtocolPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -531,7 +531,7 @@ func ProxyProtocolPolicy_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func ProxyProtocolPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func ProxyProtocolPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func ProxyProtocolPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func ProxyProtocolPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		"tfResourceType",
 		&returns,
 	)

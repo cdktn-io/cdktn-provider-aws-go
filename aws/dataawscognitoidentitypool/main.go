@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		reflect.TypeOf((*DataAwsCognitoIdentityPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,11 +74,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProviders",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProviders",
 		reflect.TypeOf((*DataAwsCognitoIdentityPoolCognitoIdentityProviders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProvidersList",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProvidersList",
 		reflect.TypeOf((*DataAwsCognitoIdentityPoolCognitoIdentityProvidersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -99,7 +99,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProvidersOutputReference",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolCognitoIdentityProvidersOutputReference",
 		reflect.TypeOf((*DataAwsCognitoIdentityPoolCognitoIdentityProvidersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolConfig",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPoolConfig",
 		reflect.TypeOf((*DataAwsCognitoIdentityPoolConfig)(nil)).Elem(),
 	)
 }

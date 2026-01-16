@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		reflect.TypeOf((*EbsSnapshotBlockPublicAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccessConfig",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccessConfig",
 		reflect.TypeOf((*EbsSnapshotBlockPublicAccessConfig)(nil)).Elem(),
 	)
 }

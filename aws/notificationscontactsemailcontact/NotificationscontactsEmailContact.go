@@ -5,14 +5,14 @@ package notificationscontactsemailcontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/notificationscontactsemailcontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/notificationscontactsemailcontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact}.
 type NotificationscontactsEmailContact interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -378,7 +378,7 @@ func (j *jsiiProxy_NotificationscontactsEmailContact) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact} Resource.
 func NewNotificationscontactsEmailContact(scope constructs.Construct, id *string, config *NotificationscontactsEmailContactConfig) NotificationscontactsEmailContact {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewNotificationscontactsEmailContact(scope constructs.Construct, id *string
 	j := jsiiProxy_NotificationscontactsEmailContact{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -396,12 +396,12 @@ func NewNotificationscontactsEmailContact(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notificationscontacts_email_contact aws_notificationscontacts_email_contact} Resource.
 func NewNotificationscontactsEmailContact_Override(n NotificationscontactsEmailContact, scope constructs.Construct, id *string, config *NotificationscontactsEmailContactConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -518,7 +518,7 @@ func NotificationscontactsEmailContact_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -553,7 +553,7 @@ func NotificationscontactsEmailContact_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func NotificationscontactsEmailContact_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -591,7 +591,7 @@ func NotificationscontactsEmailContact_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func NotificationscontactsEmailContact_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		"tfResourceType",
 		&returns,
 	)

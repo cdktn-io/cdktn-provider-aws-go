@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipe",
+		"@cdktn/provider-aws.pipesPipe.PipesPipe",
 		reflect.TypeOf((*PipesPipe)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,19 +120,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeConfig",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeConfig",
 		reflect.TypeOf((*PipesPipeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParameters",
 		reflect.TypeOf((*PipesPipeEnrichmentParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParameters",
 		reflect.TypeOf((*PipesPipeEnrichmentParametersHttpParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParametersHttpParametersOutputReference",
 		reflect.TypeOf((*PipesPipeEnrichmentParametersHttpParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeEnrichmentParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeEnrichmentParametersOutputReference",
 		reflect.TypeOf((*PipesPipeEnrichmentParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,15 +212,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfiguration",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfiguration",
 		reflect.TypeOf((*PipesPipeLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination",
 		reflect.TypeOf((*PipesPipeLogConfigurationCloudwatchLogsLogDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference",
 		reflect.TypeOf((*PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -254,11 +254,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination",
 		reflect.TypeOf((*PipesPipeLogConfigurationFirehoseLogDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestinationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestinationOutputReference",
 		reflect.TypeOf((*PipesPipeLogConfigurationFirehoseLogDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -292,7 +292,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationOutputReference",
 		reflect.TypeOf((*PipesPipeLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsLogDestination", GoGetter: "CloudwatchLogsLogDestination"},
@@ -341,11 +341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationS3LogDestination",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationS3LogDestination",
 		reflect.TypeOf((*PipesPipeLogConfigurationS3LogDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeLogConfigurationS3LogDestinationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeLogConfigurationS3LogDestinationOutputReference",
 		reflect.TypeOf((*PipesPipeLogConfigurationS3LogDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -387,19 +387,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParameters",
 		reflect.TypeOf((*PipesPipeSourceParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersActivemqBrokerParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentials",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentials",
 		reflect.TypeOf((*PipesPipeSourceParametersActivemqBrokerParametersCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
@@ -433,7 +433,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersActivemqBrokerParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersActivemqBrokerParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -476,15 +476,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersDynamodbStreamParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig",
 		reflect.TypeOf((*PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -519,7 +519,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersDynamodbStreamParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersDynamodbStreamParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -575,15 +575,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteria",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteria",
 		reflect.TypeOf((*PipesPipeSourceParametersFilterCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilter",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilter",
 		reflect.TypeOf((*PipesPipeSourceParametersFilterCriteriaFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilterList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilterList",
 		reflect.TypeOf((*PipesPipeSourceParametersFilterCriteriaFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -605,7 +605,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilterOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilterOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersFilterCriteriaFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -639,7 +639,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersFilterCriteriaOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersFilterCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -675,15 +675,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersKinesisStreamParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig",
 		reflect.TypeOf((*PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -718,7 +718,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersKinesisStreamParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -777,15 +777,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersManagedStreamingKafkaParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials",
 		reflect.TypeOf((*PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersManagedStreamingKafkaParametersCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificateTlsAuth", GoGetter: "ClientCertificateTlsAuth"},
@@ -823,7 +823,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersManagedStreamingKafkaParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -873,7 +873,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activemqBrokerParameters", GoGetter: "ActivemqBrokerParameters"},
@@ -937,15 +937,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersRabbitmqBrokerParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentials",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentials",
 		reflect.TypeOf((*PipesPipeSourceParametersRabbitmqBrokerParametersCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersCredentialsOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersRabbitmqBrokerParametersCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
@@ -979,7 +979,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -1025,15 +1025,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParametersCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
@@ -1077,7 +1077,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalBootstrapServers", GoGetter: "AdditionalBootstrapServers"},
@@ -1137,11 +1137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpc",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpc",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParametersVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1179,11 +1179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSqsQueueParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSqsQueueParameters",
 		reflect.TypeOf((*PipesPipeSourceParametersSqsQueueParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersSqsQueueParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersSqsQueueParametersOutputReference",
 		reflect.TypeOf((*PipesPipeSourceParametersSqsQueueParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -1221,19 +1221,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParameters",
 		reflect.TypeOf((*PipesPipeTargetParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersArrayProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1268,15 +1268,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1298,7 +1298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1336,7 +1336,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
@@ -1382,11 +1382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementList",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1408,7 +1408,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1444,11 +1444,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersDependsOn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOnList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOnList",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersDependsOnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1470,7 +1470,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1508,7 +1508,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arrayProperties", GoGetter: "ArrayProperties"},
@@ -1563,11 +1563,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersRetryStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attempts", GoGetter: "Attempts"},
@@ -1602,11 +1602,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersCloudwatchLogsParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersCloudwatchLogsParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1644,15 +1644,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1674,7 +1674,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "base", GoGetter: "Base"},
@@ -1714,15 +1714,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfiguration",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfiguration",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfigurationOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIp", GoGetter: "AssignPublicIp"},
@@ -1763,7 +1763,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsVpcConfiguration", GoGetter: "AwsVpcConfiguration"},
@@ -1799,7 +1799,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategy", GoGetter: "CapacityProviderStrategy"},
@@ -1880,23 +1880,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironment",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironment",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironment)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFile",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFile",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1918,7 +1918,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1954,7 +1954,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1976,7 +1976,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2014,7 +2014,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2036,7 +2036,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
@@ -2095,11 +2095,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirement",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirement",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2121,7 +2121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2157,11 +2157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2195,11 +2195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2221,7 +2221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrideOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2259,7 +2259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2315,11 +2315,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraint",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraint",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementConstraint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementConstraintList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2341,7 +2341,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2379,11 +2379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategyList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategyList",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2405,7 +2405,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2443,11 +2443,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEventbridgeEventBusParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEventbridgeEventBusParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersEventbridgeEventBusParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEventbridgeEventBusParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEventbridgeEventBusParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersEventbridgeEventBusParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2494,11 +2494,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersHttpParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersHttpParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersHttpParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersHttpParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersHttpParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersHttpParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2539,11 +2539,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersKinesisStreamParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersKinesisStreamParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersKinesisStreamParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2577,11 +2577,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersLambdaFunctionParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersLambdaFunctionParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersLambdaFunctionParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersLambdaFunctionParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2615,7 +2615,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchJobParameters", GoGetter: "BatchJobParameters"},
@@ -2694,11 +2694,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersRedshiftDataParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersRedshiftDataParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersRedshiftDataParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersRedshiftDataParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2746,11 +2746,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersSagemakerPipelineParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersSagemakerPipelineParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2786,11 +2786,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter",
 		reflect.TypeOf((*PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterList",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterList",
 		reflect.TypeOf((*PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2812,7 +2812,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersSagemakerPipelineParametersPipelineParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2848,11 +2848,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSqsQueueParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSqsQueueParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersSqsQueueParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersSqsQueueParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersSqsQueueParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersSqsQueueParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2890,11 +2890,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters",
 		reflect.TypeOf((*PipesPipeTargetParametersStepFunctionStateMachineParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParametersOutputReference",
 		reflect.TypeOf((*PipesPipeTargetParametersStepFunctionStateMachineParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2928,11 +2928,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTimeouts",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTimeouts",
 		reflect.TypeOf((*PipesPipeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTimeoutsOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTimeoutsOutputReference",
 		reflect.TypeOf((*PipesPipeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

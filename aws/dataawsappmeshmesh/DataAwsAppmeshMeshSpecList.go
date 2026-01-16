@@ -5,9 +5,9 @@ package dataawsappmeshmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshmesh/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppmeshMeshSpecList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_DataAwsAppmeshMeshSpecList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecList",
+		"@cdktn/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppmeshMeshSpecList_Override(d DataAwsAppmeshMeshSpecList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecList",
+		"@cdktn/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

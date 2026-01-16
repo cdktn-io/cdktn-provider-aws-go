@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayClientCertificate.ApiGatewayClientCertificate",
+		"@cdktn/provider-aws.apiGatewayClientCertificate.ApiGatewayClientCertificate",
 		reflect.TypeOf((*ApiGatewayClientCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayClientCertificate.ApiGatewayClientCertificateConfig",
+		"@cdktn/provider-aws.apiGatewayClientCertificate.ApiGatewayClientCertificateConfig",
 		reflect.TypeOf((*ApiGatewayClientCertificateConfig)(nil)).Elem(),
 	)
 }

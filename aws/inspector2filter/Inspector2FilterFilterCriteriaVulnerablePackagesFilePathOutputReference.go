@@ -5,9 +5,9 @@ package inspector2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2filter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2filter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewInspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference(
 	j := jsiiProxy_Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewInspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
+		"@cdktn/provider-aws.inspector2Filter.Inspector2FilterFilterCriteriaVulnerablePackagesFilePathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

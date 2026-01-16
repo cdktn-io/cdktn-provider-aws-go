@@ -5,9 +5,9 @@ package quicksightcustompermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightcustompermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightcustompermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewQuicksightCustomPermissionsCapabilitiesList(terraformResource cdktf.IInt
 	j := jsiiProxy_QuicksightCustomPermissionsCapabilitiesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewQuicksightCustomPermissionsCapabilitiesList_Override(q QuicksightCustomP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		q,
 	)

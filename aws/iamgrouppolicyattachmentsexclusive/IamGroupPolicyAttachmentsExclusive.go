@@ -5,14 +5,14 @@ package iamgrouppolicyattachmentsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamgrouppolicyattachmentsexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamgrouppolicyattachmentsexclusive/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
 type IamGroupPolicyAttachmentsExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_IamGroupPolicyAttachmentsExclusive) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) IamGroupPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *strin
 	j := jsiiProxy_IamGroupPolicyAttachmentsExclusive{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive_Override(i IamGroupPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -461,7 +461,7 @@ func IamGroupPolicyAttachmentsExclusive_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func IamGroupPolicyAttachmentsExclusive_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func IamGroupPolicyAttachmentsExclusive_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func IamGroupPolicyAttachmentsExclusive_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func IamGroupPolicyAttachmentsExclusive_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamGroupPolicyAttachmentsExclusive.IamGroupPolicyAttachmentsExclusive",
 		"tfResourceType",
 		&returns,
 	)

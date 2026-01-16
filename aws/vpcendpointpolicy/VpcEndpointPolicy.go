@@ -5,14 +5,14 @@ package vpcendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
 type VpcEndpointPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_VpcEndpointPolicy) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) VpcEndpointPolicy {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEnd
 	j := jsiiProxy_VpcEndpointPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEnd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy_Override(v VpcEndpointPolicy, scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -556,7 +556,7 @@ func VpcEndpointPolicy_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func VpcEndpointPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func VpcEndpointPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func VpcEndpointPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func VpcEndpointPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
+		"@cdktn/provider-aws.vpcEndpointPolicy.VpcEndpointPolicy",
 		"tfResourceType",
 		&returns,
 	)

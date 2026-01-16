@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightVpcConnection.QuicksightVpcConnection",
+		"@cdktn/provider-aws.quicksightVpcConnection.QuicksightVpcConnection",
 		reflect.TypeOf((*QuicksightVpcConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionConfig",
+		"@cdktn/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionConfig",
 		reflect.TypeOf((*QuicksightVpcConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionTimeouts",
+		"@cdktn/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionTimeouts",
 		reflect.TypeOf((*QuicksightVpcConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightVpcConnection.QuicksightVpcConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightVpcConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

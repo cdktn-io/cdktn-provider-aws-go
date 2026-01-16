@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		reflect.TypeOf((*SagemakerHumanTaskUi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiConfig",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiConfig",
 		reflect.TypeOf((*SagemakerHumanTaskUiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplate",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplate",
 		reflect.TypeOf((*SagemakerHumanTaskUiUiTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplateOutputReference",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUiUiTemplateOutputReference",
 		reflect.TypeOf((*SagemakerHumanTaskUiUiTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

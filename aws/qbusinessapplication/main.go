@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		reflect.TypeOf((*QbusinessApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfiguration",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfiguration",
 		reflect.TypeOf((*QbusinessApplicationAttachmentsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfigurationList",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfigurationList",
 		reflect.TypeOf((*QbusinessApplicationAttachmentsConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfigurationOutputReference",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationAttachmentsConfigurationOutputReference",
 		reflect.TypeOf((*QbusinessApplicationAttachmentsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attachmentsControlMode", GoGetter: "AttachmentsControlMode"},
@@ -154,15 +154,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationConfig",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationConfig",
 		reflect.TypeOf((*QbusinessApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfiguration",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfiguration",
 		reflect.TypeOf((*QbusinessApplicationEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
 		reflect.TypeOf((*QbusinessApplicationEncryptionConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*QbusinessApplicationEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationTimeouts",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationTimeouts",
 		reflect.TypeOf((*QbusinessApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationTimeoutsOutputReference",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*QbusinessApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

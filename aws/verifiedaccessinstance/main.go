@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstance",
 		reflect.TypeOf((*VerifiedaccessInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceConfig",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceConfig",
 		reflect.TypeOf((*VerifiedaccessInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProviders",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProviders",
 		reflect.TypeOf((*VerifiedaccessInstanceVerifiedAccessTrustProviders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProvidersList",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProvidersList",
 		reflect.TypeOf((*VerifiedaccessInstanceVerifiedAccessTrustProvidersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference",
+		"@cdktn/provider-aws.verifiedaccessInstance.VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference",
 		reflect.TypeOf((*VerifiedaccessInstanceVerifiedAccessTrustProvidersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

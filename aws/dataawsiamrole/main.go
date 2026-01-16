@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRole",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRole",
 		reflect.TypeOf((*DataAwsIamRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleConfig",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleConfig",
 		reflect.TypeOf((*DataAwsIamRoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsed",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsed",
 		reflect.TypeOf((*DataAwsIamRoleRoleLastUsed)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedList",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedList",
 		reflect.TypeOf((*DataAwsIamRoleRoleLastUsedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
 		reflect.TypeOf((*DataAwsIamRoleRoleLastUsedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

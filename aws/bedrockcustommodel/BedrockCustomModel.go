@@ -5,14 +5,14 @@ package bedrockcustommodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockcustommodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockcustommodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model}.
 type BedrockCustomModel interface {
 	cdktf.TerraformResource
 	BaseModelIdentifier() *string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_BedrockCustomModel) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel(scope constructs.Construct, id *string, config *BedrockCustomModelConfig) BedrockCustomModel {
 	_init_.Initialize()
 
@@ -704,7 +704,7 @@ func NewBedrockCustomModel(scope constructs.Construct, id *string, config *Bedro
 	j := jsiiProxy_BedrockCustomModel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -712,12 +712,12 @@ func NewBedrockCustomModel(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrock_custom_model aws_bedrock_custom_model} Resource.
 func NewBedrockCustomModel_Override(b BedrockCustomModel, scope constructs.Construct, id *string, config *BedrockCustomModelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -900,7 +900,7 @@ func BedrockCustomModel_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -935,7 +935,7 @@ func BedrockCustomModel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -954,7 +954,7 @@ func BedrockCustomModel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -973,7 +973,7 @@ func BedrockCustomModel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -986,7 +986,7 @@ func BedrockCustomModel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		"tfResourceType",
 		&returns,
 	)

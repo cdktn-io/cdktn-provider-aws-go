@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validate
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validatePutSessionSummaryConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }

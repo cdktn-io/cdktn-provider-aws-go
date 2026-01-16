@@ -5,9 +5,9 @@ package bedrockcustommodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockcustommodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockcustommodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockCustomModelTrainingDataConfigList(terraformResource cdktf.IInterp
 	j := jsiiProxy_BedrockCustomModelTrainingDataConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockCustomModelTrainingDataConfigList_Override(b BedrockCustomModelTr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

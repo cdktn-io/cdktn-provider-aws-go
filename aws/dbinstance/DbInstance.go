@@ -5,14 +5,14 @@ package dbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance aws_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance aws_db_instance}.
 type DbInstance interface {
 	cdktf.TerraformResource
 	Address() *string
@@ -284,6 +284,7 @@ type DbInstance interface {
 	Timezone() *string
 	SetTimezone(val *string)
 	TimezoneInput() *string
+	UpgradeRolloutOrder() *string
 	UpgradeStorageConfig() interface{}
 	SetUpgradeStorageConfig(val interface{})
 	UpgradeStorageConfigInput() interface{}
@@ -2145,6 +2146,16 @@ func (j *jsiiProxy_DbInstance) TimezoneInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DbInstance) UpgradeRolloutOrder() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"upgradeRolloutOrder",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DbInstance) UpgradeStorageConfig() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2206,7 +2217,7 @@ func (j *jsiiProxy_DbInstance) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance aws_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceConfig) DbInstance {
 	_init_.Initialize()
 
@@ -2216,7 +2227,7 @@ func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceCon
 	j := jsiiProxy_DbInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -2224,12 +2235,12 @@ func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_instance aws_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance_Override(d DbInstance, scope constructs.Construct, id *string, config *DbInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -3094,7 +3105,7 @@ func DbInstance_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -3129,7 +3140,7 @@ func DbInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -3148,7 +3159,7 @@ func DbInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -3167,7 +3178,7 @@ func DbInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -3180,7 +3191,7 @@ func DbInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbInstance.DbInstance",
+		"@cdktn/provider-aws.dbInstance.DbInstance",
 		"tfResourceType",
 		&returns,
 	)

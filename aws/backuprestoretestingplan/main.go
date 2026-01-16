@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		reflect.TypeOf((*BackupRestoreTestingPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanConfig",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanConfig",
 		reflect.TypeOf((*BackupRestoreTestingPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelection",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelection",
 		reflect.TypeOf((*BackupRestoreTestingPlanRecoveryPointSelection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionList",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionList",
 		reflect.TypeOf((*BackupRestoreTestingPlanRecoveryPointSelectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
 		reflect.TypeOf((*BackupRestoreTestingPlanRecoveryPointSelectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

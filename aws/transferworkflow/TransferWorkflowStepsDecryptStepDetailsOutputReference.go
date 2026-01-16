@@ -5,9 +5,9 @@ package transferworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferworkflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewTransferWorkflowStepsDecryptStepDetailsOutputReference(terraformResource
 	j := jsiiProxy_TransferWorkflowStepsDecryptStepDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewTransferWorkflowStepsDecryptStepDetailsOutputReference_Override(t Transf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

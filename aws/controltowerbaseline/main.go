@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		reflect.TypeOf((*ControltowerBaseline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineConfig",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineConfig",
 		reflect.TypeOf((*ControltowerBaselineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineParameters",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineParameters",
 		reflect.TypeOf((*ControltowerBaselineParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineParametersList",
 		reflect.TypeOf((*ControltowerBaselineParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineParametersOutputReference",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineParametersOutputReference",
 		reflect.TypeOf((*ControltowerBaselineParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineTimeouts",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineTimeouts",
 		reflect.TypeOf((*ControltowerBaselineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaselineTimeoutsOutputReference",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaselineTimeoutsOutputReference",
 		reflect.TypeOf((*ControltowerBaselineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package ssmpatchbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmpatchbaseline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmpatchbaseline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewSsmPatchBaselineApprovalRuleOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_SsmPatchBaselineApprovalRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewSsmPatchBaselineApprovalRuleOutputReference_Override(s SsmPatchBaselineA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

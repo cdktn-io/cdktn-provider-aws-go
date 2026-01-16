@@ -5,9 +5,9 @@ package dataawscetags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscetags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscetags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDataAwsCeTagsFilterNotOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsCeTagsFilterNotOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterNotOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterNotOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDataAwsCeTagsFilterNotOutputReference_Override(d DataAwsCeTagsFilterNotO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterNotOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterNotOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

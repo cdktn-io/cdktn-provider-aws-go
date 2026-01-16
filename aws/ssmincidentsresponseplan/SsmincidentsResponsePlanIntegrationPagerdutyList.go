@@ -5,9 +5,9 @@ package ssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmincidentsresponseplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmincidentsresponseplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsmincidentsResponsePlanIntegrationPagerdutyList(terraformResource cdktf
 	j := jsiiProxy_SsmincidentsResponsePlanIntegrationPagerdutyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsmincidentsResponsePlanIntegrationPagerdutyList_Override(s Ssmincidents
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
+		"@cdktn/provider-aws.ssmincidentsResponsePlan.SsmincidentsResponsePlanIntegrationPagerdutyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

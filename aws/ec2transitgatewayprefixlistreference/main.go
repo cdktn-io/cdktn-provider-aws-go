@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2TransitGatewayPrefixListReference.Ec2TransitGatewayPrefixListReference",
+		"@cdktn/provider-aws.ec2TransitGatewayPrefixListReference.Ec2TransitGatewayPrefixListReference",
 		reflect.TypeOf((*Ec2TransitGatewayPrefixListReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2TransitGatewayPrefixListReference.Ec2TransitGatewayPrefixListReferenceConfig",
+		"@cdktn/provider-aws.ec2TransitGatewayPrefixListReference.Ec2TransitGatewayPrefixListReferenceConfig",
 		reflect.TypeOf((*Ec2TransitGatewayPrefixListReferenceConfig)(nil)).Elem(),
 	)
 }

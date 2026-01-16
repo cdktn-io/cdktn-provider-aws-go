@@ -5,9 +5,9 @@ package backupreportplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupreportplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupreportplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewBackupReportPlanReportDeliveryChannelOutputReference(terraformResource c
 	j := jsiiProxy_BackupReportPlanReportDeliveryChannelOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewBackupReportPlanReportDeliveryChannelOutputReference_Override(b BackupRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

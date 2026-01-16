@@ -5,14 +5,14 @@ package elasticbeanstalkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticbeanstalkapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticbeanstalkapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application}.
 type ElasticBeanstalkApplication interface {
 	cdktf.TerraformResource
 	AppversionLifecycle() ElasticBeanstalkApplicationAppversionLifecycleOutputReference
@@ -464,7 +464,7 @@ func (j *jsiiProxy_ElasticBeanstalkApplication) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application} Resource.
 func NewElasticBeanstalkApplication(scope constructs.Construct, id *string, config *ElasticBeanstalkApplicationConfig) ElasticBeanstalkApplication {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewElasticBeanstalkApplication(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ElasticBeanstalkApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewElasticBeanstalkApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastic_beanstalk_application aws_elastic_beanstalk_application} Resource.
 func NewElasticBeanstalkApplication_Override(e ElasticBeanstalkApplication, scope constructs.Construct, id *string, config *ElasticBeanstalkApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -637,7 +637,7 @@ func ElasticBeanstalkApplication_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -672,7 +672,7 @@ func ElasticBeanstalkApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func ElasticBeanstalkApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ElasticBeanstalkApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func ElasticBeanstalkApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplication",
 		"tfResourceType",
 		&returns,
 	)

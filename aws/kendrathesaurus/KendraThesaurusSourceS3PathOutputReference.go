@@ -5,9 +5,9 @@ package kendrathesaurus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendrathesaurus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendrathesaurus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewKendraThesaurusSourceS3PathOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_KendraThesaurusSourceS3PathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewKendraThesaurusSourceS3PathOutputReference_Override(k KendraThesaurusSou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
+		"@cdktn/provider-aws.kendraThesaurus.KendraThesaurusSourceS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

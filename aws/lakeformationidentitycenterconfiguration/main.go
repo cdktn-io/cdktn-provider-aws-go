@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		reflect.TypeOf((*LakeformationIdentityCenterConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfigurationConfig",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfigurationConfig",
 		reflect.TypeOf((*LakeformationIdentityCenterConfigurationConfig)(nil)).Elem(),
 	)
 }

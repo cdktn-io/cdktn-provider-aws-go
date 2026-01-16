@@ -5,9 +5,9 @@ package opensearchinboundconnectionaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchinboundconnectionaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchinboundconnectionaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewOpensearchInboundConnectionAccepterTimeoutsOutputReference(terraformReso
 	j := jsiiProxy_OpensearchInboundConnectionAccepterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchInboundConnectionAccepter.OpensearchInboundConnectionAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchInboundConnectionAccepter.OpensearchInboundConnectionAccepterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewOpensearchInboundConnectionAccepterTimeoutsOutputReference_Override(o Op
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchInboundConnectionAccepter.OpensearchInboundConnectionAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchInboundConnectionAccepter.OpensearchInboundConnectionAccepterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

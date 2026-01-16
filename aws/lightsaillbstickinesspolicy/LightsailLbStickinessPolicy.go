@@ -5,14 +5,14 @@ package lightsaillbstickinesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaillbstickinesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaillbstickinesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy}.
 type LightsailLbStickinessPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_LightsailLbStickinessPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy} Resource.
 func NewLightsailLbStickinessPolicy(scope constructs.Construct, id *string, config *LightsailLbStickinessPolicyConfig) LightsailLbStickinessPolicy {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewLightsailLbStickinessPolicy(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_LightsailLbStickinessPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewLightsailLbStickinessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_stickiness_policy aws_lightsail_lb_stickiness_policy} Resource.
 func NewLightsailLbStickinessPolicy_Override(l LightsailLbStickinessPolicy, scope constructs.Construct, id *string, config *LightsailLbStickinessPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -565,7 +565,7 @@ func LightsailLbStickinessPolicy_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func LightsailLbStickinessPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func LightsailLbStickinessPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func LightsailLbStickinessPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func LightsailLbStickinessPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
+		"@cdktn/provider-aws.lightsailLbStickinessPolicy.LightsailLbStickinessPolicy",
 		"tfResourceType",
 		&returns,
 	)

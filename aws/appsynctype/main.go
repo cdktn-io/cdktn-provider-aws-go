@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncType.AppsyncType",
+		"@cdktn/provider-aws.appsyncType.AppsyncType",
 		reflect.TypeOf((*AppsyncType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncType.AppsyncTypeConfig",
+		"@cdktn/provider-aws.appsyncType.AppsyncTypeConfig",
 		reflect.TypeOf((*AppsyncTypeConfig)(nil)).Elem(),
 	)
 }

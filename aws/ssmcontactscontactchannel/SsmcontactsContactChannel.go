@@ -5,14 +5,14 @@ package ssmcontactscontactchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactscontactchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactscontactchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel}.
 type SsmcontactsContactChannel interface {
 	cdktf.TerraformResource
 	ActivationStatus() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_SsmcontactsContactChannel) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
 func NewSsmcontactsContactChannel(scope constructs.Construct, id *string, config *SsmcontactsContactChannelConfig) SsmcontactsContactChannel {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewSsmcontactsContactChannel(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SsmcontactsContactChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewSsmcontactsContactChannel(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact_channel aws_ssmcontacts_contact_channel} Resource.
 func NewSsmcontactsContactChannel_Override(s SsmcontactsContactChannel, scope constructs.Construct, id *string, config *SsmcontactsContactChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -610,7 +610,7 @@ func SsmcontactsContactChannel_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func SsmcontactsContactChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func SsmcontactsContactChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func SsmcontactsContactChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func SsmcontactsContactChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		"tfResourceType",
 		&returns,
 	)

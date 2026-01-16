@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicy",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicy",
 		reflect.TypeOf((*PrometheusResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyConfig",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyConfig",
 		reflect.TypeOf((*PrometheusResourcePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeouts",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeouts",
 		reflect.TypeOf((*PrometheusResourcePolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
 		reflect.TypeOf((*PrometheusResourcePolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

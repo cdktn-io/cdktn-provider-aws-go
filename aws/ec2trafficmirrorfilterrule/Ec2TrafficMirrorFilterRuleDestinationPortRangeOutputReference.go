@@ -5,9 +5,9 @@ package ec2trafficmirrorfilterrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2trafficmirrorfilterrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2trafficmirrorfilterrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEc2TrafficMirrorFilterRuleDestinationPortRangeOutputReference(terraformR
 	j := jsiiProxy_Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference",
+		"@cdktn/provider-aws.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEc2TrafficMirrorFilterRuleDestinationPortRangeOutputReference_Override(e
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference",
+		"@cdktn/provider-aws.ec2TrafficMirrorFilterRule.Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

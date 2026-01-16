@@ -5,9 +5,9 @@ package backupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewBackupPlanRuleCopyActionOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_BackupPlanRuleCopyActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleCopyActionOutputReference",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleCopyActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewBackupPlanRuleCopyActionOutputReference_Override(b BackupPlanRuleCopyAct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleCopyActionOutputReference",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleCopyActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

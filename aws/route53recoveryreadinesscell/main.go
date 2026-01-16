@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		reflect.TypeOf((*Route53RecoveryreadinessCell)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellConfig",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellConfig",
 		reflect.TypeOf((*Route53RecoveryreadinessCellConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTimeouts",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTimeouts",
 		reflect.TypeOf((*Route53RecoveryreadinessCellTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTimeoutsOutputReference",
 		reflect.TypeOf((*Route53RecoveryreadinessCellTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

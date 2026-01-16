@@ -5,9 +5,9 @@ package dataawslblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -280,7 +280,7 @@ func NewDataAwsLbListenerDefaultActionAuthenticateOidcOutputReference(terraformR
 	j := jsiiProxy_DataAwsLbListenerDefaultActionAuthenticateOidcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionAuthenticateOidcOutputReference",
+		"@cdktn/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionAuthenticateOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -292,7 +292,7 @@ func NewDataAwsLbListenerDefaultActionAuthenticateOidcOutputReference_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionAuthenticateOidcOutputReference",
+		"@cdktn/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionAuthenticateOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

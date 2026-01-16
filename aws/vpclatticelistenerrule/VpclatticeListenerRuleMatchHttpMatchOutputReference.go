@@ -5,9 +5,9 @@ package vpclatticelistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticelistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewVpclatticeListenerRuleMatchHttpMatchOutputReference(terraformResource cd
 	j := jsiiProxy_VpclatticeListenerRuleMatchHttpMatchOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewVpclatticeListenerRuleMatchHttpMatchOutputReference_Override(v Vpclattic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
+		"@cdktn/provider-aws.vpclatticeListenerRule.VpclatticeListenerRuleMatchHttpMatchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

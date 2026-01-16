@@ -5,14 +5,14 @@ package dataawscognitoidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscognitoidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscognitoidentitypool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool}.
 type DataAwsCognitoIdentityPool interface {
 	cdktf.TerraformDataSource
 	AllowClassicFlow() cdktf.IResolvable
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsCognitoIdentityPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) DataAwsCognitoIdentityPool {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsCognitoIdentityPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -442,12 +442,12 @@ func NewDataAwsCognitoIdentityPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_identity_pool aws_cognito_identity_pool} Data Source.
 func NewDataAwsCognitoIdentityPool_Override(d DataAwsCognitoIdentityPool, scope constructs.Construct, id *string, config *DataAwsCognitoIdentityPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -553,7 +553,7 @@ func DataAwsCognitoIdentityPool_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func DataAwsCognitoIdentityPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func DataAwsCognitoIdentityPool_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func DataAwsCognitoIdentityPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func DataAwsCognitoIdentityPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
+		"@cdktn/provider-aws.dataAwsCognitoIdentityPool.DataAwsCognitoIdentityPool",
 		"tfResourceType",
 		&returns,
 	)

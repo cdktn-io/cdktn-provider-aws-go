@@ -5,14 +5,14 @@ package fisexperimenttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fis_experiment_template aws_fis_experiment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_experiment_template aws_fis_experiment_template}.
 type FisExperimentTemplate interface {
 	cdktf.TerraformResource
 	Action() FisExperimentTemplateActionList
@@ -594,7 +594,7 @@ func (j *jsiiProxy_FisExperimentTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource.
 func NewFisExperimentTemplate(scope constructs.Construct, id *string, config *FisExperimentTemplateConfig) FisExperimentTemplate {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewFisExperimentTemplate(scope constructs.Construct, id *string, config *Fi
 	j := jsiiProxy_FisExperimentTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewFisExperimentTemplate(scope constructs.Construct, id *string, config *Fi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_experiment_template aws_fis_experiment_template} Resource.
 func NewFisExperimentTemplate_Override(f FisExperimentTemplate, scope constructs.Construct, id *string, config *FisExperimentTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -767,7 +767,7 @@ func FisExperimentTemplate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -802,7 +802,7 @@ func FisExperimentTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -821,7 +821,7 @@ func FisExperimentTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func FisExperimentTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func FisExperimentTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplate",
 		"tfResourceType",
 		&returns,
 	)

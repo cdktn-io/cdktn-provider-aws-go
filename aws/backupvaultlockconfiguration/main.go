@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupVaultLockConfiguration.BackupVaultLockConfiguration",
+		"@cdktn/provider-aws.backupVaultLockConfiguration.BackupVaultLockConfiguration",
 		reflect.TypeOf((*BackupVaultLockConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupVaultLockConfiguration.BackupVaultLockConfigurationConfig",
+		"@cdktn/provider-aws.backupVaultLockConfiguration.BackupVaultLockConfigurationConfig",
 		reflect.TypeOf((*BackupVaultLockConfigurationConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package dataawsidentitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsidentitystoreuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsidentitystoreuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_user aws_identitystore_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_user aws_identitystore_user}.
 type DataAwsIdentitystoreUser interface {
 	cdktf.TerraformDataSource
 	Addresses() DataAwsIdentitystoreUserAddressesList
@@ -514,7 +514,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUser) UserType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
 func NewDataAwsIdentitystoreUser(scope constructs.Construct, id *string, config *DataAwsIdentitystoreUserConfig) DataAwsIdentitystoreUser {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsIdentitystoreUser(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsIdentitystoreUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -532,12 +532,12 @@ func NewDataAwsIdentitystoreUser(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_user aws_identitystore_user} Data Source.
 func NewDataAwsIdentitystoreUser_Override(d DataAwsIdentitystoreUser, scope constructs.Construct, id *string, config *DataAwsIdentitystoreUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -643,7 +643,7 @@ func DataAwsIdentitystoreUser_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -678,7 +678,7 @@ func DataAwsIdentitystoreUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func DataAwsIdentitystoreUser_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func DataAwsIdentitystoreUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func DataAwsIdentitystoreUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
+		"@cdktn/provider-aws.dataAwsIdentitystoreUser.DataAwsIdentitystoreUser",
 		"tfResourceType",
 		&returns,
 	)

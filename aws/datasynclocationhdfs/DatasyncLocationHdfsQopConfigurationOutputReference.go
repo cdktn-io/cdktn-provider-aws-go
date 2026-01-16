@@ -5,9 +5,9 @@ package datasynclocationhdfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationhdfs/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationhdfs/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDatasyncLocationHdfsQopConfigurationOutputReference(terraformResource cd
 	j := jsiiProxy_DatasyncLocationHdfsQopConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDatasyncLocationHdfsQopConfigurationOutputReference_Override(d DatasyncL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

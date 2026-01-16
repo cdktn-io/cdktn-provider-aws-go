@@ -5,9 +5,9 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEcsServiceServiceConnectConfigurationServiceList(terraformResource cdktf
 	j := jsiiProxy_EcsServiceServiceConnectConfigurationServiceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEcsServiceServiceConnectConfigurationServiceList_Override(e EcsServiceSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
+		"@cdktn/provider-aws.ecsService.EcsServiceServiceConnectConfigurationServiceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

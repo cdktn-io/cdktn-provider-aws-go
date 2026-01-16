@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettings",
 		reflect.TypeOf((*QuicksightAccountSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsConfig",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsConfig",
 		reflect.TypeOf((*QuicksightAccountSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeouts",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeouts",
 		reflect.TypeOf((*QuicksightAccountSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightAccountSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

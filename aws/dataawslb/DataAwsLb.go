@@ -5,14 +5,14 @@ package dataawslb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lb aws_lb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb aws_lb}.
 type DataAwsLb interface {
 	cdktf.TerraformDataSource
 	AccessLogs() DataAwsLbAccessLogsList
@@ -726,7 +726,7 @@ func (j *jsiiProxy_DataAwsLb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lb aws_lb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb aws_lb} Data Source.
 func NewDataAwsLb(scope constructs.Construct, id *string, config *DataAwsLbConfig) DataAwsLb {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewDataAwsLb(scope constructs.Construct, id *string, config *DataAwsLbConfi
 	j := jsiiProxy_DataAwsLb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -744,12 +744,12 @@ func NewDataAwsLb(scope constructs.Construct, id *string, config *DataAwsLbConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lb aws_lb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb aws_lb} Data Source.
 func NewDataAwsLb_Override(d DataAwsLb, scope constructs.Construct, id *string, config *DataAwsLbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -866,7 +866,7 @@ func DataAwsLb_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -901,7 +901,7 @@ func DataAwsLb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func DataAwsLb_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -939,7 +939,7 @@ func DataAwsLb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -952,7 +952,7 @@ func DataAwsLb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLb.DataAwsLb",
+		"@cdktn/provider-aws.dataAwsLb.DataAwsLb",
 		"tfResourceType",
 		&returns,
 	)

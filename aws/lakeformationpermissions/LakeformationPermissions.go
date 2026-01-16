@@ -5,14 +5,14 @@ package lakeformationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions}.
 type LakeformationPermissions interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -620,7 +620,7 @@ func (j *jsiiProxy_LakeformationPermissions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions} Resource.
 func NewLakeformationPermissions(scope constructs.Construct, id *string, config *LakeformationPermissionsConfig) LakeformationPermissions {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewLakeformationPermissions(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_LakeformationPermissions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,12 +638,12 @@ func NewLakeformationPermissions(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_permissions aws_lakeformation_permissions} Resource.
 func NewLakeformationPermissions_Override(l LakeformationPermissions, scope constructs.Construct, id *string, config *LakeformationPermissionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -804,7 +804,7 @@ func LakeformationPermissions_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -839,7 +839,7 @@ func LakeformationPermissions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func LakeformationPermissions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func LakeformationPermissions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -890,7 +890,7 @@ func LakeformationPermissions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissions",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissions",
 		"tfResourceType",
 		&returns,
 	)

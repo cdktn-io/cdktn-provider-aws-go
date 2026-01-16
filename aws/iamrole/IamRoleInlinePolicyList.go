@@ -5,9 +5,9 @@ package iamrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamrole/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewIamRoleInlinePolicyList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_IamRoleInlinePolicyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRole.IamRoleInlinePolicyList",
+		"@cdktn/provider-aws.iamRole.IamRoleInlinePolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewIamRoleInlinePolicyList_Override(i IamRoleInlinePolicyList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRole.IamRoleInlinePolicyList",
+		"@cdktn/provider-aws.iamRole.IamRoleInlinePolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

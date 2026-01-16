@@ -5,14 +5,14 @@ package securityhubconfigurationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubconfigurationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubconfigurationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy}.
 type SecurityhubConfigurationPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -415,7 +415,7 @@ func (j *jsiiProxy_SecurityhubConfigurationPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
 func NewSecurityhubConfigurationPolicy(scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyConfig) SecurityhubConfigurationPolicy {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewSecurityhubConfigurationPolicy(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SecurityhubConfigurationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewSecurityhubConfigurationPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_configuration_policy aws_securityhub_configuration_policy} Resource.
 func NewSecurityhubConfigurationPolicy_Override(s SecurityhubConfigurationPolicy, scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -566,7 +566,7 @@ func SecurityhubConfigurationPolicy_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func SecurityhubConfigurationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func SecurityhubConfigurationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func SecurityhubConfigurationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func SecurityhubConfigurationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
+		"@cdktn/provider-aws.securityhubConfigurationPolicy.SecurityhubConfigurationPolicy",
 		"tfResourceType",
 		&returns,
 	)

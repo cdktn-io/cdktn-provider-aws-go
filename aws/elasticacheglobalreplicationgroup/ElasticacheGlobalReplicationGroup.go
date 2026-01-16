@@ -5,14 +5,14 @@ package elasticacheglobalreplicationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheglobalreplicationgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheglobalreplicationgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group}.
 type ElasticacheGlobalReplicationGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -660,7 +660,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TransitEncryptionEnabled()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) ElasticacheGlobalReplicationGroup {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string
 	j := jsiiProxy_ElasticacheGlobalReplicationGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -678,12 +678,12 @@ func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup_Override(e ElasticacheGlobalReplicationGroup, scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -888,7 +888,7 @@ func ElasticacheGlobalReplicationGroup_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -923,7 +923,7 @@ func ElasticacheGlobalReplicationGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -942,7 +942,7 @@ func ElasticacheGlobalReplicationGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -961,7 +961,7 @@ func ElasticacheGlobalReplicationGroup_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -974,7 +974,7 @@ func ElasticacheGlobalReplicationGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
+		"@cdktn/provider-aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup",
 		"tfResourceType",
 		&returns,
 	)

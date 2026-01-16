@@ -5,14 +5,14 @@ package ssoadminaccountassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminaccountassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminaccountassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment}.
 type SsoadminAccountAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_SsoadminAccountAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment} Resource.
 func NewSsoadminAccountAssignment(scope constructs.Construct, id *string, config *SsoadminAccountAssignmentConfig) SsoadminAccountAssignment {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewSsoadminAccountAssignment(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SsoadminAccountAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewSsoadminAccountAssignment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_account_assignment aws_ssoadmin_account_assignment} Resource.
 func NewSsoadminAccountAssignment_Override(s SsoadminAccountAssignment, scope constructs.Construct, id *string, config *SsoadminAccountAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -691,7 +691,7 @@ func SsoadminAccountAssignment_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func SsoadminAccountAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func SsoadminAccountAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func SsoadminAccountAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func SsoadminAccountAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignment",
 		"tfResourceType",
 		&returns,
 	)

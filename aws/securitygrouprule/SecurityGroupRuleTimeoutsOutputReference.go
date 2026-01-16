@@ -5,9 +5,9 @@ package securitygrouprule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitygrouprule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitygrouprule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSecurityGroupRuleTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_SecurityGroupRuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSecurityGroupRuleTimeoutsOutputReference_Override(s SecurityGroupRuleTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.securityGroupRule.SecurityGroupRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

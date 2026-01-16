@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		reflect.TypeOf((*SsoadminManagedPolicyAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentConfig",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentConfig",
 		reflect.TypeOf((*SsoadminManagedPolicyAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentTimeouts",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentTimeouts",
 		reflect.TypeOf((*SsoadminManagedPolicyAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*SsoadminManagedPolicyAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

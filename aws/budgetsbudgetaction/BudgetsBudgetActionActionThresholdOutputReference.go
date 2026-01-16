@@ -5,9 +5,9 @@ package budgetsbudgetaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/budgetsbudgetaction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/budgetsbudgetaction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewBudgetsBudgetActionActionThresholdOutputReference(terraformResource cdkt
 	j := jsiiProxy_BudgetsBudgetActionActionThresholdOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewBudgetsBudgetActionActionThresholdOutputReference_Override(b BudgetsBudg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCache",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCache",
 		reflect.TypeOf((*FsxFileCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,15 +111,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheConfig",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheConfig",
 		reflect.TypeOf((*FsxFileCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationList",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfs",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfs",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociationNfs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfsList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfsList",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociationNfsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfsOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfsOutputReference",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociationNfsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,7 +204,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationOutputReference",
 		reflect.TypeOf((*FsxFileCacheDataRepositoryAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "associationId", GoGetter: "AssociationId"},
@@ -256,11 +256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfiguration",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfiguration",
 		reflect.TypeOf((*FsxFileCacheLustreConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationList",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -282,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfiguration",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfiguration",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfigurationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfigurationList",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationLogConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -307,7 +307,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationLogConfigurationOutputReference",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -341,11 +341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfiguration",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfiguration",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationMetadataConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfigurationList",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfigurationList",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationMetadataConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -401,7 +401,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheLustreConfigurationOutputReference",
 		reflect.TypeOf((*FsxFileCacheLustreConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -445,11 +445,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheTimeouts",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheTimeouts",
 		reflect.TypeOf((*FsxFileCacheTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxFileCache.FsxFileCacheTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxFileCache.FsxFileCacheTimeoutsOutputReference",
 		reflect.TypeOf((*FsxFileCacheTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		reflect.TypeOf((*KinesisResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicyConfig",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicyConfig",
 		reflect.TypeOf((*KinesisResourcePolicyConfig)(nil)).Elem(),
 	)
 }

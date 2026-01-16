@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		reflect.TypeOf((*TranscribeLanguageModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelConfig",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelConfig",
 		reflect.TypeOf((*TranscribeLanguageModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfig",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfig",
 		reflect.TypeOf((*TranscribeLanguageModelInputDataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelInputDataConfigOutputReference",
 		reflect.TypeOf((*TranscribeLanguageModelInputDataConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelTimeouts",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelTimeouts",
 		reflect.TypeOf((*TranscribeLanguageModelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModelTimeoutsOutputReference",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModelTimeoutsOutputReference",
 		reflect.TypeOf((*TranscribeLanguageModelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

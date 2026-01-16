@@ -5,14 +5,14 @@ package xraysamplingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/xraysamplingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/xraysamplingrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule}.
 type XraySamplingRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -671,7 +671,7 @@ func (j *jsiiProxy_XraySamplingRule) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
 func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySamplingRuleConfig) XraySamplingRule {
 	_init_.Initialize()
 
@@ -681,7 +681,7 @@ func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySam
 	j := jsiiProxy_XraySamplingRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -689,12 +689,12 @@ func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_sampling_rule aws_xray_sampling_rule} Resource.
 func NewXraySamplingRule_Override(x XraySamplingRule, scope constructs.Construct, id *string, config *XraySamplingRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		[]interface{}{scope, id, config},
 		x,
 	)
@@ -954,7 +954,7 @@ func XraySamplingRule_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -989,7 +989,7 @@ func XraySamplingRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1008,7 +1008,7 @@ func XraySamplingRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1027,7 +1027,7 @@ func XraySamplingRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1040,7 +1040,7 @@ func XraySamplingRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.xraySamplingRule.XraySamplingRule",
+		"@cdktn/provider-aws.xraySamplingRule.XraySamplingRule",
 		"tfResourceType",
 		&returns,
 	)

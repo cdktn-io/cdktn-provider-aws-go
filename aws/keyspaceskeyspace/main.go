@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		reflect.TypeOf((*KeyspacesKeyspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceConfig",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceConfig",
 		reflect.TypeOf((*KeyspacesKeyspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceReplicationSpecification",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceReplicationSpecification",
 		reflect.TypeOf((*KeyspacesKeyspaceReplicationSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceReplicationSpecificationOutputReference",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceReplicationSpecificationOutputReference",
 		reflect.TypeOf((*KeyspacesKeyspaceReplicationSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceTimeouts",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceTimeouts",
 		reflect.TypeOf((*KeyspacesKeyspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspaceTimeoutsOutputReference",
 		reflect.TypeOf((*KeyspacesKeyspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

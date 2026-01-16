@@ -5,9 +5,9 @@ package gluetrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluetrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluetrigger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewGlueTriggerPredicateOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_GlueTriggerPredicateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewGlueTriggerPredicateOutputReference_Override(g GlueTriggerPredicateOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

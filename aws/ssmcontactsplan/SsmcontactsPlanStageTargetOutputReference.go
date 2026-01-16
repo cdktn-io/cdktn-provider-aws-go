@@ -5,9 +5,9 @@ package ssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSsmcontactsPlanStageTargetOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_SsmcontactsPlanStageTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSsmcontactsPlanStageTargetOutputReference_Override(s SsmcontactsPlanStag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
+		"@cdktn/provider-aws.ssmcontactsPlan.SsmcontactsPlanStageTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

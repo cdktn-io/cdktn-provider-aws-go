@@ -5,14 +5,14 @@ package mskserverlesscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskserverlesscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskserverlesscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster}.
 type MskServerlessCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MskServerlessCluster) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
 func NewMskServerlessCluster(scope constructs.Construct, id *string, config *MskServerlessClusterConfig) MskServerlessCluster {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewMskServerlessCluster(scope constructs.Construct, id *string, config *Msk
 	j := jsiiProxy_MskServerlessCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -526,12 +526,12 @@ func NewMskServerlessCluster(scope constructs.Construct, id *string, config *Msk
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_serverless_cluster aws_msk_serverless_cluster} Resource.
 func NewMskServerlessCluster_Override(m MskServerlessCluster, scope constructs.Construct, id *string, config *MskServerlessClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -670,7 +670,7 @@ func MskServerlessCluster_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func MskServerlessCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func MskServerlessCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func MskServerlessCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func MskServerlessCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessCluster",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessCluster",
 		"tfResourceType",
 		&returns,
 	)

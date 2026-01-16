@@ -5,14 +5,14 @@ package quicksightingestion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightingestion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightingestion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
 type QuicksightIngestion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_QuicksightIngestion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion(scope constructs.Construct, id *string, config *QuicksightIngestionConfig) QuicksightIngestion {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewQuicksightIngestion(scope constructs.Construct, id *string, config *Quic
 	j := jsiiProxy_QuicksightIngestion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewQuicksightIngestion(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion_Override(q QuicksightIngestion, scope constructs.Construct, id *string, config *QuicksightIngestionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -598,7 +598,7 @@ func QuicksightIngestion_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -633,7 +633,7 @@ func QuicksightIngestion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func QuicksightIngestion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func QuicksightIngestion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func QuicksightIngestion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightIngestion.QuicksightIngestion",
+		"@cdktn/provider-aws.quicksightIngestion.QuicksightIngestion",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package route53zone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53zone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53zone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_zone aws_route53_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_zone aws_route53_zone}.
 type Route53Zone interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_Route53Zone) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_zone aws_route53_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_zone aws_route53_zone} Resource.
 func NewRoute53Zone(scope constructs.Construct, id *string, config *Route53ZoneConfig) Route53Zone {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewRoute53Zone(scope constructs.Construct, id *string, config *Route53ZoneC
 	j := jsiiProxy_Route53Zone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewRoute53Zone(scope constructs.Construct, id *string, config *Route53ZoneC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_zone aws_route53_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_zone aws_route53_zone} Resource.
 func NewRoute53Zone_Override(r Route53Zone, scope constructs.Construct, id *string, config *Route53ZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -764,7 +764,7 @@ func Route53Zone_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func Route53Zone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func Route53Zone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func Route53Zone_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func Route53Zone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53Zone.Route53Zone",
+		"@cdktn/provider-aws.route53Zone.Route53Zone",
 		"tfResourceType",
 		&returns,
 	)

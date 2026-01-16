@@ -5,14 +5,14 @@ package ec2managedprefixlistentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2managedprefixlistentry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2managedprefixlistentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry}.
 type Ec2ManagedPrefixListEntryA interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
 func NewEc2ManagedPrefixListEntryA(scope constructs.Construct, id *string, config *Ec2ManagedPrefixListEntryAConfig) Ec2ManagedPrefixListEntryA {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewEc2ManagedPrefixListEntryA(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_Ec2ManagedPrefixListEntryA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewEc2ManagedPrefixListEntryA(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
 func NewEc2ManagedPrefixListEntryA_Override(e Ec2ManagedPrefixListEntryA, scope constructs.Construct, id *string, config *Ec2ManagedPrefixListEntryAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -566,7 +566,7 @@ func Ec2ManagedPrefixListEntryA_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func Ec2ManagedPrefixListEntryA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func Ec2ManagedPrefixListEntryA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func Ec2ManagedPrefixListEntryA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func Ec2ManagedPrefixListEntryA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
+		"@cdktn/provider-aws.ec2ManagedPrefixListEntry.Ec2ManagedPrefixListEntryA",
 		"tfResourceType",
 		&returns,
 	)

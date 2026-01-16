@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		reflect.TypeOf((*DataAwsPricingProduct)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,15 +64,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductConfig",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductConfig",
 		reflect.TypeOf((*DataAwsPricingProductConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFilters",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFilters",
 		reflect.TypeOf((*DataAwsPricingProductFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersList",
 		reflect.TypeOf((*DataAwsPricingProductFiltersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersOutputReference",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProductFiltersOutputReference",
 		reflect.TypeOf((*DataAwsPricingProductFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

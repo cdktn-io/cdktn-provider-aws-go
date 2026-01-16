@@ -5,14 +5,14 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_server aws_transfer_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_server aws_transfer_server}.
 type TransferServer interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -919,7 +919,7 @@ func (j *jsiiProxy_TransferServer) WorkflowDetailsInput() *TransferServerWorkflo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_server aws_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_server aws_transfer_server} Resource.
 func NewTransferServer(scope constructs.Construct, id *string, config *TransferServerConfig) TransferServer {
 	_init_.Initialize()
 
@@ -929,7 +929,7 @@ func NewTransferServer(scope constructs.Construct, id *string, config *TransferS
 	j := jsiiProxy_TransferServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -937,12 +937,12 @@ func NewTransferServer(scope constructs.Construct, id *string, config *TransferS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_server aws_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_server aws_transfer_server} Resource.
 func NewTransferServer_Override(t TransferServer, scope constructs.Construct, id *string, config *TransferServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -1257,7 +1257,7 @@ func TransferServer_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1292,7 +1292,7 @@ func TransferServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1311,7 +1311,7 @@ func TransferServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1330,7 +1330,7 @@ func TransferServer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1343,7 +1343,7 @@ func TransferServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferServer.TransferServer",
+		"@cdktn/provider-aws.transferServer.TransferServer",
 		"tfResourceType",
 		&returns,
 	)

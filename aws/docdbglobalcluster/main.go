@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalCluster",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalCluster",
 		reflect.TypeOf((*DocdbGlobalCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterConfig",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterConfig",
 		reflect.TypeOf((*DocdbGlobalClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembers",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembers",
 		reflect.TypeOf((*DocdbGlobalClusterGlobalClusterMembers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersList",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersList",
 		reflect.TypeOf((*DocdbGlobalClusterGlobalClusterMembersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
 		reflect.TypeOf((*DocdbGlobalClusterGlobalClusterMembersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeouts",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeouts",
 		reflect.TypeOf((*DocdbGlobalClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DocdbGlobalClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

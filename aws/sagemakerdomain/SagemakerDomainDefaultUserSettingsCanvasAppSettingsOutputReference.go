@@ -5,9 +5,9 @@ package sagemakerdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewSagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference(terra
 	j := jsiiProxy_SagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewSagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsCanvasAppSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

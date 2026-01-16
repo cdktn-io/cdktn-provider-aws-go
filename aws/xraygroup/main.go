@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.xrayGroup.XrayGroup",
+		"@cdktn/provider-aws.xrayGroup.XrayGroup",
 		reflect.TypeOf((*XrayGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.xrayGroup.XrayGroupConfig",
+		"@cdktn/provider-aws.xrayGroup.XrayGroupConfig",
 		reflect.TypeOf((*XrayGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.xrayGroup.XrayGroupInsightsConfiguration",
+		"@cdktn/provider-aws.xrayGroup.XrayGroupInsightsConfiguration",
 		reflect.TypeOf((*XrayGroupInsightsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
+		"@cdktn/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
 		reflect.TypeOf((*XrayGroupInsightsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

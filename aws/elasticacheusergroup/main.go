@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		reflect.TypeOf((*ElasticacheUserGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroupConfig",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroupConfig",
 		reflect.TypeOf((*ElasticacheUserGroupConfig)(nil)).Elem(),
 	)
 }

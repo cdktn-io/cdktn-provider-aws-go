@@ -5,9 +5,9 @@ package qldbstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/qldbstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qldbstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewQldbStreamTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_QldbStreamTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewQldbStreamTimeoutsOutputReference_Override(q QldbStreamTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

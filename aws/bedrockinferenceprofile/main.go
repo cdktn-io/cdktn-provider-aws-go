@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfile",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfile",
 		reflect.TypeOf((*BedrockInferenceProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileConfig",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileConfig",
 		reflect.TypeOf((*BedrockInferenceProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSource",
 		reflect.TypeOf((*BedrockInferenceProfileModelSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceList",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceList",
 		reflect.TypeOf((*BedrockInferenceProfileModelSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelSourceOutputReference",
 		reflect.TypeOf((*BedrockInferenceProfileModelSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModels",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModels",
 		reflect.TypeOf((*BedrockInferenceProfileModels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelsList",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelsList",
 		reflect.TypeOf((*BedrockInferenceProfileModelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -179,7 +179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelsOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileModelsOutputReference",
 		reflect.TypeOf((*BedrockInferenceProfileModelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeouts",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeouts",
 		reflect.TypeOf((*BedrockInferenceProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockInferenceProfile.BedrockInferenceProfileTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockInferenceProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

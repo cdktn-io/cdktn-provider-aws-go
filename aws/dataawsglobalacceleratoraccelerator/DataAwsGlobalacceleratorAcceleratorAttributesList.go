@@ -5,9 +5,9 @@ package dataawsglobalacceleratoraccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsglobalacceleratoraccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsglobalacceleratoraccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsGlobalacceleratorAcceleratorAttributesList(terraformResource cdkt
 	j := jsiiProxy_DataAwsGlobalacceleratorAcceleratorAttributesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAcceleratorAttributesList",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAcceleratorAttributesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsGlobalacceleratorAcceleratorAttributesList_Override(d DataAwsGlob
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAcceleratorAttributesList",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAcceleratorAttributesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

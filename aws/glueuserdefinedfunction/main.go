@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunction",
+		"@cdktn/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunction",
 		reflect.TypeOf((*GlueUserDefinedFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionConfig",
+		"@cdktn/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionConfig",
 		reflect.TypeOf((*GlueUserDefinedFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris",
+		"@cdktn/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris",
 		reflect.TypeOf((*GlueUserDefinedFunctionResourceUris)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisList",
+		"@cdktn/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisList",
 		reflect.TypeOf((*GlueUserDefinedFunctionResourceUrisList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference",
+		"@cdktn/provider-aws.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference",
 		reflect.TypeOf((*GlueUserDefinedFunctionResourceUrisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

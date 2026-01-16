@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftClusterCredentials.DataAwsRedshiftClusterCredentials",
+		"@cdktn/provider-aws.dataAwsRedshiftClusterCredentials.DataAwsRedshiftClusterCredentials",
 		reflect.TypeOf((*DataAwsRedshiftClusterCredentials)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRedshiftClusterCredentials.DataAwsRedshiftClusterCredentialsConfig",
+		"@cdktn/provider-aws.dataAwsRedshiftClusterCredentials.DataAwsRedshiftClusterCredentialsConfig",
 		reflect.TypeOf((*DataAwsRedshiftClusterCredentialsConfig)(nil)).Elem(),
 	)
 }

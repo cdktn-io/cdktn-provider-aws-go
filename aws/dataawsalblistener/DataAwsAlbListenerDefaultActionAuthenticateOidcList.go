@@ -5,9 +5,9 @@ package dataawsalblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAlbListenerDefaultActionAuthenticateOidcList(terraformResource cd
 	j := jsiiProxy_DataAwsAlbListenerDefaultActionAuthenticateOidcList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionAuthenticateOidcList",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionAuthenticateOidcList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAlbListenerDefaultActionAuthenticateOidcList_Override(d DataAwsAl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionAuthenticateOidcList",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerDefaultActionAuthenticateOidcList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

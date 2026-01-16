@@ -5,9 +5,9 @@ package dataawsdynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsDynamodbTableReplicaOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsDynamodbTableReplicaOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsDynamodbTableReplicaOutputReference_Override(d DataAwsDynamodbTab
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTableReplicaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

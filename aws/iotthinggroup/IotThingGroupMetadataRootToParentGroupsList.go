@@ -5,9 +5,9 @@ package iotthinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotthinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotthinggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewIotThingGroupMetadataRootToParentGroupsList(terraformResource cdktf.IInt
 	j := jsiiProxy_IotThingGroupMetadataRootToParentGroupsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewIotThingGroupMetadataRootToParentGroupsList_Override(i IotThingGroupMeta
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

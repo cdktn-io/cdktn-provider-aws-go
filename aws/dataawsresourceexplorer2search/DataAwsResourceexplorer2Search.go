@@ -5,14 +5,14 @@ package dataawsresourceexplorer2search
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsresourceexplorer2search/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsresourceexplorer2search/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search}.
 type DataAwsResourceexplorer2Search interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsResourceexplorer2Search) ViewArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search} Data Source.
 func NewDataAwsResourceexplorer2Search(scope constructs.Construct, id *string, config *DataAwsResourceexplorer2SearchConfig) DataAwsResourceexplorer2Search {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAwsResourceexplorer2Search(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAwsResourceexplorer2Search{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataAwsResourceexplorer2Search(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/resourceexplorer2_search aws_resourceexplorer2_search} Data Source.
 func NewDataAwsResourceexplorer2Search_Override(d DataAwsResourceexplorer2Search, scope constructs.Construct, id *string, config *DataAwsResourceexplorer2SearchConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -463,7 +463,7 @@ func DataAwsResourceexplorer2Search_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataAwsResourceexplorer2Search_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsResourceexplorer2Search_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsResourceexplorer2Search_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsResourceexplorer2Search_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
+		"@cdktn/provider-aws.dataAwsResourceexplorer2Search.DataAwsResourceexplorer2Search",
 		"tfResourceType",
 		&returns,
 	)

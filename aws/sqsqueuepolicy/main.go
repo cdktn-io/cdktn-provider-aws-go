@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sqsQueuePolicy.SqsQueuePolicy",
+		"@cdktn/provider-aws.sqsQueuePolicy.SqsQueuePolicy",
 		reflect.TypeOf((*SqsQueuePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sqsQueuePolicy.SqsQueuePolicyConfig",
+		"@cdktn/provider-aws.sqsQueuePolicy.SqsQueuePolicyConfig",
 		reflect.TypeOf((*SqsQueuePolicyConfig)(nil)).Elem(),
 	)
 }

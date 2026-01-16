@@ -5,14 +5,14 @@ package redshiftdatashareauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftdatashareauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftdatashareauthorization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization}.
 type RedshiftDataShareAuthorization interface {
 	cdktf.TerraformResource
 	AllowWrites() interface{}
@@ -413,7 +413,7 @@ func (j *jsiiProxy_RedshiftDataShareAuthorization) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
 func NewRedshiftDataShareAuthorization(scope constructs.Construct, id *string, config *RedshiftDataShareAuthorizationConfig) RedshiftDataShareAuthorization {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewRedshiftDataShareAuthorization(scope constructs.Construct, id *string, c
 	j := jsiiProxy_RedshiftDataShareAuthorization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewRedshiftDataShareAuthorization(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_data_share_authorization aws_redshift_data_share_authorization} Resource.
 func NewRedshiftDataShareAuthorization_Override(r RedshiftDataShareAuthorization, scope constructs.Construct, id *string, config *RedshiftDataShareAuthorizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -564,7 +564,7 @@ func RedshiftDataShareAuthorization_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func RedshiftDataShareAuthorization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func RedshiftDataShareAuthorization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func RedshiftDataShareAuthorization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func RedshiftDataShareAuthorization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		"tfResourceType",
 		&returns,
 	)

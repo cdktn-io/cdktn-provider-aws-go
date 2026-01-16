@@ -5,9 +5,9 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewCodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference(terra
 	j := jsiiProxy_CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewCodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

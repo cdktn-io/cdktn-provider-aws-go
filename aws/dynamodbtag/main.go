@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTag.DynamodbTag",
+		"@cdktn/provider-aws.dynamodbTag.DynamodbTag",
 		reflect.TypeOf((*DynamodbTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTag.DynamodbTagConfig",
+		"@cdktn/provider-aws.dynamodbTag.DynamodbTagConfig",
 		reflect.TypeOf((*DynamodbTagConfig)(nil)).Elem(),
 	)
 }

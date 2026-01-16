@@ -5,9 +5,9 @@ package route53recoveryreadinessreadinesscheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoveryreadinessreadinesscheck/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoveryreadinessreadinesscheck/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewRoute53RecoveryreadinessReadinessCheckTimeoutsOutputReference(terraformR
 	j := jsiiProxy_Route53RecoveryreadinessReadinessCheckTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewRoute53RecoveryreadinessReadinessCheckTimeoutsOutputReference_Override(r
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53RecoveryreadinessReadinessCheck.Route53RecoveryreadinessReadinessCheckTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

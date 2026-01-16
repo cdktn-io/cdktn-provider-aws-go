@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPoints",
 		reflect.TypeOf((*DataAwsEfsAccessPoints)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPointsConfig",
+		"@cdktn/provider-aws.dataAwsEfsAccessPoints.DataAwsEfsAccessPointsConfig",
 		reflect.TypeOf((*DataAwsEfsAccessPointsConfig)(nil)).Elem(),
 	)
 }

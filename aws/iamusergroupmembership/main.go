@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamUserGroupMembership.IamUserGroupMembership",
+		"@cdktn/provider-aws.iamUserGroupMembership.IamUserGroupMembership",
 		reflect.TypeOf((*IamUserGroupMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamUserGroupMembership.IamUserGroupMembershipConfig",
+		"@cdktn/provider-aws.iamUserGroupMembership.IamUserGroupMembershipConfig",
 		reflect.TypeOf((*IamUserGroupMembershipConfig)(nil)).Elem(),
 	)
 }

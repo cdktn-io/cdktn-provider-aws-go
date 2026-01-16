@@ -5,9 +5,9 @@ package timestreamwritetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreamwritetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreamwritetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewTimestreamwriteTableSchemaCompositePartitionKeyOutputReference(terraform
 	j := jsiiProxy_TimestreamwriteTableSchemaCompositePartitionKeyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKeyOutputReference",
+		"@cdktn/provider-aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewTimestreamwriteTableSchemaCompositePartitionKeyOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKeyOutputReference",
+		"@cdktn/provider-aws.timestreamwriteTable.TimestreamwriteTableSchemaCompositePartitionKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

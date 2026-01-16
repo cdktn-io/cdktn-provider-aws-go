@@ -5,9 +5,9 @@ package s3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3accesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3accesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewS3AccessPointPublicAccessBlockConfigurationOutputReference(terraformReso
 	j := jsiiProxy_S3AccessPointPublicAccessBlockConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3AccessPoint.S3AccessPointPublicAccessBlockConfigurationOutputReference",
+		"@cdktn/provider-aws.s3AccessPoint.S3AccessPointPublicAccessBlockConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewS3AccessPointPublicAccessBlockConfigurationOutputReference_Override(s S3
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3AccessPoint.S3AccessPointPublicAccessBlockConfigurationOutputReference",
+		"@cdktn/provider-aws.s3AccessPoint.S3AccessPointPublicAccessBlockConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

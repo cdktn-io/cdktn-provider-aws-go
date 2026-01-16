@@ -5,9 +5,9 @@ package sesv2configurationseteventdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2configurationseteventdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2configurationseteventdestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewSesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutpu
 	j := jsiiProxy_Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSetEventDestination.Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSetEventDestination.Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewSesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSetEventDestination.Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSetEventDestination.Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

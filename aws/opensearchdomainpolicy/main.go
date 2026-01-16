@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicy",
+		"@cdktn/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicy",
 		reflect.TypeOf((*OpensearchDomainPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicies", GoGetter: "AccessPolicies"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyConfig",
+		"@cdktn/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyConfig",
 		reflect.TypeOf((*OpensearchDomainPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyTimeouts",
+		"@cdktn/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyTimeouts",
 		reflect.TypeOf((*OpensearchDomainPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchDomainPolicy.OpensearchDomainPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchDomainPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

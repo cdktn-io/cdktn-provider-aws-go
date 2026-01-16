@@ -5,9 +5,9 @@ package elasticbeanstalkenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticbeanstalkenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticbeanstalkenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewElasticBeanstalkEnvironmentSettingList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_ElasticBeanstalkEnvironmentSettingList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewElasticBeanstalkEnvironmentSettingList_Override(e ElasticBeanstalkEnviro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

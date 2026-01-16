@@ -5,9 +5,9 @@ package eksaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksaddon/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEksAddonTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_EksAddonTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEksAddonTimeoutsOutputReference_Override(e EksAddonTimeoutsOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

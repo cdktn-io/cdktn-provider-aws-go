@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueRegistry.DataAwsGlueRegistry",
+		"@cdktn/provider-aws.dataAwsGlueRegistry.DataAwsGlueRegistry",
 		reflect.TypeOf((*DataAwsGlueRegistry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGlueRegistry.DataAwsGlueRegistryConfig",
+		"@cdktn/provider-aws.dataAwsGlueRegistry.DataAwsGlueRegistryConfig",
 		reflect.TypeOf((*DataAwsGlueRegistryConfig)(nil)).Elem(),
 	)
 }

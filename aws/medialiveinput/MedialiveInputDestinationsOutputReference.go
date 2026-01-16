@@ -5,9 +5,9 @@ package medialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewMedialiveInputDestinationsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_MedialiveInputDestinationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputDestinationsOutputReference",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputDestinationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewMedialiveInputDestinationsOutputReference_Override(m MedialiveInputDesti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInputDestinationsOutputReference",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInputDestinationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

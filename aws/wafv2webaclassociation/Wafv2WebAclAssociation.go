@@ -5,14 +5,14 @@ package wafv2webaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webaclassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association}.
 type Wafv2WebAclAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociation) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) Wafv2WebAclAssociation {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *W
 	j := jsiiProxy_Wafv2WebAclAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl_association aws_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation_Override(w Wafv2WebAclAssociation, scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfigA) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -555,7 +555,7 @@ func Wafv2WebAclAssociation_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func Wafv2WebAclAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func Wafv2WebAclAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func Wafv2WebAclAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func Wafv2WebAclAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssec",
+		"@cdktn/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssec",
 		reflect.TypeOf((*Route53HostedZoneDnssec)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecConfig",
+		"@cdktn/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecConfig",
 		reflect.TypeOf((*Route53HostedZoneDnssecConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeouts",
+		"@cdktn/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeouts",
 		reflect.TypeOf((*Route53HostedZoneDnssecTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53HostedZoneDnssec.Route53HostedZoneDnssecTimeoutsOutputReference",
 		reflect.TypeOf((*Route53HostedZoneDnssecTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

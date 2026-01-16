@@ -5,9 +5,9 @@ package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLexBotAbortStatementMessageList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_LexBotAbortStatementMessageList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotAbortStatementMessageList",
+		"@cdktn/provider-aws.lexBot.LexBotAbortStatementMessageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLexBotAbortStatementMessageList_Override(l LexBotAbortStatementMessageLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotAbortStatementMessageList",
+		"@cdktn/provider-aws.lexBot.LexBotAbortStatementMessageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

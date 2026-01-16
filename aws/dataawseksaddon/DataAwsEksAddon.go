@@ -5,14 +5,14 @@ package dataawseksaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksaddon/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon aws_eks_addon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon aws_eks_addon}.
 type DataAwsEksAddon interface {
 	cdktf.TerraformDataSource
 	AddonName() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DataAwsEksAddon) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon aws_eks_addon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon aws_eks_addon} Data Source.
 func NewDataAwsEksAddon(scope constructs.Construct, id *string, config *DataAwsEksAddonConfig) DataAwsEksAddon {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewDataAwsEksAddon(scope constructs.Construct, id *string, config *DataAwsE
 	j := jsiiProxy_DataAwsEksAddon{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewDataAwsEksAddon(scope constructs.Construct, id *string, config *DataAwsE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon aws_eks_addon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon aws_eks_addon} Data Source.
 func NewDataAwsEksAddon_Override(d DataAwsEksAddon, scope constructs.Construct, id *string, config *DataAwsEksAddonConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -576,7 +576,7 @@ func DataAwsEksAddon_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func DataAwsEksAddon_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataAwsEksAddon_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataAwsEksAddon_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataAwsEksAddon_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		"tfResourceType",
 		&returns,
 	)

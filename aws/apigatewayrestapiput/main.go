@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		reflect.TypeOf((*ApiGatewayRestApiPut)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutConfig",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutConfig",
 		reflect.TypeOf((*ApiGatewayRestApiPutConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeouts",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeouts",
 		reflect.TypeOf((*ApiGatewayRestApiPutTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
 		reflect.TypeOf((*ApiGatewayRestApiPutTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

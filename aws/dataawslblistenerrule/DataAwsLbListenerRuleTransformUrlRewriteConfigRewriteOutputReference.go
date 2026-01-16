@@ -5,9 +5,9 @@ package dataawslblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference(ter
 	j := jsiiProxy_DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
+		"@cdktn/provider-aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
+		"@cdktn/provider-aws.dataAwsLbListenerRule.DataAwsLbListenerRuleTransformUrlRewriteConfigRewriteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

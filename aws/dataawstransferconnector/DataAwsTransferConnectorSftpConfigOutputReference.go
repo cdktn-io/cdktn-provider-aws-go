@@ -5,9 +5,9 @@ package dataawstransferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstransferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstransferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsTransferConnectorSftpConfigOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataAwsTransferConnectorSftpConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsTransferConnectorSftpConfigOutputReference_Override(d DataAwsTran
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

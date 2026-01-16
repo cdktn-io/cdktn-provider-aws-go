@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork",
+		"@cdktn/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork",
 		reflect.TypeOf((*NetworkmanagerGlobalNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkConfig",
+		"@cdktn/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkConfig",
 		reflect.TypeOf((*NetworkmanagerGlobalNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTimeouts",
+		"@cdktn/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTimeouts",
 		reflect.TypeOf((*NetworkmanagerGlobalNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkmanagerGlobalNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

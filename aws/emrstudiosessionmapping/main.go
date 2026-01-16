@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMapping",
 		reflect.TypeOf((*EmrStudioSessionMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrStudioSessionMapping.EmrStudioSessionMappingConfig",
+		"@cdktn/provider-aws.emrStudioSessionMapping.EmrStudioSessionMappingConfig",
 		reflect.TypeOf((*EmrStudioSessionMappingConfig)(nil)).Elem(),
 	)
 }

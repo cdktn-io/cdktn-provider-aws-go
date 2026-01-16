@@ -5,9 +5,9 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDynamodbTableOnDemandThroughputOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DynamodbTableOnDemandThroughputOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableOnDemandThroughputOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableOnDemandThroughputOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDynamodbTableOnDemandThroughputOutputReference_Override(d DynamodbTableO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableOnDemandThroughputOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableOnDemandThroughputOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

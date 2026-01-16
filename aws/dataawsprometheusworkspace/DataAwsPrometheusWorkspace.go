@@ -5,14 +5,14 @@ package dataawsprometheusworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsprometheusworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsprometheusworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace}.
 type DataAwsPrometheusWorkspace interface {
 	cdktf.TerraformDataSource
 	Alias() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsPrometheusWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
 func NewDataAwsPrometheusWorkspace(scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspaceConfig) DataAwsPrometheusWorkspace {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsPrometheusWorkspace(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsPrometheusWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAwsPrometheusWorkspace(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/prometheus_workspace aws_prometheus_workspace} Data Source.
 func NewDataAwsPrometheusWorkspace_Override(d DataAwsPrometheusWorkspace, scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAwsPrometheusWorkspace_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsPrometheusWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsPrometheusWorkspace_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsPrometheusWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsPrometheusWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
+		"@cdktn/provider-aws.dataAwsPrometheusWorkspace.DataAwsPrometheusWorkspace",
 		"tfResourceType",
 		&returns,
 	)

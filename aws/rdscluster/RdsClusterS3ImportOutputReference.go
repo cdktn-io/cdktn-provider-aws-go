@@ -5,9 +5,9 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -275,7 +275,7 @@ func NewRdsClusterS3ImportOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_RdsClusterS3ImportOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -287,7 +287,7 @@ func NewRdsClusterS3ImportOutputReference_Override(r RdsClusterS3ImportOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

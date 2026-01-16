@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomain",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomain",
 		reflect.TypeOf((*CustomerprofilesDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,23 +94,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainConfig",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainConfig",
 		reflect.TypeOf((*CustomerprofilesDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatching",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatching",
 		reflect.TypeOf((*CustomerprofilesDomainMatching)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMerging",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMerging",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMerging)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConflictResolution",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConflictResolution",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMergingConflictResolution)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidation",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidation",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMergingConsolidation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,7 +185,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingAutoMergingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfig",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfig",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingExportingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingExportingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,11 +270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigS3Exporting",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigS3Exporting",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingExportingConfigS3Exporting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigS3ExportingOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfigS3ExportingOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingExportingConfigS3ExportingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,11 +311,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobSchedule",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobSchedule",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingJobSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobScheduleOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobScheduleOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingJobScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -351,7 +351,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainMatchingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoMerging", GoGetter: "AutoMerging"},
@@ -397,15 +397,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatching",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatching",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatching)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -448,11 +448,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingConflictResolution",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingConflictResolution",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingConflictResolution)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -489,11 +489,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfig",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfig",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingExportingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingExportingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -529,11 +529,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigS3Exporting",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigS3Exporting",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingExportingConfigS3Exporting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -570,11 +570,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRules",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingMatchingRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRulesList",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRulesList",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingMatchingRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -596,7 +596,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRulesOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingMatchingRulesOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingMatchingRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -630,7 +630,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainRuleBasedMatchingOutputReference",
 		reflect.TypeOf((*CustomerprofilesDomainRuleBasedMatchingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeTypesSelector", GoGetter: "AttributeTypesSelector"},

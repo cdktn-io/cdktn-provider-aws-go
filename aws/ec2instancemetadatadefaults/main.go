@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2InstanceMetadataDefaults.Ec2InstanceMetadataDefaults",
+		"@cdktn/provider-aws.ec2InstanceMetadataDefaults.Ec2InstanceMetadataDefaults",
 		reflect.TypeOf((*Ec2InstanceMetadataDefaults)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2InstanceMetadataDefaults.Ec2InstanceMetadataDefaultsConfig",
+		"@cdktn/provider-aws.ec2InstanceMetadataDefaults.Ec2InstanceMetadataDefaultsConfig",
 		reflect.TypeOf((*Ec2InstanceMetadataDefaultsConfig)(nil)).Elem(),
 	)
 }

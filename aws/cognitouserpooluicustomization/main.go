@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolUiCustomization.CognitoUserPoolUiCustomization",
+		"@cdktn/provider-aws.cognitoUserPoolUiCustomization.CognitoUserPoolUiCustomization",
 		reflect.TypeOf((*CognitoUserPoolUiCustomization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserPoolUiCustomization.CognitoUserPoolUiCustomizationConfig",
+		"@cdktn/provider-aws.cognitoUserPoolUiCustomization.CognitoUserPoolUiCustomizationConfig",
 		reflect.TypeOf((*CognitoUserPoolUiCustomizationConfig)(nil)).Elem(),
 	)
 }

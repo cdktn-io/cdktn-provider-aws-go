@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificate",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificate",
 		reflect.TypeOf((*IotCaCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateConfig",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateConfig",
 		reflect.TypeOf((*IotCaCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateRegistrationConfig",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateRegistrationConfig",
 		reflect.TypeOf((*IotCaCertificateRegistrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateRegistrationConfigOutputReference",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateRegistrationConfigOutputReference",
 		reflect.TypeOf((*IotCaCertificateRegistrationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateValidity",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateValidity",
 		reflect.TypeOf((*IotCaCertificateValidity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateValidityList",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateValidityList",
 		reflect.TypeOf((*IotCaCertificateValidityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
 		reflect.TypeOf((*IotCaCertificateValidityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

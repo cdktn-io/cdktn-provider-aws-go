@@ -5,14 +5,14 @@ package verifiedpermissionspolicystore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionspolicystore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionspolicystore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store}.
 type VerifiedpermissionsPolicyStore interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyStore) ValidationSettingsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store} Resource.
 func NewVerifiedpermissionsPolicyStore(scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyStoreConfig) VerifiedpermissionsPolicyStore {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewVerifiedpermissionsPolicyStore(scope constructs.Construct, id *string, c
 	j := jsiiProxy_VerifiedpermissionsPolicyStore{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewVerifiedpermissionsPolicyStore(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_policy_store aws_verifiedpermissions_policy_store} Resource.
 func NewVerifiedpermissionsPolicyStore_Override(v VerifiedpermissionsPolicyStore, scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyStoreConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -601,7 +601,7 @@ func VerifiedpermissionsPolicyStore_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func VerifiedpermissionsPolicyStore_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func VerifiedpermissionsPolicyStore_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func VerifiedpermissionsPolicyStore_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func VerifiedpermissionsPolicyStore_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
+		"@cdktn/provider-aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStore",
 		"tfResourceType",
 		&returns,
 	)

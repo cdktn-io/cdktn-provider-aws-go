@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxUser.FinspaceKxUser",
+		"@cdktn/provider-aws.finspaceKxUser.FinspaceKxUser",
 		reflect.TypeOf((*FinspaceKxUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxUser.FinspaceKxUserConfig",
+		"@cdktn/provider-aws.finspaceKxUser.FinspaceKxUserConfig",
 		reflect.TypeOf((*FinspaceKxUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxUser.FinspaceKxUserTimeouts",
+		"@cdktn/provider-aws.finspaceKxUser.FinspaceKxUserTimeouts",
 		reflect.TypeOf((*FinspaceKxUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxUser.FinspaceKxUserTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxUser.FinspaceKxUserTimeoutsOutputReference",
 		reflect.TypeOf((*FinspaceKxUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

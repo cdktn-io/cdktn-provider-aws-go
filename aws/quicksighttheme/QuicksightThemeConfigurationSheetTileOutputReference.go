@@ -5,9 +5,9 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttheme/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttheme/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewQuicksightThemeConfigurationSheetTileOutputReference(terraformResource c
 	j := jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewQuicksightThemeConfigurationSheetTileOutputReference_Override(q Quicksig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

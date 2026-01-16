@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		reflect.TypeOf((*DataAwsFisExperimentTemplates)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplatesConfig",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplatesConfig",
 		reflect.TypeOf((*DataAwsFisExperimentTemplatesConfig)(nil)).Elem(),
 	)
 }

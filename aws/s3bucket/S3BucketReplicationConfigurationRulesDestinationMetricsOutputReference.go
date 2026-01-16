@@ -5,9 +5,9 @@ package s3bucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewS3BucketReplicationConfigurationRulesDestinationMetricsOutputReference(t
 	j := jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewS3BucketReplicationConfigurationRulesDestinationMetricsOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

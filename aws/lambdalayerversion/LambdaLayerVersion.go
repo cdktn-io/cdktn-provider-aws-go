@@ -5,14 +5,14 @@ package lambdalayerversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdalayerversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdalayerversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version aws_lambda_layer_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version aws_lambda_layer_version}.
 type LambdaLayerVersion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -685,7 +685,7 @@ func (j *jsiiProxy_LambdaLayerVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
 func NewLambdaLayerVersion(scope constructs.Construct, id *string, config *LambdaLayerVersionConfig) LambdaLayerVersion {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewLambdaLayerVersion(scope constructs.Construct, id *string, config *Lambd
 	j := jsiiProxy_LambdaLayerVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -703,12 +703,12 @@ func NewLambdaLayerVersion(scope constructs.Construct, id *string, config *Lambd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version aws_lambda_layer_version} Resource.
 func NewLambdaLayerVersion_Override(l LambdaLayerVersion, scope constructs.Construct, id *string, config *LambdaLayerVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -935,7 +935,7 @@ func LambdaLayerVersion_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -970,7 +970,7 @@ func LambdaLayerVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func LambdaLayerVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1008,7 +1008,7 @@ func LambdaLayerVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1021,7 +1021,7 @@ func LambdaLayerVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		"tfResourceType",
 		&returns,
 	)

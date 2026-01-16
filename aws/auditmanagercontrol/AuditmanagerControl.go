@@ -5,14 +5,14 @@ package auditmanagercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagercontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_control aws_auditmanager_control}.
 type AuditmanagerControl interface {
 	cdktf.TerraformResource
 	ActionPlanInstructions() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_AuditmanagerControl) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl(scope constructs.Construct, id *string, config *AuditmanagerControlConfig) AuditmanagerControl {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewAuditmanagerControl(scope constructs.Construct, id *string, config *Audi
 	j := jsiiProxy_AuditmanagerControl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewAuditmanagerControl(scope constructs.Construct, id *string, config *Audi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl_Override(a AuditmanagerControl, scope constructs.Construct, id *string, config *AuditmanagerControlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -705,7 +705,7 @@ func AuditmanagerControl_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func AuditmanagerControl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func AuditmanagerControl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func AuditmanagerControl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func AuditmanagerControl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		"tfResourceType",
 		&returns,
 	)

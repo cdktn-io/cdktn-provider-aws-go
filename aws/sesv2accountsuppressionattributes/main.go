@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		reflect.TypeOf((*Sesv2AccountSuppressionAttributes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributesConfig",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributesConfig",
 		reflect.TypeOf((*Sesv2AccountSuppressionAttributesConfig)(nil)).Elem(),
 	)
 }

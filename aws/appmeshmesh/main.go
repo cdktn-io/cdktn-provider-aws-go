@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		reflect.TypeOf((*AppmeshMesh)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,19 +86,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshConfig",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshConfig",
 		reflect.TypeOf((*AppmeshMeshConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpec",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpec",
 		reflect.TypeOf((*AppmeshMeshSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecEgressFilter",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecEgressFilter",
 		reflect.TypeOf((*AppmeshMeshSpecEgressFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecEgressFilterOutputReference",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecEgressFilterOutputReference",
 		reflect.TypeOf((*AppmeshMeshSpecEgressFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
 		reflect.TypeOf((*AppmeshMeshSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecServiceDiscovery",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecServiceDiscovery",
 		reflect.TypeOf((*AppmeshMeshSpecServiceDiscovery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecServiceDiscoveryOutputReference",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecServiceDiscoveryOutputReference",
 		reflect.TypeOf((*AppmeshMeshSpecServiceDiscoveryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

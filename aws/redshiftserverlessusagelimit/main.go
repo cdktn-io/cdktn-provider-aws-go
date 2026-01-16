@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		reflect.TypeOf((*RedshiftserverlessUsageLimit)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimitConfig",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimitConfig",
 		reflect.TypeOf((*RedshiftserverlessUsageLimitConfig)(nil)).Elem(),
 	)
 }

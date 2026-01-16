@@ -5,9 +5,9 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -326,7 +326,7 @@ func NewEcsExpressGatewayServicePrimaryContainerOutputReference(terraformResourc
 	j := jsiiProxy_EcsExpressGatewayServicePrimaryContainerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerOutputReference",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -338,7 +338,7 @@ func NewEcsExpressGatewayServicePrimaryContainerOutputReference_Override(e EcsEx
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerOutputReference",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayServicePrimaryContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

@@ -5,14 +5,14 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume}.
 type FsxOpenzfsVolume interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -727,7 +727,7 @@ func (j *jsiiProxy_FsxOpenzfsVolume) VolumeTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource.
 func NewFsxOpenzfsVolume(scope constructs.Construct, id *string, config *FsxOpenzfsVolumeConfig) FsxOpenzfsVolume {
 	_init_.Initialize()
 
@@ -737,7 +737,7 @@ func NewFsxOpenzfsVolume(scope constructs.Construct, id *string, config *FsxOpen
 	j := jsiiProxy_FsxOpenzfsVolume{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -745,12 +745,12 @@ func NewFsxOpenzfsVolume(scope constructs.Construct, id *string, config *FsxOpen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_volume aws_fsx_openzfs_volume} Resource.
 func NewFsxOpenzfsVolume_Override(f FsxOpenzfsVolume, scope constructs.Construct, id *string, config *FsxOpenzfsVolumeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -988,7 +988,7 @@ func FsxOpenzfsVolume_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1023,7 +1023,7 @@ func FsxOpenzfsVolume_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1042,7 +1042,7 @@ func FsxOpenzfsVolume_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1061,7 +1061,7 @@ func FsxOpenzfsVolume_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1074,7 +1074,7 @@ func FsxOpenzfsVolume_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolume",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsodbcloudexadatainfrastructures
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbcloudexadatainfrastructures/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbcloudexadatainfrastructures/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures}.
 type DataAwsOdbCloudExadataInfrastructures interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures} Data Source.
 func NewDataAwsOdbCloudExadataInfrastructures(scope constructs.Construct, id *string, config *DataAwsOdbCloudExadataInfrastructuresConfig) DataAwsOdbCloudExadataInfrastructures {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsOdbCloudExadataInfrastructures(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAwsOdbCloudExadataInfrastructures{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsOdbCloudExadataInfrastructures(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_exadata_infrastructures aws_odb_cloud_exadata_infrastructures} Data Source.
 func NewDataAwsOdbCloudExadataInfrastructures_Override(d DataAwsOdbCloudExadataInfrastructures, scope constructs.Construct, id *string, config *DataAwsOdbCloudExadataInfrastructuresConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsOdbCloudExadataInfrastructures_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsOdbCloudExadataInfrastructures_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsOdbCloudExadataInfrastructures_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsOdbCloudExadataInfrastructures_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsOdbCloudExadataInfrastructures_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
+		"@cdktn/provider-aws.dataAwsOdbCloudExadataInfrastructures.DataAwsOdbCloudExadataInfrastructures",
 		"tfResourceType",
 		&returns,
 	)

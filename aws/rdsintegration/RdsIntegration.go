@@ -5,14 +5,14 @@ package rdsintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_integration aws_rds_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration}.
 type RdsIntegration interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_RdsIntegration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegrationConfig) RdsIntegration {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegr
 	j := jsiiProxy_RdsIntegration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration_Override(r RdsIntegration, scope constructs.Construct, id *string, config *RdsIntegrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -727,7 +727,7 @@ func RdsIntegration_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func RdsIntegration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func RdsIntegration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func RdsIntegration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func RdsIntegration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsIntegration.RdsIntegration",
+		"@cdktn/provider-aws.rdsIntegration.RdsIntegration",
 		"tfResourceType",
 		&returns,
 	)

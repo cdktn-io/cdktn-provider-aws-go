@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		reflect.TypeOf((*DataAwsAppstreamImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplications",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplications",
 		reflect.TypeOf((*DataAwsAppstreamImageApplications)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3Location",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3Location",
 		reflect.TypeOf((*DataAwsAppstreamImageApplicationsIconS3Location)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3LocationList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3LocationList",
 		reflect.TypeOf((*DataAwsAppstreamImageApplicationsIconS3LocationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3LocationOutputReference",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsIconS3LocationOutputReference",
 		reflect.TypeOf((*DataAwsAppstreamImageApplicationsIconS3LocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsList",
 		reflect.TypeOf((*DataAwsAppstreamImageApplicationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsOutputReference",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageApplicationsOutputReference",
 		reflect.TypeOf((*DataAwsAppstreamImageApplicationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appBlockArn", GoGetter: "AppBlockArn"},
@@ -217,15 +217,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageConfig",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageConfig",
 		reflect.TypeOf((*DataAwsAppstreamImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissions",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissions",
 		reflect.TypeOf((*DataAwsAppstreamImageImagePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissionsList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissionsList",
 		reflect.TypeOf((*DataAwsAppstreamImageImagePermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissionsOutputReference",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageImagePermissionsOutputReference",
 		reflect.TypeOf((*DataAwsAppstreamImageImagePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowFleet", GoGetter: "AllowFleet"},
@@ -280,11 +280,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReason",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReason",
 		reflect.TypeOf((*DataAwsAppstreamImageStateChangeReason)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
 		reflect.TypeOf((*DataAwsAppstreamImageStateChangeReasonList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -305,7 +305,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonOutputReference",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonOutputReference",
 		reflect.TypeOf((*DataAwsAppstreamImageStateChangeReasonOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},

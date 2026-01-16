@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		reflect.TypeOf((*Eip)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eip.EipConfig",
+		"@cdktn/provider-aws.eip.EipConfig",
 		reflect.TypeOf((*EipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eip.EipTimeouts",
+		"@cdktn/provider-aws.eip.EipTimeouts",
 		reflect.TypeOf((*EipTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eip.EipTimeoutsOutputReference",
+		"@cdktn/provider-aws.eip.EipTimeoutsOutputReference",
 		reflect.TypeOf((*EipTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

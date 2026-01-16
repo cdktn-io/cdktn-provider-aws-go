@@ -71,6 +71,10 @@ func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) validateSetPollerGroupNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaEventSourceMappingProvisionedPollerConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

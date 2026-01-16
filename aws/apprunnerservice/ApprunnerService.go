@@ -5,14 +5,14 @@ package apprunnerservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnerservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnerservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_service aws_apprunner_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_service aws_apprunner_service}.
 type ApprunnerService interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_ApprunnerService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_service aws_apprunner_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_service aws_apprunner_service} Resource.
 func NewApprunnerService(scope constructs.Construct, id *string, config *ApprunnerServiceConfig) ApprunnerService {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewApprunnerService(scope constructs.Construct, id *string, config *Apprunn
 	j := jsiiProxy_ApprunnerService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -634,12 +634,12 @@ func NewApprunnerService(scope constructs.Construct, id *string, config *Apprunn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_service aws_apprunner_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_service aws_apprunner_service} Resource.
 func NewApprunnerService_Override(a ApprunnerService, scope constructs.Construct, id *string, config *ApprunnerServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -789,7 +789,7 @@ func ApprunnerService_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -824,7 +824,7 @@ func ApprunnerService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -843,7 +843,7 @@ func ApprunnerService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -862,7 +862,7 @@ func ApprunnerService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func ApprunnerService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apprunnerService.ApprunnerService",
+		"@cdktn/provider-aws.apprunnerService.ApprunnerService",
 		"tfResourceType",
 		&returns,
 	)

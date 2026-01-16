@@ -5,14 +5,14 @@ package dataawsappconfigapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappconfigapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappconfigapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_application aws_appconfig_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_application aws_appconfig_application}.
 type DataAwsAppconfigApplication interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAwsAppconfigApplication) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
 func NewDataAwsAppconfigApplication(scope constructs.Construct, id *string, config *DataAwsAppconfigApplicationConfig) DataAwsAppconfigApplication {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAwsAppconfigApplication(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsAppconfigApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAwsAppconfigApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appconfig_application aws_appconfig_application} Data Source.
 func NewDataAwsAppconfigApplication_Override(d DataAwsAppconfigApplication, scope constructs.Construct, id *string, config *DataAwsAppconfigApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -453,7 +453,7 @@ func DataAwsAppconfigApplication_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataAwsAppconfigApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataAwsAppconfigApplication_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAwsAppconfigApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsAppconfigApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
+		"@cdktn/provider-aws.dataAwsAppconfigApplication.DataAwsAppconfigApplication",
 		"tfResourceType",
 		&returns,
 	)

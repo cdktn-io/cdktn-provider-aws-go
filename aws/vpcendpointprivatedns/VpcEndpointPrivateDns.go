@@ -5,14 +5,14 @@ package vpcendpointprivatedns
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointprivatedns/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointprivatedns/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
 type VpcEndpointPrivateDns interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_VpcEndpointPrivateDns) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) VpcEndpointPrivateDns {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *Vp
 	j := jsiiProxy_VpcEndpointPrivateDns{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *Vp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns_Override(v VpcEndpointPrivateDns, scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -496,7 +496,7 @@ func VpcEndpointPrivateDns_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func VpcEndpointPrivateDns_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func VpcEndpointPrivateDns_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func VpcEndpointPrivateDns_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func VpcEndpointPrivateDns_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		"tfResourceType",
 		&returns,
 	)

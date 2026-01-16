@@ -5,9 +5,9 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -46,6 +46,9 @@ type EksNodeGroupUpdateConfigOutputReference interface {
 	TerraformResource() cdktf.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktf.IInterpolatingParent)
+	UpdateStrategy() *string
+	SetUpdateStrategy(val *string)
+	UpdateStrategyInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type EksNodeGroupUpdateConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetMaxUnavailable()
 	ResetMaxUnavailablePercentage()
+	ResetUpdateStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) TerraformResource() 
 	return returns
 }
 
+func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) UpdateStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) UpdateStrategyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateStrategyInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewEksNodeGroupUpdateConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EksNodeGroupUpdateConfigOutputReference {
 	_init_.Initialize()
@@ -207,7 +231,7 @@ func NewEksNodeGroupUpdateConfigOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EksNodeGroupUpdateConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupUpdateConfigOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupUpdateConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +243,7 @@ func NewEksNodeGroupUpdateConfigOutputReference_Override(e EksNodeGroupUpdateCon
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupUpdateConfigOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupUpdateConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)
@@ -298,6 +322,17 @@ func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference)SetTerraformResource(
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksNodeGroupUpdateConfigOutputReference)SetUpdateStrategy(val *string) {
+	if err := j.validateSetUpdateStrategyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"updateStrategy",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (e *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) ResetMaxUnavailableP
 	_jsii_.InvokeVoid(
 		e,
 		"resetMaxUnavailablePercentage",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksNodeGroupUpdateConfigOutputReference) ResetUpdateStrategy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetUpdateStrategy",
 		nil, // no parameters
 	)
 }

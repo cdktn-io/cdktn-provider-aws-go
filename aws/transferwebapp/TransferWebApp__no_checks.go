@@ -75,6 +75,10 @@ func (t *jsiiProxy_TransferWebApp) validateOverrideLogicalIdParameters(newLogica
 	return nil
 }
 
+func (t *jsiiProxy_TransferWebApp) validatePutEndpointDetailsParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferWebApp) validatePutIdentityProviderDetailsParameters(value interface{}) error {
 	return nil
 }

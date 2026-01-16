@@ -5,9 +5,9 @@ package dataawsappmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference(terr
 	j := jsiiProxy_DataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference",
+		"@cdktn/provider-aws.dataAwsAppmeshRoute.DataAwsAppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

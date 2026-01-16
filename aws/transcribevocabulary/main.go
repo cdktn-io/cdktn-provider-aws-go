@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabulary",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabulary",
 		reflect.TypeOf((*TranscribeVocabulary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabularyConfig",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabularyConfig",
 		reflect.TypeOf((*TranscribeVocabularyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabularyTimeouts",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabularyTimeouts",
 		reflect.TypeOf((*TranscribeVocabularyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeVocabulary.TranscribeVocabularyTimeoutsOutputReference",
+		"@cdktn/provider-aws.transcribeVocabulary.TranscribeVocabularyTimeoutsOutputReference",
 		reflect.TypeOf((*TranscribeVocabularyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

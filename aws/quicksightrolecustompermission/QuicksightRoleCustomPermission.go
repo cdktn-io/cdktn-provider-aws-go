@@ -5,14 +5,14 @@ package quicksightrolecustompermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightrolecustompermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightrolecustompermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission}.
 type QuicksightRoleCustomPermission interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_QuicksightRoleCustomPermission) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission} Resource.
 func NewQuicksightRoleCustomPermission(scope constructs.Construct, id *string, config *QuicksightRoleCustomPermissionConfig) QuicksightRoleCustomPermission {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewQuicksightRoleCustomPermission(scope constructs.Construct, id *string, c
 	j := jsiiProxy_QuicksightRoleCustomPermission{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewQuicksightRoleCustomPermission(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_role_custom_permission aws_quicksight_role_custom_permission} Resource.
 func NewQuicksightRoleCustomPermission_Override(q QuicksightRoleCustomPermission, scope constructs.Construct, id *string, config *QuicksightRoleCustomPermissionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -566,7 +566,7 @@ func QuicksightRoleCustomPermission_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func QuicksightRoleCustomPermission_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func QuicksightRoleCustomPermission_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func QuicksightRoleCustomPermission_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func QuicksightRoleCustomPermission_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
+		"@cdktn/provider-aws.quicksightRoleCustomPermission.QuicksightRoleCustomPermission",
 		"tfResourceType",
 		&returns,
 	)

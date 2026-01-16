@@ -5,9 +5,9 @@ package imagebuilderinfrastructureconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderinfrastructureconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderinfrastructureconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference(terr
 	j := jsiiProxy_ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderInfrastructureConfiguration.ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference",
+		"@cdktn/provider-aws.imagebuilderInfrastructureConfiguration.ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderInfrastructureConfiguration.ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference",
+		"@cdktn/provider-aws.imagebuilderInfrastructureConfiguration.ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

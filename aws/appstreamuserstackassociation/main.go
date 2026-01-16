@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		reflect.TypeOf((*AppstreamUserStackAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociationConfig",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociationConfig",
 		reflect.TypeOf((*AppstreamUserStackAssociationConfig)(nil)).Elem(),
 	)
 }

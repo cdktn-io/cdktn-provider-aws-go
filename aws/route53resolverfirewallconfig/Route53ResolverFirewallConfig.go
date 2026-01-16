@@ -5,14 +5,14 @@ package route53resolverfirewallconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverfirewallconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverfirewallconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config}.
 type Route53ResolverFirewallConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -392,7 +392,7 @@ func (j *jsiiProxy_Route53ResolverFirewallConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config} Resource.
 func NewRoute53ResolverFirewallConfig(scope constructs.Construct, id *string, config *Route53ResolverFirewallConfigConfig) Route53ResolverFirewallConfig {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewRoute53ResolverFirewallConfig(scope constructs.Construct, id *string, co
 	j := jsiiProxy_Route53ResolverFirewallConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewRoute53ResolverFirewallConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_config aws_route53_resolver_firewall_config} Resource.
 func NewRoute53ResolverFirewallConfig_Override(r Route53ResolverFirewallConfig, scope constructs.Construct, id *string, config *Route53ResolverFirewallConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -543,7 +543,7 @@ func Route53ResolverFirewallConfig_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func Route53ResolverFirewallConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func Route53ResolverFirewallConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func Route53ResolverFirewallConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func Route53ResolverFirewallConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
+		"@cdktn/provider-aws.route53ResolverFirewallConfig.Route53ResolverFirewallConfig",
 		"tfResourceType",
 		&returns,
 	)

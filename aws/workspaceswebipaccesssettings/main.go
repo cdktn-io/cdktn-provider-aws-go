@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettings",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettings",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsConfig",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsConfig",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRule",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRuleList",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRuleList",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRuleOutputReference",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettings.WorkspaceswebIpAccessSettingsIpRuleOutputReference",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

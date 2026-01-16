@@ -5,14 +5,14 @@ package vpcipampoolcidrallocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipampoolcidrallocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipampoolcidrallocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation}.
 type VpcIpamPoolCidrAllocation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
 func NewVpcIpamPoolCidrAllocation(scope constructs.Construct, id *string, config *VpcIpamPoolCidrAllocationConfig) VpcIpamPoolCidrAllocation {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewVpcIpamPoolCidrAllocation(scope constructs.Construct, id *string, config
 	j := jsiiProxy_VpcIpamPoolCidrAllocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewVpcIpamPoolCidrAllocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
 func NewVpcIpamPoolCidrAllocation_Override(v VpcIpamPoolCidrAllocation, scope constructs.Construct, id *string, config *VpcIpamPoolCidrAllocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -681,7 +681,7 @@ func VpcIpamPoolCidrAllocation_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func VpcIpamPoolCidrAllocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func VpcIpamPoolCidrAllocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func VpcIpamPoolCidrAllocation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func VpcIpamPoolCidrAllocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
+		"@cdktn/provider-aws.vpcIpamPoolCidrAllocation.VpcIpamPoolCidrAllocation",
 		"tfResourceType",
 		&returns,
 	)

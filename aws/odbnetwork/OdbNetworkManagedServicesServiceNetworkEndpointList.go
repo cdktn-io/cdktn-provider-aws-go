@@ -5,9 +5,9 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewOdbNetworkManagedServicesServiceNetworkEndpointList(terraformResource cd
 	j := jsiiProxy_OdbNetworkManagedServicesServiceNetworkEndpointList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewOdbNetworkManagedServicesServiceNetworkEndpointList_Override(o OdbNetwor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesServiceNetworkEndpointList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

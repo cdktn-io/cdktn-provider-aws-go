@@ -5,14 +5,14 @@ package evidentlyproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_project aws_evidently_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_project aws_evidently_project}.
 type EvidentlyProject interface {
 	cdktf.TerraformResource
 	ActiveExperimentCount() *float64
@@ -576,7 +576,7 @@ func (j *jsiiProxy_EvidentlyProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_project aws_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_project aws_evidently_project} Resource.
 func NewEvidentlyProject(scope constructs.Construct, id *string, config *EvidentlyProjectConfig) EvidentlyProject {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewEvidentlyProject(scope constructs.Construct, id *string, config *Evident
 	j := jsiiProxy_EvidentlyProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,12 +594,12 @@ func NewEvidentlyProject(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/evidently_project aws_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/evidently_project aws_evidently_project} Resource.
 func NewEvidentlyProject_Override(e EvidentlyProject, scope constructs.Construct, id *string, config *EvidentlyProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -749,7 +749,7 @@ func EvidentlyProject_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -784,7 +784,7 @@ func EvidentlyProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func EvidentlyProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +822,7 @@ func EvidentlyProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func EvidentlyProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProject",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProject",
 		"tfResourceType",
 		&returns,
 	)

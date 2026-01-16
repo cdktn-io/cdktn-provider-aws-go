@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		reflect.TypeOf((*ConnectContactFlowModule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModuleConfig",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModuleConfig",
 		reflect.TypeOf((*ConnectContactFlowModuleConfig)(nil)).Elem(),
 	)
 }

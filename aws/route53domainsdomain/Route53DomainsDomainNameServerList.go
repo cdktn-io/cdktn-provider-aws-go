@@ -5,9 +5,9 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRoute53DomainsDomainNameServerList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_Route53DomainsDomainNameServerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainNameServerList",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainNameServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRoute53DomainsDomainNameServerList_Override(r Route53DomainsDomainNameSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainNameServerList",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainNameServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

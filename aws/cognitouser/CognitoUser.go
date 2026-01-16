@@ -5,14 +5,14 @@ package cognitouser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user aws_cognito_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user aws_cognito_user}.
 type CognitoUser interface {
 	cdktf.TerraformResource
 	Attributes() *map[string]*string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_CognitoUser) ValidationDataInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user aws_cognito_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user aws_cognito_user} Resource.
 func NewCognitoUser(scope constructs.Construct, id *string, config *CognitoUserConfig) CognitoUser {
 	_init_.Initialize()
 
@@ -672,7 +672,7 @@ func NewCognitoUser(scope constructs.Construct, id *string, config *CognitoUserC
 	j := jsiiProxy_CognitoUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -680,12 +680,12 @@ func NewCognitoUser(scope constructs.Construct, id *string, config *CognitoUserC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user aws_cognito_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user aws_cognito_user} Resource.
 func NewCognitoUser_Override(c CognitoUser, scope constructs.Construct, id *string, config *CognitoUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -912,7 +912,7 @@ func CognitoUser_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -947,7 +947,7 @@ func CognitoUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -966,7 +966,7 @@ func CognitoUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -985,7 +985,7 @@ func CognitoUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -998,7 +998,7 @@ func CognitoUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUser.CognitoUser",
+		"@cdktn/provider-aws.cognitoUser.CognitoUser",
 		"tfResourceType",
 		&returns,
 	)

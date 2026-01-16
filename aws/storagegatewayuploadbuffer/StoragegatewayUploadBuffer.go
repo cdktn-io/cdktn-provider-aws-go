@@ -5,14 +5,14 @@ package storagegatewayuploadbuffer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewayuploadbuffer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewayuploadbuffer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer}.
 type StoragegatewayUploadBuffer interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_StoragegatewayUploadBuffer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) StoragegatewayUploadBuffer {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_StoragegatewayUploadBuffer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewStoragegatewayUploadBuffer(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/storagegateway_upload_buffer aws_storagegateway_upload_buffer} Resource.
 func NewStoragegatewayUploadBuffer_Override(s StoragegatewayUploadBuffer, scope constructs.Construct, id *string, config *StoragegatewayUploadBufferConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -567,7 +567,7 @@ func StoragegatewayUploadBuffer_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func StoragegatewayUploadBuffer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func StoragegatewayUploadBuffer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func StoragegatewayUploadBuffer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func StoragegatewayUploadBuffer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
+		"@cdktn/provider-aws.storagegatewayUploadBuffer.StoragegatewayUploadBuffer",
 		"tfResourceType",
 		&returns,
 	)

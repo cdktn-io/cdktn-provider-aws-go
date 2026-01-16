@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKey",
 		reflect.TypeOf((*ApiGatewayUsagePlanKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKeyConfig",
+		"@cdktn/provider-aws.apiGatewayUsagePlanKey.ApiGatewayUsagePlanKeyConfig",
 		reflect.TypeOf((*ApiGatewayUsagePlanKeyConfig)(nil)).Elem(),
 	)
 }

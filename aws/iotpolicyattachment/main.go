@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachment",
 		reflect.TypeOf((*IotPolicyAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotPolicyAttachment.IotPolicyAttachmentConfig",
+		"@cdktn/provider-aws.iotPolicyAttachment.IotPolicyAttachmentConfig",
 		reflect.TypeOf((*IotPolicyAttachmentConfig)(nil)).Elem(),
 	)
 }

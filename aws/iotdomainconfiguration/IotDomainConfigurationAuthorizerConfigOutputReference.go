@@ -5,9 +5,9 @@ package iotdomainconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotdomainconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotdomainconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewIotDomainConfigurationAuthorizerConfigOutputReference(terraformResource 
 	j := jsiiProxy_IotDomainConfigurationAuthorizerConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewIotDomainConfigurationAuthorizerConfigOutputReference_Override(i IotDoma
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

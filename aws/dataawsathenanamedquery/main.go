@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		reflect.TypeOf((*DataAwsAthenaNamedQuery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQueryConfig",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQueryConfig",
 		reflect.TypeOf((*DataAwsAthenaNamedQueryConfig)(nil)).Elem(),
 	)
 }

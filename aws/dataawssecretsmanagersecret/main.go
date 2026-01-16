@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecret.DataAwsSecretsmanagerSecret",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecret.DataAwsSecretsmanagerSecret",
 		reflect.TypeOf((*DataAwsSecretsmanagerSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecret.DataAwsSecretsmanagerSecretConfig",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecret.DataAwsSecretsmanagerSecretConfig",
 		reflect.TypeOf((*DataAwsSecretsmanagerSecretConfig)(nil)).Elem(),
 	)
 }

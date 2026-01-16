@@ -5,14 +5,14 @@ package quicksighttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template aws_quicksight_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template aws_quicksight_template}.
 type QuicksightTemplate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_QuicksightTemplate) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate(scope constructs.Construct, id *string, config *QuicksightTemplateConfig) QuicksightTemplate {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewQuicksightTemplate(scope constructs.Construct, id *string, config *Quick
 	j := jsiiProxy_QuicksightTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -655,12 +655,12 @@ func NewQuicksightTemplate(scope constructs.Construct, id *string, config *Quick
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate_Override(q QuicksightTemplate, scope constructs.Construct, id *string, config *QuicksightTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -843,7 +843,7 @@ func QuicksightTemplate_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func QuicksightTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func QuicksightTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func QuicksightTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func QuicksightTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		"tfResourceType",
 		&returns,
 	)

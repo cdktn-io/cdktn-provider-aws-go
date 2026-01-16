@@ -5,14 +5,14 @@ package dynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbglobaltable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table}.
 type DynamodbGlobalTable interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DynamodbGlobalTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) DynamodbGlobalTable {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *Dyna
 	j := jsiiProxy_DynamodbGlobalTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *Dyna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable_Override(d DynamodbGlobalTable, scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -555,7 +555,7 @@ func DynamodbGlobalTable_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func DynamodbGlobalTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func DynamodbGlobalTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DynamodbGlobalTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func DynamodbGlobalTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package dataawscustomergateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscustomergateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscustomergateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsCustomerGatewayFilterOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsCustomerGatewayFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsCustomerGatewayFilterOutputReference_Override(d DataAwsCustomerGa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsCustomerGateway.DataAwsCustomerGatewayFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2Account.Macie2Account",
+		"@cdktn/provider-aws.macie2Account.Macie2Account",
 		reflect.TypeOf((*Macie2Account)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2Account.Macie2AccountConfig",
+		"@cdktn/provider-aws.macie2Account.Macie2AccountConfig",
 		reflect.TypeOf((*Macie2AccountConfig)(nil)).Elem(),
 	)
 }

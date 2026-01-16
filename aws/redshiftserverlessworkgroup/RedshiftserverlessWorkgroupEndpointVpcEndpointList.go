@@ -5,9 +5,9 @@ package redshiftserverlessworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlessworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlessworkgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewRedshiftserverlessWorkgroupEndpointVpcEndpointList(terraformResource cdk
 	j := jsiiProxy_RedshiftserverlessWorkgroupEndpointVpcEndpointList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupEndpointVpcEndpointList",
+		"@cdktn/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupEndpointVpcEndpointList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewRedshiftserverlessWorkgroupEndpointVpcEndpointList_Override(r Redshiftse
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupEndpointVpcEndpointList",
+		"@cdktn/provider-aws.redshiftserverlessWorkgroup.RedshiftserverlessWorkgroupEndpointVpcEndpointList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

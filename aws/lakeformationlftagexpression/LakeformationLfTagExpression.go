@@ -5,14 +5,14 @@ package lakeformationlftagexpression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationlftagexpression/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationlftagexpression/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
 type LakeformationLfTagExpression interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_LakeformationLfTagExpression) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) LakeformationLfTagExpression {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, con
 	j := jsiiProxy_LakeformationLfTagExpression{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression_Override(l LakeformationLfTagExpression, scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -556,7 +556,7 @@ func LakeformationLfTagExpression_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func LakeformationLfTagExpression_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func LakeformationLfTagExpression_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func LakeformationLfTagExpression_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func LakeformationLfTagExpression_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		"tfResourceType",
 		&returns,
 	)

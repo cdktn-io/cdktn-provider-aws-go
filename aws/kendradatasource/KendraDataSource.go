@@ -5,14 +5,14 @@ package kendradatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendradatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendradatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kendra_data_source aws_kendra_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kendra_data_source aws_kendra_data_source}.
 type KendraDataSource interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -685,7 +685,7 @@ func (j *jsiiProxy_KendraDataSource) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
 func NewKendraDataSource(scope constructs.Construct, id *string, config *KendraDataSourceConfig) KendraDataSource {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewKendraDataSource(scope constructs.Construct, id *string, config *KendraD
 	j := jsiiProxy_KendraDataSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -703,12 +703,12 @@ func NewKendraDataSource(scope constructs.Construct, id *string, config *KendraD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kendra_data_source aws_kendra_data_source} Resource.
 func NewKendraDataSource_Override(k KendraDataSource, scope constructs.Construct, id *string, config *KendraDataSourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -913,7 +913,7 @@ func KendraDataSource_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -948,7 +948,7 @@ func KendraDataSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -967,7 +967,7 @@ func KendraDataSource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -986,7 +986,7 @@ func KendraDataSource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func KendraDataSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSource",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSource",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogAccountPolicy.CloudwatchLogAccountPolicy",
+		"@cdktn/provider-aws.cloudwatchLogAccountPolicy.CloudwatchLogAccountPolicy",
 		reflect.TypeOf((*CloudwatchLogAccountPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogAccountPolicy.CloudwatchLogAccountPolicyConfig",
+		"@cdktn/provider-aws.cloudwatchLogAccountPolicy.CloudwatchLogAccountPolicyConfig",
 		reflect.TypeOf((*CloudwatchLogAccountPolicyConfig)(nil)).Elem(),
 	)
 }

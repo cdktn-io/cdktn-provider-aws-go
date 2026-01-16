@@ -5,14 +5,14 @@ package backupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault aws_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault aws_backup_vault}.
 type BackupVault interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -499,7 +499,7 @@ func (j *jsiiProxy_BackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault aws_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault aws_backup_vault} Resource.
 func NewBackupVault(scope constructs.Construct, id *string, config *BackupVaultConfig) BackupVault {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewBackupVault(scope constructs.Construct, id *string, config *BackupVaultC
 	j := jsiiProxy_BackupVault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewBackupVault(scope constructs.Construct, id *string, config *BackupVaultC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault aws_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault aws_backup_vault} Resource.
 func NewBackupVault_Override(b BackupVault, scope constructs.Construct, id *string, config *BackupVaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -683,7 +683,7 @@ func BackupVault_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func BackupVault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func BackupVault_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func BackupVault_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func BackupVault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.backupVault.BackupVault",
+		"@cdktn/provider-aws.backupVault.BackupVault",
 		"tfResourceType",
 		&returns,
 	)

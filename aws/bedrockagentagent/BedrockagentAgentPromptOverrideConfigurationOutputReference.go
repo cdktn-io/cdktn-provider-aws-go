@@ -5,9 +5,9 @@ package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewBedrockagentAgentPromptOverrideConfigurationOutputReference(terraformRes
 	j := jsiiProxy_BedrockagentAgentPromptOverrideConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewBedrockagentAgentPromptOverrideConfigurationOutputReference_Override(b B
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

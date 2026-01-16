@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmb",
 		reflect.TypeOf((*DatasyncLocationSmb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmbConfig",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmbConfig",
 		reflect.TypeOf((*DatasyncLocationSmbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmbMountOptions",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmbMountOptions",
 		reflect.TypeOf((*DatasyncLocationSmbMountOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationSmb.DatasyncLocationSmbMountOptionsOutputReference",
+		"@cdktn/provider-aws.datasyncLocationSmb.DatasyncLocationSmbMountOptionsOutputReference",
 		reflect.TypeOf((*DatasyncLocationSmbMountOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -139,6 +139,10 @@ func (j *jsiiProxy_Route53ResolverEndpoint) validateSetResolverEndpointTypeParam
 	return nil
 }
 
+func (j *jsiiProxy_Route53ResolverEndpoint) validateSetRniEnhancedMetricsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_Route53ResolverEndpoint) validateSetSecurityGroupIdsParameters(val *[]*string) error {
 	return nil
 }
@@ -148,6 +152,10 @@ func (j *jsiiProxy_Route53ResolverEndpoint) validateSetTagsParameters(val *map[s
 }
 
 func (j *jsiiProxy_Route53ResolverEndpoint) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Route53ResolverEndpoint) validateSetTargetNameServerMetricsEnabledParameters(val interface{}) error {
 	return nil
 }
 

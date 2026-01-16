@@ -5,14 +5,14 @@ package wafregionalregexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalregexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalregexpatternset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set}.
 type WafregionalRegexPatternSet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WafregionalRegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
 func NewWafregionalRegexPatternSet(scope constructs.Construct, id *string, config *WafregionalRegexPatternSetConfig) WafregionalRegexPatternSet {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewWafregionalRegexPatternSet(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_WafregionalRegexPatternSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewWafregionalRegexPatternSet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
 func NewWafregionalRegexPatternSet_Override(w WafregionalRegexPatternSet, scope constructs.Construct, id *string, config *WafregionalRegexPatternSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -532,7 +532,7 @@ func WafregionalRegexPatternSet_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func WafregionalRegexPatternSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func WafregionalRegexPatternSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func WafregionalRegexPatternSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func WafregionalRegexPatternSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		"tfResourceType",
 		&returns,
 	)

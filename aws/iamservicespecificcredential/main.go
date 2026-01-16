@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamServiceSpecificCredential.IamServiceSpecificCredential",
+		"@cdktn/provider-aws.iamServiceSpecificCredential.IamServiceSpecificCredential",
 		reflect.TypeOf((*IamServiceSpecificCredential)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamServiceSpecificCredential.IamServiceSpecificCredentialConfig",
+		"@cdktn/provider-aws.iamServiceSpecificCredential.IamServiceSpecificCredentialConfig",
 		reflect.TypeOf((*IamServiceSpecificCredentialConfig)(nil)).Elem(),
 	)
 }

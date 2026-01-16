@@ -5,9 +5,9 @@ package dataawsbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsBackupPlanRuleCopyActionList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsBackupPlanRuleCopyActionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsBackupPlanRuleCopyActionList_Override(d DataAwsBackupPlanRuleCopy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

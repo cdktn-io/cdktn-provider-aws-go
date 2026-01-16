@@ -5,9 +5,9 @@ package cognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewCognitoUserPoolSmsConfigurationOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_CognitoUserPoolSmsConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolSmsConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolSmsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewCognitoUserPoolSmsConfigurationOutputReference_Override(c CognitoUserPoo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolSmsConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolSmsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

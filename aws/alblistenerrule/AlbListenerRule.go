@@ -5,14 +5,14 @@ package alblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_rule aws_alb_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule aws_alb_listener_rule}.
 type AlbListenerRule interface {
 	cdktf.TerraformResource
 	Action() AlbListenerRuleActionList
@@ -510,7 +510,7 @@ func (j *jsiiProxy_AlbListenerRule) TransformInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
 func NewAlbListenerRule(scope constructs.Construct, id *string, config *AlbListenerRuleConfig) AlbListenerRule {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewAlbListenerRule(scope constructs.Construct, id *string, config *AlbListe
 	j := jsiiProxy_AlbListenerRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewAlbListenerRule(scope constructs.Construct, id *string, config *AlbListe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule aws_alb_listener_rule} Resource.
 func NewAlbListenerRule_Override(a AlbListenerRule, scope constructs.Construct, id *string, config *AlbListenerRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -683,7 +683,7 @@ func AlbListenerRule_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func AlbListenerRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func AlbListenerRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func AlbListenerRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func AlbListenerRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRule",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRule",
 		"tfResourceType",
 		&returns,
 	)

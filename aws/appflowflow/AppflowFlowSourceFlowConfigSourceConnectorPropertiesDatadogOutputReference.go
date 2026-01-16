@@ -5,9 +5,9 @@ package appflowflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appflowflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appflowflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReferen
 	j := jsiiProxy_AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference",
+		"@cdktn/provider-aws.appflowFlow.AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

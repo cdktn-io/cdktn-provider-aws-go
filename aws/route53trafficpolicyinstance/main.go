@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		reflect.TypeOf((*Route53TrafficPolicyInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstanceConfig",
 		reflect.TypeOf((*Route53TrafficPolicyInstanceConfig)(nil)).Elem(),
 	)
 }

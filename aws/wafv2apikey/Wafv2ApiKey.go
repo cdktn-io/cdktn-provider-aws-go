@@ -5,14 +5,14 @@ package wafv2apikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2apikey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2apikey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_api_key aws_wafv2_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_api_key aws_wafv2_api_key}.
 type Wafv2ApiKey interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_Wafv2ApiKey) TokenDomainsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
 func NewWafv2ApiKey(scope constructs.Construct, id *string, config *Wafv2ApiKeyConfig) Wafv2ApiKey {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewWafv2ApiKey(scope constructs.Construct, id *string, config *Wafv2ApiKeyC
 	j := jsiiProxy_Wafv2ApiKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewWafv2ApiKey(scope constructs.Construct, id *string, config *Wafv2ApiKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
 func NewWafv2ApiKey_Override(w Wafv2ApiKey, scope constructs.Construct, id *string, config *Wafv2ApiKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -507,7 +507,7 @@ func Wafv2ApiKey_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func Wafv2ApiKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func Wafv2ApiKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func Wafv2ApiKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func Wafv2ApiKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		"tfResourceType",
 		&returns,
 	)

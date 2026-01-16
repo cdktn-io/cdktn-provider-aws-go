@@ -5,9 +5,9 @@ package launchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewLaunchConfigurationRootBlockDeviceOutputReference(terraformResource cdkt
 	j := jsiiProxy_LaunchConfigurationRootBlockDeviceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationRootBlockDeviceOutputReference",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationRootBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewLaunchConfigurationRootBlockDeviceOutputReference_Override(l LaunchConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationRootBlockDeviceOutputReference",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationRootBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

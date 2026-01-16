@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificate",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificate",
 		reflect.TypeOf((*AlbListenerCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.albListenerCertificate.AlbListenerCertificateConfig",
+		"@cdktn/provider-aws.albListenerCertificate.AlbListenerCertificateConfig",
 		reflect.TypeOf((*AlbListenerCertificateConfig)(nil)).Elem(),
 	)
 }

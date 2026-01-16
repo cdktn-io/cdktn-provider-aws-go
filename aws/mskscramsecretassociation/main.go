@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskScramSecretAssociation.MskScramSecretAssociation",
+		"@cdktn/provider-aws.mskScramSecretAssociation.MskScramSecretAssociation",
 		reflect.TypeOf((*MskScramSecretAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskScramSecretAssociation.MskScramSecretAssociationConfig",
+		"@cdktn/provider-aws.mskScramSecretAssociation.MskScramSecretAssociationConfig",
 		reflect.TypeOf((*MskScramSecretAssociationConfig)(nil)).Elem(),
 	)
 }

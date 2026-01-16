@@ -5,9 +5,9 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewWafv2WebAclRuleRuleLabelOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_Wafv2WebAclRuleRuleLabelOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclRuleRuleLabelOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclRuleRuleLabelOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewWafv2WebAclRuleRuleLabelOutputReference_Override(w Wafv2WebAclRuleRuleLa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclRuleRuleLabelOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclRuleRuleLabelOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

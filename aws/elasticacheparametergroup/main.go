@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroup",
+		"@cdktn/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroup",
 		reflect.TypeOf((*ElasticacheParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupConfig",
+		"@cdktn/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupConfig",
 		reflect.TypeOf((*ElasticacheParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameter",
+		"@cdktn/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameter",
 		reflect.TypeOf((*ElasticacheParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameterList",
+		"@cdktn/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameterList",
 		reflect.TypeOf((*ElasticacheParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.elasticacheParameterGroup.ElasticacheParameterGroupParameterOutputReference",
 		reflect.TypeOf((*ElasticacheParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

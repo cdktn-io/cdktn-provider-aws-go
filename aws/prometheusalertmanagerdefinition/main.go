@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinition",
 		reflect.TypeOf((*PrometheusAlertManagerDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinitionConfig",
+		"@cdktn/provider-aws.prometheusAlertManagerDefinition.PrometheusAlertManagerDefinitionConfig",
 		reflect.TypeOf((*PrometheusAlertManagerDefinitionConfig)(nil)).Elem(),
 	)
 }

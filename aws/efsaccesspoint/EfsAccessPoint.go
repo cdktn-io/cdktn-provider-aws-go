@@ -5,14 +5,14 @@ package efsaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsaccesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_access_point aws_efs_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_access_point aws_efs_access_point}.
 type EfsAccessPoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_EfsAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_access_point aws_efs_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_access_point aws_efs_access_point} Resource.
 func NewEfsAccessPoint(scope constructs.Construct, id *string, config *EfsAccessPointConfig) EfsAccessPoint {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewEfsAccessPoint(scope constructs.Construct, id *string, config *EfsAccess
 	j := jsiiProxy_EfsAccessPoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewEfsAccessPoint(scope constructs.Construct, id *string, config *EfsAccess
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_access_point aws_efs_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_access_point aws_efs_access_point} Resource.
 func NewEfsAccessPoint_Override(e EfsAccessPoint, scope constructs.Construct, id *string, config *EfsAccessPointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -648,7 +648,7 @@ func EfsAccessPoint_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func EfsAccessPoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func EfsAccessPoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func EfsAccessPoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func EfsAccessPoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		"tfResourceType",
 		&returns,
 	)

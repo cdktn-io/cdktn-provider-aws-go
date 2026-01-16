@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsClusters.DataAwsRdsClusters",
+		"@cdktn/provider-aws.dataAwsRdsClusters.DataAwsRdsClusters",
 		reflect.TypeOf((*DataAwsRdsClusters)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersConfig",
+		"@cdktn/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersConfig",
 		reflect.TypeOf((*DataAwsRdsClustersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilter",
+		"@cdktn/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilter",
 		reflect.TypeOf((*DataAwsRdsClustersFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilterList",
+		"@cdktn/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilterList",
 		reflect.TypeOf((*DataAwsRdsClustersFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRdsClusters.DataAwsRdsClustersFilterOutputReference",
 		reflect.TypeOf((*DataAwsRdsClustersFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

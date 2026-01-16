@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotation",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotation",
 		reflect.TypeOf((*SecretsmanagerSecretRotation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationConfig",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationConfig",
 		reflect.TypeOf((*SecretsmanagerSecretRotationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRules",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRules",
 		reflect.TypeOf((*SecretsmanagerSecretRotationRotationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
 		reflect.TypeOf((*SecretsmanagerSecretRotationRotationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automaticallyAfterDays", GoGetter: "AutomaticallyAfterDays"},

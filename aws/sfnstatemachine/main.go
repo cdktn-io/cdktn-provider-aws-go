@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		reflect.TypeOf((*SfnStateMachine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,15 +114,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineConfig",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineConfig",
 		reflect.TypeOf((*SfnStateMachineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineEncryptionConfiguration",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineEncryptionConfiguration",
 		reflect.TypeOf((*SfnStateMachineEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*SfnStateMachineEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineLoggingConfiguration",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineLoggingConfiguration",
 		reflect.TypeOf((*SfnStateMachineLoggingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineLoggingConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineLoggingConfigurationOutputReference",
 		reflect.TypeOf((*SfnStateMachineLoggingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineTimeouts",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineTimeouts",
 		reflect.TypeOf((*SfnStateMachineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineTimeoutsOutputReference",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineTimeoutsOutputReference",
 		reflect.TypeOf((*SfnStateMachineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineTracingConfiguration",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineTracingConfiguration",
 		reflect.TypeOf((*SfnStateMachineTracingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachineTracingConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachineTracingConfigurationOutputReference",
 		reflect.TypeOf((*SfnStateMachineTracingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

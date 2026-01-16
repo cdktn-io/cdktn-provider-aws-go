@@ -123,6 +123,14 @@ func (j *jsiiProxy_DxGateway) validateSetProvisionersParameters(val *[]interface
 	return nil
 }
 
+func (j *jsiiProxy_DxGateway) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxGateway) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewDxGatewayParameters(scope constructs.Construct, id *string, config *DxGatewayConfig) error {
 	return nil
 }

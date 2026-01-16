@@ -5,14 +5,14 @@ package dataawsssmpatchbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmpatchbaseline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmpatchbaseline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline}.
 type DataAwsSsmPatchBaseline interface {
 	cdktf.TerraformDataSource
 	ApprovalRule() DataAwsSsmPatchBaselineApprovalRuleList
@@ -516,7 +516,7 @@ func (j *jsiiProxy_DataAwsSsmPatchBaseline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
 func NewDataAwsSsmPatchBaseline(scope constructs.Construct, id *string, config *DataAwsSsmPatchBaselineConfig) DataAwsSsmPatchBaseline {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewDataAwsSsmPatchBaseline(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsSsmPatchBaseline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -534,12 +534,12 @@ func NewDataAwsSsmPatchBaseline(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_patch_baseline aws_ssm_patch_baseline} Data Source.
 func NewDataAwsSsmPatchBaseline_Override(d DataAwsSsmPatchBaseline, scope constructs.Construct, id *string, config *DataAwsSsmPatchBaselineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -667,7 +667,7 @@ func DataAwsSsmPatchBaseline_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -702,7 +702,7 @@ func DataAwsSsmPatchBaseline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func DataAwsSsmPatchBaseline_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func DataAwsSsmPatchBaseline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func DataAwsSsmPatchBaseline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
+		"@cdktn/provider-aws.dataAwsSsmPatchBaseline.DataAwsSsmPatchBaseline",
 		"tfResourceType",
 		&returns,
 	)

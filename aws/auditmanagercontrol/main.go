@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControl",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControl",
 		reflect.TypeOf((*AuditmanagerControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionPlanInstructions", GoGetter: "ActionPlanInstructions"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlConfig",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlConfig",
 		reflect.TypeOf((*AuditmanagerControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSources",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSources",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesList",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesList",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesOutputReference",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesOutputReference",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeyword",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSourcesSourceKeyword)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordList",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSourcesSourceKeywordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,7 +199,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordOutputReference",
+		"@cdktn/provider-aws.auditmanagerControl.AuditmanagerControlControlMappingSourcesSourceKeywordOutputReference",
 		reflect.TypeOf((*AuditmanagerControlControlMappingSourcesSourceKeywordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		reflect.TypeOf((*ConnectHoursOfOperation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfig",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfig",
 		reflect.TypeOf((*ConnectHoursOfOperationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigA",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAList",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAList",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigAList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigAOutputReference",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTime",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigEndTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTimeOutputReference",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigEndTimeOutputReference",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigEndTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTime",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigStartTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTimeOutputReference",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperationConfigStartTimeOutputReference",
 		reflect.TypeOf((*ConnectHoursOfOperationConfigStartTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

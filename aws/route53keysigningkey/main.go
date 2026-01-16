@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		reflect.TypeOf((*Route53KeySigningKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKeyConfig",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKeyConfig",
 		reflect.TypeOf((*Route53KeySigningKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeouts",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeouts",
 		reflect.TypeOf((*Route53KeySigningKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
 		reflect.TypeOf((*Route53KeySigningKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

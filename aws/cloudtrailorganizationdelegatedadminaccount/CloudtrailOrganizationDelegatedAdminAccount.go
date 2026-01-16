@@ -5,14 +5,14 @@ package cloudtrailorganizationdelegatedadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudtrailorganizationdelegatedadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudtrailorganizationdelegatedadminaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account}.
 type CloudtrailOrganizationDelegatedAdminAccount interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -364,7 +364,7 @@ func (j *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
 func NewCloudtrailOrganizationDelegatedAdminAccount(scope constructs.Construct, id *string, config *CloudtrailOrganizationDelegatedAdminAccountConfig) CloudtrailOrganizationDelegatedAdminAccount {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewCloudtrailOrganizationDelegatedAdminAccount(scope constructs.Construct, 
 	j := jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -382,12 +382,12 @@ func NewCloudtrailOrganizationDelegatedAdminAccount(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
 func NewCloudtrailOrganizationDelegatedAdminAccount_Override(c CloudtrailOrganizationDelegatedAdminAccount, scope constructs.Construct, id *string, config *CloudtrailOrganizationDelegatedAdminAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -482,7 +482,7 @@ func CloudtrailOrganizationDelegatedAdminAccount_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -517,7 +517,7 @@ func CloudtrailOrganizationDelegatedAdminAccount_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func CloudtrailOrganizationDelegatedAdminAccount_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -555,7 +555,7 @@ func CloudtrailOrganizationDelegatedAdminAccount_IsTerraformResource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -568,7 +568,7 @@ func CloudtrailOrganizationDelegatedAdminAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
+		"@cdktn/provider-aws.cloudtrailOrganizationDelegatedAdminAccount.CloudtrailOrganizationDelegatedAdminAccount",
 		"tfResourceType",
 		&returns,
 	)

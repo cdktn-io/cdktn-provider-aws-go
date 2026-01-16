@@ -5,14 +5,14 @@ package s3controlbucketlifecycleconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlbucketlifecycleconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlbucketlifecycleconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration}.
 type S3ControlBucketLifecycleConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_S3ControlBucketLifecycleConfiguration) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
 func NewS3ControlBucketLifecycleConfiguration(scope constructs.Construct, id *string, config *S3ControlBucketLifecycleConfigurationConfig) S3ControlBucketLifecycleConfiguration {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewS3ControlBucketLifecycleConfiguration(scope constructs.Construct, id *st
 	j := jsiiProxy_S3ControlBucketLifecycleConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewS3ControlBucketLifecycleConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
 func NewS3ControlBucketLifecycleConfiguration_Override(s S3ControlBucketLifecycleConfiguration, scope constructs.Construct, id *string, config *S3ControlBucketLifecycleConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func S3ControlBucketLifecycleConfiguration_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func S3ControlBucketLifecycleConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func S3ControlBucketLifecycleConfiguration_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func S3ControlBucketLifecycleConfiguration_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func S3ControlBucketLifecycleConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
+		"@cdktn/provider-aws.s3ControlBucketLifecycleConfiguration.S3ControlBucketLifecycleConfiguration",
 		"tfResourceType",
 		&returns,
 	)

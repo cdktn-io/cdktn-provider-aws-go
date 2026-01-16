@@ -5,9 +5,9 @@ package dataawstransferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawstransferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawstransferconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsTransferConnectorAs2ConfigList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsTransferConnectorAs2ConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsTransferConnectorAs2ConfigList_Override(d DataAwsTransferConnecto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

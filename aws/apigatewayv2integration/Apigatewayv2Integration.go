@@ -5,14 +5,14 @@ package apigatewayv2integration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2integration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2integration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration}.
 type Apigatewayv2Integration interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -775,7 +775,7 @@ func (j *jsiiProxy_Apigatewayv2Integration) TlsConfigInput() *Apigatewayv2Integr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration} Resource.
 func NewApigatewayv2Integration(scope constructs.Construct, id *string, config *Apigatewayv2IntegrationConfig) Apigatewayv2Integration {
 	_init_.Initialize()
 
@@ -785,7 +785,7 @@ func NewApigatewayv2Integration(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_Apigatewayv2Integration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -793,12 +793,12 @@ func NewApigatewayv2Integration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_integration aws_apigatewayv2_integration} Resource.
 func NewApigatewayv2Integration_Override(a Apigatewayv2Integration, scope constructs.Construct, id *string, config *Apigatewayv2IntegrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1080,7 +1080,7 @@ func Apigatewayv2Integration_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1115,7 +1115,7 @@ func Apigatewayv2Integration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1134,7 +1134,7 @@ func Apigatewayv2Integration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1153,7 +1153,7 @@ func Apigatewayv2Integration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1166,7 +1166,7 @@ func Apigatewayv2Integration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2Integration",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package sagemakerflowdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerflowdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerflowdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition}.
 type SagemakerFlowDefinition interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SagemakerFlowDefinition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
 func NewSagemakerFlowDefinition(scope constructs.Construct, id *string, config *SagemakerFlowDefinitionConfig) SagemakerFlowDefinition {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewSagemakerFlowDefinition(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SagemakerFlowDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewSagemakerFlowDefinition(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_flow_definition aws_sagemaker_flow_definition} Resource.
 func NewSagemakerFlowDefinition_Override(s SagemakerFlowDefinition, scope constructs.Construct, id *string, config *SagemakerFlowDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -706,7 +706,7 @@ func SagemakerFlowDefinition_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -741,7 +741,7 @@ func SagemakerFlowDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -760,7 +760,7 @@ func SagemakerFlowDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func SagemakerFlowDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func SagemakerFlowDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
+		"@cdktn/provider-aws.sagemakerFlowDefinition.SagemakerFlowDefinition",
 		"tfResourceType",
 		&returns,
 	)

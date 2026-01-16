@@ -5,14 +5,14 @@ package lbsslnegotiationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbsslnegotiationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbsslnegotiationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy}.
 type LbSslNegotiationPolicy interface {
 	cdktf.TerraformResource
 	Attribute() LbSslNegotiationPolicyAttributeList
@@ -451,7 +451,7 @@ func (j *jsiiProxy_LbSslNegotiationPolicy) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
 func NewLbSslNegotiationPolicy(scope constructs.Construct, id *string, config *LbSslNegotiationPolicyConfig) LbSslNegotiationPolicy {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewLbSslNegotiationPolicy(scope constructs.Construct, id *string, config *L
 	j := jsiiProxy_LbSslNegotiationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewLbSslNegotiationPolicy(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
 func NewLbSslNegotiationPolicy_Override(l LbSslNegotiationPolicy, scope constructs.Construct, id *string, config *LbSslNegotiationPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -624,7 +624,7 @@ func LbSslNegotiationPolicy_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func LbSslNegotiationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func LbSslNegotiationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func LbSslNegotiationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func LbSslNegotiationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		"tfResourceType",
 		&returns,
 	)

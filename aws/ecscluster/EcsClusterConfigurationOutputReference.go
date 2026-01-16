@@ -5,9 +5,9 @@ package ecscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEcsClusterConfigurationOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_EcsClusterConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCluster.EcsClusterConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsCluster.EcsClusterConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEcsClusterConfigurationOutputReference_Override(e EcsClusterConfiguratio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCluster.EcsClusterConfigurationOutputReference",
+		"@cdktn/provider-aws.ecsCluster.EcsClusterConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

@@ -5,14 +5,14 @@ package cloudfrontoriginaccessidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontoriginaccessidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontoriginaccessidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity}.
 type CloudfrontOriginAccessIdentity interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_CloudfrontOriginAccessIdentity) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Resource.
 func NewCloudfrontOriginAccessIdentity(scope constructs.Construct, id *string, config *CloudfrontOriginAccessIdentityConfig) CloudfrontOriginAccessIdentity {
 	_init_.Initialize()
 
@@ -410,7 +410,7 @@ func NewCloudfrontOriginAccessIdentity(scope constructs.Construct, id *string, c
 	j := jsiiProxy_CloudfrontOriginAccessIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -418,12 +418,12 @@ func NewCloudfrontOriginAccessIdentity(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Resource.
 func NewCloudfrontOriginAccessIdentity_Override(c CloudfrontOriginAccessIdentity, scope constructs.Construct, id *string, config *CloudfrontOriginAccessIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -529,7 +529,7 @@ func CloudfrontOriginAccessIdentity_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -564,7 +564,7 @@ func CloudfrontOriginAccessIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func CloudfrontOriginAccessIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -602,7 +602,7 @@ func CloudfrontOriginAccessIdentity_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func CloudfrontOriginAccessIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
+		"@cdktn/provider-aws.cloudfrontOriginAccessIdentity.CloudfrontOriginAccessIdentity",
 		"tfResourceType",
 		&returns,
 	)

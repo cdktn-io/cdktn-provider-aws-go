@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		reflect.TypeOf((*CloudcontrolapiResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceConfig",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceConfig",
 		reflect.TypeOf((*CloudcontrolapiResourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeouts",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeouts",
 		reflect.TypeOf((*CloudcontrolapiResourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResourceTimeoutsOutputReference",
 		reflect.TypeOf((*CloudcontrolapiResourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

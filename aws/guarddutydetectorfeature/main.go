@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeature",
 		reflect.TypeOf((*GuarddutyDetectorFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},
@@ -79,11 +79,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfiguration",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfiguration",
 		reflect.TypeOf((*GuarddutyDetectorFeatureAdditionalConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfigurationList",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfigurationList",
 		reflect.TypeOf((*GuarddutyDetectorFeatureAdditionalConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfigurationOutputReference",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureAdditionalConfigurationOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorFeatureAdditionalConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureConfig",
+		"@cdktn/provider-aws.guarddutyDetectorFeature.GuarddutyDetectorFeatureConfig",
 		reflect.TypeOf((*GuarddutyDetectorFeatureConfig)(nil)).Elem(),
 	)
 }

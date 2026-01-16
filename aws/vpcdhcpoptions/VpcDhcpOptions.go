@@ -5,14 +5,14 @@ package vpcdhcpoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcdhcpoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcdhcpoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options}.
 type VpcDhcpOptions interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -548,7 +548,7 @@ func (j *jsiiProxy_VpcDhcpOptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
 func NewVpcDhcpOptions(scope constructs.Construct, id *string, config *VpcDhcpOptionsConfig) VpcDhcpOptions {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewVpcDhcpOptions(scope constructs.Construct, id *string, config *VpcDhcpOp
 	j := jsiiProxy_VpcDhcpOptions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -566,12 +566,12 @@ func NewVpcDhcpOptions(scope constructs.Construct, id *string, config *VpcDhcpOp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
 func NewVpcDhcpOptions_Override(v VpcDhcpOptions, scope constructs.Construct, id *string, config *VpcDhcpOptionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -765,7 +765,7 @@ func VpcDhcpOptions_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -800,7 +800,7 @@ func VpcDhcpOptions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -819,7 +819,7 @@ func VpcDhcpOptions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func VpcDhcpOptions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func VpcDhcpOptions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
+		"@cdktn/provider-aws.vpcDhcpOptions.VpcDhcpOptions",
 		"tfResourceType",
 		&returns,
 	)

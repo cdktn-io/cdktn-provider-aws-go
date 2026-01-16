@@ -5,9 +5,9 @@ package lightsaildistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLightsailDistributionDefaultCacheBehaviorOutputReference(terraformResour
 	j := jsiiProxy_LightsailDistributionDefaultCacheBehaviorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLightsailDistributionDefaultCacheBehaviorOutputReference_Override(l Ligh
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroup",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroup",
 		reflect.TypeOf((*ResourcegroupsGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfig",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfig",
 		reflect.TypeOf((*ResourcegroupsGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfiguration",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfiguration",
 		reflect.TypeOf((*ResourcegroupsGroupConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationList",
 		reflect.TypeOf((*ResourcegroupsGroupConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
 		reflect.TypeOf((*ResourcegroupsGroupConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParameters",
 		reflect.TypeOf((*ResourcegroupsGroupConfigurationParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParametersList",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParametersList",
 		reflect.TypeOf((*ResourcegroupsGroupConfigurationParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParametersOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationParametersOutputReference",
 		reflect.TypeOf((*ResourcegroupsGroupConfigurationParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupResourceQuery",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupResourceQuery",
 		reflect.TypeOf((*ResourcegroupsGroupResourceQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupResourceQueryOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupResourceQueryOutputReference",
 		reflect.TypeOf((*ResourcegroupsGroupResourceQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -264,11 +264,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupTimeouts",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupTimeouts",
 		reflect.TypeOf((*ResourcegroupsGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ResourcegroupsGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

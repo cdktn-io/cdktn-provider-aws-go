@@ -5,9 +5,9 @@ package gameliftfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gameliftfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gameliftfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewGameliftFleetCertificateConfigurationOutputReference(terraformResource c
 	j := jsiiProxy_GameliftFleetCertificateConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftFleet.GameliftFleetCertificateConfigurationOutputReference",
+		"@cdktn/provider-aws.gameliftFleet.GameliftFleetCertificateConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewGameliftFleetCertificateConfigurationOutputReference_Override(g Gamelift
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftFleet.GameliftFleetCertificateConfigurationOutputReference",
+		"@cdktn/provider-aws.gameliftFleet.GameliftFleetCertificateConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

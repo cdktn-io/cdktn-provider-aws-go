@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEfsMountTarget.DataAwsEfsMountTarget",
+		"@cdktn/provider-aws.dataAwsEfsMountTarget.DataAwsEfsMountTarget",
 		reflect.TypeOf((*DataAwsEfsMountTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointId", GoGetter: "AccessPointId"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEfsMountTarget.DataAwsEfsMountTargetConfig",
+		"@cdktn/provider-aws.dataAwsEfsMountTarget.DataAwsEfsMountTargetConfig",
 		reflect.TypeOf((*DataAwsEfsMountTargetConfig)(nil)).Elem(),
 	)
 }

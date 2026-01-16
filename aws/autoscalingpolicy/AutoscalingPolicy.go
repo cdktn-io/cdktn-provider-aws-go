@@ -5,14 +5,14 @@ package autoscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_policy aws_autoscaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_policy aws_autoscaling_policy}.
 type AutoscalingPolicy interface {
 	cdktf.TerraformResource
 	AdjustmentType() *string
@@ -655,7 +655,7 @@ func (j *jsiiProxy_AutoscalingPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_policy aws_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_policy aws_autoscaling_policy} Resource.
 func NewAutoscalingPolicy(scope constructs.Construct, id *string, config *AutoscalingPolicyConfig) AutoscalingPolicy {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewAutoscalingPolicy(scope constructs.Construct, id *string, config *Autosc
 	j := jsiiProxy_AutoscalingPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -673,12 +673,12 @@ func NewAutoscalingPolicy(scope constructs.Construct, id *string, config *Autosc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_policy aws_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_policy aws_autoscaling_policy} Resource.
 func NewAutoscalingPolicy_Override(a AutoscalingPolicy, scope constructs.Construct, id *string, config *AutoscalingPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -894,7 +894,7 @@ func AutoscalingPolicy_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -929,7 +929,7 @@ func AutoscalingPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -948,7 +948,7 @@ func AutoscalingPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -967,7 +967,7 @@ func AutoscalingPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -980,7 +980,7 @@ func AutoscalingPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.autoscalingPolicy.AutoscalingPolicy",
+		"@cdktn/provider-aws.autoscalingPolicy.AutoscalingPolicy",
 		"tfResourceType",
 		&returns,
 	)

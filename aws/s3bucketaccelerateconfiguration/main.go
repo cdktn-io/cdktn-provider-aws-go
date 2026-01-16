@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		reflect.TypeOf((*S3BucketAccelerateConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfigurationConfig",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfigurationConfig",
 		reflect.TypeOf((*S3BucketAccelerateConfigurationConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gameliftgameservergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gameliftgameservergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
 type GameliftGameServerGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_GameliftGameServerGroup) VpcSubnetsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) GameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -672,7 +672,7 @@ func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GameliftGameServerGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -680,12 +680,12 @@ func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup_Override(g GameliftGameServerGroup, scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -890,7 +890,7 @@ func GameliftGameServerGroup_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -925,7 +925,7 @@ func GameliftGameServerGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func GameliftGameServerGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -963,7 +963,7 @@ func GameliftGameServerGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -976,7 +976,7 @@ func GameliftGameServerGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dxbgppeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxbgppeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxbgppeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
 type DxBgpPeer interface {
 	cdktf.TerraformResource
 	AddressFamily() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DxBgpPeer) VirtualInterfaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfig) DxBgpPeer {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfi
 	j := jsiiProxy_DxBgpPeer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer_Override(d DxBgpPeer, scope constructs.Construct, id *string, config *DxBgpPeerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -727,7 +727,7 @@ func DxBgpPeer_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func DxBgpPeer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func DxBgpPeer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func DxBgpPeer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func DxBgpPeer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxBgpPeer.DxBgpPeer",
+		"@cdktn/provider-aws.dxBgpPeer.DxBgpPeer",
 		"tfResourceType",
 		&returns,
 	)

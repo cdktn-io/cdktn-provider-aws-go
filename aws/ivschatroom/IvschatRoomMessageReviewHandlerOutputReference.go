@@ -5,9 +5,9 @@ package ivschatroom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ivschatroom/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ivschatroom/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewIvschatRoomMessageReviewHandlerOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_IvschatRoomMessageReviewHandlerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewIvschatRoomMessageReviewHandlerOutputReference_Override(i IvschatRoomMes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

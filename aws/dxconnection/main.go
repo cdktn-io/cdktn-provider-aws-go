@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxConnection.DxConnection",
+		"@cdktn/provider-aws.dxConnection.DxConnection",
 		reflect.TypeOf((*DxConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxConnection.DxConnectionConfig",
+		"@cdktn/provider-aws.dxConnection.DxConnectionConfig",
 		reflect.TypeOf((*DxConnectionConfig)(nil)).Elem(),
 	)
 }

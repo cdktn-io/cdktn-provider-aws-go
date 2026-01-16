@@ -5,9 +5,9 @@ package datasynclocations3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocations3/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocations3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewDatasyncLocationS3S3ConfigOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DatasyncLocationS3S3ConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3S3ConfigOutputReference",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3S3ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewDatasyncLocationS3S3ConfigOutputReference_Override(d DatasyncLocationS3S
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3S3ConfigOutputReference",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3S3ConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

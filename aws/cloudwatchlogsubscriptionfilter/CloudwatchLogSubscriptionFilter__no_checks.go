@@ -91,6 +91,10 @@ func validateCloudwatchLogSubscriptionFilter_IsTerraformResourceParameters(x int
 	return nil
 }
 
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) validateSetApplyOnTransformedLogsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) validateSetDestinationArnPar
 }
 
 func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) validateSetDistributionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudwatchLogSubscriptionFilter) validateSetEmitSystemFieldsParameters(val *[]*string) error {
 	return nil
 }
 

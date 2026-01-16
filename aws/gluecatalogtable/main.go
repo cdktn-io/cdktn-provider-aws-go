@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTable",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTable",
 		reflect.TypeOf((*GlueCatalogTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -118,19 +118,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableConfig",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableConfig",
 		reflect.TypeOf((*GlueCatalogTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInput",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInput",
 		reflect.TypeOf((*GlueCatalogTableOpenTableFormatInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInput",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInput",
 		reflect.TypeOf((*GlueCatalogTableOpenTableFormatInputIcebergInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference",
 		reflect.TypeOf((*GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInputOutputReference",
 		reflect.TypeOf((*GlueCatalogTableOpenTableFormatInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,11 +202,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndex",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndex",
 		reflect.TypeOf((*GlueCatalogTablePartitionIndex)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndexList",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndexList",
 		reflect.TypeOf((*GlueCatalogTablePartitionIndexList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -228,7 +228,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndexOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionIndexOutputReference",
 		reflect.TypeOf((*GlueCatalogTablePartitionIndexOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeys",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeys",
 		reflect.TypeOf((*GlueCatalogTablePartitionKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeysList",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeysList",
 		reflect.TypeOf((*GlueCatalogTablePartitionKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -291,7 +291,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeysOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTablePartitionKeysOutputReference",
 		reflect.TypeOf((*GlueCatalogTablePartitionKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comment", GoGetter: "Comment"},
@@ -334,15 +334,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptor",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptor",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptor)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumns",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumns",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumnsList",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumnsList",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -364,7 +364,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumnsOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorColumnsOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comment", GoGetter: "Comment"},
@@ -407,7 +407,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalLocations", GoGetter: "AdditionalLocations"},
@@ -486,11 +486,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSchemaReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSchemaReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -531,11 +531,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSchemaReferenceSchemaId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -576,11 +576,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSerDeInfo",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSerDeInfo",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSerDeInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSerDeInfoOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSerDeInfoOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSerDeInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -621,11 +621,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSkewedInfo",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSkewedInfo",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSkewedInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSkewedInfoOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSkewedInfoOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSkewedInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -666,11 +666,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumns",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumns",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSortColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumnsList",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumnsList",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSortColumnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -692,7 +692,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumnsOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorSortColumnsOutputReference",
 		reflect.TypeOf((*GlueCatalogTableStorageDescriptorSortColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "column", GoGetter: "Column"},
@@ -728,11 +728,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableTargetTable",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableTargetTable",
 		reflect.TypeOf((*GlueCatalogTableTargetTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableTargetTableOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableTargetTableOutputReference",
 		reflect.TypeOf((*GlueCatalogTableTargetTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},

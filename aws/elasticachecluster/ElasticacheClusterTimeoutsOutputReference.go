@@ -5,9 +5,9 @@ package elasticachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticachecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewElasticacheClusterTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_ElasticacheClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewElasticacheClusterTimeoutsOutputReference_Override(e ElasticacheClusterT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

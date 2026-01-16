@@ -5,9 +5,9 @@ package dataawssfnalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssfnalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssfnalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsSfnAliasRoutingConfigurationOutputReference(terraformResource cdk
 	j := jsiiProxy_DataAwsSfnAliasRoutingConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsSfnAliasRoutingConfigurationOutputReference_Override(d DataAwsSfn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsSfnAlias.DataAwsSfnAliasRoutingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

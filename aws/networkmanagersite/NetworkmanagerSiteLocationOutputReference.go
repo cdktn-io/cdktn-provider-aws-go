@@ -5,9 +5,9 @@ package networkmanagersite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagersite/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagersite/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNetworkmanagerSiteLocationOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_NetworkmanagerSiteLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNetworkmanagerSiteLocationOutputReference_Override(n NetworkmanagerSiteL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
+		"@cdktn/provider-aws.networkmanagerSite.NetworkmanagerSiteLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

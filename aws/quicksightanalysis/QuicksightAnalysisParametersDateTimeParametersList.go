@@ -5,9 +5,9 @@ package quicksightanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewQuicksightAnalysisParametersDateTimeParametersList(terraformResource cdk
 	j := jsiiProxy_QuicksightAnalysisParametersDateTimeParametersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersList",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewQuicksightAnalysisParametersDateTimeParametersList_Override(q Quicksight
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersList",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysisParametersDateTimeParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		q,
 	)

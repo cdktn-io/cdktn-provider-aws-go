@@ -5,14 +5,14 @@ package dataawsappstreamimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappstreamimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappstreamimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appstream_image aws_appstream_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image}.
 type DataAwsAppstreamImage interface {
 	cdktf.TerraformDataSource
 	Applications() DataAwsAppstreamImageApplicationsList
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsAppstreamImage) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) DataAwsAppstreamImage {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsAppstreamImage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -546,12 +546,12 @@ func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage_Override(d DataAwsAppstreamImage, scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -679,7 +679,7 @@ func DataAwsAppstreamImage_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -714,7 +714,7 @@ func DataAwsAppstreamImage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func DataAwsAppstreamImage_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -752,7 +752,7 @@ func DataAwsAppstreamImage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func DataAwsAppstreamImage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImage",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package vpclatticetargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticetargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticetargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group}.
 type VpclatticeTargetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_VpclatticeTargetGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
 func NewVpclatticeTargetGroup(scope constructs.Construct, id *string, config *VpclatticeTargetGroupConfig) VpclatticeTargetGroup {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewVpclatticeTargetGroup(scope constructs.Construct, id *string, config *Vp
 	j := jsiiProxy_VpclatticeTargetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewVpclatticeTargetGroup(scope constructs.Construct, id *string, config *Vp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
 func NewVpclatticeTargetGroup_Override(v VpclatticeTargetGroup, scope constructs.Construct, id *string, config *VpclatticeTargetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -671,7 +671,7 @@ func VpclatticeTargetGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func VpclatticeTargetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func VpclatticeTargetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func VpclatticeTargetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func VpclatticeTargetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroup",
 		"tfResourceType",
 		&returns,
 	)

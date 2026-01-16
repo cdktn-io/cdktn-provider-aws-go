@@ -5,9 +5,9 @@ package fsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFsxOntapFileSystemTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_FsxOntapFileSystemTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFsxOntapFileSystemTimeoutsOutputReference_Override(f FsxOntapFileSystemT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxOntapFileSystem.FsxOntapFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

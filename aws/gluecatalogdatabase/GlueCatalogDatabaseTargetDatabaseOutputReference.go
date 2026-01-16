@@ -5,9 +5,9 @@ package gluecatalogdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecatalogdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewGlueCatalogDatabaseTargetDatabaseOutputReference(terraformResource cdktf
 	j := jsiiProxy_GlueCatalogDatabaseTargetDatabaseOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewGlueCatalogDatabaseTargetDatabaseOutputReference_Override(g GlueCatalogD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

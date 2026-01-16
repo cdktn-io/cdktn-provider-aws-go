@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointEmailChannel.PinpointEmailChannel",
+		"@cdktn/provider-aws.pinpointEmailChannel.PinpointEmailChannel",
 		reflect.TypeOf((*PinpointEmailChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointEmailChannel.PinpointEmailChannelConfig",
+		"@cdktn/provider-aws.pinpointEmailChannel.PinpointEmailChannelConfig",
 		reflect.TypeOf((*PinpointEmailChannelConfig)(nil)).Elem(),
 	)
 }

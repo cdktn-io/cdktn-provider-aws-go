@@ -5,9 +5,9 @@ package lakeformationoptin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationoptin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationoptin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewLakeformationOptInResourceDataDatabaseOutputReference(terraformResource 
 	j := jsiiProxy_LakeformationOptInResourceDataDatabaseOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataDatabaseOutputReference",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataDatabaseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewLakeformationOptInResourceDataDatabaseOutputReference_Override(l Lakefor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataDatabaseOutputReference",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataDatabaseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

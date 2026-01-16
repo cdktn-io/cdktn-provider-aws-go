@@ -5,14 +5,14 @@ package dataawseksaddonversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksaddonversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksaddonversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon_version aws_eks_addon_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon_version aws_eks_addon_version}.
 type DataAwsEksAddonVersion interface {
 	cdktf.TerraformDataSource
 	AddonName() *string
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataAwsEksAddonVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
 func NewDataAwsEksAddonVersion(scope constructs.Construct, id *string, config *DataAwsEksAddonVersionConfig) DataAwsEksAddonVersion {
 	_init_.Initialize()
 
@@ -380,7 +380,7 @@ func NewDataAwsEksAddonVersion(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsEksAddonVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -388,12 +388,12 @@ func NewDataAwsEksAddonVersion(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
 func NewDataAwsEksAddonVersion_Override(d DataAwsEksAddonVersion, scope constructs.Construct, id *string, config *DataAwsEksAddonVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -510,7 +510,7 @@ func DataAwsEksAddonVersion_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataAwsEksAddonVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataAwsEksAddonVersion_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAwsEksAddonVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsEksAddonVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
+		"@cdktn/provider-aws.dataAwsEksAddonVersion.DataAwsEksAddonVersion",
 		"tfResourceType",
 		&returns,
 	)

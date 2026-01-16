@@ -5,9 +5,9 @@ package configorganizationmanagedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configorganizationmanagedrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationmanagedrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewConfigOrganizationManagedRuleTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_ConfigOrganizationManagedRuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewConfigOrganizationManagedRuleTimeoutsOutputReference_Override(c ConfigOr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

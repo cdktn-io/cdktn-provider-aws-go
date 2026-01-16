@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		reflect.TypeOf((*SecurityhubInsight)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,19 +77,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightConfig",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightConfig",
 		reflect.TypeOf((*SecurityhubInsightConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFilters",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFilters",
 		reflect.TypeOf((*SecurityhubInsightFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountId",
 		reflect.TypeOf((*SecurityhubInsightFiltersAwsAccountId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersAwsAccountIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersAwsAccountIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersAwsAccountIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyName",
 		reflect.TypeOf((*SecurityhubInsightFiltersCompanyName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersCompanyNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCompanyNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersCompanyNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatus",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatus",
 		reflect.TypeOf((*SecurityhubInsightFiltersComplianceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatusList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatusList",
 		reflect.TypeOf((*SecurityhubInsightFiltersComplianceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -235,7 +235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatusOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersComplianceStatusOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersComplianceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidence",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidence",
 		reflect.TypeOf((*SecurityhubInsightFiltersConfidence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidenceList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidenceList",
 		reflect.TypeOf((*SecurityhubInsightFiltersConfidenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidenceOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersConfidenceOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersConfidenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -338,15 +338,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersCreatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersCreatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersCreatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -382,7 +382,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersCreatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -404,7 +404,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCreatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersCreatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -446,11 +446,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticality",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticality",
 		reflect.TypeOf((*SecurityhubInsightFiltersCriticality)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticalityList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticalityList",
 		reflect.TypeOf((*SecurityhubInsightFiltersCriticalityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -472,7 +472,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticalityOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersCriticalityOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersCriticalityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -513,11 +513,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescription",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescription",
 		reflect.TypeOf((*SecurityhubInsightFiltersDescription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescriptionList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescriptionList",
 		reflect.TypeOf((*SecurityhubInsightFiltersDescriptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -539,7 +539,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescriptionOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersDescriptionOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersDescriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -575,11 +575,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidence",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsConfidence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsConfidenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -601,7 +601,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -642,11 +642,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticality",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsCriticality)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsCriticalityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -668,7 +668,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -709,11 +709,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -735,7 +735,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -771,11 +771,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -797,7 +797,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -833,11 +833,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -859,7 +859,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -895,11 +895,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -921,7 +921,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -957,11 +957,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypes",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypes",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsTypes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsTypesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -983,7 +983,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1019,15 +1019,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersFirstObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersFirstObservedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1063,7 +1063,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersFirstObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1085,7 +1085,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersFirstObservedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersFirstObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1127,11 +1127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorId",
 		reflect.TypeOf((*SecurityhubInsightFiltersGeneratorId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersGeneratorIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1153,7 +1153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersGeneratorIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersGeneratorIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1189,11 +1189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersId",
 		reflect.TypeOf((*SecurityhubInsightFiltersId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1215,7 +1215,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1251,11 +1251,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeyword",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeyword",
 		reflect.TypeOf((*SecurityhubInsightFiltersKeyword)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeywordList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeywordList",
 		reflect.TypeOf((*SecurityhubInsightFiltersKeywordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1277,7 +1277,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeywordOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersKeywordOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersKeywordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1311,15 +1311,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersLastObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersLastObservedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1355,7 +1355,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersLastObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1377,7 +1377,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersLastObservedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersLastObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1419,11 +1419,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareName",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1445,7 +1445,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1481,11 +1481,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePath",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePath",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwarePath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePathList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePathList",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwarePathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1507,7 +1507,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePathOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwarePathOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwarePathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1543,11 +1543,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareState",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareState",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareStateList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareStateList",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1569,7 +1569,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareStateOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareStateOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1605,11 +1605,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareType",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareType",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareTypeList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareTypeList",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1631,7 +1631,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareTypeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersMalwareTypeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersMalwareTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1667,11 +1667,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomain",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomain",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationDomain)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationDomainList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1693,7 +1693,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationDomainOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationDomainOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1729,11 +1729,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv4)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4List",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4List",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv4List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1755,7 +1755,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -1789,11 +1789,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv6)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6List",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6List",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv6List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1815,7 +1815,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -1849,11 +1849,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPort",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1875,7 +1875,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDestinationPortOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDestinationPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1916,11 +1916,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirection",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirection",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDirection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDirectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1942,7 +1942,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkDirectionOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkDirectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -1978,11 +1978,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocol",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocol",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkProtocol)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkProtocolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2004,7 +2004,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkProtocolOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkProtocolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2040,11 +2040,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomain",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomain",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceDomain)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceDomainList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2066,7 +2066,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceDomainOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceDomainOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2102,11 +2102,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv4)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4List",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4List",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv4List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2128,7 +2128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4OutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv4OutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv4OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -2162,11 +2162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv6)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6List",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6List",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv6List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2188,7 +2188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6OutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceIpv6OutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceIpv6OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -2222,11 +2222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMac",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMac",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceMac)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceMacList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2248,7 +2248,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourceMacOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourceMacOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2284,11 +2284,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePort",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePort",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourcePort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourcePortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2310,7 +2310,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNetworkSourcePortOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNetworkSourcePortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2351,11 +2351,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteText",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteText",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteTextList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteTextList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2377,7 +2377,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteTextOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteTextOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2413,15 +2413,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2457,7 +2457,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2479,7 +2479,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2521,11 +2521,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedBy",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedBy",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedBy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByList",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedByList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2547,7 +2547,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersNoteUpdatedByOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -2583,7 +2583,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsAccountId", GoGetter: "AwsAccountId"},
@@ -2967,15 +2967,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessLaunchedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessLaunchedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3011,7 +3011,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessLaunchedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3033,7 +3033,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessLaunchedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessLaunchedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3075,11 +3075,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessName",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3101,7 +3101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3137,11 +3137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPid",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPid",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessParentPid)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPidList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPidList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessParentPidList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3163,7 +3163,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPidOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessParentPidOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessParentPidOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3204,11 +3204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPath",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPath",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPathList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPathList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3230,7 +3230,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPathOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPathOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3266,11 +3266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPid",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPid",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPid)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPidList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPidList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPidList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3292,7 +3292,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPidOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessPidOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessPidOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3333,15 +3333,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessTerminatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessTerminatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3377,7 +3377,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessTerminatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3399,7 +3399,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProcessTerminatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProcessTerminatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3441,11 +3441,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArn",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArn",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArnList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArnList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3467,7 +3467,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArnOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductArnOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3503,11 +3503,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFields",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFields",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFieldsList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFieldsList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductFieldsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3529,7 +3529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFieldsOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductFieldsOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3567,11 +3567,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductName",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3593,7 +3593,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersProductNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersProductNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3629,11 +3629,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationText",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationText",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecommendationText)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationTextList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationTextList",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecommendationTextList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3655,7 +3655,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationTextOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecommendationTextOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecommendationTextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3691,11 +3691,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordState",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordState",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecordState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordStateList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordStateList",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecordStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3717,7 +3717,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordStateOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRecordStateOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersRecordStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3753,11 +3753,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsId",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3779,7 +3779,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3815,11 +3815,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArn",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArn",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsProductArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnList",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsProductArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3841,7 +3841,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3877,11 +3877,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3903,7 +3903,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -3939,11 +3939,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceImageId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -3965,7 +3965,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4001,11 +4001,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4Addresses)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4027,7 +4027,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -4061,11 +4061,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6Addresses)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4087,7 +4087,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
@@ -4121,11 +4121,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4147,7 +4147,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4183,15 +4183,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4227,7 +4227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4249,7 +4249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4291,11 +4291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4317,7 +4317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4353,11 +4353,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceType",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4379,7 +4379,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4415,11 +4415,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4441,7 +4441,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4477,15 +4477,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4521,7 +4521,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4543,7 +4543,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -4585,11 +4585,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4611,7 +4611,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4647,11 +4647,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4673,7 +4673,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4709,11 +4709,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4735,7 +4735,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4771,11 +4771,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerName",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4797,7 +4797,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4833,11 +4833,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4859,7 +4859,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4895,11 +4895,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageName",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -4921,7 +4921,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerImageNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerImageNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -4957,15 +4957,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerLaunchedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerLaunchedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5001,7 +5001,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerLaunchedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5023,7 +5023,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5065,11 +5065,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerName",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerName",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5091,7 +5091,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceContainerNameOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceContainerNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5127,11 +5127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOther",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOther",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceDetailsOther)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceDetailsOtherList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5153,7 +5153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceDetailsOtherOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceDetailsOtherOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5191,11 +5191,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceId",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceId",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceId)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceIdList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceIdList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceIdList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5217,7 +5217,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceIdOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceIdOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceIdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5253,11 +5253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartition",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartition",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourcePartition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartitionList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartitionList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourcePartitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5279,7 +5279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartitionOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourcePartitionOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourcePartitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5315,11 +5315,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegion",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegion",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceRegion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegionList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegionList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceRegionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5341,7 +5341,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegionOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceRegionOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceRegionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5377,11 +5377,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTags",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTags",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTagsList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTagsList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5403,7 +5403,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTagsOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTagsOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5441,11 +5441,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceType",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceType",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTypeList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTypeList",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5467,7 +5467,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTypeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersResourceTypeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersResourceTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5503,11 +5503,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabel",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabel",
 		reflect.TypeOf((*SecurityhubInsightFiltersSeverityLabel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabelList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabelList",
 		reflect.TypeOf((*SecurityhubInsightFiltersSeverityLabelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5529,7 +5529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabelOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSeverityLabelOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersSeverityLabelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5565,11 +5565,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrl",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrl",
 		reflect.TypeOf((*SecurityhubInsightFiltersSourceUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrlList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrlList",
 		reflect.TypeOf((*SecurityhubInsightFiltersSourceUrlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5591,7 +5591,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrlOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersSourceUrlOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersSourceUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5627,11 +5627,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategory",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorCategory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorCategoryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5653,7 +5653,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5689,15 +5689,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5733,7 +5733,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5755,7 +5755,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -5797,11 +5797,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSource",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSource",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5823,7 +5823,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5859,11 +5859,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5885,7 +5885,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5921,11 +5921,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorType",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorType",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -5947,7 +5947,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -5983,11 +5983,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValue",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValue",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueList",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorValueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6009,7 +6009,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -6045,11 +6045,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitle",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitle",
 		reflect.TypeOf((*SecurityhubInsightFiltersTitle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitleList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitleList",
 		reflect.TypeOf((*SecurityhubInsightFiltersTitleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6071,7 +6071,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitleOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersTitleOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersTitleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -6107,11 +6107,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersType",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersType",
 		reflect.TypeOf((*SecurityhubInsightFiltersType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersTypeList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersTypeList",
 		reflect.TypeOf((*SecurityhubInsightFiltersTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6133,7 +6133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersTypeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersTypeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -6169,15 +6169,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAt",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAt",
 		reflect.TypeOf((*SecurityhubInsightFiltersUpdatedAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRange",
 		reflect.TypeOf((*SecurityhubInsightFiltersUpdatedAtDateRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6213,7 +6213,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtList",
 		reflect.TypeOf((*SecurityhubInsightFiltersUpdatedAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6235,7 +6235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUpdatedAtOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersUpdatedAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -6277,11 +6277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValues",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValues",
 		reflect.TypeOf((*SecurityhubInsightFiltersUserDefinedValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValuesList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValuesList",
 		reflect.TypeOf((*SecurityhubInsightFiltersUserDefinedValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6303,7 +6303,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValuesOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersUserDefinedValuesOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersUserDefinedValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -6341,11 +6341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationState",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationState",
 		reflect.TypeOf((*SecurityhubInsightFiltersVerificationState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationStateList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationStateList",
 		reflect.TypeOf((*SecurityhubInsightFiltersVerificationStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6367,7 +6367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationStateOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersVerificationStateOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersVerificationStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},
@@ -6403,11 +6403,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatus",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatus",
 		reflect.TypeOf((*SecurityhubInsightFiltersWorkflowStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusList",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusList",
 		reflect.TypeOf((*SecurityhubInsightFiltersWorkflowStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -6429,7 +6429,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersWorkflowStatusOutputReference",
 		reflect.TypeOf((*SecurityhubInsightFiltersWorkflowStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparison", GoGetter: "Comparison"},

@@ -5,14 +5,14 @@ package dataawssignersigningjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssignersigningjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssignersigningjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/signer_signing_job aws_signer_signing_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/signer_signing_job aws_signer_signing_job}.
 type DataAwsSignerSigningJob interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -477,7 +477,7 @@ func (j *jsiiProxy_DataAwsSignerSigningJob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
 func NewDataAwsSignerSigningJob(scope constructs.Construct, id *string, config *DataAwsSignerSigningJobConfig) DataAwsSignerSigningJob {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDataAwsSignerSigningJob(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsSignerSigningJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -495,12 +495,12 @@ func NewDataAwsSignerSigningJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
 func NewDataAwsSignerSigningJob_Override(d DataAwsSignerSigningJob, scope constructs.Construct, id *string, config *DataAwsSignerSigningJobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -595,7 +595,7 @@ func DataAwsSignerSigningJob_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -630,7 +630,7 @@ func DataAwsSignerSigningJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataAwsSignerSigningJob_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func DataAwsSignerSigningJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -681,7 +681,7 @@ func DataAwsSignerSigningJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
+		"@cdktn/provider-aws.dataAwsSignerSigningJob.DataAwsSignerSigningJob",
 		"tfResourceType",
 		&returns,
 	)

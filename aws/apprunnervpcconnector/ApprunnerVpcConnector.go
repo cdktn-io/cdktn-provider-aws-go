@@ -5,14 +5,14 @@ package apprunnervpcconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnervpcconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnervpcconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector}.
 type ApprunnerVpcConnector interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ApprunnerVpcConnector) VpcConnectorRevision() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector} Resource.
 func NewApprunnerVpcConnector(scope constructs.Construct, id *string, config *ApprunnerVpcConnectorConfig) ApprunnerVpcConnector {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewApprunnerVpcConnector(scope constructs.Construct, id *string, config *Ap
 	j := jsiiProxy_ApprunnerVpcConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewApprunnerVpcConnector(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_vpc_connector aws_apprunner_vpc_connector} Resource.
 func NewApprunnerVpcConnector_Override(a ApprunnerVpcConnector, scope constructs.Construct, id *string, config *ApprunnerVpcConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -668,7 +668,7 @@ func ApprunnerVpcConnector_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func ApprunnerVpcConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func ApprunnerVpcConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func ApprunnerVpcConnector_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func ApprunnerVpcConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
+		"@cdktn/provider-aws.apprunnerVpcConnector.ApprunnerVpcConnector",
 		"tfResourceType",
 		&returns,
 	)

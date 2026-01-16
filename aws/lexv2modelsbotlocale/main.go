@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		reflect.TypeOf((*Lexv2ModelsBotLocale)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleConfig",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleConfig",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleTimeouts",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleTimeouts",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleTimeoutsOutputReference",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettings",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettings",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleVoiceSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettingsList",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettingsList",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleVoiceSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettingsOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocaleVoiceSettingsOutputReference",
 		reflect.TypeOf((*Lexv2ModelsBotLocaleVoiceSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

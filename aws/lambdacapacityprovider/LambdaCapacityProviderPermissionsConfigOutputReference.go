@@ -5,9 +5,9 @@ package lambdacapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdacapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdacapacityprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLambdaCapacityProviderPermissionsConfigOutputReference(terraformResource
 	j := jsiiProxy_LambdaCapacityProviderPermissionsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigOutputReference",
+		"@cdktn/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLambdaCapacityProviderPermissionsConfigOutputReference_Override(l Lambda
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigOutputReference",
+		"@cdktn/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

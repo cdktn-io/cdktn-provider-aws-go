@@ -5,9 +5,9 @@ package kendraexperience
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraexperience/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraexperience/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewKendraExperienceEndpointsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_KendraExperienceEndpointsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraExperience.KendraExperienceEndpointsOutputReference",
+		"@cdktn/provider-aws.kendraExperience.KendraExperienceEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewKendraExperienceEndpointsOutputReference_Override(k KendraExperienceEndp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraExperience.KendraExperienceEndpointsOutputReference",
+		"@cdktn/provider-aws.kendraExperience.KendraExperienceEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		k,
 	)

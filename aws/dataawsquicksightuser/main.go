@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsQuicksightUser.DataAwsQuicksightUser",
+		"@cdktn/provider-aws.dataAwsQuicksightUser.DataAwsQuicksightUser",
 		reflect.TypeOf((*DataAwsQuicksightUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsQuicksightUser.DataAwsQuicksightUserConfig",
+		"@cdktn/provider-aws.dataAwsQuicksightUser.DataAwsQuicksightUserConfig",
 		reflect.TypeOf((*DataAwsQuicksightUserConfig)(nil)).Elem(),
 	)
 }

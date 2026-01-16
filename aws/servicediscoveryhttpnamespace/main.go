@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryHttpNamespace.ServiceDiscoveryHttpNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryHttpNamespace.ServiceDiscoveryHttpNamespace",
 		reflect.TypeOf((*ServiceDiscoveryHttpNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryHttpNamespace.ServiceDiscoveryHttpNamespaceConfig",
+		"@cdktn/provider-aws.serviceDiscoveryHttpNamespace.ServiceDiscoveryHttpNamespaceConfig",
 		reflect.TypeOf((*ServiceDiscoveryHttpNamespaceConfig)(nil)).Elem(),
 	)
 }

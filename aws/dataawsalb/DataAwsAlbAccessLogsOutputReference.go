@@ -5,9 +5,9 @@ package dataawsalb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsAlbAccessLogsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsAlbAccessLogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbAccessLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbAccessLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsAlbAccessLogsOutputReference_Override(d DataAwsAlbAccessLogsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbAccessLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbAccessLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

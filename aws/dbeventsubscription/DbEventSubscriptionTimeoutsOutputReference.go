@@ -5,9 +5,9 @@ package dbeventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbeventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbeventsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDbEventSubscriptionTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_DbEventSubscriptionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDbEventSubscriptionTimeoutsOutputReference_Override(d DbEventSubscriptio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

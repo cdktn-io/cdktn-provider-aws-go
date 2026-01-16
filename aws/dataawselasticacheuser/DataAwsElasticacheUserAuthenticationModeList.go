@@ -5,9 +5,9 @@ package dataawselasticacheuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticacheuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticacheuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsElasticacheUserAuthenticationModeList(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsElasticacheUserAuthenticationModeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsElasticacheUserAuthenticationModeList_Override(d DataAwsElasticac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

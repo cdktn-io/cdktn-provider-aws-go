@@ -5,9 +5,9 @@ package cloudhsmv2cluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudhsmv2cluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudhsmv2cluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCloudhsmV2ClusterTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_CloudhsmV2ClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCloudhsmV2ClusterTimeoutsOutputReference_Override(c CloudhsmV2ClusterTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudhsmV2Cluster.CloudhsmV2ClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

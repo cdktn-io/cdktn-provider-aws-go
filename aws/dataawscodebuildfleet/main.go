@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleet",
 		reflect.TypeOf((*DataAwsCodebuildFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfiguration",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfiguration",
 		reflect.TypeOf((*DataAwsCodebuildFleetComputeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfigurationList",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfigurationList",
 		reflect.TypeOf((*DataAwsCodebuildFleetComputeConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetComputeConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsCodebuildFleetComputeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,15 +139,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetConfig",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetConfig",
 		reflect.TypeOf((*DataAwsCodebuildFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfiguration",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfiguration",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationList",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationList",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigs",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigs",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference",
 		reflect.TypeOf((*DataAwsCodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatus",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatus",
 		reflect.TypeOf((*DataAwsCodebuildFleetStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatusList",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatusList",
 		reflect.TypeOf((*DataAwsCodebuildFleetStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -288,7 +288,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatusOutputReference",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetStatusOutputReference",
 		reflect.TypeOf((*DataAwsCodebuildFleetStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -323,11 +323,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfig",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfig",
 		reflect.TypeOf((*DataAwsCodebuildFleetVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfigList",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfigList",
 		reflect.TypeOf((*DataAwsCodebuildFleetVpcConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -348,7 +348,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCodebuildFleet.DataAwsCodebuildFleetVpcConfigOutputReference",
 		reflect.TypeOf((*DataAwsCodebuildFleetVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

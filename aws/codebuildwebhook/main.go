@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		reflect.TypeOf((*CodebuildWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,19 +95,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookConfig",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookConfig",
 		reflect.TypeOf((*CodebuildWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroup",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroup",
 		reflect.TypeOf((*CodebuildWebhookFilterGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilter",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilter",
 		reflect.TypeOf((*CodebuildWebhookFilterGroupFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilterList",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilterList",
 		reflect.TypeOf((*CodebuildWebhookFilterGroupFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilterOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupFilterOutputReference",
 		reflect.TypeOf((*CodebuildWebhookFilterGroupFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
 		reflect.TypeOf((*CodebuildWebhookFilterGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
 		reflect.TypeOf((*CodebuildWebhookFilterGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,11 +226,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicy",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicy",
 		reflect.TypeOf((*CodebuildWebhookPullRequestBuildPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicyOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookPullRequestBuildPolicyOutputReference",
 		reflect.TypeOf((*CodebuildWebhookPullRequestBuildPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approverRoles", GoGetter: "ApproverRoles"},
@@ -267,11 +267,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfiguration",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfiguration",
 		reflect.TypeOf((*CodebuildWebhookScopeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
 		reflect.TypeOf((*CodebuildWebhookScopeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

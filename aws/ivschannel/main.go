@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivsChannel.IvsChannel",
+		"@cdktn/provider-aws.ivsChannel.IvsChannel",
 		reflect.TypeOf((*IvsChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivsChannel.IvsChannelConfig",
+		"@cdktn/provider-aws.ivsChannel.IvsChannelConfig",
 		reflect.TypeOf((*IvsChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivsChannel.IvsChannelTimeouts",
+		"@cdktn/provider-aws.ivsChannel.IvsChannelTimeouts",
 		reflect.TypeOf((*IvsChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivsChannel.IvsChannelTimeoutsOutputReference",
+		"@cdktn/provider-aws.ivsChannel.IvsChannelTimeoutsOutputReference",
 		reflect.TypeOf((*IvsChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

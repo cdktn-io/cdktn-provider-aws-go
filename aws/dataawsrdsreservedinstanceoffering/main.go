@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		reflect.TypeOf((*DataAwsRdsReservedInstanceOffering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOfferingConfig",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOfferingConfig",
 		reflect.TypeOf((*DataAwsRdsReservedInstanceOfferingConfig)(nil)).Elem(),
 	)
 }

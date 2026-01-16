@@ -5,14 +5,14 @@ package cloud9environmentmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloud9environmentmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloud9environmentmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership}.
 type Cloud9EnvironmentMembership interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Cloud9EnvironmentMembership) UserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership} Resource.
 func NewCloud9EnvironmentMembership(scope constructs.Construct, id *string, config *Cloud9EnvironmentMembershipConfig) Cloud9EnvironmentMembership {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewCloud9EnvironmentMembership(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_Cloud9EnvironmentMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewCloud9EnvironmentMembership(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_membership aws_cloud9_environment_membership} Resource.
 func NewCloud9EnvironmentMembership_Override(c Cloud9EnvironmentMembership, scope constructs.Construct, id *string, config *Cloud9EnvironmentMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -576,7 +576,7 @@ func Cloud9EnvironmentMembership_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func Cloud9EnvironmentMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func Cloud9EnvironmentMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func Cloud9EnvironmentMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func Cloud9EnvironmentMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
+		"@cdktn/provider-aws.cloud9EnvironmentMembership.Cloud9EnvironmentMembership",
 		"tfResourceType",
 		&returns,
 	)

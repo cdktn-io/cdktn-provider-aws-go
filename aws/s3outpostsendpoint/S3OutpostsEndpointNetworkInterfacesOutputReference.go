@@ -5,9 +5,9 @@ package s3outpostsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3outpostsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3outpostsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewS3OutpostsEndpointNetworkInterfacesOutputReference(terraformResource cdk
 	j := jsiiProxy_S3OutpostsEndpointNetworkInterfacesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewS3OutpostsEndpointNetworkInterfacesOutputReference_Override(s S3Outposts
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
+		"@cdktn/provider-aws.s3OutpostsEndpoint.S3OutpostsEndpointNetworkInterfacesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

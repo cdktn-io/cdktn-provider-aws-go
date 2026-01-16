@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironment",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironment",
 		reflect.TypeOf((*ElasticBeanstalkEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,11 +120,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettings",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettings",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentAllSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettingsList",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettingsList",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentAllSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -145,7 +145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettingsOutputReference",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentAllSettingsOutputReference",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentAllSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,15 +181,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentConfig",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentConfig",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSetting",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSetting",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingList",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentSettingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -211,7 +211,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingOutputReference",
+		"@cdktn/provider-aws.elasticBeanstalkEnvironment.ElasticBeanstalkEnvironmentSettingOutputReference",
 		reflect.TypeOf((*ElasticBeanstalkEnvironmentSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

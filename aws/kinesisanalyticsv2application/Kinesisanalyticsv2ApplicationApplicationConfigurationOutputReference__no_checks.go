@@ -51,6 +51,10 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	return nil
 }
 
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) validatePutApplicationEncryptionConfigurationParameters(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration) error {
+	return nil
+}
+
 func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) validatePutApplicationSnapshotConfigurationParameters(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration) error {
 	return nil
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesReceiptRuleSet.SesReceiptRuleSet",
+		"@cdktn/provider-aws.sesReceiptRuleSet.SesReceiptRuleSet",
 		reflect.TypeOf((*SesReceiptRuleSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesReceiptRuleSet.SesReceiptRuleSetConfig",
+		"@cdktn/provider-aws.sesReceiptRuleSet.SesReceiptRuleSetConfig",
 		reflect.TypeOf((*SesReceiptRuleSetConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactList",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactList",
 		reflect.TypeOf((*Sesv2ContactList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListConfig",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListConfig",
 		reflect.TypeOf((*Sesv2ContactListConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListTopic",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListTopic",
 		reflect.TypeOf((*Sesv2ContactListTopic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListTopicList",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListTopicList",
 		reflect.TypeOf((*Sesv2ContactListTopicList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
 		reflect.TypeOf((*Sesv2ContactListTopicOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

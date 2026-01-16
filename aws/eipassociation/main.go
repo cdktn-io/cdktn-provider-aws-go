@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eipAssociation.EipAssociation",
+		"@cdktn/provider-aws.eipAssociation.EipAssociation",
 		reflect.TypeOf((*EipAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eipAssociation.EipAssociationConfig",
+		"@cdktn/provider-aws.eipAssociation.EipAssociationConfig",
 		reflect.TypeOf((*EipAssociationConfig)(nil)).Elem(),
 	)
 }

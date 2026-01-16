@@ -11,11 +11,13 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilter",
 		reflect.TypeOf((*CloudwatchLogSubscriptionFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "applyOnTransformedLogs", GoGetter: "ApplyOnTransformedLogs"},
+			_jsii_.MemberProperty{JsiiProperty: "applyOnTransformedLogsInput", GoGetter: "ApplyOnTransformedLogsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -25,6 +27,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "destinationArnInput", GoGetter: "DestinationArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "distribution", GoGetter: "Distribution"},
 			_jsii_.MemberProperty{JsiiProperty: "distributionInput", GoGetter: "DistributionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "emitSystemFields", GoGetter: "EmitSystemFields"},
+			_jsii_.MemberProperty{JsiiProperty: "emitSystemFieldsInput", GoGetter: "EmitSystemFieldsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "filterPattern", GoGetter: "FilterPattern"},
 			_jsii_.MemberProperty{JsiiProperty: "filterPatternInput", GoGetter: "FilterPatternInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
@@ -59,7 +63,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApplyOnTransformedLogs", GoMethod: "ResetApplyOnTransformedLogs"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDistribution", GoMethod: "ResetDistribution"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEmitSystemFields", GoMethod: "ResetEmitSystemFields"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
@@ -83,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilterConfig",
+		"@cdktn/provider-aws.cloudwatchLogSubscriptionFilter.CloudwatchLogSubscriptionFilterConfig",
 		reflect.TypeOf((*CloudwatchLogSubscriptionFilterConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package vpcendpointservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpointservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service}.
 type VpcEndpointService interface {
 	cdktf.TerraformResource
 	AcceptanceRequired() interface{}
@@ -661,7 +661,7 @@ func (j *jsiiProxy_VpcEndpointService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
 func NewVpcEndpointService(scope constructs.Construct, id *string, config *VpcEndpointServiceConfig) VpcEndpointService {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewVpcEndpointService(scope constructs.Construct, id *string, config *VpcEn
 	j := jsiiProxy_VpcEndpointService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -679,12 +679,12 @@ func NewVpcEndpointService(scope constructs.Construct, id *string, config *VpcEn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service aws_vpc_endpoint_service} Resource.
 func NewVpcEndpointService_Override(v VpcEndpointService, scope constructs.Construct, id *string, config *VpcEndpointServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -889,7 +889,7 @@ func VpcEndpointService_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -924,7 +924,7 @@ func VpcEndpointService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func VpcEndpointService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -962,7 +962,7 @@ func VpcEndpointService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func VpcEndpointService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcEndpointService.VpcEndpointService",
+		"@cdktn/provider-aws.vpcEndpointService.VpcEndpointService",
 		"tfResourceType",
 		&returns,
 	)

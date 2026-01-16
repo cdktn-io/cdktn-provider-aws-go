@@ -5,9 +5,9 @@ package apigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2authorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2authorizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewApigatewayv2AuthorizerTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_Apigatewayv2AuthorizerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewApigatewayv2AuthorizerTimeoutsOutputReference_Override(a Apigatewayv2Aut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

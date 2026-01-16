@@ -5,9 +5,9 @@ package opensearchserverlesssecurityconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchserverlesssecurityconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchserverlesssecurityconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewOpensearchserverlessSecurityConfigSamlOptionsList(terraformResource cdkt
 	j := jsiiProxy_OpensearchserverlessSecurityConfigSamlOptionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptionsList",
+		"@cdktn/provider-aws.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewOpensearchserverlessSecurityConfigSamlOptionsList_Override(o Opensearchs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptionsList",
+		"@cdktn/provider-aws.opensearchserverlessSecurityConfig.OpensearchserverlessSecurityConfigSamlOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

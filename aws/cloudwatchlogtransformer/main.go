@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		reflect.TypeOf((*CloudwatchLogTransformer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,23 +72,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerConfig",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerConfig",
 		reflect.TypeOf((*CloudwatchLogTransformerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfig",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfig",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeys",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeys",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeysEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeysEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigAddKeysOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigAddKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,15 +207,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValue",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValue",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValueEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValueEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -237,7 +237,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,7 +276,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -298,7 +298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCopyValueOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCopyValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -334,11 +334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsv",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsv",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCsv)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsvList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsvList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCsvList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -360,7 +360,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsvOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigCsvOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigCsvOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columns", GoGetter: "Columns"},
@@ -404,11 +404,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverter",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDateTimeConverter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverterList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverterList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDateTimeConverterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -430,7 +430,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,11 +480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeys",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeys",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDeleteKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeysList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeysList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDeleteKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -506,7 +506,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeysOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigDeleteKeysOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigDeleteKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -540,11 +540,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrok",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrok",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigGrok)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrokList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrokList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigGrokList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -566,7 +566,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrokOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigGrokOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigGrokOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -603,7 +603,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -625,11 +625,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigListToMap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMapList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMapList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigListToMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -651,7 +651,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMapOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMapOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigListToMapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -699,11 +699,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseString",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseString",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigLowerCaseString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseStringList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseStringList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigLowerCaseStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -725,7 +725,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseStringOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigLowerCaseStringOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigLowerCaseStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -759,15 +759,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeys",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeys",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeysEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeysEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -789,7 +789,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -828,7 +828,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -850,7 +850,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigMoveKeysOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigMoveKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -886,7 +886,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addKeys", GoGetter: "AddKeys"},
@@ -1010,11 +1010,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfront",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseCloudfront)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfrontList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfrontList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseCloudfrontList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1036,7 +1036,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfrontOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseCloudfrontOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseCloudfrontOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1071,11 +1071,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJson",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJson",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseJson)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJsonList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJsonList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseJsonList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1097,7 +1097,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJsonOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseJsonOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseJsonOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1135,11 +1135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValue",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValue",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseKeyValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValueList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValueList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseKeyValueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1161,7 +1161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1214,11 +1214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgres",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgres",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParsePostgres)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgresList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgresList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParsePostgresList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1240,7 +1240,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgresOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParsePostgresOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParsePostgresOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1275,11 +1275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseRoute53)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53List",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53List",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseRoute53List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1301,7 +1301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53OutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseRoute53OutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseRoute53OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1336,11 +1336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsf",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseToOcsf)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsfList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsfList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseToOcsfList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1362,7 +1362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1401,11 +1401,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpc",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseVpc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpcList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpcList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseVpcList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1427,7 +1427,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpcOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseVpcOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseVpcOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1462,11 +1462,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWaf",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWaf",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseWaf)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWafList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWafList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseWafList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1488,7 +1488,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWafOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigParseWafOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigParseWafOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1523,15 +1523,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeys",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeysEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeysEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1553,7 +1553,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1592,7 +1592,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1614,7 +1614,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigRenameKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1650,15 +1650,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitString",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitString",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitString)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitStringEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitStringEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1680,7 +1680,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitStringEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1716,7 +1716,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1738,7 +1738,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSplitStringOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSplitStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1774,15 +1774,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteString",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteString",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteString)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteStringEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteStringEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1804,7 +1804,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1842,7 +1842,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1864,7 +1864,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigSubstituteStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1900,11 +1900,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimString",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimString",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTrimString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimStringList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimStringList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTrimStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1926,7 +1926,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimStringOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTrimStringOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTrimStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1960,15 +1960,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverter",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverter",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverter)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntry",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntry",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverterEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntryList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntryList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverterEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1990,7 +1990,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntryOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterEntryOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverterEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2026,7 +2026,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2048,7 +2048,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigTypeConverterOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigTypeConverterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2084,11 +2084,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseString",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigUpperCaseString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseStringList",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseStringList",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigUpperCaseStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2110,7 +2110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseStringOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigUpperCaseStringOutputReference",
 		reflect.TypeOf((*CloudwatchLogTransformerTransformerConfigUpperCaseStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

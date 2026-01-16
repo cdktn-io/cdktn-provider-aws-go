@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestion",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestion",
 		reflect.TypeOf((*AppfabricIngestion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricIngestion.AppfabricIngestionConfig",
+		"@cdktn/provider-aws.appfabricIngestion.AppfabricIngestionConfig",
 		reflect.TypeOf((*AppfabricIngestionConfig)(nil)).Elem(),
 	)
 }

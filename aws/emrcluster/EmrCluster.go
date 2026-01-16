@@ -5,14 +5,14 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_cluster aws_emr_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_cluster aws_emr_cluster}.
 type EmrCluster interface {
 	cdktf.TerraformResource
 	AdditionalInfo() *string
@@ -1156,7 +1156,7 @@ func (j *jsiiProxy_EmrCluster) VisibleToAllUsersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterConfig) EmrCluster {
 	_init_.Initialize()
 
@@ -1166,7 +1166,7 @@ func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterCon
 	j := jsiiProxy_EmrCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1174,12 +1174,12 @@ func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster_Override(e EmrCluster, scope constructs.Construct, id *string, config *EmrClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1538,7 +1538,7 @@ func EmrCluster_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1573,7 +1573,7 @@ func EmrCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1592,7 +1592,7 @@ func EmrCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1611,7 +1611,7 @@ func EmrCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1624,7 +1624,7 @@ func EmrCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrCluster.EmrCluster",
+		"@cdktn/provider-aws.emrCluster.EmrCluster",
 		"tfResourceType",
 		&returns,
 	)

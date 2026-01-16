@@ -5,14 +5,14 @@ package ssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsrotation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
 type SsmcontactsRotation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SsmcontactsRotation) TimeZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) SsmcontactsRotation {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *Ssmc
 	j := jsiiProxy_SsmcontactsRotation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *Ssmc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation_Override(s SsmcontactsRotation, scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -657,7 +657,7 @@ func SsmcontactsRotation_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func SsmcontactsRotation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func SsmcontactsRotation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func SsmcontactsRotation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func SsmcontactsRotation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
+		"@cdktn/provider-aws.ssmcontactsRotation.SsmcontactsRotation",
 		"tfResourceType",
 		&returns,
 	)

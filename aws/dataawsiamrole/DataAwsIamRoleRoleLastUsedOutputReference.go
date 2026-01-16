@@ -5,9 +5,9 @@ package dataawsiamrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamrole/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsIamRoleRoleLastUsedOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsIamRoleRoleLastUsedOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsIamRoleRoleLastUsedOutputReference_Override(d DataAwsIamRoleRoleL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
+		"@cdktn/provider-aws.dataAwsIamRole.DataAwsIamRoleRoleLastUsedOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

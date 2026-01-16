@@ -5,14 +5,14 @@ package xrayresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/xrayresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/xrayresourcepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_resource_policy aws_xray_resource_policy}.
 type XrayResourcePolicy interface {
 	cdktf.TerraformResource
 	BypassPolicyLockoutCheck() interface{}
@@ -415,7 +415,7 @@ func (j *jsiiProxy_XrayResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) XrayResourcePolicy {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayR
 	j := jsiiProxy_XrayResourcePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewXrayResourcePolicy(scope constructs.Construct, id *string, config *XrayR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/xray_resource_policy aws_xray_resource_policy} Resource.
 func NewXrayResourcePolicy_Override(x XrayResourcePolicy, scope constructs.Construct, id *string, config *XrayResourcePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		[]interface{}{scope, id, config},
 		x,
 	)
@@ -577,7 +577,7 @@ func XrayResourcePolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func XrayResourcePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func XrayResourcePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func XrayResourcePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func XrayResourcePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		"tfResourceType",
 		&returns,
 	)

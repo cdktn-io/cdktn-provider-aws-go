@@ -5,14 +5,14 @@ package docdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster aws_docdb_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster aws_docdb_cluster}.
 type DocdbCluster interface {
 	cdktf.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
@@ -1240,7 +1240,7 @@ func (j *jsiiProxy_DocdbCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster aws_docdb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster aws_docdb_cluster} Resource.
 func NewDocdbCluster(scope constructs.Construct, id *string, config *DocdbClusterConfig) DocdbCluster {
 	_init_.Initialize()
 
@@ -1250,7 +1250,7 @@ func NewDocdbCluster(scope constructs.Construct, id *string, config *DocdbCluste
 	j := jsiiProxy_DocdbCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1258,12 +1258,12 @@ func NewDocdbCluster(scope constructs.Construct, id *string, config *DocdbCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster aws_docdb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster aws_docdb_cluster} Resource.
 func NewDocdbCluster_Override(d DocdbCluster, scope constructs.Construct, id *string, config *DocdbClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1721,7 +1721,7 @@ func DocdbCluster_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1756,7 +1756,7 @@ func DocdbCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1775,7 +1775,7 @@ func DocdbCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1794,7 +1794,7 @@ func DocdbCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1807,7 +1807,7 @@ func DocdbCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.docdbCluster.DocdbCluster",
+		"@cdktn/provider-aws.docdbCluster.DocdbCluster",
 		"tfResourceType",
 		&returns,
 	)

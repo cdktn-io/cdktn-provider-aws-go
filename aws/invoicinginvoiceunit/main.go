@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnit",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnit",
 		reflect.TypeOf((*InvoicingInvoiceUnit)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig",
 		reflect.TypeOf((*InvoicingInvoiceUnitConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRule",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRule",
 		reflect.TypeOf((*InvoicingInvoiceUnitRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
 		reflect.TypeOf((*InvoicingInvoiceUnitRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleOutputReference",
 		reflect.TypeOf((*InvoicingInvoiceUnitRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitTimeouts",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitTimeouts",
 		reflect.TypeOf((*InvoicingInvoiceUnitTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitTimeoutsOutputReference",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitTimeoutsOutputReference",
 		reflect.TypeOf((*InvoicingInvoiceUnitTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package ramresourceshareaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ramresourceshareaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ramresourceshareaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter}.
 type RamResourceShareAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_RamResourceShareAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
 func NewRamResourceShareAccepter(scope constructs.Construct, id *string, config *RamResourceShareAccepterConfig) RamResourceShareAccepter {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewRamResourceShareAccepter(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_RamResourceShareAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -476,12 +476,12 @@ func NewRamResourceShareAccepter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
 func NewRamResourceShareAccepter_Override(r RamResourceShareAccepter, scope constructs.Construct, id *string, config *RamResourceShareAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -598,7 +598,7 @@ func RamResourceShareAccepter_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -633,7 +633,7 @@ func RamResourceShareAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func RamResourceShareAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func RamResourceShareAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func RamResourceShareAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
+		"@cdktn/provider-aws.ramResourceShareAccepter.RamResourceShareAccepter",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package elastictranscoderpreset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewElastictranscoderPresetVideoWatermarksList(terraformResource cdktf.IInte
 	j := jsiiProxy_ElastictranscoderPresetVideoWatermarksList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewElastictranscoderPresetVideoWatermarksList_Override(e ElastictranscoderP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

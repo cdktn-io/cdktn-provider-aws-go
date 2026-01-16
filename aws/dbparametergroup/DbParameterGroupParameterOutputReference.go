@@ -5,9 +5,9 @@ package dbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDbParameterGroupParameterOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DbParameterGroupParameterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDbParameterGroupParameterOutputReference_Override(d DbParameterGroupPara
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

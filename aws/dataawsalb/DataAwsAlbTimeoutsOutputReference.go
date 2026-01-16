@@ -5,9 +5,9 @@ package dataawsalb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsAlbTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DataAwsAlbTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsAlbTimeoutsOutputReference_Override(d DataAwsAlbTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

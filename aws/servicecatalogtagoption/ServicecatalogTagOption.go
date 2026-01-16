@@ -5,14 +5,14 @@ package servicecatalogtagoption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogtagoption/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogtagoption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option}.
 type ServicecatalogTagOption interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -439,7 +439,7 @@ func (j *jsiiProxy_ServicecatalogTagOption) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option} Resource.
 func NewServicecatalogTagOption(scope constructs.Construct, id *string, config *ServicecatalogTagOptionConfig) ServicecatalogTagOption {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewServicecatalogTagOption(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ServicecatalogTagOption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewServicecatalogTagOption(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_tag_option aws_servicecatalog_tag_option} Resource.
 func NewServicecatalogTagOption_Override(s ServicecatalogTagOption, scope constructs.Construct, id *string, config *ServicecatalogTagOptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -601,7 +601,7 @@ func ServicecatalogTagOption_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func ServicecatalogTagOption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func ServicecatalogTagOption_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ServicecatalogTagOption_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func ServicecatalogTagOption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		"tfResourceType",
 		&returns,
 	)

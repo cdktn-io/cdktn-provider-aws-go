@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociation",
 		reflect.TypeOf((*WorkspaceswebDataProtectionSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociationConfig",
+		"@cdktn/provider-aws.workspaceswebDataProtectionSettingsAssociation.WorkspaceswebDataProtectionSettingsAssociationConfig",
 		reflect.TypeOf((*WorkspaceswebDataProtectionSettingsAssociationConfig)(nil)).Elem(),
 	)
 }

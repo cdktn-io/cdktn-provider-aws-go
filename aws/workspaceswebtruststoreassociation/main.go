@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebTrustStoreAssociation.WorkspaceswebTrustStoreAssociation",
+		"@cdktn/provider-aws.workspaceswebTrustStoreAssociation.WorkspaceswebTrustStoreAssociation",
 		reflect.TypeOf((*WorkspaceswebTrustStoreAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebTrustStoreAssociation.WorkspaceswebTrustStoreAssociationConfig",
+		"@cdktn/provider-aws.workspaceswebTrustStoreAssociation.WorkspaceswebTrustStoreAssociationConfig",
 		reflect.TypeOf((*WorkspaceswebTrustStoreAssociationConfig)(nil)).Elem(),
 	)
 }

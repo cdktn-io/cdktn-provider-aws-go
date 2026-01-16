@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		reflect.TypeOf((*EcsTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecsTag.EcsTagConfig",
+		"@cdktn/provider-aws.ecsTag.EcsTagConfig",
 		reflect.TypeOf((*EcsTagConfig)(nil)).Elem(),
 	)
 }

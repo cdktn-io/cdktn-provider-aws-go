@@ -5,9 +5,9 @@ package budgetsbudgetaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/budgetsbudgetaction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/budgetsbudgetaction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewBudgetsBudgetActionDefinitionIamActionDefinitionOutputReference(terrafor
 	j := jsiiProxy_BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewBudgetsBudgetActionDefinitionIamActionDefinitionOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

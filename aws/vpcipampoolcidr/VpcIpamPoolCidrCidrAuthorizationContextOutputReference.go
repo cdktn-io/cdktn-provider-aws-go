@@ -5,9 +5,9 @@ package vpcipampoolcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipampoolcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipampoolcidr/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewVpcIpamPoolCidrCidrAuthorizationContextOutputReference(terraformResource
 	j := jsiiProxy_VpcIpamPoolCidrCidrAuthorizationContextOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidrCidrAuthorizationContextOutputReference",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidrCidrAuthorizationContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewVpcIpamPoolCidrCidrAuthorizationContextOutputReference_Override(v VpcIpa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidrCidrAuthorizationContextOutputReference",
+		"@cdktn/provider-aws.vpcIpamPoolCidr.VpcIpamPoolCidrCidrAuthorizationContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

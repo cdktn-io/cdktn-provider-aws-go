@@ -5,14 +5,14 @@ package placementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/placementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/placementgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/placement_group aws_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/placement_group aws_placement_group}.
 type PlacementGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_PlacementGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/placement_group aws_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/placement_group aws_placement_group} Resource.
 func NewPlacementGroup(scope constructs.Construct, id *string, config *PlacementGroupConfig) PlacementGroup {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewPlacementGroup(scope constructs.Construct, id *string, config *Placement
 	j := jsiiProxy_PlacementGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewPlacementGroup(scope constructs.Construct, id *string, config *Placement
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/placement_group aws_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/placement_group aws_placement_group} Resource.
 func NewPlacementGroup_Override(p PlacementGroup, scope constructs.Construct, id *string, config *PlacementGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -693,7 +693,7 @@ func PlacementGroup_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func PlacementGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func PlacementGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func PlacementGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func PlacementGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.placementGroup.PlacementGroup",
+		"@cdktn/provider-aws.placementGroup.PlacementGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package appconfigconfigurationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appconfigconfigurationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appconfigconfigurationprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile}.
 type AppconfigConfigurationProfile interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_AppconfigConfigurationProfile) ValidatorInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) AppconfigConfigurationProfile {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, co
 	j := jsiiProxy_AppconfigConfigurationProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appconfig_configuration_profile aws_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile_Override(a AppconfigConfigurationProfile, scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -821,7 +821,7 @@ func AppconfigConfigurationProfile_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -856,7 +856,7 @@ func AppconfigConfigurationProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func AppconfigConfigurationProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -894,7 +894,7 @@ func AppconfigConfigurationProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func AppconfigConfigurationProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
+		"@cdktn/provider-aws.appconfigConfigurationProfile.AppconfigConfigurationProfile",
 		"tfResourceType",
 		&returns,
 	)

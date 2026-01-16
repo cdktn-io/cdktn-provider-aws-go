@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2Fleet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2Fleet",
 		reflect.TypeOf((*Ec2Fleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -131,15 +131,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetConfig",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetConfig",
 		reflect.TypeOf((*Ec2FleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSet",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSet",
 		reflect.TypeOf((*Ec2FleetFleetInstanceSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
 		reflect.TypeOf((*Ec2FleetFleetInstanceSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetOutputReference",
 		reflect.TypeOf((*Ec2FleetFleetInstanceSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,15 +205,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfig",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfig",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecification",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecification",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigLaunchTemplateSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigList",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigList",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -315,19 +315,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverride",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverride",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverride)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirements",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirements",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirements)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCount",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCount",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCountOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCountOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorCountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -365,11 +365,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMib",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMib",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMib)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMibOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMibOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAcceleratorTotalMemoryMibOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -407,11 +407,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbps",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbps",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -449,11 +449,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpu",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpu",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpu)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpuOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpuOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPerVcpuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -491,11 +491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMib",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMib",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMib)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -532,11 +532,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbps",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbps",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbpsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbpsOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBandwidthGbpsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -574,11 +574,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCountOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCountOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInterfaceCountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -616,7 +616,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorCount", GoGetter: "AcceleratorCount"},
@@ -727,11 +727,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGb",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGb",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGbOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGbOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalStorageGbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -769,11 +769,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCount",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCount",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCountOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCountOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -810,7 +810,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideList",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideList",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -832,7 +832,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
 		reflect.TypeOf((*Ec2FleetLaunchTemplateConfigOverrideOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
@@ -886,15 +886,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetOnDemandOptions",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetOnDemandOptions",
 		reflect.TypeOf((*Ec2FleetOnDemandOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsCapacityReservationOptions",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsCapacityReservationOptions",
 		reflect.TypeOf((*Ec2FleetOnDemandOptionsCapacityReservationOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference",
 		reflect.TypeOf((*Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -929,7 +929,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetOnDemandOptionsOutputReference",
 		reflect.TypeOf((*Ec2FleetOnDemandOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -980,19 +980,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptions",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptions",
 		reflect.TypeOf((*Ec2FleetSpotOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategies",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategies",
 		reflect.TypeOf((*Ec2FleetSpotOptionsMaintenanceStrategies)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance",
 		reflect.TypeOf((*Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalance)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference",
 		reflect.TypeOf((*Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1030,7 +1030,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference",
 		reflect.TypeOf((*Ec2FleetSpotOptionsMaintenanceStrategiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityRebalance", GoGetter: "CapacityRebalance"},
@@ -1066,7 +1066,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetSpotOptionsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetSpotOptionsOutputReference",
 		reflect.TypeOf((*Ec2FleetSpotOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
@@ -1123,11 +1123,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetTargetCapacitySpecification",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetTargetCapacitySpecification",
 		reflect.TypeOf((*Ec2FleetTargetCapacitySpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetTargetCapacitySpecificationOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetTargetCapacitySpecificationOutputReference",
 		reflect.TypeOf((*Ec2FleetTargetCapacitySpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1172,11 +1172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetTimeouts",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetTimeouts",
 		reflect.TypeOf((*Ec2FleetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2FleetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

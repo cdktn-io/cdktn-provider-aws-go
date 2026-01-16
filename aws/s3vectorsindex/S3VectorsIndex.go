@@ -5,14 +5,14 @@ package s3vectorsindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3vectorsindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3vectorsindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_index aws_s3vectors_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_index aws_s3vectors_index}.
 type S3VectorsIndex interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -41,6 +41,8 @@ type S3VectorsIndex interface {
 	DistanceMetric() *string
 	SetDistanceMetric(val *string)
 	DistanceMetricInput() *string
+	EncryptionConfiguration() S3VectorsIndexEncryptionConfigurationList
+	EncryptionConfigurationInput() interface{}
 	// Experimental.
 	ForEach() cdktf.ITerraformIterator
 	// Experimental.
@@ -57,6 +59,8 @@ type S3VectorsIndex interface {
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	MetadataConfiguration() S3VectorsIndexMetadataConfigurationList
+	MetadataConfigurationInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -128,6 +132,10 @@ type S3VectorsIndex interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionConfiguration(value interface{})
+	PutMetadataConfiguration(value interface{})
+	ResetEncryptionConfiguration()
+	ResetMetadataConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -271,6 +279,26 @@ func (j *jsiiProxy_S3VectorsIndex) DistanceMetricInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_S3VectorsIndex) EncryptionConfiguration() S3VectorsIndexEncryptionConfigurationList {
+	var returns S3VectorsIndexEncryptionConfigurationList
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3VectorsIndex) EncryptionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_S3VectorsIndex) ForEach() cdktf.ITerraformIterator {
 	var returns cdktf.ITerraformIterator
 	_jsii_.Get(
@@ -336,6 +364,26 @@ func (j *jsiiProxy_S3VectorsIndex) Lifecycle() *cdktf.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3VectorsIndex) MetadataConfiguration() S3VectorsIndexMetadataConfigurationList {
+	var returns S3VectorsIndexMetadataConfigurationList
+	_jsii_.Get(
+		j,
+		"metadataConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3VectorsIndex) MetadataConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metadataConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -482,7 +530,7 @@ func (j *jsiiProxy_S3VectorsIndex) VectorBucketNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_index aws_s3vectors_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_index aws_s3vectors_index} Resource.
 func NewS3VectorsIndex(scope constructs.Construct, id *string, config *S3VectorsIndexConfig) S3VectorsIndex {
 	_init_.Initialize()
 
@@ -492,7 +540,7 @@ func NewS3VectorsIndex(scope constructs.Construct, id *string, config *S3Vectors
 	j := jsiiProxy_S3VectorsIndex{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -500,12 +548,12 @@ func NewS3VectorsIndex(scope constructs.Construct, id *string, config *S3Vectors
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3vectors_index aws_s3vectors_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_index aws_s3vectors_index} Resource.
 func NewS3VectorsIndex_Override(s S3VectorsIndex, scope constructs.Construct, id *string, config *S3VectorsIndexConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -666,7 +714,7 @@ func S3VectorsIndex_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -701,7 +749,7 @@ func S3VectorsIndex_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +768,7 @@ func S3VectorsIndex_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -739,7 +787,7 @@ func S3VectorsIndex_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -752,7 +800,7 @@ func S3VectorsIndex_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3VectorsIndex.S3VectorsIndex",
+		"@cdktn/provider-aws.s3VectorsIndex.S3VectorsIndex",
 		"tfResourceType",
 		&returns,
 	)
@@ -1006,6 +1054,44 @@ func (s *jsiiProxy_S3VectorsIndex) OverrideLogicalId(newLogicalId *string) {
 		s,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (s *jsiiProxy_S3VectorsIndex) PutEncryptionConfiguration(value interface{}) {
+	if err := s.validatePutEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putEncryptionConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_S3VectorsIndex) PutMetadataConfiguration(value interface{}) {
+	if err := s.validatePutMetadataConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putMetadataConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_S3VectorsIndex) ResetEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetEncryptionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3VectorsIndex) ResetMetadataConfiguration() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMetadataConfiguration",
+		nil, // no parameters
 	)
 }
 

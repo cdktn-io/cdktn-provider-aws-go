@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		reflect.TypeOf((*Route53DomainsRegisteredDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "abuseContactEmail", GoGetter: "AbuseContactEmail"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainAdminContact",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainAdminContact",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainAdminContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainAdminContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainAdminContactOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainAdminContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLine1", GoGetter: "AddressLine1"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainBillingContact",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainBillingContact",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainBillingContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainBillingContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainBillingContactOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainBillingContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLine1", GoGetter: "AddressLine1"},
@@ -282,15 +282,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainConfig",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainConfig",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServer",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServer",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainNameServer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainNameServerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -312,7 +312,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainNameServerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -349,11 +349,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainRegistrantContact",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainRegistrantContact",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainRegistrantContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainRegistrantContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainRegistrantContactOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainRegistrantContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLine1", GoGetter: "AddressLine1"},
@@ -427,11 +427,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTechContact",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTechContact",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainTechContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTechContactOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTechContactOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainTechContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLine1", GoGetter: "AddressLine1"},
@@ -505,11 +505,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTimeouts",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTimeouts",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainTimeoutsOutputReference",
 		reflect.TypeOf((*Route53DomainsRegisteredDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

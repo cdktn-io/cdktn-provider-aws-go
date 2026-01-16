@@ -5,9 +5,9 @@ package dataawselasticbeanstalkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticbeanstalkapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticbeanstalkapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsElasticBeanstalkApplicationAppversionLifecycleList(terraformResou
 	j := jsiiProxy_DataAwsElasticBeanstalkApplicationAppversionLifecycleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplicationAppversionLifecycleList",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplicationAppversionLifecycleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsElasticBeanstalkApplicationAppversionLifecycleList_Override(d Dat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplicationAppversionLifecycleList",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkApplication.DataAwsElasticBeanstalkApplicationAppversionLifecycleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

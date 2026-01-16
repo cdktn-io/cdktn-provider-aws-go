@@ -5,9 +5,9 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewRdsClusterRestoreToPointInTimeOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_RdsClusterRestoreToPointInTimeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewRdsClusterRestoreToPointInTimeOutputReference_Override(r RdsClusterResto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

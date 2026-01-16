@@ -5,9 +5,9 @@ package emrserverlessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrserverlessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrserverlessapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewEmrserverlessApplicationAutoStartConfigurationOutputReference(terraformR
 	j := jsiiProxy_EmrserverlessApplicationAutoStartConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplicationAutoStartConfigurationOutputReference",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplicationAutoStartConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewEmrserverlessApplicationAutoStartConfigurationOutputReference_Override(e
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplicationAutoStartConfigurationOutputReference",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplicationAutoStartConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

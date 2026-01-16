@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsSnapshot.EbsSnapshot",
+		"@cdktn/provider-aws.ebsSnapshot.EbsSnapshot",
 		reflect.TypeOf((*EbsSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsSnapshot.EbsSnapshotConfig",
+		"@cdktn/provider-aws.ebsSnapshot.EbsSnapshotConfig",
 		reflect.TypeOf((*EbsSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsSnapshot.EbsSnapshotTimeouts",
+		"@cdktn/provider-aws.ebsSnapshot.EbsSnapshotTimeouts",
 		reflect.TypeOf((*EbsSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsSnapshot.EbsSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-aws.ebsSnapshot.EbsSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*EbsSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

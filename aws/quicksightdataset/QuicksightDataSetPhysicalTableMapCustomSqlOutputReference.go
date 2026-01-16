@@ -5,9 +5,9 @@ package quicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewQuicksightDataSetPhysicalTableMapCustomSqlOutputReference(terraformResou
 	j := jsiiProxy_QuicksightDataSetPhysicalTableMapCustomSqlOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewQuicksightDataSetPhysicalTableMapCustomSqlOutputReference_Override(q Qui
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetPhysicalTableMapCustomSqlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

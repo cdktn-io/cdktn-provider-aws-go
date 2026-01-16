@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptions",
+		"@cdktn/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptions",
 		reflect.TypeOf((*VpcBlockPublicAccessOptions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsConfig",
+		"@cdktn/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsConfig",
 		reflect.TypeOf((*VpcBlockPublicAccessOptionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsTimeouts",
+		"@cdktn/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsTimeouts",
 		reflect.TypeOf((*VpcBlockPublicAccessOptionsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcBlockPublicAccessOptions.VpcBlockPublicAccessOptionsTimeoutsOutputReference",
 		reflect.TypeOf((*VpcBlockPublicAccessOptionsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

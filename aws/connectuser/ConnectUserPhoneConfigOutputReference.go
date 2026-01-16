@@ -5,9 +5,9 @@ package connectuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewConnectUserPhoneConfigOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_ConnectUserPhoneConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewConnectUserPhoneConfigOutputReference_Override(c ConnectUserPhoneConfigO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

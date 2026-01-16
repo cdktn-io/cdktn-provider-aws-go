@@ -5,14 +5,14 @@ package ec2availabilityzonegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2availabilityzonegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2availabilityzonegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group}.
 type Ec2AvailabilityZoneGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_Ec2AvailabilityZoneGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource.
 func NewEc2AvailabilityZoneGroup(scope constructs.Construct, id *string, config *Ec2AvailabilityZoneGroupConfig) Ec2AvailabilityZoneGroup {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewEc2AvailabilityZoneGroup(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_Ec2AvailabilityZoneGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewEc2AvailabilityZoneGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_availability_zone_group aws_ec2_availability_zone_group} Resource.
 func NewEc2AvailabilityZoneGroup_Override(e Ec2AvailabilityZoneGroup, scope constructs.Construct, id *string, config *Ec2AvailabilityZoneGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -531,7 +531,7 @@ func Ec2AvailabilityZoneGroup_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func Ec2AvailabilityZoneGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func Ec2AvailabilityZoneGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func Ec2AvailabilityZoneGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func Ec2AvailabilityZoneGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
+		"@cdktn/provider-aws.ec2AvailabilityZoneGroup.Ec2AvailabilityZoneGroup",
 		"tfResourceType",
 		&returns,
 	)

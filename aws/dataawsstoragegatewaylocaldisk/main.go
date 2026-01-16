@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsStoragegatewayLocalDisk.DataAwsStoragegatewayLocalDisk",
+		"@cdktn/provider-aws.dataAwsStoragegatewayLocalDisk.DataAwsStoragegatewayLocalDisk",
 		reflect.TypeOf((*DataAwsStoragegatewayLocalDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsStoragegatewayLocalDisk.DataAwsStoragegatewayLocalDiskConfig",
+		"@cdktn/provider-aws.dataAwsStoragegatewayLocalDisk.DataAwsStoragegatewayLocalDiskConfig",
 		reflect.TypeOf((*DataAwsStoragegatewayLocalDiskConfig)(nil)).Elem(),
 	)
 }

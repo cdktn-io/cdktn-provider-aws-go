@@ -5,9 +5,9 @@ package docdbclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbclusterparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDocdbClusterParameterGroupParameterOutputReference(terraformResource cdk
 	j := jsiiProxy_DocdbClusterParameterGroupParameterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDocdbClusterParameterGroupParameterOutputReference_Override(d DocdbClust
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

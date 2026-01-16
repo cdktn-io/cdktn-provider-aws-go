@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		reflect.TypeOf((*DataAwsWafregionalSubscribedRuleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroupConfig",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroupConfig",
 		reflect.TypeOf((*DataAwsWafregionalSubscribedRuleGroupConfig)(nil)).Elem(),
 	)
 }

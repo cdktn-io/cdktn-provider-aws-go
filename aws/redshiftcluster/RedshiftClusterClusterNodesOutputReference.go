@@ -5,9 +5,9 @@ package redshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewRedshiftClusterClusterNodesOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_RedshiftClusterClusterNodesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewRedshiftClusterClusterNodesOutputReference_Override(r RedshiftClusterClu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

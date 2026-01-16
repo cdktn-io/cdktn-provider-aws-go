@@ -5,9 +5,9 @@ package datazoneenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDatazoneEnvironmentUserParametersList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DatazoneEnvironmentUserParametersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDatazoneEnvironmentUserParametersList_Override(d DatazoneEnvironmentUser
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociation",
 		reflect.TypeOf((*Wafv2WebAclAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationConfigA",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationConfigA",
 		reflect.TypeOf((*Wafv2WebAclAssociationConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeouts",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeouts",
 		reflect.TypeOf((*Wafv2WebAclAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*Wafv2WebAclAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

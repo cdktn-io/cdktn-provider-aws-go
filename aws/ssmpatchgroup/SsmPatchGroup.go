@@ -5,14 +5,14 @@ package ssmpatchgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmpatchgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmpatchgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_patch_group aws_ssm_patch_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_patch_group aws_ssm_patch_group}.
 type SsmPatchGroup interface {
 	cdktf.TerraformResource
 	BaselineId() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SsmPatchGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
 func NewSsmPatchGroup(scope constructs.Construct, id *string, config *SsmPatchGroupConfig) SsmPatchGroup {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSsmPatchGroup(scope constructs.Construct, id *string, config *SsmPatchGr
 	j := jsiiProxy_SsmPatchGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSsmPatchGroup(scope constructs.Construct, id *string, config *SsmPatchGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_patch_group aws_ssm_patch_group} Resource.
 func NewSsmPatchGroup_Override(s SsmPatchGroup, scope constructs.Construct, id *string, config *SsmPatchGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func SsmPatchGroup_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func SsmPatchGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func SsmPatchGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func SsmPatchGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func SsmPatchGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmPatchGroup.SsmPatchGroup",
+		"@cdktn/provider-aws.ssmPatchGroup.SsmPatchGroup",
 		"tfResourceType",
 		&returns,
 	)

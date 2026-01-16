@@ -5,9 +5,9 @@ package lakeformationoptin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationoptin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationoptin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLakeformationOptInResourceDataTableList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_LakeformationOptInResourceDataTableList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataTableList",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataTableList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLakeformationOptInResourceDataTableList_Override(l LakeformationOptInRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataTableList",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptInResourceDataTableList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

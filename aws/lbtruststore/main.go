@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTrustStore.LbTrustStore",
+		"@cdktn/provider-aws.lbTrustStore.LbTrustStore",
 		reflect.TypeOf((*LbTrustStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTrustStore.LbTrustStoreConfig",
+		"@cdktn/provider-aws.lbTrustStore.LbTrustStoreConfig",
 		reflect.TypeOf((*LbTrustStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTrustStore.LbTrustStoreTimeouts",
+		"@cdktn/provider-aws.lbTrustStore.LbTrustStoreTimeouts",
 		reflect.TypeOf((*LbTrustStoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTrustStore.LbTrustStoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.lbTrustStore.LbTrustStoreTimeoutsOutputReference",
 		reflect.TypeOf((*LbTrustStoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

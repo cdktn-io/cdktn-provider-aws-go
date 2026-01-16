@@ -5,14 +5,14 @@ package drsreplicationconfigurationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/drsreplicationconfigurationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/drsreplicationconfigurationtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template}.
 type DrsReplicationConfigurationTemplate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -716,7 +716,7 @@ func (j *jsiiProxy_DrsReplicationConfigurationTemplate) UseDedicatedReplicationS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template} Resource.
 func NewDrsReplicationConfigurationTemplate(scope constructs.Construct, id *string, config *DrsReplicationConfigurationTemplateConfig) DrsReplicationConfigurationTemplate {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewDrsReplicationConfigurationTemplate(scope constructs.Construct, id *stri
 	j := jsiiProxy_DrsReplicationConfigurationTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -734,12 +734,12 @@ func NewDrsReplicationConfigurationTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/drs_replication_configuration_template aws_drs_replication_configuration_template} Resource.
 func NewDrsReplicationConfigurationTemplate_Override(d DrsReplicationConfigurationTemplate, scope constructs.Construct, id *string, config *DrsReplicationConfigurationTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -988,7 +988,7 @@ func DrsReplicationConfigurationTemplate_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1023,7 +1023,7 @@ func DrsReplicationConfigurationTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1042,7 +1042,7 @@ func DrsReplicationConfigurationTemplate_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1061,7 +1061,7 @@ func DrsReplicationConfigurationTemplate_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1074,7 +1074,7 @@ func DrsReplicationConfigurationTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
+		"@cdktn/provider-aws.drsReplicationConfigurationTemplate.DrsReplicationConfigurationTemplate",
 		"tfResourceType",
 		&returns,
 	)

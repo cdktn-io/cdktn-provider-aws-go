@@ -5,9 +5,9 @@ package ssmresourcedatasync
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmresourcedatasync/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmresourcedatasync/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -277,7 +277,7 @@ func NewSsmResourceDataSyncS3DestinationOutputReference(terraformResource cdktf.
 	j := jsiiProxy_SsmResourceDataSyncS3DestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -289,7 +289,7 @@ func NewSsmResourceDataSyncS3DestinationOutputReference_Override(s SsmResourceDa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

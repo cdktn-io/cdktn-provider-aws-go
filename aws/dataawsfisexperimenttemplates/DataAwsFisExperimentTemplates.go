@@ -5,14 +5,14 @@ package dataawsfisexperimenttemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsfisexperimenttemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsfisexperimenttemplates/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates}.
 type DataAwsFisExperimentTemplates interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsFisExperimentTemplates) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
 func NewDataAwsFisExperimentTemplates(scope constructs.Construct, id *string, config *DataAwsFisExperimentTemplatesConfig) DataAwsFisExperimentTemplates {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsFisExperimentTemplates(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsFisExperimentTemplates{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsFisExperimentTemplates(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
 func NewDataAwsFisExperimentTemplates_Override(d DataAwsFisExperimentTemplates, scope constructs.Construct, id *string, config *DataAwsFisExperimentTemplatesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsFisExperimentTemplates_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsFisExperimentTemplates_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsFisExperimentTemplates_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsFisExperimentTemplates_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsFisExperimentTemplates_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
+		"@cdktn/provider-aws.dataAwsFisExperimentTemplates.DataAwsFisExperimentTemplates",
 		"tfResourceType",
 		&returns,
 	)

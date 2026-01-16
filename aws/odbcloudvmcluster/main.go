@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		reflect.TypeOf((*OdbCloudVmCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -153,15 +153,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterConfig",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterConfig",
 		reflect.TypeOf((*OdbCloudVmClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptions",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptions",
 		reflect.TypeOf((*OdbCloudVmClusterDataCollectionOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptionsList",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptionsList",
 		reflect.TypeOf((*OdbCloudVmClusterDataCollectionOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -183,7 +183,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptionsOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterDataCollectionOptionsOutputReference",
 		reflect.TypeOf((*OdbCloudVmClusterDataCollectionOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,15 +221,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCache",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCache",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCache)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlans",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlans",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCacheDbPlans)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCacheDbPlansList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCacheDbPlansOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -285,7 +285,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheList",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheList",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCacheList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -306,7 +306,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheOutputReference",
 		reflect.TypeOf((*OdbCloudVmClusterIormConfigCacheOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -342,11 +342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeouts",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeouts",
 		reflect.TypeOf((*OdbCloudVmClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterTimeoutsOutputReference",
 		reflect.TypeOf((*OdbCloudVmClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

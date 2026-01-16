@@ -5,9 +5,9 @@ package dataawsnatgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnatgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsNatGatewayFilterList(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_DataAwsNatGatewayFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsNatGatewayFilterList_Override(d DataAwsNatGatewayFilterList, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

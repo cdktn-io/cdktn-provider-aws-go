@@ -5,14 +5,14 @@ package eksfargateprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksfargateprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksfargateprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile}.
 type EksFargateProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_EksFargateProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
 func NewEksFargateProfile(scope constructs.Construct, id *string, config *EksFargateProfileConfig) EksFargateProfile {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewEksFargateProfile(scope constructs.Construct, id *string, config *EksFar
 	j := jsiiProxy_EksFargateProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewEksFargateProfile(scope constructs.Construct, id *string, config *EksFar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_fargate_profile aws_eks_fargate_profile} Resource.
 func NewEksFargateProfile_Override(e EksFargateProfile, scope constructs.Construct, id *string, config *EksFargateProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -739,7 +739,7 @@ func EksFargateProfile_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -774,7 +774,7 @@ func EksFargateProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func EksFargateProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func EksFargateProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func EksFargateProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		"tfResourceType",
 		&returns,
 	)

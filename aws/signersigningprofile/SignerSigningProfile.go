@@ -5,14 +5,14 @@ package signersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/signersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/signersigningprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile aws_signer_signing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile aws_signer_signing_profile}.
 type SignerSigningProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_SignerSigningProfile) VersionArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
 func NewSignerSigningProfile(scope constructs.Construct, id *string, config *SignerSigningProfileConfig) SignerSigningProfile {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewSignerSigningProfile(scope constructs.Construct, id *string, config *Sig
 	j := jsiiProxy_SignerSigningProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -609,12 +609,12 @@ func NewSignerSigningProfile(scope constructs.Construct, id *string, config *Sig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
 func NewSignerSigningProfile_Override(s SignerSigningProfile, scope constructs.Construct, id *string, config *SignerSigningProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -786,7 +786,7 @@ func SignerSigningProfile_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -821,7 +821,7 @@ func SignerSigningProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func SignerSigningProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func SignerSigningProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func SignerSigningProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		"tfResourceType",
 		&returns,
 	)

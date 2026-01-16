@@ -5,9 +5,9 @@ package dataawsdirectoryservicedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdirectoryservicedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdirectoryservicedirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -236,7 +236,7 @@ func NewDataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference(terraformR
 	j := jsiiProxy_DataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDirectoryServiceDirectory.DataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDirectoryServiceDirectory.DataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,7 +248,7 @@ func NewDataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDirectoryServiceDirectory.DataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference",
+		"@cdktn/provider-aws.dataAwsDirectoryServiceDirectory.DataAwsDirectoryServiceDirectoryRadiusSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

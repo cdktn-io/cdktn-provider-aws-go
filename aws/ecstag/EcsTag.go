@@ -5,14 +5,14 @@ package ecstag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_tag aws_ecs_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_tag aws_ecs_tag}.
 type EcsTag interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_EcsTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
 func NewEcsTag(scope constructs.Construct, id *string, config *EcsTagConfig) EcsTag {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewEcsTag(scope constructs.Construct, id *string, config *EcsTagConfig) Ecs
 	j := jsiiProxy_EcsTag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewEcsTag(scope constructs.Construct, id *string, config *EcsTagConfig) Ecs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
 func NewEcsTag_Override(e EcsTag, scope constructs.Construct, id *string, config *EcsTagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -565,7 +565,7 @@ func EcsTag_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func EcsTag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func EcsTag_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func EcsTag_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func EcsTag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecsTag.EcsTag",
+		"@cdktn/provider-aws.ecsTag.EcsTag",
 		"tfResourceType",
 		&returns,
 	)

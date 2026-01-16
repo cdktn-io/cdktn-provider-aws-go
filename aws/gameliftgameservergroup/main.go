@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroup",
 		reflect.TypeOf((*GameliftGameServerGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,11 +108,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicy",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicy",
 		reflect.TypeOf((*GameliftGameServerGroupAutoScalingPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyOutputReference",
 		reflect.TypeOf((*GameliftGameServerGroupAutoScalingPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration",
 		reflect.TypeOf((*GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference",
 		reflect.TypeOf((*GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,15 +188,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupConfig",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupConfig",
 		reflect.TypeOf((*GameliftGameServerGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinition",
 		reflect.TypeOf((*GameliftGameServerGroupInstanceDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionList",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionList",
 		reflect.TypeOf((*GameliftGameServerGroupInstanceDefinitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -218,7 +218,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupInstanceDefinitionOutputReference",
 		reflect.TypeOf((*GameliftGameServerGroupInstanceDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -255,11 +255,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupLaunchTemplate",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupLaunchTemplate",
 		reflect.TypeOf((*GameliftGameServerGroupLaunchTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupLaunchTemplateOutputReference",
 		reflect.TypeOf((*GameliftGameServerGroupLaunchTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -300,11 +300,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupTimeouts",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupTimeouts",
 		reflect.TypeOf((*GameliftGameServerGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.gameliftGameServerGroup.GameliftGameServerGroupTimeoutsOutputReference",
 		reflect.TypeOf((*GameliftGameServerGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

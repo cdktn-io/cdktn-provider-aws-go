@@ -5,14 +5,14 @@ package vpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpc/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc aws_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc aws_vpc}.
 type Vpc interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -758,7 +758,7 @@ func (j *jsiiProxy_Vpc) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc aws_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc aws_vpc} Resource.
 func NewVpc(scope constructs.Construct, id *string, config *VpcConfig) Vpc {
 	_init_.Initialize()
 
@@ -768,7 +768,7 @@ func NewVpc(scope constructs.Construct, id *string, config *VpcConfig) Vpc {
 	j := jsiiProxy_Vpc{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -776,12 +776,12 @@ func NewVpc(scope constructs.Construct, id *string, config *VpcConfig) Vpc {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc aws_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc aws_vpc} Resource.
 func NewVpc_Override(v Vpc, scope constructs.Construct, id *string, config *VpcConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -1041,7 +1041,7 @@ func Vpc_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1076,7 +1076,7 @@ func Vpc_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func Vpc_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1114,7 +1114,7 @@ func Vpc_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1127,7 +1127,7 @@ func Vpc_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpc.Vpc",
+		"@cdktn/provider-aws.vpc.Vpc",
 		"tfResourceType",
 		&returns,
 	)

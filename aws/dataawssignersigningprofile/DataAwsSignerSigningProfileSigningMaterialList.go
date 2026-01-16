@@ -5,9 +5,9 @@ package dataawssignersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssignersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssignersigningprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsSignerSigningProfileSigningMaterialList(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsSignerSigningProfileSigningMaterialList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsSignerSigningProfileSigningMaterialList_Override(d DataAwsSignerS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

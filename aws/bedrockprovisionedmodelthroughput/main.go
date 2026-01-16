@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughput",
+		"@cdktn/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughput",
 		reflect.TypeOf((*BedrockProvisionedModelThroughput)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputConfig",
+		"@cdktn/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputConfig",
 		reflect.TypeOf((*BedrockProvisionedModelThroughputConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputTimeouts",
+		"@cdktn/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputTimeouts",
 		reflect.TypeOf((*BedrockProvisionedModelThroughputTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockProvisionedModelThroughput.BedrockProvisionedModelThroughputTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockProvisionedModelThroughputTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

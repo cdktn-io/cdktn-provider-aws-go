@@ -5,14 +5,14 @@ package dataawsiaminstanceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiaminstanceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiaminstanceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile}.
 type DataAwsIamInstanceProfile interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataAwsIamInstanceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
 func NewDataAwsIamInstanceProfile(scope constructs.Construct, id *string, config *DataAwsIamInstanceProfileConfig) DataAwsIamInstanceProfile {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataAwsIamInstanceProfile(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsIamInstanceProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -372,12 +372,12 @@ func NewDataAwsIamInstanceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
 func NewDataAwsIamInstanceProfile_Override(d DataAwsIamInstanceProfile, scope constructs.Construct, id *string, config *DataAwsIamInstanceProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -461,7 +461,7 @@ func DataAwsIamInstanceProfile_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func DataAwsIamInstanceProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsIamInstanceProfile_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func DataAwsIamInstanceProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func DataAwsIamInstanceProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfile.DataAwsIamInstanceProfile",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package ssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSsoadminApplicationPortalOptionsSignInOptionsList(terraformResource cdkt
 	j := jsiiProxy_SsoadminApplicationPortalOptionsSignInOptionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptionsList",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSsoadminApplicationPortalOptionsSignInOptionsList_Override(s SsoadminApp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptionsList",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplicationPortalOptionsSignInOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstance",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstance",
 		reflect.TypeOf((*CloudformationStackSetInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceConfig",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceConfig",
 		reflect.TypeOf((*CloudformationStackSetInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceDeploymentTargets",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceDeploymentTargets",
 		reflect.TypeOf((*CloudformationStackSetInstanceDeploymentTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceDeploymentTargetsOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceDeploymentTargetsOutputReference",
 		reflect.TypeOf((*CloudformationStackSetInstanceDeploymentTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountFilterType", GoGetter: "AccountFilterType"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceOperationPreferences",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceOperationPreferences",
 		reflect.TypeOf((*CloudformationStackSetInstanceOperationPreferences)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceOperationPreferencesOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceOperationPreferencesOutputReference",
 		reflect.TypeOf((*CloudformationStackSetInstanceOperationPreferencesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummaries",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummaries",
 		reflect.TypeOf((*CloudformationStackSetInstanceStackInstanceSummaries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummariesList",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummariesList",
 		reflect.TypeOf((*CloudformationStackSetInstanceStackInstanceSummariesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -235,7 +235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummariesOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceStackInstanceSummariesOutputReference",
 		reflect.TypeOf((*CloudformationStackSetInstanceStackInstanceSummariesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -270,11 +270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceTimeouts",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceTimeouts",
 		reflect.TypeOf((*CloudformationStackSetInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudformationStackSetInstance.CloudformationStackSetInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*CloudformationStackSetInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

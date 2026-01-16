@@ -5,14 +5,14 @@ package workspacesconnectionalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspacesconnectionalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesconnectionalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias}.
 type WorkspacesConnectionAlias interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_WorkspacesConnectionAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) WorkspacesConnectionAlias {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config
 	j := jsiiProxy_WorkspacesConnectionAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewWorkspacesConnectionAlias(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_connection_alias aws_workspaces_connection_alias} Resource.
 func NewWorkspacesConnectionAlias_Override(w WorkspacesConnectionAlias, scope constructs.Construct, id *string, config *WorkspacesConnectionAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -565,7 +565,7 @@ func WorkspacesConnectionAlias_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func WorkspacesConnectionAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func WorkspacesConnectionAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func WorkspacesConnectionAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func WorkspacesConnectionAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		"tfResourceType",
 		&returns,
 	)

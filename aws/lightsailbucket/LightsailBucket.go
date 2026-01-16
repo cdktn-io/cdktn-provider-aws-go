@@ -5,14 +5,14 @@ package lightsailbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailbucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
 type LightsailBucket interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_LightsailBucket) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket(scope constructs.Construct, id *string, config *LightsailBucketConfig) LightsailBucket {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewLightsailBucket(scope constructs.Construct, id *string, config *Lightsai
 	j := jsiiProxy_LightsailBucket{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -525,12 +525,12 @@ func NewLightsailBucket(scope constructs.Construct, id *string, config *Lightsai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket_Override(l LightsailBucket, scope constructs.Construct, id *string, config *LightsailBucketConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -691,7 +691,7 @@ func LightsailBucket_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func LightsailBucket_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func LightsailBucket_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func LightsailBucket_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func LightsailBucket_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailBucket.LightsailBucket",
+		"@cdktn/provider-aws.lightsailBucket.LightsailBucket",
 		"tfResourceType",
 		&returns,
 	)

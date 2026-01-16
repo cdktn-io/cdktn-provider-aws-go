@@ -5,9 +5,9 @@ package mwaaenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mwaaenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mwaaenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewMwaaEnvironmentTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_MwaaEnvironmentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mwaaEnvironment.MwaaEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.mwaaEnvironment.MwaaEnvironmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewMwaaEnvironmentTimeoutsOutputReference_Override(m MwaaEnvironmentTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mwaaEnvironment.MwaaEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.mwaaEnvironment.MwaaEnvironmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -5,9 +5,9 @@ package launchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLaunchConfigurationMetadataOptionsOutputReference(terraformResource cdkt
 	j := jsiiProxy_LaunchConfigurationMetadataOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationMetadataOptionsOutputReference",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationMetadataOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLaunchConfigurationMetadataOptionsOutputReference_Override(l LaunchConfi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationMetadataOptionsOutputReference",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationMetadataOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

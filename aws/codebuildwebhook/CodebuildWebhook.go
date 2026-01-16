@@ -5,14 +5,14 @@ package codebuildwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildwebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_webhook aws_codebuild_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_webhook aws_codebuild_webhook}.
 type CodebuildWebhook interface {
 	cdktf.TerraformResource
 	BranchFilter() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_CodebuildWebhook) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_webhook aws_codebuild_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_webhook aws_codebuild_webhook} Resource.
 func NewCodebuildWebhook(scope constructs.Construct, id *string, config *CodebuildWebhookConfig) CodebuildWebhook {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewCodebuildWebhook(scope constructs.Construct, id *string, config *Codebui
 	j := jsiiProxy_CodebuildWebhook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewCodebuildWebhook(scope constructs.Construct, id *string, config *Codebui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_webhook aws_codebuild_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_webhook aws_codebuild_webhook} Resource.
 func NewCodebuildWebhook_Override(c CodebuildWebhook, scope constructs.Construct, id *string, config *CodebuildWebhookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -707,7 +707,7 @@ func CodebuildWebhook_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func CodebuildWebhook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func CodebuildWebhook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func CodebuildWebhook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func CodebuildWebhook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhook",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhook",
 		"tfResourceType",
 		&returns,
 	)

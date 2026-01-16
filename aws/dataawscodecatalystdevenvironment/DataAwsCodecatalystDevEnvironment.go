@@ -5,14 +5,14 @@ package dataawscodecatalystdevenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscodecatalystdevenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscodecatalystdevenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment}.
 type DataAwsCodecatalystDevEnvironment interface {
 	cdktf.TerraformDataSource
 	Alias() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_DataAwsCodecatalystDevEnvironment) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Data Source.
 func NewDataAwsCodecatalystDevEnvironment(scope constructs.Construct, id *string, config *DataAwsCodecatalystDevEnvironmentConfig) DataAwsCodecatalystDevEnvironment {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewDataAwsCodecatalystDevEnvironment(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAwsCodecatalystDevEnvironment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -549,12 +549,12 @@ func NewDataAwsCodecatalystDevEnvironment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecatalyst_dev_environment aws_codecatalyst_dev_environment} Data Source.
 func NewDataAwsCodecatalystDevEnvironment_Override(d DataAwsCodecatalystDevEnvironment, scope constructs.Construct, id *string, config *DataAwsCodecatalystDevEnvironmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -704,7 +704,7 @@ func DataAwsCodecatalystDevEnvironment_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func DataAwsCodecatalystDevEnvironment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func DataAwsCodecatalystDevEnvironment_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DataAwsCodecatalystDevEnvironment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DataAwsCodecatalystDevEnvironment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
+		"@cdktn/provider-aws.dataAwsCodecatalystDevEnvironment.DataAwsCodecatalystDevEnvironment",
 		"tfResourceType",
 		&returns,
 	)

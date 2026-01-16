@@ -5,9 +5,9 @@ package route53record
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53record/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53record/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRoute53RecordGeolocationRoutingPolicyOutputReference(terraformResource c
 	j := jsiiProxy_Route53RecordGeolocationRoutingPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Record.Route53RecordGeolocationRoutingPolicyOutputReference",
+		"@cdktn/provider-aws.route53Record.Route53RecordGeolocationRoutingPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRoute53RecordGeolocationRoutingPolicyOutputReference_Override(r Route53R
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Record.Route53RecordGeolocationRoutingPolicyOutputReference",
+		"@cdktn/provider-aws.route53Record.Route53RecordGeolocationRoutingPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

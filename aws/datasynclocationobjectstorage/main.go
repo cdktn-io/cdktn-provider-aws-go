@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationObjectStorage.DatasyncLocationObjectStorage",
+		"@cdktn/provider-aws.datasyncLocationObjectStorage.DatasyncLocationObjectStorage",
 		reflect.TypeOf((*DatasyncLocationObjectStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig",
+		"@cdktn/provider-aws.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig",
 		reflect.TypeOf((*DatasyncLocationObjectStorageConfig)(nil)).Elem(),
 	)
 }

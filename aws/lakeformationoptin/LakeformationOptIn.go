@@ -5,14 +5,14 @@ package lakeformationoptin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationoptin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationoptin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
 type LakeformationOptIn interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_LakeformationOptIn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn(scope constructs.Construct, id *string, config *LakeformationOptInConfig) LakeformationOptIn {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewLakeformationOptIn(scope constructs.Construct, id *string, config *Lakef
 	j := jsiiProxy_LakeformationOptIn{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewLakeformationOptIn(scope constructs.Construct, id *string, config *Lakef
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn_Override(l LakeformationOptIn, scope constructs.Construct, id *string, config *LakeformationOptInConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -522,7 +522,7 @@ func LakeformationOptIn_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -557,7 +557,7 @@ func LakeformationOptIn_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func LakeformationOptIn_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func LakeformationOptIn_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func LakeformationOptIn_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationOptIn.LakeformationOptIn",
+		"@cdktn/provider-aws.lakeformationOptIn.LakeformationOptIn",
 		"tfResourceType",
 		&returns,
 	)

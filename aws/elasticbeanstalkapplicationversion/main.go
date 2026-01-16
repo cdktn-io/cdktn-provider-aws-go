@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticBeanstalkApplicationVersion.ElasticBeanstalkApplicationVersion",
+		"@cdktn/provider-aws.elasticBeanstalkApplicationVersion.ElasticBeanstalkApplicationVersion",
 		reflect.TypeOf((*ElasticBeanstalkApplicationVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticBeanstalkApplicationVersion.ElasticBeanstalkApplicationVersionConfig",
+		"@cdktn/provider-aws.elasticBeanstalkApplicationVersion.ElasticBeanstalkApplicationVersionConfig",
 		reflect.TypeOf((*ElasticBeanstalkApplicationVersionConfig)(nil)).Elem(),
 	)
 }

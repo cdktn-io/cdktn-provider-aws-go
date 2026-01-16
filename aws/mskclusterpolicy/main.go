@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		reflect.TypeOf((*MskClusterPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicyConfig",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicyConfig",
 		reflect.TypeOf((*MskClusterPolicyConfig)(nil)).Elem(),
 	)
 }

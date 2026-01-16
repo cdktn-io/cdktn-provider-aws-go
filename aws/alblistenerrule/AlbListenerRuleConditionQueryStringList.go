@@ -5,9 +5,9 @@ package alblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAlbListenerRuleConditionQueryStringList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_AlbListenerRuleConditionQueryStringList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleConditionQueryStringList",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleConditionQueryStringList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAlbListenerRuleConditionQueryStringList_Override(a AlbListenerRuleCondit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleConditionQueryStringList",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleConditionQueryStringList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

@@ -5,9 +5,9 @@ package dataawslocationmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslocationmap/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslocationmap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewDataAwsLocationMapConfigurationOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsLocationMapConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewDataAwsLocationMapConfigurationOutputReference_Override(d DataAwsLocatio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsLocationMap.DataAwsLocationMapConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

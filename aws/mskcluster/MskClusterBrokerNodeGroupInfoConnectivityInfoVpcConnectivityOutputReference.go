@@ -5,9 +5,9 @@ package mskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputRefere
 	j := jsiiProxy_MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewMskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -5,9 +5,9 @@ package dataawscloudwatcheventbus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatcheventbus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatcheventbus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsCloudwatchEventBusLogConfigOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataAwsCloudwatchEventBusLogConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsCloudwatchEventBusLogConfigOutputReference_Override(d DataAwsClou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

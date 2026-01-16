@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		reflect.TypeOf((*NetworkInterfaceAttachmentA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentAConfig",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentAConfig",
 		reflect.TypeOf((*NetworkInterfaceAttachmentAConfig)(nil)).Elem(),
 	)
 }

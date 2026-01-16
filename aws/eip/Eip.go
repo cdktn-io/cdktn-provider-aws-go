@@ -5,14 +5,14 @@ package eip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eip/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip aws_eip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip aws_eip}.
 type Eip interface {
 	cdktf.TerraformResource
 	Address() *string
@@ -732,7 +732,7 @@ func (j *jsiiProxy_Eip) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip aws_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip aws_eip} Resource.
 func NewEip(scope constructs.Construct, id *string, config *EipConfig) Eip {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewEip(scope constructs.Construct, id *string, config *EipConfig) Eip {
 	j := jsiiProxy_Eip{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -750,12 +750,12 @@ func NewEip(scope constructs.Construct, id *string, config *EipConfig) Eip {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip aws_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip aws_eip} Resource.
 func NewEip_Override(e Eip, scope constructs.Construct, id *string, config *EipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -982,7 +982,7 @@ func Eip_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1017,7 +1017,7 @@ func Eip_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1036,7 +1036,7 @@ func Eip_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1055,7 +1055,7 @@ func Eip_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1068,7 +1068,7 @@ func Eip_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eip.Eip",
+		"@cdktn/provider-aws.eip.Eip",
 		"tfResourceType",
 		&returns,
 	)

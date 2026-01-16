@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		reflect.TypeOf((*IotEventConfigurations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurationsConfig",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurationsConfig",
 		reflect.TypeOf((*IotEventConfigurationsConfig)(nil)).Elem(),
 	)
 }

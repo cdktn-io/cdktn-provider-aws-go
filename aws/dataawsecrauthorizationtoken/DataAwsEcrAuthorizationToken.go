@@ -5,14 +5,14 @@ package dataawsecrauthorizationtoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecrauthorizationtoken/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecrauthorizationtoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token}.
 type DataAwsEcrAuthorizationToken interface {
 	cdktf.TerraformDataSource
 	AuthorizationToken() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAwsEcrAuthorizationToken) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
 func NewDataAwsEcrAuthorizationToken(scope constructs.Construct, id *string, config *DataAwsEcrAuthorizationTokenConfig) DataAwsEcrAuthorizationToken {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewDataAwsEcrAuthorizationToken(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsEcrAuthorizationToken{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewDataAwsEcrAuthorizationToken(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
 func NewDataAwsEcrAuthorizationToken_Override(d DataAwsEcrAuthorizationToken, scope constructs.Construct, id *string, config *DataAwsEcrAuthorizationTokenConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAwsEcrAuthorizationToken_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAwsEcrAuthorizationToken_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsEcrAuthorizationToken_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsEcrAuthorizationToken_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAwsEcrAuthorizationToken_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
+		"@cdktn/provider-aws.dataAwsEcrAuthorizationToken.DataAwsEcrAuthorizationToken",
 		"tfResourceType",
 		&returns,
 	)

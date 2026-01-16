@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		reflect.TypeOf((*DataAwsBackupPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,23 +71,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanConfig",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanConfig",
 		reflect.TypeOf((*DataAwsBackupPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRule",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRule",
 		reflect.TypeOf((*DataAwsBackupPlanRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyAction",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyAction",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycle",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycle",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyActionLifecycle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycleList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycleList",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyActionLifecycleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycleOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionLifecycleOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyActionLifecycleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "coldStorageAfter", GoGetter: "ColdStorageAfter"},
@@ -143,7 +143,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionList",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleCopyActionOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanRuleCopyActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycle",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycle",
 		reflect.TypeOf((*DataAwsBackupPlanRuleLifecycle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycleList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycleList",
 		reflect.TypeOf((*DataAwsBackupPlanRuleLifecycleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycleOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleLifecycleOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanRuleLifecycleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "coldStorageAfter", GoGetter: "ColdStorageAfter"},
@@ -258,7 +258,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleList",
 		reflect.TypeOf((*DataAwsBackupPlanRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -279,7 +279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "completionWindow", GoGetter: "CompletionWindow"},
@@ -323,11 +323,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanAction",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanAction",
 		reflect.TypeOf((*DataAwsBackupPlanRuleScanAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanActionList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanActionList",
 		reflect.TypeOf((*DataAwsBackupPlanRuleScanActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -348,7 +348,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanActionOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanRuleScanActionOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanRuleScanActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -382,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSetting",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSetting",
 		reflect.TypeOf((*DataAwsBackupPlanScanSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSettingList",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSettingList",
 		reflect.TypeOf((*DataAwsBackupPlanScanSettingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -407,7 +407,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSettingOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlanScanSettingOutputReference",
 		reflect.TypeOf((*DataAwsBackupPlanScanSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

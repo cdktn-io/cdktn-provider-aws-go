@@ -5,14 +5,14 @@ package medialiveinputsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinputsecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinputsecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group}.
 type MedialiveInputSecurityGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_MedialiveInputSecurityGroup) WhitelistRulesInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) MedialiveInputSecurityGroup {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_MedialiveInputSecurityGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup_Override(m MedialiveInputSecurityGroup, scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -602,7 +602,7 @@ func MedialiveInputSecurityGroup_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func MedialiveInputSecurityGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func MedialiveInputSecurityGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func MedialiveInputSecurityGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func MedialiveInputSecurityGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
+		"@cdktn/provider-aws.medialiveInputSecurityGroup.MedialiveInputSecurityGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package appsyncgraphqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncgraphqlapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api}.
 type AppsyncGraphqlApi interface {
 	cdktf.TerraformResource
 	AdditionalAuthenticationProvider() AppsyncGraphqlApiAdditionalAuthenticationProviderList
@@ -786,7 +786,7 @@ func (j *jsiiProxy_AppsyncGraphqlApi) XrayEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api} Resource.
 func NewAppsyncGraphqlApi(scope constructs.Construct, id *string, config *AppsyncGraphqlApiConfig) AppsyncGraphqlApi {
 	_init_.Initialize()
 
@@ -796,7 +796,7 @@ func NewAppsyncGraphqlApi(scope constructs.Construct, id *string, config *Appsyn
 	j := jsiiProxy_AppsyncGraphqlApi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -804,12 +804,12 @@ func NewAppsyncGraphqlApi(scope constructs.Construct, id *string, config *Appsyn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_graphql_api aws_appsync_graphql_api} Resource.
 func NewAppsyncGraphqlApi_Override(a AppsyncGraphqlApi, scope constructs.Construct, id *string, config *AppsyncGraphqlApiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1047,7 +1047,7 @@ func AppsyncGraphqlApi_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1082,7 +1082,7 @@ func AppsyncGraphqlApi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1101,7 +1101,7 @@ func AppsyncGraphqlApi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1120,7 +1120,7 @@ func AppsyncGraphqlApi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1133,7 +1133,7 @@ func AppsyncGraphqlApi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
+		"@cdktn/provider-aws.appsyncGraphqlApi.AppsyncGraphqlApi",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package amplifyapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amplifyapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amplifyapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource cdkt
 	j := jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewAmplifyAppAutoBranchCreationConfigOutputReference_Override(a AmplifyAppA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

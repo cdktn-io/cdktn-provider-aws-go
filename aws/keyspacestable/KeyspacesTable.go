@@ -5,14 +5,14 @@ package keyspacestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/keyspacestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspacestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_table aws_keyspaces_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_table aws_keyspaces_table}.
 type KeyspacesTable interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -654,7 +654,7 @@ func (j *jsiiProxy_KeyspacesTable) TtlInput() *KeyspacesTableTtl {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
 func NewKeyspacesTable(scope constructs.Construct, id *string, config *KeyspacesTableConfig) KeyspacesTable {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewKeyspacesTable(scope constructs.Construct, id *string, config *Keyspaces
 	j := jsiiProxy_KeyspacesTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -672,12 +672,12 @@ func NewKeyspacesTable(scope constructs.Construct, id *string, config *Keyspaces
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_table aws_keyspaces_table} Resource.
 func NewKeyspacesTable_Override(k KeyspacesTable, scope constructs.Construct, id *string, config *KeyspacesTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -838,7 +838,7 @@ func KeyspacesTable_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -873,7 +873,7 @@ func KeyspacesTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -892,7 +892,7 @@ func KeyspacesTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -911,7 +911,7 @@ func KeyspacesTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -924,7 +924,7 @@ func KeyspacesTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTable",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTable",
 		"tfResourceType",
 		&returns,
 	)

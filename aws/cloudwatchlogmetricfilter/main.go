@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilter",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilter",
 		reflect.TypeOf((*CloudwatchLogMetricFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterConfig",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterConfig",
 		reflect.TypeOf((*CloudwatchLogMetricFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformation",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformation",
 		reflect.TypeOf((*CloudwatchLogMetricFilterMetricTransformation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
 		reflect.TypeOf((*CloudwatchLogMetricFilterMetricTransformationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package lakeformationresourcelftags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationresourcelftags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationresourcelftags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -301,7 +301,7 @@ func NewLakeformationResourceLfTagsTableWithColumnsOutputReference(terraformReso
 	j := jsiiProxy_LakeformationResourceLfTagsTableWithColumnsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -313,7 +313,7 @@ func NewLakeformationResourceLfTagsTableWithColumnsOutputReference_Override(l La
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

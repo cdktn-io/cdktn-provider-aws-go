@@ -5,9 +5,9 @@ package dataawscetags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscetags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscetags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewDataAwsCeTagsFilterOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsCeTagsFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewDataAwsCeTagsFilterOutputReference_Override(d DataAwsCeTagsFilterOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

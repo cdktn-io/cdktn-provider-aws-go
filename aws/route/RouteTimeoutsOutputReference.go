@@ -5,9 +5,9 @@ package route
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRouteTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_RouteTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route.RouteTimeoutsOutputReference",
+		"@cdktn/provider-aws.route.RouteTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRouteTimeoutsOutputReference_Override(r RouteTimeoutsOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route.RouteTimeoutsOutputReference",
+		"@cdktn/provider-aws.route.RouteTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

@@ -5,14 +5,14 @@ package kinesisanalyticsv2applicationsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsv2applicationsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsv2applicationsnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot}.
 type Kinesisanalyticsv2ApplicationSnapshot interface {
 	cdktf.TerraformResource
 	ApplicationName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) Kinesisanalyticsv2ApplicationSnapshot {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *st
 	j := jsiiProxy_Kinesisanalyticsv2ApplicationSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewKinesisanalyticsv2ApplicationSnapshot(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesisanalyticsv2_application_snapshot aws_kinesisanalyticsv2_application_snapshot} Resource.
 func NewKinesisanalyticsv2ApplicationSnapshot_Override(k Kinesisanalyticsv2ApplicationSnapshot, scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -577,7 +577,7 @@ func Kinesisanalyticsv2ApplicationSnapshot_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func Kinesisanalyticsv2ApplicationSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func Kinesisanalyticsv2ApplicationSnapshot_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func Kinesisanalyticsv2ApplicationSnapshot_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func Kinesisanalyticsv2ApplicationSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
+		"@cdktn/provider-aws.kinesisanalyticsv2ApplicationSnapshot.Kinesisanalyticsv2ApplicationSnapshot",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsservicecatalogproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecatalogproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
 type DataAwsServicecatalogProduct interface {
 	cdktf.TerraformDataSource
 	AcceptLanguage() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DataAwsServicecatalogProduct) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) DataAwsServicecatalogProduct {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsServicecatalogProduct{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -510,12 +510,12 @@ func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct_Override(d DataAwsServicecatalogProduct, scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -621,7 +621,7 @@ func DataAwsServicecatalogProduct_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -656,7 +656,7 @@ func DataAwsServicecatalogProduct_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DataAwsServicecatalogProduct_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func DataAwsServicecatalogProduct_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func DataAwsServicecatalogProduct_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		"tfResourceType",
 		&returns,
 	)

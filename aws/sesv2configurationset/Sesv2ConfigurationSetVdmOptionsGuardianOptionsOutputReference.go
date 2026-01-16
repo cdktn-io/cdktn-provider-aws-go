@@ -5,9 +5,9 @@ package sesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2configurationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference(terraformR
 	j := jsiiProxy_Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference_Override(s
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference",
+		"@cdktn/provider-aws.sesv2ConfigurationSet.Sesv2ConfigurationSetVdmOptionsGuardianOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

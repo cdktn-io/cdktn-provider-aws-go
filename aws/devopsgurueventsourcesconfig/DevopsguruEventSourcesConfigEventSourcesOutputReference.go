@@ -5,9 +5,9 @@ package devopsgurueventsourcesconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devopsgurueventsourcesconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devopsgurueventsourcesconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDevopsguruEventSourcesConfigEventSourcesOutputReference(terraformResourc
 	j := jsiiProxy_DevopsguruEventSourcesConfigEventSourcesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDevopsguruEventSourcesConfigEventSourcesOutputReference_Override(d Devop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

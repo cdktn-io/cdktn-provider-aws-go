@@ -5,14 +5,14 @@ package odbnetworkpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetworkpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetworkpeeringconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection}.
 type OdbNetworkPeeringConnection interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -52,6 +52,8 @@ type OdbNetworkPeeringConnection interface {
 	// The tree node.
 	Node() constructs.Node
 	OdbNetworkArn() *string
+	SetOdbNetworkArn(val *string)
+	OdbNetworkArnInput() *string
 	OdbNetworkId() *string
 	SetOdbNetworkId(val *string)
 	OdbNetworkIdInput() *string
@@ -132,6 +134,8 @@ type OdbNetworkPeeringConnection interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *OdbNetworkPeeringConnectionTimeouts)
+	ResetOdbNetworkArn()
+	ResetOdbNetworkId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -311,6 +315,16 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) OdbNetworkArn() *string {
 	_jsii_.Get(
 		j,
 		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetworkPeeringConnection) OdbNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArnInput",
 		&returns,
 	)
 	return returns
@@ -537,7 +551,7 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) OdbNetworkPeeringConnection {
 	_init_.Initialize()
 
@@ -547,7 +561,7 @@ func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_OdbNetworkPeeringConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -555,12 +569,12 @@ func NewOdbNetworkPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network_peering_connection aws_odb_network_peering_connection} Resource.
 func NewOdbNetworkPeeringConnection_Override(o OdbNetworkPeeringConnection, scope constructs.Construct, id *string, config *OdbNetworkPeeringConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -622,6 +636,17 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection)SetLifecycle(val *cdktf.Terraform
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetworkPeeringConnection)SetOdbNetworkArn(val *string) {
+	if err := j.validateSetOdbNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbNetworkArn",
 		val,
 	)
 }
@@ -699,7 +724,7 @@ func OdbNetworkPeeringConnection_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -734,7 +759,7 @@ func OdbNetworkPeeringConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +778,7 @@ func OdbNetworkPeeringConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +797,7 @@ func OdbNetworkPeeringConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -785,7 +810,7 @@ func OdbNetworkPeeringConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnection",
 		"tfResourceType",
 		&returns,
 	)
@@ -1050,6 +1075,22 @@ func (o *jsiiProxy_OdbNetworkPeeringConnection) PutTimeouts(value *OdbNetworkPee
 		o,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OdbNetworkPeeringConnection) ResetOdbNetworkArn() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetOdbNetworkArn",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetworkPeeringConnection) ResetOdbNetworkId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetOdbNetworkId",
+		nil, // no parameters
 	)
 }
 

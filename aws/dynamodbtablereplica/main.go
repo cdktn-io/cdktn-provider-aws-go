@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTableReplica.DynamodbTableReplicaA",
+		"@cdktn/provider-aws.dynamodbTableReplica.DynamodbTableReplicaA",
 		reflect.TypeOf((*DynamodbTableReplicaA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTableReplica.DynamodbTableReplicaAConfig",
+		"@cdktn/provider-aws.dynamodbTableReplica.DynamodbTableReplicaAConfig",
 		reflect.TypeOf((*DynamodbTableReplicaAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTableReplica.DynamodbTableReplicaTimeouts",
+		"@cdktn/provider-aws.dynamodbTableReplica.DynamodbTableReplicaTimeouts",
 		reflect.TypeOf((*DynamodbTableReplicaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTableReplica.DynamodbTableReplicaTimeoutsOutputReference",
+		"@cdktn/provider-aws.dynamodbTableReplica.DynamodbTableReplicaTimeoutsOutputReference",
 		reflect.TypeOf((*DynamodbTableReplicaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

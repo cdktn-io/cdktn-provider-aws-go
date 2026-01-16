@@ -5,14 +5,14 @@ package lbtruststorerevocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbtruststorerevocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbtruststorerevocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
 type LbTrustStoreRevocation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_LbTrustStoreRevocation) TrustStoreArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) LbTrustStoreRevocation {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *L
 	j := jsiiProxy_LbTrustStoreRevocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation_Override(l LbTrustStoreRevocation, scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -635,7 +635,7 @@ func LbTrustStoreRevocation_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func LbTrustStoreRevocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func LbTrustStoreRevocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func LbTrustStoreRevocation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func LbTrustStoreRevocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocation",
 		"tfResourceType",
 		&returns,
 	)

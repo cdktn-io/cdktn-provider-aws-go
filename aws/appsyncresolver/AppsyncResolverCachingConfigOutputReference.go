@@ -5,9 +5,9 @@ package appsyncresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncresolver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppsyncResolverCachingConfigOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AppsyncResolverCachingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverCachingConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverCachingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppsyncResolverCachingConfigOutputReference_Override(a AppsyncResolverCa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverCachingConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverCachingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

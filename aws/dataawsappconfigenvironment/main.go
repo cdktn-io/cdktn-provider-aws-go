@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironment",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironment",
 		reflect.TypeOf((*DataAwsAppconfigEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentConfig",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentConfig",
 		reflect.TypeOf((*DataAwsAppconfigEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitor",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitor",
 		reflect.TypeOf((*DataAwsAppconfigEnvironmentMonitor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorList",
 		reflect.TypeOf((*DataAwsAppconfigEnvironmentMonitorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorOutputReference",
+		"@cdktn/provider-aws.dataAwsAppconfigEnvironment.DataAwsAppconfigEnvironmentMonitorOutputReference",
 		reflect.TypeOf((*DataAwsAppconfigEnvironmentMonitorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmArn", GoGetter: "AlarmArn"},

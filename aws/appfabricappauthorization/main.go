@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorization",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorization",
 		reflect.TypeOf((*AppfabricAppAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,19 +94,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationConfig",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationConfig",
 		reflect.TypeOf((*AppfabricAppAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredential",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredential",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredential",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialApiKeyCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredentialList",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredentialList",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialApiKeyCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialList",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialList",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2Credential",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2Credential",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialOauth2Credential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2CredentialList",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2CredentialList",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialOauth2CredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2CredentialOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOauth2CredentialOutputReference",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialOauth2CredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationCredentialOutputReference",
 		reflect.TypeOf((*AppfabricAppAuthorizationCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyCredential", GoGetter: "ApiKeyCredential"},
@@ -286,11 +286,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenant",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenant",
 		reflect.TypeOf((*AppfabricAppAuthorizationTenant)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenantList",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenantList",
 		reflect.TypeOf((*AppfabricAppAuthorizationTenantList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -312,7 +312,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenantOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTenantOutputReference",
 		reflect.TypeOf((*AppfabricAppAuthorizationTenantOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,11 +348,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeouts",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeouts",
 		reflect.TypeOf((*AppfabricAppAuthorizationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeoutsOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeoutsOutputReference",
 		reflect.TypeOf((*AppfabricAppAuthorizationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

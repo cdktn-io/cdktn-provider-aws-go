@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyBranch.AmplifyBranch",
+		"@cdktn/provider-aws.amplifyBranch.AmplifyBranch",
 		reflect.TypeOf((*AmplifyBranch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyBranch.AmplifyBranchConfig",
+		"@cdktn/provider-aws.amplifyBranch.AmplifyBranchConfig",
 		reflect.TypeOf((*AmplifyBranchConfig)(nil)).Elem(),
 	)
 }

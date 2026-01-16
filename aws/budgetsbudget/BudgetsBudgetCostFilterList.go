@@ -5,9 +5,9 @@ package budgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/budgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/budgetsbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBudgetsBudgetCostFilterList(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_BudgetsBudgetCostFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBudgetsBudgetCostFilterList_Override(b BudgetsBudgetCostFilterList, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

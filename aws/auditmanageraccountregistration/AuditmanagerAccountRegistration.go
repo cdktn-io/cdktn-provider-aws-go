@@ -5,14 +5,14 @@ package auditmanageraccountregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanageraccountregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanageraccountregistration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
 type AuditmanagerAccountRegistration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_AuditmanagerAccountRegistration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) AuditmanagerAccountRegistration {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, 
 	j := jsiiProxy_AuditmanagerAccountRegistration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration_Override(a AuditmanagerAccountRegistration, scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -555,7 +555,7 @@ func AuditmanagerAccountRegistration_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func AuditmanagerAccountRegistration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func AuditmanagerAccountRegistration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func AuditmanagerAccountRegistration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func AuditmanagerAccountRegistration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		"tfResourceType",
 		&returns,
 	)

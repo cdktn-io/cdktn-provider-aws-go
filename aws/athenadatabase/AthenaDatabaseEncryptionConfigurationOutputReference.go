@@ -5,9 +5,9 @@ package athenadatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenadatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenadatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewAthenaDatabaseEncryptionConfigurationOutputReference(terraformResource c
 	j := jsiiProxy_AthenaDatabaseEncryptionConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabaseEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabaseEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewAthenaDatabaseEncryptionConfigurationOutputReference_Override(a AthenaDa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabaseEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabaseEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

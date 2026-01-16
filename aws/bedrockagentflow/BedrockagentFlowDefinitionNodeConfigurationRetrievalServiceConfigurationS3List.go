@@ -5,9 +5,9 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration
 	j := jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

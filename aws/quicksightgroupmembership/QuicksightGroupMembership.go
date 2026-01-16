@@ -5,14 +5,14 @@ package quicksightgroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightgroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightgroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership}.
 type QuicksightGroupMembership interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_QuicksightGroupMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership} Resource.
 func NewQuicksightGroupMembership(scope constructs.Construct, id *string, config *QuicksightGroupMembershipConfig) QuicksightGroupMembership {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewQuicksightGroupMembership(scope constructs.Construct, id *string, config
 	j := jsiiProxy_QuicksightGroupMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewQuicksightGroupMembership(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_group_membership aws_quicksight_group_membership} Resource.
 func NewQuicksightGroupMembership_Override(q QuicksightGroupMembership, scope constructs.Construct, id *string, config *QuicksightGroupMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -612,7 +612,7 @@ func QuicksightGroupMembership_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func QuicksightGroupMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func QuicksightGroupMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func QuicksightGroupMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func QuicksightGroupMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
+		"@cdktn/provider-aws.quicksightGroupMembership.QuicksightGroupMembership",
 		"tfResourceType",
 		&returns,
 	)

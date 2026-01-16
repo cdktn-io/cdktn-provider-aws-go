@@ -5,9 +5,9 @@ package invoicinginvoiceunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/invoicinginvoiceunit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/invoicinginvoiceunit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewInvoicingInvoiceUnitRuleList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_InvoicingInvoiceUnitRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewInvoicingInvoiceUnitRuleList_Override(i InvoicingInvoiceUnitRuleList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
+		"@cdktn/provider-aws.invoicingInvoiceUnit.InvoicingInvoiceUnitRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

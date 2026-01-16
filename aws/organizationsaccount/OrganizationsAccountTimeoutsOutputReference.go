@@ -5,9 +5,9 @@ package organizationsaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOrganizationsAccountTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_OrganizationsAccountTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOrganizationsAccountTimeoutsOutputReference_Override(o OrganizationsAcco
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
+		"@cdktn/provider-aws.organizationsAccount.OrganizationsAccountTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

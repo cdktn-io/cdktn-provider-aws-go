@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGateway",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGateway",
 		reflect.TypeOf((*DataAwsVpnGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayConfig",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayConfig",
 		reflect.TypeOf((*DataAwsVpnGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilter",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilter",
 		reflect.TypeOf((*DataAwsVpnGatewayFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilterList",
 		reflect.TypeOf((*DataAwsVpnGatewayFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpnGatewayFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeouts",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeouts",
 		reflect.TypeOf((*DataAwsVpnGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsVpnGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

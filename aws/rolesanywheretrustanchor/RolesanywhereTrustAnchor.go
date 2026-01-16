@@ -5,14 +5,14 @@ package rolesanywheretrustanchor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rolesanywheretrustanchor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rolesanywheretrustanchor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor}.
 type RolesanywhereTrustAnchor interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
 func NewRolesanywhereTrustAnchor(scope constructs.Construct, id *string, config *RolesanywhereTrustAnchorConfig) RolesanywhereTrustAnchor {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewRolesanywhereTrustAnchor(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_RolesanywhereTrustAnchor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewRolesanywhereTrustAnchor(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
 func NewRolesanywhereTrustAnchor_Override(r RolesanywhereTrustAnchor, scope constructs.Construct, id *string, config *RolesanywhereTrustAnchorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -625,7 +625,7 @@ func RolesanywhereTrustAnchor_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func RolesanywhereTrustAnchor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func RolesanywhereTrustAnchor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func RolesanywhereTrustAnchor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func RolesanywhereTrustAnchor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		"tfResourceType",
 		&returns,
 	)

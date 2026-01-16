@@ -5,14 +5,14 @@ package imagebuilderimagepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderimagepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderimagepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
 type ImagebuilderImagePipeline interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -76,6 +76,8 @@ type ImagebuilderImagePipeline interface {
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	LoggingConfiguration() ImagebuilderImagePipelineLoggingConfigurationOutputReference
+	LoggingConfigurationInput() *ImagebuilderImagePipelineLoggingConfiguration
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -159,6 +161,7 @@ type ImagebuilderImagePipeline interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutImageScanningConfiguration(value *ImagebuilderImagePipelineImageScanningConfiguration)
 	PutImageTestsConfiguration(value *ImagebuilderImagePipelineImageTestsConfiguration)
+	PutLoggingConfiguration(value *ImagebuilderImagePipelineLoggingConfiguration)
 	PutSchedule(value *ImagebuilderImagePipelineSchedule)
 	PutWorkflow(value interface{})
 	ResetContainerRecipeArn()
@@ -170,6 +173,7 @@ type ImagebuilderImagePipeline interface {
 	ResetImageRecipeArn()
 	ResetImageScanningConfiguration()
 	ResetImageTestsConfiguration()
+	ResetLoggingConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -537,6 +541,26 @@ func (j *jsiiProxy_ImagebuilderImagePipeline) Lifecycle() *cdktf.TerraformResour
 	return returns
 }
 
+func (j *jsiiProxy_ImagebuilderImagePipeline) LoggingConfiguration() ImagebuilderImagePipelineLoggingConfigurationOutputReference {
+	var returns ImagebuilderImagePipelineLoggingConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"loggingConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderImagePipeline) LoggingConfigurationInput() *ImagebuilderImagePipelineLoggingConfiguration {
+	var returns *ImagebuilderImagePipelineLoggingConfiguration
+	_jsii_.Get(
+		j,
+		"loggingConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ImagebuilderImagePipeline) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -758,7 +782,7 @@ func (j *jsiiProxy_ImagebuilderImagePipeline) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) ImagebuilderImagePipeline {
 	_init_.Initialize()
 
@@ -768,7 +792,7 @@ func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ImagebuilderImagePipeline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -776,12 +800,12 @@ func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline_Override(i ImagebuilderImagePipeline, scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -1008,7 +1032,7 @@ func ImagebuilderImagePipeline_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1043,7 +1067,7 @@ func ImagebuilderImagePipeline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1062,7 +1086,7 @@ func ImagebuilderImagePipeline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1081,7 +1105,7 @@ func ImagebuilderImagePipeline_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1094,7 +1118,7 @@ func ImagebuilderImagePipeline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
+		"@cdktn/provider-aws.imagebuilderImagePipeline.ImagebuilderImagePipeline",
 		"tfResourceType",
 		&returns,
 	)
@@ -1373,6 +1397,17 @@ func (i *jsiiProxy_ImagebuilderImagePipeline) PutImageTestsConfiguration(value *
 	)
 }
 
+func (i *jsiiProxy_ImagebuilderImagePipeline) PutLoggingConfiguration(value *ImagebuilderImagePipelineLoggingConfiguration) {
+	if err := i.validatePutLoggingConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putLoggingConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_ImagebuilderImagePipeline) PutSchedule(value *ImagebuilderImagePipelineSchedule) {
 	if err := i.validatePutScheduleParameters(value); err != nil {
 		panic(err)
@@ -1463,6 +1498,14 @@ func (i *jsiiProxy_ImagebuilderImagePipeline) ResetImageTestsConfiguration() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetImageTestsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_ImagebuilderImagePipeline) ResetLoggingConfiguration() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetLoggingConfiguration",
 		nil, // no parameters
 	)
 }

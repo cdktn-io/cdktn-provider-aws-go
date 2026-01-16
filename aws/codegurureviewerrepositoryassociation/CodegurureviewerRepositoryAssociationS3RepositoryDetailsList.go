@@ -5,9 +5,9 @@ package codegurureviewerrepositoryassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codegurureviewerrepositoryassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codegurureviewerrepositoryassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewCodegurureviewerRepositoryAssociationS3RepositoryDetailsList(terraformRe
 	j := jsiiProxy_CodegurureviewerRepositoryAssociationS3RepositoryDetailsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationS3RepositoryDetailsList",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationS3RepositoryDetailsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewCodegurureviewerRepositoryAssociationS3RepositoryDetailsList_Override(c 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationS3RepositoryDetailsList",
+		"@cdktn/provider-aws.codegurureviewerRepositoryAssociation.CodegurureviewerRepositoryAssociationS3RepositoryDetailsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

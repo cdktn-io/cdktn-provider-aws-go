@@ -5,9 +5,9 @@ package lexv2modelsintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLexv2ModelsIntentOutputContextList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_Lexv2ModelsIntentOutputContextList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentOutputContextList",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentOutputContextList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLexv2ModelsIntentOutputContextList_Override(l Lexv2ModelsIntentOutputCon
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentOutputContextList",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentOutputContextList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

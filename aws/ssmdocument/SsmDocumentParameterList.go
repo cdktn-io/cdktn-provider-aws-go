@@ -5,9 +5,9 @@ package ssmdocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmdocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmdocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewSsmDocumentParameterList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_SsmDocumentParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentParameterList",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewSsmDocumentParameterList_Override(s SsmDocumentParameterList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmDocument.SsmDocumentParameterList",
+		"@cdktn/provider-aws.ssmDocument.SsmDocumentParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

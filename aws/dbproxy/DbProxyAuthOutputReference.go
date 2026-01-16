@@ -5,9 +5,9 @@ package dbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewDbProxyAuthOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_DbProxyAuthOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxyAuthOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewDbProxyAuthOutputReference_Override(d DbProxyAuthOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxyAuthOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

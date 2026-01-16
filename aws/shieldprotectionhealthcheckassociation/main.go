@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociation",
 		reflect.TypeOf((*ShieldProtectionHealthCheckAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociationConfig",
+		"@cdktn/provider-aws.shieldProtectionHealthCheckAssociation.ShieldProtectionHealthCheckAssociationConfig",
 		reflect.TypeOf((*ShieldProtectionHealthCheckAssociationConfig)(nil)).Elem(),
 	)
 }

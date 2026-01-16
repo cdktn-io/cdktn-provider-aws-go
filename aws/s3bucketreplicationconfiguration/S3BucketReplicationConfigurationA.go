@@ -5,14 +5,14 @@ package s3bucketreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketreplicationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketreplicationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
 type S3BucketReplicationConfigurationA interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_S3BucketReplicationConfigurationA) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
 func NewS3BucketReplicationConfigurationA(scope constructs.Construct, id *string, config *S3BucketReplicationConfigurationAConfig) S3BucketReplicationConfigurationA {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewS3BucketReplicationConfigurationA(scope constructs.Construct, id *string
 	j := jsiiProxy_S3BucketReplicationConfigurationA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewS3BucketReplicationConfigurationA(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Resource.
 func NewS3BucketReplicationConfigurationA_Override(s S3BucketReplicationConfigurationA, scope constructs.Construct, id *string, config *S3BucketReplicationConfigurationAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -589,7 +589,7 @@ func S3BucketReplicationConfigurationA_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func S3BucketReplicationConfigurationA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func S3BucketReplicationConfigurationA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func S3BucketReplicationConfigurationA_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func S3BucketReplicationConfigurationA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
+		"@cdktn/provider-aws.s3BucketReplicationConfiguration.S3BucketReplicationConfigurationA",
 		"tfResourceType",
 		&returns,
 	)

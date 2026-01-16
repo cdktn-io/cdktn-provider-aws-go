@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		reflect.TypeOf((*RedshiftserverlessSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountsWithProvisionedRestoreAccess", GoGetter: "AccountsWithProvisionedRestoreAccess"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshotConfig",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshotConfig",
 		reflect.TypeOf((*RedshiftserverlessSnapshotConfig)(nil)).Elem(),
 	)
 }

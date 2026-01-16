@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		reflect.TypeOf((*WafRateBasedRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRuleConfig",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRuleConfig",
 		reflect.TypeOf((*WafRateBasedRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRulePredicates",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRulePredicates",
 		reflect.TypeOf((*WafRateBasedRulePredicates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
 		reflect.TypeOf((*WafRateBasedRulePredicatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesOutputReference",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesOutputReference",
 		reflect.TypeOf((*WafRateBasedRulePredicatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

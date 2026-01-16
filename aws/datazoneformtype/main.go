@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		reflect.TypeOf((*DatazoneFormType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeConfig",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeConfig",
 		reflect.TypeOf((*DatazoneFormTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeImports",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeImports",
 		reflect.TypeOf((*DatazoneFormTypeImports)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeImportsList",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeImportsList",
 		reflect.TypeOf((*DatazoneFormTypeImportsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeImportsOutputReference",
 		reflect.TypeOf((*DatazoneFormTypeImportsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeModel",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeModel",
 		reflect.TypeOf((*DatazoneFormTypeModel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeModelList",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeModelList",
 		reflect.TypeOf((*DatazoneFormTypeModelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeModelOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeModelOutputReference",
 		reflect.TypeOf((*DatazoneFormTypeModelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,11 +215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeTimeouts",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeTimeouts",
 		reflect.TypeOf((*DatazoneFormTypeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormTypeTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneFormTypeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

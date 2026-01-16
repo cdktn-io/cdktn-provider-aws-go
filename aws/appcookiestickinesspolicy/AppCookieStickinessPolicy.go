@@ -5,14 +5,14 @@ package appcookiestickinesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appcookiestickinesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appcookiestickinesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
 type AppCookieStickinessPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_AppCookieStickinessPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) AppCookieStickinessPolicy {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config
 	j := jsiiProxy_AppCookieStickinessPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy_Override(a AppCookieStickinessPolicy, scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -599,7 +599,7 @@ func AppCookieStickinessPolicy_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func AppCookieStickinessPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func AppCookieStickinessPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func AppCookieStickinessPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func AppCookieStickinessPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -63,7 +63,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) validateSetPeerAsnParameters(val *float64) error {
+func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) validateSetPeerAsnParameters(val *string) error {
 	return nil
 }
 

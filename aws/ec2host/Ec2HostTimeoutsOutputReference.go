@@ -5,9 +5,9 @@ package ec2host
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2host/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2host/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEc2HostTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_Ec2HostTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEc2HostTimeoutsOutputReference_Override(e Ec2HostTimeoutsOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2Host.Ec2HostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

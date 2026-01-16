@@ -5,9 +5,9 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,6 +32,12 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	MongoDbAtlasConfiguration() BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationList
+	MongoDbAtlasConfigurationInput() interface{}
+	NeptuneAnalyticsConfiguration() BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList
+	NeptuneAnalyticsConfigurationInput() interface{}
+	OpensearchManagedClusterConfiguration() BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationList
+	OpensearchManagedClusterConfigurationInput() interface{}
 	OpensearchServerlessConfiguration() BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessConfigurationList
 	OpensearchServerlessConfigurationInput() interface{}
 	PineconeConfiguration() BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationList
@@ -40,6 +46,8 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	RdsConfigurationInput() interface{}
 	RedisEnterpriseCloudConfiguration() BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudConfigurationList
 	RedisEnterpriseCloudConfigurationInput() interface{}
+	S3VectorsConfiguration() BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationList
+	S3VectorsConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,14 +83,22 @@ type BedrockagentKnowledgeBaseStorageConfigurationOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutMongoDbAtlasConfiguration(value interface{})
+	PutNeptuneAnalyticsConfiguration(value interface{})
+	PutOpensearchManagedClusterConfiguration(value interface{})
 	PutOpensearchServerlessConfiguration(value interface{})
 	PutPineconeConfiguration(value interface{})
 	PutRdsConfiguration(value interface{})
 	PutRedisEnterpriseCloudConfiguration(value interface{})
+	PutS3VectorsConfiguration(value interface{})
+	ResetMongoDbAtlasConfiguration()
+	ResetNeptuneAnalyticsConfiguration()
+	ResetOpensearchManagedClusterConfiguration()
 	ResetOpensearchServerlessConfiguration()
 	ResetPineconeConfiguration()
 	ResetRdsConfiguration()
 	ResetRedisEnterpriseCloudConfiguration()
+	ResetS3VectorsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -143,6 +159,66 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) MongoDbAtlasConfiguration() BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationList {
+	var returns BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationList
+	_jsii_.Get(
+		j,
+		"mongoDbAtlasConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) MongoDbAtlasConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mongoDbAtlasConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) NeptuneAnalyticsConfiguration() BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList {
+	var returns BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationList
+	_jsii_.Get(
+		j,
+		"neptuneAnalyticsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) NeptuneAnalyticsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"neptuneAnalyticsConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) OpensearchManagedClusterConfiguration() BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationList {
+	var returns BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigurationList
+	_jsii_.Get(
+		j,
+		"opensearchManagedClusterConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) OpensearchManagedClusterConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"opensearchManagedClusterConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -228,6 +304,26 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) S3VectorsConfiguration() BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationList {
+	var returns BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfigurationList
+	_jsii_.Get(
+		j,
+		"s3VectorsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) S3VectorsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"s3VectorsConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -278,7 +374,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference(terraformRe
 	j := jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -290,7 +386,7 @@ func NewBedrockagentKnowledgeBaseStorageConfigurationOutputReference_Override(b 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -548,6 +644,39 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) PutMongoDbAtlasConfiguration(value interface{}) {
+	if err := b.validatePutMongoDbAtlasConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMongoDbAtlasConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) PutNeptuneAnalyticsConfiguration(value interface{}) {
+	if err := b.validatePutNeptuneAnalyticsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putNeptuneAnalyticsConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) PutOpensearchManagedClusterConfiguration(value interface{}) {
+	if err := b.validatePutOpensearchManagedClusterConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putOpensearchManagedClusterConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) PutOpensearchServerlessConfiguration(value interface{}) {
 	if err := b.validatePutOpensearchServerlessConfigurationParameters(value); err != nil {
 		panic(err)
@@ -592,6 +721,41 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	)
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) PutS3VectorsConfiguration(value interface{}) {
+	if err := b.validatePutS3VectorsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putS3VectorsConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ResetMongoDbAtlasConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMongoDbAtlasConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ResetNeptuneAnalyticsConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetNeptuneAnalyticsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ResetOpensearchManagedClusterConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetOpensearchManagedClusterConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ResetOpensearchServerlessConfiguration() {
 	_jsii_.InvokeVoid(
 		b,
@@ -620,6 +784,14 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	_jsii_.InvokeVoid(
 		b,
 		"resetRedisEnterpriseCloudConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) ResetS3VectorsConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetS3VectorsConfiguration",
 		nil, // no parameters
 	)
 }

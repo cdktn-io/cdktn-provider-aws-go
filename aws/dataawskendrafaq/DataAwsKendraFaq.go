@@ -5,14 +5,14 @@ package dataawskendrafaq
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendrafaq/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendrafaq/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_faq aws_kendra_faq}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_faq aws_kendra_faq}.
 type DataAwsKendraFaq interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAwsKendraFaq) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_faq aws_kendra_faq} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_faq aws_kendra_faq} Data Source.
 func NewDataAwsKendraFaq(scope constructs.Construct, id *string, config *DataAwsKendraFaqConfig) DataAwsKendraFaq {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDataAwsKendraFaq(scope constructs.Construct, id *string, config *DataAws
 	j := jsiiProxy_DataAwsKendraFaq{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,12 +498,12 @@ func NewDataAwsKendraFaq(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_faq aws_kendra_faq} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_faq aws_kendra_faq} Data Source.
 func NewDataAwsKendraFaq_Override(d DataAwsKendraFaq, scope constructs.Construct, id *string, config *DataAwsKendraFaqConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -620,7 +620,7 @@ func DataAwsKendraFaq_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -655,7 +655,7 @@ func DataAwsKendraFaq_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAwsKendraFaq_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAwsKendraFaq_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func DataAwsKendraFaq_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaq",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCache",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCache",
 		reflect.TypeOf((*ElasticacheServerlessCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimits)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsDataStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorageList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorageList",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsDataStorageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -212,7 +212,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -272,7 +272,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheCacheUsageLimitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -312,15 +312,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheConfig",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheConfig",
 		reflect.TypeOf((*ElasticacheServerlessCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpoint",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpoint",
 		reflect.TypeOf((*ElasticacheServerlessCacheEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpointList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpointList",
 		reflect.TypeOf((*ElasticacheServerlessCacheEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -341,7 +341,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpointOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheEndpointOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -375,11 +375,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpoint",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpoint",
 		reflect.TypeOf((*ElasticacheServerlessCacheReaderEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpointList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpointList",
 		reflect.TypeOf((*ElasticacheServerlessCacheReaderEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -400,7 +400,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpointOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheReaderEndpointOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheReaderEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -434,11 +434,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheTimeouts",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheTimeouts",
 		reflect.TypeOf((*ElasticacheServerlessCacheTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticacheServerlessCacheTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package amplifyapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amplifyapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amplifyapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewAmplifyAppJobConfigOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_AmplifyAppJobConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppJobConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppJobConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewAmplifyAppJobConfigOutputReference_Override(a AmplifyAppJobConfigOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppJobConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppJobConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

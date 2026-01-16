@@ -5,9 +5,9 @@ package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewBedrockagentAgentTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_BedrockagentAgentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewBedrockagentAgentTimeoutsOutputReference_Override(b BedrockagentAgentTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

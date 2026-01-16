@@ -5,14 +5,14 @@ package dbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbsnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_snapshot aws_db_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_snapshot aws_db_snapshot}.
 type DbSnapshot interface {
 	cdktf.TerraformResource
 	AllocatedStorage() *float64
@@ -663,7 +663,7 @@ func (j *jsiiProxy_DbSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_snapshot aws_db_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_snapshot aws_db_snapshot} Resource.
 func NewDbSnapshot(scope constructs.Construct, id *string, config *DbSnapshotConfig) DbSnapshot {
 	_init_.Initialize()
 
@@ -673,7 +673,7 @@ func NewDbSnapshot(scope constructs.Construct, id *string, config *DbSnapshotCon
 	j := jsiiProxy_DbSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -681,12 +681,12 @@ func NewDbSnapshot(scope constructs.Construct, id *string, config *DbSnapshotCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_snapshot aws_db_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_snapshot aws_db_snapshot} Resource.
 func NewDbSnapshot_Override(d DbSnapshot, scope constructs.Construct, id *string, config *DbSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -847,7 +847,7 @@ func DbSnapshot_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -882,7 +882,7 @@ func DbSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func DbSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func DbSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func DbSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbSnapshot.DbSnapshot",
+		"@cdktn/provider-aws.dbSnapshot.DbSnapshot",
 		"tfResourceType",
 		&returns,
 	)

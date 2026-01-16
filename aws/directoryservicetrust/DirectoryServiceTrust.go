@@ -5,14 +5,14 @@ package directoryservicetrust
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryservicetrust/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryservicetrust/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_trust aws_directory_service_trust}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_trust aws_directory_service_trust}.
 type DirectoryServiceTrust interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_DirectoryServiceTrust) TrustTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
 func NewDirectoryServiceTrust(scope constructs.Construct, id *string, config *DirectoryServiceTrustConfig) DirectoryServiceTrust {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewDirectoryServiceTrust(scope constructs.Construct, id *string, config *Di
 	j := jsiiProxy_DirectoryServiceTrust{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -582,12 +582,12 @@ func NewDirectoryServiceTrust(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_trust aws_directory_service_trust} Resource.
 func NewDirectoryServiceTrust_Override(d DirectoryServiceTrust, scope constructs.Construct, id *string, config *DirectoryServiceTrustConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -770,7 +770,7 @@ func DirectoryServiceTrust_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -805,7 +805,7 @@ func DirectoryServiceTrust_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func DirectoryServiceTrust_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -843,7 +843,7 @@ func DirectoryServiceTrust_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -856,7 +856,7 @@ func DirectoryServiceTrust_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
+		"@cdktn/provider-aws.directoryServiceTrust.DirectoryServiceTrust",
 		"tfResourceType",
 		&returns,
 	)

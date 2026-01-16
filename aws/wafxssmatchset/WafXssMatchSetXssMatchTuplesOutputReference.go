@@ -5,9 +5,9 @@ package wafxssmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafxssmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafxssmatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewWafXssMatchSetXssMatchTuplesOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_WafXssMatchSetXssMatchTuplesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewWafXssMatchSetXssMatchTuplesOutputReference_Override(w WafXssMatchSetXss
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)

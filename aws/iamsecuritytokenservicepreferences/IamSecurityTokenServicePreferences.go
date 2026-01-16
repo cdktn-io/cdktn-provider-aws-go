@@ -5,14 +5,14 @@ package iamsecuritytokenservicepreferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamsecuritytokenservicepreferences/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamsecuritytokenservicepreferences/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences}.
 type IamSecurityTokenServicePreferences interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_IamSecurityTokenServicePreferences) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences} Resource.
 func NewIamSecurityTokenServicePreferences(scope constructs.Construct, id *string, config *IamSecurityTokenServicePreferencesConfig) IamSecurityTokenServicePreferences {
 	_init_.Initialize()
 
@@ -343,7 +343,7 @@ func NewIamSecurityTokenServicePreferences(scope constructs.Construct, id *strin
 	j := jsiiProxy_IamSecurityTokenServicePreferences{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -351,12 +351,12 @@ func NewIamSecurityTokenServicePreferences(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_security_token_service_preferences aws_iam_security_token_service_preferences} Resource.
 func NewIamSecurityTokenServicePreferences_Override(i IamSecurityTokenServicePreferences, scope constructs.Construct, id *string, config *IamSecurityTokenServicePreferencesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -462,7 +462,7 @@ func IamSecurityTokenServicePreferences_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -497,7 +497,7 @@ func IamSecurityTokenServicePreferences_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func IamSecurityTokenServicePreferences_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -535,7 +535,7 @@ func IamSecurityTokenServicePreferences_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func IamSecurityTokenServicePreferences_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
+		"@cdktn/provider-aws.iamSecurityTokenServicePreferences.IamSecurityTokenServicePreferences",
 		"tfResourceType",
 		&returns,
 	)

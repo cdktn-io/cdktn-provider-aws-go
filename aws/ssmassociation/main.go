@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		reflect.TypeOf((*SsmAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationConfig",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationConfig",
 		reflect.TypeOf((*SsmAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationOutputLocation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationOutputLocation",
 		reflect.TypeOf((*SsmAssociationOutputLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationOutputLocationOutputReference",
 		reflect.TypeOf((*SsmAssociationOutputLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargets",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargets",
 		reflect.TypeOf((*SsmAssociationTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsList",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsList",
 		reflect.TypeOf((*SsmAssociationTargetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -197,7 +197,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
 		reflect.TypeOf((*SsmAssociationTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

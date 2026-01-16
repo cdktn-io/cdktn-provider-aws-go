@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBranding",
+		"@cdktn/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBranding",
 		reflect.TypeOf((*CognitoManagedLoginBranding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAsset",
+		"@cdktn/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAsset",
 		reflect.TypeOf((*CognitoManagedLoginBrandingAsset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssetList",
+		"@cdktn/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssetList",
 		reflect.TypeOf((*CognitoManagedLoginBrandingAssetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssetOutputReference",
+		"@cdktn/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssetOutputReference",
 		reflect.TypeOf((*CognitoManagedLoginBrandingAssetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bytes", GoGetter: "Bytes"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig",
+		"@cdktn/provider-aws.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig",
 		reflect.TypeOf((*CognitoManagedLoginBrandingConfig)(nil)).Elem(),
 	)
 }

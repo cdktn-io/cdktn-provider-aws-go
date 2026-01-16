@@ -5,9 +5,9 @@ package route53keysigningkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53keysigningkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53keysigningkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRoute53KeySigningKeyTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_Route53KeySigningKeyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRoute53KeySigningKeyTimeoutsOutputReference_Override(r Route53KeySigning
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKeyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

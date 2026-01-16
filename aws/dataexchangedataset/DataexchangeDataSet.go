@@ -5,14 +5,14 @@ package dataexchangedataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataexchangedataset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataexchangedataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
 type DataexchangeDataSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataexchangeDataSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) DataexchangeDataSet {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataexchangeDataSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet_Override(d DataexchangeDataSet, scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -646,7 +646,7 @@ func DataexchangeDataSet_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func DataexchangeDataSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func DataexchangeDataSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func DataexchangeDataSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DataexchangeDataSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		"tfResourceType",
 		&returns,
 	)

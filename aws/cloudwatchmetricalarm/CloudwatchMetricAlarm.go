@@ -5,14 +5,14 @@ package cloudwatchmetricalarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchmetricalarm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchmetricalarm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
 type CloudwatchMetricAlarm interface {
 	cdktf.TerraformResource
 	ActionsEnabled() interface{}
@@ -894,7 +894,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) UnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) CloudwatchMetricAlarm {
 	_init_.Initialize()
 
@@ -904,7 +904,7 @@ func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *Cl
 	j := jsiiProxy_CloudwatchMetricAlarm{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -912,12 +912,12 @@ func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm_Override(c CloudwatchMetricAlarm, scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1265,7 +1265,7 @@ func CloudwatchMetricAlarm_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1300,7 +1300,7 @@ func CloudwatchMetricAlarm_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1319,7 +1319,7 @@ func CloudwatchMetricAlarm_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1338,7 +1338,7 @@ func CloudwatchMetricAlarm_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1351,7 +1351,7 @@ func CloudwatchMetricAlarm_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm",
 		"tfResourceType",
 		&returns,
 	)

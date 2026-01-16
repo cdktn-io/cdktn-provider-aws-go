@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePack",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePack",
 		reflect.TypeOf((*ConfigOrganizationConformancePack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackConfig",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackConfig",
 		reflect.TypeOf((*ConfigOrganizationConformancePackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameter",
 		reflect.TypeOf((*ConfigOrganizationConformancePackInputParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
 		reflect.TypeOf((*ConfigOrganizationConformancePackInputParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterOutputReference",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterOutputReference",
 		reflect.TypeOf((*ConfigOrganizationConformancePackInputParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeouts",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeouts",
 		reflect.TypeOf((*ConfigOrganizationConformancePackTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
 		reflect.TypeOf((*ConfigOrganizationConformancePackTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

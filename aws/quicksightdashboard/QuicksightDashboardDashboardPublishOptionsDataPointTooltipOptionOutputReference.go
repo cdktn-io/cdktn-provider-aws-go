@@ -5,9 +5,9 @@ package quicksightdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewQuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputRe
 	j := jsiiProxy_QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewQuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
+		"@cdktn/provider-aws.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsDataPointTooltipOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

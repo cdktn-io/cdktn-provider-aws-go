@@ -5,9 +5,9 @@ package dataawslblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLbListenerDefaultActionRedirectList(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsLbListenerDefaultActionRedirectList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionRedirectList",
+		"@cdktn/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionRedirectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLbListenerDefaultActionRedirectList_Override(d DataAwsLbListenerD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionRedirectList",
+		"@cdktn/provider-aws.dataAwsLbListener.DataAwsLbListenerDefaultActionRedirectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

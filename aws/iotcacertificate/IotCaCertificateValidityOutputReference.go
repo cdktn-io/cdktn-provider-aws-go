@@ -5,9 +5,9 @@ package iotcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotcacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewIotCaCertificateValidityOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_IotCaCertificateValidityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewIotCaCertificateValidityOutputReference_Override(i IotCaCertificateValid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
+		"@cdktn/provider-aws.iotCaCertificate.IotCaCertificateValidityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

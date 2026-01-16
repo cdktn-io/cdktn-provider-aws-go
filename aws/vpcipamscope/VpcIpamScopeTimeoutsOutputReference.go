@@ -5,9 +5,9 @@ package vpcipamscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipamscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewVpcIpamScopeTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_VpcIpamScopeTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScopeTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScopeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewVpcIpamScopeTimeoutsOutputReference_Override(v VpcIpamScopeTimeoutsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamScope.VpcIpamScopeTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcIpamScope.VpcIpamScopeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

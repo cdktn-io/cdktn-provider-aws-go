@@ -5,9 +5,9 @@ package cleanroomscollaboration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cleanroomscollaboration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cleanroomscollaboration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference(terraformRe
 	j := jsiiProxy_CleanroomsCollaborationDataEncryptionMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewCleanroomsCollaborationDataEncryptionMetadataOutputReference_Override(c 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
+		"@cdktn/provider-aws.cleanroomsCollaboration.CleanroomsCollaborationDataEncryptionMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

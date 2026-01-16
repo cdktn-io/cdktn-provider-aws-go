@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointConnectionNotification.VpcEndpointConnectionNotification",
+		"@cdktn/provider-aws.vpcEndpointConnectionNotification.VpcEndpointConnectionNotification",
 		reflect.TypeOf((*VpcEndpointConnectionNotification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointConnectionNotification.VpcEndpointConnectionNotificationConfig",
+		"@cdktn/provider-aws.vpcEndpointConnectionNotification.VpcEndpointConnectionNotificationConfig",
 		reflect.TypeOf((*VpcEndpointConnectionNotificationConfig)(nil)).Elem(),
 	)
 }

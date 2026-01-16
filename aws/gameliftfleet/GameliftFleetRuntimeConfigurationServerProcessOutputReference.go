@@ -5,9 +5,9 @@ package gameliftfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gameliftfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gameliftfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewGameliftFleetRuntimeConfigurationServerProcessOutputReference(terraformR
 	j := jsiiProxy_GameliftFleetRuntimeConfigurationServerProcessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcessOutputReference",
+		"@cdktn/provider-aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewGameliftFleetRuntimeConfigurationServerProcessOutputReference_Override(g
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcessOutputReference",
+		"@cdktn/provider-aws.gameliftFleet.GameliftFleetRuntimeConfigurationServerProcessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)

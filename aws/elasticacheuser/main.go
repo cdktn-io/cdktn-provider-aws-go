@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		reflect.TypeOf((*ElasticacheUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessString", GoGetter: "AccessString"},
@@ -98,11 +98,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserAuthenticationMode",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserAuthenticationMode",
 		reflect.TypeOf((*ElasticacheUserAuthenticationMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserAuthenticationModeOutputReference",
 		reflect.TypeOf((*ElasticacheUserAuthenticationModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,15 +140,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserConfig",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserConfig",
 		reflect.TypeOf((*ElasticacheUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserTimeouts",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserTimeouts",
 		reflect.TypeOf((*ElasticacheUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticacheUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

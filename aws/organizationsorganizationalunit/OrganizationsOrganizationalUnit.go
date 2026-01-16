@@ -5,14 +5,14 @@ package organizationsorganizationalunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsorganizationalunit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsorganizationalunit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit}.
 type OrganizationsOrganizationalUnit interface {
 	cdktf.TerraformResource
 	Accounts() OrganizationsOrganizationalUnitAccountsList
@@ -426,7 +426,7 @@ func (j *jsiiProxy_OrganizationsOrganizationalUnit) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit} Resource.
 func NewOrganizationsOrganizationalUnit(scope constructs.Construct, id *string, config *OrganizationsOrganizationalUnitConfig) OrganizationsOrganizationalUnit {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewOrganizationsOrganizationalUnit(scope constructs.Construct, id *string, 
 	j := jsiiProxy_OrganizationsOrganizationalUnit{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewOrganizationsOrganizationalUnit(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organizational_unit aws_organizations_organizational_unit} Resource.
 func NewOrganizationsOrganizationalUnit_Override(o OrganizationsOrganizationalUnit, scope constructs.Construct, id *string, config *OrganizationsOrganizationalUnitConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -588,7 +588,7 @@ func OrganizationsOrganizationalUnit_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func OrganizationsOrganizationalUnit_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func OrganizationsOrganizationalUnit_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func OrganizationsOrganizationalUnit_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func OrganizationsOrganizationalUnit_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
+		"@cdktn/provider-aws.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit",
 		"tfResourceType",
 		&returns,
 	)

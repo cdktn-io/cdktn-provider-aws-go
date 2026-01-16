@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		reflect.TypeOf((*WorkspacesDirectory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryConfig", GoGetter: "ActiveDirectoryConfig"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfig",
 		reflect.TypeOf((*WorkspacesDirectoryActiveDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfigOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryActiveDirectoryConfigOutputReference",
 		reflect.TypeOf((*WorkspacesDirectoryActiveDirectoryConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthProperties",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthProperties",
 		reflect.TypeOf((*WorkspacesDirectoryCertificateBasedAuthProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference",
 		reflect.TypeOf((*WorkspacesDirectoryCertificateBasedAuthPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateAuthorityArn", GoGetter: "CertificateAuthorityArn"},
@@ -213,15 +213,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryConfig",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryConfig",
 		reflect.TypeOf((*WorkspacesDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectorySamlProperties",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectorySamlProperties",
 		reflect.TypeOf((*WorkspacesDirectorySamlProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectorySamlPropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectorySamlPropertiesOutputReference",
 		reflect.TypeOf((*WorkspacesDirectorySamlPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -262,11 +262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectorySelfServicePermissions",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectorySelfServicePermissions",
 		reflect.TypeOf((*WorkspacesDirectorySelfServicePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectorySelfServicePermissionsOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectorySelfServicePermissionsOutputReference",
 		reflect.TypeOf((*WorkspacesDirectorySelfServicePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "changeComputeType", GoGetter: "ChangeComputeType"},
@@ -313,11 +313,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessProperties",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessProperties",
 		reflect.TypeOf((*WorkspacesDirectoryWorkspaceAccessProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference",
 		reflect.TypeOf((*WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -373,11 +373,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationProperties",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationProperties",
 		reflect.TypeOf((*WorkspacesDirectoryWorkspaceCreationProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectoryWorkspaceCreationPropertiesOutputReference",
 		reflect.TypeOf((*WorkspacesDirectoryWorkspaceCreationPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

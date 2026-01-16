@@ -5,9 +5,9 @@ package vpcencryptioncontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewVpcEncryptionControlTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_VpcEncryptionControlTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewVpcEncryptionControlTimeoutsOutputReference_Override(v VpcEncryptionCont
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

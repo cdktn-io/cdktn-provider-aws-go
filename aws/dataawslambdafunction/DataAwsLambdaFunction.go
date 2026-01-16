@@ -5,14 +5,14 @@ package dataawslambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_function aws_lambda_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_function aws_lambda_function}.
 type DataAwsLambdaFunction interface {
 	cdktf.TerraformDataSource
 	Architectures() *[]*string
@@ -81,6 +81,7 @@ type DataAwsLambdaFunction interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	ReservedConcurrentExecutions() *float64
+	ResponseStreamingInvokeArn() *string
 	Role() *string
 	Runtime() *string
 	SigningJobArn() *string
@@ -563,6 +564,16 @@ func (j *jsiiProxy_DataAwsLambdaFunction) ReservedConcurrentExecutions() *float6
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsLambdaFunction) ResponseStreamingInvokeArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"responseStreamingInvokeArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsLambdaFunction) Role() *string {
 	var returns *string
 	_jsii_.Get(
@@ -734,7 +745,7 @@ func (j *jsiiProxy_DataAwsLambdaFunction) VpcConfig() DataAwsLambdaFunctionVpcCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_function aws_lambda_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_function aws_lambda_function} Data Source.
 func NewDataAwsLambdaFunction(scope constructs.Construct, id *string, config *DataAwsLambdaFunctionConfig) DataAwsLambdaFunction {
 	_init_.Initialize()
 
@@ -744,7 +755,7 @@ func NewDataAwsLambdaFunction(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsLambdaFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -752,12 +763,12 @@ func NewDataAwsLambdaFunction(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lambda_function aws_lambda_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lambda_function aws_lambda_function} Data Source.
 func NewDataAwsLambdaFunction_Override(d DataAwsLambdaFunction, scope constructs.Construct, id *string, config *DataAwsLambdaFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -874,7 +885,7 @@ func DataAwsLambdaFunction_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -909,7 +920,7 @@ func DataAwsLambdaFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -928,7 +939,7 @@ func DataAwsLambdaFunction_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -947,7 +958,7 @@ func DataAwsLambdaFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -960,7 +971,7 @@ func DataAwsLambdaFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
+		"@cdktn/provider-aws.dataAwsLambdaFunction.DataAwsLambdaFunction",
 		"tfResourceType",
 		&returns,
 	)

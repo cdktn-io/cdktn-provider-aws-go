@@ -5,9 +5,9 @@ package connectuserhierarchygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectuserhierarchygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectuserhierarchygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference(terraformR
 	j := jsiiProxy_ConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUserHierarchyGroup.ConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference",
+		"@cdktn/provider-aws.connectUserHierarchyGroup.ConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference_Override(c
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectUserHierarchyGroup.ConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference",
+		"@cdktn/provider-aws.connectUserHierarchyGroup.ConnectUserHierarchyGroupHierarchyPathLevelOneOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

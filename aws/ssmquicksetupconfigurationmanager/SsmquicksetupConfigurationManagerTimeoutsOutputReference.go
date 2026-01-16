@@ -5,9 +5,9 @@ package ssmquicksetupconfigurationmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSsmquicksetupConfigurationManagerTimeoutsOutputReference(terraformResour
 	j := jsiiProxy_SsmquicksetupConfigurationManagerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSsmquicksetupConfigurationManagerTimeoutsOutputReference_Override(s Ssmq
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManagerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

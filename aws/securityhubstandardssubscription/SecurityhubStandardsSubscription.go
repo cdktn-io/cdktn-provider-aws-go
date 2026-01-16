@@ -5,14 +5,14 @@ package securityhubstandardssubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubstandardssubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubstandardssubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription}.
 type SecurityhubStandardsSubscription interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_SecurityhubStandardsSubscription) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription} Resource.
 func NewSecurityhubStandardsSubscription(scope constructs.Construct, id *string, config *SecurityhubStandardsSubscriptionConfig) SecurityhubStandardsSubscription {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewSecurityhubStandardsSubscription(scope constructs.Construct, id *string,
 	j := jsiiProxy_SecurityhubStandardsSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewSecurityhubStandardsSubscription(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_standards_subscription aws_securityhub_standards_subscription} Resource.
 func NewSecurityhubStandardsSubscription_Override(s SecurityhubStandardsSubscription, scope constructs.Construct, id *string, config *SecurityhubStandardsSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -521,7 +521,7 @@ func SecurityhubStandardsSubscription_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func SecurityhubStandardsSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func SecurityhubStandardsSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func SecurityhubStandardsSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func SecurityhubStandardsSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
+		"@cdktn/provider-aws.securityhubStandardsSubscription.SecurityhubStandardsSubscription",
 		"tfResourceType",
 		&returns,
 	)

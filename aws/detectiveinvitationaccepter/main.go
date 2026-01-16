@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		reflect.TypeOf((*DetectiveInvitationAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepterConfig",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepterConfig",
 		reflect.TypeOf((*DetectiveInvitationAccepterConfig)(nil)).Elem(),
 	)
 }

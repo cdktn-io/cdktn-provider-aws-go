@@ -5,9 +5,9 @@ package chimevoiceconnectororigination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimevoiceconnectororigination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimevoiceconnectororigination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -275,7 +275,7 @@ func NewChimeVoiceConnectorOriginationRouteOutputReference(terraformResource cdk
 	j := jsiiProxy_ChimeVoiceConnectorOriginationRouteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRouteOutputReference",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -287,7 +287,7 @@ func NewChimeVoiceConnectorOriginationRouteOutputReference_Override(c ChimeVoice
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRouteOutputReference",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOriginationRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

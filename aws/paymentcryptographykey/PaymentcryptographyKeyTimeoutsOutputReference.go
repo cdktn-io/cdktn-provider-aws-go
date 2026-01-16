@@ -5,9 +5,9 @@ package paymentcryptographykey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/paymentcryptographykey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/paymentcryptographykey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewPaymentcryptographyKeyTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_PaymentcryptographyKeyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewPaymentcryptographyKeyTimeoutsOutputReference_Override(p Paymentcryptogr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

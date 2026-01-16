@@ -5,9 +5,9 @@ package dataawss3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawss3accesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3accesspoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsS3AccessPointVpcConfigurationList(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsS3AccessPointVpcConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPointVpcConfigurationList",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPointVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsS3AccessPointVpcConfigurationList_Override(d DataAwsS3AccessPoint
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPointVpcConfigurationList",
+		"@cdktn/provider-aws.dataAwsS3AccessPoint.DataAwsS3AccessPointVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

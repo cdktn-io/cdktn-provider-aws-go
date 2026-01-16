@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryService",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryService",
 		reflect.TypeOf((*ServiceDiscoveryService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,19 +102,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceConfig",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceConfig",
 		reflect.TypeOf((*ServiceDiscoveryServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfig",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfig",
 		reflect.TypeOf((*ServiceDiscoveryServiceDnsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecords",
 		reflect.TypeOf((*ServiceDiscoveryServiceDnsConfigDnsRecords)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsList",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsList",
 		reflect.TypeOf((*ServiceDiscoveryServiceDnsConfigDnsRecordsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference",
 		reflect.TypeOf((*ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigOutputReference",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceDnsConfigOutputReference",
 		reflect.TypeOf((*ServiceDiscoveryServiceDnsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfig",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfig",
 		reflect.TypeOf((*ServiceDiscoveryServiceHealthCheckConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfigOutputReference",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckConfigOutputReference",
 		reflect.TypeOf((*ServiceDiscoveryServiceHealthCheckConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -257,11 +257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckCustomConfig",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckCustomConfig",
 		reflect.TypeOf((*ServiceDiscoveryServiceHealthCheckCustomConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference",
+		"@cdktn/provider-aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference",
 		reflect.TypeOf((*ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

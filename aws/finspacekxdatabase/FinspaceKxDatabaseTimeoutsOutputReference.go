@@ -5,9 +5,9 @@ package finspacekxdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFinspaceKxDatabaseTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_FinspaceKxDatabaseTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabaseTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFinspaceKxDatabaseTimeoutsOutputReference_Override(f FinspaceKxDatabaseT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxDatabase.FinspaceKxDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxDatabase.FinspaceKxDatabaseTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

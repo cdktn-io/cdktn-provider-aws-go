@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		reflect.TypeOf((*Route53ProfilesAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationConfig",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationConfig",
 		reflect.TypeOf((*Route53ProfilesAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationTimeouts",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationTimeouts",
 		reflect.TypeOf((*Route53ProfilesAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*Route53ProfilesAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

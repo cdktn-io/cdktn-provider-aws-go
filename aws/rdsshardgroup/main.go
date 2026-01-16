@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroup",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroup",
 		reflect.TypeOf((*RdsShardGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroupConfig",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroupConfig",
 		reflect.TypeOf((*RdsShardGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroupTimeouts",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroupTimeouts",
 		reflect.TypeOf((*RdsShardGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
 		reflect.TypeOf((*RdsShardGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

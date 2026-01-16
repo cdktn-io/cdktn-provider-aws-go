@@ -5,9 +5,9 @@ package kendraindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewKendraIndexIndexStatisticsList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_KendraIndexIndexStatisticsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexIndexStatisticsList",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexIndexStatisticsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewKendraIndexIndexStatisticsList_Override(k KendraIndexIndexStatisticsList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraIndex.KendraIndexIndexStatisticsList",
+		"@cdktn/provider-aws.kendraIndex.KendraIndexIndexStatisticsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		k,
 	)

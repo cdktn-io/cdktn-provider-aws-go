@@ -5,9 +5,9 @@ package ec2managedprefixlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2managedprefixlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2managedprefixlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewEc2ManagedPrefixListEntryOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_Ec2ManagedPrefixListEntryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntryOutputReference",
+		"@cdktn/provider-aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewEc2ManagedPrefixListEntryOutputReference_Override(e Ec2ManagedPrefixList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntryOutputReference",
+		"@cdktn/provider-aws.ec2ManagedPrefixList.Ec2ManagedPrefixListEntryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

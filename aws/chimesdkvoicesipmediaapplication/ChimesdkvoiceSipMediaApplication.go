@@ -5,14 +5,14 @@ package chimesdkvoicesipmediaapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimesdkvoicesipmediaapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimesdkvoicesipmediaapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application}.
 type ChimesdkvoiceSipMediaApplication interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ChimesdkvoiceSipMediaApplication) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
 func NewChimesdkvoiceSipMediaApplication(scope constructs.Construct, id *string, config *ChimesdkvoiceSipMediaApplicationConfig) ChimesdkvoiceSipMediaApplication {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewChimesdkvoiceSipMediaApplication(scope constructs.Construct, id *string,
 	j := jsiiProxy_ChimesdkvoiceSipMediaApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewChimesdkvoiceSipMediaApplication(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
 func NewChimesdkvoiceSipMediaApplication_Override(c ChimesdkvoiceSipMediaApplication, scope constructs.Construct, id *string, config *ChimesdkvoiceSipMediaApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -635,7 +635,7 @@ func ChimesdkvoiceSipMediaApplication_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func ChimesdkvoiceSipMediaApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func ChimesdkvoiceSipMediaApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func ChimesdkvoiceSipMediaApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func ChimesdkvoiceSipMediaApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplication",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		reflect.TypeOf((*CloudwatchContributorManagedInsightRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRuleConfig",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRuleConfig",
 		reflect.TypeOf((*CloudwatchContributorManagedInsightRuleConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package wafregionalbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalbytematchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafregionalByteMatchSetByteMatchTuplesList(terraformResource cdktf.IInte
 	j := jsiiProxy_WafregionalByteMatchSetByteMatchTuplesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafregionalByteMatchSetByteMatchTuplesList_Override(w WafregionalByteMat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSetByteMatchTuplesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

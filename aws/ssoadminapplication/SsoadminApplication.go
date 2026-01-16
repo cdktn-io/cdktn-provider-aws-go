@@ -5,14 +5,14 @@ package ssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application aws_ssoadmin_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application aws_ssoadmin_application}.
 type SsoadminApplication interface {
 	cdktf.TerraformResource
 	ApplicationAccount() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_SsoadminApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application aws_ssoadmin_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application aws_ssoadmin_application} Resource.
 func NewSsoadminApplication(scope constructs.Construct, id *string, config *SsoadminApplicationConfig) SsoadminApplication {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewSsoadminApplication(scope constructs.Construct, id *string, config *Ssoa
 	j := jsiiProxy_SsoadminApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -572,12 +572,12 @@ func NewSsoadminApplication(scope constructs.Construct, id *string, config *Ssoa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application aws_ssoadmin_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application aws_ssoadmin_application} Resource.
 func NewSsoadminApplication_Override(s SsoadminApplication, scope constructs.Construct, id *string, config *SsoadminApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -749,7 +749,7 @@ func SsoadminApplication_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -784,7 +784,7 @@ func SsoadminApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func SsoadminApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +822,7 @@ func SsoadminApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func SsoadminApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssoadminApplication.SsoadminApplication",
+		"@cdktn/provider-aws.ssoadminApplication.SsoadminApplication",
 		"tfResourceType",
 		&returns,
 	)

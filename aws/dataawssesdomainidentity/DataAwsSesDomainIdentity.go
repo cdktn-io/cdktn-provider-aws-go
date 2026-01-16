@@ -5,14 +5,14 @@ package dataawssesdomainidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssesdomainidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssesdomainidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity}.
 type DataAwsSesDomainIdentity interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataAwsSesDomainIdentity) VerificationToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
 func NewDataAwsSesDomainIdentity(scope constructs.Construct, id *string, config *DataAwsSesDomainIdentityConfig) DataAwsSesDomainIdentity {
 	_init_.Initialize()
 
@@ -344,7 +344,7 @@ func NewDataAwsSesDomainIdentity(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsSesDomainIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -352,12 +352,12 @@ func NewDataAwsSesDomainIdentity(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
 func NewDataAwsSesDomainIdentity_Override(d DataAwsSesDomainIdentity, scope constructs.Construct, id *string, config *DataAwsSesDomainIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -452,7 +452,7 @@ func DataAwsSesDomainIdentity_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -487,7 +487,7 @@ func DataAwsSesDomainIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -506,7 +506,7 @@ func DataAwsSesDomainIdentity_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsSesDomainIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataAwsSesDomainIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
+		"@cdktn/provider-aws.dataAwsSesDomainIdentity.DataAwsSesDomainIdentity",
 		"tfResourceType",
 		&returns,
 	)

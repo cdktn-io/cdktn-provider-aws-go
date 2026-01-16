@@ -5,14 +5,14 @@ package gluedatacatalogencryptionsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluedatacatalogencryptionsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluedatacatalogencryptionsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings}.
 type GlueDataCatalogEncryptionSettings interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -381,7 +381,7 @@ func (j *jsiiProxy_GlueDataCatalogEncryptionSettings) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings} Resource.
 func NewGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string, config *GlueDataCatalogEncryptionSettingsConfig) GlueDataCatalogEncryptionSettings {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string
 	j := jsiiProxy_GlueDataCatalogEncryptionSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_catalog_encryption_settings aws_glue_data_catalog_encryption_settings} Resource.
 func NewGlueDataCatalogEncryptionSettings_Override(g GlueDataCatalogEncryptionSettings, scope constructs.Construct, id *string, config *GlueDataCatalogEncryptionSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -521,7 +521,7 @@ func GlueDataCatalogEncryptionSettings_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func GlueDataCatalogEncryptionSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func GlueDataCatalogEncryptionSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func GlueDataCatalogEncryptionSettings_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func GlueDataCatalogEncryptionSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
+		"@cdktn/provider-aws.glueDataCatalogEncryptionSettings.GlueDataCatalogEncryptionSettings",
 		"tfResourceType",
 		&returns,
 	)

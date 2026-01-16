@@ -5,14 +5,14 @@ package dmsreplicationsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsreplicationsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsreplicationsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
 type DmsReplicationSubnetGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DmsReplicationSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
 func NewDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config *DmsReplicationSubnetGroupConfig) DmsReplicationSubnetGroup {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DmsReplicationSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
 func NewDmsReplicationSubnetGroup_Override(d DmsReplicationSubnetGroup, scope constructs.Construct, id *string, config *DmsReplicationSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -657,7 +657,7 @@ func DmsReplicationSubnetGroup_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func DmsReplicationSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func DmsReplicationSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func DmsReplicationSubnetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func DmsReplicationSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
+		"@cdktn/provider-aws.dmsReplicationSubnetGroup.DmsReplicationSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

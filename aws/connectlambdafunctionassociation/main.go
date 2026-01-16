@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		reflect.TypeOf((*ConnectLambdaFunctionAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociationConfig",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociationConfig",
 		reflect.TypeOf((*ConnectLambdaFunctionAssociationConfig)(nil)).Elem(),
 	)
 }

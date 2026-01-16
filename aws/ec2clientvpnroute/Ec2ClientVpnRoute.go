@@ -5,14 +5,14 @@ package ec2clientvpnroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2clientvpnroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2clientvpnroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route}.
 type Ec2ClientVpnRoute interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_Ec2ClientVpnRoute) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
 func NewEc2ClientVpnRoute(scope constructs.Construct, id *string, config *Ec2ClientVpnRouteConfig) Ec2ClientVpnRoute {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewEc2ClientVpnRoute(scope constructs.Construct, id *string, config *Ec2Cli
 	j := jsiiProxy_Ec2ClientVpnRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewEc2ClientVpnRoute(scope constructs.Construct, id *string, config *Ec2Cli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
 func NewEc2ClientVpnRoute_Override(e Ec2ClientVpnRoute, scope constructs.Construct, id *string, config *Ec2ClientVpnRouteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -646,7 +646,7 @@ func Ec2ClientVpnRoute_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func Ec2ClientVpnRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func Ec2ClientVpnRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func Ec2ClientVpnRoute_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func Ec2ClientVpnRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
+		"@cdktn/provider-aws.ec2ClientVpnRoute.Ec2ClientVpnRoute",
 		"tfResourceType",
 		&returns,
 	)

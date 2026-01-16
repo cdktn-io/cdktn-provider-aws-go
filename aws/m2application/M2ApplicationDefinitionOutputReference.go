@@ -5,9 +5,9 @@ package m2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2application/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2application/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewM2ApplicationDefinitionOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_M2ApplicationDefinitionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
+		"@cdktn/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewM2ApplicationDefinitionOutputReference_Override(m M2ApplicationDefinitio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
+		"@cdktn/provider-aws.m2Application.M2ApplicationDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

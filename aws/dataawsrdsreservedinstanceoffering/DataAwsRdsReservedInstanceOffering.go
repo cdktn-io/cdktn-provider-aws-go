@@ -5,14 +5,14 @@ package dataawsrdsreservedinstanceoffering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsrdsreservedinstanceoffering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdsreservedinstanceoffering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering}.
 type DataAwsRdsReservedInstanceOffering interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_DataAwsRdsReservedInstanceOffering) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
 func NewDataAwsRdsReservedInstanceOffering(scope constructs.Construct, id *string, config *DataAwsRdsReservedInstanceOfferingConfig) DataAwsRdsReservedInstanceOffering {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsRdsReservedInstanceOffering(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsRdsReservedInstanceOffering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewDataAwsRdsReservedInstanceOffering(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_reserved_instance_offering aws_rds_reserved_instance_offering} Data Source.
 func NewDataAwsRdsReservedInstanceOffering_Override(d DataAwsRdsReservedInstanceOffering, scope constructs.Construct, id *string, config *DataAwsRdsReservedInstanceOfferingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -599,7 +599,7 @@ func DataAwsRdsReservedInstanceOffering_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func DataAwsRdsReservedInstanceOffering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func DataAwsRdsReservedInstanceOffering_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func DataAwsRdsReservedInstanceOffering_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func DataAwsRdsReservedInstanceOffering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
+		"@cdktn/provider-aws.dataAwsRdsReservedInstanceOffering.DataAwsRdsReservedInstanceOffering",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package neptuneglobalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptuneglobalcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptuneglobalcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
 type NeptuneGlobalCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_NeptuneGlobalCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) NeptuneGlobalCluster {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *Nep
 	j := jsiiProxy_NeptuneGlobalCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *Nep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster_Override(n NeptuneGlobalCluster, scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -740,7 +740,7 @@ func NeptuneGlobalCluster_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func NeptuneGlobalCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func NeptuneGlobalCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func NeptuneGlobalCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func NeptuneGlobalCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
+		"@cdktn/provider-aws.neptuneGlobalCluster.NeptuneGlobalCluster",
 		"tfResourceType",
 		&returns,
 	)

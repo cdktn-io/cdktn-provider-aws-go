@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		reflect.TypeOf((*DataAwsNetworkmanagerSite)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteConfig",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteConfig",
 		reflect.TypeOf((*DataAwsNetworkmanagerSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocation",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocation",
 		reflect.TypeOf((*DataAwsNetworkmanagerSiteLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocationList",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocationList",
 		reflect.TypeOf((*DataAwsNetworkmanagerSiteLocationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocationOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSiteLocationOutputReference",
 		reflect.TypeOf((*DataAwsNetworkmanagerSiteLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},

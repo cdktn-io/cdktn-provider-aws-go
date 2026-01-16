@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationRouteCalculator.LocationRouteCalculator",
+		"@cdktn/provider-aws.locationRouteCalculator.LocationRouteCalculator",
 		reflect.TypeOf((*LocationRouteCalculator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationRouteCalculator.LocationRouteCalculatorConfig",
+		"@cdktn/provider-aws.locationRouteCalculator.LocationRouteCalculatorConfig",
 		reflect.TypeOf((*LocationRouteCalculatorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationRouteCalculator.LocationRouteCalculatorTimeouts",
+		"@cdktn/provider-aws.locationRouteCalculator.LocationRouteCalculatorTimeouts",
 		reflect.TypeOf((*LocationRouteCalculatorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationRouteCalculator.LocationRouteCalculatorTimeoutsOutputReference",
+		"@cdktn/provider-aws.locationRouteCalculator.LocationRouteCalculatorTimeoutsOutputReference",
 		reflect.TypeOf((*LocationRouteCalculatorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

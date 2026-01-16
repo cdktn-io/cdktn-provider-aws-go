@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolume",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolume",
 		reflect.TypeOf((*FinspaceKxVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,11 +102,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClusters",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClusters",
 		reflect.TypeOf((*FinspaceKxVolumeAttachedClusters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClustersList",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClustersList",
 		reflect.TypeOf((*FinspaceKxVolumeAttachedClustersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClustersOutputReference",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeAttachedClustersOutputReference",
 		reflect.TypeOf((*FinspaceKxVolumeAttachedClustersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterName", GoGetter: "ClusterName"},
@@ -162,15 +162,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeConfig",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeConfig",
 		reflect.TypeOf((*FinspaceKxVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1Configuration",
 		reflect.TypeOf((*FinspaceKxVolumeNas1Configuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationList",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationList",
 		reflect.TypeOf((*FinspaceKxVolumeNas1ConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -192,7 +192,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
 		reflect.TypeOf((*FinspaceKxVolumeNas1ConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeTimeouts",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeTimeouts",
 		reflect.TypeOf((*FinspaceKxVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*FinspaceKxVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

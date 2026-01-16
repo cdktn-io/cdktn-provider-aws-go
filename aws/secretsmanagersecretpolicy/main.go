@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecretPolicy.SecretsmanagerSecretPolicy",
+		"@cdktn/provider-aws.secretsmanagerSecretPolicy.SecretsmanagerSecretPolicy",
 		reflect.TypeOf((*SecretsmanagerSecretPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.secretsmanagerSecretPolicy.SecretsmanagerSecretPolicyConfig",
+		"@cdktn/provider-aws.secretsmanagerSecretPolicy.SecretsmanagerSecretPolicyConfig",
 		reflect.TypeOf((*SecretsmanagerSecretPolicyConfig)(nil)).Elem(),
 	)
 }

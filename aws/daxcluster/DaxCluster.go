@@ -5,14 +5,14 @@ package daxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/daxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/daxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_cluster aws_dax_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_cluster aws_dax_cluster}.
 type DaxCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -769,7 +769,7 @@ func (j *jsiiProxy_DaxCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_cluster aws_dax_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_cluster aws_dax_cluster} Resource.
 func NewDaxCluster(scope constructs.Construct, id *string, config *DaxClusterConfig) DaxCluster {
 	_init_.Initialize()
 
@@ -779,7 +779,7 @@ func NewDaxCluster(scope constructs.Construct, id *string, config *DaxClusterCon
 	j := jsiiProxy_DaxCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -787,12 +787,12 @@ func NewDaxCluster(scope constructs.Construct, id *string, config *DaxClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_cluster aws_dax_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_cluster aws_dax_cluster} Resource.
 func NewDaxCluster_Override(d DaxCluster, scope constructs.Construct, id *string, config *DaxClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1052,7 +1052,7 @@ func DaxCluster_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1087,7 +1087,7 @@ func DaxCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1106,7 +1106,7 @@ func DaxCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1125,7 +1125,7 @@ func DaxCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1138,7 +1138,7 @@ func DaxCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		"tfResourceType",
 		&returns,
 	)

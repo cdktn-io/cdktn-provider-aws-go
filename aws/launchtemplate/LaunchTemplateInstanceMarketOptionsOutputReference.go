@@ -5,9 +5,9 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLaunchTemplateInstanceMarketOptionsOutputReference(terraformResource cdk
 	j := jsiiProxy_LaunchTemplateInstanceMarketOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceMarketOptionsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceMarketOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLaunchTemplateInstanceMarketOptionsOutputReference_Override(l LaunchTemp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceMarketOptionsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceMarketOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

@@ -5,14 +5,14 @@ package ecrrepositorypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrrepositorypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrrepositorypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy}.
 type EcrRepositoryPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_EcrRepositoryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
 func NewEcrRepositoryPolicy(scope constructs.Construct, id *string, config *EcrRepositoryPolicyConfig) EcrRepositoryPolicy {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewEcrRepositoryPolicy(scope constructs.Construct, id *string, config *EcrR
 	j := jsiiProxy_EcrRepositoryPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewEcrRepositoryPolicy(scope constructs.Construct, id *string, config *EcrR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository_policy aws_ecr_repository_policy} Resource.
 func NewEcrRepositoryPolicy_Override(e EcrRepositoryPolicy, scope constructs.Construct, id *string, config *EcrRepositoryPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -542,7 +542,7 @@ func EcrRepositoryPolicy_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func EcrRepositoryPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func EcrRepositoryPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func EcrRepositoryPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func EcrRepositoryPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
+		"@cdktn/provider-aws.ecrRepositoryPolicy.EcrRepositoryPolicy",
 		"tfResourceType",
 		&returns,
 	)

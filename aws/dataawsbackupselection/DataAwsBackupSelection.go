@@ -5,14 +5,14 @@ package dataawsbackupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_selection aws_backup_selection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_selection aws_backup_selection}.
 type DataAwsBackupSelection interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAwsBackupSelection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_selection aws_backup_selection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_selection aws_backup_selection} Data Source.
 func NewDataAwsBackupSelection(scope constructs.Construct, id *string, config *DataAwsBackupSelectionConfig) DataAwsBackupSelection {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewDataAwsBackupSelection(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsBackupSelection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewDataAwsBackupSelection(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_selection aws_backup_selection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_selection aws_backup_selection} Data Source.
 func NewDataAwsBackupSelection_Override(d DataAwsBackupSelection, scope constructs.Construct, id *string, config *DataAwsBackupSelectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DataAwsBackupSelection_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DataAwsBackupSelection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DataAwsBackupSelection_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsBackupSelection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAwsBackupSelection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
+		"@cdktn/provider-aws.dataAwsBackupSelection.DataAwsBackupSelection",
 		"tfResourceType",
 		&returns,
 	)

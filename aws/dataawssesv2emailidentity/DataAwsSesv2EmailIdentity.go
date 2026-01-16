@@ -5,14 +5,14 @@ package dataawssesv2emailidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssesv2emailidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssesv2emailidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity}.
 type DataAwsSesv2EmailIdentity interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsSesv2EmailIdentity) VerifiedForSendingStatus() cdktf.I
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity} Data Source.
 func NewDataAwsSesv2EmailIdentity(scope constructs.Construct, id *string, config *DataAwsSesv2EmailIdentityConfig) DataAwsSesv2EmailIdentity {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsSesv2EmailIdentity(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsSesv2EmailIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAwsSesv2EmailIdentity(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_email_identity aws_sesv2_email_identity} Data Source.
 func NewDataAwsSesv2EmailIdentity_Override(d DataAwsSesv2EmailIdentity, scope constructs.Construct, id *string, config *DataAwsSesv2EmailIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAwsSesv2EmailIdentity_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsSesv2EmailIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsSesv2EmailIdentity_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsSesv2EmailIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsSesv2EmailIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
+		"@cdktn/provider-aws.dataAwsSesv2EmailIdentity.DataAwsSesv2EmailIdentity",
 		"tfResourceType",
 		&returns,
 	)

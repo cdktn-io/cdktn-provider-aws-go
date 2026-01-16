@@ -5,14 +5,14 @@ package s3controlstoragelensconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlstoragelensconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlstoragelensconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration}.
 type S3ControlStorageLensConfiguration interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_S3ControlStorageLensConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) S3ControlStorageLensConfiguration {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string
 	j := jsiiProxy_S3ControlStorageLensConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewS3ControlStorageLensConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_storage_lens_configuration aws_s3control_storage_lens_configuration} Resource.
 func NewS3ControlStorageLensConfiguration_Override(s S3ControlStorageLensConfiguration, scope constructs.Construct, id *string, config *S3ControlStorageLensConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -636,7 +636,7 @@ func S3ControlStorageLensConfiguration_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func S3ControlStorageLensConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func S3ControlStorageLensConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func S3ControlStorageLensConfiguration_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func S3ControlStorageLensConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
+		"@cdktn/provider-aws.s3ControlStorageLensConfiguration.S3ControlStorageLensConfiguration",
 		"tfResourceType",
 		&returns,
 	)

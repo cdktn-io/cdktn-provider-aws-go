@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplate",
+		"@cdktn/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplate",
 		reflect.TypeOf((*InspectorAssessmentTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateConfig",
+		"@cdktn/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateConfig",
 		reflect.TypeOf((*InspectorAssessmentTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription",
+		"@cdktn/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscription",
 		reflect.TypeOf((*InspectorAssessmentTemplateEventSubscription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscriptionList",
+		"@cdktn/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscriptionList",
 		reflect.TypeOf((*InspectorAssessmentTemplateEventSubscriptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscriptionOutputReference",
+		"@cdktn/provider-aws.inspectorAssessmentTemplate.InspectorAssessmentTemplateEventSubscriptionOutputReference",
 		reflect.TypeOf((*InspectorAssessmentTemplateEventSubscriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

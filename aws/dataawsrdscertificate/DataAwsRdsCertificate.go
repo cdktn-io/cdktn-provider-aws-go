@@ -5,14 +5,14 @@ package dataawsrdscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsrdscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdscertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_certificate aws_rds_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_certificate aws_rds_certificate}.
 type DataAwsRdsCertificate interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_DataAwsRdsCertificate) ValidTill() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_certificate aws_rds_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_certificate aws_rds_certificate} Data Source.
 func NewDataAwsRdsCertificate(scope constructs.Construct, id *string, config *DataAwsRdsCertificateConfig) DataAwsRdsCertificate {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewDataAwsRdsCertificate(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsRdsCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewDataAwsRdsCertificate(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_certificate aws_rds_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_certificate aws_rds_certificate} Data Source.
 func NewDataAwsRdsCertificate_Override(d DataAwsRdsCertificate, scope constructs.Construct, id *string, config *DataAwsRdsCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -543,7 +543,7 @@ func DataAwsRdsCertificate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func DataAwsRdsCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func DataAwsRdsCertificate_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataAwsRdsCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DataAwsRdsCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		"tfResourceType",
 		&returns,
 	)

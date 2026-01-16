@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		reflect.TypeOf((*CodebuildFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,11 +106,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetComputeConfiguration",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetComputeConfiguration",
 		reflect.TypeOf((*CodebuildFleetComputeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetComputeConfigurationOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetComputeConfigurationOutputReference",
 		reflect.TypeOf((*CodebuildFleetComputeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,15 +157,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetConfig",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetConfig",
 		reflect.TypeOf((*CodebuildFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetScalingConfiguration",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetScalingConfiguration",
 		reflect.TypeOf((*CodebuildFleetScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationOutputReference",
 		reflect.TypeOf((*CodebuildFleetScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs",
 		reflect.TypeOf((*CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList",
 		reflect.TypeOf((*CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -234,7 +234,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference",
 		reflect.TypeOf((*CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetStatus",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetStatus",
 		reflect.TypeOf((*CodebuildFleetStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetStatusList",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetStatusList",
 		reflect.TypeOf((*CodebuildFleetStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetStatusOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetStatusOutputReference",
 		reflect.TypeOf((*CodebuildFleetStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -332,11 +332,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetVpcConfig",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetVpcConfig",
 		reflect.TypeOf((*CodebuildFleetVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetVpcConfigList",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetVpcConfigList",
 		reflect.TypeOf((*CodebuildFleetVpcConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -358,7 +358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleetVpcConfigOutputReference",
 		reflect.TypeOf((*CodebuildFleetVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

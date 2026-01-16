@@ -5,14 +5,14 @@ package vpcrouteserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcrouteserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcrouteserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server aws_vpc_route_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server aws_vpc_route_server}.
 type VpcRouteServer interface {
 	cdktf.TerraformResource
 	AmazonSideAsn() *float64
@@ -497,7 +497,7 @@ func (j *jsiiProxy_VpcRouteServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
 func NewVpcRouteServer(scope constructs.Construct, id *string, config *VpcRouteServerConfig) VpcRouteServer {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewVpcRouteServer(scope constructs.Construct, id *string, config *VpcRouteS
 	j := jsiiProxy_VpcRouteServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewVpcRouteServer(scope constructs.Construct, id *string, config *VpcRouteS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_route_server aws_vpc_route_server} Resource.
 func NewVpcRouteServer_Override(v VpcRouteServer, scope constructs.Construct, id *string, config *VpcRouteServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -670,7 +670,7 @@ func VpcRouteServer_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func VpcRouteServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func VpcRouteServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func VpcRouteServer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func VpcRouteServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcRouteServer.VpcRouteServer",
+		"@cdktn/provider-aws.vpcRouteServer.VpcRouteServer",
 		"tfResourceType",
 		&returns,
 	)

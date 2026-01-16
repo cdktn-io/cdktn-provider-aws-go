@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		reflect.TypeOf((*Resourceexplorer2Index)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexConfig",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexConfig",
 		reflect.TypeOf((*Resourceexplorer2IndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeouts",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeouts",
 		reflect.TypeOf((*Resourceexplorer2IndexTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
 		reflect.TypeOf((*Resourceexplorer2IndexTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

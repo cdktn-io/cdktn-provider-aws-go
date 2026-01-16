@@ -5,9 +5,9 @@ package cloudwatchcompositealarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchcompositealarm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchcompositealarm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewCloudwatchCompositeAlarmActionsSuppressorOutputReference(terraformResour
 	j := jsiiProxy_CloudwatchCompositeAlarmActionsSuppressorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewCloudwatchCompositeAlarmActionsSuppressorOutputReference_Override(c Clou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

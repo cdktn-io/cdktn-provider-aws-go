@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicy",
 		reflect.TypeOf((*EcrLifecyclePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicyConfig",
+		"@cdktn/provider-aws.ecrLifecyclePolicy.EcrLifecyclePolicyConfig",
 		reflect.TypeOf((*EcrLifecyclePolicyConfig)(nil)).Elem(),
 	)
 }

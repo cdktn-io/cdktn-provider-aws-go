@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStream",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStream",
 		reflect.TypeOf((*CloudwatchMetricStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamConfig",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamConfig",
 		reflect.TypeOf((*CloudwatchMetricStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilter",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilter",
 		reflect.TypeOf((*CloudwatchMetricStreamExcludeFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilterList",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilterList",
 		reflect.TypeOf((*CloudwatchMetricStreamExcludeFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilterOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamExcludeFilterOutputReference",
 		reflect.TypeOf((*CloudwatchMetricStreamExcludeFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -177,11 +177,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilter",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilter",
 		reflect.TypeOf((*CloudwatchMetricStreamIncludeFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterList",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterList",
 		reflect.TypeOf((*CloudwatchMetricStreamIncludeFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -203,7 +203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
 		reflect.TypeOf((*CloudwatchMetricStreamIncludeFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,15 +240,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfiguration",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetric",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfigurationIncludeMetric)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetricList",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetricList",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfigurationIncludeMetricList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -270,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputReference",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -306,7 +306,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationList",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationList",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -328,7 +328,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamStatisticsConfigurationOutputReference",
 		reflect.TypeOf((*CloudwatchMetricStreamStatisticsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalStatistics", GoGetter: "AdditionalStatistics"},
@@ -365,11 +365,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeouts",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeouts",
 		reflect.TypeOf((*CloudwatchMetricStreamTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamTimeoutsOutputReference",
 		reflect.TypeOf((*CloudwatchMetricStreamTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

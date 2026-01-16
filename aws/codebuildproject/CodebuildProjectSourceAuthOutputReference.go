@@ -5,9 +5,9 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCodebuildProjectSourceAuthOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_CodebuildProjectSourceAuthOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectSourceAuthOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectSourceAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCodebuildProjectSourceAuthOutputReference_Override(c CodebuildProjectSou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectSourceAuthOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectSourceAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,9 +5,9 @@ package fsxopenzfsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewFsxOpenzfsVolumeNfsExportsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_FsxOpenzfsVolumeNfsExportsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewFsxOpenzfsVolumeNfsExportsOutputReference_Override(f FsxOpenzfsVolumeNfs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
+		"@cdktn/provider-aws.fsxOpenzfsVolume.FsxOpenzfsVolumeNfsExportsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

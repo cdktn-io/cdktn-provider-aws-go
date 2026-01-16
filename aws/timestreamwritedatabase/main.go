@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabase",
 		reflect.TypeOf((*TimestreamwriteDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabaseConfig",
+		"@cdktn/provider-aws.timestreamwriteDatabase.TimestreamwriteDatabaseConfig",
 		reflect.TypeOf((*TimestreamwriteDatabaseConfig)(nil)).Elem(),
 	)
 }

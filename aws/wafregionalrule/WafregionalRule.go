@@ -5,14 +5,14 @@ package wafregionalrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule aws_wafregional_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule aws_wafregional_rule}.
 type WafregionalRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_WafregionalRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
 func NewWafregionalRule(scope constructs.Construct, id *string, config *WafregionalRuleConfig) WafregionalRule {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewWafregionalRule(scope constructs.Construct, id *string, config *Wafregio
 	j := jsiiProxy_WafregionalRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewWafregionalRule(scope constructs.Construct, id *string, config *Wafregio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_rule aws_wafregional_rule} Resource.
 func NewWafregionalRule_Override(w WafregionalRule, scope constructs.Construct, id *string, config *WafregionalRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -636,7 +636,7 @@ func WafregionalRule_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func WafregionalRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func WafregionalRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func WafregionalRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func WafregionalRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalRule.WafregionalRule",
+		"@cdktn/provider-aws.wafregionalRule.WafregionalRule",
 		"tfResourceType",
 		&returns,
 	)

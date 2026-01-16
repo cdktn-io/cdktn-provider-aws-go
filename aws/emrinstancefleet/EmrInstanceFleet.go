@@ -5,14 +5,14 @@ package emrinstancefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrinstancefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrinstancefleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet}.
 type EmrInstanceFleet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -499,7 +499,7 @@ func (j *jsiiProxy_EmrInstanceFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
 func NewEmrInstanceFleet(scope constructs.Construct, id *string, config *EmrInstanceFleetConfig) EmrInstanceFleet {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewEmrInstanceFleet(scope constructs.Construct, id *string, config *EmrInst
 	j := jsiiProxy_EmrInstanceFleet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewEmrInstanceFleet(scope constructs.Construct, id *string, config *EmrInst
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
 func NewEmrInstanceFleet_Override(e EmrInstanceFleet, scope constructs.Construct, id *string, config *EmrInstanceFleetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -672,7 +672,7 @@ func EmrInstanceFleet_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func EmrInstanceFleet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func EmrInstanceFleet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func EmrInstanceFleet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func EmrInstanceFleet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleet",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleet",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewWafv2WebAclRuleActionOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_Wafv2WebAclRuleActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclRuleActionOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewWafv2WebAclRuleActionOutputReference_Override(w Wafv2WebAclRuleActionOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclRuleActionOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclRuleActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

@@ -5,9 +5,9 @@ package appfabricingestiondestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricingestiondestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAppfabricIngestionDestinationTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_AppfabricIngestionDestinationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationTimeoutsOutputReference",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAppfabricIngestionDestinationTimeoutsOutputReference_Override(a Appfabri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationTimeoutsOutputReference",
+		"@cdktn/provider-aws.appfabricIngestionDestination.AppfabricIngestionDestinationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

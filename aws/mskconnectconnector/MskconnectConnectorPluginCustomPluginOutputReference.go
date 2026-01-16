@@ -5,9 +5,9 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMskconnectConnectorPluginCustomPluginOutputReference(terraformResource c
 	j := jsiiProxy_MskconnectConnectorPluginCustomPluginOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMskconnectConnectorPluginCustomPluginOutputReference_Override(m Mskconne
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorPluginCustomPluginOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -5,9 +5,9 @@ package fisexperimenttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fisexperimenttemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewFisExperimentTemplateTargetResourceTagOutputReference(terraformResource 
 	j := jsiiProxy_FisExperimentTemplateTargetResourceTagOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewFisExperimentTemplateTargetResourceTagOutputReference_Override(f FisExpe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
+		"@cdktn/provider-aws.fisExperimentTemplate.FisExperimentTemplateTargetResourceTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		f,
 	)

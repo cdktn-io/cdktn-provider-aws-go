@@ -5,14 +5,14 @@ package dataawswafregionalwebacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafregionalwebacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafregionalwebacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl}.
 type DataAwsWafregionalWebAcl interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -312,7 +312,7 @@ func (j *jsiiProxy_DataAwsWafregionalWebAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl} Data Source.
 func NewDataAwsWafregionalWebAcl(scope constructs.Construct, id *string, config *DataAwsWafregionalWebAclConfig) DataAwsWafregionalWebAcl {
 	_init_.Initialize()
 
@@ -322,7 +322,7 @@ func NewDataAwsWafregionalWebAcl(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsWafregionalWebAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -330,12 +330,12 @@ func NewDataAwsWafregionalWebAcl(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_web_acl aws_wafregional_web_acl} Data Source.
 func NewDataAwsWafregionalWebAcl_Override(d DataAwsWafregionalWebAcl, scope constructs.Construct, id *string, config *DataAwsWafregionalWebAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -430,7 +430,7 @@ func DataAwsWafregionalWebAcl_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAwsWafregionalWebAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAwsWafregionalWebAcl_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAwsWafregionalWebAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAwsWafregionalWebAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
+		"@cdktn/provider-aws.dataAwsWafregionalWebAcl.DataAwsWafregionalWebAcl",
 		"tfResourceType",
 		&returns,
 	)

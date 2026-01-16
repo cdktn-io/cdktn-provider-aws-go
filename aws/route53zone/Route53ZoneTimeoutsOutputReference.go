@@ -5,9 +5,9 @@ package route53zone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53zone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53zone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRoute53ZoneTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_Route53ZoneTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRoute53ZoneTimeoutsOutputReference_Override(r Route53ZoneTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53Zone.Route53ZoneTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

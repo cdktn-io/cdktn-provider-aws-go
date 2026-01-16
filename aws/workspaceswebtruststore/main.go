@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		reflect.TypeOf((*WorkspaceswebTrustStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,11 +76,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificate",
 		reflect.TypeOf((*WorkspaceswebTrustStoreCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateList",
 		reflect.TypeOf((*WorkspaceswebTrustStoreCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateOutputReference",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreCertificateOutputReference",
 		reflect.TypeOf((*WorkspaceswebTrustStoreCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig",
 		reflect.TypeOf((*WorkspaceswebTrustStoreConfig)(nil)).Elem(),
 	)
 }

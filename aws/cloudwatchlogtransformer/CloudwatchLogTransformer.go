@@ -5,14 +5,14 @@ package cloudwatchlogtransformer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogtransformer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}.
 type CloudwatchLogTransformer interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_CloudwatchLogTransformer) TransformerConfigInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
 func NewCloudwatchLogTransformer(scope constructs.Construct, id *string, config *CloudwatchLogTransformerConfig) CloudwatchLogTransformer {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewCloudwatchLogTransformer(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_CloudwatchLogTransformer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewCloudwatchLogTransformer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource.
 func NewCloudwatchLogTransformer_Override(c CloudwatchLogTransformer, scope constructs.Construct, id *string, config *CloudwatchLogTransformerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -486,7 +486,7 @@ func CloudwatchLogTransformer_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func CloudwatchLogTransformer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func CloudwatchLogTransformer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func CloudwatchLogTransformer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func CloudwatchLogTransformer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
+		"@cdktn/provider-aws.cloudwatchLogTransformer.CloudwatchLogTransformer",
 		"tfResourceType",
 		&returns,
 	)

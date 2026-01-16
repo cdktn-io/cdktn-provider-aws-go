@@ -145,6 +145,37 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutAt
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutAttachmentRoutingPolicyRulesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRules:
+		value := value.(*[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRules)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRules:
+		value_ := value.([]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRules)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRules; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutCoreNetworkConfigurationParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -201,6 +232,37 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutNe
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentNetworkFunctionGroups; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutRoutingPoliciesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPolicies:
+		value := value.(*[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPolicies)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPolicies:
+		value_ := value.([]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPolicies)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPolicies; received %#v (a %T)", value, value)
 		}
 	}
 

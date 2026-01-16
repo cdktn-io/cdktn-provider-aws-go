@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsClusters.DataAwsEcsClusters",
+		"@cdktn/provider-aws.dataAwsEcsClusters.DataAwsEcsClusters",
 		reflect.TypeOf((*DataAwsEcsClusters)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,7 +59,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcsClusters.DataAwsEcsClustersConfig",
+		"@cdktn/provider-aws.dataAwsEcsClusters.DataAwsEcsClustersConfig",
 		reflect.TypeOf((*DataAwsEcsClustersConfig)(nil)).Elem(),
 	)
 }

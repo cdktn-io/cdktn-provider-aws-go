@@ -5,14 +5,14 @@ package rdsclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsclusterinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsclusterinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
 type RdsClusterInstance interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -1078,7 +1078,7 @@ func (j *jsiiProxy_RdsClusterInstance) Writer() cdktf.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) RdsClusterInstance {
 	_init_.Initialize()
 
@@ -1088,7 +1088,7 @@ func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsCl
 	j := jsiiProxy_RdsClusterInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1096,12 +1096,12 @@ func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance_Override(r RdsClusterInstance, scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1493,7 +1493,7 @@ func RdsClusterInstance_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1528,7 +1528,7 @@ func RdsClusterInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1547,7 +1547,7 @@ func RdsClusterInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1566,7 +1566,7 @@ func RdsClusterInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1579,7 +1579,7 @@ func RdsClusterInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsClusterInstance.RdsClusterInstance",
+		"@cdktn/provider-aws.rdsClusterInstance.RdsClusterInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsservicecatalogappregistryapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicecatalogappregistryapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogappregistryapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
 type DataAwsServicecatalogappregistryApplication interface {
 	cdktf.TerraformDataSource
 	ApplicationTag() cdktf.StringMap
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryApplication) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
 func NewDataAwsServicecatalogappregistryApplication(scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryApplicationConfig) DataAwsServicecatalogappregistryApplication {
 	_init_.Initialize()
 
@@ -353,7 +353,7 @@ func NewDataAwsServicecatalogappregistryApplication(scope constructs.Construct, 
 	j := jsiiProxy_DataAwsServicecatalogappregistryApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -361,12 +361,12 @@ func NewDataAwsServicecatalogappregistryApplication(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
 func NewDataAwsServicecatalogappregistryApplication_Override(d DataAwsServicecatalogappregistryApplication, scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -450,7 +450,7 @@ func DataAwsServicecatalogappregistryApplication_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsServicecatalogappregistryApplication_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsServicecatalogappregistryApplication_IsTerraformDataSource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -523,7 +523,7 @@ func DataAwsServicecatalogappregistryApplication_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsServicecatalogappregistryApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryApplication.DataAwsServicecatalogappregistryApplication",
 		"tfResourceType",
 		&returns,
 	)

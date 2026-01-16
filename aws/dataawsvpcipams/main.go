@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		reflect.TypeOf((*DataAwsVpcIpams)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsConfig",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsConfig",
 		reflect.TypeOf((*DataAwsVpcIpamsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilter",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilter",
 		reflect.TypeOf((*DataAwsVpcIpamsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilterList",
 		reflect.TypeOf((*DataAwsVpcIpamsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpams",
 		reflect.TypeOf((*DataAwsVpcIpamsIpams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsList",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsList",
 		reflect.TypeOf((*DataAwsVpcIpamsIpamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegions",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegions",
 		reflect.TypeOf((*DataAwsVpcIpamsIpamsOperatingRegions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
 		reflect.TypeOf((*DataAwsVpcIpamsIpamsOperatingRegionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -182,7 +182,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamsIpamsOperatingRegionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,7 +215,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamsIpamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},

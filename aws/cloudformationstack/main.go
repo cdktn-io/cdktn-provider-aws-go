@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStack",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStack",
 		reflect.TypeOf((*CloudformationStack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,15 +115,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStackConfig",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStackConfig",
 		reflect.TypeOf((*CloudformationStackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStackTimeouts",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStackTimeouts",
 		reflect.TypeOf((*CloudformationStackTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudformationStack.CloudformationStackTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudformationStack.CloudformationStackTimeoutsOutputReference",
 		reflect.TypeOf((*CloudformationStackTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

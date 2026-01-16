@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledAction",
+		"@cdktn/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledAction",
 		reflect.TypeOf((*AppautoscalingScheduledAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionConfig",
+		"@cdktn/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionConfig",
 		reflect.TypeOf((*AppautoscalingScheduledActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionScalableTargetAction",
+		"@cdktn/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionScalableTargetAction",
 		reflect.TypeOf((*AppautoscalingScheduledActionScalableTargetAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionScalableTargetActionOutputReference",
+		"@cdktn/provider-aws.appautoscalingScheduledAction.AppautoscalingScheduledActionScalableTargetActionOutputReference",
 		reflect.TypeOf((*AppautoscalingScheduledActionScalableTargetActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

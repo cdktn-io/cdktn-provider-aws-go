@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptions",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptions",
 		reflect.TypeOf((*OpensearchDomainSamlOptions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,19 +79,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsConfig",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsConfig",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptions",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptions",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsSamlOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdp",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdp",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsSamlOptionsIdp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsOutputReference",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsSamlOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeouts",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeouts",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchDomainSamlOptionsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

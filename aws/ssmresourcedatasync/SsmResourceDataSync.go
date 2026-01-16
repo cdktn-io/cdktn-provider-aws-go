@@ -5,14 +5,14 @@ package ssmresourcedatasync
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmresourcedatasync/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmresourcedatasync/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync}.
 type SsmResourceDataSync interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SsmResourceDataSync) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync} Resource.
 func NewSsmResourceDataSync(scope constructs.Construct, id *string, config *SsmResourceDataSyncConfig) SsmResourceDataSync {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSsmResourceDataSync(scope constructs.Construct, id *string, config *SsmR
 	j := jsiiProxy_SsmResourceDataSync{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSsmResourceDataSync(scope constructs.Construct, id *string, config *SsmR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_resource_data_sync aws_ssm_resource_data_sync} Resource.
 func NewSsmResourceDataSync_Override(s SsmResourceDataSync, scope constructs.Construct, id *string, config *SsmResourceDataSyncConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func SsmResourceDataSync_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func SsmResourceDataSync_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func SsmResourceDataSync_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func SsmResourceDataSync_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func SsmResourceDataSync_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		"tfResourceType",
 		&returns,
 	)

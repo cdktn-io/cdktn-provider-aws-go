@@ -5,14 +5,14 @@ package dataawsdynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dynamodb_table aws_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dynamodb_table aws_dynamodb_table}.
 type DataAwsDynamodbTable interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_DataAwsDynamodbTable) WriteCapacity() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) DataAwsDynamodbTable {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsDynamodbTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -598,12 +598,12 @@ func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable_Override(d DataAwsDynamodbTable, scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -709,7 +709,7 @@ func DataAwsDynamodbTable_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -744,7 +744,7 @@ func DataAwsDynamodbTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func DataAwsDynamodbTable_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func DataAwsDynamodbTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func DataAwsDynamodbTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
+		"@cdktn/provider-aws.dataAwsDynamodbTable.DataAwsDynamodbTable",
 		"tfResourceType",
 		&returns,
 	)

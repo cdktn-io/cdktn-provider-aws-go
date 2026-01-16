@@ -5,14 +5,14 @@ package route53profilesassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53profilesassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53profilesassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53profiles_association aws_route53profiles_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53profiles_association aws_route53profiles_association}.
 type Route53ProfilesAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_Route53ProfilesAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
 func NewRoute53ProfilesAssociation(scope constructs.Construct, id *string, config *Route53ProfilesAssociationConfig) Route53ProfilesAssociation {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewRoute53ProfilesAssociation(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_Route53ProfilesAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -511,12 +511,12 @@ func NewRoute53ProfilesAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
 func NewRoute53ProfilesAssociation_Override(r Route53ProfilesAssociation, scope constructs.Construct, id *string, config *Route53ProfilesAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -655,7 +655,7 @@ func Route53ProfilesAssociation_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -690,7 +690,7 @@ func Route53ProfilesAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func Route53ProfilesAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -728,7 +728,7 @@ func Route53ProfilesAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func Route53ProfilesAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
+		"@cdktn/provider-aws.route53ProfilesAssociation.Route53ProfilesAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package efsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEfsFileSystemLifecyclePolicyOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_EfsFileSystemLifecyclePolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEfsFileSystemLifecyclePolicyOutputReference_Override(e EfsFileSystemLife
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

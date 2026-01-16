@@ -5,14 +5,14 @@ package schemasdiscoverer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schemasdiscoverer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schemasdiscoverer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_discoverer aws_schemas_discoverer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_discoverer aws_schemas_discoverer}.
 type SchemasDiscoverer interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SchemasDiscoverer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
 func NewSchemasDiscoverer(scope constructs.Construct, id *string, config *SchemasDiscovererConfig) SchemasDiscoverer {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewSchemasDiscoverer(scope constructs.Construct, id *string, config *Schema
 	j := jsiiProxy_SchemasDiscoverer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewSchemasDiscoverer(scope constructs.Construct, id *string, config *Schema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
 func NewSchemasDiscoverer_Override(s SchemasDiscoverer, scope constructs.Construct, id *string, config *SchemasDiscovererConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SchemasDiscoverer_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SchemasDiscoverer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SchemasDiscoverer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SchemasDiscoverer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SchemasDiscoverer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.schemasDiscoverer.SchemasDiscoverer",
+		"@cdktn/provider-aws.schemasDiscoverer.SchemasDiscoverer",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package networkflowmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNetworkflowmonitorMonitorRemoteResourceList(terraformResource cdktf.IInt
 	j := jsiiProxy_NetworkflowmonitorMonitorRemoteResourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNetworkflowmonitorMonitorRemoteResourceList_Override(n Networkflowmonito
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

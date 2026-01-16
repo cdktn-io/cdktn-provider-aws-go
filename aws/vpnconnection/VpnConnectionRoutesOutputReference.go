@@ -5,9 +5,9 @@ package vpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewVpnConnectionRoutesOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_VpnConnectionRoutesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewVpnConnectionRoutesOutputReference_Override(v VpnConnectionRoutesOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
+		"@cdktn/provider-aws.vpnConnection.VpnConnectionRoutesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

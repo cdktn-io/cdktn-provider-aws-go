@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCache",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCache",
 		reflect.TypeOf((*StoragegatewayCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayCache.StoragegatewayCacheConfig",
+		"@cdktn/provider-aws.storagegatewayCache.StoragegatewayCacheConfig",
 		reflect.TypeOf((*StoragegatewayCacheConfig)(nil)).Elem(),
 	)
 }

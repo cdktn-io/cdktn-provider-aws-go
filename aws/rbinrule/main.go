@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRule",
+		"@cdktn/provider-aws.rbinRule.RbinRule",
 		reflect.TypeOf((*RbinRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleConfig",
+		"@cdktn/provider-aws.rbinRule.RbinRuleConfig",
 		reflect.TypeOf((*RbinRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleExcludeResourceTags",
+		"@cdktn/provider-aws.rbinRule.RbinRuleExcludeResourceTags",
 		reflect.TypeOf((*RbinRuleExcludeResourceTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleExcludeResourceTagsList",
+		"@cdktn/provider-aws.rbinRule.RbinRuleExcludeResourceTagsList",
 		reflect.TypeOf((*RbinRuleExcludeResourceTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleExcludeResourceTagsOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleExcludeResourceTagsOutputReference",
 		reflect.TypeOf((*RbinRuleExcludeResourceTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleLockConfiguration",
+		"@cdktn/provider-aws.rbinRule.RbinRuleLockConfiguration",
 		reflect.TypeOf((*RbinRuleLockConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleLockConfigurationOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleLockConfigurationOutputReference",
 		reflect.TypeOf((*RbinRuleLockConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleLockConfigurationUnlockDelay",
+		"@cdktn/provider-aws.rbinRule.RbinRuleLockConfigurationUnlockDelay",
 		reflect.TypeOf((*RbinRuleLockConfigurationUnlockDelay)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleLockConfigurationUnlockDelayOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleLockConfigurationUnlockDelayOutputReference",
 		reflect.TypeOf((*RbinRuleLockConfigurationUnlockDelayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleResourceTags",
+		"@cdktn/provider-aws.rbinRule.RbinRuleResourceTags",
 		reflect.TypeOf((*RbinRuleResourceTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleResourceTagsList",
+		"@cdktn/provider-aws.rbinRule.RbinRuleResourceTagsList",
 		reflect.TypeOf((*RbinRuleResourceTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -273,7 +273,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleResourceTagsOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleResourceTagsOutputReference",
 		reflect.TypeOf((*RbinRuleResourceTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleRetentionPeriod",
+		"@cdktn/provider-aws.rbinRule.RbinRuleRetentionPeriod",
 		reflect.TypeOf((*RbinRuleRetentionPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
 		reflect.TypeOf((*RbinRuleRetentionPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -350,11 +350,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rbinRule.RbinRuleTimeouts",
+		"@cdktn/provider-aws.rbinRule.RbinRuleTimeouts",
 		reflect.TypeOf((*RbinRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rbinRule.RbinRuleTimeoutsOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleTimeoutsOutputReference",
 		reflect.TypeOf((*RbinRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

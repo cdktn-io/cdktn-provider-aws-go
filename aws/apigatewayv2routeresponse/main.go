@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2RouteResponse.Apigatewayv2RouteResponse",
+		"@cdktn/provider-aws.apigatewayv2RouteResponse.Apigatewayv2RouteResponse",
 		reflect.TypeOf((*Apigatewayv2RouteResponse)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2RouteResponse.Apigatewayv2RouteResponseConfig",
+		"@cdktn/provider-aws.apigatewayv2RouteResponse.Apigatewayv2RouteResponseConfig",
 		reflect.TypeOf((*Apigatewayv2RouteResponseConfig)(nil)).Elem(),
 	)
 }

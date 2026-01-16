@@ -5,14 +5,14 @@ package dxprivatevirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxprivatevirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxprivatevirtualinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface}.
 type DxPrivateVirtualInterface interface {
 	cdktf.TerraformResource
 	AddressFamily() *string
@@ -733,7 +733,7 @@ func (j *jsiiProxy_DxPrivateVirtualInterface) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
 func NewDxPrivateVirtualInterface(scope constructs.Construct, id *string, config *DxPrivateVirtualInterfaceConfig) DxPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -743,7 +743,7 @@ func NewDxPrivateVirtualInterface(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DxPrivateVirtualInterface{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -751,12 +751,12 @@ func NewDxPrivateVirtualInterface(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_private_virtual_interface aws_dx_private_virtual_interface} Resource.
 func NewDxPrivateVirtualInterface_Override(d DxPrivateVirtualInterface, scope constructs.Construct, id *string, config *DxPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1016,7 +1016,7 @@ func DxPrivateVirtualInterface_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1051,7 +1051,7 @@ func DxPrivateVirtualInterface_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1070,7 +1070,7 @@ func DxPrivateVirtualInterface_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1089,7 +1089,7 @@ func DxPrivateVirtualInterface_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1102,7 +1102,7 @@ func DxPrivateVirtualInterface_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
+		"@cdktn/provider-aws.dxPrivateVirtualInterface.DxPrivateVirtualInterface",
 		"tfResourceType",
 		&returns,
 	)

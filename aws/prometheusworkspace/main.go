@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspace",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspace",
 		reflect.TypeOf((*PrometheusWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspaceConfig",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspaceConfig",
 		reflect.TypeOf((*PrometheusWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspaceLoggingConfiguration",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspaceLoggingConfiguration",
 		reflect.TypeOf((*PrometheusWorkspaceLoggingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.prometheusWorkspace.PrometheusWorkspaceLoggingConfigurationOutputReference",
+		"@cdktn/provider-aws.prometheusWorkspace.PrometheusWorkspaceLoggingConfigurationOutputReference",
 		reflect.TypeOf((*PrometheusWorkspaceLoggingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

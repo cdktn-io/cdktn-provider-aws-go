@@ -5,14 +5,14 @@ package wafratebasedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafratebasedrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafratebasedrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule}.
 type WafRateBasedRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_WafRateBasedRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource.
 func NewWafRateBasedRule(scope constructs.Construct, id *string, config *WafRateBasedRuleConfig) WafRateBasedRule {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewWafRateBasedRule(scope constructs.Construct, id *string, config *WafRate
 	j := jsiiProxy_WafRateBasedRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewWafRateBasedRule(scope constructs.Construct, id *string, config *WafRate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/waf_rate_based_rule aws_waf_rate_based_rule} Resource.
 func NewWafRateBasedRule_Override(w WafRateBasedRule, scope constructs.Construct, id *string, config *WafRateBasedRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -669,7 +669,7 @@ func WafRateBasedRule_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func WafRateBasedRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func WafRateBasedRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func WafRateBasedRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func WafRateBasedRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRule",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRule",
 		"tfResourceType",
 		&returns,
 	)

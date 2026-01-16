@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		reflect.TypeOf((*DataAwsRamResourceShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareConfig",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareConfig",
 		reflect.TypeOf((*DataAwsRamResourceShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilter",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilter",
 		reflect.TypeOf((*DataAwsRamResourceShareFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilterList",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilterList",
 		reflect.TypeOf((*DataAwsRamResourceShareFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShareFilterOutputReference",
 		reflect.TypeOf((*DataAwsRamResourceShareFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

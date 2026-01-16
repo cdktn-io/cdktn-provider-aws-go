@@ -5,14 +5,14 @@ package dataawselasticbeanstalksolutionstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticbeanstalksolutionstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticbeanstalksolutionstack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack}.
 type DataAwsElasticBeanstalkSolutionStack interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkSolutionStack) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
 func NewDataAwsElasticBeanstalkSolutionStack(scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkSolutionStackConfig) DataAwsElasticBeanstalkSolutionStack {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataAwsElasticBeanstalkSolutionStack(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsElasticBeanstalkSolutionStack{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -365,12 +365,12 @@ func NewDataAwsElasticBeanstalkSolutionStack(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_solution_stack aws_elastic_beanstalk_solution_stack} Data Source.
 func NewDataAwsElasticBeanstalkSolutionStack_Override(d DataAwsElasticBeanstalkSolutionStack, scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkSolutionStackConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -476,7 +476,7 @@ func DataAwsElasticBeanstalkSolutionStack_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -511,7 +511,7 @@ func DataAwsElasticBeanstalkSolutionStack_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -530,7 +530,7 @@ func DataAwsElasticBeanstalkSolutionStack_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsElasticBeanstalkSolutionStack_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAwsElasticBeanstalkSolutionStack_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkSolutionStack.DataAwsElasticBeanstalkSolutionStack",
 		"tfResourceType",
 		&returns,
 	)

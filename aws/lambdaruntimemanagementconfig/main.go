@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaRuntimeManagementConfig.LambdaRuntimeManagementConfig",
+		"@cdktn/provider-aws.lambdaRuntimeManagementConfig.LambdaRuntimeManagementConfig",
 		reflect.TypeOf((*LambdaRuntimeManagementConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaRuntimeManagementConfig.LambdaRuntimeManagementConfigConfig",
+		"@cdktn/provider-aws.lambdaRuntimeManagementConfig.LambdaRuntimeManagementConfigConfig",
 		reflect.TypeOf((*LambdaRuntimeManagementConfigConfig)(nil)).Elem(),
 	)
 }

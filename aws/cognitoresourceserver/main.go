@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServer",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServer",
 		reflect.TypeOf((*CognitoResourceServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerConfig",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerConfig",
 		reflect.TypeOf((*CognitoResourceServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScope",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScope",
 		reflect.TypeOf((*CognitoResourceServerScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
 		reflect.TypeOf((*CognitoResourceServerScopeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
 		reflect.TypeOf((*CognitoResourceServerScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

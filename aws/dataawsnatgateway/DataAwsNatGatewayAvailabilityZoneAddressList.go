@@ -5,9 +5,9 @@ package dataawsnatgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnatgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsNatGatewayAvailabilityZoneAddressList(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsNatGatewayAvailabilityZoneAddressList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsNatGatewayAvailabilityZoneAddressList_Override(d DataAwsNatGatewa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

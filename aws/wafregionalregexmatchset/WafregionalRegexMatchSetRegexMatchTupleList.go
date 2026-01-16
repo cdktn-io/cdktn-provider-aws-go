@@ -5,9 +5,9 @@ package wafregionalregexmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalregexmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalregexmatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafregionalRegexMatchSetRegexMatchTupleList(terraformResource cdktf.IInt
 	j := jsiiProxy_WafregionalRegexMatchSetRegexMatchTupleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafregionalRegexMatchSetRegexMatchTupleList_Override(w WafregionalRegexM
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

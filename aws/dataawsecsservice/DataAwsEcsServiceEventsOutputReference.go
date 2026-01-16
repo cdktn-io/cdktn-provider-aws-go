@@ -5,9 +5,9 @@ package dataawsecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsEcsServiceEventsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsEcsServiceEventsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsService.DataAwsEcsServiceEventsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsService.DataAwsEcsServiceEventsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsEcsServiceEventsOutputReference_Override(d DataAwsEcsServiceEvent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsService.DataAwsEcsServiceEventsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsService.DataAwsEcsServiceEventsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

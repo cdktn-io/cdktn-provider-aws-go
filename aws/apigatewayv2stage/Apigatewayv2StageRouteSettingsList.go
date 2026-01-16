@@ -5,9 +5,9 @@ package apigatewayv2stage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2stage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2stage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewApigatewayv2StageRouteSettingsList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_Apigatewayv2StageRouteSettingsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2StageRouteSettingsList",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2StageRouteSettingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewApigatewayv2StageRouteSettingsList_Override(a Apigatewayv2StageRouteSett
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2StageRouteSettingsList",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2StageRouteSettingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

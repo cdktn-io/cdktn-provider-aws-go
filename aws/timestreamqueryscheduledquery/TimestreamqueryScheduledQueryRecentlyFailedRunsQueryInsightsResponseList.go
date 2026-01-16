@@ -5,9 +5,9 @@ package timestreamqueryscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreamqueryscheduledquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewTimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList
 	j := jsiiProxy_TimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewTimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList",
+		"@cdktn/provider-aws.timestreamqueryScheduledQuery.TimestreamqueryScheduledQueryRecentlyFailedRunsQueryInsightsResponseList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		t,
 	)

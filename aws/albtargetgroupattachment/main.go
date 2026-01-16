@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachment",
 		reflect.TypeOf((*AlbTargetGroupAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -50,6 +50,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "portInput", GoGetter: "PortInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberProperty{JsiiProperty: "quicServerId", GoGetter: "QuicServerId"},
+			_jsii_.MemberProperty{JsiiProperty: "quicServerIdInput", GoGetter: "QuicServerIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
@@ -57,6 +59,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPort", GoMethod: "ResetPort"},
+			_jsii_.MemberMethod{JsiiMethod: "resetQuicServerId", GoMethod: "ResetQuicServerId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
@@ -79,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachmentConfig",
+		"@cdktn/provider-aws.albTargetGroupAttachment.AlbTargetGroupAttachmentConfig",
 		reflect.TypeOf((*AlbTargetGroupAttachmentConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package internetgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/internetgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/internetgatewayattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
 type InternetGatewayAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_InternetGatewayAttachment) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) InternetGatewayAttachment {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config
 	j := jsiiProxy_InternetGatewayAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment_Override(i InternetGatewayAttachment, scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -555,7 +555,7 @@ func InternetGatewayAttachment_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func InternetGatewayAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func InternetGatewayAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func InternetGatewayAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func InternetGatewayAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		"tfResourceType",
 		&returns,
 	)

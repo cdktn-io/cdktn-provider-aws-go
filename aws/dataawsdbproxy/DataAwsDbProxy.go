@@ -5,14 +5,14 @@ package dataawsdbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_proxy aws_db_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_proxy aws_db_proxy}.
 type DataAwsDbProxy interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -32,6 +32,7 @@ type DataAwsDbProxy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Endpoint() *string
+	EndpointNetworkType() *string
 	EngineFamily() *string
 	// Experimental.
 	ForEach() cdktf.ITerraformIterator
@@ -65,6 +66,7 @@ type DataAwsDbProxy interface {
 	RegionInput() *string
 	RequireTls() cdktf.IResolvable
 	RoleArn() *string
+	TargetConnectionNetworkType() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -208,6 +210,16 @@ func (j *jsiiProxy_DataAwsDbProxy) Endpoint() *string {
 	_jsii_.Get(
 		j,
 		"endpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsDbProxy) EndpointNetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointNetworkType",
 		&returns,
 	)
 	return returns
@@ -383,6 +395,16 @@ func (j *jsiiProxy_DataAwsDbProxy) RoleArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsDbProxy) TargetConnectionNetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetConnectionNetworkType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsDbProxy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -444,7 +466,7 @@ func (j *jsiiProxy_DataAwsDbProxy) VpcSubnetIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
 func NewDataAwsDbProxy(scope constructs.Construct, id *string, config *DataAwsDbProxyConfig) DataAwsDbProxy {
 	_init_.Initialize()
 
@@ -454,7 +476,7 @@ func NewDataAwsDbProxy(scope constructs.Construct, id *string, config *DataAwsDb
 	j := jsiiProxy_DataAwsDbProxy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -462,12 +484,12 @@ func NewDataAwsDbProxy(scope constructs.Construct, id *string, config *DataAwsDb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
 func NewDataAwsDbProxy_Override(d DataAwsDbProxy, scope constructs.Construct, id *string, config *DataAwsDbProxyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -562,7 +584,7 @@ func DataAwsDbProxy_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -597,7 +619,7 @@ func DataAwsDbProxy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +638,7 @@ func DataAwsDbProxy_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -635,7 +657,7 @@ func DataAwsDbProxy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -648,7 +670,7 @@ func DataAwsDbProxy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
+		"@cdktn/provider-aws.dataAwsDbProxy.DataAwsDbProxy",
 		"tfResourceType",
 		&returns,
 	)

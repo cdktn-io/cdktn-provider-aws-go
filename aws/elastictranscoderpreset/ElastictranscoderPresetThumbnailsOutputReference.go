@@ -5,9 +5,9 @@ package elastictranscoderpreset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewElastictranscoderPresetThumbnailsOutputReference(terraformResource cdktf
 	j := jsiiProxy_ElastictranscoderPresetThumbnailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewElastictranscoderPresetThumbnailsOutputReference_Override(e Elastictrans
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockFoundationModel.DataAwsBedrockFoundationModel",
+		"@cdktn/provider-aws.dataAwsBedrockFoundationModel.DataAwsBedrockFoundationModel",
 		reflect.TypeOf((*DataAwsBedrockFoundationModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBedrockFoundationModel.DataAwsBedrockFoundationModelConfig",
+		"@cdktn/provider-aws.dataAwsBedrockFoundationModel.DataAwsBedrockFoundationModelConfig",
 		reflect.TypeOf((*DataAwsBedrockFoundationModelConfig)(nil)).Elem(),
 	)
 }

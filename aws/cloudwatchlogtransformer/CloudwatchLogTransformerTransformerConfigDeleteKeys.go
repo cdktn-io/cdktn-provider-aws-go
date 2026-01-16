@@ -5,7 +5,7 @@ package cloudwatchlogtransformer
 
 
 type CloudwatchLogTransformerTransformerConfigDeleteKeys struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}.
 	WithKeys *[]*string `field:"required" json:"withKeys" yaml:"withKeys"`
 }
 

@@ -5,9 +5,9 @@ package dataawsvpcipams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcipams/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsVpcIpamsIpamsOperatingRegionsList(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsVpcIpamsIpamsOperatingRegionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsVpcIpamsIpamsOperatingRegionsList_Override(d DataAwsVpcIpamsIpams
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOperatingRegionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

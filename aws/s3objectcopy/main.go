@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		reflect.TypeOf((*S3ObjectCopy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acl", GoGetter: "Acl"},
@@ -203,15 +203,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyConfig",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyConfig",
 		reflect.TypeOf((*S3ObjectCopyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyGrant",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyGrant",
 		reflect.TypeOf((*S3ObjectCopyGrant)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyGrantList",
 		reflect.TypeOf((*S3ObjectCopyGrantList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyGrantOutputReference",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyGrantOutputReference",
 		reflect.TypeOf((*S3ObjectCopyGrantOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,15 +278,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProvider",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProvider",
 		reflect.TypeOf((*S3ObjectCopyOverrideProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderDefaultTags",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderDefaultTags",
 		reflect.TypeOf((*S3ObjectCopyOverrideProviderDefaultTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderDefaultTagsOutputReference",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderDefaultTagsOutputReference",
 		reflect.TypeOf((*S3ObjectCopyOverrideProviderDefaultTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -321,7 +321,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderOutputReference",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopyOverrideProviderOutputReference",
 		reflect.TypeOf((*S3ObjectCopyOverrideProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package amplifywebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amplifywebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amplifywebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_webhook aws_amplify_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_webhook aws_amplify_webhook}.
 type AmplifyWebhook interface {
 	cdktf.TerraformResource
 	AppId() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_AmplifyWebhook) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
 func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWebhookConfig) AmplifyWebhook {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWe
 	j := jsiiProxy_AmplifyWebhook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_webhook aws_amplify_webhook} Resource.
 func NewAmplifyWebhook_Override(a AmplifyWebhook, scope constructs.Construct, id *string, config *AmplifyWebhookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func AmplifyWebhook_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func AmplifyWebhook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func AmplifyWebhook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func AmplifyWebhook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func AmplifyWebhook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		"tfResourceType",
 		&returns,
 	)

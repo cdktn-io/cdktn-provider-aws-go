@@ -5,14 +5,14 @@ package dataawsorganizationspoliciesfortarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsorganizationspoliciesfortarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationspoliciesfortarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target}.
 type DataAwsOrganizationsPoliciesForTarget interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsOrganizationsPoliciesForTarget) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
 func NewDataAwsOrganizationsPoliciesForTarget(scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesForTargetConfig) DataAwsOrganizationsPoliciesForTarget {
 	_init_.Initialize()
 
@@ -332,7 +332,7 @@ func NewDataAwsOrganizationsPoliciesForTarget(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAwsOrganizationsPoliciesForTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -340,12 +340,12 @@ func NewDataAwsOrganizationsPoliciesForTarget(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies_for_target aws_organizations_policies_for_target} Data Source.
 func NewDataAwsOrganizationsPoliciesForTarget_Override(d DataAwsOrganizationsPoliciesForTarget, scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesForTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -440,7 +440,7 @@ func DataAwsOrganizationsPoliciesForTarget_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -475,7 +475,7 @@ func DataAwsOrganizationsPoliciesForTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -494,7 +494,7 @@ func DataAwsOrganizationsPoliciesForTarget_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -513,7 +513,7 @@ func DataAwsOrganizationsPoliciesForTarget_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAwsOrganizationsPoliciesForTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
+		"@cdktn/provider-aws.dataAwsOrganizationsPoliciesForTarget.DataAwsOrganizationsPoliciesForTarget",
 		"tfResourceType",
 		&returns,
 	)

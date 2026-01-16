@@ -5,14 +5,14 @@ package sfnstatemachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sfnstatemachine/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sfnstatemachine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_state_machine aws_sfn_state_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_state_machine aws_sfn_state_machine}.
 type SfnStateMachine interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -697,7 +697,7 @@ func (j *jsiiProxy_SfnStateMachine) VersionDescription() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_state_machine aws_sfn_state_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_state_machine aws_sfn_state_machine} Resource.
 func NewSfnStateMachine(scope constructs.Construct, id *string, config *SfnStateMachineConfig) SfnStateMachine {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewSfnStateMachine(scope constructs.Construct, id *string, config *SfnState
 	j := jsiiProxy_SfnStateMachine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -715,12 +715,12 @@ func NewSfnStateMachine(scope constructs.Construct, id *string, config *SfnState
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_state_machine aws_sfn_state_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_state_machine aws_sfn_state_machine} Resource.
 func NewSfnStateMachine_Override(s SfnStateMachine, scope constructs.Construct, id *string, config *SfnStateMachineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -914,7 +914,7 @@ func SfnStateMachine_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -949,7 +949,7 @@ func SfnStateMachine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func SfnStateMachine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -987,7 +987,7 @@ func SfnStateMachine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1000,7 +1000,7 @@ func SfnStateMachine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sfnStateMachine.SfnStateMachine",
+		"@cdktn/provider-aws.sfnStateMachine.SfnStateMachine",
 		"tfResourceType",
 		&returns,
 	)

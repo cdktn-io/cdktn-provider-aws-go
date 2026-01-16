@@ -5,9 +5,9 @@ package mediaconvertqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mediaconvertqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mediaconvertqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewMediaConvertQueueReservationPlanSettingsOutputReference(terraformResourc
 	j := jsiiProxy_MediaConvertQueueReservationPlanSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaConvertQueue.MediaConvertQueueReservationPlanSettingsOutputReference",
+		"@cdktn/provider-aws.mediaConvertQueue.MediaConvertQueueReservationPlanSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewMediaConvertQueueReservationPlanSettingsOutputReference_Override(m Media
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaConvertQueue.MediaConvertQueueReservationPlanSettingsOutputReference",
+		"@cdktn/provider-aws.mediaConvertQueue.MediaConvertQueueReservationPlanSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

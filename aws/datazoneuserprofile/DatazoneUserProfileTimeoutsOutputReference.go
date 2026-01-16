@@ -5,9 +5,9 @@ package datazoneuserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneuserprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneuserprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDatazoneUserProfileTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_DatazoneUserProfileTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDatazoneUserProfileTimeoutsOutputReference_Override(d DatazoneUserProfil
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

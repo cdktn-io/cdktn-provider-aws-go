@@ -5,9 +5,9 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRdsClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_RdsClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRdsClusterTimeoutsOutputReference_Override(r RdsClusterTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

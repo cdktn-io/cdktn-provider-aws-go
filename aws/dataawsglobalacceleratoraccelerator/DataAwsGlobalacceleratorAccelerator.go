@@ -5,14 +5,14 @@ package dataawsglobalacceleratoraccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsglobalacceleratoraccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsglobalacceleratoraccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}.
 type DataAwsGlobalacceleratorAccelerator interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAwsGlobalacceleratorAccelerator) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source.
 func NewDataAwsGlobalacceleratorAccelerator(scope constructs.Construct, id *string, config *DataAwsGlobalacceleratorAcceleratorConfig) DataAwsGlobalacceleratorAccelerator {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataAwsGlobalacceleratorAccelerator(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsGlobalacceleratorAccelerator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -406,12 +406,12 @@ func NewDataAwsGlobalacceleratorAccelerator(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source.
 func NewDataAwsGlobalacceleratorAccelerator_Override(d DataAwsGlobalacceleratorAccelerator, scope constructs.Construct, id *string, config *DataAwsGlobalacceleratorAcceleratorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -495,7 +495,7 @@ func DataAwsGlobalacceleratorAccelerator_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -530,7 +530,7 @@ func DataAwsGlobalacceleratorAccelerator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsGlobalacceleratorAccelerator_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -568,7 +568,7 @@ func DataAwsGlobalacceleratorAccelerator_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAwsGlobalacceleratorAccelerator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
+		"@cdktn/provider-aws.dataAwsGlobalacceleratorAccelerator.DataAwsGlobalacceleratorAccelerator",
 		"tfResourceType",
 		&returns,
 	)

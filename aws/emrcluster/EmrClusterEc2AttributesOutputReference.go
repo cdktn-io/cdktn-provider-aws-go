@@ -5,9 +5,9 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -374,7 +374,7 @@ func NewEmrClusterEc2AttributesOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_EmrClusterEc2AttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -386,7 +386,7 @@ func NewEmrClusterEc2AttributesOutputReference_Override(e EmrClusterEc2Attribute
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
+		"@cdktn/provider-aws.emrCluster.EmrClusterEc2AttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

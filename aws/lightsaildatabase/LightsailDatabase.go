@@ -5,14 +5,14 @@ package lightsaildatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_database aws_lightsail_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_database aws_lightsail_database}.
 type LightsailDatabase interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -844,7 +844,7 @@ func (j *jsiiProxy_LightsailDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_database aws_lightsail_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_database aws_lightsail_database} Resource.
 func NewLightsailDatabase(scope constructs.Construct, id *string, config *LightsailDatabaseConfig) LightsailDatabase {
 	_init_.Initialize()
 
@@ -854,7 +854,7 @@ func NewLightsailDatabase(scope constructs.Construct, id *string, config *Lights
 	j := jsiiProxy_LightsailDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -862,12 +862,12 @@ func NewLightsailDatabase(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_database aws_lightsail_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_database aws_lightsail_database} Resource.
 func NewLightsailDatabase_Override(l LightsailDatabase, scope constructs.Construct, id *string, config *LightsailDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1149,7 +1149,7 @@ func LightsailDatabase_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1184,7 +1184,7 @@ func LightsailDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1203,7 +1203,7 @@ func LightsailDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1222,7 +1222,7 @@ func LightsailDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1235,7 +1235,7 @@ func LightsailDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailDatabase.LightsailDatabase",
+		"@cdktn/provider-aws.lightsailDatabase.LightsailDatabase",
 		"tfResourceType",
 		&returns,
 	)

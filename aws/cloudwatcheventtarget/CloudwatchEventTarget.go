@@ -5,14 +5,14 @@ package cloudwatcheventtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatcheventtarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatcheventtarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target}.
 type CloudwatchEventTarget interface {
 	cdktf.TerraformResource
 	AppsyncTarget() CloudwatchEventTargetAppsyncTargetOutputReference
@@ -812,7 +812,7 @@ func (j *jsiiProxy_CloudwatchEventTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource.
 func NewCloudwatchEventTarget(scope constructs.Construct, id *string, config *CloudwatchEventTargetConfig) CloudwatchEventTarget {
 	_init_.Initialize()
 
@@ -822,7 +822,7 @@ func NewCloudwatchEventTarget(scope constructs.Construct, id *string, config *Cl
 	j := jsiiProxy_CloudwatchEventTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -830,12 +830,12 @@ func NewCloudwatchEventTarget(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_target aws_cloudwatch_event_target} Resource.
 func NewCloudwatchEventTarget_Override(c CloudwatchEventTarget, scope constructs.Construct, id *string, config *CloudwatchEventTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1029,7 +1029,7 @@ func CloudwatchEventTarget_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1064,7 +1064,7 @@ func CloudwatchEventTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1083,7 +1083,7 @@ func CloudwatchEventTarget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1102,7 +1102,7 @@ func CloudwatchEventTarget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1115,7 +1115,7 @@ func CloudwatchEventTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		"tfResourceType",
 		&returns,
 	)

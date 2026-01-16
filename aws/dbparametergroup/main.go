@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroup",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroup",
 		reflect.TypeOf((*DbParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupConfig",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupConfig",
 		reflect.TypeOf((*DbParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameter",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameter",
 		reflect.TypeOf((*DbParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterList",
 		reflect.TypeOf((*DbParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.dbParameterGroup.DbParameterGroupParameterOutputReference",
 		reflect.TypeOf((*DbParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},

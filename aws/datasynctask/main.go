@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		reflect.TypeOf((*DatasyncTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskConfig",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskConfig",
 		reflect.TypeOf((*DatasyncTaskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskExcludes",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskExcludes",
 		reflect.TypeOf((*DatasyncTaskExcludes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskExcludesOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskExcludesOutputReference",
 		reflect.TypeOf((*DatasyncTaskExcludesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskIncludes",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskIncludes",
 		reflect.TypeOf((*DatasyncTaskIncludes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskIncludesOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskIncludesOutputReference",
 		reflect.TypeOf((*DatasyncTaskIncludesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskOptions",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskOptions",
 		reflect.TypeOf((*DatasyncTaskOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskOptionsOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskOptionsOutputReference",
 		reflect.TypeOf((*DatasyncTaskOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "atime", GoGetter: "Atime"},
@@ -282,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskSchedule",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskSchedule",
 		reflect.TypeOf((*DatasyncTaskSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskScheduleOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskScheduleOutputReference",
 		reflect.TypeOf((*DatasyncTaskScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -320,11 +320,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfig",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfig",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigOutputReference",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -372,11 +372,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverrides",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverrides",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfigReportOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigReportOverridesOutputReference",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfigReportOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -420,11 +420,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3Destination",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3Destination",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfigS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
 		reflect.TypeOf((*DatasyncTaskTaskReportConfigS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketAccessRoleArn", GoGetter: "BucketAccessRoleArn"},
@@ -463,11 +463,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTimeouts",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTimeouts",
 		reflect.TypeOf((*DatasyncTaskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTimeoutsOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTimeoutsOutputReference",
 		reflect.TypeOf((*DatasyncTaskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

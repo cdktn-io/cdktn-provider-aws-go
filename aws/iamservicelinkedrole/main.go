@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamServiceLinkedRole.IamServiceLinkedRole",
+		"@cdktn/provider-aws.iamServiceLinkedRole.IamServiceLinkedRole",
 		reflect.TypeOf((*IamServiceLinkedRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamServiceLinkedRole.IamServiceLinkedRoleConfig",
+		"@cdktn/provider-aws.iamServiceLinkedRole.IamServiceLinkedRoleConfig",
 		reflect.TypeOf((*IamServiceLinkedRoleConfig)(nil)).Elem(),
 	)
 }

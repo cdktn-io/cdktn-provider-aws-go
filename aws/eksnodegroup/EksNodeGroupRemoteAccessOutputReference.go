@@ -5,9 +5,9 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEksNodeGroupRemoteAccessOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EksNodeGroupRemoteAccessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupRemoteAccessOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupRemoteAccessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEksNodeGroupRemoteAccessOutputReference_Override(e EksNodeGroupRemoteAcc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupRemoteAccessOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupRemoteAccessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

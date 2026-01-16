@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationType",
 		reflect.TypeOf((*DataAwsCloudformationType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeConfig",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeConfig",
 		reflect.TypeOf((*DataAwsCloudformationTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfig",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfig",
 		reflect.TypeOf((*DataAwsCloudformationTypeLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfigList",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfigList",
 		reflect.TypeOf((*DataAwsCloudformationTypeLoggingConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudformationType.DataAwsCloudformationTypeLoggingConfigOutputReference",
 		reflect.TypeOf((*DataAwsCloudformationTypeLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

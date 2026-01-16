@@ -5,9 +5,9 @@ package networkmanagerconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewNetworkmanagerConnectPeerConfigurationList(terraformResource cdktf.IInte
 	j := jsiiProxy_NetworkmanagerConnectPeerConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewNetworkmanagerConnectPeerConfigurationList_Override(n NetworkmanagerConn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

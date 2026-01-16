@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministrator",
 		reflect.TypeOf((*OrganizationsDelegatedAdministrator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministratorConfig",
+		"@cdktn/provider-aws.organizationsDelegatedAdministrator.OrganizationsDelegatedAdministratorConfig",
 		reflect.TypeOf((*OrganizationsDelegatedAdministratorConfig)(nil)).Elem(),
 	)
 }

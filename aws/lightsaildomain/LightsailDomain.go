@@ -5,14 +5,14 @@ package lightsaildomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain aws_lightsail_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain aws_lightsail_domain}.
 type LightsailDomain interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_LightsailDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain aws_lightsail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain aws_lightsail_domain} Resource.
 func NewLightsailDomain(scope constructs.Construct, id *string, config *LightsailDomainConfig) LightsailDomain {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewLightsailDomain(scope constructs.Construct, id *string, config *Lightsai
 	j := jsiiProxy_LightsailDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewLightsailDomain(scope constructs.Construct, id *string, config *Lightsai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain aws_lightsail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain aws_lightsail_domain} Resource.
 func NewLightsailDomain_Override(l LightsailDomain, scope constructs.Construct, id *string, config *LightsailDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -508,7 +508,7 @@ func LightsailDomain_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func LightsailDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func LightsailDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func LightsailDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func LightsailDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailDomain.LightsailDomain",
+		"@cdktn/provider-aws.lightsailDomain.LightsailDomain",
 		"tfResourceType",
 		&returns,
 	)

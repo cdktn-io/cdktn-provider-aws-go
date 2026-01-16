@@ -5,9 +5,9 @@ package sagemakerproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference(terrafo
 	j := jsiiProxy_SagemakerProjectServiceCatalogProvisioningDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsOutputReference",
+		"@cdktn/provider-aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewSagemakerProjectServiceCatalogProvisioningDetailsOutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsOutputReference",
+		"@cdktn/provider-aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

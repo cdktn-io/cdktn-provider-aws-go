@@ -5,9 +5,9 @@ package dataawskendrafaq
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendrafaq/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendrafaq/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsKendraFaqS3PathOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsKendraFaqS3PathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaqS3PathOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaqS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsKendraFaqS3PathOutputReference_Override(d DataAwsKendraFaqS3PathO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraFaq.DataAwsKendraFaqS3PathOutputReference",
+		"@cdktn/provider-aws.dataAwsKendraFaq.DataAwsKendraFaqS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

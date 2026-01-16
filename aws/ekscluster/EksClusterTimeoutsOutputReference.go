@@ -5,9 +5,9 @@ package ekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEksClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_EksClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEksClusterTimeoutsOutputReference_Override(e EksClusterTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

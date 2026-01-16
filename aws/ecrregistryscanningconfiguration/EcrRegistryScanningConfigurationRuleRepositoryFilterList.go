@@ -5,9 +5,9 @@ package ecrregistryscanningconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrregistryscanningconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrregistryscanningconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEcrRegistryScanningConfigurationRuleRepositoryFilterList(terraformResour
 	j := jsiiProxy_EcrRegistryScanningConfigurationRuleRepositoryFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilterList",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEcrRegistryScanningConfigurationRuleRepositoryFilterList_Override(e EcrR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilterList",
+		"@cdktn/provider-aws.ecrRegistryScanningConfiguration.EcrRegistryScanningConfigurationRuleRepositoryFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

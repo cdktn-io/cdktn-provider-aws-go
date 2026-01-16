@@ -5,9 +5,9 @@ package apigatewaystage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaystage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaystage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewApiGatewayStageCanarySettingsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_ApiGatewayStageCanarySettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewApiGatewayStageCanarySettingsOutputReference_Override(a ApiGatewayStageC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

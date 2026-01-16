@@ -5,9 +5,9 @@ package elasticbeanstalkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticbeanstalkapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticbeanstalkapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewElasticBeanstalkApplicationAppversionLifecycleOutputReference(terraformR
 	j := jsiiProxy_ElasticBeanstalkApplicationAppversionLifecycleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewElasticBeanstalkApplicationAppversionLifecycleOutputReference_Override(e
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
+		"@cdktn/provider-aws.elasticBeanstalkApplication.ElasticBeanstalkApplicationAppversionLifecycleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

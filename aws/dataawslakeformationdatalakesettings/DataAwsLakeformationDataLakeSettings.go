@@ -5,14 +5,14 @@ package dataawslakeformationdatalakesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslakeformationdatalakesettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslakeformationdatalakesettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings}.
 type DataAwsLakeformationDataLakeSettings interface {
 	cdktf.TerraformDataSource
 	Admins() *[]*string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAwsLakeformationDataLakeSettings) TrustedResourceOwners()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Data Source.
 func NewDataAwsLakeformationDataLakeSettings(scope constructs.Construct, id *string, config *DataAwsLakeformationDataLakeSettingsConfig) DataAwsLakeformationDataLakeSettings {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataAwsLakeformationDataLakeSettings(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsLakeformationDataLakeSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -441,12 +441,12 @@ func NewDataAwsLakeformationDataLakeSettings(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lakeformation_data_lake_settings aws_lakeformation_data_lake_settings} Data Source.
 func NewDataAwsLakeformationDataLakeSettings_Override(d DataAwsLakeformationDataLakeSettings, scope constructs.Construct, id *string, config *DataAwsLakeformationDataLakeSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -541,7 +541,7 @@ func DataAwsLakeformationDataLakeSettings_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func DataAwsLakeformationDataLakeSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsLakeformationDataLakeSettings_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAwsLakeformationDataLakeSettings_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataAwsLakeformationDataLakeSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
+		"@cdktn/provider-aws.dataAwsLakeformationDataLakeSettings.DataAwsLakeformationDataLakeSettings",
 		"tfResourceType",
 		&returns,
 	)

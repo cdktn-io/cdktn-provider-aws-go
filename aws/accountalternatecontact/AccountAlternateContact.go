@@ -5,14 +5,14 @@ package accountalternatecontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/accountalternatecontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accountalternatecontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_alternate_contact aws_account_alternate_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact}.
 type AccountAlternateContact interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AccountAlternateContact) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
 func NewAccountAlternateContact(scope constructs.Construct, id *string, config *AccountAlternateContactConfig) AccountAlternateContact {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewAccountAlternateContact(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AccountAlternateContact{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewAccountAlternateContact(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
 func NewAccountAlternateContact_Override(a AccountAlternateContact, scope constructs.Construct, id *string, config *AccountAlternateContactConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -657,7 +657,7 @@ func AccountAlternateContact_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func AccountAlternateContact_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func AccountAlternateContact_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func AccountAlternateContact_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func AccountAlternateContact_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.accountAlternateContact.AccountAlternateContact",
+		"@cdktn/provider-aws.accountAlternateContact.AccountAlternateContact",
 		"tfResourceType",
 		&returns,
 	)

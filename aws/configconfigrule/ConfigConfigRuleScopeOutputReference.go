@@ -5,9 +5,9 @@ package configconfigrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconfigrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconfigrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewConfigConfigRuleScopeOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ConfigConfigRuleScopeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewConfigConfigRuleScopeOutputReference_Override(c ConfigConfigRuleScopeOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

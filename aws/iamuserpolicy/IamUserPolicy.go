@@ -5,14 +5,14 @@ package iamuserpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamuserpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamuserpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policy aws_iam_user_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policy aws_iam_user_policy}.
 type IamUserPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_IamUserPolicy) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policy aws_iam_user_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policy aws_iam_user_policy} Resource.
 func NewIamUserPolicy(scope constructs.Construct, id *string, config *IamUserPolicyConfig) IamUserPolicy {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewIamUserPolicy(scope constructs.Construct, id *string, config *IamUserPol
 	j := jsiiProxy_IamUserPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewIamUserPolicy(scope constructs.Construct, id *string, config *IamUserPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policy aws_iam_user_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policy aws_iam_user_policy} Resource.
 func NewIamUserPolicy_Override(i IamUserPolicy, scope constructs.Construct, id *string, config *IamUserPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -566,7 +566,7 @@ func IamUserPolicy_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func IamUserPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func IamUserPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func IamUserPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func IamUserPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamUserPolicy.IamUserPolicy",
+		"@cdktn/provider-aws.iamUserPolicy.IamUserPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package sagemakerworkteam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerworkteam/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerworkteam/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam}.
 type SagemakerWorkteam interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_SagemakerWorkteam) WorkteamNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
 func NewSagemakerWorkteam(scope constructs.Construct, id *string, config *SagemakerWorkteamConfig) SagemakerWorkteam {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewSagemakerWorkteam(scope constructs.Construct, id *string, config *Sagema
 	j := jsiiProxy_SagemakerWorkteam{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewSagemakerWorkteam(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
 func NewSagemakerWorkteam_Override(s SagemakerWorkteam, scope constructs.Construct, id *string, config *SagemakerWorkteamConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -729,7 +729,7 @@ func SagemakerWorkteam_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func SagemakerWorkteam_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func SagemakerWorkteam_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func SagemakerWorkteam_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func SagemakerWorkteam_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
+		"@cdktn/provider-aws.sagemakerWorkteam.SagemakerWorkteam",
 		"tfResourceType",
 		&returns,
 	)

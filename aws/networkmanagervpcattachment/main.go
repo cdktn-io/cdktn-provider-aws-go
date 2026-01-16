@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachment",
 		reflect.TypeOf((*NetworkmanagerVpcAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -62,10 +62,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOptions", GoMethod: "ResetOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRoutingPolicyLabel", GoMethod: "ResetRoutingPolicyLabel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "routingPolicyLabel", GoGetter: "RoutingPolicyLabel"},
+			_jsii_.MemberProperty{JsiiProperty: "routingPolicyLabelInput", GoGetter: "RoutingPolicyLabelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "segmentName", GoGetter: "SegmentName"},
 			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetArns", GoGetter: "SubnetArns"},
@@ -95,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentConfig",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentConfig",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptionsOutputReference",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptionsOutputReference",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applianceModeSupport", GoGetter: "ApplianceModeSupport"},
@@ -147,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTimeouts",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTimeouts",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

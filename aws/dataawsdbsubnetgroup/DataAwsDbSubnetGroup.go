@@ -5,14 +5,14 @@ package dataawsdbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_subnet_group aws_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_subnet_group aws_db_subnet_group}.
 type DataAwsDbSubnetGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataAwsDbSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
 func NewDataAwsDbSubnetGroup(scope constructs.Construct, id *string, config *DataAwsDbSubnetGroupConfig) DataAwsDbSubnetGroup {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataAwsDbSubnetGroup(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsDbSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -396,12 +396,12 @@ func NewDataAwsDbSubnetGroup(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
 func NewDataAwsDbSubnetGroup_Override(d DataAwsDbSubnetGroup, scope constructs.Construct, id *string, config *DataAwsDbSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -496,7 +496,7 @@ func DataAwsDbSubnetGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func DataAwsDbSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAwsDbSubnetGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func DataAwsDbSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsDbSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
+		"@cdktn/provider-aws.dataAwsDbSubnetGroup.DataAwsDbSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

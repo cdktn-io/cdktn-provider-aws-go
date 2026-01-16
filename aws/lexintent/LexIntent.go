@@ -5,14 +5,14 @@ package lexintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_intent aws_lex_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_intent aws_lex_intent}.
 type LexIntent interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -699,7 +699,7 @@ func (j *jsiiProxy_LexIntent) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_intent aws_lex_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_intent aws_lex_intent} Resource.
 func NewLexIntent(scope constructs.Construct, id *string, config *LexIntentConfig) LexIntent {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewLexIntent(scope constructs.Construct, id *string, config *LexIntentConfi
 	j := jsiiProxy_LexIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -717,12 +717,12 @@ func NewLexIntent(scope constructs.Construct, id *string, config *LexIntentConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_intent aws_lex_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_intent aws_lex_intent} Resource.
 func NewLexIntent_Override(l LexIntent, scope constructs.Construct, id *string, config *LexIntentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -883,7 +883,7 @@ func LexIntent_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -918,7 +918,7 @@ func LexIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func LexIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +956,7 @@ func LexIntent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -969,7 +969,7 @@ func LexIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexIntent.LexIntent",
+		"@cdktn/provider-aws.lexIntent.LexIntent",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package eksaccessentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksaccessentry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksaccessentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEksAccessEntryTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_EksAccessEntryTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEksAccessEntryTimeoutsOutputReference_Override(e EksAccessEntryTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

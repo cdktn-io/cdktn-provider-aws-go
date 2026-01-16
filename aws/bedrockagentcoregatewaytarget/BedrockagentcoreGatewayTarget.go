@@ -5,14 +5,14 @@ package bedrockagentcoregatewaytarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoregatewaytarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoregatewaytarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
 type BedrockagentcoreGatewayTarget interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) BedrockagentcoreGatewayTarget {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, co
 	j := jsiiProxy_BedrockagentcoreGatewayTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget_Override(b BedrockagentcoreGatewayTarget, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -614,7 +614,7 @@ func BedrockagentcoreGatewayTarget_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -649,7 +649,7 @@ func BedrockagentcoreGatewayTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func BedrockagentcoreGatewayTarget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func BedrockagentcoreGatewayTarget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func BedrockagentcoreGatewayTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
+		"@cdktn/provider-aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTarget",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserId",
 		reflect.TypeOf((*DataAwsCanonicalUserId)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,7 +59,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserIdConfig",
+		"@cdktn/provider-aws.dataAwsCanonicalUserId.DataAwsCanonicalUserIdConfig",
 		reflect.TypeOf((*DataAwsCanonicalUserIdConfig)(nil)).Elem(),
 	)
 }

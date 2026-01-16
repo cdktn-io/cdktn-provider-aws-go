@@ -5,14 +5,14 @@ package ssmassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_association aws_ssm_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_association aws_ssm_association}.
 type SsmAssociation interface {
 	cdktf.TerraformResource
 	ApplyOnlyAtCronInterval() interface{}
@@ -763,7 +763,7 @@ func (j *jsiiProxy_SsmAssociation) WaitForSuccessTimeoutSecondsInput() *float64 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_association aws_ssm_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_association aws_ssm_association} Resource.
 func NewSsmAssociation(scope constructs.Construct, id *string, config *SsmAssociationConfig) SsmAssociation {
 	_init_.Initialize()
 
@@ -773,7 +773,7 @@ func NewSsmAssociation(scope constructs.Construct, id *string, config *SsmAssoci
 	j := jsiiProxy_SsmAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -781,12 +781,12 @@ func NewSsmAssociation(scope constructs.Construct, id *string, config *SsmAssoci
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_association aws_ssm_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_association aws_ssm_association} Resource.
 func NewSsmAssociation_Override(s SsmAssociation, scope constructs.Construct, id *string, config *SsmAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1057,7 +1057,7 @@ func SsmAssociation_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1092,7 +1092,7 @@ func SsmAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1111,7 +1111,7 @@ func SsmAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1130,7 +1130,7 @@ func SsmAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1143,7 +1143,7 @@ func SsmAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociation",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanary",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanary",
 		reflect.TypeOf((*SyntheticsCanary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfig",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfig",
 		reflect.TypeOf((*SyntheticsCanaryArtifactConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryArtifactConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -169,11 +169,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3Encryption",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3Encryption",
 		reflect.TypeOf((*SyntheticsCanaryArtifactConfigS3Encryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryArtifactConfigS3EncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,15 +211,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryConfig",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryConfig",
 		reflect.TypeOf((*SyntheticsCanaryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryRunConfig",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryRunConfig",
 		reflect.TypeOf((*SyntheticsCanaryRunConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryRunConfigOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryRunConfigOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryRunConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeTracing", GoGetter: "ActiveTracing"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanarySchedule",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanarySchedule",
 		reflect.TypeOf((*SyntheticsCanarySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,11 +311,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig",
 		reflect.TypeOf((*SyntheticsCanaryScheduleRetryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfigOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryScheduleRetryConfigOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryScheduleRetryConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -349,11 +349,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryTimeline",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryTimeline",
 		reflect.TypeOf((*SyntheticsCanaryTimeline)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineList",
 		reflect.TypeOf((*SyntheticsCanaryTimelineList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -374,7 +374,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryTimelineOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryTimelineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -410,11 +410,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryVpcConfig",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryVpcConfig",
 		reflect.TypeOf((*SyntheticsCanaryVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryVpcConfigOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryVpcConfigOutputReference",
 		reflect.TypeOf((*SyntheticsCanaryVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

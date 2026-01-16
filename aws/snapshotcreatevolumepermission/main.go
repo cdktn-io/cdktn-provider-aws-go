@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermission",
+		"@cdktn/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermission",
 		reflect.TypeOf((*SnapshotCreateVolumePermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionConfig",
+		"@cdktn/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionConfig",
 		reflect.TypeOf((*SnapshotCreateVolumePermissionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionTimeouts",
+		"@cdktn/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionTimeouts",
 		reflect.TypeOf((*SnapshotCreateVolumePermissionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionTimeoutsOutputReference",
+		"@cdktn/provider-aws.snapshotCreateVolumePermission.SnapshotCreateVolumePermissionTimeoutsOutputReference",
 		reflect.TypeOf((*SnapshotCreateVolumePermissionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

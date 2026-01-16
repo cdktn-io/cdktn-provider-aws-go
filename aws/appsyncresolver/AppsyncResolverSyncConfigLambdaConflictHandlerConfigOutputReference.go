@@ -5,9 +5,9 @@ package appsyncresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncresolver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference(terr
 	j := jsiiProxy_AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewAppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

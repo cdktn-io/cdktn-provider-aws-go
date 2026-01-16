@@ -5,9 +5,9 @@ package dataawsbatchjobqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbatchjobqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbatchjobqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataAwsBatchJobQueueJobStateTimeLimitActionOutputReference(terraformReso
 	j := jsiiProxy_DataAwsBatchJobQueueJobStateTimeLimitActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueueJobStateTimeLimitActionOutputReference",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueueJobStateTimeLimitActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataAwsBatchJobQueueJobStateTimeLimitActionOutputReference_Override(d Da
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueueJobStateTimeLimitActionOutputReference",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueueJobStateTimeLimitActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

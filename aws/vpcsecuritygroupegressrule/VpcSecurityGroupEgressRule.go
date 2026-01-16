@@ -5,14 +5,14 @@ package vpcsecuritygroupegressrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcsecuritygroupegressrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcsecuritygroupegressrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule}.
 type VpcSecurityGroupEgressRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_VpcSecurityGroupEgressRule) ToPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule} Resource.
 func NewVpcSecurityGroupEgressRule(scope constructs.Construct, id *string, config *VpcSecurityGroupEgressRuleConfig) VpcSecurityGroupEgressRule {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewVpcSecurityGroupEgressRule(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_VpcSecurityGroupEgressRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -610,12 +610,12 @@ func NewVpcSecurityGroupEgressRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_security_group_egress_rule aws_vpc_security_group_egress_rule} Resource.
 func NewVpcSecurityGroupEgressRule_Override(v VpcSecurityGroupEgressRule, scope constructs.Construct, id *string, config *VpcSecurityGroupEgressRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -820,7 +820,7 @@ func VpcSecurityGroupEgressRule_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -855,7 +855,7 @@ func VpcSecurityGroupEgressRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -874,7 +874,7 @@ func VpcSecurityGroupEgressRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -893,7 +893,7 @@ func VpcSecurityGroupEgressRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func VpcSecurityGroupEgressRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		"tfResourceType",
 		&returns,
 	)

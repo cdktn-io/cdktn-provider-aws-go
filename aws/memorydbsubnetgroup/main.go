@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbSubnetGroup.MemorydbSubnetGroup",
+		"@cdktn/provider-aws.memorydbSubnetGroup.MemorydbSubnetGroup",
 		reflect.TypeOf((*MemorydbSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbSubnetGroup.MemorydbSubnetGroupConfig",
+		"@cdktn/provider-aws.memorydbSubnetGroup.MemorydbSubnetGroupConfig",
 		reflect.TypeOf((*MemorydbSubnetGroupConfig)(nil)).Elem(),
 	)
 }

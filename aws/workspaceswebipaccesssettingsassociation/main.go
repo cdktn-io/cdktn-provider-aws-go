@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettingsAssociation.WorkspaceswebIpAccessSettingsAssociation",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettingsAssociation.WorkspaceswebIpAccessSettingsAssociation",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebIpAccessSettingsAssociation.WorkspaceswebIpAccessSettingsAssociationConfig",
+		"@cdktn/provider-aws.workspaceswebIpAccessSettingsAssociation.WorkspaceswebIpAccessSettingsAssociationConfig",
 		reflect.TypeOf((*WorkspaceswebIpAccessSettingsAssociationConfig)(nil)).Elem(),
 	)
 }

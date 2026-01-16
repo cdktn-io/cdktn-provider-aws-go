@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		reflect.TypeOf((*FsxLustreFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -169,15 +169,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemConfig",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemConfig",
 		reflect.TypeOf((*FsxLustreFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemDataReadCacheConfiguration",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemDataReadCacheConfiguration",
 		reflect.TypeOf((*FsxLustreFileSystemDataReadCacheConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemDataReadCacheConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemDataReadCacheConfigurationOutputReference",
 		reflect.TypeOf((*FsxLustreFileSystemDataReadCacheConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemLogConfiguration",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemLogConfiguration",
 		reflect.TypeOf((*FsxLustreFileSystemLogConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemLogConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemLogConfigurationOutputReference",
 		reflect.TypeOf((*FsxLustreFileSystemLogConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -256,11 +256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemMetadataConfiguration",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemMetadataConfiguration",
 		reflect.TypeOf((*FsxLustreFileSystemMetadataConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemMetadataConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemMetadataConfigurationOutputReference",
 		reflect.TypeOf((*FsxLustreFileSystemMetadataConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemRootSquashConfiguration",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemRootSquashConfiguration",
 		reflect.TypeOf((*FsxLustreFileSystemRootSquashConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemRootSquashConfigurationOutputReference",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemRootSquashConfigurationOutputReference",
 		reflect.TypeOf((*FsxLustreFileSystemRootSquashConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -340,11 +340,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemTimeouts",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemTimeouts",
 		reflect.TypeOf((*FsxLustreFileSystemTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystemTimeoutsOutputReference",
 		reflect.TypeOf((*FsxLustreFileSystemTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

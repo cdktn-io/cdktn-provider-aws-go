@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachment",
 		reflect.TypeOf((*InternetGatewayAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentConfig",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentConfig",
 		reflect.TypeOf((*InternetGatewayAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentTimeouts",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentTimeouts",
 		reflect.TypeOf((*InternetGatewayAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.internetGatewayAttachment.InternetGatewayAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*InternetGatewayAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

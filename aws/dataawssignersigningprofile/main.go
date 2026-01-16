@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfile",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfile",
 		reflect.TypeOf((*DataAwsSignerSigningProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileConfig",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileConfig",
 		reflect.TypeOf((*DataAwsSignerSigningProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecord",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecord",
 		reflect.TypeOf((*DataAwsSignerSigningProfileRevocationRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecordList",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecordList",
 		reflect.TypeOf((*DataAwsSignerSigningProfileRevocationRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecordOutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileRevocationRecordOutputReference",
 		reflect.TypeOf((*DataAwsSignerSigningProfileRevocationRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriod",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriod",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSignatureValidityPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriodList",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriodList",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSignatureValidityPeriodList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriodOutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSignatureValidityPeriodOutputReference",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSignatureValidityPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterial",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterial",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSigningMaterial)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialList",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSigningMaterialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,7 +224,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
+		"@cdktn/provider-aws.dataAwsSignerSigningProfile.DataAwsSignerSigningProfileSigningMaterialOutputReference",
 		reflect.TypeOf((*DataAwsSignerSigningProfileSigningMaterialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateArn", GoGetter: "CertificateArn"},

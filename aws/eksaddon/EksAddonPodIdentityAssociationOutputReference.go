@@ -5,9 +5,9 @@ package eksaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksaddon/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewEksAddonPodIdentityAssociationOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_EksAddonPodIdentityAssociationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewEksAddonPodIdentityAssociationOutputReference_Override(e EksAddonPodIden
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

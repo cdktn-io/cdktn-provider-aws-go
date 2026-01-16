@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubActionTarget.SecurityhubActionTarget",
+		"@cdktn/provider-aws.securityhubActionTarget.SecurityhubActionTarget",
 		reflect.TypeOf((*SecurityhubActionTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubActionTarget.SecurityhubActionTargetConfig",
+		"@cdktn/provider-aws.securityhubActionTarget.SecurityhubActionTargetConfig",
 		reflect.TypeOf((*SecurityhubActionTargetConfig)(nil)).Elem(),
 	)
 }

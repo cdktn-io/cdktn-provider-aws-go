@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchema",
 		reflect.TypeOf((*VerifiedpermissionsSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaConfig",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaConfig",
 		reflect.TypeOf((*VerifiedpermissionsSchemaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinition",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinition",
 		reflect.TypeOf((*VerifiedpermissionsSchemaDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
 		reflect.TypeOf((*VerifiedpermissionsSchemaDefinitionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionOutputReference",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionOutputReference",
 		reflect.TypeOf((*VerifiedpermissionsSchemaDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

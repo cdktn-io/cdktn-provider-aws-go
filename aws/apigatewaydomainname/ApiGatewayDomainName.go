@@ -5,14 +5,14 @@ package apigatewaydomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaydomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydomainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
 type ApiGatewayDomainName interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -54,6 +54,9 @@ type ApiGatewayDomainName interface {
 	SetDomainName(val *string)
 	DomainNameId() *string
 	DomainNameInput() *string
+	EndpointAccessMode() *string
+	SetEndpointAccessMode(val *string)
+	EndpointAccessModeInput() *string
 	EndpointConfiguration() ApiGatewayDomainNameEndpointConfigurationOutputReference
 	EndpointConfigurationInput() *ApiGatewayDomainNameEndpointConfiguration
 	// Experimental.
@@ -117,6 +120,8 @@ type ApiGatewayDomainName interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() ApiGatewayDomainNameTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -162,11 +167,13 @@ type ApiGatewayDomainName interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEndpointConfiguration(value *ApiGatewayDomainNameEndpointConfiguration)
 	PutMutualTlsAuthentication(value *ApiGatewayDomainNameMutualTlsAuthentication)
+	PutTimeouts(value *ApiGatewayDomainNameTimeouts)
 	ResetCertificateArn()
 	ResetCertificateBody()
 	ResetCertificateChain()
 	ResetCertificateName()
 	ResetCertificatePrivateKey()
+	ResetEndpointAccessMode()
 	ResetEndpointConfiguration()
 	ResetId()
 	ResetMutualTlsAuthentication()
@@ -181,6 +188,7 @@ type ApiGatewayDomainName interface {
 	ResetSecurityPolicy()
 	ResetTags()
 	ResetTagsAll()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -414,6 +422,26 @@ func (j *jsiiProxy_ApiGatewayDomainName) DomainNameInput() *string {
 	_jsii_.Get(
 		j,
 		"domainNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName) EndpointAccessMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointAccessMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName) EndpointAccessModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointAccessModeInput",
 		&returns,
 	)
 	return returns
@@ -769,8 +797,28 @@ func (j *jsiiProxy_ApiGatewayDomainName) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApiGatewayDomainName) Timeouts() ApiGatewayDomainNameTimeoutsOutputReference {
+	var returns ApiGatewayDomainNameTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+func (j *jsiiProxy_ApiGatewayDomainName) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) ApiGatewayDomainName {
 	_init_.Initialize()
 
@@ -780,7 +828,7 @@ func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *Api
 	j := jsiiProxy_ApiGatewayDomainName{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -788,12 +836,12 @@ func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName_Override(a ApiGatewayDomainName, scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -891,6 +939,17 @@ func (j *jsiiProxy_ApiGatewayDomainName)SetDomainName(val *string) {
 	_jsii_.Set(
 		j,
 		"domainName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName)SetEndpointAccessMode(val *string) {
+	if err := j.validateSetEndpointAccessModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointAccessMode",
 		val,
 	)
 }
@@ -1042,7 +1101,7 @@ func ApiGatewayDomainName_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1077,7 +1136,7 @@ func ApiGatewayDomainName_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1096,7 +1155,7 @@ func ApiGatewayDomainName_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1115,7 +1174,7 @@ func ApiGatewayDomainName_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1128,7 +1187,7 @@ func ApiGatewayDomainName_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
+		"@cdktn/provider-aws.apiGatewayDomainName.ApiGatewayDomainName",
 		"tfResourceType",
 		&returns,
 	)
@@ -1407,6 +1466,17 @@ func (a *jsiiProxy_ApiGatewayDomainName) PutMutualTlsAuthentication(value *ApiGa
 	)
 }
 
+func (a *jsiiProxy_ApiGatewayDomainName) PutTimeouts(value *ApiGatewayDomainNameTimeouts) {
+	if err := a.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ApiGatewayDomainName) ResetCertificateArn() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1443,6 +1513,14 @@ func (a *jsiiProxy_ApiGatewayDomainName) ResetCertificatePrivateKey() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetCertificatePrivateKey",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiGatewayDomainName) ResetEndpointAccessMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEndpointAccessMode",
 		nil, // no parameters
 	)
 }
@@ -1539,6 +1617,14 @@ func (a *jsiiProxy_ApiGatewayDomainName) ResetTagsAll() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiGatewayDomainName) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

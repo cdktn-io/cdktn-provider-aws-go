@@ -5,9 +5,9 @@ package s3bucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewS3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputRefere
 	j := jsiiProxy_S3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewS3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputReference",
+		"@cdktn/provider-aws.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

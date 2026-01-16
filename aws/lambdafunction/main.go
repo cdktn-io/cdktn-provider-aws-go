@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunction",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunction",
 		reflect.TypeOf((*LambdaFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -23,6 +23,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderConfigInput", GoGetter: "CapacityProviderConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "codeSha256", GoGetter: "CodeSha256"},
+			_jsii_.MemberProperty{JsiiProperty: "codeSha256Input", GoGetter: "CodeSha256Input"},
 			_jsii_.MemberProperty{JsiiProperty: "codeSigningConfigArn", GoGetter: "CodeSigningConfigArn"},
 			_jsii_.MemberProperty{JsiiProperty: "codeSigningConfigArnInput", GoGetter: "CodeSigningConfigArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
@@ -118,6 +119,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "reservedConcurrentExecutionsInput", GoGetter: "ReservedConcurrentExecutionsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArchitectures", GoMethod: "ResetArchitectures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCapacityProviderConfig", GoMethod: "ResetCapacityProviderConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCodeSha256", GoMethod: "ResetCodeSha256"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCodeSigningConfigArn", GoMethod: "ResetCodeSigningConfigArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeadLetterConfig", GoMethod: "ResetDeadLetterConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
@@ -157,6 +159,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTracingConfig", GoMethod: "ResetTracingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcConfig", GoMethod: "ResetVpcConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "responseStreamingInvokeArn", GoGetter: "ResponseStreamingInvokeArn"},
 			_jsii_.MemberProperty{JsiiProperty: "role", GoGetter: "Role"},
 			_jsii_.MemberProperty{JsiiProperty: "roleInput", GoGetter: "RoleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "runtime", GoGetter: "Runtime"},
@@ -210,15 +213,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfig",
 		reflect.TypeOf((*LambdaFunctionCapacityProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig",
 		reflect.TypeOf((*LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderArn", GoGetter: "CapacityProviderArn"},
@@ -258,7 +261,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionCapacityProviderConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionCapacityProviderConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -293,15 +296,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionConfig",
 		reflect.TypeOf((*LambdaFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionDeadLetterConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionDeadLetterConfig",
 		reflect.TypeOf((*LambdaFunctionDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionDeadLetterConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +338,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionDurableConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionDurableConfig",
 		reflect.TypeOf((*LambdaFunctionDurableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionDurableConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionDurableConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionDurableConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -376,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionEnvironment",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionEnvironment",
 		reflect.TypeOf((*LambdaFunctionEnvironment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionEnvironmentOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionEnvironmentOutputReference",
 		reflect.TypeOf((*LambdaFunctionEnvironmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -415,11 +418,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionEphemeralStorage",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionEphemeralStorage",
 		reflect.TypeOf((*LambdaFunctionEphemeralStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionEphemeralStorageOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionEphemeralStorageOutputReference",
 		reflect.TypeOf((*LambdaFunctionEphemeralStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -454,11 +457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionFileSystemConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionFileSystemConfig",
 		reflect.TypeOf((*LambdaFunctionFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionFileSystemConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionFileSystemConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionFileSystemConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -494,11 +497,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionImageConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionImageConfig",
 		reflect.TypeOf((*LambdaFunctionImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionImageConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionImageConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionImageConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
@@ -539,11 +542,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionLoggingConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionLoggingConfig",
 		reflect.TypeOf((*LambdaFunctionLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationLogLevel", GoGetter: "ApplicationLogLevel"},
@@ -586,11 +589,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionSnapStart",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionSnapStart",
 		reflect.TypeOf((*LambdaFunctionSnapStart)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
 		reflect.TypeOf((*LambdaFunctionSnapStartOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyOn", GoGetter: "ApplyOn"},
@@ -625,11 +628,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTenancyConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTenancyConfig",
 		reflect.TypeOf((*LambdaFunctionTenancyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionTenancyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -663,11 +666,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTimeouts",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTimeouts",
 		reflect.TypeOf((*LambdaFunctionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTimeoutsOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTimeoutsOutputReference",
 		reflect.TypeOf((*LambdaFunctionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -708,11 +711,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTracingConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTracingConfig",
 		reflect.TypeOf((*LambdaFunctionTracingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTracingConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTracingConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionTracingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -746,11 +749,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionVpcConfig",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionVpcConfig",
 		reflect.TypeOf((*LambdaFunctionVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionVpcConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionVpcConfigOutputReference",
 		reflect.TypeOf((*LambdaFunctionVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

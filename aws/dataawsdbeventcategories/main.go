@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategories",
 		reflect.TypeOf((*DataAwsDbEventCategories)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategoriesConfig",
+		"@cdktn/provider-aws.dataAwsDbEventCategories.DataAwsDbEventCategoriesConfig",
 		reflect.TypeOf((*DataAwsDbEventCategoriesConfig)(nil)).Elem(),
 	)
 }

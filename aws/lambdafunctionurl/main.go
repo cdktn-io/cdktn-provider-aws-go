@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrl",
 		reflect.TypeOf((*LambdaFunctionUrl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlConfig",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlConfig",
 		reflect.TypeOf((*LambdaFunctionUrlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlCors",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlCors",
 		reflect.TypeOf((*LambdaFunctionUrlCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlCorsOutputReference",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlCorsOutputReference",
 		reflect.TypeOf((*LambdaFunctionUrlCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowCredentials", GoGetter: "AllowCredentials"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlTimeouts",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlTimeouts",
 		reflect.TypeOf((*LambdaFunctionUrlTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlTimeoutsOutputReference",
+		"@cdktn/provider-aws.lambdaFunctionUrl.LambdaFunctionUrlTimeoutsOutputReference",
 		reflect.TypeOf((*LambdaFunctionUrlTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

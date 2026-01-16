@@ -5,14 +5,14 @@ package snsplatformapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/snsplatformapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/snsplatformapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_platform_application aws_sns_platform_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_platform_application aws_sns_platform_application}.
 type SnsPlatformApplication interface {
 	cdktf.TerraformResource
 	ApplePlatformBundleId() *string
@@ -654,7 +654,7 @@ func (j *jsiiProxy_SnsPlatformApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
 func NewSnsPlatformApplication(scope constructs.Construct, id *string, config *SnsPlatformApplicationConfig) SnsPlatformApplication {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewSnsPlatformApplication(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_SnsPlatformApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -672,12 +672,12 @@ func NewSnsPlatformApplication(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sns_platform_application aws_sns_platform_application} Resource.
 func NewSnsPlatformApplication_Override(s SnsPlatformApplication, scope constructs.Construct, id *string, config *SnsPlatformApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -926,7 +926,7 @@ func SnsPlatformApplication_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -961,7 +961,7 @@ func SnsPlatformApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -980,7 +980,7 @@ func SnsPlatformApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func SnsPlatformApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1012,7 +1012,7 @@ func SnsPlatformApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.snsPlatformApplication.SnsPlatformApplication",
+		"@cdktn/provider-aws.snsPlatformApplication.SnsPlatformApplication",
 		"tfResourceType",
 		&returns,
 	)

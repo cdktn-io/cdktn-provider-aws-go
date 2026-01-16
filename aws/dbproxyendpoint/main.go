@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpoint",
 		reflect.TypeOf((*DbProxyEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpointConfig",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpointConfig",
 		reflect.TypeOf((*DbProxyEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpointTimeouts",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpointTimeouts",
 		reflect.TypeOf((*DbProxyEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxyEndpoint.DbProxyEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbProxyEndpoint.DbProxyEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*DbProxyEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

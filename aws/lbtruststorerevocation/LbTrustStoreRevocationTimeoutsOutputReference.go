@@ -5,9 +5,9 @@ package lbtruststorerevocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbtruststorerevocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbtruststorerevocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewLbTrustStoreRevocationTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_LbTrustStoreRevocationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewLbTrustStoreRevocationTimeoutsOutputReference_Override(l LbTrustStoreRev
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
+		"@cdktn/provider-aws.lbTrustStoreRevocation.LbTrustStoreRevocationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

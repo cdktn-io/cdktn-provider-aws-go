@@ -5,14 +5,14 @@ package dataawsmemorydbacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmemorydbacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmemorydbacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_acl aws_memorydb_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_acl aws_memorydb_acl}.
 type DataAwsMemorydbAcl interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsMemorydbAcl) UserNames() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_acl aws_memorydb_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_acl aws_memorydb_acl} Data Source.
 func NewDataAwsMemorydbAcl(scope constructs.Construct, id *string, config *DataAwsMemorydbAclConfig) DataAwsMemorydbAcl {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsMemorydbAcl(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsMemorydbAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsMemorydbAcl(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/memorydb_acl aws_memorydb_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/memorydb_acl aws_memorydb_acl} Data Source.
 func NewDataAwsMemorydbAcl_Override(d DataAwsMemorydbAcl, scope constructs.Construct, id *string, config *DataAwsMemorydbAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAwsMemorydbAcl_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAwsMemorydbAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsMemorydbAcl_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsMemorydbAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsMemorydbAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		"tfResourceType",
 		&returns,
 	)

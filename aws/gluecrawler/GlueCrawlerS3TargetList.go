@@ -5,9 +5,9 @@ package gluecrawler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecrawler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecrawler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewGlueCrawlerS3TargetList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_GlueCrawlerS3TargetList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewGlueCrawlerS3TargetList_Override(g GlueCrawlerS3TargetList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)

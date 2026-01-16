@@ -5,14 +5,14 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_source aws_quicksight_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_source aws_quicksight_data_source}.
 type QuicksightDataSource interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_QuicksightDataSource) VpcConnectionPropertiesInput() *Quicksi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource.
 func NewQuicksightDataSource(scope constructs.Construct, id *string, config *QuicksightDataSourceConfig) QuicksightDataSource {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewQuicksightDataSource(scope constructs.Construct, id *string, config *Qui
 	j := jsiiProxy_QuicksightDataSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -623,12 +623,12 @@ func NewQuicksightDataSource(scope constructs.Construct, id *string, config *Qui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_source aws_quicksight_data_source} Resource.
 func NewQuicksightDataSource_Override(q QuicksightDataSource, scope constructs.Construct, id *string, config *QuicksightDataSourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -800,7 +800,7 @@ func QuicksightDataSource_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func QuicksightDataSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func QuicksightDataSource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func QuicksightDataSource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func QuicksightDataSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSource",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSource",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		reflect.TypeOf((*DataAwsSsoadminApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationConfig",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationConfig",
 		reflect.TypeOf((*DataAwsSsoadminApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptions",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptions",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsOutputReference",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptions",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptions",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptionsSignInOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptionsList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptionsList",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptionsSignInOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -156,7 +156,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsSignInOptionsOutputReference",
 		reflect.TypeOf((*DataAwsSsoadminApplicationPortalOptionsSignInOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationUrl", GoGetter: "ApplicationUrl"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		reflect.TypeOf((*IamAccountPasswordPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicyConfig",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicyConfig",
 		reflect.TypeOf((*IamAccountPasswordPolicyConfig)(nil)).Elem(),
 	)
 }

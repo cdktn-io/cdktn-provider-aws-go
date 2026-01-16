@@ -5,14 +5,14 @@ package dataawselbserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselbserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselbserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elb_service_account aws_elb_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elb_service_account aws_elb_service_account}.
 type DataAwsElbServiceAccount interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsElbServiceAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
 func NewDataAwsElbServiceAccount(scope constructs.Construct, id *string, config *DataAwsElbServiceAccountConfig) DataAwsElbServiceAccount {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsElbServiceAccount(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsElbServiceAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsElbServiceAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
 func NewDataAwsElbServiceAccount_Override(d DataAwsElbServiceAccount, scope constructs.Construct, id *string, config *DataAwsElbServiceAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsElbServiceAccount_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsElbServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsElbServiceAccount_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsElbServiceAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsElbServiceAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
+		"@cdktn/provider-aws.dataAwsElbServiceAccount.DataAwsElbServiceAccount",
 		"tfResourceType",
 		&returns,
 	)

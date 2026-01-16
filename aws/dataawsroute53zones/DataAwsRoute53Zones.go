@@ -5,14 +5,14 @@ package dataawsroute53zones
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53zones/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53zones/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zones aws_route53_zones}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones}.
 type DataAwsRoute53Zones interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -263,7 +263,7 @@ func (j *jsiiProxy_DataAwsRoute53Zones) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) DataAwsRoute53Zones {
 	_init_.Initialize()
 
@@ -273,7 +273,7 @@ func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsRoute53Zones{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -281,12 +281,12 @@ func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones_Override(d DataAwsRoute53Zones, scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -348,7 +348,7 @@ func DataAwsRoute53Zones_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -383,7 +383,7 @@ func DataAwsRoute53Zones_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -402,7 +402,7 @@ func DataAwsRoute53Zones_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -421,7 +421,7 @@ func DataAwsRoute53Zones_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -434,7 +434,7 @@ func DataAwsRoute53Zones_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
+		"@cdktn/provider-aws.dataAwsRoute53Zones.DataAwsRoute53Zones",
 		"tfResourceType",
 		&returns,
 	)

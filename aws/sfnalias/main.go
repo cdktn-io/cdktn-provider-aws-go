@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnAlias.SfnAlias",
+		"@cdktn/provider-aws.sfnAlias.SfnAlias",
 		reflect.TypeOf((*SfnAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasConfig",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasConfig",
 		reflect.TypeOf((*SfnAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasRoutingConfiguration",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasRoutingConfiguration",
 		reflect.TypeOf((*SfnAliasRoutingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasRoutingConfigurationList",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasRoutingConfigurationList",
 		reflect.TypeOf((*SfnAliasRoutingConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasRoutingConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasRoutingConfigurationOutputReference",
 		reflect.TypeOf((*SfnAliasRoutingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasTimeouts",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasTimeouts",
 		reflect.TypeOf((*SfnAliasTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sfnAlias.SfnAliasTimeoutsOutputReference",
+		"@cdktn/provider-aws.sfnAlias.SfnAliasTimeoutsOutputReference",
 		reflect.TypeOf((*SfnAliasTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

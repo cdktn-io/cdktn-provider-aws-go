@@ -5,14 +5,14 @@ package redshiftclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftclustersnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot}.
 type RedshiftClusterSnapshot interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_RedshiftClusterSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
 func NewRedshiftClusterSnapshot(scope constructs.Construct, id *string, config *RedshiftClusterSnapshotConfig) RedshiftClusterSnapshot {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewRedshiftClusterSnapshot(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_RedshiftClusterSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewRedshiftClusterSnapshot(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_cluster_snapshot aws_redshift_cluster_snapshot} Resource.
 func NewRedshiftClusterSnapshot_Override(r RedshiftClusterSnapshot, scope constructs.Construct, id *string, config *RedshiftClusterSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -669,7 +669,7 @@ func RedshiftClusterSnapshot_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func RedshiftClusterSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func RedshiftClusterSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func RedshiftClusterSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func RedshiftClusterSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
+		"@cdktn/provider-aws.redshiftClusterSnapshot.RedshiftClusterSnapshot",
 		"tfResourceType",
 		&returns,
 	)

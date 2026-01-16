@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferProfile.TransferProfile",
+		"@cdktn/provider-aws.transferProfile.TransferProfile",
 		reflect.TypeOf((*TransferProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferProfile.TransferProfileConfig",
+		"@cdktn/provider-aws.transferProfile.TransferProfileConfig",
 		reflect.TypeOf((*TransferProfileConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package dataawsalblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsAlbListenerTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsAlbListenerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsAlbListenerTimeoutsOutputReference_Override(d DataAwsAlbListenerT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListenerTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListenerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

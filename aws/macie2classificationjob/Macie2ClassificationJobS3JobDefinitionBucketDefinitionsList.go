@@ -5,9 +5,9 @@ package macie2classificationjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2classificationjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2classificationjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMacie2ClassificationJobS3JobDefinitionBucketDefinitionsList(terraformRes
 	j := jsiiProxy_Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMacie2ClassificationJobS3JobDefinitionBucketDefinitionsList_Override(m M
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketDefinitionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

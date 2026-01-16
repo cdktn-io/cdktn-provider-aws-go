@@ -5,14 +5,14 @@ package kmskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmskey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmskey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_key aws_kms_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_key aws_kms_key}.
 type KmsKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -716,7 +716,7 @@ func (j *jsiiProxy_KmsKey) XksKeyIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_key aws_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_key aws_kms_key} Resource.
 func NewKmsKey(scope constructs.Construct, id *string, config *KmsKeyConfig) KmsKey {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewKmsKey(scope constructs.Construct, id *string, config *KmsKeyConfig) Kms
 	j := jsiiProxy_KmsKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -734,12 +734,12 @@ func NewKmsKey(scope constructs.Construct, id *string, config *KmsKeyConfig) Kms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_key aws_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_key aws_kms_key} Resource.
 func NewKmsKey_Override(k KmsKey, scope constructs.Construct, id *string, config *KmsKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -999,7 +999,7 @@ func KmsKey_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1034,7 +1034,7 @@ func KmsKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1053,7 +1053,7 @@ func KmsKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1072,7 +1072,7 @@ func KmsKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1085,7 +1085,7 @@ func KmsKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kmsKey.KmsKey",
+		"@cdktn/provider-aws.kmsKey.KmsKey",
 		"tfResourceType",
 		&returns,
 	)

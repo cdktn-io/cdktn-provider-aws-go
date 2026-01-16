@@ -5,14 +5,14 @@ package macie2organizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2organizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2organizationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration}.
 type Macie2OrganizationConfiguration interface {
 	cdktf.TerraformResource
 	AutoEnable() interface{}
@@ -333,7 +333,7 @@ func (j *jsiiProxy_Macie2OrganizationConfiguration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
 func NewMacie2OrganizationConfiguration(scope constructs.Construct, id *string, config *Macie2OrganizationConfigurationConfig) Macie2OrganizationConfiguration {
 	_init_.Initialize()
 
@@ -343,7 +343,7 @@ func NewMacie2OrganizationConfiguration(scope constructs.Construct, id *string, 
 	j := jsiiProxy_Macie2OrganizationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -351,12 +351,12 @@ func NewMacie2OrganizationConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
 func NewMacie2OrganizationConfiguration_Override(m Macie2OrganizationConfiguration, scope constructs.Construct, id *string, config *Macie2OrganizationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -462,7 +462,7 @@ func Macie2OrganizationConfiguration_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -497,7 +497,7 @@ func Macie2OrganizationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func Macie2OrganizationConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -535,7 +535,7 @@ func Macie2OrganizationConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func Macie2OrganizationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
+		"@cdktn/provider-aws.macie2OrganizationConfiguration.Macie2OrganizationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

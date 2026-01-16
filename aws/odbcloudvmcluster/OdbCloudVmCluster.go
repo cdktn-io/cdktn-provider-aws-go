@@ -5,14 +5,14 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
 type OdbCloudVmCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1117,7 +1117,7 @@ func (j *jsiiProxy_OdbCloudVmCluster) VipIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
 func NewOdbCloudVmCluster(scope constructs.Construct, id *string, config *OdbCloudVmClusterConfig) OdbCloudVmCluster {
 	_init_.Initialize()
 
@@ -1127,7 +1127,7 @@ func NewOdbCloudVmCluster(scope constructs.Construct, id *string, config *OdbClo
 	j := jsiiProxy_OdbCloudVmCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1135,12 +1135,12 @@ func NewOdbCloudVmCluster(scope constructs.Construct, id *string, config *OdbClo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Resource.
 func NewOdbCloudVmCluster_Override(o OdbCloudVmCluster, scope constructs.Construct, id *string, config *OdbCloudVmClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1455,7 +1455,7 @@ func OdbCloudVmCluster_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1490,7 +1490,7 @@ func OdbCloudVmCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1509,7 +1509,7 @@ func OdbCloudVmCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1528,7 +1528,7 @@ func OdbCloudVmCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1541,7 +1541,7 @@ func OdbCloudVmCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmCluster",
 		"tfResourceType",
 		&returns,
 	)

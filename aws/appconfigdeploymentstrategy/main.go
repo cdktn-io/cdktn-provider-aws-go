@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigDeploymentStrategy.AppconfigDeploymentStrategy",
+		"@cdktn/provider-aws.appconfigDeploymentStrategy.AppconfigDeploymentStrategy",
 		reflect.TypeOf((*AppconfigDeploymentStrategy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigDeploymentStrategy.AppconfigDeploymentStrategyConfig",
+		"@cdktn/provider-aws.appconfigDeploymentStrategy.AppconfigDeploymentStrategyConfig",
 		reflect.TypeOf((*AppconfigDeploymentStrategyConfig)(nil)).Elem(),
 	)
 }

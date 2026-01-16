@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicator",
+		"@cdktn/provider-aws.mskReplicator.MskReplicator",
 		reflect.TypeOf((*MskReplicator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,19 +94,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorConfig",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorConfig",
 		reflect.TypeOf((*MskReplicatorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaCluster",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaCluster",
 		reflect.TypeOf((*MskReplicatorKafkaCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskCluster",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskCluster",
 		reflect.TypeOf((*MskReplicatorKafkaClusterAmazonMskCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
 		reflect.TypeOf((*MskReplicatorKafkaClusterAmazonMskClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterList",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterList",
 		reflect.TypeOf((*MskReplicatorKafkaClusterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
 		reflect.TypeOf((*MskReplicatorKafkaClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonMskCluster", GoGetter: "AmazonMskCluster"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterVpcConfig",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterVpcConfig",
 		reflect.TypeOf((*MskReplicatorKafkaClusterVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterVpcConfigOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterVpcConfigOutputReference",
 		reflect.TypeOf((*MskReplicatorKafkaClusterVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplication",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListConsumerGroupReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationList",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationList",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListConsumerGroupReplicationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -267,7 +267,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListStruct",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListStruct",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListStructOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListStructOutputReference",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -360,11 +360,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplication",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationList",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationList",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -386,7 +386,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationOutputReference",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -440,11 +440,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationStartingPosition",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationStartingPosition",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationStartingPosition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationStartingPositionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -479,11 +479,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationTopicNameConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference",
 		reflect.TypeOf((*MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -518,11 +518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorTimeouts",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorTimeouts",
 		reflect.TypeOf((*MskReplicatorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorTimeoutsOutputReference",
 		reflect.TypeOf((*MskReplicatorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

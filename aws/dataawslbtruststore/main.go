@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLbTrustStore.DataAwsLbTrustStore",
+		"@cdktn/provider-aws.dataAwsLbTrustStore.DataAwsLbTrustStore",
 		reflect.TypeOf((*DataAwsLbTrustStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLbTrustStore.DataAwsLbTrustStoreConfig",
+		"@cdktn/provider-aws.dataAwsLbTrustStore.DataAwsLbTrustStoreConfig",
 		reflect.TypeOf((*DataAwsLbTrustStoreConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package dataawsnetworkmanagercorenetworkpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkmanagercorenetworkpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagercorenetworkpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -40,6 +40,8 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference
 	Destinations() *[]*string
 	SetDestinations(val *[]*string)
 	DestinationsInput() *[]*string
+	EdgeLocationAssociation() DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociationOutputReference
+	EdgeLocationAssociationInput() *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -92,11 +94,13 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutEdgeLocationAssociation(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation)
 	PutVia(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsVia)
 	PutWhenSentTo(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsWhenSentTo)
 	ResetDescription()
 	ResetDestinationCidrBlocks()
 	ResetDestinations()
+	ResetEdgeLocationAssociation()
 	ResetMode()
 	ResetShareWith()
 	ResetShareWithExcept()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	_jsii_.Get(
 		j,
 		"destinationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) EdgeLocationAssociation() DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociationOutputReference {
+	var returns DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociationOutputReference
+	_jsii_.Get(
+		j,
+		"edgeLocationAssociation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) EdgeLocationAssociationInput() *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation {
+	var returns *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation
+	_jsii_.Get(
+		j,
+		"edgeLocationAssociationInput",
 		&returns,
 	)
 	return returns
@@ -397,7 +421,7 @@ func NewDataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputRefere
 	j := jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -409,7 +433,7 @@ func NewDataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -744,6 +768,17 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	return returns
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) PutEdgeLocationAssociation(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsEdgeLocationAssociation) {
+	if err := d.validatePutEdgeLocationAssociationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putEdgeLocationAssociation",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) PutVia(value *DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsVia) {
 	if err := d.validatePutViaParameters(value); err != nil {
 		panic(err)
@@ -786,6 +821,14 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	_jsii_.InvokeVoid(
 		d,
 		"resetDestinations",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) ResetEdgeLocationAssociation() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEdgeLocationAssociation",
 		nil, // no parameters
 	)
 }

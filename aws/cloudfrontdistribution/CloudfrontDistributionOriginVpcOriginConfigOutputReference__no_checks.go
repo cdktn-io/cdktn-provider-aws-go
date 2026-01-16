@@ -71,6 +71,10 @@ func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) validateSetOwnerAccountIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package dataawsservicequotastemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsservicequotastemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicequotastemplates/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates}.
 type DataAwsServicequotasTemplates interface {
 	cdktf.TerraformDataSource
 	AwsRegion() *string
@@ -311,7 +311,7 @@ func (j *jsiiProxy_DataAwsServicequotasTemplates) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
 func NewDataAwsServicequotasTemplates(scope constructs.Construct, id *string, config *DataAwsServicequotasTemplatesConfig) DataAwsServicequotasTemplates {
 	_init_.Initialize()
 
@@ -321,7 +321,7 @@ func NewDataAwsServicequotasTemplates(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsServicequotasTemplates{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -329,12 +329,12 @@ func NewDataAwsServicequotasTemplates(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicequotas_templates aws_servicequotas_templates} Data Source.
 func NewDataAwsServicequotasTemplates_Override(d DataAwsServicequotasTemplates, scope constructs.Construct, id *string, config *DataAwsServicequotasTemplatesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -418,7 +418,7 @@ func DataAwsServicequotasTemplates_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -453,7 +453,7 @@ func DataAwsServicequotasTemplates_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -472,7 +472,7 @@ func DataAwsServicequotasTemplates_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -491,7 +491,7 @@ func DataAwsServicequotasTemplates_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsServicequotasTemplates_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		reflect.TypeOf((*ApiGatewayStage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLogSettings", GoGetter: "AccessLogSettings"},
@@ -114,11 +114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettings",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettings",
 		reflect.TypeOf((*ApiGatewayStageAccessLogSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageAccessLogSettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayStageAccessLogSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettings",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettings",
 		reflect.TypeOf((*ApiGatewayStageCanarySettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageCanarySettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayStageCanarySettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,7 +201,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStageConfig",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStageConfig",
 		reflect.TypeOf((*ApiGatewayStageConfig)(nil)).Elem(),
 	)
 }

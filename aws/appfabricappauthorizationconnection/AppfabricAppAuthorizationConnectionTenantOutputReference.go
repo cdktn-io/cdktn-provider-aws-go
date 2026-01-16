@@ -5,9 +5,9 @@ package appfabricappauthorizationconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricappauthorizationconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricappauthorizationconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewAppfabricAppAuthorizationConnectionTenantOutputReference(terraformResour
 	j := jsiiProxy_AppfabricAppAuthorizationConnectionTenantOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionTenantOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionTenantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewAppfabricAppAuthorizationConnectionTenantOutputReference_Override(a Appf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionTenantOutputReference",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnectionTenantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

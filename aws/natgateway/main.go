@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGateway",
+		"@cdktn/provider-aws.natGateway.NatGateway",
 		reflect.TypeOf((*NatGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -118,11 +118,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGateway.NatGatewayAvailabilityZoneAddress",
+		"@cdktn/provider-aws.natGateway.NatGatewayAvailabilityZoneAddress",
 		reflect.TypeOf((*NatGatewayAvailabilityZoneAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressList",
 		reflect.TypeOf((*NatGatewayAvailabilityZoneAddressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressOutputReference",
+		"@cdktn/provider-aws.natGateway.NatGatewayAvailabilityZoneAddressOutputReference",
 		reflect.TypeOf((*NatGatewayAvailabilityZoneAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationIds", GoGetter: "AllocationIds"},
@@ -185,15 +185,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGateway.NatGatewayConfig",
+		"@cdktn/provider-aws.natGateway.NatGatewayConfig",
 		reflect.TypeOf((*NatGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddress",
+		"@cdktn/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddress",
 		reflect.TypeOf((*NatGatewayRegionalNatGatewayAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressList",
+		"@cdktn/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressList",
 		reflect.TypeOf((*NatGatewayRegionalNatGatewayAddressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
+		"@cdktn/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
 		reflect.TypeOf((*NatGatewayRegionalNatGatewayAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationId", GoGetter: "AllocationId"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGateway.NatGatewayTimeouts",
+		"@cdktn/provider-aws.natGateway.NatGatewayTimeouts",
 		reflect.TypeOf((*NatGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGateway.NatGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.natGateway.NatGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*NatGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

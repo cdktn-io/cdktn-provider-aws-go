@@ -5,14 +5,14 @@ package spotinstancerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/spotinstancerequest/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/spotinstancerequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_instance_request aws_spot_instance_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_instance_request aws_spot_instance_request}.
 type SpotInstanceRequest interface {
 	cdktf.TerraformResource
 	Ami() *string
@@ -1786,7 +1786,7 @@ func (j *jsiiProxy_SpotInstanceRequest) WaitForFulfillmentInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
 func NewSpotInstanceRequest(scope constructs.Construct, id *string, config *SpotInstanceRequestConfig) SpotInstanceRequest {
 	_init_.Initialize()
 
@@ -1796,7 +1796,7 @@ func NewSpotInstanceRequest(scope constructs.Construct, id *string, config *Spot
 	j := jsiiProxy_SpotInstanceRequest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1804,12 +1804,12 @@ func NewSpotInstanceRequest(scope constructs.Construct, id *string, config *Spot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
 func NewSpotInstanceRequest_Override(s SpotInstanceRequest, scope constructs.Construct, id *string, config *SpotInstanceRequestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -2377,7 +2377,7 @@ func SpotInstanceRequest_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2412,7 +2412,7 @@ func SpotInstanceRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2431,7 +2431,7 @@ func SpotInstanceRequest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2450,7 +2450,7 @@ func SpotInstanceRequest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2463,7 +2463,7 @@ func SpotInstanceRequest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequest",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequest",
 		"tfResourceType",
 		&returns,
 	)

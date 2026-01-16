@@ -5,14 +5,14 @@ package ec2trafficmirrortarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2trafficmirrortarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2trafficmirrortarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target}.
 type Ec2TrafficMirrorTarget interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -500,7 +500,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) Ec2TrafficMirrorTarget {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_Ec2TrafficMirrorTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewEc2TrafficMirrorTarget(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_target aws_ec2_traffic_mirror_target} Resource.
 func NewEc2TrafficMirrorTarget_Override(e Ec2TrafficMirrorTarget, scope constructs.Construct, id *string, config *Ec2TrafficMirrorTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -695,7 +695,7 @@ func Ec2TrafficMirrorTarget_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func Ec2TrafficMirrorTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func Ec2TrafficMirrorTarget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func Ec2TrafficMirrorTarget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func Ec2TrafficMirrorTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
+		"@cdktn/provider-aws.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget",
 		"tfResourceType",
 		&returns,
 	)

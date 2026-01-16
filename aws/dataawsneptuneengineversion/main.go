@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersion",
 		reflect.TypeOf((*DataAwsNeptuneEngineVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersionConfig",
+		"@cdktn/provider-aws.dataAwsNeptuneEngineVersion.DataAwsNeptuneEngineVersionConfig",
 		reflect.TypeOf((*DataAwsNeptuneEngineVersionConfig)(nil)).Elem(),
 	)
 }

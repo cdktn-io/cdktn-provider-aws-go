@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaFunctionRecursionConfig.LambdaFunctionRecursionConfig",
+		"@cdktn/provider-aws.lambdaFunctionRecursionConfig.LambdaFunctionRecursionConfig",
 		reflect.TypeOf((*LambdaFunctionRecursionConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaFunctionRecursionConfig.LambdaFunctionRecursionConfigConfig",
+		"@cdktn/provider-aws.lambdaFunctionRecursionConfig.LambdaFunctionRecursionConfigConfig",
 		reflect.TypeOf((*LambdaFunctionRecursionConfigConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		reflect.TypeOf((*SqsQueueRedrivePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicyConfig",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicyConfig",
 		reflect.TypeOf((*SqsQueueRedrivePolicyConfig)(nil)).Elem(),
 	)
 }

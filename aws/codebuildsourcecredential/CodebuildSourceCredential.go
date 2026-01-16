@@ -5,14 +5,14 @@ package codebuildsourcecredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildsourcecredential/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildsourcecredential/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential}.
 type CodebuildSourceCredential interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_CodebuildSourceCredential) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential} Resource.
 func NewCodebuildSourceCredential(scope constructs.Construct, id *string, config *CodebuildSourceCredentialConfig) CodebuildSourceCredential {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewCodebuildSourceCredential(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CodebuildSourceCredential{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewCodebuildSourceCredential(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_source_credential aws_codebuild_source_credential} Resource.
 func NewCodebuildSourceCredential_Override(c CodebuildSourceCredential, scope constructs.Construct, id *string, config *CodebuildSourceCredentialConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -611,7 +611,7 @@ func CodebuildSourceCredential_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -646,7 +646,7 @@ func CodebuildSourceCredential_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -665,7 +665,7 @@ func CodebuildSourceCredential_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func CodebuildSourceCredential_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func CodebuildSourceCredential_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
+		"@cdktn/provider-aws.codebuildSourceCredential.CodebuildSourceCredential",
 		"tfResourceType",
 		&returns,
 	)

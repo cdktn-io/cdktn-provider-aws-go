@@ -5,14 +5,14 @@ package dataawsecrrepositories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecrrepositories/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecrrepositories/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_repositories aws_ecr_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_repositories aws_ecr_repositories}.
 type DataAwsEcrRepositories interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsEcrRepositories) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
 func NewDataAwsEcrRepositories(scope constructs.Construct, id *string, config *DataAwsEcrRepositoriesConfig) DataAwsEcrRepositories {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataAwsEcrRepositories(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsEcrRepositories{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataAwsEcrRepositories(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecr_repositories aws_ecr_repositories} Data Source.
 func NewDataAwsEcrRepositories_Override(d DataAwsEcrRepositories, scope constructs.Construct, id *string, config *DataAwsEcrRepositoriesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataAwsEcrRepositories_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataAwsEcrRepositories_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataAwsEcrRepositories_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataAwsEcrRepositories_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsEcrRepositories_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
+		"@cdktn/provider-aws.dataAwsEcrRepositories.DataAwsEcrRepositories",
 		"tfResourceType",
 		&returns,
 	)

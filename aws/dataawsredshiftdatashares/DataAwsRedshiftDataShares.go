@@ -5,14 +5,14 @@ package dataawsredshiftdatashares
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsredshiftdatashares/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsredshiftdatashares/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares}.
 type DataAwsRedshiftDataShares interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsRedshiftDataShares) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares} Data Source.
 func NewDataAwsRedshiftDataShares(scope constructs.Construct, id *string, config *DataAwsRedshiftDataSharesConfig) DataAwsRedshiftDataShares {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataAwsRedshiftDataShares(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsRedshiftDataShares{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataAwsRedshiftDataShares(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_data_shares aws_redshift_data_shares} Data Source.
 func NewDataAwsRedshiftDataShares_Override(d DataAwsRedshiftDataShares, scope constructs.Construct, id *string, config *DataAwsRedshiftDataSharesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataAwsRedshiftDataShares_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataAwsRedshiftDataShares_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataAwsRedshiftDataShares_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataAwsRedshiftDataShares_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsRedshiftDataShares_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		"tfResourceType",
 		&returns,
 	)

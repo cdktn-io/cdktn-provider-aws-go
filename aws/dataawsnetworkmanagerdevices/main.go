@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerDevices.DataAwsNetworkmanagerDevices",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerDevices.DataAwsNetworkmanagerDevices",
 		reflect.TypeOf((*DataAwsNetworkmanagerDevices)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerDevices.DataAwsNetworkmanagerDevicesConfig",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerDevices.DataAwsNetworkmanagerDevicesConfig",
 		reflect.TypeOf((*DataAwsNetworkmanagerDevicesConfig)(nil)).Elem(),
 	)
 }

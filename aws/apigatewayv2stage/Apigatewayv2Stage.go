@@ -5,14 +5,14 @@ package apigatewayv2stage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2stage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2stage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage}.
 type Apigatewayv2Stage interface {
 	cdktf.TerraformResource
 	AccessLogSettings() Apigatewayv2StageAccessLogSettingsOutputReference
@@ -653,7 +653,7 @@ func (j *jsiiProxy_Apigatewayv2Stage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage} Resource.
 func NewApigatewayv2Stage(scope constructs.Construct, id *string, config *Apigatewayv2StageConfig) Apigatewayv2Stage {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewApigatewayv2Stage(scope constructs.Construct, id *string, config *Apigat
 	j := jsiiProxy_Apigatewayv2Stage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -671,12 +671,12 @@ func NewApigatewayv2Stage(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_stage aws_apigatewayv2_stage} Resource.
 func NewApigatewayv2Stage_Override(a Apigatewayv2Stage, scope constructs.Construct, id *string, config *Apigatewayv2StageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -881,7 +881,7 @@ func Apigatewayv2Stage_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -916,7 +916,7 @@ func Apigatewayv2Stage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -935,7 +935,7 @@ func Apigatewayv2Stage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -954,7 +954,7 @@ func Apigatewayv2Stage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -967,7 +967,7 @@ func Apigatewayv2Stage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
+		"@cdktn/provider-aws.apigatewayv2Stage.Apigatewayv2Stage",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProduct",
 		reflect.TypeOf((*DataAwsServicecatalogProduct)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptLanguage", GoGetter: "AcceptLanguage"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductConfig",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductConfig",
 		reflect.TypeOf((*DataAwsServicecatalogProductConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductTimeouts",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductTimeouts",
 		reflect.TypeOf((*DataAwsServicecatalogProductTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsServicecatalogProduct.DataAwsServicecatalogProductTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsServicecatalogProductTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

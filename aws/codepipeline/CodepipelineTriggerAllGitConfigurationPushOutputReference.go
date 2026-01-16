@@ -5,9 +5,9 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewCodepipelineTriggerAllGitConfigurationPushOutputReference(terraformResou
 	j := jsiiProxy_CodepipelineTriggerAllGitConfigurationPushOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewCodepipelineTriggerAllGitConfigurationPushOutputReference_Override(c Cod
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineTriggerAllGitConfigurationPushOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

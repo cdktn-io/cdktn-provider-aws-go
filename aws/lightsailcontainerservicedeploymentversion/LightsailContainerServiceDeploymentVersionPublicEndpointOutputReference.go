@@ -5,9 +5,9 @@ package lightsailcontainerservicedeploymentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailcontainerservicedeploymentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailcontainerservicedeploymentversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewLightsailContainerServiceDeploymentVersionPublicEndpointOutputReference(
 	j := jsiiProxy_LightsailContainerServiceDeploymentVersionPublicEndpointOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionPublicEndpointOutputReference",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionPublicEndpointOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewLightsailContainerServiceDeploymentVersionPublicEndpointOutputReference_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionPublicEndpointOutputReference",
+		"@cdktn/provider-aws.lightsailContainerServiceDeploymentVersion.LightsailContainerServiceDeploymentVersionPublicEndpointOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

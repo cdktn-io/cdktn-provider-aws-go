@@ -5,9 +5,9 @@ package organizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewOrganizationsOrganizationRootsPolicyTypesOutputReference(terraformResour
 	j := jsiiProxy_OrganizationsOrganizationRootsPolicyTypesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewOrganizationsOrganizationRootsPolicyTypesOutputReference_Override(o Orga
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsPolicyTypesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)

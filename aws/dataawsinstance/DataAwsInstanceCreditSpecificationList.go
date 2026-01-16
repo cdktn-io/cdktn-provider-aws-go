@@ -5,9 +5,9 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsInstanceCreditSpecificationList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsInstanceCreditSpecificationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceCreditSpecificationList",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceCreditSpecificationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsInstanceCreditSpecificationList_Override(d DataAwsInstanceCreditS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstanceCreditSpecificationList",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstanceCreditSpecificationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package elasticsearchdomainsamloptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticsearchdomainsamloptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticsearchdomainsamloptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options}.
 type ElasticsearchDomainSamlOptions interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_ElasticsearchDomainSamlOptions) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource.
 func NewElasticsearchDomainSamlOptions(scope constructs.Construct, id *string, config *ElasticsearchDomainSamlOptionsConfig) ElasticsearchDomainSamlOptions {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewElasticsearchDomainSamlOptions(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ElasticsearchDomainSamlOptions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewElasticsearchDomainSamlOptions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain_saml_options aws_elasticsearch_domain_saml_options} Resource.
 func NewElasticsearchDomainSamlOptions_Override(e ElasticsearchDomainSamlOptions, scope constructs.Construct, id *string, config *ElasticsearchDomainSamlOptionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -545,7 +545,7 @@ func ElasticsearchDomainSamlOptions_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -580,7 +580,7 @@ func ElasticsearchDomainSamlOptions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -599,7 +599,7 @@ func ElasticsearchDomainSamlOptions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func ElasticsearchDomainSamlOptions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func ElasticsearchDomainSamlOptions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
+		"@cdktn/provider-aws.elasticsearchDomainSamlOptions.ElasticsearchDomainSamlOptions",
 		"tfResourceType",
 		&returns,
 	)

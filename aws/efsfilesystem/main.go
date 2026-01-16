@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystem",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystem",
 		reflect.TypeOf((*EfsFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,15 +111,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemConfig",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemConfig",
 		reflect.TypeOf((*EfsFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicy",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicy",
 		reflect.TypeOf((*EfsFileSystemLifecyclePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyList",
 		reflect.TypeOf((*EfsFileSystemLifecyclePolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemLifecyclePolicyOutputReference",
 		reflect.TypeOf((*EfsFileSystemLifecyclePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -182,11 +182,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemProtection",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemProtection",
 		reflect.TypeOf((*EfsFileSystemProtection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemProtectionOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemProtectionOutputReference",
 		reflect.TypeOf((*EfsFileSystemProtectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,11 +221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytes",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytes",
 		reflect.TypeOf((*EfsFileSystemSizeInBytes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesList",
 		reflect.TypeOf((*EfsFileSystemSizeInBytesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
 		reflect.TypeOf((*EfsFileSystemSizeInBytesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

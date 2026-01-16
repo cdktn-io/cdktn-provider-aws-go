@@ -5,14 +5,14 @@ package dataawsrdsclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsrdsclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdsclusterparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
 type DataAwsRdsClusterParameterGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsRdsClusterParameterGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
 func NewDataAwsRdsClusterParameterGroup(scope constructs.Construct, id *string, config *DataAwsRdsClusterParameterGroupConfig) DataAwsRdsClusterParameterGroup {
 	_init_.Initialize()
 
@@ -331,7 +331,7 @@ func NewDataAwsRdsClusterParameterGroup(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsRdsClusterParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +339,12 @@ func NewDataAwsRdsClusterParameterGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
 func NewDataAwsRdsClusterParameterGroup_Override(d DataAwsRdsClusterParameterGroup, scope constructs.Construct, id *string, config *DataAwsRdsClusterParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataAwsRdsClusterParameterGroup_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataAwsRdsClusterParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAwsRdsClusterParameterGroup_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsRdsClusterParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsRdsClusterParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
+		"@cdktn/provider-aws.dataAwsRdsClusterParameterGroup.DataAwsRdsClusterParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

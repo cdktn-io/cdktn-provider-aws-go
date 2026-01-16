@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		reflect.TypeOf((*DataAwsMqBroker)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfig",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfig",
 		reflect.TypeOf((*DataAwsMqBrokerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfiguration",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfiguration",
 		reflect.TypeOf((*DataAwsMqBrokerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfigurationList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfigurationList",
 		reflect.TypeOf((*DataAwsMqBrokerConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptions",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptions",
 		reflect.TypeOf((*DataAwsMqBrokerEncryptionOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptionsList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptionsList",
 		reflect.TypeOf((*DataAwsMqBrokerEncryptionOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerEncryptionOptionsOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerEncryptionOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstances",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstances",
 		reflect.TypeOf((*DataAwsMqBrokerInstances)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstancesList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstancesList",
 		reflect.TypeOf((*DataAwsMqBrokerInstancesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -235,7 +235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstancesOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerInstancesOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerInstancesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,11 +270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadata",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadata",
 		reflect.TypeOf((*DataAwsMqBrokerLdapServerMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
 		reflect.TypeOf((*DataAwsMqBrokerLdapServerMetadataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -295,7 +295,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerLdapServerMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -338,11 +338,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogs",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogs",
 		reflect.TypeOf((*DataAwsMqBrokerLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsList",
 		reflect.TypeOf((*DataAwsMqBrokerLogsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -363,7 +363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLogsOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audit", GoGetter: "Audit"},
@@ -397,11 +397,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTime",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTime",
 		reflect.TypeOf((*DataAwsMqBrokerMaintenanceWindowStartTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTimeList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTimeList",
 		reflect.TypeOf((*DataAwsMqBrokerMaintenanceWindowStartTimeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -422,7 +422,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTimeOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerMaintenanceWindowStartTimeOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerMaintenanceWindowStartTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -457,11 +457,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUser",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUser",
 		reflect.TypeOf((*DataAwsMqBrokerUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUserList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUserList",
 		reflect.TypeOf((*DataAwsMqBrokerUserList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -482,7 +482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUserOutputReference",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerUserOutputReference",
 		reflect.TypeOf((*DataAwsMqBrokerUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

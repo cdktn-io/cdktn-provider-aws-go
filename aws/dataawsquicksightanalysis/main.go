@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysis",
+		"@cdktn/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysis",
 		reflect.TypeOf((*DataAwsQuicksightAnalysis)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisConfig",
+		"@cdktn/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisConfig",
 		reflect.TypeOf((*DataAwsQuicksightAnalysisConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissions",
+		"@cdktn/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissions",
 		reflect.TypeOf((*DataAwsQuicksightAnalysisPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissionsList",
+		"@cdktn/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissionsList",
 		reflect.TypeOf((*DataAwsQuicksightAnalysisPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,7 +107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissionsOutputReference",
+		"@cdktn/provider-aws.dataAwsQuicksightAnalysis.DataAwsQuicksightAnalysisPermissionsOutputReference",
 		reflect.TypeOf((*DataAwsQuicksightAnalysisPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},

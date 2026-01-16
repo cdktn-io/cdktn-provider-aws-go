@@ -5,9 +5,9 @@ package s3bucketownershipcontrols
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketownershipcontrols/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketownershipcontrols/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewS3BucketOwnershipControlsRuleOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_S3BucketOwnershipControlsRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewS3BucketOwnershipControlsRuleOutputReference_Override(s S3BucketOwnershi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

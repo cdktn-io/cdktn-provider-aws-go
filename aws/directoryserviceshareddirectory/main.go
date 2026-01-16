@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectory",
 		reflect.TypeOf((*DirectoryServiceSharedDirectory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryConfig",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryConfig",
 		reflect.TypeOf((*DirectoryServiceSharedDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTarget",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTarget",
 		reflect.TypeOf((*DirectoryServiceSharedDirectoryTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTargetOutputReference",
 		reflect.TypeOf((*DirectoryServiceSharedDirectoryTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeouts",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeouts",
 		reflect.TypeOf((*DirectoryServiceSharedDirectoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.directoryServiceSharedDirectory.DirectoryServiceSharedDirectoryTimeoutsOutputReference",
 		reflect.TypeOf((*DirectoryServiceSharedDirectoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

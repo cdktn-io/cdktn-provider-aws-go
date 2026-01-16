@@ -5,14 +5,14 @@ package securityhubfindingaggregator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubfindingaggregator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubfindingaggregator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator}.
 type SecurityhubFindingAggregator interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_SecurityhubFindingAggregator) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator} Resource.
 func NewSecurityhubFindingAggregator(scope constructs.Construct, id *string, config *SecurityhubFindingAggregatorConfig) SecurityhubFindingAggregator {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewSecurityhubFindingAggregator(scope constructs.Construct, id *string, con
 	j := jsiiProxy_SecurityhubFindingAggregator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewSecurityhubFindingAggregator(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_finding_aggregator aws_securityhub_finding_aggregator} Resource.
 func NewSecurityhubFindingAggregator_Override(s SecurityhubFindingAggregator, scope constructs.Construct, id *string, config *SecurityhubFindingAggregatorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -532,7 +532,7 @@ func SecurityhubFindingAggregator_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func SecurityhubFindingAggregator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func SecurityhubFindingAggregator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func SecurityhubFindingAggregator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func SecurityhubFindingAggregator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
+		"@cdktn/provider-aws.securityhubFindingAggregator.SecurityhubFindingAggregator",
 		"tfResourceType",
 		&returns,
 	)

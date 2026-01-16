@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSet",
 		reflect.TypeOf((*WafregionalRegexPatternSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSetConfig",
+		"@cdktn/provider-aws.wafregionalRegexPatternSet.WafregionalRegexPatternSetConfig",
 		reflect.TypeOf((*WafregionalRegexPatternSetConfig)(nil)).Elem(),
 	)
 }

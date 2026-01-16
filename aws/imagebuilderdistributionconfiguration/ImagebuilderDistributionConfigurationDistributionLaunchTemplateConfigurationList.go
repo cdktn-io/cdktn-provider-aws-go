@@ -5,9 +5,9 @@ package imagebuilderdistributionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderdistributionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderdistributionconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigura
 	j := jsiiProxy_ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigurationList",
+		"@cdktn/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigura
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigurationList",
+		"@cdktn/provider-aws.imagebuilderDistributionConfiguration.ImagebuilderDistributionConfigurationDistributionLaunchTemplateConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

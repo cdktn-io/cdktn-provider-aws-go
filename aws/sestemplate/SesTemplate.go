@@ -5,14 +5,14 @@ package sestemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sestemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sestemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_template aws_ses_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_template aws_ses_template}.
 type SesTemplate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SesTemplate) TextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_template aws_ses_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_template aws_ses_template} Resource.
 func NewSesTemplate(scope constructs.Construct, id *string, config *SesTemplateConfig) SesTemplate {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewSesTemplate(scope constructs.Construct, id *string, config *SesTemplateC
 	j := jsiiProxy_SesTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewSesTemplate(scope constructs.Construct, id *string, config *SesTemplateC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_template aws_ses_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_template aws_ses_template} Resource.
 func NewSesTemplate_Override(s SesTemplate, scope constructs.Construct, id *string, config *SesTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SesTemplate_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SesTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SesTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SesTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SesTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesTemplate.SesTemplate",
+		"@cdktn/provider-aws.sesTemplate.SesTemplate",
 		"tfResourceType",
 		&returns,
 	)

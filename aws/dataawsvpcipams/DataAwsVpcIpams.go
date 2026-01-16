@@ -5,14 +5,14 @@ package dataawsvpcipams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcipams/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
 type DataAwsVpcIpams interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsVpcIpams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) DataAwsVpcIpams {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsV
 	j := jsiiProxy_DataAwsVpcIpams{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams_Override(d DataAwsVpcIpams, scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -431,7 +431,7 @@ func DataAwsVpcIpams_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -466,7 +466,7 @@ func DataAwsVpcIpams_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsVpcIpams_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsVpcIpams_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsVpcIpams_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpams",
 		"tfResourceType",
 		&returns,
 	)

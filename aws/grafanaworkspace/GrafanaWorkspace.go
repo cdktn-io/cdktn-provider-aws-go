@@ -5,14 +5,14 @@ package grafanaworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/grafanaworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/grafanaworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace aws_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace aws_grafana_workspace}.
 type GrafanaWorkspace interface {
 	cdktf.TerraformResource
 	AccountAccessType() *string
@@ -796,7 +796,7 @@ func (j *jsiiProxy_GrafanaWorkspace) VpcConfigurationInput() *GrafanaWorkspaceVp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
 func NewGrafanaWorkspace(scope constructs.Construct, id *string, config *GrafanaWorkspaceConfig) GrafanaWorkspace {
 	_init_.Initialize()
 
@@ -806,7 +806,7 @@ func NewGrafanaWorkspace(scope constructs.Construct, id *string, config *Grafana
 	j := jsiiProxy_GrafanaWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -814,12 +814,12 @@ func NewGrafanaWorkspace(scope constructs.Construct, id *string, config *Grafana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace aws_grafana_workspace} Resource.
 func NewGrafanaWorkspace_Override(g GrafanaWorkspace, scope constructs.Construct, id *string, config *GrafanaWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1090,7 +1090,7 @@ func GrafanaWorkspace_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1125,7 +1125,7 @@ func GrafanaWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1144,7 +1144,7 @@ func GrafanaWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1163,7 +1163,7 @@ func GrafanaWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1176,7 +1176,7 @@ func GrafanaWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		"tfResourceType",
 		&returns,
 	)

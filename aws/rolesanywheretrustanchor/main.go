@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchor",
 		reflect.TypeOf((*RolesanywhereTrustAnchor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorConfig",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorConfig",
 		reflect.TypeOf((*RolesanywhereTrustAnchorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings",
 		reflect.TypeOf((*RolesanywhereTrustAnchorNotificationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettingsList",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettingsList",
 		reflect.TypeOf((*RolesanywhereTrustAnchorNotificationSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettingsOutputReference",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettingsOutputReference",
 		reflect.TypeOf((*RolesanywhereTrustAnchorNotificationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channel", GoGetter: "Channel"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSource",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSource",
 		reflect.TypeOf((*RolesanywhereTrustAnchorSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceOutputReference",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceOutputReference",
 		reflect.TypeOf((*RolesanywhereTrustAnchorSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceData",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceData",
 		reflect.TypeOf((*RolesanywhereTrustAnchorSourceSourceData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceDataOutputReference",
+		"@cdktn/provider-aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorSourceSourceDataOutputReference",
 		reflect.TypeOf((*RolesanywhereTrustAnchorSourceSourceDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acmPcaArn", GoGetter: "AcmPcaArn"},

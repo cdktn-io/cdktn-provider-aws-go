@@ -5,14 +5,14 @@ package kinesisresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisresourcepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy}.
 type KinesisResourcePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_KinesisResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy} Resource.
 func NewKinesisResourcePolicy(scope constructs.Construct, id *string, config *KinesisResourcePolicyConfig) KinesisResourcePolicy {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewKinesisResourcePolicy(scope constructs.Construct, id *string, config *Ki
 	j := jsiiProxy_KinesisResourcePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewKinesisResourcePolicy(scope constructs.Construct, id *string, config *Ki
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_resource_policy aws_kinesis_resource_policy} Resource.
 func NewKinesisResourcePolicy_Override(k KinesisResourcePolicy, scope constructs.Construct, id *string, config *KinesisResourcePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -507,7 +507,7 @@ func KinesisResourcePolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func KinesisResourcePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func KinesisResourcePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func KinesisResourcePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func KinesisResourcePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
+		"@cdktn/provider-aws.kinesisResourcePolicy.KinesisResourcePolicy",
 		"tfResourceType",
 		&returns,
 	)

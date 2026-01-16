@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		reflect.TypeOf((*DataAwsShieldProtection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtectionConfig",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtectionConfig",
 		reflect.TypeOf((*DataAwsShieldProtectionConfig)(nil)).Elem(),
 	)
 }

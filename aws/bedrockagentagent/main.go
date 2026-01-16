@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgent",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgent",
 		reflect.TypeOf((*BedrockagentAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -118,15 +118,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentConfig",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentConfig",
 		reflect.TypeOf((*BedrockagentAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfiguration",
 		reflect.TypeOf((*BedrockagentAgentGuardrailConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationList",
 		reflect.TypeOf((*BedrockagentAgentGuardrailConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentGuardrailConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentAgentGuardrailConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfiguration",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfiguration",
 		reflect.TypeOf((*BedrockagentAgentMemoryConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationList",
 		reflect.TypeOf((*BedrockagentAgentMemoryConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -212,7 +212,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentAgentMemoryConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -234,9 +234,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putSessionSummaryConfiguration", GoMethod: "PutSessionSummaryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledMemoryTypes", GoMethod: "ResetEnabledMemoryTypes"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSessionSummaryConfiguration", GoMethod: "ResetSessionSummaryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStorageDays", GoMethod: "ResetStorageDays"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sessionSummaryConfiguration", GoGetter: "SessionSummaryConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "sessionSummaryConfigurationInput", GoGetter: "SessionSummaryConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "storageDays", GoGetter: "StorageDays"},
 			_jsii_.MemberProperty{JsiiProperty: "storageDaysInput", GoGetter: "StorageDaysInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -250,11 +254,72 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration",
+		reflect.TypeOf((*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList",
+		reflect.TypeOf((*BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationOutputReference",
+		reflect.TypeOf((*BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "maxRecentSessions", GoGetter: "MaxRecentSessions"},
+			_jsii_.MemberProperty{JsiiProperty: "maxRecentSessionsInput", GoGetter: "MaxRecentSessionsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxRecentSessions", GoMethod: "ResetMaxRecentSessions"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentAgentMemoryConfigurationSessionSummaryConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfiguration",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationList",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -276,7 +341,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -315,15 +380,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationList",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -345,7 +410,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -392,7 +457,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsList",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsList",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -414,7 +479,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsOutputReference",
 		reflect.TypeOf((*BedrockagentAgentPromptOverrideConfigurationPromptConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basePromptTemplate", GoGetter: "BasePromptTemplate"},
@@ -465,11 +530,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentTimeouts",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentTimeouts",
 		reflect.TypeOf((*BedrockagentAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockagentAgent.BedrockagentAgentTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockagentAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

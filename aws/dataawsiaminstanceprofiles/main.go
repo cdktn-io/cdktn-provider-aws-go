@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfiles.DataAwsIamInstanceProfiles",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfiles.DataAwsIamInstanceProfiles",
 		reflect.TypeOf((*DataAwsIamInstanceProfiles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamInstanceProfiles.DataAwsIamInstanceProfilesConfig",
+		"@cdktn/provider-aws.dataAwsIamInstanceProfiles.DataAwsIamInstanceProfilesConfig",
 		reflect.TypeOf((*DataAwsIamInstanceProfilesConfig)(nil)).Elem(),
 	)
 }

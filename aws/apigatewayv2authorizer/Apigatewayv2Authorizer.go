@@ -5,14 +5,14 @@ package apigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2authorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2authorizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer}.
 type Apigatewayv2Authorizer interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -595,7 +595,7 @@ func (j *jsiiProxy_Apigatewayv2Authorizer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
 func NewApigatewayv2Authorizer(scope constructs.Construct, id *string, config *Apigatewayv2AuthorizerConfig) Apigatewayv2Authorizer {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewApigatewayv2Authorizer(scope constructs.Construct, id *string, config *A
 	j := jsiiProxy_Apigatewayv2Authorizer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,12 +613,12 @@ func NewApigatewayv2Authorizer(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_authorizer aws_apigatewayv2_authorizer} Resource.
 func NewApigatewayv2Authorizer_Override(a Apigatewayv2Authorizer, scope constructs.Construct, id *string, config *Apigatewayv2AuthorizerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -823,7 +823,7 @@ func Apigatewayv2Authorizer_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -858,7 +858,7 @@ func Apigatewayv2Authorizer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func Apigatewayv2Authorizer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func Apigatewayv2Authorizer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func Apigatewayv2Authorizer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		"tfResourceType",
 		&returns,
 	)

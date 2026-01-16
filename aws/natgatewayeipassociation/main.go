@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociation",
 		reflect.TypeOf((*NatGatewayEipAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationConfig",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationConfig",
 		reflect.TypeOf((*NatGatewayEipAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeouts",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeouts",
 		reflect.TypeOf((*NatGatewayEipAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.natGatewayEipAssociation.NatGatewayEipAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*NatGatewayEipAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

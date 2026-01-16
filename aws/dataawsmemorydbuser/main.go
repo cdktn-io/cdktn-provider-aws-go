@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUser",
 		reflect.TypeOf((*DataAwsMemorydbUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessString", GoGetter: "AccessString"},
@@ -70,11 +70,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationMode",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationMode",
 		reflect.TypeOf((*DataAwsMemorydbUserAuthenticationMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationModeList",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationModeList",
 		reflect.TypeOf((*DataAwsMemorydbUserAuthenticationModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserAuthenticationModeOutputReference",
 		reflect.TypeOf((*DataAwsMemorydbUserAuthenticationModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserConfig",
+		"@cdktn/provider-aws.dataAwsMemorydbUser.DataAwsMemorydbUserConfig",
 		reflect.TypeOf((*DataAwsMemorydbUserConfig)(nil)).Elem(),
 	)
 }

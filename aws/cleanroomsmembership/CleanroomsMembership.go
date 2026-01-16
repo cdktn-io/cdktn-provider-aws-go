@@ -5,14 +5,14 @@ package cleanroomsmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cleanroomsmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cleanroomsmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership}.
 type CleanroomsMembership interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_CleanroomsMembership) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
 func NewCleanroomsMembership(scope constructs.Construct, id *string, config *CleanroomsMembershipConfig) CleanroomsMembership {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewCleanroomsMembership(scope constructs.Construct, id *string, config *Cle
 	j := jsiiProxy_CleanroomsMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -567,12 +567,12 @@ func NewCleanroomsMembership(scope constructs.Construct, id *string, config *Cle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cleanrooms_membership aws_cleanrooms_membership} Resource.
 func NewCleanroomsMembership_Override(c CleanroomsMembership, scope constructs.Construct, id *string, config *CleanroomsMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -700,7 +700,7 @@ func CleanroomsMembership_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -735,7 +735,7 @@ func CleanroomsMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func CleanroomsMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func CleanroomsMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -786,7 +786,7 @@ func CleanroomsMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfile",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfile",
 		reflect.TypeOf((*SignerSigningProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileConfig",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileConfig",
 		reflect.TypeOf((*SignerSigningProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecord",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecord",
 		reflect.TypeOf((*SignerSigningProfileRevocationRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecordList",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecordList",
 		reflect.TypeOf((*SignerSigningProfileRevocationRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecordOutputReference",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileRevocationRecordOutputReference",
 		reflect.TypeOf((*SignerSigningProfileRevocationRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriod",
 		reflect.TypeOf((*SignerSigningProfileSignatureValidityPeriod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSignatureValidityPeriodOutputReference",
 		reflect.TypeOf((*SignerSigningProfileSignatureValidityPeriodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSigningMaterial",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSigningMaterial",
 		reflect.TypeOf((*SignerSigningProfileSigningMaterial)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.signerSigningProfile.SignerSigningProfileSigningMaterialOutputReference",
+		"@cdktn/provider-aws.signerSigningProfile.SignerSigningProfileSigningMaterialOutputReference",
 		reflect.TypeOf((*SignerSigningProfileSigningMaterialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateArn", GoGetter: "CertificateArn"},

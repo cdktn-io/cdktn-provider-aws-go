@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupVaultNotifications.BackupVaultNotifications",
+		"@cdktn/provider-aws.backupVaultNotifications.BackupVaultNotifications",
 		reflect.TypeOf((*BackupVaultNotifications)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupVaultNotifications.BackupVaultNotificationsConfig",
+		"@cdktn/provider-aws.backupVaultNotifications.BackupVaultNotificationsConfig",
 		reflect.TypeOf((*BackupVaultNotificationsConfig)(nil)).Elem(),
 	)
 }

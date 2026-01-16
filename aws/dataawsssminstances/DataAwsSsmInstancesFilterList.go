@@ -5,9 +5,9 @@ package dataawsssminstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssminstances/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssminstances/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsSsmInstancesFilterList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DataAwsSsmInstancesFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsSsmInstancesFilterList_Override(d DataAwsSsmInstancesFilterList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

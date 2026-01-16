@@ -5,14 +5,14 @@ package ec2trafficmirrorsession
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2trafficmirrorsession/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2trafficmirrorsession/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session}.
 type Ec2TrafficMirrorSession interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -568,7 +568,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorSession) VirtualNetworkIdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session} Resource.
 func NewEc2TrafficMirrorSession(scope constructs.Construct, id *string, config *Ec2TrafficMirrorSessionConfig) Ec2TrafficMirrorSession {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewEc2TrafficMirrorSession(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_Ec2TrafficMirrorSession{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -586,12 +586,12 @@ func NewEc2TrafficMirrorSession(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_traffic_mirror_session aws_ec2_traffic_mirror_session} Resource.
 func NewEc2TrafficMirrorSession_Override(e Ec2TrafficMirrorSession, scope constructs.Construct, id *string, config *Ec2TrafficMirrorSessionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -796,7 +796,7 @@ func Ec2TrafficMirrorSession_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -831,7 +831,7 @@ func Ec2TrafficMirrorSession_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func Ec2TrafficMirrorSession_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -869,7 +869,7 @@ func Ec2TrafficMirrorSession_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -882,7 +882,7 @@ func Ec2TrafficMirrorSession_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
+		"@cdktn/provider-aws.ec2TrafficMirrorSession.Ec2TrafficMirrorSession",
 		"tfResourceType",
 		&returns,
 	)

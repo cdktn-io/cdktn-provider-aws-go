@@ -5,9 +5,9 @@ package defaultnetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/defaultnetworkacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/defaultnetworkacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -370,7 +370,7 @@ func NewDefaultNetworkAclEgressOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DefaultNetworkAclEgressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -382,7 +382,7 @@ func NewDefaultNetworkAclEgressOutputReference_Override(d DefaultNetworkAclEgres
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAclEgressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

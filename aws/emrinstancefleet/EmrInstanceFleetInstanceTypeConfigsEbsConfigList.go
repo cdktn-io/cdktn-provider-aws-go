@@ -5,9 +5,9 @@ package emrinstancefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrinstancefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrinstancefleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEmrInstanceFleetInstanceTypeConfigsEbsConfigList(terraformResource cdktf
 	j := jsiiProxy_EmrInstanceFleetInstanceTypeConfigsEbsConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigsEbsConfigList",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigsEbsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEmrInstanceFleetInstanceTypeConfigsEbsConfigList_Override(e EmrInstanceF
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigsEbsConfigList",
+		"@cdktn/provider-aws.emrInstanceFleet.EmrInstanceFleetInstanceTypeConfigsEbsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

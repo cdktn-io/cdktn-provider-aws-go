@@ -5,9 +5,9 @@ package dataawsbackupframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupframework/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupframework/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsBackupFrameworkControlOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsBackupFrameworkControlOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsBackupFrameworkControlOutputReference_Override(d DataAwsBackupFra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupFramework.DataAwsBackupFrameworkControlOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,14 +5,14 @@ package s3objectcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3objectcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3objectcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object_copy aws_s3_object_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object_copy aws_s3_object_copy}.
 type S3ObjectCopy interface {
 	cdktf.TerraformResource
 	Acl() *string
@@ -1447,7 +1447,7 @@ func (j *jsiiProxy_S3ObjectCopy) WebsiteRedirectInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object_copy aws_s3_object_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object_copy aws_s3_object_copy} Resource.
 func NewS3ObjectCopy(scope constructs.Construct, id *string, config *S3ObjectCopyConfig) S3ObjectCopy {
 	_init_.Initialize()
 
@@ -1457,7 +1457,7 @@ func NewS3ObjectCopy(scope constructs.Construct, id *string, config *S3ObjectCop
 	j := jsiiProxy_S3ObjectCopy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1465,12 +1465,12 @@ func NewS3ObjectCopy(scope constructs.Construct, id *string, config *S3ObjectCop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_object_copy aws_s3_object_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_object_copy aws_s3_object_copy} Resource.
 func NewS3ObjectCopy_Override(s S3ObjectCopy, scope constructs.Construct, id *string, config *S3ObjectCopyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -2005,7 +2005,7 @@ func S3ObjectCopy_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2040,7 +2040,7 @@ func S3ObjectCopy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2059,7 +2059,7 @@ func S3ObjectCopy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2078,7 +2078,7 @@ func S3ObjectCopy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2091,7 +2091,7 @@ func S3ObjectCopy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ObjectCopy.S3ObjectCopy",
+		"@cdktn/provider-aws.s3ObjectCopy.S3ObjectCopy",
 		"tfResourceType",
 		&returns,
 	)

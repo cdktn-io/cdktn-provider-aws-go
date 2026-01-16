@@ -5,9 +5,9 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReferenc
 	j := jsiiProxy_LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReferenc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsBaselineEbsBandwidthMbpsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

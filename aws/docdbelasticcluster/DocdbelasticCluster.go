@@ -5,14 +5,14 @@ package docdbelasticcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbelasticcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbelasticcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster}.
 type DocdbelasticCluster interface {
 	cdktf.TerraformResource
 	AdminUserName() *string
@@ -684,7 +684,7 @@ func (j *jsiiProxy_DocdbelasticCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) DocdbelasticCluster {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *Docd
 	j := jsiiProxy_DocdbelasticCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -702,12 +702,12 @@ func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *Docd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdbelastic_cluster aws_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster_Override(d DocdbelasticCluster, scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -945,7 +945,7 @@ func DocdbelasticCluster_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -980,7 +980,7 @@ func DocdbelasticCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func DocdbelasticCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1018,7 +1018,7 @@ func DocdbelasticCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1031,7 +1031,7 @@ func DocdbelasticCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.docdbelasticCluster.DocdbelasticCluster",
+		"@cdktn/provider-aws.docdbelasticCluster.DocdbelasticCluster",
 		"tfResourceType",
 		&returns,
 	)

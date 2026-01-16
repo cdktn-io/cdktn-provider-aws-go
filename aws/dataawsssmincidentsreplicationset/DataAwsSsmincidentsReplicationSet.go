@@ -5,14 +5,14 @@ package dataawsssmincidentsreplicationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmincidentsreplicationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmincidentsreplicationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
 type DataAwsSsmincidentsReplicationSet interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsReplicationSet) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
 func NewDataAwsSsmincidentsReplicationSet(scope constructs.Construct, id *string, config *DataAwsSsmincidentsReplicationSetConfig) DataAwsSsmincidentsReplicationSet {
 	_init_.Initialize()
 
@@ -376,7 +376,7 @@ func NewDataAwsSsmincidentsReplicationSet(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAwsSsmincidentsReplicationSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -384,12 +384,12 @@ func NewDataAwsSsmincidentsReplicationSet(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_replication_set aws_ssmincidents_replication_set} Data Source.
 func NewDataAwsSsmincidentsReplicationSet_Override(d DataAwsSsmincidentsReplicationSet, scope constructs.Construct, id *string, config *DataAwsSsmincidentsReplicationSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -473,7 +473,7 @@ func DataAwsSsmincidentsReplicationSet_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -508,7 +508,7 @@ func DataAwsSsmincidentsReplicationSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsSsmincidentsReplicationSet_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -546,7 +546,7 @@ func DataAwsSsmincidentsReplicationSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsSsmincidentsReplicationSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
+		"@cdktn/provider-aws.dataAwsSsmincidentsReplicationSet.DataAwsSsmincidentsReplicationSet",
 		"tfResourceType",
 		&returns,
 	)

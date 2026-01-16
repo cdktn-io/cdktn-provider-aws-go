@@ -5,14 +5,14 @@ package s3controlobjectlambdaaccesspointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlobjectlambdaaccesspointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlobjectlambdaaccesspointpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy}.
 type S3ControlObjectLambdaAccessPointPolicy interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -415,7 +415,7 @@ func (j *jsiiProxy_S3ControlObjectLambdaAccessPointPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy} Resource.
 func NewS3ControlObjectLambdaAccessPointPolicy(scope constructs.Construct, id *string, config *S3ControlObjectLambdaAccessPointPolicyConfig) S3ControlObjectLambdaAccessPointPolicy {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewS3ControlObjectLambdaAccessPointPolicy(scope constructs.Construct, id *s
 	j := jsiiProxy_S3ControlObjectLambdaAccessPointPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewS3ControlObjectLambdaAccessPointPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_object_lambda_access_point_policy aws_s3control_object_lambda_access_point_policy} Resource.
 func NewS3ControlObjectLambdaAccessPointPolicy_Override(s S3ControlObjectLambdaAccessPointPolicy, scope constructs.Construct, id *string, config *S3ControlObjectLambdaAccessPointPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -577,7 +577,7 @@ func S3ControlObjectLambdaAccessPointPolicy_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func S3ControlObjectLambdaAccessPointPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func S3ControlObjectLambdaAccessPointPolicy_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func S3ControlObjectLambdaAccessPointPolicy_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func S3ControlObjectLambdaAccessPointPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlObjectLambdaAccessPointPolicy.S3ControlObjectLambdaAccessPointPolicy",
 		"tfResourceType",
 		&returns,
 	)

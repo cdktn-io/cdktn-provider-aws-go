@@ -5,14 +5,14 @@ package quicksightanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_analysis aws_quicksight_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_analysis aws_quicksight_analysis}.
 type QuicksightAnalysis interface {
 	cdktf.TerraformResource
 	AnalysisId() *string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_QuicksightAnalysis) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_analysis aws_quicksight_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_analysis aws_quicksight_analysis} Resource.
 func NewQuicksightAnalysis(scope constructs.Construct, id *string, config *QuicksightAnalysisConfig) QuicksightAnalysis {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewQuicksightAnalysis(scope constructs.Construct, id *string, config *Quick
 	j := jsiiProxy_QuicksightAnalysis{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -693,12 +693,12 @@ func NewQuicksightAnalysis(scope constructs.Construct, id *string, config *Quick
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_analysis aws_quicksight_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_analysis aws_quicksight_analysis} Resource.
 func NewQuicksightAnalysis_Override(q QuicksightAnalysis, scope constructs.Construct, id *string, config *QuicksightAnalysisConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -892,7 +892,7 @@ func QuicksightAnalysis_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -927,7 +927,7 @@ func QuicksightAnalysis_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -946,7 +946,7 @@ func QuicksightAnalysis_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -965,7 +965,7 @@ func QuicksightAnalysis_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -978,7 +978,7 @@ func QuicksightAnalysis_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysis",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysis",
 		"tfResourceType",
 		&returns,
 	)

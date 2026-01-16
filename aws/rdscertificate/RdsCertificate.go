@@ -5,14 +5,14 @@ package rdscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_certificate aws_rds_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_certificate aws_rds_certificate}.
 type RdsCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_RdsCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
 func NewRdsCertificate(scope constructs.Construct, id *string, config *RdsCertificateConfig) RdsCertificate {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewRdsCertificate(scope constructs.Construct, id *string, config *RdsCertif
 	j := jsiiProxy_RdsCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewRdsCertificate(scope constructs.Construct, id *string, config *RdsCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_certificate aws_rds_certificate} Resource.
 func NewRdsCertificate_Override(r RdsCertificate, scope constructs.Construct, id *string, config *RdsCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -497,7 +497,7 @@ func RdsCertificate_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func RdsCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func RdsCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func RdsCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func RdsCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsCertificate.RdsCertificate",
+		"@cdktn/provider-aws.rdsCertificate.RdsCertificate",
 		"tfResourceType",
 		&returns,
 	)

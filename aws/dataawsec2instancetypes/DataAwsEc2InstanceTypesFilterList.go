@@ -5,9 +5,9 @@ package dataawsec2instancetypes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2instancetypes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2instancetypes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsEc2InstanceTypesFilterList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DataAwsEc2InstanceTypesFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceTypes.DataAwsEc2InstanceTypesFilterList",
+		"@cdktn/provider-aws.dataAwsEc2InstanceTypes.DataAwsEc2InstanceTypesFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsEc2InstanceTypesFilterList_Override(d DataAwsEc2InstanceTypesFilt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2InstanceTypes.DataAwsEc2InstanceTypesFilterList",
+		"@cdktn/provider-aws.dataAwsEc2InstanceTypes.DataAwsEc2InstanceTypesFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

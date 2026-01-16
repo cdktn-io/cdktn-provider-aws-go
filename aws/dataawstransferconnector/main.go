@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnector",
 		reflect.TypeOf((*DataAwsTransferConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
@@ -70,11 +70,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2Config",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2Config",
 		reflect.TypeOf((*DataAwsTransferConnectorAs2Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigList",
 		reflect.TypeOf((*DataAwsTransferConnectorAs2ConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorAs2ConfigOutputReference",
 		reflect.TypeOf((*DataAwsTransferConnectorAs2ConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthSecretId", GoGetter: "BasicAuthSecretId"},
@@ -136,15 +136,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorConfig",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorConfig",
 		reflect.TypeOf((*DataAwsTransferConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfig",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfig",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigList",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigOutputReference",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLattice",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLattice",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfigVpcLattice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLatticeList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLatticeList",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfigVpcLatticeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLatticeOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorEgressConfigVpcLatticeOutputReference",
 		reflect.TypeOf((*DataAwsTransferConnectorEgressConfigVpcLatticeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -257,11 +257,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfig",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfig",
 		reflect.TypeOf((*DataAwsTransferConnectorSftpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigList",
 		reflect.TypeOf((*DataAwsTransferConnectorSftpConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -282,7 +282,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsTransferConnector.DataAwsTransferConnectorSftpConfigOutputReference",
 		reflect.TypeOf((*DataAwsTransferConnectorSftpConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

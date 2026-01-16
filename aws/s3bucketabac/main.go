@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbac",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbac",
 		reflect.TypeOf((*S3BucketAbac)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "abacStatus", GoGetter: "AbacStatus"},
@@ -75,11 +75,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacAbacStatus",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacAbacStatus",
 		reflect.TypeOf((*S3BucketAbacAbacStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusList",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusList",
 		reflect.TypeOf((*S3BucketAbacAbacStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
 		reflect.TypeOf((*S3BucketAbacAbacStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacConfig",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacConfig",
 		reflect.TypeOf((*S3BucketAbacConfig)(nil)).Elem(),
 	)
 }

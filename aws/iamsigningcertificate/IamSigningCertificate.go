@@ -5,14 +5,14 @@ package iamsigningcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamsigningcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamsigningcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate}.
 type IamSigningCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_IamSigningCertificate) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate} Resource.
 func NewIamSigningCertificate(scope constructs.Construct, id *string, config *IamSigningCertificateConfig) IamSigningCertificate {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewIamSigningCertificate(scope constructs.Construct, id *string, config *Ia
 	j := jsiiProxy_IamSigningCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewIamSigningCertificate(scope constructs.Construct, id *string, config *Ia
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_signing_certificate aws_iam_signing_certificate} Resource.
 func NewIamSigningCertificate_Override(i IamSigningCertificate, scope constructs.Construct, id *string, config *IamSigningCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -542,7 +542,7 @@ func IamSigningCertificate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func IamSigningCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func IamSigningCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func IamSigningCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func IamSigningCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		"tfResourceType",
 		&returns,
 	)

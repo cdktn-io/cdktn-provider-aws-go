@@ -5,9 +5,9 @@ package dataawslaunchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslaunchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslaunchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsLaunchTemplateNetworkInterfacesList(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateNetworkInterfacesList",
+		"@cdktn/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateNetworkInterfacesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsLaunchTemplateNetworkInterfacesList_Override(d DataAwsLaunchTempl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateNetworkInterfacesList",
+		"@cdktn/provider-aws.dataAwsLaunchTemplate.DataAwsLaunchTemplateNetworkInterfacesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

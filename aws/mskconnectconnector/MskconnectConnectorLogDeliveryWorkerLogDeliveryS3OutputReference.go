@@ -5,9 +5,9 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference(terrafo
 	j := jsiiProxy_MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewMskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

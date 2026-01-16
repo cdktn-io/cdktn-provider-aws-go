@@ -5,14 +5,14 @@ package dxhostedconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxhostedconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxhostedconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection}.
 type DxHostedConnection interface {
 	cdktf.TerraformResource
 	AwsDevice() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DxHostedConnection) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection} Resource.
 func NewDxHostedConnection(scope constructs.Construct, id *string, config *DxHostedConnectionConfig) DxHostedConnection {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewDxHostedConnection(scope constructs.Construct, id *string, config *DxHos
 	j := jsiiProxy_DxHostedConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewDxHostedConnection(scope constructs.Construct, id *string, config *DxHos
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_connection aws_dx_hosted_connection} Resource.
 func NewDxHostedConnection_Override(d DxHostedConnection, scope constructs.Construct, id *string, config *DxHostedConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -719,7 +719,7 @@ func DxHostedConnection_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -754,7 +754,7 @@ func DxHostedConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func DxHostedConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func DxHostedConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func DxHostedConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxHostedConnection.DxHostedConnection",
+		"@cdktn/provider-aws.dxHostedConnection.DxHostedConnection",
 		"tfResourceType",
 		&returns,
 	)

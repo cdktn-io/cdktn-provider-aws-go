@@ -5,14 +5,14 @@ package transferhostkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferhostkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferhostkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_host_key aws_transfer_host_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key}.
 type TransferHostKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_TransferHostKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey(scope constructs.Construct, id *string, config *TransferHostKeyConfig) TransferHostKey {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewTransferHostKey(scope constructs.Construct, id *string, config *Transfer
 	j := jsiiProxy_TransferHostKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewTransferHostKey(scope constructs.Construct, id *string, config *Transfer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey_Override(t TransferHostKey, scope constructs.Construct, id *string, config *TransferHostKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -646,7 +646,7 @@ func TransferHostKey_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func TransferHostKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func TransferHostKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func TransferHostKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func TransferHostKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferHostKey.TransferHostKey",
+		"@cdktn/provider-aws.transferHostKey.TransferHostKey",
 		"tfResourceType",
 		&returns,
 	)

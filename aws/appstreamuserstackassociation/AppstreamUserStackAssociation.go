@@ -5,14 +5,14 @@ package appstreamuserstackassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamuserstackassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamuserstackassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association}.
 type AppstreamUserStackAssociation interface {
 	cdktf.TerraformResource
 	AuthenticationType() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_AppstreamUserStackAssociation) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
 func NewAppstreamUserStackAssociation(scope constructs.Construct, id *string, config *AppstreamUserStackAssociationConfig) AppstreamUserStackAssociation {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewAppstreamUserStackAssociation(scope constructs.Construct, id *string, co
 	j := jsiiProxy_AppstreamUserStackAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewAppstreamUserStackAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_user_stack_association aws_appstream_user_stack_association} Resource.
 func NewAppstreamUserStackAssociation_Override(a AppstreamUserStackAssociation, scope constructs.Construct, id *string, config *AppstreamUserStackAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -600,7 +600,7 @@ func AppstreamUserStackAssociation_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func AppstreamUserStackAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func AppstreamUserStackAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func AppstreamUserStackAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func AppstreamUserStackAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
+		"@cdktn/provider-aws.appstreamUserStackAssociation.AppstreamUserStackAssociation",
 		"tfResourceType",
 		&returns,
 	)

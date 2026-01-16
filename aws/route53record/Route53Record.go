@@ -5,14 +5,14 @@ package route53record
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53record/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53record/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_record aws_route53_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_record aws_route53_record}.
 type Route53Record interface {
 	cdktf.TerraformResource
 	Alias() Route53RecordAliasOutputReference
@@ -726,7 +726,7 @@ func (j *jsiiProxy_Route53Record) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_record aws_route53_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_record aws_route53_record} Resource.
 func NewRoute53Record(scope constructs.Construct, id *string, config *Route53RecordConfig) Route53Record {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewRoute53Record(scope constructs.Construct, id *string, config *Route53Rec
 	j := jsiiProxy_Route53Record{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -744,12 +744,12 @@ func NewRoute53Record(scope constructs.Construct, id *string, config *Route53Rec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_record aws_route53_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_record aws_route53_record} Resource.
 func NewRoute53Record_Override(r Route53Record, scope constructs.Construct, id *string, config *Route53RecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -943,7 +943,7 @@ func Route53Record_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -978,7 +978,7 @@ func Route53Record_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -997,7 +997,7 @@ func Route53Record_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1016,7 +1016,7 @@ func Route53Record_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1029,7 +1029,7 @@ func Route53Record_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53Record.Route53Record",
+		"@cdktn/provider-aws.route53Record.Route53Record",
 		"tfResourceType",
 		&returns,
 	)

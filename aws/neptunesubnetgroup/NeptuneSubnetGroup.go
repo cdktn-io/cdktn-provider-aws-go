@@ -5,14 +5,14 @@ package neptunesubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptunesubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptunesubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group}.
 type NeptuneSubnetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_NeptuneSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group} Resource.
 func NewNeptuneSubnetGroup(scope constructs.Construct, id *string, config *NeptuneSubnetGroupConfig) NeptuneSubnetGroup {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewNeptuneSubnetGroup(scope constructs.Construct, id *string, config *Neptu
 	j := jsiiProxy_NeptuneSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewNeptuneSubnetGroup(scope constructs.Construct, id *string, config *Neptu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_subnet_group aws_neptune_subnet_group} Resource.
 func NewNeptuneSubnetGroup_Override(n NeptuneSubnetGroup, scope constructs.Construct, id *string, config *NeptuneSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -683,7 +683,7 @@ func NeptuneSubnetGroup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func NeptuneSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func NeptuneSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func NeptuneSubnetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func NeptuneSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
+		"@cdktn/provider-aws.neptuneSubnetGroup.NeptuneSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

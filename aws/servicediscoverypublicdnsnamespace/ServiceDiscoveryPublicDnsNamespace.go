@@ -5,14 +5,14 @@ package servicediscoverypublicdnsnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicediscoverypublicdnsnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicediscoverypublicdnsnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace}.
 type ServiceDiscoveryPublicDnsNamespace interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_ServiceDiscoveryPublicDnsNamespace) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace} Resource.
 func NewServiceDiscoveryPublicDnsNamespace(scope constructs.Construct, id *string, config *ServiceDiscoveryPublicDnsNamespaceConfig) ServiceDiscoveryPublicDnsNamespace {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewServiceDiscoveryPublicDnsNamespace(scope constructs.Construct, id *strin
 	j := jsiiProxy_ServiceDiscoveryPublicDnsNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewServiceDiscoveryPublicDnsNamespace(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_public_dns_namespace aws_service_discovery_public_dns_namespace} Resource.
 func NewServiceDiscoveryPublicDnsNamespace_Override(s ServiceDiscoveryPublicDnsNamespace, scope constructs.Construct, id *string, config *ServiceDiscoveryPublicDnsNamespaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -624,7 +624,7 @@ func ServiceDiscoveryPublicDnsNamespace_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func ServiceDiscoveryPublicDnsNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func ServiceDiscoveryPublicDnsNamespace_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func ServiceDiscoveryPublicDnsNamespace_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ServiceDiscoveryPublicDnsNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
+		"@cdktn/provider-aws.serviceDiscoveryPublicDnsNamespace.ServiceDiscoveryPublicDnsNamespace",
 		"tfResourceType",
 		&returns,
 	)

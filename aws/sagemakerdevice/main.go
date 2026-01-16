@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerDevice.SagemakerDevice",
+		"@cdktn/provider-aws.sagemakerDevice.SagemakerDevice",
 		reflect.TypeOf((*SagemakerDevice)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerDevice.SagemakerDeviceConfig",
+		"@cdktn/provider-aws.sagemakerDevice.SagemakerDeviceConfig",
 		reflect.TypeOf((*SagemakerDeviceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerDevice.SagemakerDeviceDevice",
+		"@cdktn/provider-aws.sagemakerDevice.SagemakerDeviceDevice",
 		reflect.TypeOf((*SagemakerDeviceDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerDevice.SagemakerDeviceDeviceOutputReference",
+		"@cdktn/provider-aws.sagemakerDevice.SagemakerDeviceDeviceOutputReference",
 		reflect.TypeOf((*SagemakerDeviceDeviceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

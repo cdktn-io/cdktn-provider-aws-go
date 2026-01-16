@@ -5,9 +5,9 @@ package networkmanagerdevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerdevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerdevice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewNetworkmanagerDeviceAwsLocationOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_NetworkmanagerDeviceAwsLocationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocationOutputReference",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewNetworkmanagerDeviceAwsLocationOutputReference_Override(n Networkmanager
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocationOutputReference",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDeviceAwsLocationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

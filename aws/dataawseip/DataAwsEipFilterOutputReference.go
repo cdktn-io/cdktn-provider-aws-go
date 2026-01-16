@@ -5,9 +5,9 @@ package dataawseip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseip/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsEipFilterOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_DataAwsEipFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEip.DataAwsEipFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEip.DataAwsEipFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsEipFilterOutputReference_Override(d DataAwsEipFilterOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEip.DataAwsEipFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEip.DataAwsEipFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

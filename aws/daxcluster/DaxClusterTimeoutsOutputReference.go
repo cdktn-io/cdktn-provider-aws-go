@@ -5,9 +5,9 @@ package daxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/daxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/daxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDaxClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DaxClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDaxClusterTimeoutsOutputReference_Override(d DaxClusterTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

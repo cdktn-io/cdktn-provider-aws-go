@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodes",
 		reflect.TypeOf((*DataAwsOdbDbNodes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesConfig",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesConfig",
 		reflect.TypeOf((*DataAwsOdbDbNodesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodes",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodes",
 		reflect.TypeOf((*DataAwsOdbDbNodesDbNodes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodesList",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodesList",
 		reflect.TypeOf((*DataAwsOdbDbNodesDbNodesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodesOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbDbNodes.DataAwsOdbDbNodesDbNodesOutputReference",
 		reflect.TypeOf((*DataAwsOdbDbNodesDbNodesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalDetails", GoGetter: "AdditionalDetails"},

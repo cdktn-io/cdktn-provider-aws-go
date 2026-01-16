@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetGateway.InternetGateway",
+		"@cdktn/provider-aws.internetGateway.InternetGateway",
 		reflect.TypeOf((*InternetGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetGateway.InternetGatewayConfig",
+		"@cdktn/provider-aws.internetGateway.InternetGatewayConfig",
 		reflect.TypeOf((*InternetGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.internetGateway.InternetGatewayTimeouts",
+		"@cdktn/provider-aws.internetGateway.InternetGatewayTimeouts",
 		reflect.TypeOf((*InternetGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.internetGateway.InternetGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.internetGateway.InternetGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*InternetGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package codedeploydeploymentconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codedeploydeploymentconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codedeploydeploymentconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config}.
 type CodedeployDeploymentConfig interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_CodedeployDeploymentConfig) ZonalConfigInput() *CodedeployDep
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource.
 func NewCodedeployDeploymentConfig(scope constructs.Construct, id *string, config *CodedeployDeploymentConfigConfig) CodedeployDeploymentConfig {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewCodedeployDeploymentConfig(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_CodedeployDeploymentConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewCodedeployDeploymentConfig(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codedeploy_deployment_config aws_codedeploy_deployment_config} Resource.
 func NewCodedeployDeploymentConfig_Override(c CodedeployDeploymentConfig, scope constructs.Construct, id *string, config *CodedeployDeploymentConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -626,7 +626,7 @@ func CodedeployDeploymentConfig_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func CodedeployDeploymentConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func CodedeployDeploymentConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func CodedeployDeploymentConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func CodedeployDeploymentConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfig",
 		"tfResourceType",
 		&returns,
 	)

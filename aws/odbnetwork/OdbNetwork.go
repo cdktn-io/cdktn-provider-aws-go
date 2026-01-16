@@ -5,14 +5,14 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network}.
 type OdbNetwork interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -781,7 +781,7 @@ func (j *jsiiProxy_OdbNetwork) ZeroEtlAccessInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkConfig) OdbNetwork {
 	_init_.Initialize()
 
@@ -791,7 +791,7 @@ func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkCon
 	j := jsiiProxy_OdbNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -799,12 +799,12 @@ func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork_Override(o OdbNetwork, scope constructs.Construct, id *string, config *OdbNetworkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1031,7 +1031,7 @@ func OdbNetwork_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1066,7 +1066,7 @@ func OdbNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1085,7 +1085,7 @@ func OdbNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1104,7 +1104,7 @@ func OdbNetwork_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1117,7 +1117,7 @@ func OdbNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.odbNetwork.OdbNetwork",
+		"@cdktn/provider-aws.odbNetwork.OdbNetwork",
 		"tfResourceType",
 		&returns,
 	)

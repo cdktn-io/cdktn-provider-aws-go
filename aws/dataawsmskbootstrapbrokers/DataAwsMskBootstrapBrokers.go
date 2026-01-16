@@ -5,14 +5,14 @@ package dataawsmskbootstrapbrokers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmskbootstrapbrokers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmskbootstrapbrokers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
 type DataAwsMskBootstrapBrokers interface {
 	cdktf.TerraformDataSource
 	BootstrapBrokers() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) DataAwsMskBootstrapBrokers {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsMskBootstrapBrokers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -440,12 +440,12 @@ func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers_Override(d DataAwsMskBootstrapBrokers, scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -540,7 +540,7 @@ func DataAwsMskBootstrapBrokers_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -575,7 +575,7 @@ func DataAwsMskBootstrapBrokers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAwsMskBootstrapBrokers_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -613,7 +613,7 @@ func DataAwsMskBootstrapBrokers_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func DataAwsMskBootstrapBrokers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
+		"@cdktn/provider-aws.dataAwsMskBootstrapBrokers.DataAwsMskBootstrapBrokers",
 		"tfResourceType",
 		&returns,
 	)

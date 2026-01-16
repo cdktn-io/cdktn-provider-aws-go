@@ -5,9 +5,9 @@ package gluepartition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluepartition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluepartition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewGluePartitionStorageDescriptorColumnsList(terraformResource cdktf.IInter
 	j := jsiiProxy_GluePartitionStorageDescriptorColumnsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartition.GluePartitionStorageDescriptorColumnsList",
+		"@cdktn/provider-aws.gluePartition.GluePartitionStorageDescriptorColumnsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewGluePartitionStorageDescriptorColumnsList_Override(g GluePartitionStorag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartition.GluePartitionStorageDescriptorColumnsList",
+		"@cdktn/provider-aws.gluePartition.GluePartitionStorageDescriptorColumnsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)

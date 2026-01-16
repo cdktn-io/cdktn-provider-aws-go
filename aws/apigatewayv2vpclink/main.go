@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLink",
 		reflect.TypeOf((*Apigatewayv2VpcLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLinkConfig",
+		"@cdktn/provider-aws.apigatewayv2VpcLink.Apigatewayv2VpcLinkConfig",
 		reflect.TypeOf((*Apigatewayv2VpcLinkConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package networkmanagerconnectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerconnectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerconnectattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment}.
 type NetworkmanagerConnectAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -73,6 +73,9 @@ type NetworkmanagerConnectAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceArn() *string
+	RoutingPolicyLabel() *string
+	SetRoutingPolicyLabel(val *string)
+	RoutingPolicyLabelInput() *string
 	SegmentName() *string
 	State() *string
 	Tags() *map[string]*string
@@ -141,6 +144,7 @@ type NetworkmanagerConnectAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicyLabel()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -442,6 +446,26 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) ResourceArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) RoutingPolicyLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) RoutingPolicyLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerConnectAttachment) SegmentName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -573,7 +597,7 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) TransportAttachmentIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) NetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -583,7 +607,7 @@ func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, 
 	j := jsiiProxy_NetworkmanagerConnectAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -591,12 +615,12 @@ func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_connect_attachment aws_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment_Override(n NetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -703,6 +727,17 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment)SetProvisioners(val *[]interf
 	)
 }
 
+func (j *jsiiProxy_NetworkmanagerConnectAttachment)SetRoutingPolicyLabel(val *string) {
+	if err := j.validateSetRoutingPolicyLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyLabel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkmanagerConnectAttachment)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -746,7 +781,7 @@ func NetworkmanagerConnectAttachment_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -781,7 +816,7 @@ func NetworkmanagerConnectAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +835,7 @@ func NetworkmanagerConnectAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -819,7 +854,7 @@ func NetworkmanagerConnectAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -832,7 +867,7 @@ func NetworkmanagerConnectAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
+		"@cdktn/provider-aws.networkmanagerConnectAttachment.NetworkmanagerConnectAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -1123,6 +1158,14 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) ResetRoutingPolicyLabel() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoutingPolicyLabel",
 		nil, // no parameters
 	)
 }

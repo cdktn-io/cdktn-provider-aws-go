@@ -5,14 +5,14 @@ package dbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_subnet_group aws_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_subnet_group aws_db_subnet_group}.
 type DbSubnetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_DbSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_subnet_group aws_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_subnet_group aws_db_subnet_group} Resource.
 func NewDbSubnetGroup(scope constructs.Construct, id *string, config *DbSubnetGroupConfig) DbSubnetGroup {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDbSubnetGroup(scope constructs.Construct, id *string, config *DbSubnetGr
 	j := jsiiProxy_DbSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewDbSubnetGroup(scope constructs.Construct, id *string, config *DbSubnetGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_subnet_group aws_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_subnet_group aws_db_subnet_group} Resource.
 func NewDbSubnetGroup_Override(d DbSubnetGroup, scope constructs.Construct, id *string, config *DbSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -705,7 +705,7 @@ func DbSubnetGroup_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func DbSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func DbSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func DbSubnetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func DbSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbSubnetGroup.DbSubnetGroup",
+		"@cdktn/provider-aws.dbSubnetGroup.DbSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

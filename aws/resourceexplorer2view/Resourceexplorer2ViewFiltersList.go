@@ -5,9 +5,9 @@ package resourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourceexplorer2view/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2view/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewResourceexplorer2ViewFiltersList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_Resourceexplorer2ViewFiltersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewResourceexplorer2ViewFiltersList_Override(r Resourceexplorer2ViewFilters
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

@@ -5,14 +5,14 @@ package dataawslexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot aws_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot aws_lex_bot}.
 type DataAwsLexBot interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -490,7 +490,7 @@ func (j *jsiiProxy_DataAwsLexBot) VoiceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
 func NewDataAwsLexBot(scope constructs.Construct, id *string, config *DataAwsLexBotConfig) DataAwsLexBot {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewDataAwsLexBot(scope constructs.Construct, id *string, config *DataAwsLex
 	j := jsiiProxy_DataAwsLexBot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,12 +508,12 @@ func NewDataAwsLexBot(scope constructs.Construct, id *string, config *DataAwsLex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
 func NewDataAwsLexBot_Override(d DataAwsLexBot, scope constructs.Construct, id *string, config *DataAwsLexBotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -619,7 +619,7 @@ func DataAwsLexBot_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -654,7 +654,7 @@ func DataAwsLexBot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func DataAwsLexBot_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func DataAwsLexBot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func DataAwsLexBot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		"tfResourceType",
 		&returns,
 	)

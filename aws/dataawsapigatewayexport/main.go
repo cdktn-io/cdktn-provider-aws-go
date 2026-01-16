@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsApiGatewayExport.DataAwsApiGatewayExport",
+		"@cdktn/provider-aws.dataAwsApiGatewayExport.DataAwsApiGatewayExport",
 		reflect.TypeOf((*DataAwsApiGatewayExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accepts", GoGetter: "Accepts"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsApiGatewayExport.DataAwsApiGatewayExportConfig",
+		"@cdktn/provider-aws.dataAwsApiGatewayExport.DataAwsApiGatewayExportConfig",
 		reflect.TypeOf((*DataAwsApiGatewayExportConfig)(nil)).Elem(),
 	)
 }

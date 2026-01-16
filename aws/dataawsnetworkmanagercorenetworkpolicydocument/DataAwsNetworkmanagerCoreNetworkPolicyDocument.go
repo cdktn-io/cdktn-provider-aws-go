@@ -5,18 +5,20 @@ package dataawsnetworkmanagercorenetworkpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkmanagercorenetworkpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagercorenetworkpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document}.
 type DataAwsNetworkmanagerCoreNetworkPolicyDocument interface {
 	cdktf.TerraformDataSource
 	AttachmentPolicies() DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentPoliciesList
 	AttachmentPoliciesInput() interface{}
+	AttachmentRoutingPolicyRules() DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRulesList
+	AttachmentRoutingPolicyRulesInput() interface{}
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
 	// Experimental.
@@ -57,6 +59,8 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocument interface {
 	SetProvider(val cdktf.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	RoutingPolicies() DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPoliciesList
+	RoutingPoliciesInput() interface{}
 	SegmentActions() DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsList
 	SegmentActionsInput() interface{}
 	Segments() DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentsList
@@ -96,16 +100,20 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocument interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAttachmentPolicies(value interface{})
+	PutAttachmentRoutingPolicyRules(value interface{})
 	PutCoreNetworkConfiguration(value interface{})
 	PutNetworkFunctionGroups(value interface{})
+	PutRoutingPolicies(value interface{})
 	PutSegmentActions(value interface{})
 	PutSegments(value interface{})
 	ResetAttachmentPolicies()
+	ResetAttachmentRoutingPolicyRules()
 	ResetId()
 	ResetNetworkFunctionGroups()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicies()
 	ResetSegmentActions()
 	ResetVersion()
 	SynthesizeAttributes() *map[string]interface{}
@@ -142,6 +150,26 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) AttachmentPol
 	_jsii_.Get(
 		j,
 		"attachmentPoliciesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) AttachmentRoutingPolicyRules() DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRulesList {
+	var returns DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentRoutingPolicyRulesList
+	_jsii_.Get(
+		j,
+		"attachmentRoutingPolicyRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) AttachmentRoutingPolicyRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"attachmentRoutingPolicyRulesInput",
 		&returns,
 	)
 	return returns
@@ -327,6 +355,26 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) RawOverrides(
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) RoutingPolicies() DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPoliciesList {
+	var returns DataAwsNetworkmanagerCoreNetworkPolicyDocumentRoutingPoliciesList
+	_jsii_.Get(
+		j,
+		"routingPolicies",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) RoutingPoliciesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"routingPoliciesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) SegmentActions() DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsList {
 	var returns DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsList
 	_jsii_.Get(
@@ -418,7 +466,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) VersionInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
 func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerCoreNetworkPolicyDocumentConfig) DataAwsNetworkmanagerCoreNetworkPolicyDocument {
 	_init_.Initialize()
 
@@ -428,7 +476,7 @@ func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument(scope constructs.Construc
 	j := jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -436,12 +484,12 @@ func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
 func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument_Override(d DataAwsNetworkmanagerCoreNetworkPolicyDocument, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerCoreNetworkPolicyDocumentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -525,7 +573,7 @@ func DataAwsNetworkmanagerCoreNetworkPolicyDocument_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -560,7 +608,7 @@ func DataAwsNetworkmanagerCoreNetworkPolicyDocument_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +627,7 @@ func DataAwsNetworkmanagerCoreNetworkPolicyDocument_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +646,7 @@ func DataAwsNetworkmanagerCoreNetworkPolicyDocument_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +659,7 @@ func DataAwsNetworkmanagerCoreNetworkPolicyDocument_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerCoreNetworkPolicyDocument.DataAwsNetworkmanagerCoreNetworkPolicyDocument",
 		"tfResourceType",
 		&returns,
 	)
@@ -811,6 +859,17 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) PutAttachment
 	)
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) PutAttachmentRoutingPolicyRules(value interface{}) {
+	if err := d.validatePutAttachmentRoutingPolicyRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putAttachmentRoutingPolicyRules",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) PutCoreNetworkConfiguration(value interface{}) {
 	if err := d.validatePutCoreNetworkConfigurationParameters(value); err != nil {
 		panic(err)
@@ -829,6 +888,17 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) PutNetworkFun
 	_jsii_.InvokeVoid(
 		d,
 		"putNetworkFunctionGroups",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) PutRoutingPolicies(value interface{}) {
+	if err := d.validatePutRoutingPoliciesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putRoutingPolicies",
 		[]interface{}{value},
 	)
 }
@@ -863,6 +933,14 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) ResetAttachme
 	)
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) ResetAttachmentRoutingPolicyRules() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAttachmentRoutingPolicyRules",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
@@ -883,6 +961,14 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) ResetOverride
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) ResetRoutingPolicies() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRoutingPolicies",
 		nil, // no parameters
 	)
 }

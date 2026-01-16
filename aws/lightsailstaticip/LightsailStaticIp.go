@@ -5,14 +5,14 @@ package lightsailstaticip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailstaticip/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailstaticip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip}.
 type LightsailStaticIp interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_LightsailStaticIp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp(scope constructs.Construct, id *string, config *LightsailStaticIpConfig) LightsailStaticIp {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	j := jsiiProxy_LightsailStaticIp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_static_ip aws_lightsail_static_ip} Resource.
 func NewLightsailStaticIp_Override(l LightsailStaticIp, scope constructs.Construct, id *string, config *LightsailStaticIpConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -530,7 +530,7 @@ func LightsailStaticIp_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func LightsailStaticIp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func LightsailStaticIp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func LightsailStaticIp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func LightsailStaticIp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailStaticIp.LightsailStaticIp",
+		"@cdktn/provider-aws.lightsailStaticIp.LightsailStaticIp",
 		"tfResourceType",
 		&returns,
 	)

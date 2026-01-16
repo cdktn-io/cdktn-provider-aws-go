@@ -5,9 +5,9 @@ package dataawsmemorydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmemorydbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmemorydbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataAwsMemorydbClusterShardsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsMemorydbClusterShardsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsOutputReference",
+		"@cdktn/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataAwsMemorydbClusterShardsOutputReference_Override(d DataAwsMemorydbCl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsOutputReference",
+		"@cdktn/provider-aws.dataAwsMemorydbCluster.DataAwsMemorydbClusterShardsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

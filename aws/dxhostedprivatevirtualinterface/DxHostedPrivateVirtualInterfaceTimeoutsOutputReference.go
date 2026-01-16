@@ -5,9 +5,9 @@ package dxhostedprivatevirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxhostedprivatevirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxhostedprivatevirtualinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDxHostedPrivateVirtualInterfaceTimeoutsOutputReference(terraformResource
 	j := jsiiProxy_DxHostedPrivateVirtualInterfaceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDxHostedPrivateVirtualInterfaceTimeoutsOutputReference_Override(d DxHost
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

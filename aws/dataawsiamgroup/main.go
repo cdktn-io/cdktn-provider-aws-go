@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamGroup.DataAwsIamGroup",
+		"@cdktn/provider-aws.dataAwsIamGroup.DataAwsIamGroup",
 		reflect.TypeOf((*DataAwsIamGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,15 +64,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamGroup.DataAwsIamGroupConfig",
+		"@cdktn/provider-aws.dataAwsIamGroup.DataAwsIamGroupConfig",
 		reflect.TypeOf((*DataAwsIamGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsers",
+		"@cdktn/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsers",
 		reflect.TypeOf((*DataAwsIamGroupUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsersList",
+		"@cdktn/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsersList",
 		reflect.TypeOf((*DataAwsIamGroupUsersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsersOutputReference",
+		"@cdktn/provider-aws.dataAwsIamGroup.DataAwsIamGroupUsersOutputReference",
 		reflect.TypeOf((*DataAwsIamGroupUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},

@@ -5,9 +5,9 @@ package neptuneclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptuneclusterinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptuneclusterinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNeptuneClusterInstanceTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_NeptuneClusterInstanceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNeptuneClusterInstanceTimeoutsOutputReference_Override(n NeptuneClusterI
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

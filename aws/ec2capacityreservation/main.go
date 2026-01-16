@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2CapacityReservation.Ec2CapacityReservation",
+		"@cdktn/provider-aws.ec2CapacityReservation.Ec2CapacityReservation",
 		reflect.TypeOf((*Ec2CapacityReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2CapacityReservation.Ec2CapacityReservationConfig",
+		"@cdktn/provider-aws.ec2CapacityReservation.Ec2CapacityReservationConfig",
 		reflect.TypeOf((*Ec2CapacityReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2CapacityReservation.Ec2CapacityReservationTimeouts",
+		"@cdktn/provider-aws.ec2CapacityReservation.Ec2CapacityReservationTimeouts",
 		reflect.TypeOf((*Ec2CapacityReservationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2CapacityReservation.Ec2CapacityReservationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2CapacityReservation.Ec2CapacityReservationTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2CapacityReservationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

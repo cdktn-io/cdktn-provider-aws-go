@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		reflect.TypeOf((*Wafv2IpSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSetConfig",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSetConfig",
 		reflect.TypeOf((*Wafv2IpSetConfig)(nil)).Elem(),
 	)
 }

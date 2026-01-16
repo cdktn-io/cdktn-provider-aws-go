@@ -127,6 +127,10 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetProvisionersParam
 	return nil
 }
 
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetRoutingPolicyLabelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

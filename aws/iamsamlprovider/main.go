@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		reflect.TypeOf((*IamSamlProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -56,6 +56,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberProperty{JsiiProperty: "samlMetadataDocument", GoGetter: "SamlMetadataDocument"},
 			_jsii_.MemberProperty{JsiiProperty: "samlMetadataDocumentInput", GoGetter: "SamlMetadataDocumentInput"},
+			_jsii_.MemberProperty{JsiiProperty: "samlProviderUuid", GoGetter: "SamlProviderUuid"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -78,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProviderConfig",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProviderConfig",
 		reflect.TypeOf((*IamSamlProviderConfig)(nil)).Elem(),
 	)
 }

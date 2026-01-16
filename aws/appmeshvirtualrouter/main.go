@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		reflect.TypeOf((*AppmeshVirtualRouter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,19 +89,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterConfig",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterConfig",
 		reflect.TypeOf((*AppmeshVirtualRouterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpec",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpec",
 		reflect.TypeOf((*AppmeshVirtualRouterSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListener",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecListener)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerList",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerList",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecListenerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerOutputReference",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecListenerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMapping",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMapping",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecListenerPortMapping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecListenerPortMappingOutputReference",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecListenerPortMappingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,7 +198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
 		reflect.TypeOf((*AppmeshVirtualRouterSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

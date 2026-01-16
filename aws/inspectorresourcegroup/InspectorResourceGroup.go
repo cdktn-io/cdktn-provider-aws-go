@@ -5,14 +5,14 @@ package inspectorresourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspectorresourcegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspectorresourcegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
 type InspectorResourceGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_InspectorResourceGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) InspectorResourceGroup {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *I
 	j := jsiiProxy_InspectorResourceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup_Override(i InspectorResourceGroup, scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -508,7 +508,7 @@ func InspectorResourceGroup_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func InspectorResourceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func InspectorResourceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func InspectorResourceGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func InspectorResourceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
+		"@cdktn/provider-aws.inspectorResourceGroup.InspectorResourceGroup",
 		"tfResourceType",
 		&returns,
 	)

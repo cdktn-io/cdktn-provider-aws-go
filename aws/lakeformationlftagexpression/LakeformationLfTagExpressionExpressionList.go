@@ -5,9 +5,9 @@ package lakeformationlftagexpression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationlftagexpression/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationlftagexpression/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLakeformationLfTagExpressionExpressionList(terraformResource cdktf.IInte
 	j := jsiiProxy_LakeformationLfTagExpressionExpressionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLakeformationLfTagExpressionExpressionList_Override(l LakeformationLfTag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

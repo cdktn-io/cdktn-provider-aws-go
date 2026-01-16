@@ -5,9 +5,9 @@ package dataawslakeformationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslakeformationpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslakeformationpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDataAwsLakeformationPermissionsLfTagOutputReference(terraformResource cd
 	j := jsiiProxy_DataAwsLakeformationPermissionsLfTagOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagOutputReference",
+		"@cdktn/provider-aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDataAwsLakeformationPermissionsLfTagOutputReference_Override(d DataAwsLa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagOutputReference",
+		"@cdktn/provider-aws.dataAwsLakeformationPermissions.DataAwsLakeformationPermissionsLfTagOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

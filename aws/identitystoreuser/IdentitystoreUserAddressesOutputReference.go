@@ -5,9 +5,9 @@ package identitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/identitystoreuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/identitystoreuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewIdentitystoreUserAddressesOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_IdentitystoreUserAddressesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreUser.IdentitystoreUserAddressesOutputReference",
+		"@cdktn/provider-aws.identitystoreUser.IdentitystoreUserAddressesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewIdentitystoreUserAddressesOutputReference_Override(i IdentitystoreUserAd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreUser.IdentitystoreUserAddressesOutputReference",
+		"@cdktn/provider-aws.identitystoreUser.IdentitystoreUserAddressesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

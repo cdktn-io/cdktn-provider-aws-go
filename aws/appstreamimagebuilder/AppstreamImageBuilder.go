@@ -5,14 +5,14 @@ package appstreamimagebuilder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamimagebuilder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamimagebuilder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
 type AppstreamImageBuilder interface {
 	cdktf.TerraformResource
 	AccessEndpoint() AppstreamImageBuilderAccessEndpointList
@@ -701,7 +701,7 @@ func (j *jsiiProxy_AppstreamImageBuilder) VpcConfigInput() *AppstreamImageBuilde
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) AppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *Ap
 	j := jsiiProxy_AppstreamImageBuilder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -719,12 +719,12 @@ func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder_Override(a AppstreamImageBuilder, scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -951,7 +951,7 @@ func AppstreamImageBuilder_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -986,7 +986,7 @@ func AppstreamImageBuilder_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1005,7 +1005,7 @@ func AppstreamImageBuilder_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1024,7 +1024,7 @@ func AppstreamImageBuilder_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1037,7 +1037,7 @@ func AppstreamImageBuilder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
+		"@cdktn/provider-aws.appstreamImageBuilder.AppstreamImageBuilder",
 		"tfResourceType",
 		&returns,
 	)

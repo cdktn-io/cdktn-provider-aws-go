@@ -5,9 +5,9 @@ package evidentlyproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewEvidentlyProjectDataDeliveryCloudwatchLogsOutputReference(terraformResou
 	j := jsiiProxy_EvidentlyProjectDataDeliveryCloudwatchLogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewEvidentlyProjectDataDeliveryCloudwatchLogsOutputReference_Override(e Evi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.evidentlyProject.EvidentlyProjectDataDeliveryCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

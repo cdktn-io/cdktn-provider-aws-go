@@ -5,14 +5,14 @@ package iamrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamrole/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role aws_iam_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role aws_iam_role}.
 type IamRole interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -630,7 +630,7 @@ func (j *jsiiProxy_IamRole) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role aws_iam_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role aws_iam_role} Resource.
 func NewIamRole(scope constructs.Construct, id *string, config *IamRoleConfig) IamRole {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewIamRole(scope constructs.Construct, id *string, config *IamRoleConfig) I
 	j := jsiiProxy_IamRole{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -648,12 +648,12 @@ func NewIamRole(scope constructs.Construct, id *string, config *IamRoleConfig) I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role aws_iam_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role aws_iam_role} Resource.
 func NewIamRole_Override(i IamRole, scope constructs.Construct, id *string, config *IamRoleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -869,7 +869,7 @@ func IamRole_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -904,7 +904,7 @@ func IamRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -923,7 +923,7 @@ func IamRole_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -942,7 +942,7 @@ func IamRole_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -955,7 +955,7 @@ func IamRole_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamRole.IamRole",
+		"@cdktn/provider-aws.iamRole.IamRole",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.athenaCapacityReservation.AthenaCapacityReservation",
+		"@cdktn/provider-aws.athenaCapacityReservation.AthenaCapacityReservation",
 		reflect.TypeOf((*AthenaCapacityReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.athenaCapacityReservation.AthenaCapacityReservationConfig",
+		"@cdktn/provider-aws.athenaCapacityReservation.AthenaCapacityReservationConfig",
 		reflect.TypeOf((*AthenaCapacityReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.athenaCapacityReservation.AthenaCapacityReservationTimeouts",
+		"@cdktn/provider-aws.athenaCapacityReservation.AthenaCapacityReservationTimeouts",
 		reflect.TypeOf((*AthenaCapacityReservationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.athenaCapacityReservation.AthenaCapacityReservationTimeoutsOutputReference",
+		"@cdktn/provider-aws.athenaCapacityReservation.AthenaCapacityReservationTimeoutsOutputReference",
 		reflect.TypeOf((*AthenaCapacityReservationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

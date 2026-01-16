@@ -5,14 +5,14 @@ package ssmquicksetupconfigurationmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmquicksetupconfigurationmanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager}.
 type SsmquicksetupConfigurationManager interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManager) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
 func NewSsmquicksetupConfigurationManager(scope constructs.Construct, id *string, config *SsmquicksetupConfigurationManagerConfig) SsmquicksetupConfigurationManager {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewSsmquicksetupConfigurationManager(scope constructs.Construct, id *string
 	j := jsiiProxy_SsmquicksetupConfigurationManager{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewSsmquicksetupConfigurationManager(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
 func NewSsmquicksetupConfigurationManager_Override(s SsmquicksetupConfigurationManager, scope constructs.Construct, id *string, config *SsmquicksetupConfigurationManagerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SsmquicksetupConfigurationManager_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SsmquicksetupConfigurationManager_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SsmquicksetupConfigurationManager_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SsmquicksetupConfigurationManager_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SsmquicksetupConfigurationManager_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
+		"@cdktn/provider-aws.ssmquicksetupConfigurationManager.SsmquicksetupConfigurationManager",
 		"tfResourceType",
 		&returns,
 	)

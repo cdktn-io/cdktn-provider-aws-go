@@ -5,9 +5,9 @@ package acmpcacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/acmpcacertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/acmpcacertificateauthority/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewAcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutput
 	j := jsiiProxy_AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference",
+		"@cdktn/provider-aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewAcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutput
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference",
+		"@cdktn/provider-aws.acmpcaCertificateAuthority.AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

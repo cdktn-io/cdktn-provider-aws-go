@@ -5,9 +5,9 @@ package s3bucketacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewS3BucketAclAccessControlPolicyOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_S3BucketAclAccessControlPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAclAccessControlPolicyOutputReference",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAclAccessControlPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewS3BucketAclAccessControlPolicyOutputReference_Override(s S3BucketAclAcce
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAcl.S3BucketAclAccessControlPolicyOutputReference",
+		"@cdktn/provider-aws.s3BucketAcl.S3BucketAclAccessControlPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

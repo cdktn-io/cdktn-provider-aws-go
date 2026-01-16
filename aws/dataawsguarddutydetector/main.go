@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetector",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetector",
 		reflect.TypeOf((*DataAwsGuarddutyDetector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,19 +69,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorConfig",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorConfig",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeatures",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeatures",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeatures)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfiguration",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfiguration",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeaturesAdditionalConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationList",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationList",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeaturesAdditionalConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesList",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesList",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeaturesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesOutputReference",
+		"@cdktn/provider-aws.dataAwsGuarddutyDetector.DataAwsGuarddutyDetectorFeaturesOutputReference",
 		reflect.TypeOf((*DataAwsGuarddutyDetectorFeaturesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},

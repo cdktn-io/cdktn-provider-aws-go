@@ -5,9 +5,9 @@ package verifiedpermissionsschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionsschema/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionsschema/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewVerifiedpermissionsSchemaDefinitionList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_VerifiedpermissionsSchemaDefinitionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewVerifiedpermissionsSchemaDefinitionList_Override(v VerifiedpermissionsSc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
+		"@cdktn/provider-aws.verifiedpermissionsSchema.VerifiedpermissionsSchemaDefinitionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		v,
 	)

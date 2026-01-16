@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScope",
 		reflect.TypeOf((*SsoadminApplicationAccessScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScopeConfig",
+		"@cdktn/provider-aws.ssoadminApplicationAccessScope.SsoadminApplicationAccessScopeConfig",
 		reflect.TypeOf((*SsoadminApplicationAccessScopeConfig)(nil)).Elem(),
 	)
 }

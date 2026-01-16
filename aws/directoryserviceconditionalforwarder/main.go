@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceConditionalForwarder.DirectoryServiceConditionalForwarder",
+		"@cdktn/provider-aws.directoryServiceConditionalForwarder.DirectoryServiceConditionalForwarder",
 		reflect.TypeOf((*DirectoryServiceConditionalForwarder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceConditionalForwarder.DirectoryServiceConditionalForwarderConfig",
+		"@cdktn/provider-aws.directoryServiceConditionalForwarder.DirectoryServiceConditionalForwarderConfig",
 		reflect.TypeOf((*DirectoryServiceConditionalForwarderConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package dataawsiampolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiampolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiampolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_policy_document aws_iam_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_policy_document aws_iam_policy_document}.
 type DataAwsIamPolicyDocument interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -455,7 +455,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocument) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
 func NewDataAwsIamPolicyDocument(scope constructs.Construct, id *string, config *DataAwsIamPolicyDocumentConfig) DataAwsIamPolicyDocument {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDataAwsIamPolicyDocument(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsIamPolicyDocument{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -473,12 +473,12 @@ func NewDataAwsIamPolicyDocument(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
 func NewDataAwsIamPolicyDocument_Override(d DataAwsIamPolicyDocument, scope constructs.Construct, id *string, config *DataAwsIamPolicyDocumentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -617,7 +617,7 @@ func DataAwsIamPolicyDocument_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -652,7 +652,7 @@ func DataAwsIamPolicyDocument_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func DataAwsIamPolicyDocument_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func DataAwsIamPolicyDocument_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func DataAwsIamPolicyDocument_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
+		"@cdktn/provider-aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocument",
 		"tfResourceType",
 		&returns,
 	)

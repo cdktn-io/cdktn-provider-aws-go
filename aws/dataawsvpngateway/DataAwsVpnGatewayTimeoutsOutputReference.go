@@ -5,9 +5,9 @@ package dataawsvpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpngateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsVpnGatewayTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAwsVpnGatewayTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsVpnGatewayTimeoutsOutputReference_Override(d DataAwsVpnGatewayTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnGateway.DataAwsVpnGatewayTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

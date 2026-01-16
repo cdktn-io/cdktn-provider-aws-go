@@ -5,14 +5,14 @@ package apprunnerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnerdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
 type ApprunnerDeployment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ApprunnerDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment(scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) ApprunnerDeployment {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewApprunnerDeployment(scope constructs.Construct, id *string, config *Appr
 	j := jsiiProxy_ApprunnerDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewApprunnerDeployment(scope constructs.Construct, id *string, config *Appr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment_Override(a ApprunnerDeployment, scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -519,7 +519,7 @@ func ApprunnerDeployment_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func ApprunnerDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func ApprunnerDeployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func ApprunnerDeployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func ApprunnerDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apprunnerDeployment.ApprunnerDeployment",
+		"@cdktn/provider-aws.apprunnerDeployment.ApprunnerDeployment",
 		"tfResourceType",
 		&returns,
 	)

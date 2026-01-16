@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflow",
 		reflect.TypeOf((*ImagebuilderWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,7 +99,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflowConfig",
+		"@cdktn/provider-aws.imagebuilderWorkflow.ImagebuilderWorkflowConfig",
 		reflect.TypeOf((*ImagebuilderWorkflowConfig)(nil)).Elem(),
 	)
 }

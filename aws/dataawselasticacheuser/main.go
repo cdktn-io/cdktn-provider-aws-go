@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUser",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUser",
 		reflect.TypeOf((*DataAwsElasticacheUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessString", GoGetter: "AccessString"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationMode",
 		reflect.TypeOf((*DataAwsElasticacheUserAuthenticationMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeList",
 		reflect.TypeOf((*DataAwsElasticacheUserAuthenticationModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserAuthenticationModeOutputReference",
 		reflect.TypeOf((*DataAwsElasticacheUserAuthenticationModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserConfig",
+		"@cdktn/provider-aws.dataAwsElasticacheUser.DataAwsElasticacheUserConfig",
 		reflect.TypeOf((*DataAwsElasticacheUserConfig)(nil)).Elem(),
 	)
 }

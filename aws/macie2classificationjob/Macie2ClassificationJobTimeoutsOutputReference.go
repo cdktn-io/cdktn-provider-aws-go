@@ -5,9 +5,9 @@ package macie2classificationjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2classificationjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2classificationjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewMacie2ClassificationJobTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_Macie2ClassificationJobTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJobTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJobTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewMacie2ClassificationJobTimeoutsOutputReference_Override(m Macie2Classifi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationJob.Macie2ClassificationJobTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2ClassificationJob.Macie2ClassificationJobTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

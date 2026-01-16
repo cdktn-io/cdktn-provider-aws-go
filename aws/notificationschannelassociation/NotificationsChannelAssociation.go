@@ -5,14 +5,14 @@ package notificationschannelassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/notificationschannelassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/notificationschannelassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_channel_association aws_notifications_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association}.
 type NotificationsChannelAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_NotificationsChannelAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) NotificationsChannelAssociation {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, 
 	j := jsiiProxy_NotificationsChannelAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation_Override(n NotificationsChannelAssociation, scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -461,7 +461,7 @@ func NotificationsChannelAssociation_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func NotificationsChannelAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func NotificationsChannelAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func NotificationsChannelAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func NotificationsChannelAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
+		"@cdktn/provider-aws.notificationsChannelAssociation.NotificationsChannelAssociation",
 		"tfResourceType",
 		&returns,
 	)

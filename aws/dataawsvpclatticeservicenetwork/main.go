@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetwork",
 		reflect.TypeOf((*DataAwsVpclatticeServiceNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetworkConfig",
+		"@cdktn/provider-aws.dataAwsVpclatticeServiceNetwork.DataAwsVpclatticeServiceNetworkConfig",
 		reflect.TypeOf((*DataAwsVpclatticeServiceNetworkConfig)(nil)).Elem(),
 	)
 }

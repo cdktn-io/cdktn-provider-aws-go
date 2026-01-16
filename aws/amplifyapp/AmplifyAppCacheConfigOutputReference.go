@@ -5,9 +5,9 @@ package amplifyapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amplifyapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amplifyapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAmplifyAppCacheConfigOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_AmplifyAppCacheConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppCacheConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppCacheConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAmplifyAppCacheConfigOutputReference_Override(a AmplifyAppCacheConfigOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amplifyApp.AmplifyAppCacheConfigOutputReference",
+		"@cdktn/provider-aws.amplifyApp.AmplifyAppCacheConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

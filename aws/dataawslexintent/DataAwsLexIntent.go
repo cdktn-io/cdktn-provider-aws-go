@@ -5,14 +5,14 @@ package dataawslexintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslexintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslexintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_intent aws_lex_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_intent aws_lex_intent}.
 type DataAwsLexIntent interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsLexIntent) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_intent aws_lex_intent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_intent aws_lex_intent} Data Source.
 func NewDataAwsLexIntent(scope constructs.Construct, id *string, config *DataAwsLexIntentConfig) DataAwsLexIntent {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsLexIntent(scope constructs.Construct, id *string, config *DataAws
 	j := jsiiProxy_DataAwsLexIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAwsLexIntent(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_intent aws_lex_intent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_intent aws_lex_intent} Data Source.
 func NewDataAwsLexIntent_Override(d DataAwsLexIntent, scope constructs.Construct, id *string, config *DataAwsLexIntentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAwsLexIntent_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsLexIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsLexIntent_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsLexIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsLexIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
+		"@cdktn/provider-aws.dataAwsLexIntent.DataAwsLexIntent",
 		"tfResourceType",
 		&returns,
 	)

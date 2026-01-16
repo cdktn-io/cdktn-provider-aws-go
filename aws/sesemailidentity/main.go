@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesEmailIdentity.SesEmailIdentity",
+		"@cdktn/provider-aws.sesEmailIdentity.SesEmailIdentity",
 		reflect.TypeOf((*SesEmailIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesEmailIdentity.SesEmailIdentityConfig",
+		"@cdktn/provider-aws.sesEmailIdentity.SesEmailIdentityConfig",
 		reflect.TypeOf((*SesEmailIdentityConfig)(nil)).Elem(),
 	)
 }

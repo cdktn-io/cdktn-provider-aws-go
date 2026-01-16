@@ -407,6 +407,14 @@ func (j *jsiiProxy_DbProxy) validateSetDefaultAuthSchemeParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_DbProxy) validateSetEndpointNetworkTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DbProxy) validateSetEngineFamilyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -538,6 +546,14 @@ func (j *jsiiProxy_DbProxy) validateSetTagsParameters(val *map[string]*string) e
 }
 
 func (j *jsiiProxy_DbProxy) validateSetTagsAllParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DbProxy) validateSetTargetConnectionNetworkTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

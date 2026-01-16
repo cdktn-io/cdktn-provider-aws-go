@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		reflect.TypeOf((*DataAwsBedrockCustomModels)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,15 +60,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsConfig",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsConfig",
 		reflect.TypeOf((*DataAwsBedrockCustomModelsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummaries",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummaries",
 		reflect.TypeOf((*DataAwsBedrockCustomModelsModelSummaries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummariesList",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummariesList",
 		reflect.TypeOf((*DataAwsBedrockCustomModelsModelSummariesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummariesOutputReference",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModelsModelSummariesOutputReference",
 		reflect.TypeOf((*DataAwsBedrockCustomModelsModelSummariesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

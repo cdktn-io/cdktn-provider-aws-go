@@ -5,9 +5,9 @@ package codebuildwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildwebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCodebuildWebhookFilterGroupList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_CodebuildWebhookFilterGroupList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCodebuildWebhookFilterGroupList_Override(c CodebuildWebhookFilterGroupLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

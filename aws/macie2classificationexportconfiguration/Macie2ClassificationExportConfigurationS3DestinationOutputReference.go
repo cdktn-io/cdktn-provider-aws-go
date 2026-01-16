@@ -5,9 +5,9 @@ package macie2classificationexportconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2classificationexportconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2classificationexportconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewMacie2ClassificationExportConfigurationS3DestinationOutputReference(terr
 	j := jsiiProxy_Macie2ClassificationExportConfigurationS3DestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewMacie2ClassificationExportConfigurationS3DestinationOutputReference_Over
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

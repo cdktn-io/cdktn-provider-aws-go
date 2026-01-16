@@ -5,9 +5,9 @@ package dataawsroutetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroutetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroutetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -214,7 +214,7 @@ func NewDataAwsRouteTableAssociationsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsRouteTableAssociationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRouteTable.DataAwsRouteTableAssociationsOutputReference",
+		"@cdktn/provider-aws.dataAwsRouteTable.DataAwsRouteTableAssociationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -226,7 +226,7 @@ func NewDataAwsRouteTableAssociationsOutputReference_Override(d DataAwsRouteTabl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRouteTable.DataAwsRouteTableAssociationsOutputReference",
+		"@cdktn/provider-aws.dataAwsRouteTable.DataAwsRouteTableAssociationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

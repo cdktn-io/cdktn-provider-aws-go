@@ -5,9 +5,9 @@ package datazoneglossaryterm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneglossaryterm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneglossaryterm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDatazoneGlossaryTermTermRelationsList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DatazoneGlossaryTermTermRelationsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDatazoneGlossaryTermTermRelationsList_Override(d DatazoneGlossaryTermTer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
+		"@cdktn/provider-aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

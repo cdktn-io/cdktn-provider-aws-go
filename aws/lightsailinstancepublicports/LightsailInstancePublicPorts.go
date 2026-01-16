@@ -5,14 +5,14 @@ package lightsailinstancepublicports
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailinstancepublicports/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailinstancepublicports/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports}.
 type LightsailInstancePublicPorts interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_LightsailInstancePublicPorts) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
 func NewLightsailInstancePublicPorts(scope constructs.Construct, id *string, config *LightsailInstancePublicPortsConfig) LightsailInstancePublicPorts {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewLightsailInstancePublicPorts(scope constructs.Construct, id *string, con
 	j := jsiiProxy_LightsailInstancePublicPorts{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewLightsailInstancePublicPorts(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_instance_public_ports aws_lightsail_instance_public_ports} Resource.
 func NewLightsailInstancePublicPorts_Override(l LightsailInstancePublicPorts, scope constructs.Construct, id *string, config *LightsailInstancePublicPortsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -520,7 +520,7 @@ func LightsailInstancePublicPorts_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func LightsailInstancePublicPorts_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func LightsailInstancePublicPorts_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func LightsailInstancePublicPorts_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func LightsailInstancePublicPorts_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
+		"@cdktn/provider-aws.lightsailInstancePublicPorts.LightsailInstancePublicPorts",
 		"tfResourceType",
 		&returns,
 	)

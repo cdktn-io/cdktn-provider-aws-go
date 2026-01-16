@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		reflect.TypeOf((*Apigatewayv2Model)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2ModelConfig",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2ModelConfig",
 		reflect.TypeOf((*Apigatewayv2ModelConfig)(nil)).Elem(),
 	)
 }

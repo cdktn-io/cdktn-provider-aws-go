@@ -5,14 +5,14 @@ package dataawsbedrockcustommodels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbedrockcustommodels/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbedrockcustommodels/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models}.
 type DataAwsBedrockCustomModels interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAwsBedrockCustomModels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
 func NewDataAwsBedrockCustomModels(scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelsConfig) DataAwsBedrockCustomModels {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataAwsBedrockCustomModels(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsBedrockCustomModels{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataAwsBedrockCustomModels(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_custom_models aws_bedrock_custom_models} Data Source.
 func NewDataAwsBedrockCustomModels_Override(d DataAwsBedrockCustomModels, scope constructs.Construct, id *string, config *DataAwsBedrockCustomModelsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataAwsBedrockCustomModels_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataAwsBedrockCustomModels_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataAwsBedrockCustomModels_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataAwsBedrockCustomModels_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsBedrockCustomModels_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
+		"@cdktn/provider-aws.dataAwsBedrockCustomModels.DataAwsBedrockCustomModels",
 		"tfResourceType",
 		&returns,
 	)

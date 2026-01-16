@@ -5,9 +5,9 @@ package codedeploydeploymentconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codedeploydeploymentconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codedeploydeploymentconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewCodedeployDeploymentConfigMinimumHealthyHostsOutputReference(terraformRe
 	j := jsiiProxy_CodedeployDeploymentConfigMinimumHealthyHostsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewCodedeployDeploymentConfigMinimumHealthyHostsOutputReference_Override(c 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
+		"@cdktn/provider-aws.codedeployDeploymentConfig.CodedeployDeploymentConfigMinimumHealthyHostsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

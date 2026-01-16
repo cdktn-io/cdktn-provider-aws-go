@@ -5,14 +5,14 @@ package lightsaillbattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaillbattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaillbattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
 type LightsailLbAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_LightsailLbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) LightsailLbAttachment {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *Li
 	j := jsiiProxy_LightsailLbAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment_Override(l LightsailLbAttachment, scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -531,7 +531,7 @@ func LightsailLbAttachment_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func LightsailLbAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func LightsailLbAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func LightsailLbAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func LightsailLbAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
+		"@cdktn/provider-aws.lightsailLbAttachment.LightsailLbAttachment",
 		"tfResourceType",
 		&returns,
 	)

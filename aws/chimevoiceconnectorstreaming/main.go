@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreaming",
+		"@cdktn/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreaming",
 		reflect.TypeOf((*ChimeVoiceConnectorStreaming)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingConfig",
+		"@cdktn/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingConfig",
 		reflect.TypeOf((*ChimeVoiceConnectorStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingMediaInsightsConfiguration",
+		"@cdktn/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingMediaInsightsConfiguration",
 		reflect.TypeOf((*ChimeVoiceConnectorStreamingMediaInsightsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference",
+		"@cdktn/provider-aws.chimeVoiceConnectorStreaming.ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference",
 		reflect.TypeOf((*ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

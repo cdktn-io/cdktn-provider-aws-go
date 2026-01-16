@@ -5,9 +5,9 @@ package athenaworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenaworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenaworkgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -31,6 +31,11 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomerContentEncryptionConfiguration() AthenaWorkgroupConfigurationCustomerContentEncryptionConfigurationOutputReference
+	CustomerContentEncryptionConfigurationInput() *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration
+	EnableMinimumEncryptionConfiguration() interface{}
+	SetEnableMinimumEncryptionConfiguration(val interface{})
+	EnableMinimumEncryptionConfigurationInput() interface{}
 	EnforceWorkgroupConfiguration() interface{}
 	SetEnforceWorkgroupConfiguration(val interface{})
 	EnforceWorkgroupConfigurationInput() interface{}
@@ -47,6 +52,8 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	SetInternalValue(val *AthenaWorkgroupConfiguration)
 	ManagedQueryResultsConfiguration() AthenaWorkgroupConfigurationManagedQueryResultsConfigurationOutputReference
 	ManagedQueryResultsConfigurationInput() *AthenaWorkgroupConfigurationManagedQueryResultsConfiguration
+	MonitoringConfiguration() AthenaWorkgroupConfigurationMonitoringConfigurationOutputReference
+	MonitoringConfigurationInput() *AthenaWorkgroupConfigurationMonitoringConfiguration
 	PublishCloudwatchMetricsEnabled() interface{}
 	SetPublishCloudwatchMetricsEnabled(val interface{})
 	PublishCloudwatchMetricsEnabledInput() interface{}
@@ -87,16 +94,21 @@ type AthenaWorkgroupConfigurationOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutCustomerContentEncryptionConfiguration(value *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration)
 	PutEngineVersion(value *AthenaWorkgroupConfigurationEngineVersion)
 	PutIdentityCenterConfiguration(value *AthenaWorkgroupConfigurationIdentityCenterConfiguration)
 	PutManagedQueryResultsConfiguration(value *AthenaWorkgroupConfigurationManagedQueryResultsConfiguration)
+	PutMonitoringConfiguration(value *AthenaWorkgroupConfigurationMonitoringConfiguration)
 	PutResultConfiguration(value *AthenaWorkgroupConfigurationResultConfiguration)
 	ResetBytesScannedCutoffPerQuery()
+	ResetCustomerContentEncryptionConfiguration()
+	ResetEnableMinimumEncryptionConfiguration()
 	ResetEnforceWorkgroupConfiguration()
 	ResetEngineVersion()
 	ResetExecutionRole()
 	ResetIdentityCenterConfiguration()
 	ResetManagedQueryResultsConfiguration()
+	ResetMonitoringConfiguration()
 	ResetPublishCloudwatchMetricsEnabled()
 	ResetRequesterPaysEnabled()
 	ResetResultConfiguration()
@@ -160,6 +172,46 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) CreationStack() 
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) CustomerContentEncryptionConfiguration() AthenaWorkgroupConfigurationCustomerContentEncryptionConfigurationOutputReference {
+	var returns AthenaWorkgroupConfigurationCustomerContentEncryptionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"customerContentEncryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) CustomerContentEncryptionConfigurationInput() *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration {
+	var returns *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration
+	_jsii_.Get(
+		j,
+		"customerContentEncryptionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) EnableMinimumEncryptionConfiguration() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableMinimumEncryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) EnableMinimumEncryptionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableMinimumEncryptionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -285,6 +337,26 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ManagedQueryResu
 	return returns
 }
 
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) MonitoringConfiguration() AthenaWorkgroupConfigurationMonitoringConfigurationOutputReference {
+	var returns AthenaWorkgroupConfigurationMonitoringConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"monitoringConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) MonitoringConfigurationInput() *AthenaWorkgroupConfigurationMonitoringConfiguration {
+	var returns *AthenaWorkgroupConfigurationMonitoringConfiguration
+	_jsii_.Get(
+		j,
+		"monitoringConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PublishCloudwatchMetricsEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -375,7 +447,7 @@ func NewAthenaWorkgroupConfigurationOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AthenaWorkgroupConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationOutputReference",
+		"@cdktn/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -387,7 +459,7 @@ func NewAthenaWorkgroupConfigurationOutputReference_Override(a AthenaWorkgroupCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationOutputReference",
+		"@cdktn/provider-aws.athenaWorkgroup.AthenaWorkgroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -422,6 +494,17 @@ func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference)SetComplexObjectI
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AthenaWorkgroupConfigurationOutputReference)SetEnableMinimumEncryptionConfiguration(val interface{}) {
+	if err := j.validateSetEnableMinimumEncryptionConfigurationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableMinimumEncryptionConfiguration",
 		val,
 	)
 }
@@ -689,6 +772,17 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) InterpolationFor
 	return returns
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutCustomerContentEncryptionConfiguration(value *AthenaWorkgroupConfigurationCustomerContentEncryptionConfiguration) {
+	if err := a.validatePutCustomerContentEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putCustomerContentEncryptionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutEngineVersion(value *AthenaWorkgroupConfigurationEngineVersion) {
 	if err := a.validatePutEngineVersionParameters(value); err != nil {
 		panic(err)
@@ -722,6 +816,17 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutManagedQueryR
 	)
 }
 
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutMonitoringConfiguration(value *AthenaWorkgroupConfigurationMonitoringConfiguration) {
+	if err := a.validatePutMonitoringConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putMonitoringConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) PutResultConfiguration(value *AthenaWorkgroupConfigurationResultConfiguration) {
 	if err := a.validatePutResultConfigurationParameters(value); err != nil {
 		panic(err)
@@ -737,6 +842,22 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetBytesScanne
 	_jsii_.InvokeVoid(
 		a,
 		"resetBytesScannedCutoffPerQuery",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetCustomerContentEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetCustomerContentEncryptionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetEnableMinimumEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnableMinimumEncryptionConfiguration",
 		nil, // no parameters
 	)
 }
@@ -777,6 +898,14 @@ func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetManagedQuer
 	_jsii_.InvokeVoid(
 		a,
 		"resetManagedQueryResultsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AthenaWorkgroupConfigurationOutputReference) ResetMonitoringConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetMonitoringConfiguration",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package dataawsssmparametersbypath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmparametersbypath/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmparametersbypath/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path}.
 type DataAwsSsmParametersByPath interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_DataAwsSsmParametersByPath) WithDecryptionInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path} Data Source.
 func NewDataAwsSsmParametersByPath(scope constructs.Construct, id *string, config *DataAwsSsmParametersByPathConfig) DataAwsSsmParametersByPath {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsSsmParametersByPath(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsSsmParametersByPath{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewDataAwsSsmParametersByPath(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_parameters_by_path aws_ssm_parameters_by_path} Data Source.
 func NewDataAwsSsmParametersByPath_Override(d DataAwsSsmParametersByPath, scope constructs.Construct, id *string, config *DataAwsSsmParametersByPathConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -544,7 +544,7 @@ func DataAwsSsmParametersByPath_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsSsmParametersByPath_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsSsmParametersByPath_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsSsmParametersByPath_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataAwsSsmParametersByPath_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
+		"@cdktn/provider-aws.dataAwsSsmParametersByPath.DataAwsSsmParametersByPath",
 		"tfResourceType",
 		&returns,
 	)

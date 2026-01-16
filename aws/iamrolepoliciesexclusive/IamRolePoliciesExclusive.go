@@ -5,14 +5,14 @@ package iamrolepoliciesexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamrolepoliciesexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamrolepoliciesexclusive/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
 type IamRolePoliciesExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_IamRolePoliciesExclusive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) IamRolePoliciesExclusive {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamRolePoliciesExclusive{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive_Override(i IamRolePoliciesExclusive, scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -461,7 +461,7 @@ func IamRolePoliciesExclusive_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func IamRolePoliciesExclusive_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func IamRolePoliciesExclusive_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func IamRolePoliciesExclusive_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func IamRolePoliciesExclusive_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
+		"@cdktn/provider-aws.iamRolePoliciesExclusive.IamRolePoliciesExclusive",
 		"tfResourceType",
 		&returns,
 	)

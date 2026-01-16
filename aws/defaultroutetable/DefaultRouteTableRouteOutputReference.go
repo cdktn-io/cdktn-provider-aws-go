@@ -5,9 +5,9 @@ package defaultroutetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/defaultroutetable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/defaultroutetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewDefaultRouteTableRouteOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DefaultRouteTableRouteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -459,7 +459,7 @@ func NewDefaultRouteTableRouteOutputReference_Override(d DefaultRouteTableRouteO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

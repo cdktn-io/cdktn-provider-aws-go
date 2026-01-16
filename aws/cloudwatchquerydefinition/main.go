@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchQueryDefinition.CloudwatchQueryDefinition",
+		"@cdktn/provider-aws.cloudwatchQueryDefinition.CloudwatchQueryDefinition",
 		reflect.TypeOf((*CloudwatchQueryDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchQueryDefinition.CloudwatchQueryDefinitionConfig",
+		"@cdktn/provider-aws.cloudwatchQueryDefinition.CloudwatchQueryDefinitionConfig",
 		reflect.TypeOf((*CloudwatchQueryDefinitionConfig)(nil)).Elem(),
 	)
 }

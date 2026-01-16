@@ -5,9 +5,9 @@ package cecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cecostcategory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCeCostCategoryRuleRuleOrNotTagsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_CeCostCategoryRuleRuleOrNotTagsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategoryRuleRuleOrNotTagsOutputReference",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategoryRuleRuleOrNotTagsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCeCostCategoryRuleRuleOrNotTagsOutputReference_Override(c CeCostCategory
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostCategory.CeCostCategoryRuleRuleOrNotTagsOutputReference",
+		"@cdktn/provider-aws.ceCostCategory.CeCostCategoryRuleRuleOrNotTagsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

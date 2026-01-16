@@ -5,14 +5,14 @@ package backuprestoretestingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backuprestoretestingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backuprestoretestingplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan}.
 type BackupRestoreTestingPlan interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_BackupRestoreTestingPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan} Resource.
 func NewBackupRestoreTestingPlan(scope constructs.Construct, id *string, config *BackupRestoreTestingPlanConfig) BackupRestoreTestingPlan {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewBackupRestoreTestingPlan(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_BackupRestoreTestingPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewBackupRestoreTestingPlan(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_restore_testing_plan aws_backup_restore_testing_plan} Resource.
 func NewBackupRestoreTestingPlan_Override(b BackupRestoreTestingPlan, scope constructs.Construct, id *string, config *BackupRestoreTestingPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -647,7 +647,7 @@ func BackupRestoreTestingPlan_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func BackupRestoreTestingPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func BackupRestoreTestingPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func BackupRestoreTestingPlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func BackupRestoreTestingPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlan",
 		"tfResourceType",
 		&returns,
 	)

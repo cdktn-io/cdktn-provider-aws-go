@@ -5,9 +5,9 @@ package docdbglobalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbglobalcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbglobalcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDocdbGlobalClusterGlobalClusterMembersOutputReference(terraformResource 
 	j := jsiiProxy_DocdbGlobalClusterGlobalClusterMembersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDocdbGlobalClusterGlobalClusterMembersOutputReference_Override(d DocdbGl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
+		"@cdktn/provider-aws.docdbGlobalCluster.DocdbGlobalClusterGlobalClusterMembersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

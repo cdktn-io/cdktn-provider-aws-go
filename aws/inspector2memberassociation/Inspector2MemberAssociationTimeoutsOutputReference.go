@@ -5,9 +5,9 @@ package inspector2memberassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2memberassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2memberassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewInspector2MemberAssociationTimeoutsOutputReference(terraformResource cdk
 	j := jsiiProxy_Inspector2MemberAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewInspector2MemberAssociationTimeoutsOutputReference_Override(i Inspector2
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

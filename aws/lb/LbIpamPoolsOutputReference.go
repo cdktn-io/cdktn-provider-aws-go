@@ -5,9 +5,9 @@ package lb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLbIpamPoolsOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_LbIpamPoolsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbIpamPoolsOutputReference",
+		"@cdktn/provider-aws.lb.LbIpamPoolsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLbIpamPoolsOutputReference_Override(l LbIpamPoolsOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lb.LbIpamPoolsOutputReference",
+		"@cdktn/provider-aws.lb.LbIpamPoolsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

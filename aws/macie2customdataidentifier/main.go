@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifier",
+		"@cdktn/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifier",
 		reflect.TypeOf((*Macie2CustomDataIdentifier)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierConfig",
+		"@cdktn/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierConfig",
 		reflect.TypeOf((*Macie2CustomDataIdentifierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeouts",
+		"@cdktn/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeouts",
 		reflect.TypeOf((*Macie2CustomDataIdentifierTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2CustomDataIdentifier.Macie2CustomDataIdentifierTimeoutsOutputReference",
 		reflect.TypeOf((*Macie2CustomDataIdentifierTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

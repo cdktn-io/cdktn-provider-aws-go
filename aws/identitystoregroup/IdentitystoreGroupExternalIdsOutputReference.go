@@ -5,9 +5,9 @@ package identitystoregroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/identitystoregroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/identitystoregroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewIdentitystoreGroupExternalIdsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_IdentitystoreGroupExternalIdsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewIdentitystoreGroupExternalIdsOutputReference_Override(i IdentitystoreGro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

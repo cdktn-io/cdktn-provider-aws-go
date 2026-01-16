@@ -59,11 +59,19 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutAt
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutAttachmentRoutingPolicyRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutCoreNetworkConfigurationParameters(value interface{}) error {
 	return nil
 }
 
 func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutNetworkFunctionGroupsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutRoutingPoliciesParameters(value interface{}) error {
 	return nil
 }
 

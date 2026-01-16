@@ -5,14 +5,14 @@ package dataawsshieldprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsshieldprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsshieldprotection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/shield_protection aws_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/shield_protection aws_shield_protection}.
 type DataAwsShieldProtection interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
 func NewDataAwsShieldProtection(scope constructs.Construct, id *string, config *DataAwsShieldProtectionConfig) DataAwsShieldProtection {
 	_init_.Initialize()
 
@@ -332,7 +332,7 @@ func NewDataAwsShieldProtection(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsShieldProtection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -340,12 +340,12 @@ func NewDataAwsShieldProtection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
 func NewDataAwsShieldProtection_Override(d DataAwsShieldProtection, scope constructs.Construct, id *string, config *DataAwsShieldProtectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -429,7 +429,7 @@ func DataAwsShieldProtection_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -464,7 +464,7 @@ func DataAwsShieldProtection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -483,7 +483,7 @@ func DataAwsShieldProtection_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -502,7 +502,7 @@ func DataAwsShieldProtection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsShieldProtection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
+		"@cdktn/provider-aws.dataAwsShieldProtection.DataAwsShieldProtection",
 		"tfResourceType",
 		&returns,
 	)

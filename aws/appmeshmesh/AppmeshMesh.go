@@ -5,14 +5,14 @@ package appmeshmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshmesh/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_mesh aws_appmesh_mesh}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_mesh aws_appmesh_mesh}.
 type AppmeshMesh interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AppmeshMesh) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_mesh aws_appmesh_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_mesh aws_appmesh_mesh} Resource.
 func NewAppmeshMesh(scope constructs.Construct, id *string, config *AppmeshMeshConfig) AppmeshMesh {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewAppmeshMesh(scope constructs.Construct, id *string, config *AppmeshMeshC
 	j := jsiiProxy_AppmeshMesh{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewAppmeshMesh(scope constructs.Construct, id *string, config *AppmeshMeshC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_mesh aws_appmesh_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_mesh aws_appmesh_mesh} Resource.
 func NewAppmeshMesh_Override(a AppmeshMesh, scope constructs.Construct, id *string, config *AppmeshMeshConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -646,7 +646,7 @@ func AppmeshMesh_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func AppmeshMesh_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func AppmeshMesh_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func AppmeshMesh_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func AppmeshMesh_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMesh",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMesh",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package configorganizationconformancepack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configorganizationconformancepack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationconformancepack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewConfigOrganizationConformancePackInputParameterList(terraformResource cd
 	j := jsiiProxy_ConfigOrganizationConformancePackInputParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewConfigOrganizationConformancePackInputParameterList_Override(c ConfigOrg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackInputParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

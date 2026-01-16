@@ -5,14 +5,14 @@ package dataawsbatchjobqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbatchjobqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbatchjobqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_job_queue aws_batch_job_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_job_queue aws_batch_job_queue}.
 type DataAwsBatchJobQueue interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsBatchJobQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_job_queue aws_batch_job_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_job_queue aws_batch_job_queue} Data Source.
 func NewDataAwsBatchJobQueue(scope constructs.Construct, id *string, config *DataAwsBatchJobQueueConfig) DataAwsBatchJobQueue {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsBatchJobQueue(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsBatchJobQueue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -442,12 +442,12 @@ func NewDataAwsBatchJobQueue(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_job_queue aws_batch_job_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_job_queue aws_batch_job_queue} Data Source.
 func NewDataAwsBatchJobQueue_Override(d DataAwsBatchJobQueue, scope constructs.Construct, id *string, config *DataAwsBatchJobQueueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -553,7 +553,7 @@ func DataAwsBatchJobQueue_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func DataAwsBatchJobQueue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func DataAwsBatchJobQueue_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func DataAwsBatchJobQueue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func DataAwsBatchJobQueue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
+		"@cdktn/provider-aws.dataAwsBatchJobQueue.DataAwsBatchJobQueue",
 		"tfResourceType",
 		&returns,
 	)

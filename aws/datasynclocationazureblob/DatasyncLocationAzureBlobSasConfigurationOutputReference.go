@@ -5,9 +5,9 @@ package datasynclocationazureblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationazureblob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationazureblob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewDatasyncLocationAzureBlobSasConfigurationOutputReference(terraformResour
 	j := jsiiProxy_DatasyncLocationAzureBlobSasConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewDatasyncLocationAzureBlobSasConfigurationOutputReference_Override(d Data
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlobSasConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,14 +5,14 @@ package glaciervault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/glaciervault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glaciervault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glacier_vault aws_glacier_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault}.
 type GlacierVault interface {
 	cdktf.TerraformResource
 	AccessPolicy() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_GlacierVault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
 func NewGlacierVault(scope constructs.Construct, id *string, config *GlacierVaultConfig) GlacierVault {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewGlacierVault(scope constructs.Construct, id *string, config *GlacierVaul
 	j := jsiiProxy_GlacierVault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewGlacierVault(scope constructs.Construct, id *string, config *GlacierVaul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
 func NewGlacierVault_Override(g GlacierVault, scope constructs.Construct, id *string, config *GlacierVaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -648,7 +648,7 @@ func GlacierVault_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func GlacierVault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func GlacierVault_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GlacierVault_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func GlacierVault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glacierVault.GlacierVault",
+		"@cdktn/provider-aws.glacierVault.GlacierVault",
 		"tfResourceType",
 		&returns,
 	)

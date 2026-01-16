@@ -5,14 +5,14 @@ package workspacesipgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspacesipgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesipgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group}.
 type WorkspacesIpGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_WorkspacesIpGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
 func NewWorkspacesIpGroup(scope constructs.Construct, id *string, config *WorkspacesIpGroupConfig) WorkspacesIpGroup {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewWorkspacesIpGroup(scope constructs.Construct, id *string, config *Worksp
 	j := jsiiProxy_WorkspacesIpGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewWorkspacesIpGroup(scope constructs.Construct, id *string, config *Worksp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_ip_group aws_workspaces_ip_group} Resource.
 func NewWorkspacesIpGroup_Override(w WorkspacesIpGroup, scope constructs.Construct, id *string, config *WorkspacesIpGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -626,7 +626,7 @@ func WorkspacesIpGroup_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func WorkspacesIpGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func WorkspacesIpGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func WorkspacesIpGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func WorkspacesIpGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package cognitomanageduserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitomanageduserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitomanageduserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
 type CognitoManagedUserPoolClient interface {
 	cdktf.TerraformResource
 	AccessTokenValidity() *float64
@@ -894,7 +894,7 @@ func (j *jsiiProxy_CognitoManagedUserPoolClient) WriteAttributesInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) CognitoManagedUserPoolClient {
 	_init_.Initialize()
 
@@ -904,7 +904,7 @@ func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, con
 	j := jsiiProxy_CognitoManagedUserPoolClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -912,12 +912,12 @@ func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient_Override(c CognitoManagedUserPoolClient, scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1232,7 +1232,7 @@ func CognitoManagedUserPoolClient_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1267,7 +1267,7 @@ func CognitoManagedUserPoolClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1286,7 +1286,7 @@ func CognitoManagedUserPoolClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1305,7 +1305,7 @@ func CognitoManagedUserPoolClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1318,7 +1318,7 @@ func CognitoManagedUserPoolClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		"tfResourceType",
 		&returns,
 	)

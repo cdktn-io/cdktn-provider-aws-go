@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmProject.DevicefarmProject",
+		"@cdktn/provider-aws.devicefarmProject.DevicefarmProject",
 		reflect.TypeOf((*DevicefarmProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmProject.DevicefarmProjectConfig",
+		"@cdktn/provider-aws.devicefarmProject.DevicefarmProjectConfig",
 		reflect.TypeOf((*DevicefarmProjectConfig)(nil)).Elem(),
 	)
 }

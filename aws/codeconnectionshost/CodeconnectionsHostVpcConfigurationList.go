@@ -5,9 +5,9 @@ package codeconnectionshost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codeconnectionshost/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codeconnectionshost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCodeconnectionsHostVpcConfigurationList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_CodeconnectionsHostVpcConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCodeconnectionsHostVpcConfigurationList_Override(c CodeconnectionsHostVp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostVpcConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

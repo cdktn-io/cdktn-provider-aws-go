@@ -5,14 +5,14 @@ package qbusinessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/qbusinessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qbusinessapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qbusiness_application aws_qbusiness_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qbusiness_application aws_qbusiness_application}.
 type QbusinessApplication interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_QbusinessApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
 func NewQbusinessApplication(scope constructs.Construct, id *string, config *QbusinessApplicationConfig) QbusinessApplication {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewQbusinessApplication(scope constructs.Construct, id *string, config *Qbu
 	j := jsiiProxy_QbusinessApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewQbusinessApplication(scope constructs.Construct, id *string, config *Qbu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qbusiness_application aws_qbusiness_application} Resource.
 func NewQbusinessApplication_Override(q QbusinessApplication, scope constructs.Construct, id *string, config *QbusinessApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -716,7 +716,7 @@ func QbusinessApplication_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func QbusinessApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func QbusinessApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func QbusinessApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func QbusinessApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplication",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplication",
 		"tfResourceType",
 		&returns,
 	)

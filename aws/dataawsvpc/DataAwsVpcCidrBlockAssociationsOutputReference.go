@@ -5,9 +5,9 @@ package dataawsvpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpc/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataAwsVpcCidrBlockAssociationsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataAwsVpcCidrBlockAssociationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcCidrBlockAssociationsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcCidrBlockAssociationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataAwsVpcCidrBlockAssociationsOutputReference_Override(d DataAwsVpcCidr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpc.DataAwsVpcCidrBlockAssociationsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpc.DataAwsVpcCidrBlockAssociationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

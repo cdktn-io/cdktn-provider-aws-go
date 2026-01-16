@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		reflect.TypeOf((*DataAwsRdsGlobalCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterConfig",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterConfig",
 		reflect.TypeOf((*DataAwsRdsGlobalClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembers",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembers",
 		reflect.TypeOf((*DataAwsRdsGlobalClusterMembers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembersList",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembersList",
 		reflect.TypeOf((*DataAwsRdsGlobalClusterMembersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembersOutputReference",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalClusterMembersOutputReference",
 		reflect.TypeOf((*DataAwsRdsGlobalClusterMembersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

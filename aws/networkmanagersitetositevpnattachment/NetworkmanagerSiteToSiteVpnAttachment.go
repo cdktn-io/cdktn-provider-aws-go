@@ -5,14 +5,14 @@ package networkmanagersitetositevpnattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagersitetositevpnattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagersitetositevpnattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment}.
 type NetworkmanagerSiteToSiteVpnAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -68,6 +68,9 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceArn() *string
+	RoutingPolicyLabel() *string
+	SetRoutingPolicyLabel(val *string)
+	RoutingPolicyLabelInput() *string
 	SegmentName() *string
 	State() *string
 	Tags() *map[string]*string
@@ -135,6 +138,7 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicyLabel()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -396,6 +400,26 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResourceArn() *string 
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) RoutingPolicyLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) RoutingPolicyLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) SegmentName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -527,7 +551,7 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) VpnConnectionArnInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) NetworkmanagerSiteToSiteVpnAttachment {
 	_init_.Initialize()
 
@@ -537,7 +561,7 @@ func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *st
 	j := jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -545,12 +569,12 @@ func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_site_to_site_vpn_attachment aws_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment_Override(n NetworkmanagerSiteToSiteVpnAttachment, scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -646,6 +670,17 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetProvisioners(val *[]
 	)
 }
 
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetRoutingPolicyLabel(val *string) {
+	if err := j.validateSetRoutingPolicyLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyLabel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -689,7 +724,7 @@ func NetworkmanagerSiteToSiteVpnAttachment_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -724,7 +759,7 @@ func NetworkmanagerSiteToSiteVpnAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +778,7 @@ func NetworkmanagerSiteToSiteVpnAttachment_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -762,7 +797,7 @@ func NetworkmanagerSiteToSiteVpnAttachment_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -775,7 +810,7 @@ func NetworkmanagerSiteToSiteVpnAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
+		"@cdktn/provider-aws.networkmanagerSiteToSiteVpnAttachment.NetworkmanagerSiteToSiteVpnAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -1055,6 +1090,14 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetOverrideLogicalId
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetRoutingPolicyLabel() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoutingPolicyLabel",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetLifec
 	return nil
 }
 
+func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetPrivateDnsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

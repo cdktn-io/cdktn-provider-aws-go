@@ -5,9 +5,9 @@ package connectinstancestorageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectinstancestorageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectinstancestorageconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputR
 	j := jsiiProxy_ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputReference",
+		"@cdktn/provider-aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputReference",
+		"@cdktn/provider-aws.connectInstanceStorageConfig.ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

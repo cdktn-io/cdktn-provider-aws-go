@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImages",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImages",
 		reflect.TypeOf((*DataAwsEcrpublicImages)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesConfig",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesConfig",
 		reflect.TypeOf((*DataAwsEcrpublicImagesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIds",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImageIds)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIdsList",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIdsList",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImageIdsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIdsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImageIdsOutputReference",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImageIdsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImages",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImages",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImages)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImagesList",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImagesList",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImagesOutputReference",
+		"@cdktn/provider-aws.dataAwsEcrpublicImages.DataAwsEcrpublicImagesImagesOutputReference",
 		reflect.TypeOf((*DataAwsEcrpublicImagesImagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "artifactMediaType", GoGetter: "ArtifactMediaType"},

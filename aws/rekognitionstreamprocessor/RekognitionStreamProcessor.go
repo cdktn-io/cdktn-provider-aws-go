@@ -5,14 +5,14 @@ package rekognitionstreamprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor}.
 type RekognitionStreamProcessor interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_RekognitionStreamProcessor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
 func NewRekognitionStreamProcessor(scope constructs.Construct, id *string, config *RekognitionStreamProcessorConfig) RekognitionStreamProcessor {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewRekognitionStreamProcessor(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_RekognitionStreamProcessor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -623,12 +623,12 @@ func NewRekognitionStreamProcessor(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_stream_processor aws_rekognition_stream_processor} Resource.
 func NewRekognitionStreamProcessor_Override(r RekognitionStreamProcessor, scope constructs.Construct, id *string, config *RekognitionStreamProcessorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -767,7 +767,7 @@ func RekognitionStreamProcessor_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -802,7 +802,7 @@ func RekognitionStreamProcessor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -821,7 +821,7 @@ func RekognitionStreamProcessor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func RekognitionStreamProcessor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func RekognitionStreamProcessor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessor",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package lexv2modelsbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLexv2ModelsBotDataPrivacyList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_Lexv2ModelsBotDataPrivacyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLexv2ModelsBotDataPrivacyList_Override(l Lexv2ModelsBotDataPrivacyList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

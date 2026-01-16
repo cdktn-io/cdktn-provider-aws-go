@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndex",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndex",
 		reflect.TypeOf((*LocationPlaceIndex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndexConfig",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndexConfig",
 		reflect.TypeOf((*LocationPlaceIndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration",
 		reflect.TypeOf((*LocationPlaceIndexDataSourceConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
 		reflect.TypeOf((*LocationPlaceIndexDataSourceConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

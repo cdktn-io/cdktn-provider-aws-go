@@ -5,9 +5,9 @@ package dataawskendrathesaurus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendrathesaurus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendrathesaurus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsKendraThesaurusSourceS3PathList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsKendraThesaurusSourceS3PathList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurusSourceS3PathList",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurusSourceS3PathList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsKendraThesaurusSourceS3PathList_Override(d DataAwsKendraThesaurus
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurusSourceS3PathList",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurusSourceS3PathList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

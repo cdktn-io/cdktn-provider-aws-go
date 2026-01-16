@@ -5,9 +5,9 @@ package m2deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewM2DeploymentTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_M2DeploymentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewM2DeploymentTimeoutsOutputReference_Override(m M2DeploymentTimeoutsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
+		"@cdktn/provider-aws.m2Deployment.M2DeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

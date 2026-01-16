@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsmcontactsContact.DataAwsSsmcontactsContact",
+		"@cdktn/provider-aws.dataAwsSsmcontactsContact.DataAwsSsmcontactsContact",
 		reflect.TypeOf((*DataAwsSsmcontactsContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsmcontactsContact.DataAwsSsmcontactsContactConfig",
+		"@cdktn/provider-aws.dataAwsSsmcontactsContact.DataAwsSsmcontactsContactConfig",
 		reflect.TypeOf((*DataAwsSsmcontactsContactConfig)(nil)).Elem(),
 	)
 }

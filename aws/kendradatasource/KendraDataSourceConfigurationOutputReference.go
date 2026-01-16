@@ -5,9 +5,9 @@ package kendradatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendradatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendradatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewKendraDataSourceConfigurationOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_KendraDataSourceConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewKendraDataSourceConfigurationOutputReference_Override(k KendraDataSource
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraDataSource.KendraDataSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.kendraDataSource.KendraDataSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

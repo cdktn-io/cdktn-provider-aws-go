@@ -5,9 +5,9 @@ package cloudtrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudtrail/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudtrail/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewCloudtrailEventSelectorOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_CloudtrailEventSelectorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrail.CloudtrailEventSelectorOutputReference",
+		"@cdktn/provider-aws.cloudtrail.CloudtrailEventSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewCloudtrailEventSelectorOutputReference_Override(c CloudtrailEventSelecto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrail.CloudtrailEventSelectorOutputReference",
+		"@cdktn/provider-aws.cloudtrail.CloudtrailEventSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

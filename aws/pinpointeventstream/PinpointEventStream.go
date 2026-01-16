@@ -5,14 +5,14 @@ package pinpointeventstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointeventstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointeventstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream}.
 type PinpointEventStream interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_PinpointEventStream) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream} Resource.
 func NewPinpointEventStream(scope constructs.Construct, id *string, config *PinpointEventStreamConfig) PinpointEventStream {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewPinpointEventStream(scope constructs.Construct, id *string, config *Pinp
 	j := jsiiProxy_PinpointEventStream{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewPinpointEventStream(scope constructs.Construct, id *string, config *Pinp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_event_stream aws_pinpoint_event_stream} Resource.
 func NewPinpointEventStream_Override(p PinpointEventStream, scope constructs.Construct, id *string, config *PinpointEventStreamConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -565,7 +565,7 @@ func PinpointEventStream_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func PinpointEventStream_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func PinpointEventStream_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func PinpointEventStream_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func PinpointEventStream_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointEventStream.PinpointEventStream",
+		"@cdktn/provider-aws.pinpointEventStream.PinpointEventStream",
 		"tfResourceType",
 		&returns,
 	)

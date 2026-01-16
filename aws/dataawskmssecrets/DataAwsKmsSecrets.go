@@ -5,14 +5,14 @@ package dataawskmssecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskmssecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskmssecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_secrets aws_kms_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_secrets aws_kms_secrets}.
 type DataAwsKmsSecrets interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsKmsSecrets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
 func NewDataAwsKmsSecrets(scope constructs.Construct, id *string, config *DataAwsKmsSecretsConfig) DataAwsKmsSecrets {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsKmsSecrets(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsKmsSecrets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsKmsSecrets(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kms_secrets aws_kms_secrets} Data Source.
 func NewDataAwsKmsSecrets_Override(d DataAwsKmsSecrets, scope constructs.Construct, id *string, config *DataAwsKmsSecretsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -430,7 +430,7 @@ func DataAwsKmsSecrets_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAwsKmsSecrets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAwsKmsSecrets_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAwsKmsSecrets_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAwsKmsSecrets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecrets",
 		"tfResourceType",
 		&returns,
 	)

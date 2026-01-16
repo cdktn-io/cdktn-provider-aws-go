@@ -5,9 +5,9 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLaunchTemplatePrivateDnsNameOptionsOutputReference(terraformResource cdk
 	j := jsiiProxy_LaunchTemplatePrivateDnsNameOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplatePrivateDnsNameOptionsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplatePrivateDnsNameOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLaunchTemplatePrivateDnsNameOptionsOutputReference_Override(l LaunchTemp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplatePrivateDnsNameOptionsOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplatePrivateDnsNameOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

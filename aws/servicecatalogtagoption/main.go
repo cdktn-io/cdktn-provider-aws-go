@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOption",
 		reflect.TypeOf((*ServicecatalogTagOption)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionConfig",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionConfig",
 		reflect.TypeOf((*ServicecatalogTagOptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionTimeouts",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionTimeouts",
 		reflect.TypeOf((*ServicecatalogTagOptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogTagOption.ServicecatalogTagOptionTimeoutsOutputReference",
 		reflect.TypeOf((*ServicecatalogTagOptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

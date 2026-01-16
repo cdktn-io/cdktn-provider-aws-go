@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightUserCustomPermission.QuicksightUserCustomPermission",
+		"@cdktn/provider-aws.quicksightUserCustomPermission.QuicksightUserCustomPermission",
 		reflect.TypeOf((*QuicksightUserCustomPermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightUserCustomPermission.QuicksightUserCustomPermissionConfig",
+		"@cdktn/provider-aws.quicksightUserCustomPermission.QuicksightUserCustomPermissionConfig",
 		reflect.TypeOf((*QuicksightUserCustomPermissionConfig)(nil)).Elem(),
 	)
 }

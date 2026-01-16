@@ -5,9 +5,9 @@ package dataawsroute53resolverfirewallrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53resolverfirewallrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53resolverfirewallrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -28,6 +28,7 @@ type DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConfidenceThreshold() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -35,8 +36,11 @@ type DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference interface {
 	CreationStack() *[]*string
 	CreationTime() *string
 	CreatorRequestId() *string
+	DnsThreatProtection() *string
 	FirewallDomainListId() *string
+	FirewallDomainRedirectionAction() *string
 	FirewallRuleGroupId() *string
+	FirewallThreatProtectionId() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsRoute53ResolverFirewallRulesFirewallRules
@@ -44,6 +48,7 @@ type DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference interface {
 	ModificationTime() *string
 	Name() *string
 	Priority() *float64
+	QType() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -161,6 +166,16 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) ConfidenceThreshold() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confidenceThreshold",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -191,6 +206,16 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) DnsThreatProtection() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dnsThreatProtection",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) FirewallDomainListId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -201,11 +226,31 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) FirewallDomainRedirectionAction() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firewallDomainRedirectionAction",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) FirewallRuleGroupId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"firewallRuleGroupId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) FirewallThreatProtectionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firewallThreatProtectionId",
 		&returns,
 	)
 	return returns
@@ -261,6 +306,16 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) QType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"qType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -291,7 +346,7 @@ func NewDataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference(terrafor
 	j := jsiiProxy_DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverFirewallRules.DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverFirewallRules.DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -303,7 +358,7 @@ func NewDataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverFirewallRules.DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverFirewallRules.DataAwsRoute53ResolverFirewallRulesFirewallRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

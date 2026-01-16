@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsAdminAccount.FmsAdminAccount",
+		"@cdktn/provider-aws.fmsAdminAccount.FmsAdminAccount",
 		reflect.TypeOf((*FmsAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fmsAdminAccount.FmsAdminAccountConfig",
+		"@cdktn/provider-aws.fmsAdminAccount.FmsAdminAccountConfig",
 		reflect.TypeOf((*FmsAdminAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fmsAdminAccount.FmsAdminAccountTimeouts",
+		"@cdktn/provider-aws.fmsAdminAccount.FmsAdminAccountTimeouts",
 		reflect.TypeOf((*FmsAdminAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fmsAdminAccount.FmsAdminAccountTimeoutsOutputReference",
+		"@cdktn/provider-aws.fmsAdminAccount.FmsAdminAccountTimeoutsOutputReference",
 		reflect.TypeOf((*FmsAdminAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

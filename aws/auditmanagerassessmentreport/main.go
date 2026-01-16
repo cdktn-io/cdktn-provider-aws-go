@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		reflect.TypeOf((*AuditmanagerAssessmentReport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReportConfig",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReportConfig",
 		reflect.TypeOf((*AuditmanagerAssessmentReportConfig)(nil)).Elem(),
 	)
 }

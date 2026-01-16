@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		reflect.TypeOf((*GlueDataQualityRuleset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetConfig",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetConfig",
 		reflect.TypeOf((*GlueDataQualityRulesetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetTargetTable",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetTargetTable",
 		reflect.TypeOf((*GlueDataQualityRulesetTargetTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetTargetTableOutputReference",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRulesetTargetTableOutputReference",
 		reflect.TypeOf((*GlueDataQualityRulesetTargetTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},

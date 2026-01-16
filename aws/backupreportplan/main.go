@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlan",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlan",
 		reflect.TypeOf((*BackupReportPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanConfig",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanConfig",
 		reflect.TypeOf((*BackupReportPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannel",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannel",
 		reflect.TypeOf((*BackupReportPlanReportDeliveryChannel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportDeliveryChannelOutputReference",
 		reflect.TypeOf((*BackupReportPlanReportDeliveryChannelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportSetting",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportSetting",
 		reflect.TypeOf((*BackupReportPlanReportSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.backupReportPlan.BackupReportPlanReportSettingOutputReference",
 		reflect.TypeOf((*BackupReportPlanReportSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},

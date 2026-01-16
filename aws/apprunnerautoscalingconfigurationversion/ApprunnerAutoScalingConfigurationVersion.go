@@ -5,14 +5,14 @@ package apprunnerautoscalingconfigurationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apprunnerautoscalingconfigurationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnerautoscalingconfigurationversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version}.
 type ApprunnerAutoScalingConfigurationVersion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version} Resource.
 func NewApprunnerAutoScalingConfigurationVersion(scope constructs.Construct, id *string, config *ApprunnerAutoScalingConfigurationVersionConfig) ApprunnerAutoScalingConfigurationVersion {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewApprunnerAutoScalingConfigurationVersion(scope constructs.Construct, id 
 	j := jsiiProxy_ApprunnerAutoScalingConfigurationVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewApprunnerAutoScalingConfigurationVersion(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_auto_scaling_configuration_version aws_apprunner_auto_scaling_configuration_version} Resource.
 func NewApprunnerAutoScalingConfigurationVersion_Override(a ApprunnerAutoScalingConfigurationVersion, scope constructs.Construct, id *string, config *ApprunnerAutoScalingConfigurationVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -738,7 +738,7 @@ func ApprunnerAutoScalingConfigurationVersion_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -773,7 +773,7 @@ func ApprunnerAutoScalingConfigurationVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func ApprunnerAutoScalingConfigurationVersion_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func ApprunnerAutoScalingConfigurationVersion_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func ApprunnerAutoScalingConfigurationVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
+		"@cdktn/provider-aws.apprunnerAutoScalingConfigurationVersion.ApprunnerAutoScalingConfigurationVersion",
 		"tfResourceType",
 		&returns,
 	)

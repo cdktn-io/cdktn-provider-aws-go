@@ -5,9 +5,9 @@ package auditmanagerassessment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagerassessment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagerassessment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAuditmanagerAssessmentRolesOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_AuditmanagerAssessmentRolesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessment.AuditmanagerAssessmentRolesOutputReference",
+		"@cdktn/provider-aws.auditmanagerAssessment.AuditmanagerAssessmentRolesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAuditmanagerAssessmentRolesOutputReference_Override(a AuditmanagerAssess
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessment.AuditmanagerAssessmentRolesOutputReference",
+		"@cdktn/provider-aws.auditmanagerAssessment.AuditmanagerAssessmentRolesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

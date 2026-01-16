@@ -5,14 +5,14 @@ package ec2capacityblockreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2capacityblockreservation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2capacityblockreservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation}.
 type Ec2CapacityBlockReservation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_Ec2CapacityBlockReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation} Resource.
 func NewEc2CapacityBlockReservation(scope constructs.Construct, id *string, config *Ec2CapacityBlockReservationConfig) Ec2CapacityBlockReservation {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewEc2CapacityBlockReservation(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_Ec2CapacityBlockReservation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewEc2CapacityBlockReservation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_capacity_block_reservation aws_ec2_capacity_block_reservation} Resource.
 func NewEc2CapacityBlockReservation_Override(e Ec2CapacityBlockReservation, scope constructs.Construct, id *string, config *Ec2CapacityBlockReservationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -720,7 +720,7 @@ func Ec2CapacityBlockReservation_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -755,7 +755,7 @@ func Ec2CapacityBlockReservation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func Ec2CapacityBlockReservation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func Ec2CapacityBlockReservation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func Ec2CapacityBlockReservation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
+		"@cdktn/provider-aws.ec2CapacityBlockReservation.Ec2CapacityBlockReservation",
 		"tfResourceType",
 		&returns,
 	)

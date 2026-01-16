@@ -5,14 +5,14 @@ package securityhubinsight
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubinsight/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubinsight/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_insight aws_securityhub_insight}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_insight aws_securityhub_insight}.
 type SecurityhubInsight interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SecurityhubInsight) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
 func NewSecurityhubInsight(scope constructs.Construct, id *string, config *SecurityhubInsightConfig) SecurityhubInsight {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewSecurityhubInsight(scope constructs.Construct, id *string, config *Secur
 	j := jsiiProxy_SecurityhubInsight{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewSecurityhubInsight(scope constructs.Construct, id *string, config *Secur
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
 func NewSecurityhubInsight_Override(s SecurityhubInsight, scope constructs.Construct, id *string, config *SecurityhubInsightConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func SecurityhubInsight_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func SecurityhubInsight_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func SecurityhubInsight_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func SecurityhubInsight_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func SecurityhubInsight_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsight",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsight",
 		"tfResourceType",
 		&returns,
 	)

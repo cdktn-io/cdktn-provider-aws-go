@@ -5,14 +5,14 @@ package s3controlaccessgrantsinstanceresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlaccessgrantsinstanceresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlaccessgrantsinstanceresourcepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy}.
 type S3ControlAccessGrantsInstanceResourcePolicy interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsInstanceResourcePolicy) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
 func NewS3ControlAccessGrantsInstanceResourcePolicy(scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceResourcePolicyConfig) S3ControlAccessGrantsInstanceResourcePolicy {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewS3ControlAccessGrantsInstanceResourcePolicy(scope constructs.Construct, 
 	j := jsiiProxy_S3ControlAccessGrantsInstanceResourcePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewS3ControlAccessGrantsInstanceResourcePolicy(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance_resource_policy aws_s3control_access_grants_instance_resource_policy} Resource.
 func NewS3ControlAccessGrantsInstanceResourcePolicy_Override(s S3ControlAccessGrantsInstanceResourcePolicy, scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceResourcePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -508,7 +508,7 @@ func S3ControlAccessGrantsInstanceResourcePolicy_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func S3ControlAccessGrantsInstanceResourcePolicy_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func S3ControlAccessGrantsInstanceResourcePolicy_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func S3ControlAccessGrantsInstanceResourcePolicy_IsTerraformResource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func S3ControlAccessGrantsInstanceResourcePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		"tfResourceType",
 		&returns,
 	)

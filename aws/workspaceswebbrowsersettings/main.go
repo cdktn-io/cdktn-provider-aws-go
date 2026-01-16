@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettings",
 		reflect.TypeOf((*WorkspaceswebBrowserSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettingsConfig",
+		"@cdktn/provider-aws.workspaceswebBrowserSettings.WorkspaceswebBrowserSettingsConfig",
 		reflect.TypeOf((*WorkspaceswebBrowserSettingsConfig)(nil)).Elem(),
 	)
 }

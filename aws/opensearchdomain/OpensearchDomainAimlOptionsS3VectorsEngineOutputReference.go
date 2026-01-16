@@ -5,9 +5,9 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewOpensearchDomainAimlOptionsS3VectorsEngineOutputReference(terraformResou
 	j := jsiiProxy_OpensearchDomainAimlOptionsS3VectorsEngineOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainAimlOptionsS3VectorsEngineOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainAimlOptionsS3VectorsEngineOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewOpensearchDomainAimlOptionsS3VectorsEngineOutputReference_Override(o Ope
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainAimlOptionsS3VectorsEngineOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainAimlOptionsS3VectorsEngineOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

@@ -5,14 +5,14 @@ package pinpointapnssandboxchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointapnssandboxchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointapnssandboxchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel}.
 type PinpointApnsSandboxChannel interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_PinpointApnsSandboxChannel) TokenKeyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
 func NewPinpointApnsSandboxChannel(scope constructs.Construct, id *string, config *PinpointApnsSandboxChannelConfig) PinpointApnsSandboxChannel {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewPinpointApnsSandboxChannel(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_PinpointApnsSandboxChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -567,12 +567,12 @@ func NewPinpointApnsSandboxChannel(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_sandbox_channel aws_pinpoint_apns_sandbox_channel} Resource.
 func NewPinpointApnsSandboxChannel_Override(p PinpointApnsSandboxChannel, scope constructs.Construct, id *string, config *PinpointApnsSandboxChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -777,7 +777,7 @@ func PinpointApnsSandboxChannel_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func PinpointApnsSandboxChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func PinpointApnsSandboxChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func PinpointApnsSandboxChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func PinpointApnsSandboxChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsSandboxChannel.PinpointApnsSandboxChannel",
 		"tfResourceType",
 		&returns,
 	)

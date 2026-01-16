@@ -5,9 +5,9 @@ package ssmmaintenancewindowtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmmaintenancewindowtask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmmaintenancewindowtask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewSsmMaintenanceWindowTaskTaskInvocationParametersOutputReference(terrafor
 	j := jsiiProxy_SsmMaintenanceWindowTaskTaskInvocationParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTaskInvocationParametersOutputReference",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTaskInvocationParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewSsmMaintenanceWindowTaskTaskInvocationParametersOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTaskInvocationParametersOutputReference",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTask.SsmMaintenanceWindowTaskTaskInvocationParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

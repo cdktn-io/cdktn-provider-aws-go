@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerConnections.DataAwsNetworkmanagerConnections",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerConnections.DataAwsNetworkmanagerConnections",
 		reflect.TypeOf((*DataAwsNetworkmanagerConnections)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerConnections.DataAwsNetworkmanagerConnectionsConfig",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerConnections.DataAwsNetworkmanagerConnectionsConfig",
 		reflect.TypeOf((*DataAwsNetworkmanagerConnectionsConfig)(nil)).Elem(),
 	)
 }

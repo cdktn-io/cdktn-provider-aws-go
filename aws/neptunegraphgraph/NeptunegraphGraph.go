@@ -5,14 +5,14 @@ package neptunegraphgraph
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptunegraphgraph/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptunegraphgraph/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph}.
 type NeptunegraphGraph interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_NeptunegraphGraph) VectorSearchConfigurationInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) NeptunegraphGraph {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *Neptun
 	j := jsiiProxy_NeptunegraphGraph{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *Neptun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph_Override(n NeptunegraphGraph, scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -799,7 +799,7 @@ func NeptunegraphGraph_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func NeptunegraphGraph_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func NeptunegraphGraph_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func NeptunegraphGraph_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func NeptunegraphGraph_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		"tfResourceType",
 		&returns,
 	)

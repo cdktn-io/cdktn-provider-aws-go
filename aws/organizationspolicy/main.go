@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.organizationsPolicy.OrganizationsPolicy",
+		"@cdktn/provider-aws.organizationsPolicy.OrganizationsPolicy",
 		reflect.TypeOf((*OrganizationsPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.organizationsPolicy.OrganizationsPolicyConfig",
+		"@cdktn/provider-aws.organizationsPolicy.OrganizationsPolicyConfig",
 		reflect.TypeOf((*OrganizationsPolicyConfig)(nil)).Elem(),
 	)
 }

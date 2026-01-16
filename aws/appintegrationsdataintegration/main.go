@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegration",
+		"@cdktn/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegration",
 		reflect.TypeOf((*AppintegrationsDataIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationConfig",
+		"@cdktn/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationConfig",
 		reflect.TypeOf((*AppintegrationsDataIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig",
+		"@cdktn/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfig",
 		reflect.TypeOf((*AppintegrationsDataIntegrationScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfigOutputReference",
+		"@cdktn/provider-aws.appintegrationsDataIntegration.AppintegrationsDataIntegrationScheduleConfigOutputReference",
 		reflect.TypeOf((*AppintegrationsDataIntegrationScheduleConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

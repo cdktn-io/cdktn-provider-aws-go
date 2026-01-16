@@ -5,9 +5,9 @@ package dataawsebsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsebsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsebsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsEbsVolumeFilterList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_DataAwsEbsVolumeFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeFilterList",
+		"@cdktn/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsEbsVolumeFilterList_Override(d DataAwsEbsVolumeFilterList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeFilterList",
+		"@cdktn/provider-aws.dataAwsEbsVolume.DataAwsEbsVolumeFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

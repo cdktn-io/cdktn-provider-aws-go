@@ -5,9 +5,9 @@ package codeconnectionshost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codeconnectionshost/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codeconnectionshost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCodeconnectionsHostTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_CodeconnectionsHostTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCodeconnectionsHostTimeoutsOutputReference_Override(c CodeconnectionsHos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
+		"@cdktn/provider-aws.codeconnectionsHost.CodeconnectionsHostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

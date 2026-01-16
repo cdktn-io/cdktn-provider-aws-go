@@ -5,14 +5,14 @@ package accountprimarycontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/accountprimarycontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accountprimarycontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_primary_contact aws_account_primary_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_primary_contact aws_account_primary_contact}.
 type AccountPrimaryContact interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_AccountPrimaryContact) WebsiteUrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
 func NewAccountPrimaryContact(scope constructs.Construct, id *string, config *AccountPrimaryContactConfig) AccountPrimaryContact {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewAccountPrimaryContact(scope constructs.Construct, id *string, config *Ac
 	j := jsiiProxy_AccountPrimaryContact{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -634,12 +634,12 @@ func NewAccountPrimaryContact(scope constructs.Construct, id *string, config *Ac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_primary_contact aws_account_primary_contact} Resource.
 func NewAccountPrimaryContact_Override(a AccountPrimaryContact, scope constructs.Construct, id *string, config *AccountPrimaryContactConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -877,7 +877,7 @@ func AccountPrimaryContact_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -912,7 +912,7 @@ func AccountPrimaryContact_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +931,7 @@ func AccountPrimaryContact_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -950,7 +950,7 @@ func AccountPrimaryContact_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -963,7 +963,7 @@ func AccountPrimaryContact_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.accountPrimaryContact.AccountPrimaryContact",
+		"@cdktn/provider-aws.accountPrimaryContact.AccountPrimaryContact",
 		"tfResourceType",
 		&returns,
 	)

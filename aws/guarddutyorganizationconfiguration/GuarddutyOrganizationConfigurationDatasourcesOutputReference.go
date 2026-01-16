@@ -5,9 +5,9 @@ package guarddutyorganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutyorganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutyorganizationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewGuarddutyOrganizationConfigurationDatasourcesOutputReference(terraformRe
 	j := jsiiProxy_GuarddutyOrganizationConfigurationDatasourcesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesOutputReference",
+		"@cdktn/provider-aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewGuarddutyOrganizationConfigurationDatasourcesOutputReference_Override(g 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesOutputReference",
+		"@cdktn/provider-aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

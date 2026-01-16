@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.syntheticsGroupAssociation.SyntheticsGroupAssociation",
+		"@cdktn/provider-aws.syntheticsGroupAssociation.SyntheticsGroupAssociation",
 		reflect.TypeOf((*SyntheticsGroupAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.syntheticsGroupAssociation.SyntheticsGroupAssociationConfig",
+		"@cdktn/provider-aws.syntheticsGroupAssociation.SyntheticsGroupAssociationConfig",
 		reflect.TypeOf((*SyntheticsGroupAssociationConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		reflect.TypeOf((*OpensearchPackageAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationConfig",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationConfig",
 		reflect.TypeOf((*OpensearchPackageAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeouts",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeouts",
 		reflect.TypeOf((*OpensearchPackageAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchPackageAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

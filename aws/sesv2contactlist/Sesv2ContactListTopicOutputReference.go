@@ -5,9 +5,9 @@ package sesv2contactlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2contactlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2contactlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewSesv2ContactListTopicOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_Sesv2ContactListTopicOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewSesv2ContactListTopicOutputReference_Override(s Sesv2ContactListTopicOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
+		"@cdktn/provider-aws.sesv2ContactList.Sesv2ContactListTopicOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

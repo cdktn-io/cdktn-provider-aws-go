@@ -5,9 +5,9 @@ package memorydbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMemorydbParameterGroupParameterOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_MemorydbParameterGroupParameterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMemorydbParameterGroupParameterOutputReference_Override(m MemorydbParame
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.memorydbParameterGroup.MemorydbParameterGroupParameterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

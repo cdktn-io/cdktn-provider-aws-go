@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultVpc.DefaultVpc",
+		"@cdktn/provider-aws.defaultVpc.DefaultVpc",
 		reflect.TypeOf((*DefaultVpc)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultVpc.DefaultVpcConfig",
+		"@cdktn/provider-aws.defaultVpc.DefaultVpcConfig",
 		reflect.TypeOf((*DefaultVpcConfig)(nil)).Elem(),
 	)
 }

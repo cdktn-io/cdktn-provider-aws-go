@@ -5,14 +5,14 @@ package elastictranscoderpreset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elastictranscoderpreset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset}.
 type ElastictranscoderPreset interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_ElastictranscoderPreset) VideoWatermarksInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
 func NewElastictranscoderPreset(scope constructs.Construct, id *string, config *ElastictranscoderPresetConfig) ElastictranscoderPreset {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewElastictranscoderPreset(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ElastictranscoderPreset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,12 +602,12 @@ func NewElastictranscoderPreset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
 func NewElastictranscoderPreset_Override(e ElastictranscoderPreset, scope constructs.Construct, id *string, config *ElastictranscoderPresetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -768,7 +768,7 @@ func ElastictranscoderPreset_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -803,7 +803,7 @@ func ElastictranscoderPreset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +822,7 @@ func ElastictranscoderPreset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func ElastictranscoderPreset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func ElastictranscoderPreset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		"tfResourceType",
 		&returns,
 	)

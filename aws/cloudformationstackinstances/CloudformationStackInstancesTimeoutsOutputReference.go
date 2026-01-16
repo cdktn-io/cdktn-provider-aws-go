@@ -5,9 +5,9 @@ package cloudformationstackinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationstackinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationstackinstances/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCloudformationStackInstancesTimeoutsOutputReference(terraformResource cd
 	j := jsiiProxy_CloudformationStackInstancesTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackInstances.CloudformationStackInstancesTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudformationStackInstances.CloudformationStackInstancesTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCloudformationStackInstancesTimeoutsOutputReference_Override(c Cloudform
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationStackInstances.CloudformationStackInstancesTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudformationStackInstances.CloudformationStackInstancesTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

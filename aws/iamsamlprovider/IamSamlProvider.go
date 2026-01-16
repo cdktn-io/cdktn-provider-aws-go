@@ -5,14 +5,14 @@ package iamsamlprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamsamlprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamsamlprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_saml_provider aws_iam_saml_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_saml_provider aws_iam_saml_provider}.
 type IamSamlProvider interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -65,6 +65,7 @@ type IamSamlProvider interface {
 	SamlMetadataDocument() *string
 	SetSamlMetadataDocument(val *string)
 	SamlMetadataDocumentInput() *string
+	SamlProviderUuid() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -345,6 +346,16 @@ func (j *jsiiProxy_IamSamlProvider) SamlMetadataDocumentInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_IamSamlProvider) SamlProviderUuid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"samlProviderUuid",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IamSamlProvider) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -426,7 +437,7 @@ func (j *jsiiProxy_IamSamlProvider) ValidUntil() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_saml_provider aws_iam_saml_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_saml_provider aws_iam_saml_provider} Resource.
 func NewIamSamlProvider(scope constructs.Construct, id *string, config *IamSamlProviderConfig) IamSamlProvider {
 	_init_.Initialize()
 
@@ -436,7 +447,7 @@ func NewIamSamlProvider(scope constructs.Construct, id *string, config *IamSamlP
 	j := jsiiProxy_IamSamlProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +455,12 @@ func NewIamSamlProvider(scope constructs.Construct, id *string, config *IamSamlP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_saml_provider aws_iam_saml_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_saml_provider aws_iam_saml_provider} Resource.
 func NewIamSamlProvider_Override(i IamSamlProvider, scope constructs.Construct, id *string, config *IamSamlProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -588,7 +599,7 @@ func IamSamlProvider_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +634,7 @@ func IamSamlProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +653,7 @@ func IamSamlProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +672,7 @@ func IamSamlProvider_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +685,7 @@ func IamSamlProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamSamlProvider.IamSamlProvider",
+		"@cdktn/provider-aws.iamSamlProvider.IamSamlProvider",
 		"tfResourceType",
 		&returns,
 	)

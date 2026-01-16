@@ -5,14 +5,14 @@ package datasynclocationfsxontapfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationfsxontapfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationfsxontapfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system}.
 type DatasyncLocationFsxOntapFileSystem interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntapFileSystem) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
 func NewDatasyncLocationFsxOntapFileSystem(scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapFileSystemConfig) DatasyncLocationFsxOntapFileSystem {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewDatasyncLocationFsxOntapFileSystem(scope constructs.Construct, id *strin
 	j := jsiiProxy_DatasyncLocationFsxOntapFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewDatasyncLocationFsxOntapFileSystem(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_fsx_ontap_file_system aws_datasync_location_fsx_ontap_file_system} Resource.
 func NewDatasyncLocationFsxOntapFileSystem_Override(d DatasyncLocationFsxOntapFileSystem, scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -703,7 +703,7 @@ func DatasyncLocationFsxOntapFileSystem_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func DatasyncLocationFsxOntapFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func DatasyncLocationFsxOntapFileSystem_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func DatasyncLocationFsxOntapFileSystem_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func DatasyncLocationFsxOntapFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
+		"@cdktn/provider-aws.datasyncLocationFsxOntapFileSystem.DatasyncLocationFsxOntapFileSystem",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53HealthCheck.Route53HealthCheck",
+		"@cdktn/provider-aws.route53HealthCheck.Route53HealthCheck",
 		reflect.TypeOf((*Route53HealthCheck)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53HealthCheck.Route53HealthCheckConfig",
+		"@cdktn/provider-aws.route53HealthCheck.Route53HealthCheckConfig",
 		reflect.TypeOf((*Route53HealthCheckConfig)(nil)).Elem(),
 	)
 }

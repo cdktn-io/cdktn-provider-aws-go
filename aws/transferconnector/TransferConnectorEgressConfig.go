@@ -7,7 +7,7 @@ package transferconnector
 type TransferConnectorEgressConfig struct {
 	// vpc_lattice block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}
 	VpcLattice *TransferConnectorEgressConfigVpcLattice `field:"optional" json:"vpcLattice" yaml:"vpcLattice"`
 }
 

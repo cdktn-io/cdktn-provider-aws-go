@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKey",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKey",
 		reflect.TypeOf((*Wafv2ApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafv2ApiKey.Wafv2ApiKeyConfig",
+		"@cdktn/provider-aws.wafv2ApiKey.Wafv2ApiKeyConfig",
 		reflect.TypeOf((*Wafv2ApiKeyConfig)(nil)).Elem(),
 	)
 }

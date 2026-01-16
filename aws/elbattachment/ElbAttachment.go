@@ -5,14 +5,14 @@ package elbattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elbattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elbattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb_attachment aws_elb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb_attachment aws_elb_attachment}.
 type ElbAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_ElbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachmentConfig) ElbAttachment {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachm
 	j := jsiiProxy_ElbAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewElbAttachment(scope constructs.Construct, id *string, config *ElbAttachm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb_attachment aws_elb_attachment} Resource.
 func NewElbAttachment_Override(e ElbAttachment, scope constructs.Construct, id *string, config *ElbAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -531,7 +531,7 @@ func ElbAttachment_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func ElbAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func ElbAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func ElbAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func ElbAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elbAttachment.ElbAttachment",
+		"@cdktn/provider-aws.elbAttachment.ElbAttachment",
 		"tfResourceType",
 		&returns,
 	)

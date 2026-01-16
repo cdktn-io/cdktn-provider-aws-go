@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicy",
 		reflect.TypeOf((*XrayResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.xrayResourcePolicy.XrayResourcePolicyConfig",
+		"@cdktn/provider-aws.xrayResourcePolicy.XrayResourcePolicyConfig",
 		reflect.TypeOf((*XrayResourcePolicyConfig)(nil)).Elem(),
 	)
 }

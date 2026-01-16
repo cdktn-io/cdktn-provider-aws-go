@@ -5,9 +5,9 @@ package devopsguruserviceintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devopsguruserviceintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devopsguruserviceintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDevopsguruServiceIntegrationLogsAnomalyDetectionList(terraformResource c
 	j := jsiiProxy_DevopsguruServiceIntegrationLogsAnomalyDetectionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetectionList",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetectionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDevopsguruServiceIntegrationLogsAnomalyDetectionList_Override(d Devopsgu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetectionList",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegrationLogsAnomalyDetectionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -5,9 +5,9 @@ package cognitouserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCognitoUserPoolClientRefreshTokenRotationList(terraformResource cdktf.II
 	j := jsiiProxy_CognitoUserPoolClientRefreshTokenRotationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCognitoUserPoolClientRefreshTokenRotationList_Override(c CognitoUserPool
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

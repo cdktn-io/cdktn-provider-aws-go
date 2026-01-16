@@ -5,14 +5,14 @@ package dataawsneptuneorderabledbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsneptuneorderabledbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsneptuneorderabledbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance}.
 type DataAwsNeptuneOrderableDbInstance interface {
 	cdktf.TerraformDataSource
 	AvailabilityZones() *[]*string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_DataAwsNeptuneOrderableDbInstance) VpcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance} Data Source.
 func NewDataAwsNeptuneOrderableDbInstance(scope constructs.Construct, id *string, config *DataAwsNeptuneOrderableDbInstanceConfig) DataAwsNeptuneOrderableDbInstance {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewDataAwsNeptuneOrderableDbInstance(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAwsNeptuneOrderableDbInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -616,12 +616,12 @@ func NewDataAwsNeptuneOrderableDbInstance(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/neptune_orderable_db_instance aws_neptune_orderable_db_instance} Data Source.
 func NewDataAwsNeptuneOrderableDbInstance_Override(d DataAwsNeptuneOrderableDbInstance, scope constructs.Construct, id *string, config *DataAwsNeptuneOrderableDbInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -771,7 +771,7 @@ func DataAwsNeptuneOrderableDbInstance_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -806,7 +806,7 @@ func DataAwsNeptuneOrderableDbInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func DataAwsNeptuneOrderableDbInstance_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func DataAwsNeptuneOrderableDbInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func DataAwsNeptuneOrderableDbInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsNeptuneOrderableDbInstance.DataAwsNeptuneOrderableDbInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package rekognitionstreamprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRekognitionStreamProcessorTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_RekognitionStreamProcessorTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRekognitionStreamProcessorTimeoutsOutputReference_Override(r Rekognition
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

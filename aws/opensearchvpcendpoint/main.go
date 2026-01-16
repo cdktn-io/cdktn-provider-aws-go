@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpoint",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpoint",
 		reflect.TypeOf((*OpensearchVpcEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointConfig",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointConfig",
 		reflect.TypeOf((*OpensearchVpcEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeouts",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeouts",
 		reflect.TypeOf((*OpensearchVpcEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchVpcEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointVpcOptions",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointVpcOptions",
 		reflect.TypeOf((*OpensearchVpcEndpointVpcOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointVpcOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchVpcEndpoint.OpensearchVpcEndpointVpcOptionsOutputReference",
 		reflect.TypeOf((*OpensearchVpcEndpointVpcOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},

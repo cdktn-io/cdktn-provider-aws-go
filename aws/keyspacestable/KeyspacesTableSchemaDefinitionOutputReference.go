@@ -5,9 +5,9 @@ package keyspacestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/keyspacestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspacestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewKeyspacesTableSchemaDefinitionOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_KeyspacesTableSchemaDefinitionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionOutputReference",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewKeyspacesTableSchemaDefinitionOutputReference_Override(k KeyspacesTableS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionOutputReference",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

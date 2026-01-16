@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucket",
+		"@cdktn/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucket",
 		reflect.TypeOf((*S3VectorsVectorBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketConfig",
+		"@cdktn/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketConfig",
 		reflect.TypeOf((*S3VectorsVectorBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfiguration",
+		"@cdktn/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfiguration",
 		reflect.TypeOf((*S3VectorsVectorBucketEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfigurationList",
+		"@cdktn/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfigurationList",
 		reflect.TypeOf((*S3VectorsVectorBucketEncryptionConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.s3VectorsVectorBucket.S3VectorsVectorBucketEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*S3VectorsVectorBucketEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package securityhubinsight
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhubinsight/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubinsight/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSecurityhubInsightFiltersNoteUpdatedByOutputReference(terraformResource 
 	j := jsiiProxy_SecurityhubInsightFiltersNoteUpdatedByOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSecurityhubInsightFiltersNoteUpdatedByOutputReference_Override(s Securit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
+		"@cdktn/provider-aws.securityhubInsight.SecurityhubInsightFiltersNoteUpdatedByOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

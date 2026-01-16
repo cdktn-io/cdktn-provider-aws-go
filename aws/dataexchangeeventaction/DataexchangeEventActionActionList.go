@@ -5,9 +5,9 @@ package dataexchangeeventaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataexchangeeventaction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataexchangeeventaction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataexchangeEventActionActionList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DataexchangeEventActionActionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataexchangeEventActionActionList_Override(d DataexchangeEventActionActi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2DedicatedIpPool.Sesv2DedicatedIpPool",
+		"@cdktn/provider-aws.sesv2DedicatedIpPool.Sesv2DedicatedIpPool",
 		reflect.TypeOf((*Sesv2DedicatedIpPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2DedicatedIpPool.Sesv2DedicatedIpPoolConfig",
+		"@cdktn/provider-aws.sesv2DedicatedIpPool.Sesv2DedicatedIpPoolConfig",
 		reflect.TypeOf((*Sesv2DedicatedIpPoolConfig)(nil)).Elem(),
 	)
 }

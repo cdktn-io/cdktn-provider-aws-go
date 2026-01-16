@@ -5,14 +5,14 @@ package dataawswafregionalsubscribedrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafregionalsubscribedrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafregionalsubscribedrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group}.
 type DataAwsWafregionalSubscribedRuleGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -337,7 +337,7 @@ func (j *jsiiProxy_DataAwsWafregionalSubscribedRuleGroup) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group} Data Source.
 func NewDataAwsWafregionalSubscribedRuleGroup(scope constructs.Construct, id *string, config *DataAwsWafregionalSubscribedRuleGroupConfig) DataAwsWafregionalSubscribedRuleGroup {
 	_init_.Initialize()
 
@@ -347,7 +347,7 @@ func NewDataAwsWafregionalSubscribedRuleGroup(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAwsWafregionalSubscribedRuleGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -355,12 +355,12 @@ func NewDataAwsWafregionalSubscribedRuleGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafregional_subscribed_rule_group aws_wafregional_subscribed_rule_group} Data Source.
 func NewDataAwsWafregionalSubscribedRuleGroup_Override(d DataAwsWafregionalSubscribedRuleGroup, scope constructs.Construct, id *string, config *DataAwsWafregionalSubscribedRuleGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -466,7 +466,7 @@ func DataAwsWafregionalSubscribedRuleGroup_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsWafregionalSubscribedRuleGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func DataAwsWafregionalSubscribedRuleGroup_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsWafregionalSubscribedRuleGroup_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsWafregionalSubscribedRuleGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
+		"@cdktn/provider-aws.dataAwsWafregionalSubscribedRuleGroup.DataAwsWafregionalSubscribedRuleGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package route53recoveryreadinesscell
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoveryreadinesscell/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoveryreadinesscell/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell}.
 type Route53RecoveryreadinessCell interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessCell) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
 func NewRoute53RecoveryreadinessCell(scope constructs.Construct, id *string, config *Route53RecoveryreadinessCellConfig) Route53RecoveryreadinessCell {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewRoute53RecoveryreadinessCell(scope constructs.Construct, id *string, con
 	j := jsiiProxy_Route53RecoveryreadinessCell{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewRoute53RecoveryreadinessCell(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
 func NewRoute53RecoveryreadinessCell_Override(r Route53RecoveryreadinessCell, scope constructs.Construct, id *string, config *Route53RecoveryreadinessCellConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -613,7 +613,7 @@ func Route53RecoveryreadinessCell_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func Route53RecoveryreadinessCell_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func Route53RecoveryreadinessCell_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func Route53RecoveryreadinessCell_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func Route53RecoveryreadinessCell_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
+		"@cdktn/provider-aws.route53RecoveryreadinessCell.Route53RecoveryreadinessCell",
 		"tfResourceType",
 		&returns,
 	)

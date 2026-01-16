@@ -5,9 +5,9 @@ package dataawsec2coippool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2coippool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2coippool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsEc2CoipPoolFilterOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsEc2CoipPoolFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsEc2CoipPoolFilterOutputReference_Override(d DataAwsEc2CoipPoolFil
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

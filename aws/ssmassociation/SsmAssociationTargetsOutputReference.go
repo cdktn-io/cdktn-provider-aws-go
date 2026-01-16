@@ -5,9 +5,9 @@ package ssmassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSsmAssociationTargetsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_SsmAssociationTargetsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSsmAssociationTargetsOutputReference_Override(s SsmAssociationTargetsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
+		"@cdktn/provider-aws.ssmAssociation.SsmAssociationTargetsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

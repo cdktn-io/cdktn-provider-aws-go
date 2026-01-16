@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicecatalogappregistryApplication.ServicecatalogappregistryApplication",
+		"@cdktn/provider-aws.servicecatalogappregistryApplication.ServicecatalogappregistryApplication",
 		reflect.TypeOf((*ServicecatalogappregistryApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig",
+		"@cdktn/provider-aws.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig",
 		reflect.TypeOf((*ServicecatalogappregistryApplicationConfig)(nil)).Elem(),
 	)
 }

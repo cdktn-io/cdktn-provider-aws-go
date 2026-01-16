@@ -5,9 +5,9 @@ package s3tablestablereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestablereplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestablereplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3TablesTableReplicationRuleDestinationList(terraformResource cdktf.IInt
 	j := jsiiProxy_S3TablesTableReplicationRuleDestinationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3TablesTableReplicationRuleDestinationList_Override(s S3TablesTableRepl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

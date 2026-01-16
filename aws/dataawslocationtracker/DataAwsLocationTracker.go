@@ -5,14 +5,14 @@ package dataawslocationtracker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslocationtracker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslocationtracker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker aws_location_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker aws_location_tracker}.
 type DataAwsLocationTracker interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsLocationTracker) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker aws_location_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker aws_location_tracker} Data Source.
 func NewDataAwsLocationTracker(scope constructs.Construct, id *string, config *DataAwsLocationTrackerConfig) DataAwsLocationTracker {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsLocationTracker(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsLocationTracker{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAwsLocationTracker(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker aws_location_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker aws_location_tracker} Data Source.
 func NewDataAwsLocationTracker_Override(d DataAwsLocationTracker, scope constructs.Construct, id *string, config *DataAwsLocationTrackerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAwsLocationTracker_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsLocationTracker_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsLocationTracker_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsLocationTracker_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsLocationTracker_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
+		"@cdktn/provider-aws.dataAwsLocationTracker.DataAwsLocationTracker",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package ssoadmincustomermanagedpolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadmincustomermanagedpolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadmincustomermanagedpolicyattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOut
 	j := jsiiProxy_SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminCustomerManagedPolicyAttachment.SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference",
+		"@cdktn/provider-aws.ssoadminCustomerManagedPolicyAttachment.SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminCustomerManagedPolicyAttachment.SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference",
+		"@cdktn/provider-aws.ssoadminCustomerManagedPolicyAttachment.SsoadminCustomerManagedPolicyAttachmentCustomerManagedPolicyReferenceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

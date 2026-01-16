@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSync",
 		reflect.TypeOf((*SsmResourceDataSync)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSyncConfig",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSyncConfig",
 		reflect.TypeOf((*SsmResourceDataSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3Destination",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3Destination",
 		reflect.TypeOf((*SsmResourceDataSyncS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
+		"@cdktn/provider-aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationOutputReference",
 		reflect.TypeOf((*SsmResourceDataSyncS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},

@@ -5,9 +5,9 @@ package emrmanagedscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrmanagedscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrmanagedscalingpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEmrManagedScalingPolicyComputeLimitsList(terraformResource cdktf.IInterp
 	j := jsiiProxy_EmrManagedScalingPolicyComputeLimitsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimitsList",
+		"@cdktn/provider-aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEmrManagedScalingPolicyComputeLimitsList_Override(e EmrManagedScalingPol
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimitsList",
+		"@cdktn/provider-aws.emrManagedScalingPolicy.EmrManagedScalingPolicyComputeLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

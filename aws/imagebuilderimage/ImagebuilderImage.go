@@ -5,14 +5,14 @@ package imagebuilderimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuilderimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuilderimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image aws_imagebuilder_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image aws_imagebuilder_image}.
 type ImagebuilderImage interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -70,6 +70,8 @@ type ImagebuilderImage interface {
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	LoggingConfiguration() ImagebuilderImageLoggingConfigurationOutputReference
+	LoggingConfigurationInput() *ImagebuilderImageLoggingConfiguration
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -151,6 +153,7 @@ type ImagebuilderImage interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutImageScanningConfiguration(value *ImagebuilderImageImageScanningConfiguration)
 	PutImageTestsConfiguration(value *ImagebuilderImageImageTestsConfiguration)
+	PutLoggingConfiguration(value *ImagebuilderImageLoggingConfiguration)
 	PutTimeouts(value *ImagebuilderImageTimeouts)
 	PutWorkflow(value interface{})
 	ResetContainerRecipeArn()
@@ -161,6 +164,7 @@ type ImagebuilderImage interface {
 	ResetImageRecipeArn()
 	ResetImageScanningConfiguration()
 	ResetImageTestsConfiguration()
+	ResetLoggingConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -477,6 +481,26 @@ func (j *jsiiProxy_ImagebuilderImage) Lifecycle() *cdktf.TerraformResourceLifecy
 	return returns
 }
 
+func (j *jsiiProxy_ImagebuilderImage) LoggingConfiguration() ImagebuilderImageLoggingConfigurationOutputReference {
+	var returns ImagebuilderImageLoggingConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"loggingConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderImage) LoggingConfigurationInput() *ImagebuilderImageLoggingConfiguration {
+	var returns *ImagebuilderImageLoggingConfiguration
+	_jsii_.Get(
+		j,
+		"loggingConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ImagebuilderImage) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -698,7 +722,7 @@ func (j *jsiiProxy_ImagebuilderImage) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
 func NewImagebuilderImage(scope constructs.Construct, id *string, config *ImagebuilderImageConfig) ImagebuilderImage {
 	_init_.Initialize()
 
@@ -708,7 +732,7 @@ func NewImagebuilderImage(scope constructs.Construct, id *string, config *Imageb
 	j := jsiiProxy_ImagebuilderImage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -716,12 +740,12 @@ func NewImagebuilderImage(scope constructs.Construct, id *string, config *Imageb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
 func NewImagebuilderImage_Override(i ImagebuilderImage, scope constructs.Construct, id *string, config *ImagebuilderImageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -915,7 +939,7 @@ func ImagebuilderImage_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -950,7 +974,7 @@ func ImagebuilderImage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -969,7 +993,7 @@ func ImagebuilderImage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -988,7 +1012,7 @@ func ImagebuilderImage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1001,7 +1025,7 @@ func ImagebuilderImage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.imagebuilderImage.ImagebuilderImage",
+		"@cdktn/provider-aws.imagebuilderImage.ImagebuilderImage",
 		"tfResourceType",
 		&returns,
 	)
@@ -1280,6 +1304,17 @@ func (i *jsiiProxy_ImagebuilderImage) PutImageTestsConfiguration(value *Imagebui
 	)
 }
 
+func (i *jsiiProxy_ImagebuilderImage) PutLoggingConfiguration(value *ImagebuilderImageLoggingConfiguration) {
+	if err := i.validatePutLoggingConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putLoggingConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_ImagebuilderImage) PutTimeouts(value *ImagebuilderImageTimeouts) {
 	if err := i.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1362,6 +1397,14 @@ func (i *jsiiProxy_ImagebuilderImage) ResetImageTestsConfiguration() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetImageTestsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_ImagebuilderImage) ResetLoggingConfiguration() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetLoggingConfiguration",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package vpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -38,6 +38,12 @@ type VpcEndpointDnsOptionsOutputReference interface {
 	PrivateDnsOnlyForInboundResolverEndpoint() interface{}
 	SetPrivateDnsOnlyForInboundResolverEndpoint(val interface{})
 	PrivateDnsOnlyForInboundResolverEndpointInput() interface{}
+	PrivateDnsPreference() *string
+	SetPrivateDnsPreference(val *string)
+	PrivateDnsPreferenceInput() *string
+	PrivateDnsSpecifiedDomains() *[]*string
+	SetPrivateDnsSpecifiedDomains(val *[]*string)
+	PrivateDnsSpecifiedDomainsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +78,8 @@ type VpcEndpointDnsOptionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetDnsRecordIpType()
 	ResetPrivateDnsOnlyForInboundResolverEndpoint()
+	ResetPrivateDnsPreference()
+	ResetPrivateDnsSpecifiedDomains()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -177,6 +185,46 @@ func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) PrivateDnsOnlyForInboun
 	return returns
 }
 
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) PrivateDnsPreference() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsPreference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) PrivateDnsPreferenceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsPreferenceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) PrivateDnsSpecifiedDomains() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"privateDnsSpecifiedDomains",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) PrivateDnsSpecifiedDomainsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"privateDnsSpecifiedDomainsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -207,7 +255,7 @@ func NewVpcEndpointDnsOptionsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_VpcEndpointDnsOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +267,7 @@ func NewVpcEndpointDnsOptionsOutputReference_Override(v VpcEndpointDnsOptionsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -276,6 +324,28 @@ func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference)SetPrivateDnsOnlyForInbo
 	_jsii_.Set(
 		j,
 		"privateDnsOnlyForInboundResolverEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference)SetPrivateDnsPreference(val *string) {
+	if err := j.validateSetPrivateDnsPreferenceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateDnsPreference",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference)SetPrivateDnsSpecifiedDomains(val *[]*string) {
+	if err := j.validateSetPrivateDnsSpecifiedDomainsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateDnsSpecifiedDomains",
 		val,
 	)
 }
@@ -500,6 +570,22 @@ func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) ResetPrivateDnsOnlyForI
 	_jsii_.InvokeVoid(
 		v,
 		"resetPrivateDnsOnlyForInboundResolverEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) ResetPrivateDnsPreference() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetPrivateDnsPreference",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcEndpointDnsOptionsOutputReference) ResetPrivateDnsSpecifiedDomains() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetPrivateDnsSpecifiedDomains",
 		nil, // no parameters
 	)
 }

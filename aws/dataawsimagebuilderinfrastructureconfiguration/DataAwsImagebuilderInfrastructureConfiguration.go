@@ -5,14 +5,14 @@ package dataawsimagebuilderinfrastructureconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsimagebuilderinfrastructureconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsimagebuilderinfrastructureconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration}.
 type DataAwsImagebuilderInfrastructureConfiguration interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -514,7 +514,7 @@ func (j *jsiiProxy_DataAwsImagebuilderInfrastructureConfiguration) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationConfig) DataAwsImagebuilderInfrastructureConfiguration {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsImagebuilderInfrastructureConfiguration(scope constructs.Construc
 	j := jsiiProxy_DataAwsImagebuilderInfrastructureConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -532,12 +532,12 @@ func NewDataAwsImagebuilderInfrastructureConfiguration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfiguration_Override(d DataAwsImagebuilderInfrastructureConfiguration, scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -654,7 +654,7 @@ func DataAwsImagebuilderInfrastructureConfiguration_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -689,7 +689,7 @@ func DataAwsImagebuilderInfrastructureConfiguration_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func DataAwsImagebuilderInfrastructureConfiguration_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func DataAwsImagebuilderInfrastructureConfiguration_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func DataAwsImagebuilderInfrastructureConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
+		"@cdktn/provider-aws.dataAwsImagebuilderInfrastructureConfiguration.DataAwsImagebuilderInfrastructureConfiguration",
 		"tfResourceType",
 		&returns,
 	)

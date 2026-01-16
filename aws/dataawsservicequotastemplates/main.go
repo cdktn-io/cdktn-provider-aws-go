@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplates",
 		reflect.TypeOf((*DataAwsServicequotasTemplates)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,15 +63,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesConfig",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesConfig",
 		reflect.TypeOf((*DataAwsServicequotasTemplatesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplates",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplates",
 		reflect.TypeOf((*DataAwsServicequotasTemplatesTemplates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplatesList",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplatesList",
 		reflect.TypeOf((*DataAwsServicequotasTemplatesTemplatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplatesOutputReference",
+		"@cdktn/provider-aws.dataAwsServicequotasTemplates.DataAwsServicequotasTemplatesTemplatesOutputReference",
 		reflect.TypeOf((*DataAwsServicequotasTemplatesTemplatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

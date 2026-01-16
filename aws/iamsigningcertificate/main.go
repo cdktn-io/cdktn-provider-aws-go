@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificate",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificate",
 		reflect.TypeOf((*IamSigningCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iamSigningCertificate.IamSigningCertificateConfig",
+		"@cdktn/provider-aws.iamSigningCertificate.IamSigningCertificateConfig",
 		reflect.TypeOf((*IamSigningCertificateConfig)(nil)).Elem(),
 	)
 }

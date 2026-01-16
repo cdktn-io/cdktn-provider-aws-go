@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaseline",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaseline",
 		reflect.TypeOf((*SsmPatchBaseline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,11 +115,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRule",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRule",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleList",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleList",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRuleOutputReference",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approveAfterDays", GoGetter: "ApproveAfterDays"},
@@ -188,11 +188,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilter",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRulePatchFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilterList",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilterList",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRulePatchFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilterOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineApprovalRulePatchFilterOutputReference",
 		reflect.TypeOf((*SsmPatchBaselineApprovalRulePatchFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -250,15 +250,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineConfig",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineConfig",
 		reflect.TypeOf((*SsmPatchBaselineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilter",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilter",
 		reflect.TypeOf((*SsmPatchBaselineGlobalFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilterList",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilterList",
 		reflect.TypeOf((*SsmPatchBaselineGlobalFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -280,7 +280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilterOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineGlobalFilterOutputReference",
 		reflect.TypeOf((*SsmPatchBaselineGlobalFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -316,11 +316,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineSource",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineSource",
 		reflect.TypeOf((*SsmPatchBaselineSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineSourceList",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineSourceList",
 		reflect.TypeOf((*SsmPatchBaselineSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -342,7 +342,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmPatchBaseline.SsmPatchBaselineSourceOutputReference",
+		"@cdktn/provider-aws.ssmPatchBaseline.SsmPatchBaselineSourceOutputReference",
 		reflect.TypeOf((*SsmPatchBaselineSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

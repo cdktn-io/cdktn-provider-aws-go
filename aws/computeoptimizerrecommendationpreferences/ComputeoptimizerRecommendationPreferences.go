@@ -5,14 +5,14 @@ package computeoptimizerrecommendationpreferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/computeoptimizerrecommendationpreferences/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/computeoptimizerrecommendationpreferences/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences}.
 type ComputeoptimizerRecommendationPreferences interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -536,7 +536,7 @@ func (j *jsiiProxy_ComputeoptimizerRecommendationPreferences) UtilizationPrefere
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences} Resource.
 func NewComputeoptimizerRecommendationPreferences(scope constructs.Construct, id *string, config *ComputeoptimizerRecommendationPreferencesConfig) ComputeoptimizerRecommendationPreferences {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewComputeoptimizerRecommendationPreferences(scope constructs.Construct, id
 	j := jsiiProxy_ComputeoptimizerRecommendationPreferences{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -554,12 +554,12 @@ func NewComputeoptimizerRecommendationPreferences(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_recommendation_preferences aws_computeoptimizer_recommendation_preferences} Resource.
 func NewComputeoptimizerRecommendationPreferences_Override(c ComputeoptimizerRecommendationPreferences, scope constructs.Construct, id *string, config *ComputeoptimizerRecommendationPreferencesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -709,7 +709,7 @@ func ComputeoptimizerRecommendationPreferences_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -744,7 +744,7 @@ func ComputeoptimizerRecommendationPreferences_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func ComputeoptimizerRecommendationPreferences_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func ComputeoptimizerRecommendationPreferences_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func ComputeoptimizerRecommendationPreferences_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
+		"@cdktn/provider-aws.computeoptimizerRecommendationPreferences.ComputeoptimizerRecommendationPreferences",
 		"tfResourceType",
 		&returns,
 	)

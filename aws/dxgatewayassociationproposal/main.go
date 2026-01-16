@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxGatewayAssociationProposal.DxGatewayAssociationProposal",
+		"@cdktn/provider-aws.dxGatewayAssociationProposal.DxGatewayAssociationProposal",
 		reflect.TypeOf((*DxGatewayAssociationProposal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxGatewayAssociationProposal.DxGatewayAssociationProposalConfig",
+		"@cdktn/provider-aws.dxGatewayAssociationProposal.DxGatewayAssociationProposalConfig",
 		reflect.TypeOf((*DxGatewayAssociationProposalConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package gluepartition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluepartition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluepartition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition aws_glue_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition aws_glue_partition}.
 type GluePartition interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_GluePartition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition aws_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition aws_glue_partition} Resource.
 func NewGluePartition(scope constructs.Construct, id *string, config *GluePartitionConfig) GluePartition {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewGluePartition(scope constructs.Construct, id *string, config *GluePartit
 	j := jsiiProxy_GluePartition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -526,12 +526,12 @@ func NewGluePartition(scope constructs.Construct, id *string, config *GluePartit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_partition aws_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_partition aws_glue_partition} Resource.
 func NewGluePartition_Override(g GluePartition, scope constructs.Construct, id *string, config *GluePartitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -692,7 +692,7 @@ func GluePartition_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func GluePartition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func GluePartition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func GluePartition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func GluePartition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.gluePartition.GluePartition",
+		"@cdktn/provider-aws.gluePartition.GluePartition",
 		"tfResourceType",
 		&returns,
 	)

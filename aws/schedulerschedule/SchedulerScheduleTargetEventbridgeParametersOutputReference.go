@@ -5,9 +5,9 @@ package schedulerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schedulerschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schedulerschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSchedulerScheduleTargetEventbridgeParametersOutputReference(terraformRes
 	j := jsiiProxy_SchedulerScheduleTargetEventbridgeParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParametersOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSchedulerScheduleTargetEventbridgeParametersOutputReference_Override(s S
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParametersOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetEventbridgeParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

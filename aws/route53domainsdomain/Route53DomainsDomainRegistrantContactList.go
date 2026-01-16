@@ -5,9 +5,9 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRoute53DomainsDomainRegistrantContactList(terraformResource cdktf.IInter
 	j := jsiiProxy_Route53DomainsDomainRegistrantContactList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactList",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRoute53DomainsDomainRegistrantContactList_Override(r Route53DomainsDomai
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactList",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomainRegistrantContactList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

@@ -5,14 +5,14 @@ package dataawsimagebuildercontainerrecipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsimagebuildercontainerrecipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsimagebuildercontainerrecipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe}.
 type DataAwsImagebuilderContainerRecipe interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataAwsImagebuilderContainerRecipe) WorkingDirectory() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Data Source.
 func NewDataAwsImagebuilderContainerRecipe(scope constructs.Construct, id *string, config *DataAwsImagebuilderContainerRecipeConfig) DataAwsImagebuilderContainerRecipe {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewDataAwsImagebuilderContainerRecipe(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsImagebuilderContainerRecipe{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,12 +519,12 @@ func NewDataAwsImagebuilderContainerRecipe(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Data Source.
 func NewDataAwsImagebuilderContainerRecipe_Override(d DataAwsImagebuilderContainerRecipe, scope constructs.Construct, id *string, config *DataAwsImagebuilderContainerRecipeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -630,7 +630,7 @@ func DataAwsImagebuilderContainerRecipe_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -665,7 +665,7 @@ func DataAwsImagebuilderContainerRecipe_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func DataAwsImagebuilderContainerRecipe_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func DataAwsImagebuilderContainerRecipe_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func DataAwsImagebuilderContainerRecipe_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.dataAwsImagebuilderContainerRecipe.DataAwsImagebuilderContainerRecipe",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package budgetsbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/budgetsbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/budgetsbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -423,7 +423,7 @@ func NewBudgetsBudgetCostTypesOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_BudgetsBudgetCostTypesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -435,7 +435,7 @@ func NewBudgetsBudgetCostTypesOutputReference_Override(b BudgetsBudgetCostTypesO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
+		"@cdktn/provider-aws.budgetsBudget.BudgetsBudgetCostTypesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKey",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKey",
 		reflect.TypeOf((*AppsyncApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApiKey.AppsyncApiKeyConfig",
+		"@cdktn/provider-aws.appsyncApiKey.AppsyncApiKeyConfig",
 		reflect.TypeOf((*AppsyncApiKeyConfig)(nil)).Elem(),
 	)
 }

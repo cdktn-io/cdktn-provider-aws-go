@@ -5,14 +5,14 @@ package dataawskinesisstreamconsumer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskinesisstreamconsumer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskinesisstreamconsumer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
 type DataAwsKinesisStreamConsumer interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -406,7 +406,7 @@ func (j *jsiiProxy_DataAwsKinesisStreamConsumer) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer} Data Source.
 func NewDataAwsKinesisStreamConsumer(scope constructs.Construct, id *string, config *DataAwsKinesisStreamConsumerConfig) DataAwsKinesisStreamConsumer {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataAwsKinesisStreamConsumer(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsKinesisStreamConsumer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -424,12 +424,12 @@ func NewDataAwsKinesisStreamConsumer(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kinesis_stream_consumer aws_kinesis_stream_consumer} Data Source.
 func NewDataAwsKinesisStreamConsumer_Override(d DataAwsKinesisStreamConsumer, scope constructs.Construct, id *string, config *DataAwsKinesisStreamConsumerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -557,7 +557,7 @@ func DataAwsKinesisStreamConsumer_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -592,7 +592,7 @@ func DataAwsKinesisStreamConsumer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +611,7 @@ func DataAwsKinesisStreamConsumer_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataAwsKinesisStreamConsumer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func DataAwsKinesisStreamConsumer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
+		"@cdktn/provider-aws.dataAwsKinesisStreamConsumer.DataAwsKinesisStreamConsumer",
 		"tfResourceType",
 		&returns,
 	)

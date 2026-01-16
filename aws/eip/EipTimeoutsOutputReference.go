@@ -5,9 +5,9 @@ package eip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eip/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEipTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_EipTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eip.EipTimeoutsOutputReference",
+		"@cdktn/provider-aws.eip.EipTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEipTimeoutsOutputReference_Override(e EipTimeoutsOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eip.EipTimeoutsOutputReference",
+		"@cdktn/provider-aws.eip.EipTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

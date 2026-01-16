@@ -5,14 +5,14 @@ package ioteventconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ioteventconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ioteventconfigurations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_event_configurations aws_iot_event_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_event_configurations aws_iot_event_configurations}.
 type IotEventConfigurations interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_IotEventConfigurations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
 func NewIotEventConfigurations(scope constructs.Construct, id *string, config *IotEventConfigurationsConfig) IotEventConfigurations {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewIotEventConfigurations(scope constructs.Construct, id *string, config *I
 	j := jsiiProxy_IotEventConfigurations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewIotEventConfigurations(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_event_configurations aws_iot_event_configurations} Resource.
 func NewIotEventConfigurations_Override(i IotEventConfigurations, scope constructs.Construct, id *string, config *IotEventConfigurationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -497,7 +497,7 @@ func IotEventConfigurations_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func IotEventConfigurations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func IotEventConfigurations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func IotEventConfigurations_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func IotEventConfigurations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotEventConfigurations.IotEventConfigurations",
+		"@cdktn/provider-aws.iotEventConfigurations.IotEventConfigurations",
 		"tfResourceType",
 		&returns,
 	)

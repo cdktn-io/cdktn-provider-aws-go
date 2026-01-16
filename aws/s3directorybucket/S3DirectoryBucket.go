@@ -5,14 +5,14 @@ package s3directorybucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3directorybucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3directorybucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket}.
 type S3DirectoryBucket interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_S3DirectoryBucket) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
 func NewS3DirectoryBucket(scope constructs.Construct, id *string, config *S3DirectoryBucketConfig) S3DirectoryBucket {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewS3DirectoryBucket(scope constructs.Construct, id *string, config *S3Dire
 	j := jsiiProxy_S3DirectoryBucket{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewS3DirectoryBucket(scope constructs.Construct, id *string, config *S3Dire
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
 func NewS3DirectoryBucket_Override(s S3DirectoryBucket, scope constructs.Construct, id *string, config *S3DirectoryBucketConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -659,7 +659,7 @@ func S3DirectoryBucket_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func S3DirectoryBucket_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func S3DirectoryBucket_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func S3DirectoryBucket_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func S3DirectoryBucket_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		"tfResourceType",
 		&returns,
 	)

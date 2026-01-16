@@ -5,14 +5,14 @@ package iamaccountpasswordpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamaccountpasswordpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamaccountpasswordpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy}.
 type IamAccountPasswordPolicy interface {
 	cdktf.TerraformResource
 	AllowUsersToChangePassword() interface{}
@@ -537,7 +537,7 @@ func (j *jsiiProxy_IamAccountPasswordPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
 func NewIamAccountPasswordPolicy(scope constructs.Construct, id *string, config *IamAccountPasswordPolicyConfig) IamAccountPasswordPolicy {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewIamAccountPasswordPolicy(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamAccountPasswordPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -555,12 +555,12 @@ func NewIamAccountPasswordPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_password_policy aws_iam_account_password_policy} Resource.
 func NewIamAccountPasswordPolicy_Override(i IamAccountPasswordPolicy, scope constructs.Construct, id *string, config *IamAccountPasswordPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -754,7 +754,7 @@ func IamAccountPasswordPolicy_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -789,7 +789,7 @@ func IamAccountPasswordPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -808,7 +808,7 @@ func IamAccountPasswordPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func IamAccountPasswordPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func IamAccountPasswordPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
+		"@cdktn/provider-aws.iamAccountPasswordPolicy.IamAccountPasswordPolicy",
 		"tfResourceType",
 		&returns,
 	)

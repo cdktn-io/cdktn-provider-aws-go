@@ -5,9 +5,9 @@ package efsreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsreplicationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsreplicationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -266,7 +266,7 @@ func NewEfsReplicationConfigurationDestinationOutputReference(terraformResource 
 	j := jsiiProxy_EfsReplicationConfigurationDestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -278,7 +278,7 @@ func NewEfsReplicationConfigurationDestinationOutputReference_Override(e EfsRepl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
+		"@cdktn/provider-aws.efsReplicationConfiguration.EfsReplicationConfigurationDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

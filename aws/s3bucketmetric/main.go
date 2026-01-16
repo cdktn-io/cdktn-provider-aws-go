@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketMetric.S3BucketMetric",
+		"@cdktn/provider-aws.s3BucketMetric.S3BucketMetric",
 		reflect.TypeOf((*S3BucketMetric)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketMetric.S3BucketMetricConfig",
+		"@cdktn/provider-aws.s3BucketMetric.S3BucketMetricConfig",
 		reflect.TypeOf((*S3BucketMetricConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketMetric.S3BucketMetricFilter",
+		"@cdktn/provider-aws.s3BucketMetric.S3BucketMetricFilter",
 		reflect.TypeOf((*S3BucketMetricFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketMetric.S3BucketMetricFilterOutputReference",
+		"@cdktn/provider-aws.s3BucketMetric.S3BucketMetricFilterOutputReference",
 		reflect.TypeOf((*S3BucketMetricFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPoint", GoGetter: "AccessPoint"},

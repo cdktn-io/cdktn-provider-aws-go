@@ -5,9 +5,9 @@ package dataawselb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsElbHealthCheckList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_DataAwsElbHealthCheckList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElb.DataAwsElbHealthCheckList",
+		"@cdktn/provider-aws.dataAwsElb.DataAwsElbHealthCheckList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsElbHealthCheckList_Override(d DataAwsElbHealthCheckList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElb.DataAwsElbHealthCheckList",
+		"@cdktn/provider-aws.dataAwsElb.DataAwsElbHealthCheckList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

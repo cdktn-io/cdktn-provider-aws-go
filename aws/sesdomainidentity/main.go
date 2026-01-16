@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesDomainIdentity.SesDomainIdentity",
+		"@cdktn/provider-aws.sesDomainIdentity.SesDomainIdentity",
 		reflect.TypeOf((*SesDomainIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesDomainIdentity.SesDomainIdentityConfig",
+		"@cdktn/provider-aws.sesDomainIdentity.SesDomainIdentityConfig",
 		reflect.TypeOf((*SesDomainIdentityConfig)(nil)).Elem(),
 	)
 }

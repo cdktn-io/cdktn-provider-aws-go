@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfile",
+		"@cdktn/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfile",
 		reflect.TypeOf((*DataAwsBedrockInferenceProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileConfig",
+		"@cdktn/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileConfig",
 		reflect.TypeOf((*DataAwsBedrockInferenceProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModels",
+		"@cdktn/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModels",
 		reflect.TypeOf((*DataAwsBedrockInferenceProfileModels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModelsList",
+		"@cdktn/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModelsList",
 		reflect.TypeOf((*DataAwsBedrockInferenceProfileModelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModelsOutputReference",
+		"@cdktn/provider-aws.dataAwsBedrockInferenceProfile.DataAwsBedrockInferenceProfileModelsOutputReference",
 		reflect.TypeOf((*DataAwsBedrockInferenceProfileModelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

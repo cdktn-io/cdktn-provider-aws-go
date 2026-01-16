@@ -5,9 +5,9 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bcmdataexportsexport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bcmdataexportsexport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3Output
 	j := jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBcmdataexportsExportExportDestinationConfigurationsS3DestinationS3Output
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

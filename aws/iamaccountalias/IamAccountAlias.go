@@ -5,14 +5,14 @@ package iamaccountalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamaccountalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamaccountalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_alias aws_iam_account_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_alias aws_iam_account_alias}.
 type IamAccountAlias interface {
 	cdktf.TerraformResource
 	AccountAlias() *string
@@ -333,7 +333,7 @@ func (j *jsiiProxy_IamAccountAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_alias aws_iam_account_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_alias aws_iam_account_alias} Resource.
 func NewIamAccountAlias(scope constructs.Construct, id *string, config *IamAccountAliasConfig) IamAccountAlias {
 	_init_.Initialize()
 
@@ -343,7 +343,7 @@ func NewIamAccountAlias(scope constructs.Construct, id *string, config *IamAccou
 	j := jsiiProxy_IamAccountAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -351,12 +351,12 @@ func NewIamAccountAlias(scope constructs.Construct, id *string, config *IamAccou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_account_alias aws_iam_account_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_account_alias aws_iam_account_alias} Resource.
 func NewIamAccountAlias_Override(i IamAccountAlias, scope constructs.Construct, id *string, config *IamAccountAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -462,7 +462,7 @@ func IamAccountAlias_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -497,7 +497,7 @@ func IamAccountAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func IamAccountAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -535,7 +535,7 @@ func IamAccountAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func IamAccountAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamAccountAlias.IamAccountAlias",
+		"@cdktn/provider-aws.iamAccountAlias.IamAccountAlias",
 		"tfResourceType",
 		&returns,
 	)

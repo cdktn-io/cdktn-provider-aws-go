@@ -5,14 +5,14 @@ package emrsecurityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrsecurityconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrsecurityconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_security_configuration aws_emr_security_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_security_configuration aws_emr_security_configuration}.
 type EmrSecurityConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_EmrSecurityConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_security_configuration aws_emr_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_security_configuration aws_emr_security_configuration} Resource.
 func NewEmrSecurityConfiguration(scope constructs.Construct, id *string, config *EmrSecurityConfigurationConfig) EmrSecurityConfiguration {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewEmrSecurityConfiguration(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_EmrSecurityConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -434,12 +434,12 @@ func NewEmrSecurityConfiguration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_security_configuration aws_emr_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_security_configuration aws_emr_security_configuration} Resource.
 func NewEmrSecurityConfiguration_Override(e EmrSecurityConfiguration, scope constructs.Construct, id *string, config *EmrSecurityConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -578,7 +578,7 @@ func EmrSecurityConfiguration_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -613,7 +613,7 @@ func EmrSecurityConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -632,7 +632,7 @@ func EmrSecurityConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func EmrSecurityConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func EmrSecurityConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		"tfResourceType",
 		&returns,
 	)

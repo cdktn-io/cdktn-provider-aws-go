@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		reflect.TypeOf((*DataAwsNetworkAcls)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsConfig",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsConfig",
 		reflect.TypeOf((*DataAwsNetworkAclsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilter",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilter",
 		reflect.TypeOf((*DataAwsNetworkAclsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilterList",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilterList",
 		reflect.TypeOf((*DataAwsNetworkAclsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsFilterOutputReference",
 		reflect.TypeOf((*DataAwsNetworkAclsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsTimeouts",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsTimeouts",
 		reflect.TypeOf((*DataAwsNetworkAclsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAclsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsNetworkAclsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

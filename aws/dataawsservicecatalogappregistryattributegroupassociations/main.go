@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociations",
 		reflect.TypeOf((*DataAwsServicecatalogappregistryAttributeGroupAssociations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig",
+		"@cdktn/provider-aws.dataAwsServicecatalogappregistryAttributeGroupAssociations.DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig",
 		reflect.TypeOf((*DataAwsServicecatalogappregistryAttributeGroupAssociationsConfig)(nil)).Elem(),
 	)
 }

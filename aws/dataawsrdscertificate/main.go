@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificate",
 		reflect.TypeOf((*DataAwsRdsCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificateConfig",
+		"@cdktn/provider-aws.dataAwsRdsCertificate.DataAwsRdsCertificateConfig",
 		reflect.TypeOf((*DataAwsRdsCertificateConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package lbtargetgroupattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbtargetgroupattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbtargetgroupattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment}.
 type LbTargetGroupAttachment interface {
 	cdktf.TerraformResource
 	AvailabilityZone() *string
@@ -62,6 +62,9 @@ type LbTargetGroupAttachment interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	QuicServerId() *string
+	SetQuicServerId(val *string)
+	QuicServerIdInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -128,6 +131,7 @@ type LbTargetGroupAttachment interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPort()
+	ResetQuicServerId()
 	ResetRegion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -327,6 +331,26 @@ func (j *jsiiProxy_LbTargetGroupAttachment) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_LbTargetGroupAttachment) QuicServerId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"quicServerId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LbTargetGroupAttachment) QuicServerIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"quicServerIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LbTargetGroupAttachment) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -428,7 +452,7 @@ func (j *jsiiProxy_LbTargetGroupAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
 func NewLbTargetGroupAttachment(scope constructs.Construct, id *string, config *LbTargetGroupAttachmentConfig) LbTargetGroupAttachment {
 	_init_.Initialize()
 
@@ -438,7 +462,7 @@ func NewLbTargetGroupAttachment(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_LbTargetGroupAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +470,12 @@ func NewLbTargetGroupAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
 func NewLbTargetGroupAttachment_Override(l LbTargetGroupAttachment, scope constructs.Construct, id *string, config *LbTargetGroupAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -558,6 +582,17 @@ func (j *jsiiProxy_LbTargetGroupAttachment)SetProvisioners(val *[]interface{}) {
 	)
 }
 
+func (j *jsiiProxy_LbTargetGroupAttachment)SetQuicServerId(val *string) {
+	if err := j.validateSetQuicServerIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"quicServerId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_LbTargetGroupAttachment)SetRegion(val *string) {
 	if err := j.validateSetRegionParameters(val); err != nil {
 		panic(err)
@@ -601,7 +636,7 @@ func LbTargetGroupAttachment_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +671,7 @@ func LbTargetGroupAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +690,7 @@ func LbTargetGroupAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +709,7 @@ func LbTargetGroupAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +722,7 @@ func LbTargetGroupAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
+		"@cdktn/provider-aws.lbTargetGroupAttachment.LbTargetGroupAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -972,6 +1007,14 @@ func (l *jsiiProxy_LbTargetGroupAttachment) ResetPort() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LbTargetGroupAttachment) ResetQuicServerId() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetQuicServerId",
 		nil, // no parameters
 	)
 }

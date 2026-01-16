@@ -5,9 +5,9 @@ package securitylakecustomlogsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitylakecustomlogsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitylakecustomlogsource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewSecuritylakeCustomLogSourceAttributesOutputReference(terraformResource c
 	j := jsiiProxy_SecuritylakeCustomLogSourceAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewSecuritylakeCustomLogSourceAttributesOutputReference_Override(s Security
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
+		"@cdktn/provider-aws.securitylakeCustomLogSource.SecuritylakeCustomLogSourceAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

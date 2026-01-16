@@ -5,9 +5,9 @@ package lexbotalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbotalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbotalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLexBotAliasTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_LexBotAliasTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAliasTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAliasTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLexBotAliasTimeoutsOutputReference_Override(l LexBotAliasTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAliasTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAliasTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

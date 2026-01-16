@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceState",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceState",
 		reflect.TypeOf((*RdsInstanceState)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceStateConfig",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceStateConfig",
 		reflect.TypeOf((*RdsInstanceStateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceStateTimeouts",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceStateTimeouts",
 		reflect.TypeOf((*RdsInstanceStateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
 		reflect.TypeOf((*RdsInstanceStateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

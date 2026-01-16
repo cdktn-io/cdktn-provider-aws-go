@@ -5,14 +5,14 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_task_set aws_ecs_task_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_task_set aws_ecs_task_set}.
 type EcsTaskSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -759,7 +759,7 @@ func (j *jsiiProxy_EcsTaskSet) WaitUntilStableTimeoutInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_task_set aws_ecs_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_task_set aws_ecs_task_set} Resource.
 func NewEcsTaskSet(scope constructs.Construct, id *string, config *EcsTaskSetConfig) EcsTaskSet {
 	_init_.Initialize()
 
@@ -769,7 +769,7 @@ func NewEcsTaskSet(scope constructs.Construct, id *string, config *EcsTaskSetCon
 	j := jsiiProxy_EcsTaskSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -777,12 +777,12 @@ func NewEcsTaskSet(scope constructs.Construct, id *string, config *EcsTaskSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_task_set aws_ecs_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_task_set aws_ecs_task_set} Resource.
 func NewEcsTaskSet_Override(e EcsTaskSet, scope constructs.Construct, id *string, config *EcsTaskSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1009,7 +1009,7 @@ func EcsTaskSet_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1044,7 +1044,7 @@ func EcsTaskSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1063,7 +1063,7 @@ func EcsTaskSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1082,7 +1082,7 @@ func EcsTaskSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func EcsTaskSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSet",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSet",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package ecrrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewEcrRepositoryImageScanningConfigurationOutputReference(terraformResource
 	j := jsiiProxy_EcrRepositoryImageScanningConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewEcrRepositoryImageScanningConfigurationOutputReference_Override(e EcrRep
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryImageScanningConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

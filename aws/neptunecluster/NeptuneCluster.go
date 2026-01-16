@@ -5,14 +5,14 @@ package neptunecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptunecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptunecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster aws_neptune_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster aws_neptune_cluster}.
 type NeptuneCluster interface {
 	cdktf.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
@@ -1168,7 +1168,7 @@ func (j *jsiiProxy_NeptuneCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneClusterConfig) NeptuneCluster {
 	_init_.Initialize()
 
@@ -1178,7 +1178,7 @@ func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneCl
 	j := jsiiProxy_NeptuneCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1186,12 +1186,12 @@ func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster_Override(n NeptuneCluster, scope constructs.Construct, id *string, config *NeptuneClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1627,7 +1627,7 @@ func NeptuneCluster_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1662,7 +1662,7 @@ func NeptuneCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1681,7 +1681,7 @@ func NeptuneCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1700,7 +1700,7 @@ func NeptuneCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1713,7 +1713,7 @@ func NeptuneCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptuneCluster.NeptuneCluster",
+		"@cdktn/provider-aws.neptuneCluster.NeptuneCluster",
 		"tfResourceType",
 		&returns,
 	)

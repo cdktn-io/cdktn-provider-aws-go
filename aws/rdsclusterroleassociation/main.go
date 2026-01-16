@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociation",
+		"@cdktn/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociation",
 		reflect.TypeOf((*RdsClusterRoleAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationConfig",
+		"@cdktn/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationConfig",
 		reflect.TypeOf((*RdsClusterRoleAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeouts",
+		"@cdktn/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeouts",
 		reflect.TypeOf((*RdsClusterRoleAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsClusterRoleAssociation.RdsClusterRoleAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*RdsClusterRoleAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

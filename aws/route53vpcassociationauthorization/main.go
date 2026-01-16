@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorization",
 		reflect.TypeOf((*Route53VpcAssociationAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationConfig",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationConfig",
 		reflect.TypeOf((*Route53VpcAssociationAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationTimeouts",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationTimeouts",
 		reflect.TypeOf((*Route53VpcAssociationAuthorizationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53VpcAssociationAuthorization.Route53VpcAssociationAuthorizationTimeoutsOutputReference",
 		reflect.TypeOf((*Route53VpcAssociationAuthorizationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

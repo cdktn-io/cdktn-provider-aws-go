@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecommitTrigger.CodecommitTrigger",
+		"@cdktn/provider-aws.codecommitTrigger.CodecommitTrigger",
 		reflect.TypeOf((*CodecommitTrigger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecommitTrigger.CodecommitTriggerConfig",
+		"@cdktn/provider-aws.codecommitTrigger.CodecommitTriggerConfig",
 		reflect.TypeOf((*CodecommitTriggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codecommitTrigger.CodecommitTriggerTrigger",
+		"@cdktn/provider-aws.codecommitTrigger.CodecommitTriggerTrigger",
 		reflect.TypeOf((*CodecommitTriggerTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecommitTrigger.CodecommitTriggerTriggerList",
+		"@cdktn/provider-aws.codecommitTrigger.CodecommitTriggerTriggerList",
 		reflect.TypeOf((*CodecommitTriggerTriggerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codecommitTrigger.CodecommitTriggerTriggerOutputReference",
+		"@cdktn/provider-aws.codecommitTrigger.CodecommitTriggerTriggerOutputReference",
 		reflect.TypeOf((*CodecommitTriggerTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		reflect.TypeOf((*DataAwsRoute53ResolverRules)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRulesConfig",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRulesConfig",
 		reflect.TypeOf((*DataAwsRoute53ResolverRulesConfig)(nil)).Elem(),
 	)
 }

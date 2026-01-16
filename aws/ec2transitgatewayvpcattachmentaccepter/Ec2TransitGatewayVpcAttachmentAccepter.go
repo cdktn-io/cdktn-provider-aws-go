@@ -5,14 +5,14 @@ package ec2transitgatewayvpcattachmentaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2transitgatewayvpcattachmentaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgatewayvpcattachmentaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter}.
 type Ec2TransitGatewayVpcAttachmentAccepter interface {
 	cdktf.TerraformResource
 	ApplianceModeSupport() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter) VpcOwnerId() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
 func NewEc2TransitGatewayVpcAttachmentAccepter(scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentAccepterConfig) Ec2TransitGatewayVpcAttachmentAccepter {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewEc2TransitGatewayVpcAttachmentAccepter(scope constructs.Construct, id *s
 	j := jsiiProxy_Ec2TransitGatewayVpcAttachmentAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -559,12 +559,12 @@ func NewEc2TransitGatewayVpcAttachmentAccepter(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_vpc_attachment_accepter aws_ec2_transit_gateway_vpc_attachment_accepter} Resource.
 func NewEc2TransitGatewayVpcAttachmentAccepter_Override(e Ec2TransitGatewayVpcAttachmentAccepter, scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -725,7 +725,7 @@ func Ec2TransitGatewayVpcAttachmentAccepter_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -760,7 +760,7 @@ func Ec2TransitGatewayVpcAttachmentAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func Ec2TransitGatewayVpcAttachmentAccepter_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func Ec2TransitGatewayVpcAttachmentAccepter_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func Ec2TransitGatewayVpcAttachmentAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
+		"@cdktn/provider-aws.ec2TransitGatewayVpcAttachmentAccepter.Ec2TransitGatewayVpcAttachmentAccepter",
 		"tfResourceType",
 		&returns,
 	)

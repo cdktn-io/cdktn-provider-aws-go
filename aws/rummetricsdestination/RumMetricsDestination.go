@@ -5,14 +5,14 @@ package rummetricsdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rummetricsdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rummetricsdestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination}.
 type RumMetricsDestination interface {
 	cdktf.TerraformResource
 	AppMonitorName() *string
@@ -428,7 +428,7 @@ func (j *jsiiProxy_RumMetricsDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination} Resource.
 func NewRumMetricsDestination(scope constructs.Construct, id *string, config *RumMetricsDestinationConfig) RumMetricsDestination {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewRumMetricsDestination(scope constructs.Construct, id *string, config *Ru
 	j := jsiiProxy_RumMetricsDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewRumMetricsDestination(scope constructs.Construct, id *string, config *Ru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rum_metrics_destination aws_rum_metrics_destination} Resource.
 func NewRumMetricsDestination_Override(r RumMetricsDestination, scope constructs.Construct, id *string, config *RumMetricsDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -601,7 +601,7 @@ func RumMetricsDestination_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func RumMetricsDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func RumMetricsDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func RumMetricsDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func RumMetricsDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		"tfResourceType",
 		&returns,
 	)

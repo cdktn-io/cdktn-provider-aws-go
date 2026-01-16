@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfiguration",
+		"@cdktn/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfiguration",
 		reflect.TypeOf((*DataAwsDxRouterConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationConfig",
+		"@cdktn/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationConfig",
 		reflect.TypeOf((*DataAwsDxRouterConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouter",
+		"@cdktn/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouter",
 		reflect.TypeOf((*DataAwsDxRouterConfigurationRouter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouterList",
+		"@cdktn/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouterList",
 		reflect.TypeOf((*DataAwsDxRouterConfigurationRouterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouterOutputReference",
+		"@cdktn/provider-aws.dataAwsDxRouterConfiguration.DataAwsDxRouterConfigurationRouterOutputReference",
 		reflect.TypeOf((*DataAwsDxRouterConfigurationRouterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package ecrpullthroughcacherule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrpullthroughcacherule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrpullthroughcacherule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule}.
 type EcrPullThroughCacheRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_EcrPullThroughCacheRule) UpstreamRepositoryPrefixInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule} Resource.
 func NewEcrPullThroughCacheRule(scope constructs.Construct, id *string, config *EcrPullThroughCacheRuleConfig) EcrPullThroughCacheRule {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewEcrPullThroughCacheRule(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_EcrPullThroughCacheRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewEcrPullThroughCacheRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_pull_through_cache_rule aws_ecr_pull_through_cache_rule} Resource.
 func NewEcrPullThroughCacheRule_Override(e EcrPullThroughCacheRule, scope constructs.Construct, id *string, config *EcrPullThroughCacheRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -647,7 +647,7 @@ func EcrPullThroughCacheRule_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func EcrPullThroughCacheRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func EcrPullThroughCacheRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func EcrPullThroughCacheRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func EcrPullThroughCacheRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
+		"@cdktn/provider-aws.ecrPullThroughCacheRule.EcrPullThroughCacheRule",
 		"tfResourceType",
 		&returns,
 	)

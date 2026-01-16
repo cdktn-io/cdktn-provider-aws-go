@@ -5,14 +5,14 @@ package cloud9environmentec2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloud9environmentec2/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloud9environmentec2/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2}.
 type Cloud9EnvironmentEc2 interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_Cloud9EnvironmentEc2) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
 func NewCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *Cloud9EnvironmentEc2Config) Cloud9EnvironmentEc2 {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *Clo
 	j := jsiiProxy_Cloud9EnvironmentEc2{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloud9_environment_ec2 aws_cloud9_environment_ec2} Resource.
 func NewCloud9EnvironmentEc2_Override(c Cloud9EnvironmentEc2, scope constructs.Construct, id *string, config *Cloud9EnvironmentEc2Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -832,7 +832,7 @@ func Cloud9EnvironmentEc2_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -867,7 +867,7 @@ func Cloud9EnvironmentEc2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func Cloud9EnvironmentEc2_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -905,7 +905,7 @@ func Cloud9EnvironmentEc2_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func Cloud9EnvironmentEc2_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroup",
 		reflect.TypeOf((*RedshiftParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroupConfig",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroupConfig",
 		reflect.TypeOf((*RedshiftParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameter",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameter",
 		reflect.TypeOf((*RedshiftParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameterList",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameterList",
 		reflect.TypeOf((*RedshiftParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.redshiftParameterGroup.RedshiftParameterGroupParameterOutputReference",
 		reflect.TypeOf((*RedshiftParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

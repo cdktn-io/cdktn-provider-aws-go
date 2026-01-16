@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoices",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoices",
 		reflect.TypeOf((*DataAwsPollyVoices)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesConfig",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesConfig",
 		reflect.TypeOf((*DataAwsPollyVoicesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoices",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoices",
 		reflect.TypeOf((*DataAwsPollyVoicesVoices)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesList",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesList",
 		reflect.TypeOf((*DataAwsPollyVoicesVoicesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
+		"@cdktn/provider-aws.dataAwsPollyVoices.DataAwsPollyVoicesVoicesOutputReference",
 		reflect.TypeOf((*DataAwsPollyVoicesVoicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalLanguageCodes", GoGetter: "AdditionalLanguageCodes"},

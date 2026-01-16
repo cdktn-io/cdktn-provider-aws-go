@@ -5,14 +5,14 @@ package kinesisvideostream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisvideostream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisvideostream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
 type KinesisVideoStream interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -558,7 +558,7 @@ func (j *jsiiProxy_KinesisVideoStream) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream(scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) KinesisVideoStream {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewKinesisVideoStream(scope constructs.Construct, id *string, config *Kines
 	j := jsiiProxy_KinesisVideoStream{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -576,12 +576,12 @@ func NewKinesisVideoStream(scope constructs.Construct, id *string, config *Kines
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream_Override(k KinesisVideoStream, scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -764,7 +764,7 @@ func KinesisVideoStream_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func KinesisVideoStream_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func KinesisVideoStream_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func KinesisVideoStream_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func KinesisVideoStream_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		"tfResourceType",
 		&returns,
 	)

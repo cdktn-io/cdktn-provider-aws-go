@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		reflect.TypeOf((*CognitoUserGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroupConfig",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroupConfig",
 		reflect.TypeOf((*CognitoUserGroupConfig)(nil)).Elem(),
 	)
 }

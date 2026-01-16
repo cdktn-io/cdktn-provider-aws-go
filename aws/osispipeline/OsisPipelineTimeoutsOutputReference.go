@@ -5,9 +5,9 @@ package osispipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/osispipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/osispipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOsisPipelineTimeoutsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_OsisPipelineTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOsisPipelineTimeoutsOutputReference_Override(o OsisPipelineTimeoutsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
+		"@cdktn/provider-aws.osisPipeline.OsisPipelineTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

@@ -5,14 +5,14 @@ package dataawssecretsmanagersecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecretsmanagersecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecretsmanagersecretversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version}.
 type DataAwsSecretsmanagerSecretVersion interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DataAwsSecretsmanagerSecretVersion) VersionStages() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version} Data Source.
 func NewDataAwsSecretsmanagerSecretVersion(scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretVersionConfig) DataAwsSecretsmanagerSecretVersion {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsSecretsmanagerSecretVersion(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsSecretsmanagerSecretVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewDataAwsSecretsmanagerSecretVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/secretsmanager_secret_version aws_secretsmanager_secret_version} Data Source.
 func NewDataAwsSecretsmanagerSecretVersion_Override(d DataAwsSecretsmanagerSecretVersion, scope constructs.Construct, id *string, config *DataAwsSecretsmanagerSecretVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -555,7 +555,7 @@ func DataAwsSecretsmanagerSecretVersion_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func DataAwsSecretsmanagerSecretVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func DataAwsSecretsmanagerSecretVersion_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsSecretsmanagerSecretVersion_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func DataAwsSecretsmanagerSecretVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
+		"@cdktn/provider-aws.dataAwsSecretsmanagerSecretVersion.DataAwsSecretsmanagerSecretVersion",
 		"tfResourceType",
 		&returns,
 	)

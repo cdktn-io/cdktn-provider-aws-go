@@ -5,14 +5,14 @@ package ssmservicesetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmservicesetting/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmservicesetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
 type SsmServiceSetting interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_SsmServiceSetting) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmServiceSettingConfig) SsmServiceSetting {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	j := jsiiProxy_SsmServiceSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting_Override(s SsmServiceSetting, scope constructs.Construct, id *string, config *SsmServiceSettingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -553,7 +553,7 @@ func SsmServiceSetting_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func SsmServiceSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func SsmServiceSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func SsmServiceSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func SsmServiceSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmServiceSetting.SsmServiceSetting",
+		"@cdktn/provider-aws.ssmServiceSetting.SsmServiceSetting",
 		"tfResourceType",
 		&returns,
 	)

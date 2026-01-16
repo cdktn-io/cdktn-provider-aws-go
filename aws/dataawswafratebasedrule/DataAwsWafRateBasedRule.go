@@ -5,14 +5,14 @@ package dataawswafratebasedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafratebasedrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafratebasedrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule}.
 type DataAwsWafRateBasedRule interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -288,7 +288,7 @@ func (j *jsiiProxy_DataAwsWafRateBasedRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule} Data Source.
 func NewDataAwsWafRateBasedRule(scope constructs.Construct, id *string, config *DataAwsWafRateBasedRuleConfig) DataAwsWafRateBasedRule {
 	_init_.Initialize()
 
@@ -298,7 +298,7 @@ func NewDataAwsWafRateBasedRule(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsWafRateBasedRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -306,12 +306,12 @@ func NewDataAwsWafRateBasedRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_rate_based_rule aws_waf_rate_based_rule} Data Source.
 func NewDataAwsWafRateBasedRule_Override(d DataAwsWafRateBasedRule, scope constructs.Construct, id *string, config *DataAwsWafRateBasedRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -395,7 +395,7 @@ func DataAwsWafRateBasedRule_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -430,7 +430,7 @@ func DataAwsWafRateBasedRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -449,7 +449,7 @@ func DataAwsWafRateBasedRule_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataAwsWafRateBasedRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -481,7 +481,7 @@ func DataAwsWafRateBasedRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
+		"@cdktn/provider-aws.dataAwsWafRateBasedRule.DataAwsWafRateBasedRule",
 		"tfResourceType",
 		&returns,
 	)

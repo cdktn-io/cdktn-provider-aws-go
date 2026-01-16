@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDns",
 		reflect.TypeOf((*VpcEndpointPrivateDns)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDnsConfig",
+		"@cdktn/provider-aws.vpcEndpointPrivateDns.VpcEndpointPrivateDnsConfig",
 		reflect.TypeOf((*VpcEndpointPrivateDnsConfig)(nil)).Elem(),
 	)
 }

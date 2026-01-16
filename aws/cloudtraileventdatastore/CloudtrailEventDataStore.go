@@ -5,14 +5,14 @@ package cloudtraileventdatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudtraileventdatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudtraileventdatastore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store}.
 type CloudtrailEventDataStore interface {
 	cdktf.TerraformResource
 	AdvancedEventSelector() CloudtrailEventDataStoreAdvancedEventSelectorList
@@ -632,7 +632,7 @@ func (j *jsiiProxy_CloudtrailEventDataStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store} Resource.
 func NewCloudtrailEventDataStore(scope constructs.Construct, id *string, config *CloudtrailEventDataStoreConfig) CloudtrailEventDataStore {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewCloudtrailEventDataStore(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_CloudtrailEventDataStore{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -650,12 +650,12 @@ func NewCloudtrailEventDataStore(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_event_data_store aws_cloudtrail_event_data_store} Resource.
 func NewCloudtrailEventDataStore_Override(c CloudtrailEventDataStore, scope constructs.Construct, id *string, config *CloudtrailEventDataStoreConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -871,7 +871,7 @@ func CloudtrailEventDataStore_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -906,7 +906,7 @@ func CloudtrailEventDataStore_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +925,7 @@ func CloudtrailEventDataStore_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func CloudtrailEventDataStore_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func CloudtrailEventDataStore_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
+		"@cdktn/provider-aws.cloudtrailEventDataStore.CloudtrailEventDataStore",
 		"tfResourceType",
 		&returns,
 	)

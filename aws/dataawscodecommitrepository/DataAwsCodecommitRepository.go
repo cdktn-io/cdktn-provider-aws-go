@@ -5,14 +5,14 @@ package dataawscodecommitrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscodecommitrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscodecommitrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecommit_repository aws_codecommit_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecommit_repository aws_codecommit_repository}.
 type DataAwsCodecommitRepository interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataAwsCodecommitRepository) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecommit_repository aws_codecommit_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecommit_repository aws_codecommit_repository} Data Source.
 func NewDataAwsCodecommitRepository(scope constructs.Construct, id *string, config *DataAwsCodecommitRepositoryConfig) DataAwsCodecommitRepository {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewDataAwsCodecommitRepository(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsCodecommitRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewDataAwsCodecommitRepository(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/codecommit_repository aws_codecommit_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/codecommit_repository aws_codecommit_repository} Data Source.
 func NewDataAwsCodecommitRepository_Override(d DataAwsCodecommitRepository, scope constructs.Construct, id *string, config *DataAwsCodecommitRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -485,7 +485,7 @@ func DataAwsCodecommitRepository_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -520,7 +520,7 @@ func DataAwsCodecommitRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsCodecommitRepository_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func DataAwsCodecommitRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsCodecommitRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
+		"@cdktn/provider-aws.dataAwsCodecommitRepository.DataAwsCodecommitRepository",
 		"tfResourceType",
 		&returns,
 	)

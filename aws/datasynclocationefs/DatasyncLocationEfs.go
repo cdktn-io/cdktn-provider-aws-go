@@ -5,14 +5,14 @@ package datasynclocationefs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationefs/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationefs/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_efs aws_datasync_location_efs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_efs aws_datasync_location_efs}.
 type DatasyncLocationEfs interface {
 	cdktf.TerraformResource
 	AccessPointArn() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DatasyncLocationEfs) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_efs aws_datasync_location_efs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_efs aws_datasync_location_efs} Resource.
 func NewDatasyncLocationEfs(scope constructs.Construct, id *string, config *DatasyncLocationEfsConfig) DatasyncLocationEfs {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewDatasyncLocationEfs(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DatasyncLocationEfs{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewDatasyncLocationEfs(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_efs aws_datasync_location_efs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_efs aws_datasync_location_efs} Resource.
 func NewDatasyncLocationEfs_Override(d DatasyncLocationEfs, scope constructs.Construct, id *string, config *DatasyncLocationEfsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -752,7 +752,7 @@ func DatasyncLocationEfs_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -787,7 +787,7 @@ func DatasyncLocationEfs_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func DatasyncLocationEfs_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func DatasyncLocationEfs_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func DatasyncLocationEfs_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
+		"@cdktn/provider-aws.datasyncLocationEfs.DatasyncLocationEfs",
 		"tfResourceType",
 		&returns,
 	)

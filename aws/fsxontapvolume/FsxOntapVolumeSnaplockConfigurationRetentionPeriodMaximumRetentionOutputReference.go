@@ -5,9 +5,9 @@ package fsxontapvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewFsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutput
 	j := jsiiProxy_FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewFsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutput
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

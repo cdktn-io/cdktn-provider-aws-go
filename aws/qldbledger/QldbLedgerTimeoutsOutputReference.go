@@ -5,9 +5,9 @@ package qldbledger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/qldbledger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qldbledger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewQldbLedgerTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_QldbLedgerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewQldbLedgerTimeoutsOutputReference_Override(q QldbLedgerTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbLedger.QldbLedgerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

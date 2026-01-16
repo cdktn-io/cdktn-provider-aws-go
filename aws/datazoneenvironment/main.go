@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		reflect.TypeOf((*DatazoneEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountIdentifier", GoGetter: "AccountIdentifier"},
@@ -103,19 +103,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentConfig",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentConfig",
 		reflect.TypeOf((*DatazoneEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeployment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeployment",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeployment)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasons",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasons",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeploymentFailureReasons)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasonsList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasonsList",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeploymentFailureReasonsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasonsOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentFailureReasonsOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeploymentFailureReasonsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentList",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeploymentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +191,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentLastDeploymentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,11 +229,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResources",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResources",
 		reflect.TypeOf((*DatazoneEnvironmentProvisionedResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResourcesList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResourcesList",
 		reflect.TypeOf((*DatazoneEnvironmentProvisionedResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -254,7 +254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResourcesOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentProvisionedResourcesOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentProvisionedResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -290,11 +290,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentTimeouts",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentTimeouts",
 		reflect.TypeOf((*DatazoneEnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParameters",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParameters",
 		reflect.TypeOf((*DatazoneEnvironmentUserParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersList",
 		reflect.TypeOf((*DatazoneEnvironmentUserParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -361,7 +361,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentUserParametersOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentUserParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

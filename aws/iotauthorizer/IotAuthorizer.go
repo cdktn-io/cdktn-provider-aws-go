@@ -5,14 +5,14 @@ package iotauthorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotauthorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotauthorizer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_authorizer aws_iot_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_authorizer aws_iot_authorizer}.
 type IotAuthorizer interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -559,7 +559,7 @@ func (j *jsiiProxy_IotAuthorizer) TokenSigningPublicKeysInput() *map[string]*str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_authorizer aws_iot_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_authorizer aws_iot_authorizer} Resource.
 func NewIotAuthorizer(scope constructs.Construct, id *string, config *IotAuthorizerConfig) IotAuthorizer {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewIotAuthorizer(scope constructs.Construct, id *string, config *IotAuthori
 	j := jsiiProxy_IotAuthorizer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -577,12 +577,12 @@ func NewIotAuthorizer(scope constructs.Construct, id *string, config *IotAuthori
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_authorizer aws_iot_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_authorizer aws_iot_authorizer} Resource.
 func NewIotAuthorizer_Override(i IotAuthorizer, scope constructs.Construct, id *string, config *IotAuthorizerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -787,7 +787,7 @@ func IotAuthorizer_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -822,7 +822,7 @@ func IotAuthorizer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func IotAuthorizer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func IotAuthorizer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func IotAuthorizer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotAuthorizer.IotAuthorizer",
+		"@cdktn/provider-aws.iotAuthorizer.IotAuthorizer",
 		"tfResourceType",
 		&returns,
 	)

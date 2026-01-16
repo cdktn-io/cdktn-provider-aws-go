@@ -5,14 +5,14 @@ package redshiftserverlesssnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlesssnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlesssnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot}.
 type RedshiftserverlessSnapshot interface {
 	cdktf.TerraformResource
 	AccountsWithProvisionedRestoreAccess() *[]*string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_RedshiftserverlessSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) RedshiftserverlessSnapshot {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_RedshiftserverlessSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -499,12 +499,12 @@ func NewRedshiftserverlessSnapshot(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_snapshot aws_redshiftserverless_snapshot} Resource.
 func NewRedshiftserverlessSnapshot_Override(r RedshiftserverlessSnapshot, scope constructs.Construct, id *string, config *RedshiftserverlessSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -643,7 +643,7 @@ func RedshiftserverlessSnapshot_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -678,7 +678,7 @@ func RedshiftserverlessSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func RedshiftserverlessSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func RedshiftserverlessSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func RedshiftserverlessSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
+		"@cdktn/provider-aws.redshiftserverlessSnapshot.RedshiftserverlessSnapshot",
 		"tfResourceType",
 		&returns,
 	)

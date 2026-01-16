@@ -5,9 +5,9 @@ package lakeformationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewLakeformationPermissionsLfTagPolicyOutputReference(terraformResource cdk
 	j := jsiiProxy_LakeformationPermissionsLfTagPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicyOutputReference",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewLakeformationPermissionsLfTagPolicyOutputReference_Override(l Lakeformat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicyOutputReference",
+		"@cdktn/provider-aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

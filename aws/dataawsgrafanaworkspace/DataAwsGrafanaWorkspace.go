@@ -5,14 +5,14 @@ package dataawsgrafanaworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsgrafanaworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsgrafanaworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/grafana_workspace aws_grafana_workspace}.
 type DataAwsGrafanaWorkspace interface {
 	cdktf.TerraformDataSource
 	AccountAccessType() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_DataAwsGrafanaWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) DataAwsGrafanaWorkspace {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsGrafanaWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewDataAwsGrafanaWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/grafana_workspace aws_grafana_workspace} Data Source.
 func NewDataAwsGrafanaWorkspace_Override(d DataAwsGrafanaWorkspace, scope constructs.Construct, id *string, config *DataAwsGrafanaWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -663,7 +663,7 @@ func DataAwsGrafanaWorkspace_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -698,7 +698,7 @@ func DataAwsGrafanaWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -717,7 +717,7 @@ func DataAwsGrafanaWorkspace_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func DataAwsGrafanaWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func DataAwsGrafanaWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		"tfResourceType",
 		&returns,
 	)

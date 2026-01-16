@@ -5,14 +5,14 @@ package ekscapability
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ekscapability/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ekscapability/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_capability aws_eks_capability}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_capability aws_eks_capability}.
 type EksCapability interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_EksCapability) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_capability aws_eks_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_capability aws_eks_capability} Resource.
 func NewEksCapability(scope constructs.Construct, id *string, config *EksCapabilityConfig) EksCapability {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewEksCapability(scope constructs.Construct, id *string, config *EksCapabil
 	j := jsiiProxy_EksCapability{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -548,12 +548,12 @@ func NewEksCapability(scope constructs.Construct, id *string, config *EksCapabil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_capability aws_eks_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_capability aws_eks_capability} Resource.
 func NewEksCapability_Override(e EksCapability, scope constructs.Construct, id *string, config *EksCapabilityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -714,7 +714,7 @@ func EksCapability_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func EksCapability_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func EksCapability_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func EksCapability_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func EksCapability_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eksCapability.EksCapability",
+		"@cdktn/provider-aws.eksCapability.EksCapability",
 		"tfResourceType",
 		&returns,
 	)

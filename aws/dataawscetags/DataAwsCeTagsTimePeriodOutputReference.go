@@ -5,9 +5,9 @@ package dataawscetags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscetags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscetags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsCeTagsTimePeriodOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsCeTagsTimePeriodOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsTimePeriodOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsTimePeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsCeTagsTimePeriodOutputReference_Override(d DataAwsCeTagsTimePerio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsTimePeriodOutputReference",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsTimePeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

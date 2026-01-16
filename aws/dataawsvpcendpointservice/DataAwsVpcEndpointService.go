@@ -5,14 +5,14 @@ package dataawsvpcendpointservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcendpointservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcendpointservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service}.
 type DataAwsVpcEndpointService interface {
 	cdktf.TerraformDataSource
 	AcceptanceRequired() cdktf.IResolvable
@@ -576,7 +576,7 @@ func (j *jsiiProxy_DataAwsVpcEndpointService) VpcEndpointPolicySupported() cdktf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
 func NewDataAwsVpcEndpointService(scope constructs.Construct, id *string, config *DataAwsVpcEndpointServiceConfig) DataAwsVpcEndpointService {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewDataAwsVpcEndpointService(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsVpcEndpointService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,12 +594,12 @@ func NewDataAwsVpcEndpointService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
 func NewDataAwsVpcEndpointService_Override(d DataAwsVpcEndpointService, scope constructs.Construct, id *string, config *DataAwsVpcEndpointServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -727,7 +727,7 @@ func DataAwsVpcEndpointService_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func DataAwsVpcEndpointService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func DataAwsVpcEndpointService_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func DataAwsVpcEndpointService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func DataAwsVpcEndpointService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
+		"@cdktn/provider-aws.dataAwsVpcEndpointService.DataAwsVpcEndpointService",
 		"tfResourceType",
 		&returns,
 	)

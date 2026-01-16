@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsApigatewayv2VpcLink.DataAwsApigatewayv2VpcLink",
+		"@cdktn/provider-aws.dataAwsApigatewayv2VpcLink.DataAwsApigatewayv2VpcLink",
 		reflect.TypeOf((*DataAwsApigatewayv2VpcLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsApigatewayv2VpcLink.DataAwsApigatewayv2VpcLinkConfig",
+		"@cdktn/provider-aws.dataAwsApigatewayv2VpcLink.DataAwsApigatewayv2VpcLinkConfig",
 		reflect.TypeOf((*DataAwsApigatewayv2VpcLinkConfig)(nil)).Elem(),
 	)
 }

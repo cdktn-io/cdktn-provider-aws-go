@@ -5,14 +5,14 @@ package lambdaprovisionedconcurrencyconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdaprovisionedconcurrencyconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdaprovisionedconcurrencyconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config}.
 type LambdaProvisionedConcurrencyConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_LambdaProvisionedConcurrencyConfig) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config} Resource.
 func NewLambdaProvisionedConcurrencyConfig(scope constructs.Construct, id *string, config *LambdaProvisionedConcurrencyConfigConfig) LambdaProvisionedConcurrencyConfig {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewLambdaProvisionedConcurrencyConfig(scope constructs.Construct, id *strin
 	j := jsiiProxy_LambdaProvisionedConcurrencyConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewLambdaProvisionedConcurrencyConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_provisioned_concurrency_config aws_lambda_provisioned_concurrency_config} Resource.
 func NewLambdaProvisionedConcurrencyConfig_Override(l LambdaProvisionedConcurrencyConfig, scope constructs.Construct, id *string, config *LambdaProvisionedConcurrencyConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -624,7 +624,7 @@ func LambdaProvisionedConcurrencyConfig_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func LambdaProvisionedConcurrencyConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func LambdaProvisionedConcurrencyConfig_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func LambdaProvisionedConcurrencyConfig_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func LambdaProvisionedConcurrencyConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
+		"@cdktn/provider-aws.lambdaProvisionedConcurrencyConfig.LambdaProvisionedConcurrencyConfig",
 		"tfResourceType",
 		&returns,
 	)

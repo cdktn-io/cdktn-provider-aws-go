@@ -5,9 +5,9 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference(t
 	j := jsiiProxy_LaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference",
+		"@cdktn/provider-aws.launchTemplate.LaunchTemplateInstanceRequirementsNetworkInterfaceCountOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

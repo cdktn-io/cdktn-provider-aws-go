@@ -5,14 +5,14 @@ package workspacesdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspacesdirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesdirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_directory aws_workspaces_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_directory aws_workspaces_directory}.
 type WorkspacesDirectory interface {
 	cdktf.TerraformResource
 	ActiveDirectoryConfig() WorkspacesDirectoryActiveDirectoryConfigOutputReference
@@ -806,7 +806,7 @@ func (j *jsiiProxy_WorkspacesDirectory) WorkspaceTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_directory aws_workspaces_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_directory aws_workspaces_directory} Resource.
 func NewWorkspacesDirectory(scope constructs.Construct, id *string, config *WorkspacesDirectoryConfig) WorkspacesDirectory {
 	_init_.Initialize()
 
@@ -816,7 +816,7 @@ func NewWorkspacesDirectory(scope constructs.Construct, id *string, config *Work
 	j := jsiiProxy_WorkspacesDirectory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -824,12 +824,12 @@ func NewWorkspacesDirectory(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspaces_directory aws_workspaces_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_directory aws_workspaces_directory} Resource.
 func NewWorkspacesDirectory_Override(w WorkspacesDirectory, scope constructs.Construct, id *string, config *WorkspacesDirectoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -1045,7 +1045,7 @@ func WorkspacesDirectory_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1080,7 +1080,7 @@ func WorkspacesDirectory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1099,7 +1099,7 @@ func WorkspacesDirectory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1118,7 +1118,7 @@ func WorkspacesDirectory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1131,7 +1131,7 @@ func WorkspacesDirectory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspacesDirectory.WorkspacesDirectory",
+		"@cdktn/provider-aws.workspacesDirectory.WorkspacesDirectory",
 		"tfResourceType",
 		&returns,
 	)

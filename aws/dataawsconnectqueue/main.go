@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectQueue.DataAwsConnectQueue",
+		"@cdktn/provider-aws.dataAwsConnectQueue.DataAwsConnectQueue",
 		reflect.TypeOf((*DataAwsConnectQueue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueConfig",
+		"@cdktn/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueConfig",
 		reflect.TypeOf((*DataAwsConnectQueueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfig",
+		"@cdktn/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfig",
 		reflect.TypeOf((*DataAwsConnectQueueOutboundCallerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfigList",
+		"@cdktn/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfigList",
 		reflect.TypeOf((*DataAwsConnectQueueOutboundCallerConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,7 +107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsConnectQueue.DataAwsConnectQueueOutboundCallerConfigOutputReference",
 		reflect.TypeOf((*DataAwsConnectQueueOutboundCallerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

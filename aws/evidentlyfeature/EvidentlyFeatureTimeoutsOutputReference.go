@@ -5,9 +5,9 @@ package evidentlyfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/evidentlyfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/evidentlyfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEvidentlyFeatureTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EvidentlyFeatureTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEvidentlyFeatureTimeoutsOutputReference_Override(e EvidentlyFeatureTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

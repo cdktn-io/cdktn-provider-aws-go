@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApi",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApi",
 		reflect.TypeOf((*AppsyncApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,23 +84,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiConfig",
 		reflect.TypeOf((*AppsyncApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfig",
 		reflect.TypeOf((*AppsyncApiEventConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProvider",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProvider",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfig",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderCognitoConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfigList",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderCognitoConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigList",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderList",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfig",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderOpenidConnectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfigList",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderOpenidConnectConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
@@ -318,7 +318,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigAuthProviderOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigAuthProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
@@ -364,11 +364,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthMode",
 		reflect.TypeOf((*AppsyncApiEventConfigConnectionAuthMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthModeList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthModeList",
 		reflect.TypeOf((*AppsyncApiEventConfigConnectionAuthModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -390,7 +390,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthModeOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigConnectionAuthModeOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigConnectionAuthModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
@@ -424,11 +424,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthMode",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultPublishAuthMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeList",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultPublishAuthModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -450,7 +450,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultPublishAuthModeOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultPublishAuthModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
@@ -484,11 +484,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthMode",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultSubscribeAuthMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthModeList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthModeList",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultSubscribeAuthModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -510,7 +510,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthModeOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigDefaultSubscribeAuthModeOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigDefaultSubscribeAuthModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
@@ -544,7 +544,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigList",
 		reflect.TypeOf((*AppsyncApiEventConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -566,11 +566,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfig",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfig",
 		reflect.TypeOf((*AppsyncApiEventConfigLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigList",
 		reflect.TypeOf((*AppsyncApiEventConfigLogConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -592,7 +592,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigLogConfigOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArn", GoGetter: "CloudwatchLogsRoleArn"},
@@ -628,7 +628,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncApi.AppsyncApiEventConfigOutputReference",
+		"@cdktn/provider-aws.appsyncApi.AppsyncApiEventConfigOutputReference",
 		reflect.TypeOf((*AppsyncApiEventConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authProvider", GoGetter: "AuthProvider"},

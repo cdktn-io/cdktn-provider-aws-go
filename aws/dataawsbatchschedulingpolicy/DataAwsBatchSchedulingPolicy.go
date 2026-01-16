@@ -5,14 +5,14 @@ package dataawsbatchschedulingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbatchschedulingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbatchschedulingpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy}.
 type DataAwsBatchSchedulingPolicy interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -358,7 +358,7 @@ func (j *jsiiProxy_DataAwsBatchSchedulingPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy} Data Source.
 func NewDataAwsBatchSchedulingPolicy(scope constructs.Construct, id *string, config *DataAwsBatchSchedulingPolicyConfig) DataAwsBatchSchedulingPolicy {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewDataAwsBatchSchedulingPolicy(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsBatchSchedulingPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewDataAwsBatchSchedulingPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/batch_scheduling_policy aws_batch_scheduling_policy} Data Source.
 func NewDataAwsBatchSchedulingPolicy_Override(d DataAwsBatchSchedulingPolicy, scope constructs.Construct, id *string, config *DataAwsBatchSchedulingPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataAwsBatchSchedulingPolicy_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataAwsBatchSchedulingPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataAwsBatchSchedulingPolicy_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsBatchSchedulingPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAwsBatchSchedulingPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
+		"@cdktn/provider-aws.dataAwsBatchSchedulingPolicy.DataAwsBatchSchedulingPolicy",
 		"tfResourceType",
 		&returns,
 	)

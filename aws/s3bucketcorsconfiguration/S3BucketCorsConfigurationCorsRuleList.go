@@ -5,9 +5,9 @@ package s3bucketcorsconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketcorsconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketcorsconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3BucketCorsConfigurationCorsRuleList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_S3BucketCorsConfigurationCorsRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3BucketCorsConfigurationCorsRuleList_Override(s S3BucketCorsConfigurati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

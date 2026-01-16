@@ -5,14 +5,14 @@ package datazoneassettype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneassettype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneassettype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_asset_type aws_datazone_asset_type}.
 type DatazoneAssetType interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DatazoneAssetType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType(scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) DatazoneAssetType {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewDatazoneAssetType(scope constructs.Construct, id *string, config *Datazo
 	j := jsiiProxy_DatazoneAssetType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewDatazoneAssetType(scope constructs.Construct, id *string, config *Datazo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_asset_type aws_datazone_asset_type} Resource.
 func NewDatazoneAssetType_Override(d DatazoneAssetType, scope constructs.Construct, id *string, config *DatazoneAssetTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -646,7 +646,7 @@ func DatazoneAssetType_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func DatazoneAssetType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func DatazoneAssetType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func DatazoneAssetType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DatazoneAssetType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneAssetType.DatazoneAssetType",
+		"@cdktn/provider-aws.datazoneAssetType.DatazoneAssetType",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_node_group aws_eks_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_node_group aws_eks_node_group}.
 type EksNodeGroup interface {
 	cdktf.TerraformResource
 	AmiType() *string
@@ -891,7 +891,7 @@ func (j *jsiiProxy_EksNodeGroup) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
 func NewEksNodeGroup(scope constructs.Construct, id *string, config *EksNodeGroupConfig) EksNodeGroup {
 	_init_.Initialize()
 
@@ -901,7 +901,7 @@ func NewEksNodeGroup(scope constructs.Construct, id *string, config *EksNodeGrou
 	j := jsiiProxy_EksNodeGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -909,12 +909,12 @@ func NewEksNodeGroup(scope constructs.Construct, id *string, config *EksNodeGrou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
 func NewEksNodeGroup_Override(e EksNodeGroup, scope constructs.Construct, id *string, config *EksNodeGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1185,7 +1185,7 @@ func EksNodeGroup_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1220,7 +1220,7 @@ func EksNodeGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1239,7 +1239,7 @@ func EksNodeGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1258,7 +1258,7 @@ func EksNodeGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1271,7 +1271,7 @@ func EksNodeGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroup",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroup",
 		"tfResourceType",
 		&returns,
 	)

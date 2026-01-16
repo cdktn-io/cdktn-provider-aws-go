@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstance",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstance",
 		reflect.TypeOf((*NeptuneClusterInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -136,15 +136,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceConfig",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceConfig",
 		reflect.TypeOf((*NeptuneClusterInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeouts",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeouts",
 		reflect.TypeOf((*NeptuneClusterInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptuneClusterInstance.NeptuneClusterInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*NeptuneClusterInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

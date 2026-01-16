@@ -5,9 +5,9 @@ package locationtrackerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/locationtrackerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationtrackerassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewLocationTrackerAssociationTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_LocationTrackerAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewLocationTrackerAssociationTimeoutsOutputReference_Override(l LocationTra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

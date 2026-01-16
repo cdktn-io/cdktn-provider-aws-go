@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		reflect.TypeOf((*EfsFileSystemPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicyConfig",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicyConfig",
 		reflect.TypeOf((*EfsFileSystemPolicyConfig)(nil)).Elem(),
 	)
 }

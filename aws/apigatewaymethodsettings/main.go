@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettings",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettings",
 		reflect.TypeOf((*ApiGatewayMethodSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsConfig",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsConfig",
 		reflect.TypeOf((*ApiGatewayMethodSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettings",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettings",
 		reflect.TypeOf((*ApiGatewayMethodSettingsSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayMethodSettingsSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheDataEncrypted", GoGetter: "CacheDataEncrypted"},

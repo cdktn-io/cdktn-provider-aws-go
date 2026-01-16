@@ -5,9 +5,9 @@ package sagemakerdevicefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerdevicefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerdevicefleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSagemakerDeviceFleetOutputConfigOutputReference(terraformResource cdktf.
 	j := jsiiProxy_SagemakerDeviceFleetOutputConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleetOutputConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleetOutputConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSagemakerDeviceFleetOutputConfigOutputReference_Override(s SagemakerDevi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleetOutputConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerDeviceFleet.SagemakerDeviceFleetOutputConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

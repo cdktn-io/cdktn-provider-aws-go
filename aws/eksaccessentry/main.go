@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntry",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntry",
 		reflect.TypeOf((*EksAccessEntry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessEntryArn", GoGetter: "AccessEntryArn"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntryConfig",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntryConfig",
 		reflect.TypeOf((*EksAccessEntryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntryTimeouts",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntryTimeouts",
 		reflect.TypeOf((*EksAccessEntryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAccessEntry.EksAccessEntryTimeoutsOutputReference",
 		reflect.TypeOf((*EksAccessEntryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

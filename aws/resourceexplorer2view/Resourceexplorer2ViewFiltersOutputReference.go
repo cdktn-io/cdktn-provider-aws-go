@@ -5,9 +5,9 @@ package resourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourceexplorer2view/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2view/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewResourceexplorer2ViewFiltersOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_Resourceexplorer2ViewFiltersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewResourceexplorer2ViewFiltersOutputReference_Override(r Resourceexplorer2
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2ViewFiltersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

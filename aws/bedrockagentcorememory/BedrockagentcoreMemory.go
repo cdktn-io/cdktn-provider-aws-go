@@ -5,14 +5,14 @@ package bedrockagentcorememory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcorememory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcorememory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.
 type BedrockagentcoreMemory interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_BedrockagentcoreMemory) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) BedrockagentcoreMemory {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *B
 	j := jsiiProxy_BedrockagentcoreMemory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory_Override(b BedrockagentcoreMemory, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -693,7 +693,7 @@ func BedrockagentcoreMemory_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func BedrockagentcoreMemory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func BedrockagentcoreMemory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func BedrockagentcoreMemory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func BedrockagentcoreMemory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
+		"@cdktn/provider-aws.bedrockagentcoreMemory.BedrockagentcoreMemory",
 		"tfResourceType",
 		&returns,
 	)

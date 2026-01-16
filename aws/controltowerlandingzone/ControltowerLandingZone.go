@@ -5,14 +5,14 @@ package controltowerlandingzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowerlandingzone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowerlandingzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
 type ControltowerLandingZone interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ControltowerLandingZone) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone(scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) ControltowerLandingZone {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewControltowerLandingZone(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ControltowerLandingZone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewControltowerLandingZone(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone_Override(c ControltowerLandingZone, scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -658,7 +658,7 @@ func ControltowerLandingZone_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func ControltowerLandingZone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ControltowerLandingZone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func ControltowerLandingZone_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func ControltowerLandingZone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZone",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZone",
 		"tfResourceType",
 		&returns,
 	)

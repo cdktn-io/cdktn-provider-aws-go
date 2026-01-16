@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayAccount.ApiGatewayAccount",
+		"@cdktn/provider-aws.apiGatewayAccount.ApiGatewayAccount",
 		reflect.TypeOf((*ApiGatewayAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayAccount.ApiGatewayAccountConfig",
+		"@cdktn/provider-aws.apiGatewayAccount.ApiGatewayAccountConfig",
 		reflect.TypeOf((*ApiGatewayAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettings",
+		"@cdktn/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettings",
 		reflect.TypeOf((*ApiGatewayAccountThrottleSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettingsList",
+		"@cdktn/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettingsList",
 		reflect.TypeOf((*ApiGatewayAccountThrottleSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayAccount.ApiGatewayAccountThrottleSettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayAccountThrottleSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "burstLimit", GoGetter: "BurstLimit"},

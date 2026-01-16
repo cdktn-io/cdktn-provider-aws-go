@@ -5,14 +5,14 @@ package lexbotalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbotalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbotalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot_alias aws_lex_bot_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot_alias aws_lex_bot_alias}.
 type LexBotAlias interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_LexBotAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource.
 func NewLexBotAlias(scope constructs.Construct, id *string, config *LexBotAliasConfig) LexBotAlias {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewLexBotAlias(scope constructs.Construct, id *string, config *LexBotAliasC
 	j := jsiiProxy_LexBotAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewLexBotAlias(scope constructs.Construct, id *string, config *LexBotAliasC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot_alias aws_lex_bot_alias} Resource.
 func NewLexBotAlias_Override(l LexBotAlias, scope constructs.Construct, id *string, config *LexBotAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -692,7 +692,7 @@ func LexBotAlias_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func LexBotAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func LexBotAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func LexBotAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func LexBotAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexBotAlias.LexBotAlias",
+		"@cdktn/provider-aws.lexBotAlias.LexBotAlias",
 		"tfResourceType",
 		&returns,
 	)

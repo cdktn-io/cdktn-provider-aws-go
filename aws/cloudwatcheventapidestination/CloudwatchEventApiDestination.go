@@ -5,14 +5,14 @@ package cloudwatcheventapidestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatcheventapidestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatcheventapidestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination}.
 type CloudwatchEventApiDestination interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_CloudwatchEventApiDestination) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
 func NewCloudwatchEventApiDestination(scope constructs.Construct, id *string, config *CloudwatchEventApiDestinationConfig) CloudwatchEventApiDestination {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewCloudwatchEventApiDestination(scope constructs.Construct, id *string, co
 	j := jsiiProxy_CloudwatchEventApiDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewCloudwatchEventApiDestination(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_api_destination aws_cloudwatch_event_api_destination} Resource.
 func NewCloudwatchEventApiDestination_Override(c CloudwatchEventApiDestination, scope constructs.Construct, id *string, config *CloudwatchEventApiDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -680,7 +680,7 @@ func CloudwatchEventApiDestination_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -715,7 +715,7 @@ func CloudwatchEventApiDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func CloudwatchEventApiDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func CloudwatchEventApiDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func CloudwatchEventApiDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
+		"@cdktn/provider-aws.cloudwatchEventApiDestination.CloudwatchEventApiDestination",
 		"tfResourceType",
 		&returns,
 	)

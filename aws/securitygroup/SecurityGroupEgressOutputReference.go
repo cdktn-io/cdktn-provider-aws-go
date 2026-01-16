@@ -5,9 +5,9 @@ package securitygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -375,7 +375,7 @@ func NewSecurityGroupEgressOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_SecurityGroupEgressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -387,7 +387,7 @@ func NewSecurityGroupEgressOutputReference_Override(s SecurityGroupEgressOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
+		"@cdktn/provider-aws.securityGroup.SecurityGroupEgressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

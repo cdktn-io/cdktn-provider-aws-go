@@ -5,9 +5,9 @@ package ramresourceshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ramresourceshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ramresourceshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewRamResourceShareTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_RamResourceShareTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewRamResourceShareTimeoutsOutputReference_Override(r RamResourceShareTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
+		"@cdktn/provider-aws.ramResourceShare.RamResourceShareTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

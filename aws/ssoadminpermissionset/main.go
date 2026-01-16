@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminPermissionSet.SsoadminPermissionSet",
+		"@cdktn/provider-aws.ssoadminPermissionSet.SsoadminPermissionSet",
 		reflect.TypeOf((*SsoadminPermissionSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetConfig",
+		"@cdktn/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetConfig",
 		reflect.TypeOf((*SsoadminPermissionSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetTimeouts",
+		"@cdktn/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetTimeouts",
 		reflect.TypeOf((*SsoadminPermissionSetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssoadminPermissionSet.SsoadminPermissionSetTimeoutsOutputReference",
 		reflect.TypeOf((*SsoadminPermissionSetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

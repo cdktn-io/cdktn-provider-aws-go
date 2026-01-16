@@ -5,14 +5,14 @@ package dataawssesv2dedicatedippool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssesv2dedicatedippool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssesv2dedicatedippool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool}.
 type DataAwsSesv2DedicatedIpPool interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsSesv2DedicatedIpPool) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Data Source.
 func NewDataAwsSesv2DedicatedIpPool(scope constructs.Construct, id *string, config *DataAwsSesv2DedicatedIpPoolConfig) DataAwsSesv2DedicatedIpPool {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsSesv2DedicatedIpPool(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsSesv2DedicatedIpPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsSesv2DedicatedIpPool(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_dedicated_ip_pool aws_sesv2_dedicated_ip_pool} Data Source.
 func NewDataAwsSesv2DedicatedIpPool_Override(d DataAwsSesv2DedicatedIpPool, scope constructs.Construct, id *string, config *DataAwsSesv2DedicatedIpPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAwsSesv2DedicatedIpPool_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAwsSesv2DedicatedIpPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsSesv2DedicatedIpPool_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsSesv2DedicatedIpPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsSesv2DedicatedIpPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
+		"@cdktn/provider-aws.dataAwsSesv2DedicatedIpPool.DataAwsSesv2DedicatedIpPool",
 		"tfResourceType",
 		&returns,
 	)

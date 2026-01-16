@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		reflect.TypeOf((*RdsClusterSnapshotCopy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyConfig",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyConfig",
 		reflect.TypeOf((*RdsClusterSnapshotCopyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeouts",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeouts",
 		reflect.TypeOf((*RdsClusterSnapshotCopyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopyTimeoutsOutputReference",
 		reflect.TypeOf((*RdsClusterSnapshotCopyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

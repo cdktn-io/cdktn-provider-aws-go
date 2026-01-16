@@ -5,9 +5,9 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewQuicksightDataSourceParametersAwsIotAnalyticsOutputReference(terraformRe
 	j := jsiiProxy_QuicksightDataSourceParametersAwsIotAnalyticsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalyticsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewQuicksightDataSourceParametersAwsIotAnalyticsOutputReference_Override(q 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalyticsOutputReference",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSourceParametersAwsIotAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

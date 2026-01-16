@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissions",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissions",
 		reflect.TypeOf((*QuicksightCustomPermissions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilities",
 		reflect.TypeOf((*QuicksightCustomPermissionsCapabilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesList",
 		reflect.TypeOf((*QuicksightCustomPermissionsCapabilitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesOutputReference",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsCapabilitiesOutputReference",
 		reflect.TypeOf((*QuicksightCustomPermissionsCapabilitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addOrRunAnomalyDetectionForAnalyses", GoGetter: "AddOrRunAnomalyDetectionForAnalyses"},
@@ -207,7 +207,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsConfig",
+		"@cdktn/provider-aws.quicksightCustomPermissions.QuicksightCustomPermissionsConfig",
 		reflect.TypeOf((*QuicksightCustomPermissionsConfig)(nil)).Elem(),
 	)
 }

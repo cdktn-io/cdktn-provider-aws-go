@@ -5,9 +5,9 @@ package redshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewRedshiftClusterClusterNodesList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_RedshiftClusterClusterNodesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewRedshiftClusterClusterNodesList_Override(r RedshiftClusterClusterNodesLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

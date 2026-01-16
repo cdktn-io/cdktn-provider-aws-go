@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfile",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfile",
 		reflect.TypeOf((*EksFargateProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileConfig",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileConfig",
 		reflect.TypeOf((*EksFargateProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileSelector",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileSelector",
 		reflect.TypeOf((*EksFargateProfileSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileSelectorList",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileSelectorList",
 		reflect.TypeOf((*EksFargateProfileSelectorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileSelectorOutputReference",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileSelectorOutputReference",
 		reflect.TypeOf((*EksFargateProfileSelectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileTimeouts",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileTimeouts",
 		reflect.TypeOf((*EksFargateProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksFargateProfile.EksFargateProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksFargateProfile.EksFargateProfileTimeoutsOutputReference",
 		reflect.TypeOf((*EksFargateProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

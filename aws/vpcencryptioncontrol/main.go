@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControl",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControl",
 		reflect.TypeOf((*VpcEncryptionControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,19 +106,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlConfig",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlConfig",
 		reflect.TypeOf((*VpcEncryptionControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusions",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusions",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsElasticFileSystem",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsElasticFileSystem",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsElasticFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -190,11 +190,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsInternetGateway",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsInternetGateway",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsInternetGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsInternetGatewayOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsInternetGatewayOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsInternetGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambda",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambda",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsLambda)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsLambdaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsNatGateway",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsNatGateway",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsNatGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsNatGatewayOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsNatGatewayOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsNatGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -304,7 +304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -344,11 +344,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVirtualPrivateGateway",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVirtualPrivateGateway",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVirtualPrivateGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -382,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcLattice",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcLattice",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVpcLattice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcLatticeOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcLatticeOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVpcLatticeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -420,11 +420,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcPeering",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcPeering",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVpcPeering)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlResourceExclusionsVpcPeeringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,11 +458,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeouts",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeouts",
 		reflect.TypeOf((*VpcEncryptionControlTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlTimeoutsOutputReference",
 		reflect.TypeOf((*VpcEncryptionControlTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

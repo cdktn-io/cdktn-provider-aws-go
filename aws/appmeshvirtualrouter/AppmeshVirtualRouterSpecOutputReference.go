@@ -5,9 +5,9 @@ package appmeshvirtualrouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewAppmeshVirtualRouterSpecOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_AppmeshVirtualRouterSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewAppmeshVirtualRouterSpecOutputReference_Override(a AppmeshVirtualRouterS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouterSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

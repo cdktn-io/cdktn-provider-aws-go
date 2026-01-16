@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPool",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPool",
 		reflect.TypeOf((*DataAwsEc2CoipPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolConfig",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolConfig",
 		reflect.TypeOf((*DataAwsEc2CoipPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilter",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilter",
 		reflect.TypeOf((*DataAwsEc2CoipPoolFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterList",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterList",
 		reflect.TypeOf((*DataAwsEc2CoipPoolFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolFilterOutputReference",
 		reflect.TypeOf((*DataAwsEc2CoipPoolFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolTimeouts",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolTimeouts",
 		reflect.TypeOf((*DataAwsEc2CoipPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2CoipPool.DataAwsEc2CoipPoolTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsEc2CoipPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

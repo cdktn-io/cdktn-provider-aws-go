@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		reflect.TypeOf((*DataAwsAutoscalingGroups)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsConfig",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsConfig",
 		reflect.TypeOf((*DataAwsAutoscalingGroupsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilter",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilter",
 		reflect.TypeOf((*DataAwsAutoscalingGroupsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
 		reflect.TypeOf((*DataAwsAutoscalingGroupsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -99,7 +99,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterOutputReference",
 		reflect.TypeOf((*DataAwsAutoscalingGroupsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

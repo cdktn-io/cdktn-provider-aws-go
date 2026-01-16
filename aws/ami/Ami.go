@@ -5,14 +5,14 @@ package ami
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ami/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ami/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ami aws_ami}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ami aws_ami}.
 type Ami interface {
 	cdktf.TerraformResource
 	Architecture() *string
@@ -945,7 +945,7 @@ func (j *jsiiProxy_Ami) VirtualizationTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ami aws_ami} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ami aws_ami} Resource.
 func NewAmi(scope constructs.Construct, id *string, config *AmiConfig) Ami {
 	_init_.Initialize()
 
@@ -955,7 +955,7 @@ func NewAmi(scope constructs.Construct, id *string, config *AmiConfig) Ami {
 	j := jsiiProxy_Ami{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -963,12 +963,12 @@ func NewAmi(scope constructs.Construct, id *string, config *AmiConfig) Ami {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ami aws_ami} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ami aws_ami} Resource.
 func NewAmi_Override(a Ami, scope constructs.Construct, id *string, config *AmiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1261,7 +1261,7 @@ func Ami_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1296,7 +1296,7 @@ func Ami_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1315,7 +1315,7 @@ func Ami_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1334,7 +1334,7 @@ func Ami_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1347,7 +1347,7 @@ func Ami_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ami.Ami",
+		"@cdktn/provider-aws.ami.Ami",
 		"tfResourceType",
 		&returns,
 	)

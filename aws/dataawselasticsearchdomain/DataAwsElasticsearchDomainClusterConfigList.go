@@ -5,9 +5,9 @@ package dataawselasticsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticsearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsElasticsearchDomainClusterConfigList(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsElasticsearchDomainClusterConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticsearchDomain.DataAwsElasticsearchDomainClusterConfigList",
+		"@cdktn/provider-aws.dataAwsElasticsearchDomain.DataAwsElasticsearchDomainClusterConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsElasticsearchDomainClusterConfigList_Override(d DataAwsElasticsea
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticsearchDomain.DataAwsElasticsearchDomainClusterConfigList",
+		"@cdktn/provider-aws.dataAwsElasticsearchDomain.DataAwsElasticsearchDomainClusterConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

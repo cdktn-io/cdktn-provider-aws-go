@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKey",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKey",
 		reflect.TypeOf((*KmsExternalKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kmsExternalKey.KmsExternalKeyConfig",
+		"@cdktn/provider-aws.kmsExternalKey.KmsExternalKeyConfig",
 		reflect.TypeOf((*KmsExternalKeyConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package locationplaceindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/locationplaceindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationplaceindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewLocationPlaceIndexDataSourceConfigurationOutputReference(terraformResour
 	j := jsiiProxy_LocationPlaceIndexDataSourceConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewLocationPlaceIndexDataSourceConfigurationOutputReference_Override(l Loca
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
+		"@cdktn/provider-aws.locationPlaceIndex.LocationPlaceIndexDataSourceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

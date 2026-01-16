@@ -5,9 +5,9 @@ package kendraexperience
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraexperience/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraexperience/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewKendraExperienceTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_KendraExperienceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraExperience.KendraExperienceTimeoutsOutputReference",
+		"@cdktn/provider-aws.kendraExperience.KendraExperienceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewKendraExperienceTimeoutsOutputReference_Override(k KendraExperienceTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraExperience.KendraExperienceTimeoutsOutputReference",
+		"@cdktn/provider-aws.kendraExperience.KendraExperienceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

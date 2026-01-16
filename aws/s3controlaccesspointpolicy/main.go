@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicy",
+		"@cdktn/provider-aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicy",
 		reflect.TypeOf((*S3ControlAccessPointPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicyConfig",
+		"@cdktn/provider-aws.s3ControlAccessPointPolicy.S3ControlAccessPointPolicyConfig",
 		reflect.TypeOf((*S3ControlAccessPointPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package sagemakerdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -590,7 +590,7 @@ func NewSagemakerDomainDefaultUserSettingsOutputReference(terraformResource cdkt
 	j := jsiiProxy_SagemakerDomainDefaultUserSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -602,7 +602,7 @@ func NewSagemakerDomainDefaultUserSettingsOutputReference_Override(s SagemakerDo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsOutputReference",
+		"@cdktn/provider-aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

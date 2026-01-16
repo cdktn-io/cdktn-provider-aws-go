@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicy",
 		reflect.TypeOf((*ProxyProtocolPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicyConfig",
+		"@cdktn/provider-aws.proxyProtocolPolicy.ProxyProtocolPolicyConfig",
 		reflect.TypeOf((*ProxyProtocolPolicyConfig)(nil)).Elem(),
 	)
 }

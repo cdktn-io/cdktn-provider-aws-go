@@ -5,14 +5,14 @@ package efsfilesystempolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsfilesystempolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsfilesystempolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy}.
 type EfsFileSystemPolicy interface {
 	cdktf.TerraformResource
 	BypassPolicyLockoutSafetyCheck() interface{}
@@ -404,7 +404,7 @@ func (j *jsiiProxy_EfsFileSystemPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
 func NewEfsFileSystemPolicy(scope constructs.Construct, id *string, config *EfsFileSystemPolicyConfig) EfsFileSystemPolicy {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewEfsFileSystemPolicy(scope constructs.Construct, id *string, config *EfsF
 	j := jsiiProxy_EfsFileSystemPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewEfsFileSystemPolicy(scope constructs.Construct, id *string, config *EfsF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_file_system_policy aws_efs_file_system_policy} Resource.
 func NewEfsFileSystemPolicy_Override(e EfsFileSystemPolicy, scope constructs.Construct, id *string, config *EfsFileSystemPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -566,7 +566,7 @@ func EfsFileSystemPolicy_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func EfsFileSystemPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func EfsFileSystemPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func EfsFileSystemPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func EfsFileSystemPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
+		"@cdktn/provider-aws.efsFileSystemPolicy.EfsFileSystemPolicy",
 		"tfResourceType",
 		&returns,
 	)

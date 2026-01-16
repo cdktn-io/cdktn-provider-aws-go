@@ -5,14 +5,14 @@ package workspaceswebportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebportal/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebportal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
 type WorkspaceswebPortal interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -691,7 +691,7 @@ func (j *jsiiProxy_WorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) WorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	j := jsiiProxy_WorkspaceswebPortal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -709,12 +709,12 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal_Override(w WorkspaceswebPortal, scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -897,7 +897,7 @@ func WorkspaceswebPortal_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -932,7 +932,7 @@ func WorkspaceswebPortal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -951,7 +951,7 @@ func WorkspaceswebPortal_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func WorkspaceswebPortal_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -983,7 +983,7 @@ func WorkspaceswebPortal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
+		"@cdktn/provider-aws.workspaceswebPortal.WorkspaceswebPortal",
 		"tfResourceType",
 		&returns,
 	)

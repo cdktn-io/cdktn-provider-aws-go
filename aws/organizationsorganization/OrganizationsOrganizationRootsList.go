@@ -5,9 +5,9 @@ package organizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewOrganizationsOrganizationRootsList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_OrganizationsOrganizationRootsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewOrganizationsOrganizationRootsList_Override(o OrganizationsOrganizationR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationRootsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfig",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfig",
 		reflect.TypeOf((*LambdaCodeSigningConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishers",
 		reflect.TypeOf((*LambdaCodeSigningConfigAllowedPublishers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishersOutputReference",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigAllowedPublishersOutputReference",
 		reflect.TypeOf((*LambdaCodeSigningConfigAllowedPublishersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,15 +126,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigConfig",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigConfig",
 		reflect.TypeOf((*LambdaCodeSigningConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigPolicies",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigPolicies",
 		reflect.TypeOf((*LambdaCodeSigningConfigPolicies)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigPoliciesOutputReference",
+		"@cdktn/provider-aws.lambdaCodeSigningConfig.LambdaCodeSigningConfigPoliciesOutputReference",
 		reflect.TypeOf((*LambdaCodeSigningConfigPoliciesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

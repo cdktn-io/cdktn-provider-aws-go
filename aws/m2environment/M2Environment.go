@@ -5,14 +5,14 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2environment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_environment aws_m2_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_environment aws_m2_environment}.
 type M2Environment interface {
 	cdktf.TerraformResource
 	ApplyChangesDuringMaintenanceWindow() interface{}
@@ -746,7 +746,7 @@ func (j *jsiiProxy_M2Environment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment(scope constructs.Construct, id *string, config *M2EnvironmentConfig) M2Environment {
 	_init_.Initialize()
 
@@ -756,7 +756,7 @@ func NewM2Environment(scope constructs.Construct, id *string, config *M2Environm
 	j := jsiiProxy_M2Environment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -764,12 +764,12 @@ func NewM2Environment(scope constructs.Construct, id *string, config *M2Environm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_environment aws_m2_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_environment aws_m2_environment} Resource.
 func NewM2Environment_Override(m M2Environment, scope constructs.Construct, id *string, config *M2EnvironmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1007,7 +1007,7 @@ func M2Environment_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1042,7 +1042,7 @@ func M2Environment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1061,7 +1061,7 @@ func M2Environment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1080,7 +1080,7 @@ func M2Environment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1093,7 +1093,7 @@ func M2Environment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.m2Environment.M2Environment",
+		"@cdktn/provider-aws.m2Environment.M2Environment",
 		"tfResourceType",
 		&returns,
 	)

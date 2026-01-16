@@ -5,9 +5,9 @@ package connectquickconnect
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectquickconnect/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectquickconnect/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewConnectQuickConnectQuickConnectConfigOutputReference(terraformResource c
 	j := jsiiProxy_ConnectQuickConnectQuickConnectConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigOutputReference",
+		"@cdktn/provider-aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewConnectQuickConnectQuickConnectConfigOutputReference_Override(c ConnectQ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigOutputReference",
+		"@cdktn/provider-aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

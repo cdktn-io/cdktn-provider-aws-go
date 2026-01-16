@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddon",
 		reflect.TypeOf((*DataAwsEksAddon)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addonName", GoGetter: "AddonName"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonConfig",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonConfig",
 		reflect.TypeOf((*DataAwsEksAddonConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociation",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociation",
 		reflect.TypeOf((*DataAwsEksAddonPodIdentityAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
 		reflect.TypeOf((*DataAwsEksAddonPodIdentityAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationOutputReference",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationOutputReference",
 		reflect.TypeOf((*DataAwsEksAddonPodIdentityAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

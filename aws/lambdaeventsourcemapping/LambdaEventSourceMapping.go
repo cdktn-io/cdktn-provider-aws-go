@@ -5,14 +5,14 @@ package lambdaeventsourcemapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdaeventsourcemapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdaeventsourcemapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.
 type LambdaEventSourceMapping interface {
 	cdktf.TerraformResource
 	AmazonManagedKafkaEventSourceConfig() LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference
@@ -1082,7 +1082,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
 func NewLambdaEventSourceMapping(scope constructs.Construct, id *string, config *LambdaEventSourceMappingConfig) LambdaEventSourceMapping {
 	_init_.Initialize()
 
@@ -1092,7 +1092,7 @@ func NewLambdaEventSourceMapping(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_LambdaEventSourceMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1100,12 +1100,12 @@ func NewLambdaEventSourceMapping(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
 func NewLambdaEventSourceMapping_Override(l LambdaEventSourceMapping, scope constructs.Construct, id *string, config *LambdaEventSourceMappingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1409,7 +1409,7 @@ func LambdaEventSourceMapping_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1444,7 +1444,7 @@ func LambdaEventSourceMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1463,7 +1463,7 @@ func LambdaEventSourceMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1482,7 +1482,7 @@ func LambdaEventSourceMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1495,7 +1495,7 @@ func LambdaEventSourceMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
+		"@cdktn/provider-aws.lambdaEventSourceMapping.LambdaEventSourceMapping",
 		"tfResourceType",
 		&returns,
 	)

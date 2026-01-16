@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbNode.DataAwsOdbDbNode",
+		"@cdktn/provider-aws.dataAwsOdbDbNode.DataAwsOdbDbNode",
 		reflect.TypeOf((*DataAwsOdbDbNode)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalDetails", GoGetter: "AdditionalDetails"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbDbNode.DataAwsOdbDbNodeConfig",
+		"@cdktn/provider-aws.dataAwsOdbDbNode.DataAwsOdbDbNodeConfig",
 		reflect.TypeOf((*DataAwsOdbDbNodeConfig)(nil)).Elem(),
 	)
 }

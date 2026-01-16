@@ -5,9 +5,9 @@ package sagemakermodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakermodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakermodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList(
 	j := jsiiProxy_SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList_
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

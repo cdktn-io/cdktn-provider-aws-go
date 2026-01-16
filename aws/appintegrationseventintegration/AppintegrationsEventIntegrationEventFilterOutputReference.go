@@ -5,9 +5,9 @@ package appintegrationseventintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appintegrationseventintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appintegrationseventintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAppintegrationsEventIntegrationEventFilterOutputReference(terraformResou
 	j := jsiiProxy_AppintegrationsEventIntegrationEventFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegrationEventFilterOutputReference",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegrationEventFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAppintegrationsEventIntegrationEventFilterOutputReference_Override(a App
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegrationEventFilterOutputReference",
+		"@cdktn/provider-aws.appintegrationsEventIntegration.AppintegrationsEventIntegrationEventFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -5,14 +5,14 @@ package shieldsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/shieldsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shieldsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_subscription aws_shield_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_subscription aws_shield_subscription}.
 type ShieldSubscription interface {
 	cdktf.TerraformResource
 	AutoRenew() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_ShieldSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
 func NewShieldSubscription(scope constructs.Construct, id *string, config *ShieldSubscriptionConfig) ShieldSubscription {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewShieldSubscription(scope constructs.Construct, id *string, config *Shiel
 	j := jsiiProxy_ShieldSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewShieldSubscription(scope constructs.Construct, id *string, config *Shiel
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
 func NewShieldSubscription_Override(s ShieldSubscription, scope constructs.Construct, id *string, config *ShieldSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -474,7 +474,7 @@ func ShieldSubscription_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -509,7 +509,7 @@ func ShieldSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func ShieldSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func ShieldSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func ShieldSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.shieldSubscription.ShieldSubscription",
+		"@cdktn/provider-aws.shieldSubscription.ShieldSubscription",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamLink.OamLink",
+		"@cdktn/provider-aws.oamLink.OamLink",
 		reflect.TypeOf((*OamLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,19 +93,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamLink.OamLinkConfig",
+		"@cdktn/provider-aws.oamLink.OamLinkConfig",
 		reflect.TypeOf((*OamLinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfiguration",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfiguration",
 		reflect.TypeOf((*OamLinkLinkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfigurationLogGroupConfiguration",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfigurationLogGroupConfiguration",
 		reflect.TypeOf((*OamLinkLinkConfigurationLogGroupConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfigurationLogGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfigurationLogGroupConfigurationOutputReference",
 		reflect.TypeOf((*OamLinkLinkConfigurationLogGroupConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfigurationMetricConfiguration",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfigurationMetricConfiguration",
 		reflect.TypeOf((*OamLinkLinkConfigurationMetricConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfigurationMetricConfigurationOutputReference",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfigurationMetricConfigurationOutputReference",
 		reflect.TypeOf((*OamLinkLinkConfigurationMetricConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -177,7 +177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamLink.OamLinkLinkConfigurationOutputReference",
+		"@cdktn/provider-aws.oamLink.OamLinkLinkConfigurationOutputReference",
 		reflect.TypeOf((*OamLinkLinkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -217,11 +217,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamLink.OamLinkTimeouts",
+		"@cdktn/provider-aws.oamLink.OamLinkTimeouts",
 		reflect.TypeOf((*OamLinkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamLink.OamLinkTimeoutsOutputReference",
+		"@cdktn/provider-aws.oamLink.OamLinkTimeoutsOutputReference",
 		reflect.TypeOf((*OamLinkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

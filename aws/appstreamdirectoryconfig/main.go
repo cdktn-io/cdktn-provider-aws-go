@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfig",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfig",
 		reflect.TypeOf((*AppstreamDirectoryConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,11 +81,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties",
 		reflect.TypeOf((*AppstreamDirectoryConfigCertificateBasedAuthProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReference",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReference",
 		reflect.TypeOf((*AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateAuthorityArn", GoGetter: "CertificateAuthorityArn"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig",
 		reflect.TypeOf((*AppstreamDirectoryConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials",
 		reflect.TypeOf((*AppstreamDirectoryConfigServiceAccountCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentialsOutputReference",
+		"@cdktn/provider-aws.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentialsOutputReference",
 		reflect.TypeOf((*AppstreamDirectoryConfigServiceAccountCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},

@@ -5,9 +5,9 @@ package dataawsodbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -236,7 +236,7 @@ func NewDataAwsOdbNetworkManagedServicesOutputReference(terraformResource cdktf.
 	j := jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetwork.DataAwsOdbNetworkManagedServicesOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbNetwork.DataAwsOdbNetworkManagedServicesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,7 +248,7 @@ func NewDataAwsOdbNetworkManagedServicesOutputReference_Override(d DataAwsOdbNet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetwork.DataAwsOdbNetworkManagedServicesOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbNetwork.DataAwsOdbNetworkManagedServicesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

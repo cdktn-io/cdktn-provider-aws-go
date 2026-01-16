@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSet",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSet",
 		reflect.TypeOf((*WafXssMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,19 +73,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetConfig",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetConfig",
 		reflect.TypeOf((*WafXssMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuples",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuples",
 		reflect.TypeOf((*WafXssMatchSetXssMatchTuples)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesFieldToMatch",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesFieldToMatch",
 		reflect.TypeOf((*WafXssMatchSetXssMatchTuplesFieldToMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesFieldToMatchOutputReference",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesFieldToMatchOutputReference",
 		reflect.TypeOf((*WafXssMatchSetXssMatchTuplesFieldToMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesList",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesList",
 		reflect.TypeOf((*WafXssMatchSetXssMatchTuplesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
+		"@cdktn/provider-aws.wafXssMatchSet.WafXssMatchSetXssMatchTuplesOutputReference",
 		reflect.TypeOf((*WafXssMatchSetXssMatchTuplesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

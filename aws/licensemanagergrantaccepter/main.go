@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		reflect.TypeOf((*LicensemanagerGrantAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepterConfig",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepterConfig",
 		reflect.TypeOf((*LicensemanagerGrantAccepterConfig)(nil)).Elem(),
 	)
 }

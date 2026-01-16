@@ -5,9 +5,9 @@ package dataawsekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsEksClusterAccessConfigOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsEksClusterAccessConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterAccessConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterAccessConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsEksClusterAccessConfigOutputReference_Override(d DataAwsEksCluste
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksCluster.DataAwsEksClusterAccessConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsEksCluster.DataAwsEksClusterAccessConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,9 +5,9 @@ package storagegatewaygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/storagegatewaygateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/storagegatewaygateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -311,7 +311,7 @@ func NewStoragegatewayGatewaySmbActiveDirectorySettingsOutputReference(terraform
 	j := jsiiProxy_StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -323,7 +323,7 @@ func NewStoragegatewayGatewaySmbActiveDirectorySettingsOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
+		"@cdktn/provider-aws.storagegatewayGateway.StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

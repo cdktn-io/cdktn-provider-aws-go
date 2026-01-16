@@ -5,9 +5,9 @@ package servicecatalogorganizationsaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogorganizationsaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogorganizationsaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewServicecatalogOrganizationsAccessTimeoutsOutputReference(terraformResour
 	j := jsiiProxy_ServicecatalogOrganizationsAccessTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewServicecatalogOrganizationsAccessTimeoutsOutputReference_Override(s Serv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogOrganizationsAccess.ServicecatalogOrganizationsAccessTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

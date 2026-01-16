@@ -5,14 +5,14 @@ package cloudfrontkeyvaluestorekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontkeyvaluestorekey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontkeyvaluestorekey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key}.
 type CloudfrontkeyvaluestoreKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_CloudfrontkeyvaluestoreKey) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key} Resource.
 func NewCloudfrontkeyvaluestoreKey(scope constructs.Construct, id *string, config *CloudfrontkeyvaluestoreKeyConfig) CloudfrontkeyvaluestoreKey {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewCloudfrontkeyvaluestoreKey(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_CloudfrontkeyvaluestoreKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -395,12 +395,12 @@ func NewCloudfrontkeyvaluestoreKey(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfrontkeyvaluestore_key aws_cloudfrontkeyvaluestore_key} Resource.
 func NewCloudfrontkeyvaluestoreKey_Override(c CloudfrontkeyvaluestoreKey, scope constructs.Construct, id *string, config *CloudfrontkeyvaluestoreKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -517,7 +517,7 @@ func CloudfrontkeyvaluestoreKey_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -552,7 +552,7 @@ func CloudfrontkeyvaluestoreKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func CloudfrontkeyvaluestoreKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -590,7 +590,7 @@ func CloudfrontkeyvaluestoreKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func CloudfrontkeyvaluestoreKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
+		"@cdktn/provider-aws.cloudfrontkeyvaluestoreKey.CloudfrontkeyvaluestoreKey",
 		"tfResourceType",
 		&returns,
 	)

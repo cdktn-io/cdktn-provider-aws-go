@@ -5,14 +5,14 @@ package dataawssecurityhubstandardscontrolassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssecurityhubstandardscontrolassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecurityhubstandardscontrolassociations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
 type DataAwsSecurityhubStandardsControlAssociations interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -310,7 +310,7 @@ func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociations) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) DataAwsSecurityhubStandardsControlAssociations {
 	_init_.Initialize()
 
@@ -320,7 +320,7 @@ func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construc
 	j := jsiiProxy_DataAwsSecurityhubStandardsControlAssociations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -328,12 +328,12 @@ func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations_Override(d DataAwsSecurityhubStandardsControlAssociations, scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -417,7 +417,7 @@ func DataAwsSecurityhubStandardsControlAssociations_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -452,7 +452,7 @@ func DataAwsSecurityhubStandardsControlAssociations_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -471,7 +471,7 @@ func DataAwsSecurityhubStandardsControlAssociations_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -490,7 +490,7 @@ func DataAwsSecurityhubStandardsControlAssociations_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAwsSecurityhubStandardsControlAssociations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
+		"@cdktn/provider-aws.dataAwsSecurityhubStandardsControlAssociations.DataAwsSecurityhubStandardsControlAssociations",
 		"tfResourceType",
 		&returns,
 	)

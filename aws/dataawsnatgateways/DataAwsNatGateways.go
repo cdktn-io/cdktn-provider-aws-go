@@ -5,14 +5,14 @@ package dataawsnatgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnatgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateways/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/nat_gateways aws_nat_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways}.
 type DataAwsNatGateways interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsNatGateways) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
 func NewDataAwsNatGateways(scope constructs.Construct, id *string, config *DataAwsNatGatewaysConfig) DataAwsNatGateways {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAwsNatGateways(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsNatGateways{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,12 +414,12 @@ func NewDataAwsNatGateways(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
 func NewDataAwsNatGateways_Override(d DataAwsNatGateways, scope constructs.Construct, id *string, config *DataAwsNatGatewaysConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -525,7 +525,7 @@ func DataAwsNatGateways_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsNatGateways_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsNatGateways_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsNatGateways_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +611,7 @@ func DataAwsNatGateways_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
+		"@cdktn/provider-aws.dataAwsNatGateways.DataAwsNatGateways",
 		"tfResourceType",
 		&returns,
 	)

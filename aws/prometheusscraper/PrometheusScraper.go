@@ -5,14 +5,14 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusscraper/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusscraper/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_scraper aws_prometheus_scraper}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_scraper aws_prometheus_scraper}.
 type PrometheusScraper interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_PrometheusScraper) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
 func NewPrometheusScraper(scope constructs.Construct, id *string, config *PrometheusScraperConfig) PrometheusScraper {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewPrometheusScraper(scope constructs.Construct, id *string, config *Promet
 	j := jsiiProxy_PrometheusScraper{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewPrometheusScraper(scope constructs.Construct, id *string, config *Promet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
 func NewPrometheusScraper_Override(p PrometheusScraper, scope constructs.Construct, id *string, config *PrometheusScraperConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -672,7 +672,7 @@ func PrometheusScraper_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func PrometheusScraper_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func PrometheusScraper_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func PrometheusScraper_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func PrometheusScraper_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.prometheusScraper.PrometheusScraper",
+		"@cdktn/provider-aws.prometheusScraper.PrometheusScraper",
 		"tfResourceType",
 		&returns,
 	)

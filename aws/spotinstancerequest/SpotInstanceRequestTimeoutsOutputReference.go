@@ -5,9 +5,9 @@ package spotinstancerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/spotinstancerequest/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/spotinstancerequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSpotInstanceRequestTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_SpotInstanceRequestTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSpotInstanceRequestTimeoutsOutputReference_Override(s SpotInstanceReques
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

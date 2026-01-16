@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscription",
+		"@cdktn/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscription",
 		reflect.TypeOf((*QuicksightAccountSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -127,15 +127,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionConfig",
+		"@cdktn/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionConfig",
 		reflect.TypeOf((*QuicksightAccountSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionTimeouts",
+		"@cdktn/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionTimeouts",
 		reflect.TypeOf((*QuicksightAccountSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightAccountSubscription.QuicksightAccountSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightAccountSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

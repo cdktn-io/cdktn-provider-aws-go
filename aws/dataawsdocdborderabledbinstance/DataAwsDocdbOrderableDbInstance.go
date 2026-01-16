@@ -5,14 +5,14 @@ package dataawsdocdborderabledbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdocdborderabledbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdocdborderabledbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance}.
 type DataAwsDocdbOrderableDbInstance interface {
 	cdktf.TerraformDataSource
 	AvailabilityZones() *[]*string
@@ -444,7 +444,7 @@ func (j *jsiiProxy_DataAwsDocdbOrderableDbInstance) VpcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
 func NewDataAwsDocdbOrderableDbInstance(scope constructs.Construct, id *string, config *DataAwsDocdbOrderableDbInstanceConfig) DataAwsDocdbOrderableDbInstance {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewDataAwsDocdbOrderableDbInstance(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsDocdbOrderableDbInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -462,12 +462,12 @@ func NewDataAwsDocdbOrderableDbInstance(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
 func NewDataAwsDocdbOrderableDbInstance_Override(d DataAwsDocdbOrderableDbInstance, scope constructs.Construct, id *string, config *DataAwsDocdbOrderableDbInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -617,7 +617,7 @@ func DataAwsDocdbOrderableDbInstance_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -652,7 +652,7 @@ func DataAwsDocdbOrderableDbInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func DataAwsDocdbOrderableDbInstance_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func DataAwsDocdbOrderableDbInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func DataAwsDocdbOrderableDbInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		"tfResourceType",
 		&returns,
 	)

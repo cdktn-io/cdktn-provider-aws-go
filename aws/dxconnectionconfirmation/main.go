@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxConnectionConfirmation.DxConnectionConfirmation",
+		"@cdktn/provider-aws.dxConnectionConfirmation.DxConnectionConfirmation",
 		reflect.TypeOf((*DxConnectionConfirmation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxConnectionConfirmation.DxConnectionConfirmationConfig",
+		"@cdktn/provider-aws.dxConnectionConfirmation.DxConnectionConfirmationConfig",
 		reflect.TypeOf((*DxConnectionConfirmationConfig)(nil)).Elem(),
 	)
 }

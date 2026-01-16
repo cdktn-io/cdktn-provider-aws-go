@@ -5,14 +5,14 @@ package datasynclocationazureblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationazureblob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationazureblob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob}.
 type DatasyncLocationAzureBlob interface {
 	cdktf.TerraformResource
 	AccessTier() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) DatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DatasyncLocationAzureBlob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_azure_blob aws_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob_Override(d DatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -786,7 +786,7 @@ func DatasyncLocationAzureBlob_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -821,7 +821,7 @@ func DatasyncLocationAzureBlob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -840,7 +840,7 @@ func DatasyncLocationAzureBlob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func DatasyncLocationAzureBlob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func DatasyncLocationAzureBlob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
+		"@cdktn/provider-aws.datasyncLocationAzureBlob.DatasyncLocationAzureBlob",
 		"tfResourceType",
 		&returns,
 	)

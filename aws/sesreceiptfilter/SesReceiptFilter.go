@@ -5,14 +5,14 @@ package sesreceiptfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesreceiptfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesreceiptfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter}.
 type SesReceiptFilter interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SesReceiptFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
 func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesReceiptFilterConfig) SesReceiptFilter {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesRece
 	j := jsiiProxy_SesReceiptFilter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesRece
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_filter aws_ses_receipt_filter} Resource.
 func NewSesReceiptFilter_Override(s SesReceiptFilter, scope constructs.Construct, id *string, config *SesReceiptFilterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -576,7 +576,7 @@ func SesReceiptFilter_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func SesReceiptFilter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func SesReceiptFilter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func SesReceiptFilter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func SesReceiptFilter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesReceiptFilter.SesReceiptFilter",
+		"@cdktn/provider-aws.sesReceiptFilter.SesReceiptFilter",
 		"tfResourceType",
 		&returns,
 	)

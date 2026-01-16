@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSet",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSet",
 		reflect.TypeOf((*Route53DelegationSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53DelegationSet.Route53DelegationSetConfig",
+		"@cdktn/provider-aws.route53DelegationSet.Route53DelegationSetConfig",
 		reflect.TypeOf((*Route53DelegationSetConfig)(nil)).Elem(),
 	)
 }

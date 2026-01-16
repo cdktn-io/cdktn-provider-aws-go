@@ -5,14 +5,14 @@ package datazoneproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_project aws_datazone_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_project aws_datazone_project}.
 type DatazoneProject interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_DatazoneProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_project aws_datazone_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_project aws_datazone_project} Resource.
 func NewDatazoneProject(scope constructs.Construct, id *string, config *DatazoneProjectConfig) DatazoneProject {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewDatazoneProject(scope constructs.Construct, id *string, config *Datazone
 	j := jsiiProxy_DatazoneProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -536,12 +536,12 @@ func NewDatazoneProject(scope constructs.Construct, id *string, config *Datazone
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_project aws_datazone_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_project aws_datazone_project} Resource.
 func NewDatazoneProject_Override(d DatazoneProject, scope constructs.Construct, id *string, config *DatazoneProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -691,7 +691,7 @@ func DatazoneProject_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func DatazoneProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func DatazoneProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func DatazoneProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DatazoneProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneProject.DatazoneProject",
+		"@cdktn/provider-aws.datazoneProject.DatazoneProject",
 		"tfResourceType",
 		&returns,
 	)

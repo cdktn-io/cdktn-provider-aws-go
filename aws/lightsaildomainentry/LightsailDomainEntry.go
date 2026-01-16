@@ -5,14 +5,14 @@ package lightsaildomainentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildomainentry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildomainentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry}.
 type LightsailDomainEntry interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_LightsailDomainEntry) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry} Resource.
 func NewLightsailDomainEntry(scope constructs.Construct, id *string, config *LightsailDomainEntryConfig) LightsailDomainEntry {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewLightsailDomainEntry(scope constructs.Construct, id *string, config *Lig
 	j := jsiiProxy_LightsailDomainEntry{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewLightsailDomainEntry(scope constructs.Construct, id *string, config *Lig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_domain_entry aws_lightsail_domain_entry} Resource.
 func NewLightsailDomainEntry_Override(l LightsailDomainEntry, scope constructs.Construct, id *string, config *LightsailDomainEntryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -634,7 +634,7 @@ func LightsailDomainEntry_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -669,7 +669,7 @@ func LightsailDomainEntry_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func LightsailDomainEntry_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func LightsailDomainEntry_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func LightsailDomainEntry_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		"tfResourceType",
 		&returns,
 	)

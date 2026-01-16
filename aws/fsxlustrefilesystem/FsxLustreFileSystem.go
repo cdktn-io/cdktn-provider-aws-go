@@ -5,14 +5,14 @@ package fsxlustrefilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxlustrefilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxlustrefilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system}.
 type FsxLustreFileSystem interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1119,7 +1119,7 @@ func (j *jsiiProxy_FsxLustreFileSystem) WeeklyMaintenanceStartTimeInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
 func NewFsxLustreFileSystem(scope constructs.Construct, id *string, config *FsxLustreFileSystemConfig) FsxLustreFileSystem {
 	_init_.Initialize()
 
@@ -1129,7 +1129,7 @@ func NewFsxLustreFileSystem(scope constructs.Construct, id *string, config *FsxL
 	j := jsiiProxy_FsxLustreFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1137,12 +1137,12 @@ func NewFsxLustreFileSystem(scope constructs.Construct, id *string, config *FsxL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
 func NewFsxLustreFileSystem_Override(f FsxLustreFileSystem, scope constructs.Construct, id *string, config *FsxLustreFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1523,7 +1523,7 @@ func FsxLustreFileSystem_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1558,7 +1558,7 @@ func FsxLustreFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1577,7 +1577,7 @@ func FsxLustreFileSystem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1596,7 +1596,7 @@ func FsxLustreFileSystem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1609,7 +1609,7 @@ func FsxLustreFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
+		"@cdktn/provider-aws.fsxLustreFileSystem.FsxLustreFileSystem",
 		"tfResourceType",
 		&returns,
 	)

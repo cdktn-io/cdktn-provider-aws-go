@@ -5,9 +5,9 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCodebuildProjectLogsConfigCloudwatchLogsOutputReference(terraformResourc
 	j := jsiiProxy_CodebuildProjectLogsConfigCloudwatchLogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCodebuildProjectLogsConfigCloudwatchLogsOutputReference_Override(c Codeb
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogsOutputReference",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProjectLogsConfigCloudwatchLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

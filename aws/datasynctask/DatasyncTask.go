@@ -5,14 +5,14 @@ package datasynctask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynctask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynctask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_task aws_datasync_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_task aws_datasync_task}.
 type DatasyncTask interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -655,7 +655,7 @@ func (j *jsiiProxy_DatasyncTask) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_task aws_datasync_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_task aws_datasync_task} Resource.
 func NewDatasyncTask(scope constructs.Construct, id *string, config *DatasyncTaskConfig) DatasyncTask {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewDatasyncTask(scope constructs.Construct, id *string, config *DatasyncTas
 	j := jsiiProxy_DatasyncTask{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -673,12 +673,12 @@ func NewDatasyncTask(scope constructs.Construct, id *string, config *DatasyncTas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_task aws_datasync_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_task aws_datasync_task} Resource.
 func NewDatasyncTask_Override(d DatasyncTask, scope constructs.Construct, id *string, config *DatasyncTaskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -861,7 +861,7 @@ func DatasyncTask_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -896,7 +896,7 @@ func DatasyncTask_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -915,7 +915,7 @@ func DatasyncTask_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -934,7 +934,7 @@ func DatasyncTask_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -947,7 +947,7 @@ func DatasyncTask_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTask",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTask",
 		"tfResourceType",
 		&returns,
 	)

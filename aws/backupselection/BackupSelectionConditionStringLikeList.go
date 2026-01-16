@@ -5,9 +5,9 @@ package backupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBackupSelectionConditionStringLikeList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_BackupSelectionConditionStringLikeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionConditionStringLikeList",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionConditionStringLikeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBackupSelectionConditionStringLikeList_Override(b BackupSelectionConditi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionConditionStringLikeList",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionConditionStringLikeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

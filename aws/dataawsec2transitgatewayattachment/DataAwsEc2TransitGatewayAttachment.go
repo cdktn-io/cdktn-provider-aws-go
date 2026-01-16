@@ -5,14 +5,14 @@ package dataawsec2transitgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2transitgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgatewayattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment}.
 type DataAwsEc2TransitGatewayAttachment interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayAttachment) TransitGatewayOwnerId() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayAttachmentConfig) DataAwsEc2TransitGatewayAttachment {
 	_init_.Initialize()
 
@@ -470,7 +470,7 @@ func NewDataAwsEc2TransitGatewayAttachment(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsEc2TransitGatewayAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -478,12 +478,12 @@ func NewDataAwsEc2TransitGatewayAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_attachment aws_ec2_transit_gateway_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayAttachment_Override(d DataAwsEc2TransitGatewayAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -589,7 +589,7 @@ func DataAwsEc2TransitGatewayAttachment_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func DataAwsEc2TransitGatewayAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func DataAwsEc2TransitGatewayAttachment_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataAwsEc2TransitGatewayAttachment_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func DataAwsEc2TransitGatewayAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayAttachment.DataAwsEc2TransitGatewayAttachment",
 		"tfResourceType",
 		&returns,
 	)

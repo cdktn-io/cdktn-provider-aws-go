@@ -5,9 +5,9 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/instance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/instance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewInstanceMetadataOptionsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_InstanceMetadataOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceMetadataOptionsOutputReference",
+		"@cdktn/provider-aws.instance.InstanceMetadataOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewInstanceMetadataOptionsOutputReference_Override(i InstanceMetadataOption
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceMetadataOptionsOutputReference",
+		"@cdktn/provider-aws.instance.InstanceMetadataOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

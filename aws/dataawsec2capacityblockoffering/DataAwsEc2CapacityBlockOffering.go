@@ -5,14 +5,14 @@ package dataawsec2capacityblockoffering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2capacityblockoffering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2capacityblockoffering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering}.
 type DataAwsEc2CapacityBlockOffering interface {
 	cdktf.TerraformDataSource
 	AvailabilityZone() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_DataAwsEc2CapacityBlockOffering) UpfrontFee() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering} Data Source.
 func NewDataAwsEc2CapacityBlockOffering(scope constructs.Construct, id *string, config *DataAwsEc2CapacityBlockOfferingConfig) DataAwsEc2CapacityBlockOffering {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsEc2CapacityBlockOffering(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsEc2CapacityBlockOffering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewDataAwsEc2CapacityBlockOffering(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_capacity_block_offering aws_ec2_capacity_block_offering} Data Source.
 func NewDataAwsEc2CapacityBlockOffering_Override(d DataAwsEc2CapacityBlockOffering, scope constructs.Construct, id *string, config *DataAwsEc2CapacityBlockOfferingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -588,7 +588,7 @@ func DataAwsEc2CapacityBlockOffering_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func DataAwsEc2CapacityBlockOffering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DataAwsEc2CapacityBlockOffering_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAwsEc2CapacityBlockOffering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAwsEc2CapacityBlockOffering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		"tfResourceType",
 		&returns,
 	)

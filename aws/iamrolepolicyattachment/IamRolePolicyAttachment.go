@@ -5,14 +5,14 @@ package iamrolepolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamrolepolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamrolepolicyattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment}.
 type IamRolePolicyAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_IamRolePolicyAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment} Resource.
 func NewIamRolePolicyAttachment(scope constructs.Construct, id *string, config *IamRolePolicyAttachmentConfig) IamRolePolicyAttachment {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewIamRolePolicyAttachment(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IamRolePolicyAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewIamRolePolicyAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachment aws_iam_role_policy_attachment} Resource.
 func NewIamRolePolicyAttachment_Override(i IamRolePolicyAttachment, scope constructs.Construct, id *string, config *IamRolePolicyAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -496,7 +496,7 @@ func IamRolePolicyAttachment_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func IamRolePolicyAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func IamRolePolicyAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func IamRolePolicyAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func IamRolePolicyAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
+		"@cdktn/provider-aws.iamRolePolicyAttachment.IamRolePolicyAttachment",
 		"tfResourceType",
 		&returns,
 	)

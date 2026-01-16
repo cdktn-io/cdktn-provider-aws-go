@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarconnectionsConnection.CodestarconnectionsConnection",
+		"@cdktn/provider-aws.codestarconnectionsConnection.CodestarconnectionsConnection",
 		reflect.TypeOf((*CodestarconnectionsConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarconnectionsConnection.CodestarconnectionsConnectionConfig",
+		"@cdktn/provider-aws.codestarconnectionsConnection.CodestarconnectionsConnectionConfig",
 		reflect.TypeOf((*CodestarconnectionsConnectionConfig)(nil)).Elem(),
 	)
 }

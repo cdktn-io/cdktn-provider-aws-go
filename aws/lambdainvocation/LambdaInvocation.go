@@ -5,14 +5,14 @@ package lambdainvocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdainvocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdainvocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_invocation aws_lambda_invocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_invocation aws_lambda_invocation}.
 type LambdaInvocation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_LambdaInvocation) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource.
 func NewLambdaInvocation(scope constructs.Construct, id *string, config *LambdaInvocationConfig) LambdaInvocation {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewLambdaInvocation(scope constructs.Construct, id *string, config *LambdaI
 	j := jsiiProxy_LambdaInvocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewLambdaInvocation(scope constructs.Construct, id *string, config *LambdaI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_invocation aws_lambda_invocation} Resource.
 func NewLambdaInvocation_Override(l LambdaInvocation, scope constructs.Construct, id *string, config *LambdaInvocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -717,7 +717,7 @@ func LambdaInvocation_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func LambdaInvocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func LambdaInvocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func LambdaInvocation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func LambdaInvocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaInvocation.LambdaInvocation",
+		"@cdktn/provider-aws.lambdaInvocation.LambdaInvocation",
 		"tfResourceType",
 		&returns,
 	)

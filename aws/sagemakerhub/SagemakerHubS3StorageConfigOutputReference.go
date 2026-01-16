@@ -5,9 +5,9 @@ package sagemakerhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerhub/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSagemakerHubS3StorageConfigOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_SagemakerHubS3StorageConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSagemakerHubS3StorageConfigOutputReference_Override(s SagemakerHubS3Stor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerHub.SagemakerHubS3StorageConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

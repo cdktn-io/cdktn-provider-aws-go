@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		reflect.TypeOf((*CodeartifactDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomainConfig",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomainConfig",
 		reflect.TypeOf((*CodeartifactDomainConfig)(nil)).Elem(),
 	)
 }

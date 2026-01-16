@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepository",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepository",
 		reflect.TypeOf((*SagemakerCodeRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryConfig",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryConfig",
 		reflect.TypeOf((*SagemakerCodeRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfig",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfig",
 		reflect.TypeOf((*SagemakerCodeRepositoryGitConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerCodeRepository.SagemakerCodeRepositoryGitConfigOutputReference",
 		reflect.TypeOf((*SagemakerCodeRepositoryGitConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},

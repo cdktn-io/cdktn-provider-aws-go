@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignment",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignment",
 		reflect.TypeOf((*Sesv2DedicatedIpAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentConfig",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentConfig",
 		reflect.TypeOf((*Sesv2DedicatedIpAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeouts",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeouts",
 		reflect.TypeOf((*Sesv2DedicatedIpAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.sesv2DedicatedIpAssignment.Sesv2DedicatedIpAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*Sesv2DedicatedIpAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

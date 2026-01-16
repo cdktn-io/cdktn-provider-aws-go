@@ -5,9 +5,9 @@ package prometheusresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/prometheusresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/prometheusresourcepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewPrometheusResourcePolicyTimeoutsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_PrometheusResourcePolicyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewPrometheusResourcePolicyTimeoutsOutputReference_Override(p PrometheusRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.prometheusResourcePolicy.PrometheusResourcePolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

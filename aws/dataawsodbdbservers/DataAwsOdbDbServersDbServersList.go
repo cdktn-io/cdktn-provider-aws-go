@@ -5,9 +5,9 @@ package dataawsodbdbservers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbdbservers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbservers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsOdbDbServersDbServersList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DataAwsOdbDbServersDbServersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServersDbServersList",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServersDbServersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsOdbDbServersDbServersList_Override(d DataAwsOdbDbServersDbServers
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServersDbServersList",
+		"@cdktn/provider-aws.dataAwsOdbDbServers.DataAwsOdbDbServersDbServersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

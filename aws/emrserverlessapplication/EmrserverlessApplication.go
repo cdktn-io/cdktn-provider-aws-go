@@ -5,14 +5,14 @@ package emrserverlessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrserverlessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrserverlessapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emrserverless_application aws_emrserverless_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application aws_emrserverless_application}.
 type EmrserverlessApplication interface {
 	cdktf.TerraformResource
 	Architecture() *string
@@ -726,7 +726,7 @@ func (j *jsiiProxy_EmrserverlessApplication) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication(scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) EmrserverlessApplication {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewEmrserverlessApplication(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_EmrserverlessApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -744,12 +744,12 @@ func NewEmrserverlessApplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application aws_emrserverless_application} Resource.
 func NewEmrserverlessApplication_Override(e EmrserverlessApplication, scope constructs.Construct, id *string, config *EmrserverlessApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -921,7 +921,7 @@ func EmrserverlessApplication_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -956,7 +956,7 @@ func EmrserverlessApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func EmrserverlessApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -994,7 +994,7 @@ func EmrserverlessApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1007,7 +1007,7 @@ func EmrserverlessApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrserverlessApplication.EmrserverlessApplication",
+		"@cdktn/provider-aws.emrserverlessApplication.EmrserverlessApplication",
 		"tfResourceType",
 		&returns,
 	)

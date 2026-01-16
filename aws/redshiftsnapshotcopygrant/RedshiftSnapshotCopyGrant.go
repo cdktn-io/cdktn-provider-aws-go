@@ -5,14 +5,14 @@ package redshiftsnapshotcopygrant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftsnapshotcopygrant/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftsnapshotcopygrant/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant}.
 type RedshiftSnapshotCopyGrant interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopyGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
 func NewRedshiftSnapshotCopyGrant(scope constructs.Construct, id *string, config *RedshiftSnapshotCopyGrantConfig) RedshiftSnapshotCopyGrant {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewRedshiftSnapshotCopyGrant(scope constructs.Construct, id *string, config
 	j := jsiiProxy_RedshiftSnapshotCopyGrant{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewRedshiftSnapshotCopyGrant(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_snapshot_copy_grant aws_redshift_snapshot_copy_grant} Resource.
 func NewRedshiftSnapshotCopyGrant_Override(r RedshiftSnapshotCopyGrant, scope constructs.Construct, id *string, config *RedshiftSnapshotCopyGrantConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -613,7 +613,7 @@ func RedshiftSnapshotCopyGrant_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func RedshiftSnapshotCopyGrant_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func RedshiftSnapshotCopyGrant_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func RedshiftSnapshotCopyGrant_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func RedshiftSnapshotCopyGrant_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
+		"@cdktn/provider-aws.redshiftSnapshotCopyGrant.RedshiftSnapshotCopyGrant",
 		"tfResourceType",
 		&returns,
 	)

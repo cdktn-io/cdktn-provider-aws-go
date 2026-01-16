@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfile",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfile",
 		reflect.TypeOf((*DatazoneUserProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,19 +83,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileConfig",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileConfig",
 		reflect.TypeOf((*DatazoneUserProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetails",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetails",
 		reflect.TypeOf((*DatazoneUserProfileDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIam",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIam",
 		reflect.TypeOf((*DatazoneUserProfileDetailsIam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamList",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamList",
 		reflect.TypeOf((*DatazoneUserProfileDetailsIamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsIamOutputReference",
 		reflect.TypeOf((*DatazoneUserProfileDetailsIamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsList",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsList",
 		reflect.TypeOf((*DatazoneUserProfileDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsOutputReference",
 		reflect.TypeOf((*DatazoneUserProfileDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSso",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSso",
 		reflect.TypeOf((*DatazoneUserProfileDetailsSso)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSsoList",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSsoList",
 		reflect.TypeOf((*DatazoneUserProfileDetailsSsoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSsoOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileDetailsSsoOutputReference",
 		reflect.TypeOf((*DatazoneUserProfileDetailsSsoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -264,11 +264,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeouts",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeouts",
 		reflect.TypeOf((*DatazoneUserProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
+		"@cdktn/provider-aws.datazoneUserProfile.DatazoneUserProfileTimeoutsOutputReference",
 		reflect.TypeOf((*DatazoneUserProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewAlbAccessLogsOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_AlbAccessLogsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbAccessLogsOutputReference",
+		"@cdktn/provider-aws.alb.AlbAccessLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewAlbAccessLogsOutputReference_Override(a AlbAccessLogsOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbAccessLogsOutputReference",
+		"@cdktn/provider-aws.alb.AlbAccessLogsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

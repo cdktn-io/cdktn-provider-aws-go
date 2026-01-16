@@ -5,14 +5,14 @@ package vpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpngateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_gateway aws_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_gateway aws_vpn_gateway}.
 type VpnGateway interface {
 	cdktf.TerraformResource
 	AmazonSideAsn() *string
@@ -465,7 +465,7 @@ func (j *jsiiProxy_VpnGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
 func NewVpnGateway(scope constructs.Construct, id *string, config *VpnGatewayConfig) VpnGateway {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewVpnGateway(scope constructs.Construct, id *string, config *VpnGatewayCon
 	j := jsiiProxy_VpnGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -483,12 +483,12 @@ func NewVpnGateway(scope constructs.Construct, id *string, config *VpnGatewayCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
 func NewVpnGateway_Override(v VpnGateway, scope constructs.Construct, id *string, config *VpnGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -649,7 +649,7 @@ func VpnGateway_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func VpnGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func VpnGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func VpnGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func VpnGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpnGateway.VpnGateway",
+		"@cdktn/provider-aws.vpnGateway.VpnGateway",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package gluedataqualityruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluedataqualityruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluedataqualityruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset}.
 type GlueDataQualityRuleset interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GlueDataQualityRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) GlueDataQualityRuleset {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GlueDataQualityRuleset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset_Override(g GlueDataQualityRuleset, scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -704,7 +704,7 @@ func GlueDataQualityRuleset_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func GlueDataQualityRuleset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func GlueDataQualityRuleset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func GlueDataQualityRuleset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func GlueDataQualityRuleset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
+		"@cdktn/provider-aws.glueDataQualityRuleset.GlueDataQualityRuleset",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsoutpostsasset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsoutpostsasset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsoutpostsasset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_asset aws_outposts_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_asset aws_outposts_asset}.
 type DataAwsOutpostsAsset interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAwsOutpostsAsset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_asset aws_outposts_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_asset aws_outposts_asset} Data Source.
 func NewDataAwsOutpostsAsset(scope constructs.Construct, id *string, config *DataAwsOutpostsAssetConfig) DataAwsOutpostsAsset {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAwsOutpostsAsset(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsOutpostsAsset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewDataAwsOutpostsAsset(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_asset aws_outposts_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_asset aws_outposts_asset} Data Source.
 func NewDataAwsOutpostsAsset_Override(d DataAwsOutpostsAsset, scope constructs.Construct, id *string, config *DataAwsOutpostsAssetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAwsOutpostsAsset_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAwsOutpostsAsset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAwsOutpostsAsset_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAwsOutpostsAsset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAwsOutpostsAsset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
+		"@cdktn/provider-aws.dataAwsOutpostsAsset.DataAwsOutpostsAsset",
 		"tfResourceType",
 		&returns,
 	)

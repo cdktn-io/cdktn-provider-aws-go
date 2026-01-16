@@ -5,9 +5,9 @@ package dataawskeypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskeypair/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskeypair/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsKeyPairTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsKeyPairTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPairTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPairTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsKeyPairTimeoutsOutputReference_Override(d DataAwsKeyPairTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPairTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPairTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

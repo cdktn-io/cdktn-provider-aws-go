@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspace",
 		reflect.TypeOf((*DataAwsGrafanaWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountAccessType", GoGetter: "AccountAccessType"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspaceConfig",
+		"@cdktn/provider-aws.dataAwsGrafanaWorkspace.DataAwsGrafanaWorkspaceConfig",
 		reflect.TypeOf((*DataAwsGrafanaWorkspaceConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package chatbotteamschannelconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chatbotteamschannelconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chatbotteamschannelconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration}.
 type ChatbotTeamsChannelConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -639,7 +639,7 @@ func (j *jsiiProxy_ChatbotTeamsChannelConfiguration) UserAuthorizationRequiredIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
 func NewChatbotTeamsChannelConfiguration(scope constructs.Construct, id *string, config *ChatbotTeamsChannelConfigurationConfig) ChatbotTeamsChannelConfiguration {
 	_init_.Initialize()
 
@@ -649,7 +649,7 @@ func NewChatbotTeamsChannelConfiguration(scope constructs.Construct, id *string,
 	j := jsiiProxy_ChatbotTeamsChannelConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -657,12 +657,12 @@ func NewChatbotTeamsChannelConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
 func NewChatbotTeamsChannelConfiguration_Override(c ChatbotTeamsChannelConfiguration, scope constructs.Construct, id *string, config *ChatbotTeamsChannelConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -889,7 +889,7 @@ func ChatbotTeamsChannelConfiguration_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -924,7 +924,7 @@ func ChatbotTeamsChannelConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func ChatbotTeamsChannelConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -962,7 +962,7 @@ func ChatbotTeamsChannelConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func ChatbotTeamsChannelConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
+		"@cdktn/provider-aws.chatbotTeamsChannelConfiguration.ChatbotTeamsChannelConfiguration",
 		"tfResourceType",
 		&returns,
 	)

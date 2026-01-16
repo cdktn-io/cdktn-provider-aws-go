@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicy",
 		reflect.TypeOf((*SesIdentityPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesIdentityPolicy.SesIdentityPolicyConfig",
+		"@cdktn/provider-aws.sesIdentityPolicy.SesIdentityPolicyConfig",
 		reflect.TypeOf((*SesIdentityPolicyConfig)(nil)).Elem(),
 	)
 }

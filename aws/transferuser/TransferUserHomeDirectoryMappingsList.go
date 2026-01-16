@@ -5,9 +5,9 @@ package transferuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewTransferUserHomeDirectoryMappingsList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_TransferUserHomeDirectoryMappingsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
+		"@cdktn/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewTransferUserHomeDirectoryMappingsList_Override(t TransferUserHomeDirecto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
+		"@cdktn/provider-aws.transferUser.TransferUserHomeDirectoryMappingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		t,
 	)

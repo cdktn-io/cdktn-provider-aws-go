@@ -5,14 +5,14 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb aws_alb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb aws_alb}.
 type Alb interface {
 	cdktf.TerraformResource
 	AccessLogs() AlbAccessLogsOutputReference
@@ -1181,7 +1181,7 @@ func (j *jsiiProxy_Alb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb aws_alb} Resource.
 func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	_init_.Initialize()
 
@@ -1191,7 +1191,7 @@ func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	j := jsiiProxy_Alb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1199,12 +1199,12 @@ func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb aws_alb} Resource.
 func NewAlb_Override(a Alb, scope constructs.Construct, id *string, config *AlbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1596,7 +1596,7 @@ func Alb_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1631,7 +1631,7 @@ func Alb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1650,7 +1650,7 @@ func Alb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1669,7 +1669,7 @@ func Alb_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1682,7 +1682,7 @@ func Alb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.alb.Alb",
+		"@cdktn/provider-aws.alb.Alb",
 		"tfResourceType",
 		&returns,
 	)

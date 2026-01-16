@@ -5,14 +5,14 @@ package signersigningprofilepermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/signersigningprofilepermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/signersigningprofilepermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission}.
 type SignerSigningProfilePermission interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_SignerSigningProfilePermission) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
 func NewSignerSigningProfilePermission(scope constructs.Construct, id *string, config *SignerSigningProfilePermissionConfig) SignerSigningProfilePermission {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewSignerSigningProfilePermission(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SignerSigningProfilePermission{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewSignerSigningProfilePermission(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/signer_signing_profile_permission aws_signer_signing_profile_permission} Resource.
 func NewSignerSigningProfilePermission_Override(s SignerSigningProfilePermission, scope constructs.Construct, id *string, config *SignerSigningProfilePermissionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -670,7 +670,7 @@ func SignerSigningProfilePermission_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func SignerSigningProfilePermission_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func SignerSigningProfilePermission_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func SignerSigningProfilePermission_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func SignerSigningProfilePermission_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
+		"@cdktn/provider-aws.signerSigningProfilePermission.SignerSigningProfilePermission",
 		"tfResourceType",
 		&returns,
 	)

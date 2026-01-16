@@ -5,14 +5,14 @@ package licensemanagerlicenseconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/licensemanagerlicenseconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/licensemanagerlicenseconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration}.
 type LicensemanagerLicenseConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_LicensemanagerLicenseConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration} Resource.
 func NewLicensemanagerLicenseConfiguration(scope constructs.Construct, id *string, config *LicensemanagerLicenseConfigurationConfig) LicensemanagerLicenseConfiguration {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewLicensemanagerLicenseConfiguration(scope constructs.Construct, id *strin
 	j := jsiiProxy_LicensemanagerLicenseConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewLicensemanagerLicenseConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_license_configuration aws_licensemanager_license_configuration} Resource.
 func NewLicensemanagerLicenseConfiguration_Override(l LicensemanagerLicenseConfiguration, scope constructs.Construct, id *string, config *LicensemanagerLicenseConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -763,7 +763,7 @@ func LicensemanagerLicenseConfiguration_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func LicensemanagerLicenseConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func LicensemanagerLicenseConfiguration_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func LicensemanagerLicenseConfiguration_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func LicensemanagerLicenseConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
+		"@cdktn/provider-aws.licensemanagerLicenseConfiguration.LicensemanagerLicenseConfiguration",
 		"tfResourceType",
 		&returns,
 	)

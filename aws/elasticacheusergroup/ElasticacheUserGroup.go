@@ -5,14 +5,14 @@ package elasticacheusergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheusergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheusergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group aws_elasticache_user_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group aws_elasticache_user_group}.
 type ElasticacheUserGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_ElasticacheUserGroup) UserIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group aws_elasticache_user_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group aws_elasticache_user_group} Resource.
 func NewElasticacheUserGroup(scope constructs.Construct, id *string, config *ElasticacheUserGroupConfig) ElasticacheUserGroup {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewElasticacheUserGroup(scope constructs.Construct, id *string, config *Ela
 	j := jsiiProxy_ElasticacheUserGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewElasticacheUserGroup(scope constructs.Construct, id *string, config *Ela
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group aws_elasticache_user_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group aws_elasticache_user_group} Resource.
 func NewElasticacheUserGroup_Override(e ElasticacheUserGroup, scope constructs.Construct, id *string, config *ElasticacheUserGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -647,7 +647,7 @@ func ElasticacheUserGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func ElasticacheUserGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func ElasticacheUserGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func ElasticacheUserGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func ElasticacheUserGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
+		"@cdktn/provider-aws.elasticacheUserGroup.ElasticacheUserGroup",
 		"tfResourceType",
 		&returns,
 	)

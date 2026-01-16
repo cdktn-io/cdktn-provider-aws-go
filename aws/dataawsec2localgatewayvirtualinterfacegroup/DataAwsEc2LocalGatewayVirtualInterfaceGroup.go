@@ -5,14 +5,14 @@ package dataawsec2localgatewayvirtualinterfacegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2localgatewayvirtualinterfacegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2localgatewayvirtualinterfacegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group}.
 type DataAwsEc2LocalGatewayVirtualInterfaceGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group} Data Source.
 func NewDataAwsEc2LocalGatewayVirtualInterfaceGroup(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayVirtualInterfaceGroupConfig) DataAwsEc2LocalGatewayVirtualInterfaceGroup {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAwsEc2LocalGatewayVirtualInterfaceGroup(scope constructs.Construct, 
 	j := jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,12 +414,12 @@ func NewDataAwsEc2LocalGatewayVirtualInterfaceGroup(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway_virtual_interface_group aws_ec2_local_gateway_virtual_interface_group} Data Source.
 func NewDataAwsEc2LocalGatewayVirtualInterfaceGroup_Override(d DataAwsEc2LocalGatewayVirtualInterfaceGroup, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayVirtualInterfaceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -525,7 +525,7 @@ func DataAwsEc2LocalGatewayVirtualInterfaceGroup_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsEc2LocalGatewayVirtualInterfaceGroup_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsEc2LocalGatewayVirtualInterfaceGroup_IsTerraformDataSource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsEc2LocalGatewayVirtualInterfaceGroup_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +611,7 @@ func DataAwsEc2LocalGatewayVirtualInterfaceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
+		"@cdktn/provider-aws.dataAwsEc2LocalGatewayVirtualInterfaceGroup.DataAwsEc2LocalGatewayVirtualInterfaceGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkfirewallResourcePolicy.NetworkfirewallResourcePolicy",
+		"@cdktn/provider-aws.networkfirewallResourcePolicy.NetworkfirewallResourcePolicy",
 		reflect.TypeOf((*NetworkfirewallResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkfirewallResourcePolicy.NetworkfirewallResourcePolicyConfig",
+		"@cdktn/provider-aws.networkfirewallResourcePolicy.NetworkfirewallResourcePolicyConfig",
 		reflect.TypeOf((*NetworkfirewallResourcePolicyConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package apigatewayrestapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayrestapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayrestapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.
 type ApiGatewayRestApi interface {
 	cdktf.TerraformResource
 	ApiKeySource() *string
@@ -713,7 +713,7 @@ func (j *jsiiProxy_ApiGatewayRestApi) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
 func NewApiGatewayRestApi(scope constructs.Construct, id *string, config *ApiGatewayRestApiConfig) ApiGatewayRestApi {
 	_init_.Initialize()
 
@@ -723,7 +723,7 @@ func NewApiGatewayRestApi(scope constructs.Construct, id *string, config *ApiGat
 	j := jsiiProxy_ApiGatewayRestApi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -731,12 +731,12 @@ func NewApiGatewayRestApi(scope constructs.Construct, id *string, config *ApiGat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
 func NewApiGatewayRestApi_Override(a ApiGatewayRestApi, scope constructs.Construct, id *string, config *ApiGatewayRestApiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -985,7 +985,7 @@ func ApiGatewayRestApi_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1020,7 +1020,7 @@ func ApiGatewayRestApi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1039,7 +1039,7 @@ func ApiGatewayRestApi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func ApiGatewayRestApi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1071,7 +1071,7 @@ func ApiGatewayRestApi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
+		"@cdktn/provider-aws.apiGatewayRestApi.ApiGatewayRestApi",
 		"tfResourceType",
 		&returns,
 	)

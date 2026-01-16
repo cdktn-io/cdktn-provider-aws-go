@@ -5,14 +5,14 @@ package fsxopenzfssnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxopenzfssnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfssnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot}.
 type FsxOpenzfsSnapshot interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_FsxOpenzfsSnapshot) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
 func NewFsxOpenzfsSnapshot(scope constructs.Construct, id *string, config *FsxOpenzfsSnapshotConfig) FsxOpenzfsSnapshot {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewFsxOpenzfsSnapshot(scope constructs.Construct, id *string, config *FsxOp
 	j := jsiiProxy_FsxOpenzfsSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewFsxOpenzfsSnapshot(scope constructs.Construct, id *string, config *FsxOp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
 func NewFsxOpenzfsSnapshot_Override(f FsxOpenzfsSnapshot, scope constructs.Construct, id *string, config *FsxOpenzfsSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -647,7 +647,7 @@ func FsxOpenzfsSnapshot_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func FsxOpenzfsSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func FsxOpenzfsSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func FsxOpenzfsSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func FsxOpenzfsSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
+		"@cdktn/provider-aws.fsxOpenzfsSnapshot.FsxOpenzfsSnapshot",
 		"tfResourceType",
 		&returns,
 	)

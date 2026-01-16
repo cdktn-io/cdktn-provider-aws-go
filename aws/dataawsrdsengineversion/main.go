@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersion",
+		"@cdktn/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersion",
 		reflect.TypeOf((*DataAwsRdsEngineVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -118,15 +118,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionConfig",
+		"@cdktn/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionConfig",
 		reflect.TypeOf((*DataAwsRdsEngineVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilter",
+		"@cdktn/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilter",
 		reflect.TypeOf((*DataAwsRdsEngineVersionFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilterList",
+		"@cdktn/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilterList",
 		reflect.TypeOf((*DataAwsRdsEngineVersionFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRdsEngineVersion.DataAwsRdsEngineVersionFilterOutputReference",
 		reflect.TypeOf((*DataAwsRdsEngineVersionFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

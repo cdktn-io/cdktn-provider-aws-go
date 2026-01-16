@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectVocabulary.ConnectVocabulary",
+		"@cdktn/provider-aws.connectVocabulary.ConnectVocabulary",
 		reflect.TypeOf((*ConnectVocabulary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectVocabulary.ConnectVocabularyConfig",
+		"@cdktn/provider-aws.connectVocabulary.ConnectVocabularyConfig",
 		reflect.TypeOf((*ConnectVocabularyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectVocabulary.ConnectVocabularyTimeouts",
+		"@cdktn/provider-aws.connectVocabulary.ConnectVocabularyTimeouts",
 		reflect.TypeOf((*ConnectVocabularyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectVocabulary.ConnectVocabularyTimeoutsOutputReference",
+		"@cdktn/provider-aws.connectVocabulary.ConnectVocabularyTimeoutsOutputReference",
 		reflect.TypeOf((*ConnectVocabularyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

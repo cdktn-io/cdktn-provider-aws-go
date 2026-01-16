@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrImage.DataAwsEcrImage",
+		"@cdktn/provider-aws.dataAwsEcrImage.DataAwsEcrImage",
 		reflect.TypeOf((*DataAwsEcrImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrImage.DataAwsEcrImageConfig",
+		"@cdktn/provider-aws.dataAwsEcrImage.DataAwsEcrImageConfig",
 		reflect.TypeOf((*DataAwsEcrImageConfig)(nil)).Elem(),
 	)
 }

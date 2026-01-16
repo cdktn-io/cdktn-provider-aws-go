@@ -5,14 +5,14 @@ package s3bucketversioning
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketversioning/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketversioning/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning}.
 type S3BucketVersioningA interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -428,7 +428,7 @@ func (j *jsiiProxy_S3BucketVersioningA) VersioningConfigurationInput() *S3Bucket
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
 func NewS3BucketVersioningA(scope constructs.Construct, id *string, config *S3BucketVersioningAConfig) S3BucketVersioningA {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewS3BucketVersioningA(scope constructs.Construct, id *string, config *S3Bu
 	j := jsiiProxy_S3BucketVersioningA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewS3BucketVersioningA(scope constructs.Construct, id *string, config *S3Bu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_versioning aws_s3_bucket_versioning} Resource.
 func NewS3BucketVersioningA_Override(s S3BucketVersioningA, scope constructs.Construct, id *string, config *S3BucketVersioningAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -590,7 +590,7 @@ func S3BucketVersioningA_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func S3BucketVersioningA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func S3BucketVersioningA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func S3BucketVersioningA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func S3BucketVersioningA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketVersioning.S3BucketVersioningA",
+		"@cdktn/provider-aws.s3BucketVersioning.S3BucketVersioningA",
 		"tfResourceType",
 		&returns,
 	)

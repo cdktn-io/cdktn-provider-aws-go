@@ -5,14 +5,14 @@ package ecrreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrreplicationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrreplicationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration}.
 type EcrReplicationConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_EcrReplicationConfiguration) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
 func NewEcrReplicationConfiguration(scope constructs.Construct, id *string, config *EcrReplicationConfigurationConfig) EcrReplicationConfiguration {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewEcrReplicationConfiguration(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_EcrReplicationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewEcrReplicationConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
 func NewEcrReplicationConfiguration_Override(e EcrReplicationConfiguration, scope constructs.Construct, id *string, config *EcrReplicationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -498,7 +498,7 @@ func EcrReplicationConfiguration_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func EcrReplicationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func EcrReplicationConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func EcrReplicationConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func EcrReplicationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
+		"@cdktn/provider-aws.ecrReplicationConfiguration.EcrReplicationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

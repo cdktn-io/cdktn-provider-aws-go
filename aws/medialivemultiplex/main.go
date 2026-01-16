@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplex",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplex",
 		reflect.TypeOf((*MedialiveMultiplex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexConfig",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexConfig",
 		reflect.TypeOf((*MedialiveMultiplexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexMultiplexSettings",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexMultiplexSettings",
 		reflect.TypeOf((*MedialiveMultiplexMultiplexSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexMultiplexSettingsOutputReference",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexMultiplexSettingsOutputReference",
 		reflect.TypeOf((*MedialiveMultiplexMultiplexSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeouts",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeouts",
 		reflect.TypeOf((*MedialiveMultiplexTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
+		"@cdktn/provider-aws.medialiveMultiplex.MedialiveMultiplexTimeoutsOutputReference",
 		reflect.TypeOf((*MedialiveMultiplexTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

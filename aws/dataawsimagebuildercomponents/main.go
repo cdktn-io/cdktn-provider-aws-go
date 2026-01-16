@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponents",
 		reflect.TypeOf((*DataAwsImagebuilderComponents)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsConfig",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsConfig",
 		reflect.TypeOf((*DataAwsImagebuilderComponentsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilter",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilter",
 		reflect.TypeOf((*DataAwsImagebuilderComponentsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilterList",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilterList",
 		reflect.TypeOf((*DataAwsImagebuilderComponentsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsImagebuilderComponents.DataAwsImagebuilderComponentsFilterOutputReference",
 		reflect.TypeOf((*DataAwsImagebuilderComponentsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

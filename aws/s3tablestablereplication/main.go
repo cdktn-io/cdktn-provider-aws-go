@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplication",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplication",
 		reflect.TypeOf((*S3TablesTableReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,19 +75,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationConfig",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationConfig",
 		reflect.TypeOf((*S3TablesTableReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRule",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRule",
 		reflect.TypeOf((*S3TablesTableReplicationRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestination",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestination",
 		reflect.TypeOf((*S3TablesTableReplicationRuleDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationList",
 		reflect.TypeOf((*S3TablesTableReplicationRuleDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationOutputReference",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleDestinationOutputReference",
 		reflect.TypeOf((*S3TablesTableReplicationRuleDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,7 +143,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleList",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleList",
 		reflect.TypeOf((*S3TablesTableReplicationRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleOutputReference",
+		"@cdktn/provider-aws.s3TablesTableReplication.S3TablesTableReplicationRuleOutputReference",
 		reflect.TypeOf((*S3TablesTableReplicationRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

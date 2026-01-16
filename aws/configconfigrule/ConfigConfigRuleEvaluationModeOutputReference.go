@@ -5,9 +5,9 @@ package configconfigrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconfigrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconfigrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewConfigConfigRuleEvaluationModeOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_ConfigConfigRuleEvaluationModeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewConfigConfigRuleEvaluationModeOutputReference_Override(c ConfigConfigRul
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

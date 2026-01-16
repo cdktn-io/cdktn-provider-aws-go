@@ -5,9 +5,9 @@ package wafratebasedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafratebasedrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafratebasedrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafRateBasedRulePredicatesList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_WafRateBasedRulePredicatesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafRateBasedRulePredicatesList_Override(w WafRateBasedRulePredicatesList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
+		"@cdktn/provider-aws.wafRateBasedRule.WafRateBasedRulePredicatesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

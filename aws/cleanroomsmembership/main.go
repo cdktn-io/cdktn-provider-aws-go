@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembership",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembership",
 		reflect.TypeOf((*CleanroomsMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipConfig",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipConfig",
 		reflect.TypeOf((*CleanroomsMembershipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfiguration",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationList",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,11 +122,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationList",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3List",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3List",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -249,7 +249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputReference",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputReference",
 		reflect.TypeOf((*CleanroomsMembershipDefaultResultConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,11 +288,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfiguration",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -314,7 +314,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationOutputReference",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationOutputReference",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -350,11 +350,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfigurationQueryCompute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryComputeList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryComputeList",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfigurationQueryComputeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -376,7 +376,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryComputeOutputReference",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryComputeOutputReference",
 		reflect.TypeOf((*CleanroomsMembershipPaymentConfigurationQueryComputeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

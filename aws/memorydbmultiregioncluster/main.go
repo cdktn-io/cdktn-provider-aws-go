@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionCluster",
 		reflect.TypeOf((*MemorydbMultiRegionCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterConfig",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterConfig",
 		reflect.TypeOf((*MemorydbMultiRegionClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterTimeouts",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterTimeouts",
 		reflect.TypeOf((*MemorydbMultiRegionClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.memorydbMultiRegionCluster.MemorydbMultiRegionClusterTimeoutsOutputReference",
 		reflect.TypeOf((*MemorydbMultiRegionClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

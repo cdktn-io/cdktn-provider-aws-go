@@ -5,14 +5,14 @@ package verifiedpermissionsidentitysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedpermissionsidentitysource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedpermissionsidentitysource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source}.
 type VerifiedpermissionsIdentitySource interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -392,7 +392,7 @@ func (j *jsiiProxy_VerifiedpermissionsIdentitySource) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource.
 func NewVerifiedpermissionsIdentitySource(scope constructs.Construct, id *string, config *VerifiedpermissionsIdentitySourceConfig) VerifiedpermissionsIdentitySource {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewVerifiedpermissionsIdentitySource(scope constructs.Construct, id *string
 	j := jsiiProxy_VerifiedpermissionsIdentitySource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewVerifiedpermissionsIdentitySource(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_identity_source aws_verifiedpermissions_identity_source} Resource.
 func NewVerifiedpermissionsIdentitySource_Override(v VerifiedpermissionsIdentitySource, scope constructs.Construct, id *string, config *VerifiedpermissionsIdentitySourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -532,7 +532,7 @@ func VerifiedpermissionsIdentitySource_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func VerifiedpermissionsIdentitySource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func VerifiedpermissionsIdentitySource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func VerifiedpermissionsIdentitySource_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func VerifiedpermissionsIdentitySource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
+		"@cdktn/provider-aws.verifiedpermissionsIdentitySource.VerifiedpermissionsIdentitySource",
 		"tfResourceType",
 		&returns,
 	)

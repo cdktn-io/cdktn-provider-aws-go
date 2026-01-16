@@ -5,14 +5,14 @@ package route53resolverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint}.
 type Route53ResolverEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -77,6 +77,9 @@ type Route53ResolverEndpoint interface {
 	ResolverEndpointType() *string
 	SetResolverEndpointType(val *string)
 	ResolverEndpointTypeInput() *string
+	RniEnhancedMetricsEnabled() interface{}
+	SetRniEnhancedMetricsEnabled(val interface{})
+	RniEnhancedMetricsEnabledInput() interface{}
 	SecurityGroupIds() *[]*string
 	SetSecurityGroupIds(val *[]*string)
 	SecurityGroupIdsInput() *[]*string
@@ -86,6 +89,9 @@ type Route53ResolverEndpoint interface {
 	SetTagsAll(val *map[string]*string)
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
+	TargetNameServerMetricsEnabled() interface{}
+	SetTargetNameServerMetricsEnabled(val interface{})
+	TargetNameServerMetricsEnabledInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -147,8 +153,10 @@ type Route53ResolverEndpoint interface {
 	ResetProtocols()
 	ResetRegion()
 	ResetResolverEndpointType()
+	ResetRniEnhancedMetricsEnabled()
 	ResetTags()
 	ResetTagsAll()
+	ResetTargetNameServerMetricsEnabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -458,6 +466,26 @@ func (j *jsiiProxy_Route53ResolverEndpoint) ResolverEndpointTypeInput() *string 
 	return returns
 }
 
+func (j *jsiiProxy_Route53ResolverEndpoint) RniEnhancedMetricsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rniEnhancedMetricsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverEndpoint) RniEnhancedMetricsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rniEnhancedMetricsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Route53ResolverEndpoint) SecurityGroupIds() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -518,6 +546,26 @@ func (j *jsiiProxy_Route53ResolverEndpoint) TagsInput() *map[string]*string {
 	return returns
 }
 
+func (j *jsiiProxy_Route53ResolverEndpoint) TargetNameServerMetricsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"targetNameServerMetricsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverEndpoint) TargetNameServerMetricsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"targetNameServerMetricsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Route53ResolverEndpoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -569,7 +617,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
 func NewRoute53ResolverEndpoint(scope constructs.Construct, id *string, config *Route53ResolverEndpointConfig) Route53ResolverEndpoint {
 	_init_.Initialize()
 
@@ -579,7 +627,7 @@ func NewRoute53ResolverEndpoint(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_Route53ResolverEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +635,12 @@ func NewRoute53ResolverEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
 func NewRoute53ResolverEndpoint_Override(r Route53ResolverEndpoint, scope constructs.Construct, id *string, config *Route53ResolverEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -732,6 +780,17 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetResolverEndpointType(val *string) 
 	)
 }
 
+func (j *jsiiProxy_Route53ResolverEndpoint)SetRniEnhancedMetricsEnabled(val interface{}) {
+	if err := j.validateSetRniEnhancedMetricsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rniEnhancedMetricsEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Route53ResolverEndpoint)SetSecurityGroupIds(val *[]*string) {
 	if err := j.validateSetSecurityGroupIdsParameters(val); err != nil {
 		panic(err)
@@ -765,6 +824,17 @@ func (j *jsiiProxy_Route53ResolverEndpoint)SetTagsAll(val *map[string]*string) {
 	)
 }
 
+func (j *jsiiProxy_Route53ResolverEndpoint)SetTargetNameServerMetricsEnabled(val interface{}) {
+	if err := j.validateSetTargetNameServerMetricsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetNameServerMetricsEnabled",
+		val,
+	)
+}
+
 // Generates CDKTF code for importing a Route53ResolverEndpoint resource upon running "cdktf plan <stack-name>".
 func Route53ResolverEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
 	_init_.Initialize()
@@ -775,7 +845,7 @@ func Route53ResolverEndpoint_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -810,7 +880,7 @@ func Route53ResolverEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -829,7 +899,7 @@ func Route53ResolverEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +918,7 @@ func Route53ResolverEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +931,7 @@ func Route53ResolverEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		"tfResourceType",
 		&returns,
 	)
@@ -1188,6 +1258,14 @@ func (r *jsiiProxy_Route53ResolverEndpoint) ResetResolverEndpointType() {
 	)
 }
 
+func (r *jsiiProxy_Route53ResolverEndpoint) ResetRniEnhancedMetricsEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetRniEnhancedMetricsEnabled",
+		nil, // no parameters
+	)
+}
+
 func (r *jsiiProxy_Route53ResolverEndpoint) ResetTags() {
 	_jsii_.InvokeVoid(
 		r,
@@ -1200,6 +1278,14 @@ func (r *jsiiProxy_Route53ResolverEndpoint) ResetTagsAll() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Route53ResolverEndpoint) ResetTargetNameServerMetricsEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetTargetNameServerMetricsEnabled",
 		nil, // no parameters
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistribution",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistribution",
 		reflect.TypeOf((*LightsailDistribution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,11 +115,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehavior",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehavior",
 		reflect.TypeOf((*LightsailDistributionCacheBehavior)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorList",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorList",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorOutputReference",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -177,15 +177,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettings",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettings",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookies",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedCookies)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeaders",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedQueryStrings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -307,7 +307,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettingsOutputReference",
 		reflect.TypeOf((*LightsailDistributionCacheBehaviorSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHttpMethods", GoGetter: "AllowedHttpMethods"},
@@ -366,15 +366,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionConfig",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionConfig",
 		reflect.TypeOf((*LightsailDistributionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehavior",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehavior",
 		reflect.TypeOf((*LightsailDistributionDefaultCacheBehavior)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionDefaultCacheBehaviorOutputReference",
 		reflect.TypeOf((*LightsailDistributionDefaultCacheBehaviorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -408,11 +408,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionLocation",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionLocation",
 		reflect.TypeOf((*LightsailDistributionLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionLocationList",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionLocationList",
 		reflect.TypeOf((*LightsailDistributionLocationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -433,7 +433,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionLocationOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionLocationOutputReference",
 		reflect.TypeOf((*LightsailDistributionLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
@@ -467,11 +467,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionOrigin",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionOrigin",
 		reflect.TypeOf((*LightsailDistributionOrigin)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionOriginOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionOriginOutputReference",
 		reflect.TypeOf((*LightsailDistributionOriginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -511,11 +511,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionTimeouts",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionTimeouts",
 		reflect.TypeOf((*LightsailDistributionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDistribution.LightsailDistributionTimeoutsOutputReference",
+		"@cdktn/provider-aws.lightsailDistribution.LightsailDistributionTimeoutsOutputReference",
 		reflect.TypeOf((*LightsailDistributionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

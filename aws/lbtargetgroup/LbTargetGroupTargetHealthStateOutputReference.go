@@ -5,9 +5,9 @@ package lbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewLbTargetGroupTargetHealthStateOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_LbTargetGroupTargetHealthStateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewLbTargetGroupTargetHealthStateOutputReference_Override(l LbTargetGroupTa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

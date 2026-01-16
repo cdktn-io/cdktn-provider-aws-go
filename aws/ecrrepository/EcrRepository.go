@@ -5,14 +5,14 @@ package ecrrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository aws_ecr_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository aws_ecr_repository}.
 type EcrRepository interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -582,7 +582,7 @@ func (j *jsiiProxy_EcrRepository) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
 func NewEcrRepository(scope constructs.Construct, id *string, config *EcrRepositoryConfig) EcrRepository {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewEcrRepository(scope constructs.Construct, id *string, config *EcrReposit
 	j := jsiiProxy_EcrRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -600,12 +600,12 @@ func NewEcrRepository(scope constructs.Construct, id *string, config *EcrReposit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository aws_ecr_repository} Resource.
 func NewEcrRepository_Override(e EcrRepository, scope constructs.Construct, id *string, config *EcrRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -766,7 +766,7 @@ func EcrRepository_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -801,7 +801,7 @@ func EcrRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -820,7 +820,7 @@ func EcrRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -839,7 +839,7 @@ func EcrRepository_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func EcrRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrRepository.EcrRepository",
+		"@cdktn/provider-aws.ecrRepository.EcrRepository",
 		"tfResourceType",
 		&returns,
 	)

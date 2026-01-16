@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		reflect.TypeOf((*DmsReplicationTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTaskConfig",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTaskConfig",
 		reflect.TypeOf((*DmsReplicationTaskConfig)(nil)).Elem(),
 	)
 }

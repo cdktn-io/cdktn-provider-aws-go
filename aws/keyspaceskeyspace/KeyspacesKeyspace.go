@@ -5,14 +5,14 @@ package keyspaceskeyspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/keyspaceskeyspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspaceskeyspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace}.
 type KeyspacesKeyspace interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -464,7 +464,7 @@ func (j *jsiiProxy_KeyspacesKeyspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
 func NewKeyspacesKeyspace(scope constructs.Construct, id *string, config *KeyspacesKeyspaceConfig) KeyspacesKeyspace {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewKeyspacesKeyspace(scope constructs.Construct, id *string, config *Keyspa
 	j := jsiiProxy_KeyspacesKeyspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewKeyspacesKeyspace(scope constructs.Construct, id *string, config *Keyspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
 func NewKeyspacesKeyspace_Override(k KeyspacesKeyspace, scope constructs.Construct, id *string, config *KeyspacesKeyspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -626,7 +626,7 @@ func KeyspacesKeyspace_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func KeyspacesKeyspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func KeyspacesKeyspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func KeyspacesKeyspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func KeyspacesKeyspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
+		"@cdktn/provider-aws.keyspacesKeyspace.KeyspacesKeyspace",
 		"tfResourceType",
 		&returns,
 	)

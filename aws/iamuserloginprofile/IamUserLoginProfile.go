@@ -5,14 +5,14 @@ package iamuserloginprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamuserloginprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamuserloginprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile}.
 type IamUserLoginProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_IamUserLoginProfile) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
 func NewIamUserLoginProfile(scope constructs.Construct, id *string, config *IamUserLoginProfileConfig) IamUserLoginProfile {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewIamUserLoginProfile(scope constructs.Construct, id *string, config *IamU
 	j := jsiiProxy_IamUserLoginProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewIamUserLoginProfile(scope constructs.Construct, id *string, config *IamU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
 func NewIamUserLoginProfile_Override(i IamUserLoginProfile, scope constructs.Construct, id *string, config *IamUserLoginProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -600,7 +600,7 @@ func IamUserLoginProfile_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func IamUserLoginProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func IamUserLoginProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func IamUserLoginProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func IamUserLoginProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
+		"@cdktn/provider-aws.iamUserLoginProfile.IamUserLoginProfile",
 		"tfResourceType",
 		&returns,
 	)

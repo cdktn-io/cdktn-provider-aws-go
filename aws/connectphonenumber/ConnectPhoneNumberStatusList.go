@@ -5,9 +5,9 @@ package connectphonenumber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectphonenumber/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectphonenumber/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewConnectPhoneNumberStatusList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_ConnectPhoneNumberStatusList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewConnectPhoneNumberStatusList_Override(c ConnectPhoneNumberStatusList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
+		"@cdktn/provider-aws.connectPhoneNumber.ConnectPhoneNumberStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeature",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeature",
 		reflect.TypeOf((*EvidentlyFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureConfig",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureConfig",
 		reflect.TypeOf((*EvidentlyFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRules",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRules",
 		reflect.TypeOf((*EvidentlyFeatureEvaluationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesList",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesList",
 		reflect.TypeOf((*EvidentlyFeatureEvaluationRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureEvaluationRulesOutputReference",
 		reflect.TypeOf((*EvidentlyFeatureEvaluationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureTimeouts",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureTimeouts",
 		reflect.TypeOf((*EvidentlyFeatureTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureTimeoutsOutputReference",
 		reflect.TypeOf((*EvidentlyFeatureTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariations",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariations",
 		reflect.TypeOf((*EvidentlyFeatureVariations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsList",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsList",
 		reflect.TypeOf((*EvidentlyFeatureVariationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsOutputReference",
 		reflect.TypeOf((*EvidentlyFeatureVariationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValue",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValue",
 		reflect.TypeOf((*EvidentlyFeatureVariationsValue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
+		"@cdktn/provider-aws.evidentlyFeature.EvidentlyFeatureVariationsValueOutputReference",
 		reflect.TypeOf((*EvidentlyFeatureVariationsValueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "boolValue", GoGetter: "BoolValue"},

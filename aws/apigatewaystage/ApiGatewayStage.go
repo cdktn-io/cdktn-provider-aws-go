@@ -5,14 +5,14 @@ package apigatewaystage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaystage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaystage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_stage aws_api_gateway_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_stage aws_api_gateway_stage}.
 type ApiGatewayStage interface {
 	cdktf.TerraformResource
 	AccessLogSettings() ApiGatewayStageAccessLogSettingsOutputReference
@@ -711,7 +711,7 @@ func (j *jsiiProxy_ApiGatewayStage) XrayTracingEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_stage aws_api_gateway_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_stage aws_api_gateway_stage} Resource.
 func NewApiGatewayStage(scope constructs.Construct, id *string, config *ApiGatewayStageConfig) ApiGatewayStage {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewApiGatewayStage(scope constructs.Construct, id *string, config *ApiGatew
 	j := jsiiProxy_ApiGatewayStage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -729,12 +729,12 @@ func NewApiGatewayStage(scope constructs.Construct, id *string, config *ApiGatew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_stage aws_api_gateway_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_stage aws_api_gateway_stage} Resource.
 func NewApiGatewayStage_Override(a ApiGatewayStage, scope constructs.Construct, id *string, config *ApiGatewayStageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -972,7 +972,7 @@ func ApiGatewayStage_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1007,7 +1007,7 @@ func ApiGatewayStage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1026,7 +1026,7 @@ func ApiGatewayStage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1045,7 +1045,7 @@ func ApiGatewayStage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func ApiGatewayStage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayStage.ApiGatewayStage",
+		"@cdktn/provider-aws.apiGatewayStage.ApiGatewayStage",
 		"tfResourceType",
 		&returns,
 	)

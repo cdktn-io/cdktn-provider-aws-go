@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGateway",
+		"@cdktn/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGateway",
 		reflect.TypeOf((*VpclatticeResourceGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig",
+		"@cdktn/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayConfig",
 		reflect.TypeOf((*VpclatticeResourceGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayTimeouts",
+		"@cdktn/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayTimeouts",
 		reflect.TypeOf((*VpclatticeResourceGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeResourceGateway.VpclatticeResourceGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*VpclatticeResourceGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

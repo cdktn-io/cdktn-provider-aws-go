@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpoint",
 		reflect.TypeOf((*VpcRouteServerEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointConfig",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointConfig",
 		reflect.TypeOf((*VpcRouteServerEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointTimeouts",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointTimeouts",
 		reflect.TypeOf((*VpcRouteServerEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcRouteServerEndpoint.VpcRouteServerEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*VpcRouteServerEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

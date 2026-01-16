@@ -5,14 +5,14 @@ package dataawsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/instance aws_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/instance aws_instance}.
 type DataAwsInstance interface {
 	cdktf.TerraformDataSource
 	Ami() *string
@@ -919,7 +919,7 @@ func (j *jsiiProxy_DataAwsInstance) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/instance aws_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/instance aws_instance} Data Source.
 func NewDataAwsInstance(scope constructs.Construct, id *string, config *DataAwsInstanceConfig) DataAwsInstance {
 	_init_.Initialize()
 
@@ -929,7 +929,7 @@ func NewDataAwsInstance(scope constructs.Construct, id *string, config *DataAwsI
 	j := jsiiProxy_DataAwsInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -937,12 +937,12 @@ func NewDataAwsInstance(scope constructs.Construct, id *string, config *DataAwsI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/instance aws_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/instance aws_instance} Data Source.
 func NewDataAwsInstance_Override(d DataAwsInstance, scope constructs.Construct, id *string, config *DataAwsInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1081,7 +1081,7 @@ func DataAwsInstance_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1116,7 +1116,7 @@ func DataAwsInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1135,7 +1135,7 @@ func DataAwsInstance_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -1154,7 +1154,7 @@ func DataAwsInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1167,7 +1167,7 @@ func DataAwsInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsInstance.DataAwsInstance",
+		"@cdktn/provider-aws.dataAwsInstance.DataAwsInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package apigatewaymethodsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaymethodsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaymethodsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewApiGatewayMethodSettingsSettingsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_ApiGatewayMethodSettingsSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewApiGatewayMethodSettingsSettingsOutputReference_Override(a ApiGatewayMet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayMethodSettings.ApiGatewayMethodSettingsSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

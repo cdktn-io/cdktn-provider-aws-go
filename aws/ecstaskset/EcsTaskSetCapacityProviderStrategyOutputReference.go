@@ -5,9 +5,9 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecstaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecstaskset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewEcsTaskSetCapacityProviderStrategyOutputReference(terraformResource cdkt
 	j := jsiiProxy_EcsTaskSetCapacityProviderStrategyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategyOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewEcsTaskSetCapacityProviderStrategyOutputReference_Override(e EcsTaskSetC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategyOutputReference",
+		"@cdktn/provider-aws.ecsTaskSet.EcsTaskSetCapacityProviderStrategyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2Authorizer",
 		reflect.TypeOf((*Apigatewayv2Authorizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerConfig",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerConfig",
 		reflect.TypeOf((*Apigatewayv2AuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerJwtConfiguration",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerJwtConfiguration",
 		reflect.TypeOf((*Apigatewayv2AuthorizerJwtConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerJwtConfigurationOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerJwtConfigurationOutputReference",
 		reflect.TypeOf((*Apigatewayv2AuthorizerJwtConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeouts",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeouts",
 		reflect.TypeOf((*Apigatewayv2AuthorizerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Authorizer.Apigatewayv2AuthorizerTimeoutsOutputReference",
 		reflect.TypeOf((*Apigatewayv2AuthorizerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

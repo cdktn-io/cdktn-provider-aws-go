@@ -5,14 +5,14 @@ package dataawsiamusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamusers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamusers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_users aws_iam_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_users aws_iam_users}.
 type DataAwsIamUsers interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAwsIamUsers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_users aws_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_users aws_iam_users} Data Source.
 func NewDataAwsIamUsers(scope constructs.Construct, id *string, config *DataAwsIamUsersConfig) DataAwsIamUsers {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAwsIamUsers(scope constructs.Construct, id *string, config *DataAwsI
 	j := jsiiProxy_DataAwsIamUsers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAwsIamUsers(scope constructs.Construct, id *string, config *DataAwsI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_users aws_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_users aws_iam_users} Data Source.
 func NewDataAwsIamUsers_Override(d DataAwsIamUsers, scope constructs.Construct, id *string, config *DataAwsIamUsersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -453,7 +453,7 @@ func DataAwsIamUsers_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataAwsIamUsers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataAwsIamUsers_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAwsIamUsers_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsIamUsers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
+		"@cdktn/provider-aws.dataAwsIamUsers.DataAwsIamUsers",
 		"tfResourceType",
 		&returns,
 	)

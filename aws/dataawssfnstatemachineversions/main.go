@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersions",
 		reflect.TypeOf((*DataAwsSfnStateMachineVersions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersionsConfig",
+		"@cdktn/provider-aws.dataAwsSfnStateMachineVersions.DataAwsSfnStateMachineVersionsConfig",
 		reflect.TypeOf((*DataAwsSfnStateMachineVersionsConfig)(nil)).Elem(),
 	)
 }

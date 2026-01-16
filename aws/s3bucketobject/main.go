@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketObject.S3BucketObject",
+		"@cdktn/provider-aws.s3BucketObject.S3BucketObject",
 		reflect.TypeOf((*S3BucketObject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acl", GoGetter: "Acl"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketObject.S3BucketObjectConfig",
+		"@cdktn/provider-aws.s3BucketObject.S3BucketObjectConfig",
 		reflect.TypeOf((*S3BucketObjectConfig)(nil)).Elem(),
 	)
 }

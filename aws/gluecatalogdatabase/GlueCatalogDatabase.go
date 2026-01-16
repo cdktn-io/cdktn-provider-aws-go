@@ -5,14 +5,14 @@ package gluecatalogdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecatalogdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_database aws_glue_catalog_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database}.
 type GlueCatalogDatabase interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_GlueCatalogDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
 func NewGlueCatalogDatabase(scope constructs.Construct, id *string, config *GlueCatalogDatabaseConfig) GlueCatalogDatabase {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewGlueCatalogDatabase(scope constructs.Construct, id *string, config *Glue
 	j := jsiiProxy_GlueCatalogDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,12 +602,12 @@ func NewGlueCatalogDatabase(scope constructs.Construct, id *string, config *Glue
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
 func NewGlueCatalogDatabase_Override(g GlueCatalogDatabase, scope constructs.Construct, id *string, config *GlueCatalogDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -790,7 +790,7 @@ func GlueCatalogDatabase_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -825,7 +825,7 @@ func GlueCatalogDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func GlueCatalogDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func GlueCatalogDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func GlueCatalogDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawselasticbeanstalkhostedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticbeanstalkhostedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticbeanstalkhostedzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone}.
 type DataAwsElasticBeanstalkHostedZone interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -289,7 +289,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkHostedZone) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
 func NewDataAwsElasticBeanstalkHostedZone(scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkHostedZoneConfig) DataAwsElasticBeanstalkHostedZone {
 	_init_.Initialize()
 
@@ -299,7 +299,7 @@ func NewDataAwsElasticBeanstalkHostedZone(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAwsElasticBeanstalkHostedZone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -307,12 +307,12 @@ func NewDataAwsElasticBeanstalkHostedZone(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
 func NewDataAwsElasticBeanstalkHostedZone_Override(d DataAwsElasticBeanstalkHostedZone, scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkHostedZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -396,7 +396,7 @@ func DataAwsElasticBeanstalkHostedZone_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -431,7 +431,7 @@ func DataAwsElasticBeanstalkHostedZone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -450,7 +450,7 @@ func DataAwsElasticBeanstalkHostedZone_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsElasticBeanstalkHostedZone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAwsElasticBeanstalkHostedZone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
+		"@cdktn/provider-aws.dataAwsElasticBeanstalkHostedZone.DataAwsElasticBeanstalkHostedZone",
 		"tfResourceType",
 		&returns,
 	)

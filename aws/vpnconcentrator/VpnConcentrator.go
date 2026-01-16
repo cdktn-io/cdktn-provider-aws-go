@@ -5,14 +5,14 @@ package vpnconcentrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpnconcentrator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpnconcentrator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
 type VpnConcentrator interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_VpnConcentrator) VpnConcentratorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConcentratorConfig) VpnConcentrator {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConce
 	j := jsiiProxy_VpnConcentrator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConce
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator_Override(v VpnConcentrator, scope constructs.Construct, id *string, config *VpnConcentratorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -564,7 +564,7 @@ func VpnConcentrator_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func VpnConcentrator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func VpnConcentrator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func VpnConcentrator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func VpnConcentrator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpnConcentrator.VpnConcentrator",
+		"@cdktn/provider-aws.vpnConcentrator.VpnConcentrator",
 		"tfResourceType",
 		&returns,
 	)

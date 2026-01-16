@@ -111,6 +111,10 @@ func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetLifecycleParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetOdbNetworkArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OdbNetworkPeeringConnection) validateSetOdbNetworkIdParameters(val *string) error {
 	return nil
 }

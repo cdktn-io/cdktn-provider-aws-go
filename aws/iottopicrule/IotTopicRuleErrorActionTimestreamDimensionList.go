@@ -5,9 +5,9 @@ package iottopicrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewIotTopicRuleErrorActionTimestreamDimensionList(terraformResource cdktf.I
 	j := jsiiProxy_IotTopicRuleErrorActionTimestreamDimensionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionTimestreamDimensionList",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionTimestreamDimensionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewIotTopicRuleErrorActionTimestreamDimensionList_Override(i IotTopicRuleEr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRule.IotTopicRuleErrorActionTimestreamDimensionList",
+		"@cdktn/provider-aws.iotTopicRule.IotTopicRuleErrorActionTimestreamDimensionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

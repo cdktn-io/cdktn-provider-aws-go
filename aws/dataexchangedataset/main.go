@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSet",
 		reflect.TypeOf((*DataexchangeDataSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeDataSet.DataexchangeDataSetConfig",
+		"@cdktn/provider-aws.dataexchangeDataSet.DataexchangeDataSetConfig",
 		reflect.TypeOf((*DataexchangeDataSetConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package iotindexingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotindexingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotindexingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration}.
 type IotIndexingConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -382,7 +382,7 @@ func (j *jsiiProxy_IotIndexingConfiguration) ThingIndexingConfigurationInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration} Resource.
 func NewIotIndexingConfiguration(scope constructs.Construct, id *string, config *IotIndexingConfigurationConfig) IotIndexingConfiguration {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewIotIndexingConfiguration(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IotIndexingConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -400,12 +400,12 @@ func NewIotIndexingConfiguration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_indexing_configuration aws_iot_indexing_configuration} Resource.
 func NewIotIndexingConfiguration_Override(i IotIndexingConfiguration, scope constructs.Construct, id *string, config *IotIndexingConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -511,7 +511,7 @@ func IotIndexingConfiguration_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -546,7 +546,7 @@ func IotIndexingConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -565,7 +565,7 @@ func IotIndexingConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func IotIndexingConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func IotIndexingConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
+		"@cdktn/provider-aws.iotIndexingConfiguration.IotIndexingConfiguration",
 		"tfResourceType",
 		&returns,
 	)

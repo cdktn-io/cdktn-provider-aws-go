@@ -5,9 +5,9 @@ package cognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewCognitoUserPoolDeviceConfigurationOutputReference(terraformResource cdkt
 	j := jsiiProxy_CognitoUserPoolDeviceConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolDeviceConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolDeviceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewCognitoUserPoolDeviceConfigurationOutputReference_Override(c CognitoUser
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolDeviceConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolDeviceConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

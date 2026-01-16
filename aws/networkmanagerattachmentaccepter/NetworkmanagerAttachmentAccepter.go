@@ -5,14 +5,14 @@ package networkmanagerattachmentaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerattachmentaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerattachmentaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter}.
 type NetworkmanagerAttachmentAccepter interface {
 	cdktf.TerraformResource
 	AttachmentId() *string
@@ -479,7 +479,7 @@ func (j *jsiiProxy_NetworkmanagerAttachmentAccepter) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
 func NewNetworkmanagerAttachmentAccepter(scope constructs.Construct, id *string, config *NetworkmanagerAttachmentAccepterConfig) NetworkmanagerAttachmentAccepter {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewNetworkmanagerAttachmentAccepter(scope constructs.Construct, id *string,
 	j := jsiiProxy_NetworkmanagerAttachmentAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,12 +497,12 @@ func NewNetworkmanagerAttachmentAccepter(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_attachment_accepter aws_networkmanager_attachment_accepter} Resource.
 func NewNetworkmanagerAttachmentAccepter_Override(n NetworkmanagerAttachmentAccepter, scope constructs.Construct, id *string, config *NetworkmanagerAttachmentAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -619,7 +619,7 @@ func NetworkmanagerAttachmentAccepter_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -654,7 +654,7 @@ func NetworkmanagerAttachmentAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func NetworkmanagerAttachmentAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func NetworkmanagerAttachmentAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func NetworkmanagerAttachmentAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
+		"@cdktn/provider-aws.networkmanagerAttachmentAccepter.NetworkmanagerAttachmentAccepter",
 		"tfResourceType",
 		&returns,
 	)

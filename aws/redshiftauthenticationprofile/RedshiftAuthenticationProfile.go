@@ -5,14 +5,14 @@ package redshiftauthenticationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftauthenticationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftauthenticationprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile}.
 type RedshiftAuthenticationProfile interface {
 	cdktf.TerraformResource
 	AuthenticationProfileContent() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_RedshiftAuthenticationProfile) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
 func NewRedshiftAuthenticationProfile(scope constructs.Construct, id *string, config *RedshiftAuthenticationProfileConfig) RedshiftAuthenticationProfile {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewRedshiftAuthenticationProfile(scope constructs.Construct, id *string, co
 	j := jsiiProxy_RedshiftAuthenticationProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewRedshiftAuthenticationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_authentication_profile aws_redshift_authentication_profile} Resource.
 func NewRedshiftAuthenticationProfile_Override(r RedshiftAuthenticationProfile, scope constructs.Construct, id *string, config *RedshiftAuthenticationProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -531,7 +531,7 @@ func RedshiftAuthenticationProfile_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func RedshiftAuthenticationProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func RedshiftAuthenticationProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func RedshiftAuthenticationProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func RedshiftAuthenticationProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
+		"@cdktn/provider-aws.redshiftAuthenticationProfile.RedshiftAuthenticationProfile",
 		"tfResourceType",
 		&returns,
 	)

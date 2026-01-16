@@ -5,9 +5,9 @@ package opensearchdomainsamloptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomainsamloptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomainsamloptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewOpensearchDomainSamlOptionsSamlOptionsIdpOutputReference(terraformResour
 	j := jsiiProxy_OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewOpensearchDomainSamlOptionsSamlOptionsIdpOutputReference_Override(o Open
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
+		"@cdktn/provider-aws.opensearchDomainSamlOptions.OpensearchDomainSamlOptionsSamlOptionsIdpOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

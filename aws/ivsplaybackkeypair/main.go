@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPair",
+		"@cdktn/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPair",
 		reflect.TypeOf((*IvsPlaybackKeyPair)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairConfig",
+		"@cdktn/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairConfig",
 		reflect.TypeOf((*IvsPlaybackKeyPairConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairTimeouts",
+		"@cdktn/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairTimeouts",
 		reflect.TypeOf((*IvsPlaybackKeyPairTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairTimeoutsOutputReference",
+		"@cdktn/provider-aws.ivsPlaybackKeyPair.IvsPlaybackKeyPairTimeoutsOutputReference",
 		reflect.TypeOf((*IvsPlaybackKeyPairTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package iotthinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotthinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotthinggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group aws_iot_thing_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group aws_iot_thing_group}.
 type IotThingGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_IotThingGroup) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
 func NewIotThingGroup(scope constructs.Construct, id *string, config *IotThingGroupConfig) IotThingGroup {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewIotThingGroup(scope constructs.Construct, id *string, config *IotThingGr
 	j := jsiiProxy_IotThingGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewIotThingGroup(scope constructs.Construct, id *string, config *IotThingGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
 func NewIotThingGroup_Override(i IotThingGroup, scope constructs.Construct, id *string, config *IotThingGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -659,7 +659,7 @@ func IotThingGroup_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func IotThingGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func IotThingGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func IotThingGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func IotThingGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		"tfResourceType",
 		&returns,
 	)

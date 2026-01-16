@@ -5,9 +5,9 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewEcsServicePlacementConstraintsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_EcsServicePlacementConstraintsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewEcsServicePlacementConstraintsOutputReference_Override(e EcsServicePlace
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
+		"@cdktn/provider-aws.ecsService.EcsServicePlacementConstraintsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

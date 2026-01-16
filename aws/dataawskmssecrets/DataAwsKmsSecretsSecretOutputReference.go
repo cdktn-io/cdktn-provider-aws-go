@@ -5,9 +5,9 @@ package dataawskmssecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskmssecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskmssecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -301,7 +301,7 @@ func NewDataAwsKmsSecretsSecretOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsKmsSecretsSecretOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecretsSecretOutputReference",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecretsSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -313,7 +313,7 @@ func NewDataAwsKmsSecretsSecretOutputReference_Override(d DataAwsKmsSecretsSecre
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecretsSecretOutputReference",
+		"@cdktn/provider-aws.dataAwsKmsSecrets.DataAwsKmsSecretsSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

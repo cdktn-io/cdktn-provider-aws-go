@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstances",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstances",
 		reflect.TypeOf((*DataAwsSsmInstances)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesConfig",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesConfig",
 		reflect.TypeOf((*DataAwsSsmInstancesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilter",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilter",
 		reflect.TypeOf((*DataAwsSsmInstancesFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterList",
 		reflect.TypeOf((*DataAwsSsmInstancesFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSsmInstances.DataAwsSsmInstancesFilterOutputReference",
 		reflect.TypeOf((*DataAwsSsmInstancesFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

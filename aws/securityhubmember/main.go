@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securityhubMember.SecurityhubMember",
+		"@cdktn/provider-aws.securityhubMember.SecurityhubMember",
 		reflect.TypeOf((*SecurityhubMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securityhubMember.SecurityhubMemberConfig",
+		"@cdktn/provider-aws.securityhubMember.SecurityhubMemberConfig",
 		reflect.TypeOf((*SecurityhubMemberConfig)(nil)).Elem(),
 	)
 }

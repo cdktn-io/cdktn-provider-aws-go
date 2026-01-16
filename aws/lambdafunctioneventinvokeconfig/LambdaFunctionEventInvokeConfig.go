@@ -5,14 +5,14 @@ package lambdafunctioneventinvokeconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunctioneventinvokeconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunctioneventinvokeconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
 type LambdaFunctionEventInvokeConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_LambdaFunctionEventInvokeConfig) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) LambdaFunctionEventInvokeConfig {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, 
 	j := jsiiProxy_LambdaFunctionEventInvokeConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig_Override(l LambdaFunctionEventInvokeConfig, scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -626,7 +626,7 @@ func LambdaFunctionEventInvokeConfig_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func LambdaFunctionEventInvokeConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func LambdaFunctionEventInvokeConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func LambdaFunctionEventInvokeConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func LambdaFunctionEventInvokeConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
+		"@cdktn/provider-aws.lambdaFunctionEventInvokeConfig.LambdaFunctionEventInvokeConfig",
 		"tfResourceType",
 		&returns,
 	)

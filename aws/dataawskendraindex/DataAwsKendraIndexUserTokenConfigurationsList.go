@@ -5,9 +5,9 @@ package dataawskendraindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendraindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendraindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsKendraIndexUserTokenConfigurationsList(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsKendraIndexUserTokenConfigurationsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexUserTokenConfigurationsList",
+		"@cdktn/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexUserTokenConfigurationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsKendraIndexUserTokenConfigurationsList_Override(d DataAwsKendraIn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexUserTokenConfigurationsList",
+		"@cdktn/provider-aws.dataAwsKendraIndex.DataAwsKendraIndexUserTokenConfigurationsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

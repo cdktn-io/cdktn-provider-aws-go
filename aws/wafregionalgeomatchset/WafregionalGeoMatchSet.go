@@ -5,14 +5,14 @@ package wafregionalgeomatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalgeomatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalgeomatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set}.
 type WafregionalGeoMatchSet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WafregionalGeoMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
 func NewWafregionalGeoMatchSet(scope constructs.Construct, id *string, config *WafregionalGeoMatchSetConfig) WafregionalGeoMatchSet {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewWafregionalGeoMatchSet(scope constructs.Construct, id *string, config *W
 	j := jsiiProxy_WafregionalGeoMatchSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewWafregionalGeoMatchSet(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
 func NewWafregionalGeoMatchSet_Override(w WafregionalGeoMatchSet, scope constructs.Construct, id *string, config *WafregionalGeoMatchSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -521,7 +521,7 @@ func WafregionalGeoMatchSet_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func WafregionalGeoMatchSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func WafregionalGeoMatchSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func WafregionalGeoMatchSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func WafregionalGeoMatchSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
+		"@cdktn/provider-aws.wafregionalGeoMatchSet.WafregionalGeoMatchSet",
 		"tfResourceType",
 		&returns,
 	)

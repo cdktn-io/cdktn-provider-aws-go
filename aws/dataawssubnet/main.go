@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnet",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnet",
 		reflect.TypeOf((*DataAwsSubnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -108,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetConfig",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetConfig",
 		reflect.TypeOf((*DataAwsSubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetFilter",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetFilter",
 		reflect.TypeOf((*DataAwsSubnetFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetFilterList",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetFilterList",
 		reflect.TypeOf((*DataAwsSubnetFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetFilterOutputReference",
 		reflect.TypeOf((*DataAwsSubnetFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,11 +174,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetTimeouts",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetTimeouts",
 		reflect.TypeOf((*DataAwsSubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsSubnet.DataAwsSubnetTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsSubnet.DataAwsSubnetTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsSubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

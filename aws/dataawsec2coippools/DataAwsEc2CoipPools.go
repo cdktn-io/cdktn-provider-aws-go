@@ -5,14 +5,14 @@ package dataawsec2coippools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2coippools/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2coippools/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools}.
 type DataAwsEc2CoipPools interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsEc2CoipPools) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
 func NewDataAwsEc2CoipPools(scope constructs.Construct, id *string, config *DataAwsEc2CoipPoolsConfig) DataAwsEc2CoipPools {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsEc2CoipPools(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsEc2CoipPools{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsEc2CoipPools(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_coip_pools aws_ec2_coip_pools} Data Source.
 func NewDataAwsEc2CoipPools_Override(d DataAwsEc2CoipPools, scope constructs.Construct, id *string, config *DataAwsEc2CoipPoolsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -490,7 +490,7 @@ func DataAwsEc2CoipPools_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsEc2CoipPools_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsEc2CoipPools_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsEc2CoipPools_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func DataAwsEc2CoipPools_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
+		"@cdktn/provider-aws.dataAwsEc2CoipPools.DataAwsEc2CoipPools",
 		"tfResourceType",
 		&returns,
 	)

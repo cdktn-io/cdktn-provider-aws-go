@@ -5,9 +5,9 @@ package syntheticscanary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/syntheticscanary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/syntheticscanary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSyntheticsCanaryArtifactConfigS3EncryptionOutputReference(terraformResou
 	j := jsiiProxy_SyntheticsCanaryArtifactConfigS3EncryptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSyntheticsCanaryArtifactConfigS3EncryptionOutputReference_Override(s Syn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
+		"@cdktn/provider-aws.syntheticsCanary.SyntheticsCanaryArtifactConfigS3EncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

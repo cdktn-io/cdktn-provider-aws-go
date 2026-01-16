@@ -5,14 +5,14 @@ package dataawsssoadminprincipalapplicationassignments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssoadminprincipalapplicationassignments/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminprincipalapplicationassignments/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments}.
 type DataAwsSsoadminPrincipalApplicationAssignments interface {
 	cdktf.TerraformDataSource
 	ApplicationAssignments() DataAwsSsoadminPrincipalApplicationAssignmentsApplicationAssignmentsList
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
 func NewDataAwsSsoadminPrincipalApplicationAssignments(scope constructs.Construct, id *string, config *DataAwsSsoadminPrincipalApplicationAssignmentsConfig) DataAwsSsoadminPrincipalApplicationAssignments {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsSsoadminPrincipalApplicationAssignments(scope constructs.Construc
 	j := jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsSsoadminPrincipalApplicationAssignments(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
 func NewDataAwsSsoadminPrincipalApplicationAssignments_Override(d DataAwsSsoadminPrincipalApplicationAssignments, scope constructs.Construct, id *string, config *DataAwsSsoadminPrincipalApplicationAssignmentsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAwsSsoadminPrincipalApplicationAssignments_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAwsSsoadminPrincipalApplicationAssignments_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsSsoadminPrincipalApplicationAssignments_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsSsoadminPrincipalApplicationAssignments_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsSsoadminPrincipalApplicationAssignments_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
+		"@cdktn/provider-aws.dataAwsSsoadminPrincipalApplicationAssignments.DataAwsSsoadminPrincipalApplicationAssignments",
 		"tfResourceType",
 		&returns,
 	)

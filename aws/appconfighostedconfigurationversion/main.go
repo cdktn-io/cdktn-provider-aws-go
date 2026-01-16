@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersion",
 		reflect.TypeOf((*AppconfigHostedConfigurationVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersionConfig",
+		"@cdktn/provider-aws.appconfigHostedConfigurationVersion.AppconfigHostedConfigurationVersionConfig",
 		reflect.TypeOf((*AppconfigHostedConfigurationVersionConfig)(nil)).Elem(),
 	)
 }

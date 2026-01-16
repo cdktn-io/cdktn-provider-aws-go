@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilter",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilter",
 		reflect.TypeOf((*GuarddutyFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -90,19 +90,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterConfig",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterConfig",
 		reflect.TypeOf((*GuarddutyFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteria",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteria",
 		reflect.TypeOf((*GuarddutyFilterFindingCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion",
 		reflect.TypeOf((*GuarddutyFilterFindingCriteriaCriterion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionList",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionList",
 		reflect.TypeOf((*GuarddutyFilterFindingCriteriaCriterionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
 		reflect.TypeOf((*GuarddutyFilterFindingCriteriaCriterionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,14 +156,20 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lessThanInput", GoGetter: "LessThanInput"},
 			_jsii_.MemberProperty{JsiiProperty: "lessThanOrEqual", GoGetter: "LessThanOrEqual"},
 			_jsii_.MemberProperty{JsiiProperty: "lessThanOrEqualInput", GoGetter: "LessThanOrEqualInput"},
+			_jsii_.MemberProperty{JsiiProperty: "matches", GoGetter: "Matches"},
+			_jsii_.MemberProperty{JsiiProperty: "matchesInput", GoGetter: "MatchesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "notEquals", GoGetter: "NotEquals"},
 			_jsii_.MemberProperty{JsiiProperty: "notEqualsInput", GoGetter: "NotEqualsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "notMatches", GoGetter: "NotMatches"},
+			_jsii_.MemberProperty{JsiiProperty: "notMatchesInput", GoGetter: "NotMatchesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEqualTo", GoMethod: "ResetEqualTo"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGreaterThan", GoMethod: "ResetGreaterThan"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGreaterThanOrEqual", GoMethod: "ResetGreaterThanOrEqual"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLessThan", GoMethod: "ResetLessThan"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLessThanOrEqual", GoMethod: "ResetLessThanOrEqual"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMatches", GoMethod: "ResetMatches"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNotEquals", GoMethod: "ResetNotEquals"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNotMatches", GoMethod: "ResetNotMatches"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -176,7 +182,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
 		reflect.TypeOf((*GuarddutyFilterFindingCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

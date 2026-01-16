@@ -5,14 +5,14 @@ package wafv2rulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2rulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2rulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group}.
 type Wafv2RuleGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_Wafv2RuleGroup) VisibilityConfigInput() *Wafv2RuleGroupVisibi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
 func NewWafv2RuleGroup(scope constructs.Construct, id *string, config *Wafv2RuleGroupConfig) Wafv2RuleGroup {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewWafv2RuleGroup(scope constructs.Construct, id *string, config *Wafv2Rule
 	j := jsiiProxy_Wafv2RuleGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewWafv2RuleGroup(scope constructs.Construct, id *string, config *Wafv2Rule
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
 func NewWafv2RuleGroup_Override(w Wafv2RuleGroup, scope constructs.Construct, id *string, config *Wafv2RuleGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -834,7 +834,7 @@ func Wafv2RuleGroup_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -869,7 +869,7 @@ func Wafv2RuleGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -888,7 +888,7 @@ func Wafv2RuleGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func Wafv2RuleGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func Wafv2RuleGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package lightsaillbcertificateattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaillbcertificateattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaillbcertificateattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment}.
 type LightsailLbCertificateAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_LightsailLbCertificateAttachment) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
 func NewLightsailLbCertificateAttachment(scope constructs.Construct, id *string, config *LightsailLbCertificateAttachmentConfig) LightsailLbCertificateAttachment {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewLightsailLbCertificateAttachment(scope constructs.Construct, id *string,
 	j := jsiiProxy_LightsailLbCertificateAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewLightsailLbCertificateAttachment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
 func NewLightsailLbCertificateAttachment_Override(l LightsailLbCertificateAttachment, scope constructs.Construct, id *string, config *LightsailLbCertificateAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -531,7 +531,7 @@ func LightsailLbCertificateAttachment_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func LightsailLbCertificateAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func LightsailLbCertificateAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func LightsailLbCertificateAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func LightsailLbCertificateAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
+		"@cdktn/provider-aws.lightsailLbCertificateAttachment.LightsailLbCertificateAttachment",
 		"tfResourceType",
 		&returns,
 	)

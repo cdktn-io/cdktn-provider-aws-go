@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSet",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSet",
 		reflect.TypeOf((*SesConfigurationSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSetConfig",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSetConfig",
 		reflect.TypeOf((*SesConfigurationSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSetDeliveryOptions",
 		reflect.TypeOf((*SesConfigurationSetDeliveryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSetDeliveryOptionsOutputReference",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSetDeliveryOptionsOutputReference",
 		reflect.TypeOf((*SesConfigurationSetDeliveryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSetTrackingOptions",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSetTrackingOptions",
 		reflect.TypeOf((*SesConfigurationSetTrackingOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesConfigurationSet.SesConfigurationSetTrackingOptionsOutputReference",
+		"@cdktn/provider-aws.sesConfigurationSet.SesConfigurationSetTrackingOptionsOutputReference",
 		reflect.TypeOf((*SesConfigurationSetTrackingOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

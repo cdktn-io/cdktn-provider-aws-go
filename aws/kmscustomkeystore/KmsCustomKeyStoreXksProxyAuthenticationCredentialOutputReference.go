@@ -5,9 +5,9 @@ package kmscustomkeystore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmscustomkeystore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmscustomkeystore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference(terrafo
 	j := jsiiProxy_KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewKmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference_Overrid
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
+		"@cdktn/provider-aws.kmsCustomKeyStore.KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

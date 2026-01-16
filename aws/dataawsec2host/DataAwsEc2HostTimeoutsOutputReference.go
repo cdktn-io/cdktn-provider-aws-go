@@ -5,9 +5,9 @@ package dataawsec2host
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2host/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2host/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAwsEc2HostTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsEc2HostTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2Host.DataAwsEc2HostTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2Host.DataAwsEc2HostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAwsEc2HostTimeoutsOutputReference_Override(d DataAwsEc2HostTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2Host.DataAwsEc2HostTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2Host.DataAwsEc2HostTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

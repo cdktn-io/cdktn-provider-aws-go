@@ -5,9 +5,9 @@ package cloudfrontfieldlevelencryptionconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontfieldlevelencryptionconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontfieldlevelencryptionconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputRefere
 	j := jsiiProxy_CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionConfig.CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionConfig.CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionConfig.CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionConfig.CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

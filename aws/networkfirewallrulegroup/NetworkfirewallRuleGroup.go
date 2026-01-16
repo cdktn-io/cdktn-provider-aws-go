@@ -5,14 +5,14 @@ package networkfirewallrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkfirewallrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group}.
 type NetworkfirewallRuleGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_NetworkfirewallRuleGroup) UpdateToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) NetworkfirewallRuleGroup {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_NetworkfirewallRuleGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_rule_group aws_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup_Override(n NetworkfirewallRuleGroup, scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -775,7 +775,7 @@ func NetworkfirewallRuleGroup_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -810,7 +810,7 @@ func NetworkfirewallRuleGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -829,7 +829,7 @@ func NetworkfirewallRuleGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func NetworkfirewallRuleGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func NetworkfirewallRuleGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
+		"@cdktn/provider-aws.networkfirewallRuleGroup.NetworkfirewallRuleGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package transcribelanguagemodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transcribelanguagemodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transcribelanguagemodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_language_model aws_transcribe_language_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_language_model aws_transcribe_language_model}.
 type TranscribeLanguageModel interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_TranscribeLanguageModel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_language_model aws_transcribe_language_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_language_model aws_transcribe_language_model} Resource.
 func NewTranscribeLanguageModel(scope constructs.Construct, id *string, config *TranscribeLanguageModelConfig) TranscribeLanguageModel {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewTranscribeLanguageModel(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_TranscribeLanguageModel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewTranscribeLanguageModel(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transcribe_language_model aws_transcribe_language_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transcribe_language_model aws_transcribe_language_model} Resource.
 func NewTranscribeLanguageModel_Override(t TranscribeLanguageModel, scope constructs.Construct, id *string, config *TranscribeLanguageModelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -693,7 +693,7 @@ func TranscribeLanguageModel_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func TranscribeLanguageModel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func TranscribeLanguageModel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func TranscribeLanguageModel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func TranscribeLanguageModel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
+		"@cdktn/provider-aws.transcribeLanguageModel.TranscribeLanguageModel",
 		"tfResourceType",
 		&returns,
 	)

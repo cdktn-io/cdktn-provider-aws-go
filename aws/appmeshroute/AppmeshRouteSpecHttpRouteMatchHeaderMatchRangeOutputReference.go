@@ -5,9 +5,9 @@ package appmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewAppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference(terraformR
 	j := jsiiProxy_AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference",
+		"@cdktn/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewAppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference_Override(a
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference",
+		"@cdktn/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

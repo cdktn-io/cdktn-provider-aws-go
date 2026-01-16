@@ -5,9 +5,9 @@ package ekscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ekscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ekscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewEksClusterOutpostConfigControlPlanePlacementOutputReference(terraformRes
 	j := jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewEksClusterOutpostConfigControlPlanePlacementOutputReference_Override(e E
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference",
+		"@cdktn/provider-aws.eksCluster.EksClusterOutpostConfigControlPlanePlacementOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

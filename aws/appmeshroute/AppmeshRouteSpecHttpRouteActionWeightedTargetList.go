@@ -5,9 +5,9 @@ package appmeshroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppmeshRouteSpecHttpRouteActionWeightedTargetList(terraformResource cdkt
 	j := jsiiProxy_AppmeshRouteSpecHttpRouteActionWeightedTargetList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTargetList",
+		"@cdktn/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppmeshRouteSpecHttpRouteActionWeightedTargetList_Override(a AppmeshRout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTargetList",
+		"@cdktn/provider-aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

@@ -51,6 +51,10 @@ func (c *jsiiProxy_CodebuildProjectCacheOutputReference) validateResolveParamete
 	return nil
 }
 
+func (j *jsiiProxy_CodebuildProjectCacheOutputReference) validateSetCacheNamespaceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CodebuildProjectCacheOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

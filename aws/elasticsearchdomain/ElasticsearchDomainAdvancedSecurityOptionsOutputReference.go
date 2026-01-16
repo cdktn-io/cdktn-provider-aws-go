@@ -5,9 +5,9 @@ package elasticsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticsearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewElasticsearchDomainAdvancedSecurityOptionsOutputReference(terraformResou
 	j := jsiiProxy_ElasticsearchDomainAdvancedSecurityOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptionsOutputReference",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewElasticsearchDomainAdvancedSecurityOptionsOutputReference_Override(e Ela
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptionsOutputReference",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomainAdvancedSecurityOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

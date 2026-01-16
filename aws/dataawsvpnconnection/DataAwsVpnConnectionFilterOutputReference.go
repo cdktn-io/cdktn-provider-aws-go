@@ -5,9 +5,9 @@ package dataawsvpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsVpnConnectionFilterOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsVpnConnectionFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsVpnConnectionFilterOutputReference_Override(d DataAwsVpnConnectio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

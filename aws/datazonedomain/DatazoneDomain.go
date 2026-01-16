@@ -5,14 +5,14 @@ package datazonedomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazonedomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazonedomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_domain aws_datazone_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_domain aws_datazone_domain}.
 type DatazoneDomain interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -76,6 +76,7 @@ type DatazoneDomain interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	RootDomainUnitId() *string
 	ServiceRole() *string
 	SetServiceRole(val *string)
 	ServiceRoleInput() *string
@@ -451,6 +452,16 @@ func (j *jsiiProxy_DatazoneDomain) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DatazoneDomain) RootDomainUnitId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rootDomainUnitId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DatazoneDomain) ServiceRole() *string {
 	var returns *string
 	_jsii_.Get(
@@ -592,7 +603,7 @@ func (j *jsiiProxy_DatazoneDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_domain aws_datazone_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_domain aws_datazone_domain} Resource.
 func NewDatazoneDomain(scope constructs.Construct, id *string, config *DatazoneDomainConfig) DatazoneDomain {
 	_init_.Initialize()
 
@@ -602,7 +613,7 @@ func NewDatazoneDomain(scope constructs.Construct, id *string, config *DatazoneD
 	j := jsiiProxy_DatazoneDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -610,12 +621,12 @@ func NewDatazoneDomain(scope constructs.Construct, id *string, config *DatazoneD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_domain aws_datazone_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_domain aws_datazone_domain} Resource.
 func NewDatazoneDomain_Override(d DatazoneDomain, scope constructs.Construct, id *string, config *DatazoneDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -798,7 +809,7 @@ func DatazoneDomain_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +844,7 @@ func DatazoneDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +863,7 @@ func DatazoneDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +882,7 @@ func DatazoneDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +895,7 @@ func DatazoneDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneDomain.DatazoneDomain",
+		"@cdktn/provider-aws.datazoneDomain.DatazoneDomain",
 		"tfResourceType",
 		&returns,
 	)

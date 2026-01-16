@@ -5,14 +5,14 @@ package directoryserviceregion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryserviceregion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryserviceregion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_region aws_directory_service_region}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_region aws_directory_service_region}.
 type DirectoryServiceRegion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -499,7 +499,7 @@ func (j *jsiiProxy_DirectoryServiceRegion) VpcSettingsInput() *DirectoryServiceR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_region aws_directory_service_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_region aws_directory_service_region} Resource.
 func NewDirectoryServiceRegion(scope constructs.Construct, id *string, config *DirectoryServiceRegionConfig) DirectoryServiceRegion {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewDirectoryServiceRegion(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DirectoryServiceRegion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewDirectoryServiceRegion(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_region aws_directory_service_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_region aws_directory_service_region} Resource.
 func NewDirectoryServiceRegion_Override(d DirectoryServiceRegion, scope constructs.Construct, id *string, config *DirectoryServiceRegionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -683,7 +683,7 @@ func DirectoryServiceRegion_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func DirectoryServiceRegion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func DirectoryServiceRegion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func DirectoryServiceRegion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func DirectoryServiceRegion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhook",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhook",
 		reflect.TypeOf((*AmplifyWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyWebhook.AmplifyWebhookConfig",
+		"@cdktn/provider-aws.amplifyWebhook.AmplifyWebhookConfig",
 		reflect.TypeOf((*AmplifyWebhookConfig)(nil)).Elem(),
 	)
 }

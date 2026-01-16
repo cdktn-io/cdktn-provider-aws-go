@@ -5,14 +5,14 @@ package odbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudautonomousvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudautonomousvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
 type OdbCloudAutonomousVmCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1093,7 +1093,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) TotalContainerDatabasesInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) OdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -1103,7 +1103,7 @@ func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_OdbCloudAutonomousVmCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1111,12 +1111,12 @@ func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster_Override(o OdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1376,7 +1376,7 @@ func OdbCloudAutonomousVmCluster_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1411,7 +1411,7 @@ func OdbCloudAutonomousVmCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1430,7 +1430,7 @@ func OdbCloudAutonomousVmCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1449,7 +1449,7 @@ func OdbCloudAutonomousVmCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1462,7 +1462,7 @@ func OdbCloudAutonomousVmCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
+		"@cdktn/provider-aws.odbCloudAutonomousVmCluster.OdbCloudAutonomousVmCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectContactFlow.DataAwsConnectContactFlow",
+		"@cdktn/provider-aws.dataAwsConnectContactFlow.DataAwsConnectContactFlow",
 		reflect.TypeOf((*DataAwsConnectContactFlow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectContactFlow.DataAwsConnectContactFlowConfig",
+		"@cdktn/provider-aws.dataAwsConnectContactFlow.DataAwsConnectContactFlowConfig",
 		reflect.TypeOf((*DataAwsConnectContactFlowConfig)(nil)).Elem(),
 	)
 }

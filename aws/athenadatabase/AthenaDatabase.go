@@ -5,14 +5,14 @@ package athenadatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenadatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenadatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_database aws_athena_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_database aws_athena_database}.
 type AthenaDatabase interface {
 	cdktf.TerraformResource
 	AclConfiguration() AthenaDatabaseAclConfigurationOutputReference
@@ -549,7 +549,7 @@ func (j *jsiiProxy_AthenaDatabase) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_database aws_athena_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_database aws_athena_database} Resource.
 func NewAthenaDatabase(scope constructs.Construct, id *string, config *AthenaDatabaseConfig) AthenaDatabase {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewAthenaDatabase(scope constructs.Construct, id *string, config *AthenaDat
 	j := jsiiProxy_AthenaDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -567,12 +567,12 @@ func NewAthenaDatabase(scope constructs.Construct, id *string, config *AthenaDat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_database aws_athena_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_database aws_athena_database} Resource.
 func NewAthenaDatabase_Override(a AthenaDatabase, scope constructs.Construct, id *string, config *AthenaDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -755,7 +755,7 @@ func AthenaDatabase_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -790,7 +790,7 @@ func AthenaDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -809,7 +809,7 @@ func AthenaDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func AthenaDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func AthenaDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.athenaDatabase.AthenaDatabase",
+		"@cdktn/provider-aws.athenaDatabase.AthenaDatabase",
 		"tfResourceType",
 		&returns,
 	)

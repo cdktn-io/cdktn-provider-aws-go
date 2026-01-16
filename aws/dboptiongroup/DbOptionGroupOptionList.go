@@ -5,9 +5,9 @@ package dboptiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dboptiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dboptiongroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDbOptionGroupOptionList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_DbOptionGroupOptionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbOptionGroup.DbOptionGroupOptionList",
+		"@cdktn/provider-aws.dbOptionGroup.DbOptionGroupOptionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDbOptionGroupOptionList_Override(d DbOptionGroupOptionList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbOptionGroup.DbOptionGroupOptionList",
+		"@cdktn/provider-aws.dbOptionGroup.DbOptionGroupOptionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

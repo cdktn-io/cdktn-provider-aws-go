@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProject",
+		"@cdktn/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProject",
 		reflect.TypeOf((*DevicefarmTestGridProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectConfig",
+		"@cdktn/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectConfig",
 		reflect.TypeOf((*DevicefarmTestGridProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectVpcConfig",
+		"@cdktn/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectVpcConfig",
 		reflect.TypeOf((*DevicefarmTestGridProjectVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectVpcConfigOutputReference",
+		"@cdktn/provider-aws.devicefarmTestGridProject.DevicefarmTestGridProjectVpcConfigOutputReference",
 		reflect.TypeOf((*DevicefarmTestGridProjectVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

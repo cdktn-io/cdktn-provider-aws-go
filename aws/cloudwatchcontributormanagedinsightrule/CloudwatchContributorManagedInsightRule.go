@@ -5,14 +5,14 @@ package cloudwatchcontributormanagedinsightrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchcontributormanagedinsightrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchcontributormanagedinsightrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule}.
 type CloudwatchContributorManagedInsightRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_CloudwatchContributorManagedInsightRule) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule} Resource.
 func NewCloudwatchContributorManagedInsightRule(scope constructs.Construct, id *string, config *CloudwatchContributorManagedInsightRuleConfig) CloudwatchContributorManagedInsightRule {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewCloudwatchContributorManagedInsightRule(scope constructs.Construct, id *
 	j := jsiiProxy_CloudwatchContributorManagedInsightRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewCloudwatchContributorManagedInsightRule(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_contributor_managed_insight_rule aws_cloudwatch_contributor_managed_insight_rule} Resource.
 func NewCloudwatchContributorManagedInsightRule_Override(c CloudwatchContributorManagedInsightRule, scope constructs.Construct, id *string, config *CloudwatchContributorManagedInsightRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -599,7 +599,7 @@ func CloudwatchContributorManagedInsightRule_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func CloudwatchContributorManagedInsightRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func CloudwatchContributorManagedInsightRule_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func CloudwatchContributorManagedInsightRule_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func CloudwatchContributorManagedInsightRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
+		"@cdktn/provider-aws.cloudwatchContributorManagedInsightRule.CloudwatchContributorManagedInsightRule",
 		"tfResourceType",
 		&returns,
 	)

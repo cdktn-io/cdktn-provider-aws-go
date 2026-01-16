@@ -5,14 +5,14 @@ package bedrockagentdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
 type BedrockagentDataSource interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_BedrockagentDataSource) VectorIngestionConfigurationInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) BedrockagentDataSource {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *B
 	j := jsiiProxy_BedrockagentDataSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource_Override(b BedrockagentDataSource, scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -684,7 +684,7 @@ func BedrockagentDataSource_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func BedrockagentDataSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func BedrockagentDataSource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func BedrockagentDataSource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func BedrockagentDataSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
+		"@cdktn/provider-aws.bedrockagentDataSource.BedrockagentDataSource",
 		"tfResourceType",
 		&returns,
 	)

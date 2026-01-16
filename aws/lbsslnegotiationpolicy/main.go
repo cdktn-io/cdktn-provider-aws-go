@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicy",
 		reflect.TypeOf((*LbSslNegotiationPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttribute",
 		reflect.TypeOf((*LbSslNegotiationPolicyAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttributeList",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttributeList",
 		reflect.TypeOf((*LbSslNegotiationPolicyAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttributeOutputReference",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyAttributeOutputReference",
 		reflect.TypeOf((*LbSslNegotiationPolicyAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyConfig",
+		"@cdktn/provider-aws.lbSslNegotiationPolicy.LbSslNegotiationPolicyConfig",
 		reflect.TypeOf((*LbSslNegotiationPolicyConfig)(nil)).Elem(),
 	)
 }

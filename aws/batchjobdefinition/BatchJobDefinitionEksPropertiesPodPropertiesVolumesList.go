@@ -5,9 +5,9 @@ package batchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/batchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/batchjobdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesVolumesList(terraformResourc
 	j := jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesList",
+		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesVolumesList_Override(b Batch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesList",
+		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

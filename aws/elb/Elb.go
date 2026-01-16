@@ -5,14 +5,14 @@ package elb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb aws_elb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb aws_elb}.
 type Elb interface {
 	cdktf.TerraformResource
 	AccessLogs() ElbAccessLogsOutputReference
@@ -833,7 +833,7 @@ func (j *jsiiProxy_Elb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb aws_elb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb aws_elb} Resource.
 func NewElb(scope constructs.Construct, id *string, config *ElbConfig) Elb {
 	_init_.Initialize()
 
@@ -843,7 +843,7 @@ func NewElb(scope constructs.Construct, id *string, config *ElbConfig) Elb {
 	j := jsiiProxy_Elb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -851,12 +851,12 @@ func NewElb(scope constructs.Construct, id *string, config *ElbConfig) Elb {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elb aws_elb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elb aws_elb} Resource.
 func NewElb_Override(e Elb, scope constructs.Construct, id *string, config *ElbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1127,7 +1127,7 @@ func Elb_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1162,7 +1162,7 @@ func Elb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1181,7 +1181,7 @@ func Elb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1200,7 +1200,7 @@ func Elb_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1213,7 +1213,7 @@ func Elb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elb.Elb",
+		"@cdktn/provider-aws.elb.Elb",
 		"tfResourceType",
 		&returns,
 	)

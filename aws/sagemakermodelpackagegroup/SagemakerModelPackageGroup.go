@@ -5,14 +5,14 @@ package sagemakermodelpackagegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakermodelpackagegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakermodelpackagegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group}.
 type SagemakerModelPackageGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SagemakerModelPackageGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
 func NewSagemakerModelPackageGroup(scope constructs.Construct, id *string, config *SagemakerModelPackageGroupConfig) SagemakerModelPackageGroup {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewSagemakerModelPackageGroup(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SagemakerModelPackageGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewSagemakerModelPackageGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_model_package_group aws_sagemaker_model_package_group} Resource.
 func NewSagemakerModelPackageGroup_Override(s SagemakerModelPackageGroup, scope constructs.Construct, id *string, config *SagemakerModelPackageGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SagemakerModelPackageGroup_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SagemakerModelPackageGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SagemakerModelPackageGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SagemakerModelPackageGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SagemakerModelPackageGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
+		"@cdktn/provider-aws.sagemakerModelPackageGroup.SagemakerModelPackageGroup",
 		"tfResourceType",
 		&returns,
 	)

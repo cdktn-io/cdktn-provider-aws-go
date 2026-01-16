@@ -5,14 +5,14 @@ package autoscalinggrouptag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalinggrouptag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalinggrouptag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag}.
 type AutoscalingGroupTagA interface {
 	cdktf.TerraformResource
 	AutoscalingGroupName() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AutoscalingGroupTagA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
 func NewAutoscalingGroupTagA(scope constructs.Construct, id *string, config *AutoscalingGroupTagAConfig) AutoscalingGroupTagA {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewAutoscalingGroupTagA(scope constructs.Construct, id *string, config *Aut
 	j := jsiiProxy_AutoscalingGroupTagA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewAutoscalingGroupTagA(scope constructs.Construct, id *string, config *Aut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
 func NewAutoscalingGroupTagA_Override(a AutoscalingGroupTagA, scope constructs.Construct, id *string, config *AutoscalingGroupTagAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -520,7 +520,7 @@ func AutoscalingGroupTagA_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func AutoscalingGroupTagA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func AutoscalingGroupTagA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func AutoscalingGroupTagA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func AutoscalingGroupTagA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package pinpointemailtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointemailtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointemailtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPinpointEmailTemplateEmailTemplateHeaderOutputReference(terraformResourc
 	j := jsiiProxy_PinpointEmailTemplateEmailTemplateHeaderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPinpointEmailTemplateEmailTemplateHeaderOutputReference_Override(p Pinpo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
+		"@cdktn/provider-aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplateHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

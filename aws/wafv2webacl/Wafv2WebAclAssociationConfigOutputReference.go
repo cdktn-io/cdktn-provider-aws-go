@@ -5,9 +5,9 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewWafv2WebAclAssociationConfigOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_Wafv2WebAclAssociationConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclAssociationConfigOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclAssociationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewWafv2WebAclAssociationConfigOutputReference_Override(w Wafv2WebAclAssoci
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAclAssociationConfigOutputReference",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAclAssociationConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

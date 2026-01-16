@@ -5,9 +5,9 @@ package rdsexporttask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsexporttask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsexporttask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewRdsExportTaskTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_RdsExportTaskTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsExportTask.RdsExportTaskTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsExportTask.RdsExportTaskTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewRdsExportTaskTimeoutsOutputReference_Override(r RdsExportTaskTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsExportTask.RdsExportTaskTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsExportTask.RdsExportTaskTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

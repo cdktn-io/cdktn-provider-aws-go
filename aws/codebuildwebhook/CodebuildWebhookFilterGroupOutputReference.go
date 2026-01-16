@@ -5,9 +5,9 @@ package codebuildwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildwebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewCodebuildWebhookFilterGroupOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_CodebuildWebhookFilterGroupOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewCodebuildWebhookFilterGroupOutputReference_Override(c CodebuildWebhookFi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookFilterGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

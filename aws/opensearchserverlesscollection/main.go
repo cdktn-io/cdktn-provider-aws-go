@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollection",
+		"@cdktn/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollection",
 		reflect.TypeOf((*OpensearchserverlessCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionConfig",
+		"@cdktn/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionConfig",
 		reflect.TypeOf((*OpensearchserverlessCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeouts",
+		"@cdktn/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeouts",
 		reflect.TypeOf((*OpensearchserverlessCollectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchserverlessCollection.OpensearchserverlessCollectionTimeoutsOutputReference",
 		reflect.TypeOf((*OpensearchserverlessCollectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

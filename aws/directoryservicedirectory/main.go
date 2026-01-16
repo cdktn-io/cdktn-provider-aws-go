@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectory",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectory",
 		reflect.TypeOf((*DirectoryServiceDirectory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessUrl", GoGetter: "AccessUrl"},
@@ -118,15 +118,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConfig",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConfig",
 		reflect.TypeOf((*DirectoryServiceDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConnectSettings",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConnectSettings",
 		reflect.TypeOf((*DirectoryServiceDirectoryConnectSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConnectSettingsOutputReference",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryConnectSettingsOutputReference",
 		reflect.TypeOf((*DirectoryServiceDirectoryConnectSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryTimeouts",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryTimeouts",
 		reflect.TypeOf((*DirectoryServiceDirectoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryTimeoutsOutputReference",
 		reflect.TypeOf((*DirectoryServiceDirectoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettings",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettings",
 		reflect.TypeOf((*DirectoryServiceDirectoryVpcSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
+		"@cdktn/provider-aws.directoryServiceDirectory.DirectoryServiceDirectoryVpcSettingsOutputReference",
 		reflect.TypeOf((*DirectoryServiceDirectoryVpcSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},

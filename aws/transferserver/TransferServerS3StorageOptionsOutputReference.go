@@ -5,9 +5,9 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewTransferServerS3StorageOptionsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_TransferServerS3StorageOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewTransferServerS3StorageOptionsOutputReference_Override(t TransferServerS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerS3StorageOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

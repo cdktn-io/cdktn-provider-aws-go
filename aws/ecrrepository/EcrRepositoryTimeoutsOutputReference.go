@@ -5,9 +5,9 @@ package ecrrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecrrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewEcrRepositoryTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_EcrRepositoryTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewEcrRepositoryTimeoutsOutputReference_Override(e EcrRepositoryTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
+		"@cdktn/provider-aws.ecrRepository.EcrRepositoryTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

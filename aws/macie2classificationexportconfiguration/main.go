@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfiguration",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfiguration",
 		reflect.TypeOf((*Macie2ClassificationExportConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationConfig",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationConfig",
 		reflect.TypeOf((*Macie2ClassificationExportConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3Destination",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3Destination",
 		reflect.TypeOf((*Macie2ClassificationExportConfigurationS3Destination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
+		"@cdktn/provider-aws.macie2ClassificationExportConfiguration.Macie2ClassificationExportConfigurationS3DestinationOutputReference",
 		reflect.TypeOf((*Macie2ClassificationExportConfigurationS3DestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},

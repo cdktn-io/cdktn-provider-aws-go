@@ -5,14 +5,14 @@ package sagemakerservicecatalogportfoliostatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerservicecatalogportfoliostatus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerservicecatalogportfoliostatus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status}.
 type SagemakerServicecatalogPortfolioStatus interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_SagemakerServicecatalogPortfolioStatus) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
 func NewSagemakerServicecatalogPortfolioStatus(scope constructs.Construct, id *string, config *SagemakerServicecatalogPortfolioStatusConfig) SagemakerServicecatalogPortfolioStatus {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewSagemakerServicecatalogPortfolioStatus(scope constructs.Construct, id *s
 	j := jsiiProxy_SagemakerServicecatalogPortfolioStatus{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewSagemakerServicecatalogPortfolioStatus(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
 func NewSagemakerServicecatalogPortfolioStatus_Override(s SagemakerServicecatalogPortfolioStatus, scope constructs.Construct, id *string, config *SagemakerServicecatalogPortfolioStatusConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -497,7 +497,7 @@ func SagemakerServicecatalogPortfolioStatus_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func SagemakerServicecatalogPortfolioStatus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func SagemakerServicecatalogPortfolioStatus_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func SagemakerServicecatalogPortfolioStatus_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func SagemakerServicecatalogPortfolioStatus_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
+		"@cdktn/provider-aws.sagemakerServicecatalogPortfolioStatus.SagemakerServicecatalogPortfolioStatus",
 		"tfResourceType",
 		&returns,
 	)

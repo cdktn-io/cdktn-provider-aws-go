@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistration",
 		reflect.TypeOf((*AuditmanagerAccountRegistration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistrationConfig",
+		"@cdktn/provider-aws.auditmanagerAccountRegistration.AuditmanagerAccountRegistrationConfig",
 		reflect.TypeOf((*AuditmanagerAccountRegistrationConfig)(nil)).Elem(),
 	)
 }

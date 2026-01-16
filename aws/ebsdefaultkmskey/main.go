@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		reflect.TypeOf((*EbsDefaultKmsKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKeyConfig",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKeyConfig",
 		reflect.TypeOf((*EbsDefaultKmsKeyConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyPublishingDestination.GuarddutyPublishingDestination",
+		"@cdktn/provider-aws.guarddutyPublishingDestination.GuarddutyPublishingDestination",
 		reflect.TypeOf((*GuarddutyPublishingDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig",
+		"@cdktn/provider-aws.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig",
 		reflect.TypeOf((*GuarddutyPublishingDestinationConfig)(nil)).Elem(),
 	)
 }

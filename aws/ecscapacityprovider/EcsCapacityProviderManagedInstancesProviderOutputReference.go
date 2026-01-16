@@ -5,9 +5,9 @@ package ecscapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecscapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecscapacityprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewEcsCapacityProviderManagedInstancesProviderOutputReference(terraformReso
 	j := jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderOutputReference",
+		"@cdktn/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewEcsCapacityProviderManagedInstancesProviderOutputReference_Override(e Ec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderOutputReference",
+		"@cdktn/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

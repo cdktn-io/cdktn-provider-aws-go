@@ -5,14 +5,14 @@ package qldbledger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/qldbledger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qldbledger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qldb_ledger aws_qldb_ledger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_ledger aws_qldb_ledger}.
 type QldbLedger interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_QldbLedger) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qldb_ledger aws_qldb_ledger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_ledger aws_qldb_ledger} Resource.
 func NewQldbLedger(scope constructs.Construct, id *string, config *QldbLedgerConfig) QldbLedger {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewQldbLedger(scope constructs.Construct, id *string, config *QldbLedgerCon
 	j := jsiiProxy_QldbLedger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewQldbLedger(scope constructs.Construct, id *string, config *QldbLedgerCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/qldb_ledger aws_qldb_ledger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_ledger aws_qldb_ledger} Resource.
 func NewQldbLedger_Override(q QldbLedger, scope constructs.Construct, id *string, config *QldbLedgerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -707,7 +707,7 @@ func QldbLedger_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func QldbLedger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func QldbLedger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func QldbLedger_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func QldbLedger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.qldbLedger.QldbLedger",
+		"@cdktn/provider-aws.qldbLedger.QldbLedger",
 		"tfResourceType",
 		&returns,
 	)

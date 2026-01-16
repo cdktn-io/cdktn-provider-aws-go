@@ -5,14 +5,14 @@ package elasticsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticsearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain}.
 type ElasticsearchDomain interface {
 	cdktf.TerraformResource
 	AccessPolicies() *string
@@ -809,7 +809,7 @@ func (j *jsiiProxy_ElasticsearchDomain) VpcOptionsInput() *ElasticsearchDomainVp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
 func NewElasticsearchDomain(scope constructs.Construct, id *string, config *ElasticsearchDomainConfig) ElasticsearchDomain {
 	_init_.Initialize()
 
@@ -819,7 +819,7 @@ func NewElasticsearchDomain(scope constructs.Construct, id *string, config *Elas
 	j := jsiiProxy_ElasticsearchDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -827,12 +827,12 @@ func NewElasticsearchDomain(scope constructs.Construct, id *string, config *Elas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticsearch_domain aws_elasticsearch_domain} Resource.
 func NewElasticsearchDomain_Override(e ElasticsearchDomain, scope constructs.Construct, id *string, config *ElasticsearchDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1004,7 +1004,7 @@ func ElasticsearchDomain_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1039,7 +1039,7 @@ func ElasticsearchDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func ElasticsearchDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1077,7 +1077,7 @@ func ElasticsearchDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1090,7 +1090,7 @@ func ElasticsearchDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticsearchDomain.ElasticsearchDomain",
+		"@cdktn/provider-aws.elasticsearchDomain.ElasticsearchDomain",
 		"tfResourceType",
 		&returns,
 	)

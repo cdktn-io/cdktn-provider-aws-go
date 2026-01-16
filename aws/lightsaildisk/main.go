@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		reflect.TypeOf((*LightsailDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDiskConfig",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDiskConfig",
 		reflect.TypeOf((*LightsailDiskConfig)(nil)).Elem(),
 	)
 }

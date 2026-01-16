@@ -5,9 +5,9 @@ package apigatewayv2integration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2integration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2integration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewApigatewayv2IntegrationResponseParametersOutputReference(terraformResour
 	j := jsiiProxy_Apigatewayv2IntegrationResponseParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParametersOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewApigatewayv2IntegrationResponseParametersOutputReference_Override(a Apig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParametersOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Integration.Apigatewayv2IntegrationResponseParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

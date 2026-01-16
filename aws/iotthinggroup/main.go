@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroup",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroup",
 		reflect.TypeOf((*IotThingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupConfig",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupConfig",
 		reflect.TypeOf((*IotThingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadata",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadata",
 		reflect.TypeOf((*IotThingGroupMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataList",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataList",
 		reflect.TypeOf((*IotThingGroupMetadataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataOutputReference",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataOutputReference",
 		reflect.TypeOf((*IotThingGroupMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroups",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroups",
 		reflect.TypeOf((*IotThingGroupMetadataRootToParentGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsList",
 		reflect.TypeOf((*IotThingGroupMetadataRootToParentGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsOutputReference",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupMetadataRootToParentGroupsOutputReference",
 		reflect.TypeOf((*IotThingGroupMetadataRootToParentGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,15 +210,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupProperties",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupProperties",
 		reflect.TypeOf((*IotThingGroupProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupPropertiesAttributePayload",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupPropertiesAttributePayload",
 		reflect.TypeOf((*IotThingGroupPropertiesAttributePayload)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupPropertiesAttributePayloadOutputReference",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupPropertiesAttributePayloadOutputReference",
 		reflect.TypeOf((*IotThingGroupPropertiesAttributePayloadOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotThingGroup.IotThingGroupPropertiesOutputReference",
+		"@cdktn/provider-aws.iotThingGroup.IotThingGroupPropertiesOutputReference",
 		reflect.TypeOf((*IotThingGroupPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributePayload", GoGetter: "AttributePayload"},

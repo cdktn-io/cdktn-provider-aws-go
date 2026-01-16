@@ -5,14 +5,14 @@ package quicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_set aws_quicksight_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_set aws_quicksight_data_set}.
 type QuicksightDataSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -737,7 +737,7 @@ func (j *jsiiProxy_QuicksightDataSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet(scope constructs.Construct, id *string, config *QuicksightDataSetConfig) QuicksightDataSet {
 	_init_.Initialize()
 
@@ -747,7 +747,7 @@ func NewQuicksightDataSet(scope constructs.Construct, id *string, config *Quicks
 	j := jsiiProxy_QuicksightDataSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -755,12 +755,12 @@ func NewQuicksightDataSet(scope constructs.Construct, id *string, config *Quicks
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet_Override(q QuicksightDataSet, scope constructs.Construct, id *string, config *QuicksightDataSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -932,7 +932,7 @@ func QuicksightDataSet_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -967,7 +967,7 @@ func QuicksightDataSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -986,7 +986,7 @@ func QuicksightDataSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1005,7 +1005,7 @@ func QuicksightDataSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1018,7 +1018,7 @@ func QuicksightDataSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSet",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSet",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package servicequotastemplateassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicequotastemplateassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicequotastemplateassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association}.
 type ServicequotasTemplateAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_ServicequotasTemplateAssociation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
 func NewServicequotasTemplateAssociation(scope constructs.Construct, id *string, config *ServicequotasTemplateAssociationConfig) ServicequotasTemplateAssociation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewServicequotasTemplateAssociation(scope constructs.Construct, id *string,
 	j := jsiiProxy_ServicequotasTemplateAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewServicequotasTemplateAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
 func NewServicequotasTemplateAssociation_Override(s ServicequotasTemplateAssociation, scope constructs.Construct, id *string, config *ServicequotasTemplateAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -485,7 +485,7 @@ func ServicequotasTemplateAssociation_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -520,7 +520,7 @@ func ServicequotasTemplateAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func ServicequotasTemplateAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -558,7 +558,7 @@ func ServicequotasTemplateAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func ServicequotasTemplateAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
+		"@cdktn/provider-aws.servicequotasTemplateAssociation.ServicequotasTemplateAssociation",
 		"tfResourceType",
 		&returns,
 	)

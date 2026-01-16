@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		reflect.TypeOf((*PinpointBaiduChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannelConfig",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannelConfig",
 		reflect.TypeOf((*PinpointBaiduChannelConfig)(nil)).Elem(),
 	)
 }

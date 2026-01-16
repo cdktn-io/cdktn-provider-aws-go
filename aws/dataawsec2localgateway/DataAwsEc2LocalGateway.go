@@ -5,14 +5,14 @@ package dataawsec2localgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2localgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2localgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway}.
 type DataAwsEc2LocalGateway interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway} Data Source.
 func NewDataAwsEc2LocalGateway(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayConfig) DataAwsEc2LocalGateway {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAwsEc2LocalGateway(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsEc2LocalGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,12 +425,12 @@ func NewDataAwsEc2LocalGateway(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateway aws_ec2_local_gateway} Data Source.
 func NewDataAwsEc2LocalGateway_Override(d DataAwsEc2LocalGateway, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -536,7 +536,7 @@ func DataAwsEc2LocalGateway_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsEc2LocalGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -590,7 +590,7 @@ func DataAwsEc2LocalGateway_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func DataAwsEc2LocalGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -622,7 +622,7 @@ func DataAwsEc2LocalGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
+		"@cdktn/provider-aws.dataAwsEc2LocalGateway.DataAwsEc2LocalGateway",
 		"tfResourceType",
 		&returns,
 	)

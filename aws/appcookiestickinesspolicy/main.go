@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicy",
 		reflect.TypeOf((*AppCookieStickinessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicyConfig",
+		"@cdktn/provider-aws.appCookieStickinessPolicy.AppCookieStickinessPolicyConfig",
 		reflect.TypeOf((*AppCookieStickinessPolicyConfig)(nil)).Elem(),
 	)
 }

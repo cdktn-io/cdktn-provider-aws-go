@@ -5,9 +5,9 @@ package ec2allowedimagessettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2allowedimagessettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2allowedimagessettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEc2AllowedImagesSettingsImageCriterionCreationDateConditionList(terrafor
 	j := jsiiProxy_Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList",
+		"@cdktn/provider-aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEc2AllowedImagesSettingsImageCriterionCreationDateConditionList_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList",
+		"@cdktn/provider-aws.ec2AllowedImagesSettings.Ec2AllowedImagesSettingsImageCriterionCreationDateConditionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

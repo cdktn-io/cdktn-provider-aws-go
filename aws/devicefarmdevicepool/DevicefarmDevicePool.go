@@ -5,14 +5,14 @@ package devicefarmdevicepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}.
 type DevicefarmDevicePool interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DevicefarmDevicePool) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
 func NewDevicefarmDevicePool(scope constructs.Construct, id *string, config *DevicefarmDevicePoolConfig) DevicefarmDevicePool {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewDevicefarmDevicePool(scope constructs.Construct, id *string, config *Dev
 	j := jsiiProxy_DevicefarmDevicePool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewDevicefarmDevicePool(scope constructs.Construct, id *string, config *Dev
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
 func NewDevicefarmDevicePool_Override(d DevicefarmDevicePool, scope constructs.Construct, id *string, config *DevicefarmDevicePoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -716,7 +716,7 @@ func DevicefarmDevicePool_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func DevicefarmDevicePool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func DevicefarmDevicePool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func DevicefarmDevicePool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DevicefarmDevicePool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePool",
 		"tfResourceType",
 		&returns,
 	)

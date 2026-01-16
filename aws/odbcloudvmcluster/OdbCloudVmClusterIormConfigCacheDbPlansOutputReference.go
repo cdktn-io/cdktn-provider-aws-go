@@ -5,9 +5,9 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewOdbCloudVmClusterIormConfigCacheDbPlansOutputReference(terraformResource
 	j := jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewOdbCloudVmClusterIormConfigCacheDbPlansOutputReference_Override(o OdbClo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)

@@ -5,14 +5,14 @@ package computeoptimizerenrollmentstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/computeoptimizerenrollmentstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/computeoptimizerenrollmentstatus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
 type ComputeoptimizerEnrollmentStatus interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) ComputeoptimizerEnrollmentStatus {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string,
 	j := jsiiProxy_ComputeoptimizerEnrollmentStatus{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus_Override(c ComputeoptimizerEnrollmentStatus, scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -543,7 +543,7 @@ func ComputeoptimizerEnrollmentStatus_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func ComputeoptimizerEnrollmentStatus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func ComputeoptimizerEnrollmentStatus_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func ComputeoptimizerEnrollmentStatus_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func ComputeoptimizerEnrollmentStatus_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatus",
 		"tfResourceType",
 		&returns,
 	)

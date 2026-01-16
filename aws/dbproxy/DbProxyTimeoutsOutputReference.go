@@ -5,9 +5,9 @@ package dbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDbProxyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DbProxyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDbProxyTimeoutsOutputReference_Override(d DbProxyTimeoutsOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

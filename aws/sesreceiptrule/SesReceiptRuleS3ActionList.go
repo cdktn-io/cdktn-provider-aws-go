@@ -5,9 +5,9 @@ package sesreceiptrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesreceiptrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesreceiptrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSesReceiptRuleS3ActionList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_SesReceiptRuleS3ActionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionList",
+		"@cdktn/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSesReceiptRuleS3ActionList_Override(s SesReceiptRuleS3ActionList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionList",
+		"@cdktn/provider-aws.sesReceiptRule.SesReceiptRuleS3ActionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

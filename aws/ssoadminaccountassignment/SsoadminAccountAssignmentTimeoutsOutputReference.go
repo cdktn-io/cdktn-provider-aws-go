@@ -5,9 +5,9 @@ package ssoadminaccountassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminaccountassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminaccountassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSsoadminAccountAssignmentTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_SsoadminAccountAssignmentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSsoadminAccountAssignmentTimeoutsOutputReference_Override(s SsoadminAcco
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.ssoadminAccountAssignment.SsoadminAccountAssignmentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

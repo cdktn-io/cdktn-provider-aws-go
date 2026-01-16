@@ -5,14 +5,14 @@ package codebuildfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_fleet aws_codebuild_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_fleet aws_codebuild_fleet}.
 type CodebuildFleet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_CodebuildFleet) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_fleet aws_codebuild_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_fleet aws_codebuild_fleet} Resource.
 func NewCodebuildFleet(scope constructs.Construct, id *string, config *CodebuildFleetConfig) CodebuildFleet {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewCodebuildFleet(scope constructs.Construct, id *string, config *Codebuild
 	j := jsiiProxy_CodebuildFleet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -667,12 +667,12 @@ func NewCodebuildFleet(scope constructs.Construct, id *string, config *Codebuild
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_fleet aws_codebuild_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_fleet aws_codebuild_fleet} Resource.
 func NewCodebuildFleet_Override(c CodebuildFleet, scope constructs.Construct, id *string, config *CodebuildFleetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -866,7 +866,7 @@ func CodebuildFleet_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -901,7 +901,7 @@ func CodebuildFleet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func CodebuildFleet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -939,7 +939,7 @@ func CodebuildFleet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -952,7 +952,7 @@ func CodebuildFleet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codebuildFleet.CodebuildFleet",
+		"@cdktn/provider-aws.codebuildFleet.CodebuildFleet",
 		"tfResourceType",
 		&returns,
 	)

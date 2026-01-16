@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		reflect.TypeOf((*LbTargetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -152,15 +152,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupConfig",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupConfig",
 		reflect.TypeOf((*LbTargetGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupHealthCheck",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupHealthCheck",
 		reflect.TypeOf((*LbTargetGroupHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupHealthCheckOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupHealthCheckOutputReference",
 		reflect.TypeOf((*LbTargetGroupHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,11 +219,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupStickiness",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupStickiness",
 		reflect.TypeOf((*LbTargetGroupStickiness)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupStickinessOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupStickinessOutputReference",
 		reflect.TypeOf((*LbTargetGroupStickinessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetFailover",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetFailover",
 		reflect.TypeOf((*LbTargetGroupTargetFailover)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetFailoverList",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetFailoverList",
 		reflect.TypeOf((*LbTargetGroupTargetFailoverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -292,7 +292,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetFailoverOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetFailoverOutputReference",
 		reflect.TypeOf((*LbTargetGroupTargetFailoverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -328,15 +328,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealth",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealth",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealth)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailover",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailover",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealthDnsFailover)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailoverOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthDnsFailoverOutputReference",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealthDnsFailoverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -374,7 +374,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthOutputReference",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -414,11 +414,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRouting",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRouting",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealthUnhealthyStateRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRoutingOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetGroupHealthUnhealthyStateRoutingOutputReference",
 		reflect.TypeOf((*LbTargetGroupTargetGroupHealthUnhealthyStateRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -456,11 +456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthState",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthState",
 		reflect.TypeOf((*LbTargetGroupTargetHealthState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateList",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateList",
 		reflect.TypeOf((*LbTargetGroupTargetHealthStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -482,7 +482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroupTargetHealthStateOutputReference",
 		reflect.TypeOf((*LbTargetGroupTargetHealthStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

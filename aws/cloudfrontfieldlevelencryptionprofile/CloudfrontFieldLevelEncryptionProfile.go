@@ -5,14 +5,14 @@ package cloudfrontfieldlevelencryptionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontfieldlevelencryptionprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontfieldlevelencryptionprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile}.
 type CloudfrontFieldLevelEncryptionProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile} Resource.
 func NewCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionProfileConfig) CloudfrontFieldLevelEncryptionProfile {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *st
 	j := jsiiProxy_CloudfrontFieldLevelEncryptionProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_profile aws_cloudfront_field_level_encryption_profile} Resource.
 func NewCloudfrontFieldLevelEncryptionProfile_Override(c CloudfrontFieldLevelEncryptionProfile, scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -553,7 +553,7 @@ func CloudfrontFieldLevelEncryptionProfile_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func CloudfrontFieldLevelEncryptionProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func CloudfrontFieldLevelEncryptionProfile_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func CloudfrontFieldLevelEncryptionProfile_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func CloudfrontFieldLevelEncryptionProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
+		"@cdktn/provider-aws.cloudfrontFieldLevelEncryptionProfile.CloudfrontFieldLevelEncryptionProfile",
 		"tfResourceType",
 		&returns,
 	)

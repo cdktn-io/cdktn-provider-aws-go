@@ -5,14 +5,14 @@ package iottopicruledestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iottopicruledestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicruledestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
 type IotTopicRuleDestination interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_IotTopicRuleDestination) VpcConfigurationInput() *IotTopicRul
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) IotTopicRuleDestination {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IotTopicRuleDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -434,12 +434,12 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination_Override(i IotTopicRuleDestination, scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -556,7 +556,7 @@ func IotTopicRuleDestination_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func IotTopicRuleDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func IotTopicRuleDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func IotTopicRuleDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func IotTopicRuleDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
+		"@cdktn/provider-aws.iotTopicRuleDestination.IotTopicRuleDestination",
 		"tfResourceType",
 		&returns,
 	)

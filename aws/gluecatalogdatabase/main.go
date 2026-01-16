@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabase",
 		reflect.TypeOf((*GlueCatalogDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseConfig",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseConfig",
 		reflect.TypeOf((*GlueCatalogDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermission",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermission",
 		reflect.TypeOf((*GlueCatalogDatabaseCreateTableDefaultPermission)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionList",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionList",
 		reflect.TypeOf((*GlueCatalogDatabaseCreateTableDefaultPermissionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionOutputReference",
 		reflect.TypeOf((*GlueCatalogDatabaseCreateTableDefaultPermissionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipal",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipal",
 		reflect.TypeOf((*GlueCatalogDatabaseCreateTableDefaultPermissionPrincipal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference",
 		reflect.TypeOf((*GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseFederatedDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseFederatedDatabase",
 		reflect.TypeOf((*GlueCatalogDatabaseFederatedDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseFederatedDatabaseOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseFederatedDatabaseOutputReference",
 		reflect.TypeOf((*GlueCatalogDatabaseFederatedDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -252,11 +252,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabase",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabase",
 		reflect.TypeOf((*GlueCatalogDatabaseTargetDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
+		"@cdktn/provider-aws.glueCatalogDatabase.GlueCatalogDatabaseTargetDatabaseOutputReference",
 		reflect.TypeOf((*GlueCatalogDatabaseTargetDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},

@@ -5,9 +5,9 @@ package rbinrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rbinrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rbinrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewRbinRuleRetentionPeriodOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_RbinRuleRetentionPeriodOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewRbinRuleRetentionPeriodOutputReference_Override(r RbinRuleRetentionPerio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
+		"@cdktn/provider-aws.rbinRule.RbinRuleRetentionPeriodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

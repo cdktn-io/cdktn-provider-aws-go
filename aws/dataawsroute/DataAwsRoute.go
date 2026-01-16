@@ -5,14 +5,14 @@ package dataawsroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route aws_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route aws_route}.
 type DataAwsRoute interface {
 	cdktf.TerraformDataSource
 	CarrierGatewayId() *string
@@ -648,7 +648,7 @@ func (j *jsiiProxy_DataAwsRoute) VpcPeeringConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route aws_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route aws_route} Data Source.
 func NewDataAwsRoute(scope constructs.Construct, id *string, config *DataAwsRouteConfig) DataAwsRoute {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewDataAwsRoute(scope constructs.Construct, id *string, config *DataAwsRout
 	j := jsiiProxy_DataAwsRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -666,12 +666,12 @@ func NewDataAwsRoute(scope constructs.Construct, id *string, config *DataAwsRout
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route aws_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route aws_route} Data Source.
 func NewDataAwsRoute_Override(d DataAwsRoute, scope constructs.Construct, id *string, config *DataAwsRouteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -909,7 +909,7 @@ func DataAwsRoute_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -944,7 +944,7 @@ func DataAwsRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -963,7 +963,7 @@ func DataAwsRoute_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -982,7 +982,7 @@ func DataAwsRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -995,7 +995,7 @@ func DataAwsRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute.DataAwsRoute",
+		"@cdktn/provider-aws.dataAwsRoute.DataAwsRoute",
 		"tfResourceType",
 		&returns,
 	)

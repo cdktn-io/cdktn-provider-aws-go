@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		reflect.TypeOf((*EbsEncryptionByDefault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefaultConfig",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefaultConfig",
 		reflect.TypeOf((*EbsEncryptionByDefaultConfig)(nil)).Elem(),
 	)
 }

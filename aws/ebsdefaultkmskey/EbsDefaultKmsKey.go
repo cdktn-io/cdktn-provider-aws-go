@@ -5,14 +5,14 @@ package ebsdefaultkmskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebsdefaultkmskey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebsdefaultkmskey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key}.
 type EbsDefaultKmsKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_EbsDefaultKmsKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key} Resource.
 func NewEbsDefaultKmsKey(scope constructs.Construct, id *string, config *EbsDefaultKmsKeyConfig) EbsDefaultKmsKey {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewEbsDefaultKmsKey(scope constructs.Construct, id *string, config *EbsDefa
 	j := jsiiProxy_EbsDefaultKmsKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewEbsDefaultKmsKey(scope constructs.Construct, id *string, config *EbsDefa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_default_kms_key aws_ebs_default_kms_key} Resource.
 func NewEbsDefaultKmsKey_Override(e EbsDefaultKmsKey, scope constructs.Construct, id *string, config *EbsDefaultKmsKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -497,7 +497,7 @@ func EbsDefaultKmsKey_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func EbsDefaultKmsKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func EbsDefaultKmsKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func EbsDefaultKmsKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func EbsDefaultKmsKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
+		"@cdktn/provider-aws.ebsDefaultKmsKey.EbsDefaultKmsKey",
 		"tfResourceType",
 		&returns,
 	)

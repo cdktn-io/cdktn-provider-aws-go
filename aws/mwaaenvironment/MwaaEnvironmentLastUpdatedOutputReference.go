@@ -5,9 +5,9 @@ package mwaaenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mwaaenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mwaaenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewMwaaEnvironmentLastUpdatedOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_MwaaEnvironmentLastUpdatedOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mwaaEnvironment.MwaaEnvironmentLastUpdatedOutputReference",
+		"@cdktn/provider-aws.mwaaEnvironment.MwaaEnvironmentLastUpdatedOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewMwaaEnvironmentLastUpdatedOutputReference_Override(m MwaaEnvironmentLast
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mwaaEnvironment.MwaaEnvironmentLastUpdatedOutputReference",
+		"@cdktn/provider-aws.mwaaEnvironment.MwaaEnvironmentLastUpdatedOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

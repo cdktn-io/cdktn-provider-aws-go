@@ -5,9 +5,9 @@ package schedulerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schedulerschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schedulerschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSchedulerScheduleFlexibleTimeWindowOutputReference(terraformResource cdk
 	j := jsiiProxy_SchedulerScheduleFlexibleTimeWindowOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleFlexibleTimeWindowOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleFlexibleTimeWindowOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSchedulerScheduleFlexibleTimeWindowOutputReference_Override(s SchedulerS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleFlexibleTimeWindowOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleFlexibleTimeWindowOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

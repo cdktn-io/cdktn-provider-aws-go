@@ -5,9 +5,9 @@ package schedulerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schedulerschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schedulerschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewSchedulerScheduleTargetDeadLetterConfigOutputReference(terraformResource
 	j := jsiiProxy_SchedulerScheduleTargetDeadLetterConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewSchedulerScheduleTargetDeadLetterConfigOutputReference_Override(s Schedu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

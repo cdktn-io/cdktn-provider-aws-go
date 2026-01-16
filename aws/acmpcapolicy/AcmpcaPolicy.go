@@ -5,14 +5,14 @@ package acmpcapolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/acmpcapolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/acmpcapolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_policy aws_acmpca_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_policy aws_acmpca_policy}.
 type AcmpcaPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AcmpcaPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_policy aws_acmpca_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_policy aws_acmpca_policy} Resource.
 func NewAcmpcaPolicy(scope constructs.Construct, id *string, config *AcmpcaPolicyConfig) AcmpcaPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewAcmpcaPolicy(scope constructs.Construct, id *string, config *AcmpcaPolic
 	j := jsiiProxy_AcmpcaPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewAcmpcaPolicy(scope constructs.Construct, id *string, config *AcmpcaPolic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/acmpca_policy aws_acmpca_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/acmpca_policy aws_acmpca_policy} Resource.
 func NewAcmpcaPolicy_Override(a AcmpcaPolicy, scope constructs.Construct, id *string, config *AcmpcaPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -531,7 +531,7 @@ func AcmpcaPolicy_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func AcmpcaPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func AcmpcaPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func AcmpcaPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func AcmpcaPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.acmpcaPolicy.AcmpcaPolicy",
+		"@cdktn/provider-aws.acmpcaPolicy.AcmpcaPolicy",
 		"tfResourceType",
 		&returns,
 	)

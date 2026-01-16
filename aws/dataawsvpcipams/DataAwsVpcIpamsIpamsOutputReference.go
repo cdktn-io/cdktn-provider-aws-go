@@ -5,9 +5,9 @@ package dataawsvpcipams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcipams/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -346,7 +346,7 @@ func NewDataAwsVpcIpamsIpamsOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataAwsVpcIpamsIpamsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -358,7 +358,7 @@ func NewDataAwsVpcIpamsIpamsOutputReference_Override(d DataAwsVpcIpamsIpamsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpams.DataAwsVpcIpamsIpamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

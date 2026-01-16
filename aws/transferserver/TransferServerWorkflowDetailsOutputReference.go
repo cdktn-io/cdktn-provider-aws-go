@@ -5,9 +5,9 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewTransferServerWorkflowDetailsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_TransferServerWorkflowDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewTransferServerWorkflowDetailsOutputReference_Override(t TransferServerWo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
+		"@cdktn/provider-aws.transferServer.TransferServerWorkflowDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

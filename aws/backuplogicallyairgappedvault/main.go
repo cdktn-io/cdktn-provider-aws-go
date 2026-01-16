@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVault",
+		"@cdktn/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVault",
 		reflect.TypeOf((*BackupLogicallyAirGappedVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultConfig",
+		"@cdktn/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultConfig",
 		reflect.TypeOf((*BackupLogicallyAirGappedVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultTimeouts",
+		"@cdktn/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultTimeouts",
 		reflect.TypeOf((*BackupLogicallyAirGappedVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultTimeoutsOutputReference",
+		"@cdktn/provider-aws.backupLogicallyAirGappedVault.BackupLogicallyAirGappedVaultTimeoutsOutputReference",
 		reflect.TypeOf((*BackupLogicallyAirGappedVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

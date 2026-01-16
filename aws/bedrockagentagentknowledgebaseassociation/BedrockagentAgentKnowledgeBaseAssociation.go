@@ -5,14 +5,14 @@ package bedrockagentagentknowledgebaseassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentagentknowledgebaseassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagentknowledgebaseassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association}.
 type BedrockagentAgentKnowledgeBaseAssociation interface {
 	cdktf.TerraformResource
 	AgentId() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_BedrockagentAgentKnowledgeBaseAssociation) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association} Resource.
 func NewBedrockagentAgentKnowledgeBaseAssociation(scope constructs.Construct, id *string, config *BedrockagentAgentKnowledgeBaseAssociationConfig) BedrockagentAgentKnowledgeBaseAssociation {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewBedrockagentAgentKnowledgeBaseAssociation(scope constructs.Construct, id
 	j := jsiiProxy_BedrockagentAgentKnowledgeBaseAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewBedrockagentAgentKnowledgeBaseAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent_knowledge_base_association aws_bedrockagent_agent_knowledge_base_association} Resource.
 func NewBedrockagentAgentKnowledgeBaseAssociation_Override(b BedrockagentAgentKnowledgeBaseAssociation, scope constructs.Construct, id *string, config *BedrockagentAgentKnowledgeBaseAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -634,7 +634,7 @@ func BedrockagentAgentKnowledgeBaseAssociation_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -669,7 +669,7 @@ func BedrockagentAgentKnowledgeBaseAssociation_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func BedrockagentAgentKnowledgeBaseAssociation_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func BedrockagentAgentKnowledgeBaseAssociation_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func BedrockagentAgentKnowledgeBaseAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
+		"@cdktn/provider-aws.bedrockagentAgentKnowledgeBaseAssociation.BedrockagentAgentKnowledgeBaseAssociation",
 		"tfResourceType",
 		&returns,
 	)

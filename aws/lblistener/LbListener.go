@@ -5,14 +5,14 @@ package lblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener aws_lb_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener aws_lb_listener}.
 type LbListener interface {
 	cdktf.TerraformResource
 	AlpnPolicy() *string
@@ -1087,7 +1087,7 @@ func (j *jsiiProxy_LbListener) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener aws_lb_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener aws_lb_listener} Resource.
 func NewLbListener(scope constructs.Construct, id *string, config *LbListenerConfig) LbListener {
 	_init_.Initialize()
 
@@ -1097,7 +1097,7 @@ func NewLbListener(scope constructs.Construct, id *string, config *LbListenerCon
 	j := jsiiProxy_LbListener{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1105,12 +1105,12 @@ func NewLbListener(scope constructs.Construct, id *string, config *LbListenerCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener aws_lb_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener aws_lb_listener} Resource.
 func NewLbListener_Override(l LbListener, scope constructs.Construct, id *string, config *LbListenerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1524,7 +1524,7 @@ func LbListener_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1559,7 +1559,7 @@ func LbListener_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1578,7 +1578,7 @@ func LbListener_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1597,7 +1597,7 @@ func LbListener_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1610,7 +1610,7 @@ func LbListener_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbListener.LbListener",
+		"@cdktn/provider-aws.lbListener.LbListener",
 		"tfResourceType",
 		&returns,
 	)

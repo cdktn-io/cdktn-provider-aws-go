@@ -5,14 +5,14 @@ package route53domainsregistereddomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
 type Route53DomainsRegisteredDomain interface {
 	cdktf.TerraformResource
 	AbuseContactEmail() *string
@@ -779,7 +779,7 @@ func (j *jsiiProxy_Route53DomainsRegisteredDomain) WhoisServer() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) Route53DomainsRegisteredDomain {
 	_init_.Initialize()
 
@@ -789,7 +789,7 @@ func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, c
 	j := jsiiProxy_Route53DomainsRegisteredDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -797,12 +797,12 @@ func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain_Override(r Route53DomainsRegisteredDomain, scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -996,7 +996,7 @@ func Route53DomainsRegisteredDomain_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1031,7 +1031,7 @@ func Route53DomainsRegisteredDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1050,7 +1050,7 @@ func Route53DomainsRegisteredDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1069,7 +1069,7 @@ func Route53DomainsRegisteredDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1082,7 +1082,7 @@ func Route53DomainsRegisteredDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomain",
 		"tfResourceType",
 		&returns,
 	)

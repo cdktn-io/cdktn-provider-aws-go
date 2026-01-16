@@ -5,9 +5,9 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewOpensearchDomainAdvancedSecurityOptionsOutputReference(terraformResource
 	j := jsiiProxy_OpensearchDomainAdvancedSecurityOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewOpensearchDomainAdvancedSecurityOptionsOutputReference_Override(o Opense
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptionsOutputReference",
+		"@cdktn/provider-aws.opensearchDomain.OpensearchDomainAdvancedSecurityOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

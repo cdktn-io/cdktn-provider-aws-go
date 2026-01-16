@@ -5,14 +5,14 @@ package daxsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/daxsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/daxsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_subnet_group aws_dax_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_subnet_group aws_dax_subnet_group}.
 type DaxSubnetGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DaxSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_subnet_group aws_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_subnet_group aws_dax_subnet_group} Resource.
 func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) DaxSubnetGroup {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnet
 	j := jsiiProxy_DaxSubnetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dax_subnet_group aws_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_subnet_group aws_dax_subnet_group} Resource.
 func NewDaxSubnetGroup_Override(d DaxSubnetGroup, scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -577,7 +577,7 @@ func DaxSubnetGroup_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func DaxSubnetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func DaxSubnetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func DaxSubnetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func DaxSubnetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.daxSubnetGroup.DaxSubnetGroup",
+		"@cdktn/provider-aws.daxSubnetGroup.DaxSubnetGroup",
 		"tfResourceType",
 		&returns,
 	)

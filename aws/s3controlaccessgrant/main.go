@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrant",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrant",
 		reflect.TypeOf((*S3ControlAccessGrant)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessGrantArn", GoGetter: "AccessGrantArn"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfiguration",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfiguration",
 		reflect.TypeOf((*S3ControlAccessGrantAccessGrantsLocationConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfigurationList",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfigurationList",
 		reflect.TypeOf((*S3ControlAccessGrantAccessGrantsLocationConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfigurationOutputReference",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantAccessGrantsLocationConfigurationOutputReference",
 		reflect.TypeOf((*S3ControlAccessGrantAccessGrantsLocationConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,15 +153,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantConfig",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantConfig",
 		reflect.TypeOf((*S3ControlAccessGrantConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGrantee",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGrantee",
 		reflect.TypeOf((*S3ControlAccessGrantGrantee)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGranteeList",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGranteeList",
 		reflect.TypeOf((*S3ControlAccessGrantGranteeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -183,7 +183,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGranteeOutputReference",
+		"@cdktn/provider-aws.s3ControlAccessGrant.S3ControlAccessGrantGranteeOutputReference",
 		reflect.TypeOf((*S3ControlAccessGrantGranteeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

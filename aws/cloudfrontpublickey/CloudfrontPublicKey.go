@@ -5,14 +5,14 @@ package cloudfrontpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontpublickey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key}.
 type CloudfrontPublicKey interface {
 	cdktf.TerraformResource
 	CallerReference() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_CloudfrontPublicKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
 func NewCloudfrontPublicKey(scope constructs.Construct, id *string, config *CloudfrontPublicKeyConfig) CloudfrontPublicKey {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewCloudfrontPublicKey(scope constructs.Construct, id *string, config *Clou
 	j := jsiiProxy_CloudfrontPublicKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewCloudfrontPublicKey(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_public_key aws_cloudfront_public_key} Resource.
 func NewCloudfrontPublicKey_Override(c CloudfrontPublicKey, scope constructs.Construct, id *string, config *CloudfrontPublicKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -589,7 +589,7 @@ func CloudfrontPublicKey_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func CloudfrontPublicKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func CloudfrontPublicKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func CloudfrontPublicKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func CloudfrontPublicKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
+		"@cdktn/provider-aws.cloudfrontPublicKey.CloudfrontPublicKey",
 		"tfResourceType",
 		&returns,
 	)

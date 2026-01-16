@@ -5,9 +5,9 @@ package dataawsregions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsregions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsregions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsRegionsFilterList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_DataAwsRegionsFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegionsFilterList",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegionsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsRegionsFilterList_Override(d DataAwsRegionsFilterList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRegions.DataAwsRegionsFilterList",
+		"@cdktn/provider-aws.dataAwsRegions.DataAwsRegionsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

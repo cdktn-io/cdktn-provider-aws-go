@@ -5,14 +5,14 @@ package dataawsauditmanagercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsauditmanagercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsauditmanagercontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/auditmanager_control aws_auditmanager_control}.
 type DataAwsAuditmanagerControl interface {
 	cdktf.TerraformDataSource
 	ActionPlanInstructions() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAwsAuditmanagerControl) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) DataAwsAuditmanagerControl {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsAuditmanagerControl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -417,12 +417,12 @@ func NewDataAwsAuditmanagerControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/auditmanager_control aws_auditmanager_control} Data Source.
 func NewDataAwsAuditmanagerControl_Override(d DataAwsAuditmanagerControl, scope constructs.Construct, id *string, config *DataAwsAuditmanagerControlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -517,7 +517,7 @@ func DataAwsAuditmanagerControl_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsAuditmanagerControl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsAuditmanagerControl_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -590,7 +590,7 @@ func DataAwsAuditmanagerControl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAwsAuditmanagerControl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
+		"@cdktn/provider-aws.dataAwsAuditmanagerControl.DataAwsAuditmanagerControl",
 		"tfResourceType",
 		&returns,
 	)

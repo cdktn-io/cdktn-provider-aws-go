@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociation",
 		reflect.TypeOf((*AmplifyDomainAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettings",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettings",
 		reflect.TypeOf((*AmplifyDomainAssociationCertificateSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettingsOutputReference",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettingsOutputReference",
 		reflect.TypeOf((*AmplifyDomainAssociationCertificateSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateVerificationDnsRecord", GoGetter: "CertificateVerificationDnsRecord"},
@@ -130,15 +130,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationConfig",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationConfig",
 		reflect.TypeOf((*AmplifyDomainAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain",
 		reflect.TypeOf((*AmplifyDomainAssociationSubDomain)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomainList",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomainList",
 		reflect.TypeOf((*AmplifyDomainAssociationSubDomainList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomainOutputReference",
+		"@cdktn/provider-aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomainOutputReference",
 		reflect.TypeOf((*AmplifyDomainAssociationSubDomainOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchName", GoGetter: "BranchName"},

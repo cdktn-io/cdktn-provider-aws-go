@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcs",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcs",
 		reflect.TypeOf((*DataAwsVpcs)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsConfig",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsConfig",
 		reflect.TypeOf((*DataAwsVpcsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsFilter",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsFilter",
 		reflect.TypeOf((*DataAwsVpcsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
 		reflect.TypeOf((*DataAwsVpcsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpcsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsTimeouts",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsTimeouts",
 		reflect.TypeOf((*DataAwsVpcsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsVpcsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

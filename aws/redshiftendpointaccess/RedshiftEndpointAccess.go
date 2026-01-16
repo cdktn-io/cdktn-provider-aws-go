@@ -5,14 +5,14 @@ package redshiftendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftendpointaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftendpointaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access}.
 type RedshiftEndpointAccess interface {
 	cdktf.TerraformResource
 	Address() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_RedshiftEndpointAccess) VpcSecurityGroupIdsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) RedshiftEndpointAccess {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RedshiftEndpointAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewRedshiftEndpointAccess(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_endpoint_access aws_redshift_endpoint_access} Resource.
 func NewRedshiftEndpointAccess_Override(r RedshiftEndpointAccess, scope constructs.Construct, id *string, config *RedshiftEndpointAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -668,7 +668,7 @@ func RedshiftEndpointAccess_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func RedshiftEndpointAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func RedshiftEndpointAccess_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func RedshiftEndpointAccess_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func RedshiftEndpointAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
+		"@cdktn/provider-aws.redshiftEndpointAccess.RedshiftEndpointAccess",
 		"tfResourceType",
 		&returns,
 	)

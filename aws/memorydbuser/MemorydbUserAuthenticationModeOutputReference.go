@@ -5,9 +5,9 @@ package memorydbuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -217,7 +217,7 @@ func NewMemorydbUserAuthenticationModeOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_MemorydbUserAuthenticationModeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -229,7 +229,7 @@ func NewMemorydbUserAuthenticationModeOutputReference_Override(m MemorydbUserAut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

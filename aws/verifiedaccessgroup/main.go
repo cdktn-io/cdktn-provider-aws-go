@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		reflect.TypeOf((*VerifiedaccessGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroupConfig",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroupConfig",
 		reflect.TypeOf((*VerifiedaccessGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroupSseConfiguration",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroupSseConfiguration",
 		reflect.TypeOf((*VerifiedaccessGroupSseConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroupSseConfigurationOutputReference",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroupSseConfigurationOutputReference",
 		reflect.TypeOf((*VerifiedaccessGroupSseConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

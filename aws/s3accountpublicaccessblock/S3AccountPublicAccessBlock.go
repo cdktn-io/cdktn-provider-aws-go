@@ -5,14 +5,14 @@ package s3accountpublicaccessblock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3accountpublicaccessblock/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3accountpublicaccessblock/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block}.
 type S3AccountPublicAccessBlock interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -430,7 +430,7 @@ func (j *jsiiProxy_S3AccountPublicAccessBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
 func NewS3AccountPublicAccessBlock(scope constructs.Construct, id *string, config *S3AccountPublicAccessBlockConfig) S3AccountPublicAccessBlock {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewS3AccountPublicAccessBlock(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_S3AccountPublicAccessBlock{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -448,12 +448,12 @@ func NewS3AccountPublicAccessBlock(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_account_public_access_block aws_s3_account_public_access_block} Resource.
 func NewS3AccountPublicAccessBlock_Override(s S3AccountPublicAccessBlock, scope constructs.Construct, id *string, config *S3AccountPublicAccessBlockConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -603,7 +603,7 @@ func S3AccountPublicAccessBlock_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -638,7 +638,7 @@ func S3AccountPublicAccessBlock_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func S3AccountPublicAccessBlock_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func S3AccountPublicAccessBlock_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func S3AccountPublicAccessBlock_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
+		"@cdktn/provider-aws.s3AccountPublicAccessBlock.S3AccountPublicAccessBlock",
 		"tfResourceType",
 		&returns,
 	)

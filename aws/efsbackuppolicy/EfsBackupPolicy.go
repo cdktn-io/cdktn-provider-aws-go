@@ -5,14 +5,14 @@ package efsbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsbackuppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsbackuppolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_backup_policy aws_efs_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_backup_policy aws_efs_backup_policy}.
 type EfsBackupPolicy interface {
 	cdktf.TerraformResource
 	BackupPolicy() EfsBackupPolicyBackupPolicyOutputReference
@@ -380,7 +380,7 @@ func (j *jsiiProxy_EfsBackupPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
 func NewEfsBackupPolicy(scope constructs.Construct, id *string, config *EfsBackupPolicyConfig) EfsBackupPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewEfsBackupPolicy(scope constructs.Construct, id *string, config *EfsBacku
 	j := jsiiProxy_EfsBackupPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewEfsBackupPolicy(scope constructs.Construct, id *string, config *EfsBacku
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
 func NewEfsBackupPolicy_Override(e EfsBackupPolicy, scope constructs.Construct, id *string, config *EfsBackupPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -520,7 +520,7 @@ func EfsBackupPolicy_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func EfsBackupPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func EfsBackupPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func EfsBackupPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func EfsBackupPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.efsBackupPolicy.EfsBackupPolicy",
+		"@cdktn/provider-aws.efsBackupPolicy.EfsBackupPolicy",
 		"tfResourceType",
 		&returns,
 	)

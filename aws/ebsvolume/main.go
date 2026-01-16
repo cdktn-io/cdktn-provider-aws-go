@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsVolume.EbsVolume",
+		"@cdktn/provider-aws.ebsVolume.EbsVolume",
 		reflect.TypeOf((*EbsVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsVolume.EbsVolumeConfig",
+		"@cdktn/provider-aws.ebsVolume.EbsVolumeConfig",
 		reflect.TypeOf((*EbsVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ebsVolume.EbsVolumeTimeouts",
+		"@cdktn/provider-aws.ebsVolume.EbsVolumeTimeouts",
 		reflect.TypeOf((*EbsVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ebsVolume.EbsVolumeTimeoutsOutputReference",
+		"@cdktn/provider-aws.ebsVolume.EbsVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*EbsVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectSecurityProfile.DataAwsConnectSecurityProfile",
+		"@cdktn/provider-aws.dataAwsConnectSecurityProfile.DataAwsConnectSecurityProfile",
 		reflect.TypeOf((*DataAwsConnectSecurityProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectSecurityProfile.DataAwsConnectSecurityProfileConfig",
+		"@cdktn/provider-aws.dataAwsConnectSecurityProfile.DataAwsConnectSecurityProfileConfig",
 		reflect.TypeOf((*DataAwsConnectSecurityProfileConfig)(nil)).Elem(),
 	)
 }

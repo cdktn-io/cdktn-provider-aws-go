@@ -5,14 +5,14 @@ package lexv2modelsbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot aws_lexv2models_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot aws_lexv2models_bot}.
 type Lexv2ModelsBot interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_Lexv2ModelsBot) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
 func NewLexv2ModelsBot(scope constructs.Construct, id *string, config *Lexv2ModelsBotConfig) Lexv2ModelsBot {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewLexv2ModelsBot(scope constructs.Construct, id *string, config *Lexv2Mode
 	j := jsiiProxy_Lexv2ModelsBot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -598,12 +598,12 @@ func NewLexv2ModelsBot(scope constructs.Construct, id *string, config *Lexv2Mode
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot aws_lexv2models_bot} Resource.
 func NewLexv2ModelsBot_Override(l Lexv2ModelsBot, scope constructs.Construct, id *string, config *Lexv2ModelsBotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -775,7 +775,7 @@ func Lexv2ModelsBot_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -810,7 +810,7 @@ func Lexv2ModelsBot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -829,7 +829,7 @@ func Lexv2ModelsBot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func Lexv2ModelsBot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func Lexv2ModelsBot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package lambdalayerversionpermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdalayerversionpermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdalayerversionpermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission}.
 type LambdaLayerVersionPermission interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_LambdaLayerVersionPermission) VersionNumberInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
 func NewLambdaLayerVersionPermission(scope constructs.Construct, id *string, config *LambdaLayerVersionPermissionConfig) LambdaLayerVersionPermission {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewLambdaLayerVersionPermission(scope constructs.Construct, id *string, con
 	j := jsiiProxy_LambdaLayerVersionPermission{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewLambdaLayerVersionPermission(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_layer_version_permission aws_lambda_layer_version_permission} Resource.
 func NewLambdaLayerVersionPermission_Override(l LambdaLayerVersionPermission, scope constructs.Construct, id *string, config *LambdaLayerVersionPermissionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -725,7 +725,7 @@ func LambdaLayerVersionPermission_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -760,7 +760,7 @@ func LambdaLayerVersionPermission_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func LambdaLayerVersionPermission_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func LambdaLayerVersionPermission_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func LambdaLayerVersionPermission_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
+		"@cdktn/provider-aws.lambdaLayerVersionPermission.LambdaLayerVersionPermission",
 		"tfResourceType",
 		&returns,
 	)

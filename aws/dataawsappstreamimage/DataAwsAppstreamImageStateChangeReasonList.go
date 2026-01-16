@@ -5,9 +5,9 @@ package dataawsappstreamimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappstreamimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappstreamimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppstreamImageStateChangeReasonList(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsAppstreamImageStateChangeReasonList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppstreamImageStateChangeReasonList_Override(d DataAwsAppstreamIm
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
+		"@cdktn/provider-aws.dataAwsAppstreamImage.DataAwsAppstreamImageStateChangeReasonList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

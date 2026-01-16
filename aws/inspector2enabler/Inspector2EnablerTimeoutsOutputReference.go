@@ -5,9 +5,9 @@ package inspector2enabler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2enabler/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2enabler/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewInspector2EnablerTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_Inspector2EnablerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2EnablerTimeoutsOutputReference",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2EnablerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewInspector2EnablerTimeoutsOutputReference_Override(i Inspector2EnablerTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2Enabler.Inspector2EnablerTimeoutsOutputReference",
+		"@cdktn/provider-aws.inspector2Enabler.Inspector2EnablerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

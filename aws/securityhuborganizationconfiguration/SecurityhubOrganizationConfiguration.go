@@ -5,14 +5,14 @@ package securityhuborganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securityhuborganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhuborganizationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration}.
 type SecurityhubOrganizationConfiguration interface {
 	cdktf.TerraformResource
 	AutoEnable() interface{}
@@ -429,7 +429,7 @@ func (j *jsiiProxy_SecurityhubOrganizationConfiguration) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
 func NewSecurityhubOrganizationConfiguration(scope constructs.Construct, id *string, config *SecurityhubOrganizationConfigurationConfig) SecurityhubOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewSecurityhubOrganizationConfiguration(scope constructs.Construct, id *str
 	j := jsiiProxy_SecurityhubOrganizationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewSecurityhubOrganizationConfiguration(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_organization_configuration aws_securityhub_organization_configuration} Resource.
 func NewSecurityhubOrganizationConfiguration_Override(s SecurityhubOrganizationConfiguration, scope constructs.Construct, id *string, config *SecurityhubOrganizationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -580,7 +580,7 @@ func SecurityhubOrganizationConfiguration_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -615,7 +615,7 @@ func SecurityhubOrganizationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -634,7 +634,7 @@ func SecurityhubOrganizationConfiguration_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func SecurityhubOrganizationConfiguration_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func SecurityhubOrganizationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
+		"@cdktn/provider-aws.securityhubOrganizationConfiguration.SecurityhubOrganizationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package customerprofilesdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/customerprofilesdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/customerprofilesdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewCustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference(te
 	j := jsiiProxy_CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewCustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference_Ov
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
+		"@cdktn/provider-aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

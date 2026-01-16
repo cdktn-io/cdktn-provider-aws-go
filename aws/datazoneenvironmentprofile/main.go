@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfile",
+		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfile",
 		reflect.TypeOf((*DatazoneEnvironmentProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileConfig",
+		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileConfig",
 		reflect.TypeOf((*DatazoneEnvironmentProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParameters",
+		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParameters",
 		reflect.TypeOf((*DatazoneEnvironmentProfileUserParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParametersList",
+		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParametersList",
 		reflect.TypeOf((*DatazoneEnvironmentProfileUserParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParametersOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironmentProfile.DatazoneEnvironmentProfileUserParametersOutputReference",
 		reflect.TypeOf((*DatazoneEnvironmentProfileUserParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

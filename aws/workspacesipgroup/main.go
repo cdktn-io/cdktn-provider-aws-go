@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroup",
 		reflect.TypeOf((*WorkspacesIpGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupConfig",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupConfig",
 		reflect.TypeOf((*WorkspacesIpGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupRules",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupRules",
 		reflect.TypeOf((*WorkspacesIpGroupRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesList",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesList",
 		reflect.TypeOf((*WorkspacesIpGroupRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
+		"@cdktn/provider-aws.workspacesIpGroup.WorkspacesIpGroupRulesOutputReference",
 		reflect.TypeOf((*WorkspacesIpGroupRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

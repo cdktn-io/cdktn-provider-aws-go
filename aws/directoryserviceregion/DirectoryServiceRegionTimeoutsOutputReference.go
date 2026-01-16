@@ -5,9 +5,9 @@ package directoryserviceregion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryserviceregion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryserviceregion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDirectoryServiceRegionTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DirectoryServiceRegionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDirectoryServiceRegionTimeoutsOutputReference_Override(d DirectoryServic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

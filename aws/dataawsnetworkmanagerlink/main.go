@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLink",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLink",
 		reflect.TypeOf((*DataAwsNetworkmanagerLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,11 +71,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidth",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidth",
 		reflect.TypeOf((*DataAwsNetworkmanagerLinkBandwidth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidthList",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidthList",
 		reflect.TypeOf((*DataAwsNetworkmanagerLinkBandwidthList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidthOutputReference",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkBandwidthOutputReference",
 		reflect.TypeOf((*DataAwsNetworkmanagerLinkBandwidthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkConfig",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerLink.DataAwsNetworkmanagerLinkConfig",
 		reflect.TypeOf((*DataAwsNetworkmanagerLinkConfig)(nil)).Elem(),
 	)
 }

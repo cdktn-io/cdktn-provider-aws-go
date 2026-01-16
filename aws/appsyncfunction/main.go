@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunction",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunction",
 		reflect.TypeOf((*AppsyncFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionConfig",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionConfig",
 		reflect.TypeOf((*AppsyncFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionRuntime",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionRuntime",
 		reflect.TypeOf((*AppsyncFunctionRuntime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionRuntimeOutputReference",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionRuntimeOutputReference",
 		reflect.TypeOf((*AppsyncFunctionRuntimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,15 +147,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionSyncConfig",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionSyncConfig",
 		reflect.TypeOf((*AppsyncFunctionSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfig",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfig",
 		reflect.TypeOf((*AppsyncFunctionSyncConfigLambdaConflictHandlerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfigOutputReference",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigLambdaConflictHandlerConfigOutputReference",
 		reflect.TypeOf((*AppsyncFunctionSyncConfigLambdaConflictHandlerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigOutputReference",
+		"@cdktn/provider-aws.appsyncFunction.AppsyncFunctionSyncConfigOutputReference",
 		reflect.TypeOf((*AppsyncFunctionSyncConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

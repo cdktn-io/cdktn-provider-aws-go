@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsCluster",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsCluster",
 		reflect.TypeOf((*DataAwsEcsCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterConfig",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterConfig",
 		reflect.TypeOf((*DataAwsEcsClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaults",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaults",
 		reflect.TypeOf((*DataAwsEcsClusterServiceConnectDefaults)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsList",
 		reflect.TypeOf((*DataAwsEcsClusterServiceConnectDefaultsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterServiceConnectDefaultsOutputReference",
 		reflect.TypeOf((*DataAwsEcsClusterServiceConnectDefaultsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSetting",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSetting",
 		reflect.TypeOf((*DataAwsEcsClusterSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSettingList",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSettingList",
 		reflect.TypeOf((*DataAwsEcsClusterSettingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSettingOutputReference",
+		"@cdktn/provider-aws.dataAwsEcsCluster.DataAwsEcsClusterSettingOutputReference",
 		reflect.TypeOf((*DataAwsEcsClusterSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

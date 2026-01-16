@@ -5,9 +5,9 @@ package s3tablestablebucketreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestablebucketreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestablebucketreplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3TablesTableBucketReplicationRuleList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_S3TablesTableBucketReplicationRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleList",
+		"@cdktn/provider-aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3TablesTableBucketReplicationRuleList_Override(s S3TablesTableBucketRep
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleList",
+		"@cdktn/provider-aws.s3TablesTableBucketReplication.S3TablesTableBucketReplicationRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

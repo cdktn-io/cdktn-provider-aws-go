@@ -5,14 +5,14 @@ package dataawskendrathesaurus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendrathesaurus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendrathesaurus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus}.
 type DataAwsKendraThesaurus interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -491,7 +491,7 @@ func (j *jsiiProxy_DataAwsKendraThesaurus) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
 func NewDataAwsKendraThesaurus(scope constructs.Construct, id *string, config *DataAwsKendraThesaurusConfig) DataAwsKendraThesaurus {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewDataAwsKendraThesaurus(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsKendraThesaurus{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -509,12 +509,12 @@ func NewDataAwsKendraThesaurus(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
 func NewDataAwsKendraThesaurus_Override(d DataAwsKendraThesaurus, scope constructs.Construct, id *string, config *DataAwsKendraThesaurusConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -631,7 +631,7 @@ func DataAwsKendraThesaurus_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -666,7 +666,7 @@ func DataAwsKendraThesaurus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func DataAwsKendraThesaurus_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -704,7 +704,7 @@ func DataAwsKendraThesaurus_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -717,7 +717,7 @@ func DataAwsKendraThesaurus_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
+		"@cdktn/provider-aws.dataAwsKendraThesaurus.DataAwsKendraThesaurus",
 		"tfResourceType",
 		&returns,
 	)

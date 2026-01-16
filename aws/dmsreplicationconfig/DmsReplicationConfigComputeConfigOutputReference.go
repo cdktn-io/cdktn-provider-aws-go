@@ -5,9 +5,9 @@ package dmsreplicationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsreplicationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsreplicationconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -374,7 +374,7 @@ func NewDmsReplicationConfigComputeConfigOutputReference(terraformResource cdktf
 	j := jsiiProxy_DmsReplicationConfigComputeConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -386,7 +386,7 @@ func NewDmsReplicationConfigComputeConfigOutputReference_Override(d DmsReplicati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
+		"@cdktn/provider-aws.dmsReplicationConfig.DmsReplicationConfigComputeConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

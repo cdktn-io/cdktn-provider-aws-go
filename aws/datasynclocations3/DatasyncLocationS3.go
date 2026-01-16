@@ -5,14 +5,14 @@ package datasynclocations3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocations3/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocations3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_s3 aws_datasync_location_s3}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_s3 aws_datasync_location_s3}.
 type DatasyncLocationS3 interface {
 	cdktf.TerraformResource
 	AgentArns() *[]*string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DatasyncLocationS3) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_s3 aws_datasync_location_s3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_s3 aws_datasync_location_s3} Resource.
 func NewDatasyncLocationS3(scope constructs.Construct, id *string, config *DatasyncLocationS3Config) DatasyncLocationS3 {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewDatasyncLocationS3(scope constructs.Construct, id *string, config *Datas
 	j := jsiiProxy_DatasyncLocationS3{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewDatasyncLocationS3(scope constructs.Construct, id *string, config *Datas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datasync_location_s3 aws_datasync_location_s3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_s3 aws_datasync_location_s3} Resource.
 func NewDatasyncLocationS3_Override(d DatasyncLocationS3, scope constructs.Construct, id *string, config *DatasyncLocationS3Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -716,7 +716,7 @@ func DatasyncLocationS3_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func DatasyncLocationS3_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func DatasyncLocationS3_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func DatasyncLocationS3_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DatasyncLocationS3_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datasyncLocationS3.DatasyncLocationS3",
+		"@cdktn/provider-aws.datasyncLocationS3.DatasyncLocationS3",
 		"tfResourceType",
 		&returns,
 	)

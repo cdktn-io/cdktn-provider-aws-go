@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferCertificate.TransferCertificate",
+		"@cdktn/provider-aws.transferCertificate.TransferCertificate",
 		reflect.TypeOf((*TransferCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDate", GoGetter: "ActiveDate"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferCertificate.TransferCertificateConfig",
+		"@cdktn/provider-aws.transferCertificate.TransferCertificateConfig",
 		reflect.TypeOf((*TransferCertificateConfig)(nil)).Elem(),
 	)
 }

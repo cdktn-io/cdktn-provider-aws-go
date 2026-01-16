@@ -5,9 +5,9 @@ package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -276,7 +276,7 @@ func NewFinspaceKxClusterScalingGroupConfigurationOutputReference(terraformResou
 	j := jsiiProxy_FinspaceKxClusterScalingGroupConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -288,7 +288,7 @@ func NewFinspaceKxClusterScalingGroupConfigurationOutputReference_Override(f Fin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

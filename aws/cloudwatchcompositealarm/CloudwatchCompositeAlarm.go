@@ -5,14 +5,14 @@ package cloudwatchcompositealarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchcompositealarm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchcompositealarm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm}.
 type CloudwatchCompositeAlarm interface {
 	cdktf.TerraformResource
 	ActionsEnabled() interface{}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_CloudwatchCompositeAlarm) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) CloudwatchCompositeAlarm {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_CloudwatchCompositeAlarm{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -601,12 +601,12 @@ func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_composite_alarm aws_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm_Override(c CloudwatchCompositeAlarm, scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -811,7 +811,7 @@ func CloudwatchCompositeAlarm_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -846,7 +846,7 @@ func CloudwatchCompositeAlarm_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -865,7 +865,7 @@ func CloudwatchCompositeAlarm_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func CloudwatchCompositeAlarm_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func CloudwatchCompositeAlarm_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpamPool.VpcIpamPool",
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPool",
 		reflect.TypeOf((*VpcIpamPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpamPool.VpcIpamPoolConfig",
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolConfig",
 		reflect.TypeOf((*VpcIpamPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcIpamPool.VpcIpamPoolTimeouts",
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolTimeouts",
 		reflect.TypeOf((*VpcIpamPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcIpamPool.VpcIpamPoolTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolTimeoutsOutputReference",
 		reflect.TypeOf((*VpcIpamPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.subnet.Subnet",
+		"@cdktn/provider-aws.subnet.Subnet",
 		reflect.TypeOf((*Subnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -129,15 +129,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.subnet.SubnetConfig",
+		"@cdktn/provider-aws.subnet.SubnetConfig",
 		reflect.TypeOf((*SubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.subnet.SubnetTimeouts",
+		"@cdktn/provider-aws.subnet.SubnetTimeouts",
 		reflect.TypeOf((*SubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.subnet.SubnetTimeoutsOutputReference",
+		"@cdktn/provider-aws.subnet.SubnetTimeoutsOutputReference",
 		reflect.TypeOf((*SubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

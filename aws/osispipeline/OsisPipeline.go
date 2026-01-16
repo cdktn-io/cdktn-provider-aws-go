@@ -5,14 +5,14 @@ package osispipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/osispipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/osispipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/osis_pipeline aws_osis_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/osis_pipeline aws_osis_pipeline}.
 type OsisPipeline interface {
 	cdktf.TerraformResource
 	BufferOptions() OsisPipelineBufferOptionsList
@@ -66,6 +66,9 @@ type OsisPipeline interface {
 	PipelineName() *string
 	SetPipelineName(val *string)
 	PipelineNameInput() *string
+	PipelineRoleArn() *string
+	SetPipelineRoleArn(val *string)
+	PipelineRoleArnInput() *string
 	// Experimental.
 	Provider() cdktf.TerraformProvider
 	// Experimental.
@@ -147,6 +150,7 @@ type OsisPipeline interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPipelineRoleArn()
 	ResetRegion()
 	ResetTags()
 	ResetTimeouts()
@@ -439,6 +443,26 @@ func (j *jsiiProxy_OsisPipeline) PipelineNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OsisPipeline) PipelineRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pipelineRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OsisPipeline) PipelineRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pipelineRoleArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OsisPipeline) Provider() cdktf.TerraformProvider {
 	var returns cdktf.TerraformProvider
 	_jsii_.Get(
@@ -590,7 +614,7 @@ func (j *jsiiProxy_OsisPipeline) VpcOptionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/osis_pipeline aws_osis_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/osis_pipeline aws_osis_pipeline} Resource.
 func NewOsisPipeline(scope constructs.Construct, id *string, config *OsisPipelineConfig) OsisPipeline {
 	_init_.Initialize()
 
@@ -600,7 +624,7 @@ func NewOsisPipeline(scope constructs.Construct, id *string, config *OsisPipelin
 	j := jsiiProxy_OsisPipeline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -608,12 +632,12 @@ func NewOsisPipeline(scope constructs.Construct, id *string, config *OsisPipelin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/osis_pipeline aws_osis_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/osis_pipeline aws_osis_pipeline} Resource.
 func NewOsisPipeline_Override(o OsisPipeline, scope constructs.Construct, id *string, config *OsisPipelineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -712,6 +736,17 @@ func (j *jsiiProxy_OsisPipeline)SetPipelineName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_OsisPipeline)SetPipelineRoleArn(val *string) {
+	if err := j.validateSetPipelineRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pipelineRoleArn",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OsisPipeline)SetProvider(val cdktf.TerraformProvider) {
 	_jsii_.Set(
 		j,
@@ -763,7 +798,7 @@ func OsisPipeline_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +833,7 @@ func OsisPipeline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +852,7 @@ func OsisPipeline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +871,7 @@ func OsisPipeline_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +884,7 @@ func OsisPipeline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.osisPipeline.OsisPipeline",
+		"@cdktn/provider-aws.osisPipeline.OsisPipeline",
 		"tfResourceType",
 		&returns,
 	)
@@ -1189,6 +1224,14 @@ func (o *jsiiProxy_OsisPipeline) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OsisPipeline) ResetPipelineRoleArn() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetPipelineRoleArn",
 		nil, // no parameters
 	)
 }

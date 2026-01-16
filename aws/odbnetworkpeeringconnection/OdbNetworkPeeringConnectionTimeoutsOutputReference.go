@@ -5,9 +5,9 @@ package odbnetworkpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetworkpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetworkpeeringconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOdbNetworkPeeringConnectionTimeoutsOutputReference(terraformResource cdk
 	j := jsiiProxy_OdbNetworkPeeringConnectionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOdbNetworkPeeringConnectionTimeoutsOutputReference_Override(o OdbNetwork
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetworkPeeringConnection.OdbNetworkPeeringConnectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

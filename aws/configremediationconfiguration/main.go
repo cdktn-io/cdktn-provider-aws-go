@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfiguration",
 		reflect.TypeOf((*ConfigRemediationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationConfig",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationConfig",
 		reflect.TypeOf((*ConfigRemediationConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControls",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControls",
 		reflect.TypeOf((*ConfigRemediationConfigurationExecutionControls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsOutputReference",
 		reflect.TypeOf((*ConfigRemediationConfigurationExecutionControlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsSsmControls",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsSsmControls",
 		reflect.TypeOf((*ConfigRemediationConfigurationExecutionControlsSsmControls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference",
 		reflect.TypeOf((*ConfigRemediationConfigurationExecutionControlsSsmControlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameter",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameter",
 		reflect.TypeOf((*ConfigRemediationConfigurationParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
 		reflect.TypeOf((*ConfigRemediationConfigurationParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -211,7 +211,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterOutputReference",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterOutputReference",
 		reflect.TypeOf((*ConfigRemediationConfigurationParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

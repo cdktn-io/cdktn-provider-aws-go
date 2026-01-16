@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrStudio.EmrStudio",
+		"@cdktn/provider-aws.emrStudio.EmrStudio",
 		reflect.TypeOf((*EmrStudio)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrStudio.EmrStudioConfig",
+		"@cdktn/provider-aws.emrStudio.EmrStudioConfig",
 		reflect.TypeOf((*EmrStudioConfig)(nil)).Elem(),
 	)
 }

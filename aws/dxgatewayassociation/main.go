@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		reflect.TypeOf((*DxGatewayAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociationConfig",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociationConfig",
 		reflect.TypeOf((*DxGatewayAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociationTimeouts",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociationTimeouts",
 		reflect.TypeOf((*DxGatewayAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*DxGatewayAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

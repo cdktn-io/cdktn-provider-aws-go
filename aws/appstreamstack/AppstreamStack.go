@@ -5,14 +5,14 @@ package appstreamstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamstack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_stack aws_appstream_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_stack aws_appstream_stack}.
 type AppstreamStack interface {
 	cdktf.TerraformResource
 	AccessEndpoints() AppstreamStackAccessEndpointsList
@@ -667,7 +667,7 @@ func (j *jsiiProxy_AppstreamStack) UserSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_stack aws_appstream_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_stack aws_appstream_stack} Resource.
 func NewAppstreamStack(scope constructs.Construct, id *string, config *AppstreamStackConfig) AppstreamStack {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewAppstreamStack(scope constructs.Construct, id *string, config *Appstream
 	j := jsiiProxy_AppstreamStack{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -685,12 +685,12 @@ func NewAppstreamStack(scope constructs.Construct, id *string, config *Appstream
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appstream_stack aws_appstream_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_stack aws_appstream_stack} Resource.
 func NewAppstreamStack_Override(a AppstreamStack, scope constructs.Construct, id *string, config *AppstreamStackConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -884,7 +884,7 @@ func AppstreamStack_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -919,7 +919,7 @@ func AppstreamStack_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -938,7 +938,7 @@ func AppstreamStack_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func AppstreamStack_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func AppstreamStack_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		"tfResourceType",
 		&returns,
 	)

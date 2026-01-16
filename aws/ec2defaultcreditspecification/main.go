@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecification",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecification",
 		reflect.TypeOf((*Ec2DefaultCreditSpecification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationConfig",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationConfig",
 		reflect.TypeOf((*Ec2DefaultCreditSpecificationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeouts",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeouts",
 		reflect.TypeOf((*Ec2DefaultCreditSpecificationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
+		"@cdktn/provider-aws.ec2DefaultCreditSpecification.Ec2DefaultCreditSpecificationTimeoutsOutputReference",
 		reflect.TypeOf((*Ec2DefaultCreditSpecificationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

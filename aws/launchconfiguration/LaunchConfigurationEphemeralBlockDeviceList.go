@@ -5,9 +5,9 @@ package launchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLaunchConfigurationEphemeralBlockDeviceList(terraformResource cdktf.IInt
 	j := jsiiProxy_LaunchConfigurationEphemeralBlockDeviceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationEphemeralBlockDeviceList",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationEphemeralBlockDeviceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLaunchConfigurationEphemeralBlockDeviceList_Override(l LaunchConfigurati
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfigurationEphemeralBlockDeviceList",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfigurationEphemeralBlockDeviceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

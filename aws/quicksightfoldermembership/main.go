@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightFolderMembership.QuicksightFolderMembership",
+		"@cdktn/provider-aws.quicksightFolderMembership.QuicksightFolderMembership",
 		reflect.TypeOf((*QuicksightFolderMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightFolderMembership.QuicksightFolderMembershipConfig",
+		"@cdktn/provider-aws.quicksightFolderMembership.QuicksightFolderMembershipConfig",
 		reflect.TypeOf((*QuicksightFolderMembershipConfig)(nil)).Elem(),
 	)
 }

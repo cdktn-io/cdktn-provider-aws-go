@@ -5,9 +5,9 @@ package opensearchpackage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchpackage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchpackage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewOpensearchPackagePackageSourceOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_OpensearchPackagePackageSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackage.OpensearchPackagePackageSourceOutputReference",
+		"@cdktn/provider-aws.opensearchPackage.OpensearchPackagePackageSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewOpensearchPackagePackageSourceOutputReference_Override(o OpensearchPacka
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackage.OpensearchPackagePackageSourceOutputReference",
+		"@cdktn/provider-aws.opensearchPackage.OpensearchPackagePackageSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

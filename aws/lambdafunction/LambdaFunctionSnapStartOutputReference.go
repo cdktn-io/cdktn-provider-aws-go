@@ -5,9 +5,9 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -193,7 +193,7 @@ func NewLambdaFunctionSnapStartOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_LambdaFunctionSnapStartOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -205,7 +205,7 @@ func NewLambdaFunctionSnapStartOutputReference_Override(l LambdaFunctionSnapStar
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionSnapStartOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

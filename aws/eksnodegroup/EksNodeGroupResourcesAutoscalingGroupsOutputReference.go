@@ -5,9 +5,9 @@ package eksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference(terraformResource 
 	j := jsiiProxy_EksNodeGroupResourcesAutoscalingGroupsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupResourcesAutoscalingGroupsOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupResourcesAutoscalingGroupsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewEksNodeGroupResourcesAutoscalingGroupsOutputReference_Override(e EksNode
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksNodeGroup.EksNodeGroupResourcesAutoscalingGroupsOutputReference",
+		"@cdktn/provider-aws.eksNodeGroup.EksNodeGroupResourcesAutoscalingGroupsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

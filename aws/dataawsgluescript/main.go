@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScript",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScript",
 		reflect.TypeOf((*DataAwsGlueScript)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptConfig",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptConfig",
 		reflect.TypeOf((*DataAwsGlueScriptConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdge",
 		reflect.TypeOf((*DataAwsGlueScriptDagEdge)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdgeList",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdgeList",
 		reflect.TypeOf((*DataAwsGlueScriptDagEdgeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdgeOutputReference",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagEdgeOutputReference",
 		reflect.TypeOf((*DataAwsGlueScriptDagEdgeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,15 +141,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNode",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNode",
 		reflect.TypeOf((*DataAwsGlueScriptDagNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs",
 		reflect.TypeOf((*DataAwsGlueScriptDagNodeArgs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgsList",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgsList",
 		reflect.TypeOf((*DataAwsGlueScriptDagNodeArgsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgsOutputReference",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgsOutputReference",
 		reflect.TypeOf((*DataAwsGlueScriptDagNodeArgsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
 		reflect.TypeOf((*DataAwsGlueScriptDagNodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -232,7 +232,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeOutputReference",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeOutputReference",
 		reflect.TypeOf((*DataAwsGlueScriptDagNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},

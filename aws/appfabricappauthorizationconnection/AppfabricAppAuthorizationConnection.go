@@ -5,14 +5,14 @@ package appfabricappauthorizationconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appfabricappauthorizationconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricappauthorizationconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection}.
 type AppfabricAppAuthorizationConnection interface {
 	cdktf.TerraformResource
 	App() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_AppfabricAppAuthorizationConnection) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
 func NewAppfabricAppAuthorizationConnection(scope constructs.Construct, id *string, config *AppfabricAppAuthorizationConnectionConfig) AppfabricAppAuthorizationConnection {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewAppfabricAppAuthorizationConnection(scope constructs.Construct, id *stri
 	j := jsiiProxy_AppfabricAppAuthorizationConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewAppfabricAppAuthorizationConnection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_app_authorization_connection aws_appfabric_app_authorization_connection} Resource.
 func NewAppfabricAppAuthorizationConnection_Override(a AppfabricAppAuthorizationConnection, scope constructs.Construct, id *string, config *AppfabricAppAuthorizationConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -577,7 +577,7 @@ func AppfabricAppAuthorizationConnection_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func AppfabricAppAuthorizationConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func AppfabricAppAuthorizationConnection_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func AppfabricAppAuthorizationConnection_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func AppfabricAppAuthorizationConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
+		"@cdktn/provider-aws.appfabricAppAuthorizationConnection.AppfabricAppAuthorizationConnection",
 		"tfResourceType",
 		&returns,
 	)

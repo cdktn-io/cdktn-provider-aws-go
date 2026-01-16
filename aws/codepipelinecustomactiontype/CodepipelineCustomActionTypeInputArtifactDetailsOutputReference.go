@@ -5,9 +5,9 @@ package codepipelinecustomactiontype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipelinecustomactiontype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipelinecustomactiontype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCodepipelineCustomActionTypeInputArtifactDetailsOutputReference(terrafor
 	j := jsiiProxy_CodepipelineCustomActionTypeInputArtifactDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionTypeInputArtifactDetailsOutputReference",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionTypeInputArtifactDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCodepipelineCustomActionTypeInputArtifactDetailsOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionTypeInputArtifactDetailsOutputReference",
+		"@cdktn/provider-aws.codepipelineCustomActionType.CodepipelineCustomActionTypeInputArtifactDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

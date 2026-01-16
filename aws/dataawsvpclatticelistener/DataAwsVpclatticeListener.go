@@ -5,14 +5,14 @@ package dataawsvpclatticelistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpclatticelistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpclatticelistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener}.
 type DataAwsVpclatticeListener interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataAwsVpclatticeListener) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener} Data Source.
 func NewDataAwsVpclatticeListener(scope constructs.Construct, id *string, config *DataAwsVpclatticeListenerConfig) DataAwsVpclatticeListener {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewDataAwsVpclatticeListener(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsVpclatticeListener{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -487,12 +487,12 @@ func NewDataAwsVpclatticeListener(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_listener aws_vpclattice_listener} Data Source.
 func NewDataAwsVpclatticeListener_Override(d DataAwsVpclatticeListener, scope constructs.Construct, id *string, config *DataAwsVpclatticeListenerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -609,7 +609,7 @@ func DataAwsVpclatticeListener_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -644,7 +644,7 @@ func DataAwsVpclatticeListener_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func DataAwsVpclatticeListener_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -682,7 +682,7 @@ func DataAwsVpclatticeListener_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func DataAwsVpclatticeListener_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
+		"@cdktn/provider-aws.dataAwsVpclatticeListener.DataAwsVpclatticeListener",
 		"tfResourceType",
 		&returns,
 	)

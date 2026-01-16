@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmMaintenanceWindow.SsmMaintenanceWindow",
+		"@cdktn/provider-aws.ssmMaintenanceWindow.SsmMaintenanceWindow",
 		reflect.TypeOf((*SsmMaintenanceWindow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmMaintenanceWindow.SsmMaintenanceWindowConfig",
+		"@cdktn/provider-aws.ssmMaintenanceWindow.SsmMaintenanceWindowConfig",
 		reflect.TypeOf((*SsmMaintenanceWindowConfig)(nil)).Elem(),
 	)
 }

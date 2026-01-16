@@ -93,6 +93,99 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutMongoDbAtlasConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration:
+		value := value.(*[]*BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration:
+		value_ := value.([]*BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutNeptuneAnalyticsConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration:
+		value := value.(*[]*BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration:
+		value_ := value.([]*BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutOpensearchManagedClusterConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration:
+		value := value.(*[]*BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration:
+		value_ := value.([]*BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutOpensearchServerlessConfigurationParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -211,6 +304,37 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference)
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseStorageConfigurationOutputReference) validatePutS3VectorsConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration:
+		value := value.(*[]*BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration:
+		value_ := value.([]*BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 

@@ -5,14 +5,14 @@ package dataawsssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssmcontactsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmcontactsplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan}.
 type DataAwsSsmcontactsPlan interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsSsmcontactsPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan} Data Source.
 func NewDataAwsSsmcontactsPlan(scope constructs.Construct, id *string, config *DataAwsSsmcontactsPlanConfig) DataAwsSsmcontactsPlan {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsSsmcontactsPlan(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsSsmcontactsPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsSsmcontactsPlan(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmcontacts_plan aws_ssmcontacts_plan} Data Source.
 func NewDataAwsSsmcontactsPlan_Override(d DataAwsSsmcontactsPlan, scope constructs.Construct, id *string, config *DataAwsSsmcontactsPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsSsmcontactsPlan_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsSsmcontactsPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsSsmcontactsPlan_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsSsmcontactsPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsSsmcontactsPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
+		"@cdktn/provider-aws.dataAwsSsmcontactsPlan.DataAwsSsmcontactsPlan",
 		"tfResourceType",
 		&returns,
 	)

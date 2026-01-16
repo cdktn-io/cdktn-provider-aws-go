@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificate",
 		reflect.TypeOf((*RedshiftHsmClientCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificateConfig",
+		"@cdktn/provider-aws.redshiftHsmClientCertificate.RedshiftHsmClientCertificateConfig",
 		reflect.TypeOf((*RedshiftHsmClientCertificateConfig)(nil)).Elem(),
 	)
 }

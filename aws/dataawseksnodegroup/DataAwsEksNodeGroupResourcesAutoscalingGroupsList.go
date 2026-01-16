@@ -5,9 +5,9 @@ package dataawseksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEksNodeGroupResourcesAutoscalingGroupsList(terraformResource cdkt
 	j := jsiiProxy_DataAwsEksNodeGroupResourcesAutoscalingGroupsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupResourcesAutoscalingGroupsList",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupResourcesAutoscalingGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEksNodeGroupResourcesAutoscalingGroupsList_Override(d DataAwsEksN
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupResourcesAutoscalingGroupsList",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroupResourcesAutoscalingGroupsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

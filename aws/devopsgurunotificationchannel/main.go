@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannel",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannel",
 		reflect.TypeOf((*DevopsguruNotificationChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelConfig",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelConfig",
 		reflect.TypeOf((*DevopsguruNotificationChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFilters",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFilters",
 		reflect.TypeOf((*DevopsguruNotificationChannelFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFiltersList",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFiltersList",
 		reflect.TypeOf((*DevopsguruNotificationChannelFiltersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFiltersOutputReference",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelFiltersOutputReference",
 		reflect.TypeOf((*DevopsguruNotificationChannelFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSns",
 		reflect.TypeOf((*DevopsguruNotificationChannelSns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSnsList",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSnsList",
 		reflect.TypeOf((*DevopsguruNotificationChannelSnsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSnsOutputReference",
+		"@cdktn/provider-aws.devopsguruNotificationChannel.DevopsguruNotificationChannelSnsOutputReference",
 		reflect.TypeOf((*DevopsguruNotificationChannelSnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

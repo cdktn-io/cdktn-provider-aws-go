@@ -5,9 +5,9 @@ package mskserverlesscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskserverlesscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskserverlesscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMskServerlessClusterVpcConfigList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_MskServerlessClusterVpcConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessClusterVpcConfigList",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessClusterVpcConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMskServerlessClusterVpcConfigList_Override(m MskServerlessClusterVpcConf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskServerlessCluster.MskServerlessClusterVpcConfigList",
+		"@cdktn/provider-aws.mskServerlessCluster.MskServerlessClusterVpcConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

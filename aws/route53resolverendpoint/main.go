@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpoint",
 		reflect.TypeOf((*Route53ResolverEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -67,11 +67,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetProtocols", GoMethod: "ResetProtocols"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResolverEndpointType", GoMethod: "ResetResolverEndpointType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRniEnhancedMetricsEnabled", GoMethod: "ResetRniEnhancedMetricsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetNameServerMetricsEnabled", GoMethod: "ResetTargetNameServerMetricsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resolverEndpointType", GoGetter: "ResolverEndpointType"},
 			_jsii_.MemberProperty{JsiiProperty: "resolverEndpointTypeInput", GoGetter: "ResolverEndpointTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "rniEnhancedMetricsEnabled", GoGetter: "RniEnhancedMetricsEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "rniEnhancedMetricsEnabledInput", GoGetter: "RniEnhancedMetricsEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIdsInput", GoGetter: "SecurityGroupIdsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -80,6 +84,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tagsAll", GoGetter: "TagsAll"},
 			_jsii_.MemberProperty{JsiiProperty: "tagsAllInput", GoGetter: "TagsAllInput"},
 			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "targetNameServerMetricsEnabled", GoGetter: "TargetNameServerMetricsEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "targetNameServerMetricsEnabledInput", GoGetter: "TargetNameServerMetricsEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
@@ -97,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointConfig",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointConfig",
 		reflect.TypeOf((*Route53ResolverEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddress",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddress",
 		reflect.TypeOf((*Route53ResolverEndpointIpAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressList",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressList",
 		reflect.TypeOf((*Route53ResolverEndpointIpAddressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointIpAddressOutputReference",
 		reflect.TypeOf((*Route53ResolverEndpointIpAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +174,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointTimeouts",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointTimeouts",
 		reflect.TypeOf((*Route53ResolverEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.route53ResolverEndpoint.Route53ResolverEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*Route53ResolverEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

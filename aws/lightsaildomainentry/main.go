@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntry",
 		reflect.TypeOf((*LightsailDomainEntry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailDomainEntry.LightsailDomainEntryConfig",
+		"@cdktn/provider-aws.lightsailDomainEntry.LightsailDomainEntryConfig",
 		reflect.TypeOf((*LightsailDomainEntryConfig)(nil)).Elem(),
 	)
 }

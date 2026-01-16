@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStore",
+		"@cdktn/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStore",
 		reflect.TypeOf((*CloudfrontKeyValueStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreConfig",
+		"@cdktn/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreConfig",
 		reflect.TypeOf((*CloudfrontKeyValueStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeouts",
+		"@cdktn/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeouts",
 		reflect.TypeOf((*CloudfrontKeyValueStoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeoutsOutputReference",
+		"@cdktn/provider-aws.cloudfrontKeyValueStore.CloudfrontKeyValueStoreTimeoutsOutputReference",
 		reflect.TypeOf((*CloudfrontKeyValueStoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

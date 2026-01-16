@@ -5,9 +5,9 @@ package emrcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEmrClusterMasterInstanceFleetInstanceTypeConfigsList(terraformResource c
 	j := jsiiProxy_EmrClusterMasterInstanceFleetInstanceTypeConfigsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEmrClusterMasterInstanceFleetInstanceTypeConfigsList_Override(e EmrClust
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
+		"@cdktn/provider-aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

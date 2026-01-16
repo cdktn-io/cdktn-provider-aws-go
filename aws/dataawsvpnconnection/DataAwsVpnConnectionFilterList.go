@@ -5,9 +5,9 @@ package dataawsvpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsVpnConnectionFilterList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DataAwsVpnConnectionFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterList",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsVpnConnectionFilterList_Override(d DataAwsVpnConnectionFilterList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterList",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

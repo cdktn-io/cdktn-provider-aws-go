@@ -5,14 +5,14 @@ package kinesisstreamconsumer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisstreamconsumer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisstreamconsumer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer}.
 type KinesisStreamConsumer interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_KinesisStreamConsumer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) KinesisStreamConsumer {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *Ki
 	j := jsiiProxy_KinesisStreamConsumer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *Ki
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream_consumer aws_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer_Override(k KinesisStreamConsumer, scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -623,7 +623,7 @@ func KinesisStreamConsumer_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func KinesisStreamConsumer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func KinesisStreamConsumer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func KinesisStreamConsumer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func KinesisStreamConsumer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
+		"@cdktn/provider-aws.kinesisStreamConsumer.KinesisStreamConsumer",
 		"tfResourceType",
 		&returns,
 	)

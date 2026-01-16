@@ -5,9 +5,9 @@ package secretsmanagersecretrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/secretsmanagersecretrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/secretsmanagersecretrotation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSecretsmanagerSecretRotationRotationRulesOutputReference(terraformResour
 	j := jsiiProxy_SecretsmanagerSecretRotationRotationRulesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSecretsmanagerSecretRotationRotationRulesOutputReference_Override(s Secr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
+		"@cdktn/provider-aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

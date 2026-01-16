@@ -5,14 +5,14 @@ package dataawsmqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker aws_mq_broker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker aws_mq_broker}.
 type DataAwsMqBroker interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -559,7 +559,7 @@ func (j *jsiiProxy_DataAwsMqBroker) User() DataAwsMqBrokerUserList {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
 func NewDataAwsMqBroker(scope constructs.Construct, id *string, config *DataAwsMqBrokerConfig) DataAwsMqBroker {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewDataAwsMqBroker(scope constructs.Construct, id *string, config *DataAwsM
 	j := jsiiProxy_DataAwsMqBroker{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -577,12 +577,12 @@ func NewDataAwsMqBroker(scope constructs.Construct, id *string, config *DataAwsM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
 func NewDataAwsMqBroker_Override(d DataAwsMqBroker, scope constructs.Construct, id *string, config *DataAwsMqBrokerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -699,7 +699,7 @@ func DataAwsMqBroker_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -734,7 +734,7 @@ func DataAwsMqBroker_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func DataAwsMqBroker_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +772,7 @@ func DataAwsMqBroker_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -785,7 +785,7 @@ func DataAwsMqBroker_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBroker",
 		"tfResourceType",
 		&returns,
 	)

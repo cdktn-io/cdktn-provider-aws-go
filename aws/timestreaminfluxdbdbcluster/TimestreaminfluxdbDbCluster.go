@@ -5,14 +5,14 @@ package timestreaminfluxdbdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreaminfluxdbdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreaminfluxdbdbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
 type TimestreaminfluxdbDbCluster interface {
 	cdktf.TerraformResource
 	AllocatedStorage() *float64
@@ -839,7 +839,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) TimestreaminfluxdbDbCluster {
 	_init_.Initialize()
 
@@ -849,7 +849,7 @@ func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_TimestreaminfluxdbDbCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -857,12 +857,12 @@ func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster_Override(t TimestreaminfluxdbDbCluster, scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -1144,7 +1144,7 @@ func TimestreaminfluxdbDbCluster_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1179,7 +1179,7 @@ func TimestreaminfluxdbDbCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1198,7 +1198,7 @@ func TimestreaminfluxdbDbCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1217,7 +1217,7 @@ func TimestreaminfluxdbDbCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1230,7 +1230,7 @@ func TimestreaminfluxdbDbCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbCluster",
 		"tfResourceType",
 		&returns,
 	)

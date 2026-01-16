@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfile",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfile",
 		reflect.TypeOf((*ConnectRoutingProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileConfig",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileConfig",
 		reflect.TypeOf((*ConnectRoutingProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrencies",
 		reflect.TypeOf((*ConnectRoutingProfileMediaConcurrencies)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior",
 		reflect.TypeOf((*ConnectRoutingProfileMediaConcurrenciesCrossChannelBehavior)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference",
 		reflect.TypeOf((*ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behaviorType", GoGetter: "BehaviorType"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesList",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesList",
 		reflect.TypeOf((*ConnectRoutingProfileMediaConcurrenciesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileMediaConcurrenciesOutputReference",
 		reflect.TypeOf((*ConnectRoutingProfileMediaConcurrenciesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channel", GoGetter: "Channel"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigs",
 		reflect.TypeOf((*ConnectRoutingProfileQueueConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsList",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsList",
 		reflect.TypeOf((*ConnectRoutingProfileQueueConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
 		reflect.TypeOf((*ConnectRoutingProfileQueueConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channel", GoGetter: "Channel"},

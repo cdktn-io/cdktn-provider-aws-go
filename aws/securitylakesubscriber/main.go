@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriber",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriber",
 		reflect.TypeOf((*SecuritylakeSubscriber)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessType", GoGetter: "AccessType"},
@@ -99,19 +99,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberConfig",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberConfig",
 		reflect.TypeOf((*SecuritylakeSubscriberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSource",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSource",
 		reflect.TypeOf((*SecuritylakeSubscriberSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResource",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResource",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceAwsLogSourceResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResourceList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResourceList",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceAwsLogSourceResourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,15 +170,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResource",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResource",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,7 +199,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -234,7 +234,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceList",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
@@ -295,11 +295,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProvider",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProvider",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProviderList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProviderList",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceProviderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -320,7 +320,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProviderOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceCustomLogSourceResourceProviderOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceCustomLogSourceResourceProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,7 +354,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceList",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -376,7 +376,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSourceOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsLogSourceResource", GoGetter: "AwsLogSourceResource"},
@@ -416,11 +416,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentity",
 		reflect.TypeOf((*SecuritylakeSubscriberSubscriberIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentityList",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentityList",
 		reflect.TypeOf((*SecuritylakeSubscriberSubscriberIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -442,7 +442,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentityOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberSubscriberIdentityOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberSubscriberIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -478,11 +478,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberTimeouts",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberTimeouts",
 		reflect.TypeOf((*SecuritylakeSubscriberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberTimeoutsOutputReference",
+		"@cdktn/provider-aws.securitylakeSubscriber.SecuritylakeSubscriberTimeoutsOutputReference",
 		reflect.TypeOf((*SecuritylakeSubscriberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

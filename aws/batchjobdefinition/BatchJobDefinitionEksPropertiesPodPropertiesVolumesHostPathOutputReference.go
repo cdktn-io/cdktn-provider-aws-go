@@ -5,9 +5,9 @@ package batchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/batchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/batchjobdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReferen
 	j := jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference",
+		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference",
+		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

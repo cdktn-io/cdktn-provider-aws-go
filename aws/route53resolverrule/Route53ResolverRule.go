@@ -5,14 +5,14 @@ package route53resolverrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule}.
 type Route53ResolverRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_Route53ResolverRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule} Resource.
 func NewRoute53ResolverRule(scope constructs.Construct, id *string, config *Route53ResolverRuleConfig) Route53ResolverRule {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewRoute53ResolverRule(scope constructs.Construct, id *string, config *Rout
 	j := jsiiProxy_Route53ResolverRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -575,12 +575,12 @@ func NewRoute53ResolverRule(scope constructs.Construct, id *string, config *Rout
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_rule aws_route53_resolver_rule} Resource.
 func NewRoute53ResolverRule_Override(r Route53ResolverRule, scope constructs.Construct, id *string, config *Route53ResolverRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -752,7 +752,7 @@ func Route53ResolverRule_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -787,7 +787,7 @@ func Route53ResolverRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func Route53ResolverRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func Route53ResolverRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func Route53ResolverRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverRule.Route53ResolverRule",
+		"@cdktn/provider-aws.route53ResolverRule.Route53ResolverRule",
 		"tfResourceType",
 		&returns,
 	)

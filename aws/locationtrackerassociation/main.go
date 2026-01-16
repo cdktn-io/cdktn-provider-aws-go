@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociation",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociation",
 		reflect.TypeOf((*LocationTrackerAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociationConfig",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociationConfig",
 		reflect.TypeOf((*LocationTrackerAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeouts",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeouts",
 		reflect.TypeOf((*LocationTrackerAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.locationTrackerAssociation.LocationTrackerAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*LocationTrackerAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModel",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModel",
 		reflect.TypeOf((*SagemakerModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,19 +100,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelConfig",
 		reflect.TypeOf((*SagemakerModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainer",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainer",
 		reflect.TypeOf((*SagemakerModelContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSource",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceList",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSource",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceS3DataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceList",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceS3DataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -197,11 +197,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
@@ -235,7 +235,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerImageConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerImageConfig",
 		reflect.TypeOf((*SagemakerModelContainerImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerImageConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,11 +319,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfig",
 		reflect.TypeOf((*SagemakerModelContainerImageConfigRepositoryAuthConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerImageConfigRepositoryAuthConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerImageConfigRepositoryAuthConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -357,7 +357,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerList",
 		reflect.TypeOf((*SagemakerModelContainerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSource",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -418,11 +418,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSource",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceS3DataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceList",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceS3DataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -444,11 +444,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
@@ -482,7 +482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerModelDataSourceS3DataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -524,11 +524,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerMultiModelConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerMultiModelConfig",
 		reflect.TypeOf((*SagemakerModelContainerMultiModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerMultiModelConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerMultiModelConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerMultiModelConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -563,7 +563,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelContainerOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelContainerOutputReference",
 		reflect.TypeOf((*SagemakerModelContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSource", GoGetter: "AdditionalModelDataSource"},
@@ -632,11 +632,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelInferenceExecutionConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelInferenceExecutionConfig",
 		reflect.TypeOf((*SagemakerModelInferenceExecutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelInferenceExecutionConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelInferenceExecutionConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelInferenceExecutionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -670,15 +670,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainer",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainer",
 		reflect.TypeOf((*SagemakerModelPrimaryContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSource",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceList",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -700,7 +700,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
@@ -737,11 +737,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -763,11 +763,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
@@ -801,7 +801,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -843,11 +843,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfig",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerImageConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -885,11 +885,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -923,11 +923,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSource",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -962,11 +962,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSource",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSource",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceS3DataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceList",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceList",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceS3DataSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -988,11 +988,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfig",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
@@ -1026,7 +1026,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1068,11 +1068,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfig",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerMultiModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerMultiModelConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1107,7 +1107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerOutputReference",
 		reflect.TypeOf((*SagemakerModelPrimaryContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSource", GoGetter: "AdditionalModelDataSource"},
@@ -1176,11 +1176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelVpcConfig",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelVpcConfig",
 		reflect.TypeOf((*SagemakerModelVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelVpcConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelVpcConfigOutputReference",
 		reflect.TypeOf((*SagemakerModelVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

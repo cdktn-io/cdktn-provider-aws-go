@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRule",
 		reflect.TypeOf((*VpcSecurityGroupEgressRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRuleConfig",
+		"@cdktn/provider-aws.vpcSecurityGroupEgressRule.VpcSecurityGroupEgressRuleConfig",
 		reflect.TypeOf((*VpcSecurityGroupEgressRuleConfig)(nil)).Elem(),
 	)
 }

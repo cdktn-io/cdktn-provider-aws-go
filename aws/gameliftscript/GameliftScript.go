@@ -5,14 +5,14 @@ package gameliftscript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gameliftscript/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gameliftscript/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_script aws_gamelift_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_script aws_gamelift_script}.
 type GameliftScript interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_GameliftScript) ZipFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
 func NewGameliftScript(scope constructs.Construct, id *string, config *GameliftScriptConfig) GameliftScript {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewGameliftScript(scope constructs.Construct, id *string, config *GameliftS
 	j := jsiiProxy_GameliftScript{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewGameliftScript(scope constructs.Construct, id *string, config *GameliftS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
 func NewGameliftScript_Override(g GameliftScript, scope constructs.Construct, id *string, config *GameliftScriptConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -672,7 +672,7 @@ func GameliftScript_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func GameliftScript_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func GameliftScript_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func GameliftScript_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func GameliftScript_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.gameliftScript.GameliftScript",
+		"@cdktn/provider-aws.gameliftScript.GameliftScript",
 		"tfResourceType",
 		&returns,
 	)

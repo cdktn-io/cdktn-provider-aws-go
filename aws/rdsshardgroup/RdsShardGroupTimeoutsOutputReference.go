@@ -5,9 +5,9 @@ package rdsshardgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsshardgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsshardgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewRdsShardGroupTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_RdsShardGroupTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewRdsShardGroupTimeoutsOutputReference_Override(r RdsShardGroupTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsShardGroup.RdsShardGroupTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

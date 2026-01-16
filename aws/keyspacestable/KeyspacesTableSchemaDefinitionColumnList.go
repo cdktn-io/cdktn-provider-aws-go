@@ -5,9 +5,9 @@ package keyspacestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/keyspacestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspacestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewKeyspacesTableSchemaDefinitionColumnList(terraformResource cdktf.IInterp
 	j := jsiiProxy_KeyspacesTableSchemaDefinitionColumnList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumnList",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumnList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewKeyspacesTableSchemaDefinitionColumnList_Override(k KeyspacesTableSchema
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumnList",
+		"@cdktn/provider-aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumnList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		k,
 	)

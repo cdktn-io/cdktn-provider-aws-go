@@ -5,9 +5,9 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2environment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewM2EnvironmentStorageConfigurationList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_M2EnvironmentStorageConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewM2EnvironmentStorageConfigurationList_Override(m M2EnvironmentStorageCon
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

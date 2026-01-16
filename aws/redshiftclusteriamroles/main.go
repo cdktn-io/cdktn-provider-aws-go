@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRoles",
 		reflect.TypeOf((*RedshiftClusterIamRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesConfig",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesConfig",
 		reflect.TypeOf((*RedshiftClusterIamRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeouts",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeouts",
 		reflect.TypeOf((*RedshiftClusterIamRolesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftClusterIamRoles.RedshiftClusterIamRolesTimeoutsOutputReference",
 		reflect.TypeOf((*RedshiftClusterIamRolesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

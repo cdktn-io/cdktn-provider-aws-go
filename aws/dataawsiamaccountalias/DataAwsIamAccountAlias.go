@@ -5,14 +5,14 @@ package dataawsiamaccountalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamaccountalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamaccountalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_account_alias aws_iam_account_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_account_alias aws_iam_account_alias}.
 type DataAwsIamAccountAlias interface {
 	cdktf.TerraformDataSource
 	AccountAlias() *string
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsIamAccountAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_account_alias aws_iam_account_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_account_alias aws_iam_account_alias} Data Source.
 func NewDataAwsIamAccountAlias(scope constructs.Construct, id *string, config *DataAwsIamAccountAliasConfig) DataAwsIamAccountAlias {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsIamAccountAlias(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsIamAccountAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsIamAccountAlias(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_account_alias aws_iam_account_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_account_alias aws_iam_account_alias} Data Source.
 func NewDataAwsIamAccountAlias_Override(d DataAwsIamAccountAlias, scope constructs.Construct, id *string, config *DataAwsIamAccountAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsIamAccountAlias_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsIamAccountAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsIamAccountAlias_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsIamAccountAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsIamAccountAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
+		"@cdktn/provider-aws.dataAwsIamAccountAlias.DataAwsIamAccountAlias",
 		"tfResourceType",
 		&returns,
 	)

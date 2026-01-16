@@ -5,14 +5,14 @@ package quicksightiprestriction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightiprestriction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightiprestriction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction}.
 type QuicksightIpRestriction interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_QuicksightIpRestriction) VpcIdRestrictionRuleMapInput() *map[
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction} Resource.
 func NewQuicksightIpRestriction(scope constructs.Construct, id *string, config *QuicksightIpRestrictionConfig) QuicksightIpRestriction {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewQuicksightIpRestriction(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_QuicksightIpRestriction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewQuicksightIpRestriction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ip_restriction aws_quicksight_ip_restriction} Resource.
 func NewQuicksightIpRestriction_Override(q QuicksightIpRestriction, scope constructs.Construct, id *string, config *QuicksightIpRestrictionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -602,7 +602,7 @@ func QuicksightIpRestriction_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func QuicksightIpRestriction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func QuicksightIpRestriction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func QuicksightIpRestriction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func QuicksightIpRestriction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		"tfResourceType",
 		&returns,
 	)

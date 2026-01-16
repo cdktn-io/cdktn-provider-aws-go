@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDatazoneDomain.DataAwsDatazoneDomain",
+		"@cdktn/provider-aws.dataAwsDatazoneDomain.DataAwsDatazoneDomain",
 		reflect.TypeOf((*DataAwsDatazoneDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -54,6 +54,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "rootDomainUnitId", GoGetter: "RootDomainUnitId"},
 			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
@@ -72,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDatazoneDomain.DataAwsDatazoneDomainConfig",
+		"@cdktn/provider-aws.dataAwsDatazoneDomain.DataAwsDatazoneDomainConfig",
 		reflect.TypeOf((*DataAwsDatazoneDomainConfig)(nil)).Elem(),
 	)
 }

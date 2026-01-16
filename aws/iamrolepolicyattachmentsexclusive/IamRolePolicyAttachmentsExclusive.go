@@ -5,14 +5,14 @@ package iamrolepolicyattachmentsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamrolepolicyattachmentsexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamrolepolicyattachmentsexclusive/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive}.
 type IamRolePolicyAttachmentsExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_IamRolePolicyAttachmentsExclusive) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive} Resource.
 func NewIamRolePolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *IamRolePolicyAttachmentsExclusiveConfig) IamRolePolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewIamRolePolicyAttachmentsExclusive(scope constructs.Construct, id *string
 	j := jsiiProxy_IamRolePolicyAttachmentsExclusive{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewIamRolePolicyAttachmentsExclusive(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_role_policy_attachments_exclusive aws_iam_role_policy_attachments_exclusive} Resource.
 func NewIamRolePolicyAttachmentsExclusive_Override(i IamRolePolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *IamRolePolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -461,7 +461,7 @@ func IamRolePolicyAttachmentsExclusive_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func IamRolePolicyAttachmentsExclusive_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func IamRolePolicyAttachmentsExclusive_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func IamRolePolicyAttachmentsExclusive_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func IamRolePolicyAttachmentsExclusive_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
+		"@cdktn/provider-aws.iamRolePolicyAttachmentsExclusive.IamRolePolicyAttachmentsExclusive",
 		"tfResourceType",
 		&returns,
 	)

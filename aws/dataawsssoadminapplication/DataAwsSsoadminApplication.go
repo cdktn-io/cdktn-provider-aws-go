@@ -5,14 +5,14 @@ package dataawsssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssoadminapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
 type DataAwsSsoadminApplication interface {
 	cdktf.TerraformDataSource
 	ApplicationAccount() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) DataAwsSsoadminApplication {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsSsoadminApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -394,12 +394,12 @@ func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication_Override(d DataAwsSsoadminApplication, scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -483,7 +483,7 @@ func DataAwsSsoadminApplication_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -518,7 +518,7 @@ func DataAwsSsoadminApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataAwsSsoadminApplication_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -556,7 +556,7 @@ func DataAwsSsoadminApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func DataAwsSsoadminApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplication",
 		"tfResourceType",
 		&returns,
 	)

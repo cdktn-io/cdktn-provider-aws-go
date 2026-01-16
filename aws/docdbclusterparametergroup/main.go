@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroup",
 		reflect.TypeOf((*DocdbClusterParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupConfig",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupConfig",
 		reflect.TypeOf((*DocdbClusterParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameter",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameter",
 		reflect.TypeOf((*DocdbClusterParameterGroupParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterList",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterList",
 		reflect.TypeOf((*DocdbClusterParameterGroupParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
+		"@cdktn/provider-aws.docdbClusterParameterGroup.DocdbClusterParameterGroupParameterOutputReference",
 		reflect.TypeOf((*DocdbClusterParameterGroupParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},

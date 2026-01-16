@@ -5,14 +5,14 @@ package dataawspricingproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawspricingproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawspricingproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/pricing_product aws_pricing_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/pricing_product aws_pricing_product}.
 type DataAwsPricingProduct interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsPricingProduct) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/pricing_product aws_pricing_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/pricing_product aws_pricing_product} Data Source.
 func NewDataAwsPricingProduct(scope constructs.Construct, id *string, config *DataAwsPricingProductConfig) DataAwsPricingProduct {
 	_init_.Initialize()
 
@@ -332,7 +332,7 @@ func NewDataAwsPricingProduct(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsPricingProduct{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -340,12 +340,12 @@ func NewDataAwsPricingProduct(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/pricing_product aws_pricing_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/pricing_product aws_pricing_product} Data Source.
 func NewDataAwsPricingProduct_Override(d DataAwsPricingProduct, scope constructs.Construct, id *string, config *DataAwsPricingProductConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -429,7 +429,7 @@ func DataAwsPricingProduct_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -464,7 +464,7 @@ func DataAwsPricingProduct_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -483,7 +483,7 @@ func DataAwsPricingProduct_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -502,7 +502,7 @@ func DataAwsPricingProduct_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsPricingProduct_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
+		"@cdktn/provider-aws.dataAwsPricingProduct.DataAwsPricingProduct",
 		"tfResourceType",
 		&returns,
 	)

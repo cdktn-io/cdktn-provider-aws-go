@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.inspectorAssessmentTarget.InspectorAssessmentTarget",
+		"@cdktn/provider-aws.inspectorAssessmentTarget.InspectorAssessmentTarget",
 		reflect.TypeOf((*InspectorAssessmentTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.inspectorAssessmentTarget.InspectorAssessmentTargetConfig",
+		"@cdktn/provider-aws.inspectorAssessmentTarget.InspectorAssessmentTargetConfig",
 		reflect.TypeOf((*InspectorAssessmentTargetConfig)(nil)).Elem(),
 	)
 }

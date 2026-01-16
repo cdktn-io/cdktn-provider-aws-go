@@ -5,9 +5,9 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewDynamodbTableServerSideEncryptionOutputReference(terraformResource cdktf
 	j := jsiiProxy_DynamodbTableServerSideEncryptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableServerSideEncryptionOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableServerSideEncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewDynamodbTableServerSideEncryptionOutputReference_Override(d DynamodbTabl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dynamodbTable.DynamodbTableServerSideEncryptionOutputReference",
+		"@cdktn/provider-aws.dynamodbTable.DynamodbTableServerSideEncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

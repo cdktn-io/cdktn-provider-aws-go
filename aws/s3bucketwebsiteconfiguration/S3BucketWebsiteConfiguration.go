@@ -5,14 +5,14 @@ package s3bucketwebsiteconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketwebsiteconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketwebsiteconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration}.
 type S3BucketWebsiteConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_S3BucketWebsiteConfiguration) WebsiteEndpoint() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource.
 func NewS3BucketWebsiteConfiguration(scope constructs.Construct, id *string, config *S3BucketWebsiteConfigurationConfig) S3BucketWebsiteConfiguration {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewS3BucketWebsiteConfiguration(scope constructs.Construct, id *string, con
 	j := jsiiProxy_S3BucketWebsiteConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewS3BucketWebsiteConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_website_configuration aws_s3_bucket_website_configuration} Resource.
 func NewS3BucketWebsiteConfiguration_Override(s S3BucketWebsiteConfiguration, scope constructs.Construct, id *string, config *S3BucketWebsiteConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -685,7 +685,7 @@ func S3BucketWebsiteConfiguration_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -720,7 +720,7 @@ func S3BucketWebsiteConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -739,7 +739,7 @@ func S3BucketWebsiteConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func S3BucketWebsiteConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func S3BucketWebsiteConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
+		"@cdktn/provider-aws.s3BucketWebsiteConfiguration.S3BucketWebsiteConfiguration",
 		"tfResourceType",
 		&returns,
 	)

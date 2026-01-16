@@ -5,14 +5,14 @@ package rdsclustersnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsclustersnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsclustersnapshotcopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy}.
 type RdsClusterSnapshotCopy interface {
 	cdktf.TerraformResource
 	AllocatedStorage() *float64
@@ -645,7 +645,7 @@ func (j *jsiiProxy_RdsClusterSnapshotCopy) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy} Resource.
 func NewRdsClusterSnapshotCopy(scope constructs.Construct, id *string, config *RdsClusterSnapshotCopyConfig) RdsClusterSnapshotCopy {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewRdsClusterSnapshotCopy(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RdsClusterSnapshotCopy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -663,12 +663,12 @@ func NewRdsClusterSnapshotCopy(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_cluster_snapshot_copy aws_rds_cluster_snapshot_copy} Resource.
 func NewRdsClusterSnapshotCopy_Override(r RdsClusterSnapshotCopy, scope constructs.Construct, id *string, config *RdsClusterSnapshotCopyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -851,7 +851,7 @@ func RdsClusterSnapshotCopy_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -886,7 +886,7 @@ func RdsClusterSnapshotCopy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -905,7 +905,7 @@ func RdsClusterSnapshotCopy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -924,7 +924,7 @@ func RdsClusterSnapshotCopy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func RdsClusterSnapshotCopy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
+		"@cdktn/provider-aws.rdsClusterSnapshotCopy.RdsClusterSnapshotCopy",
 		"tfResourceType",
 		&returns,
 	)

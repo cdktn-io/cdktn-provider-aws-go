@@ -63,6 +63,10 @@ func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference) validateSetTargetStorageClassParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

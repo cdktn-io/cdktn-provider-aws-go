@@ -5,9 +5,9 @@ package cloudwatchlogmetricfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogmetricfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogmetricfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -300,7 +300,7 @@ func NewCloudwatchLogMetricFilterMetricTransformationOutputReference(terraformRe
 	j := jsiiProxy_CloudwatchLogMetricFilterMetricTransformationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -312,7 +312,7 @@ func NewCloudwatchLogMetricFilterMetricTransformationOutputReference_Override(c 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
+		"@cdktn/provider-aws.cloudwatchLogMetricFilter.CloudwatchLogMetricFilterMetricTransformationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

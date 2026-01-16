@@ -5,9 +5,9 @@ package dataawsvpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -34,6 +34,8 @@ type DataAwsVpcEndpointDnsOptionsOutputReference interface {
 	InternalValue() *DataAwsVpcEndpointDnsOptions
 	SetInternalValue(val *DataAwsVpcEndpointDnsOptions)
 	PrivateDnsOnlyForInboundResolverEndpoint() cdktf.IResolvable
+	PrivateDnsPreference() *string
+	PrivateDnsSpecifiedDomains() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -151,6 +153,26 @@ func (j *jsiiProxy_DataAwsVpcEndpointDnsOptionsOutputReference) PrivateDnsOnlyFo
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpcEndpointDnsOptionsOutputReference) PrivateDnsPreference() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsPreference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVpcEndpointDnsOptionsOutputReference) PrivateDnsSpecifiedDomains() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"privateDnsSpecifiedDomains",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpcEndpointDnsOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -181,7 +203,7 @@ func NewDataAwsVpcEndpointDnsOptionsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsVpcEndpointDnsOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +215,7 @@ func NewDataAwsVpcEndpointDnsOptionsOutputReference_Override(d DataAwsVpcEndpoin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcEndpoint.DataAwsVpcEndpointDnsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

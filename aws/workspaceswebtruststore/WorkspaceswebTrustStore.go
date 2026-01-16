@@ -5,14 +5,14 @@ package workspaceswebtruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebtruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebtruststore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store}.
 type WorkspaceswebTrustStore interface {
 	cdktf.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_WorkspaceswebTrustStore) TrustStoreArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
 func NewWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreConfig) WorkspaceswebTrustStore {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_WorkspaceswebTrustStore{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_trust_store aws_workspacesweb_trust_store} Resource.
 func NewWorkspaceswebTrustStore_Override(w WorkspaceswebTrustStore, scope constructs.Construct, id *string, config *WorkspaceswebTrustStoreConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -520,7 +520,7 @@ func WorkspaceswebTrustStore_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func WorkspaceswebTrustStore_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func WorkspaceswebTrustStore_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func WorkspaceswebTrustStore_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func WorkspaceswebTrustStore_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
+		"@cdktn/provider-aws.workspaceswebTrustStore.WorkspaceswebTrustStore",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package detectivemember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/detectivemember/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/detectivemember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_member aws_detective_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_member aws_detective_member}.
 type DetectiveMember interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DetectiveMember) VolumeUsageInBytes() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_member aws_detective_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_member aws_detective_member} Resource.
 func NewDetectiveMember(scope constructs.Construct, id *string, config *DetectiveMemberConfig) DetectiveMember {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewDetectiveMember(scope constructs.Construct, id *string, config *Detectiv
 	j := jsiiProxy_DetectiveMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -535,12 +535,12 @@ func NewDetectiveMember(scope constructs.Construct, id *string, config *Detectiv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_member aws_detective_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_member aws_detective_member} Resource.
 func NewDetectiveMember_Override(d DetectiveMember, scope constructs.Construct, id *string, config *DetectiveMemberConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -701,7 +701,7 @@ func DetectiveMember_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -736,7 +736,7 @@ func DetectiveMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func DetectiveMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func DetectiveMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func DetectiveMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.detectiveMember.DetectiveMember",
+		"@cdktn/provider-aws.detectiveMember.DetectiveMember",
 		"tfResourceType",
 		&returns,
 	)

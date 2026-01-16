@@ -5,9 +5,9 @@ package efsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/efsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/efsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewEfsFileSystemSizeInBytesOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EfsFileSystemSizeInBytesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewEfsFileSystemSizeInBytesOutputReference_Override(e EfsFileSystemSizeInBy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
+		"@cdktn/provider-aws.efsFileSystem.EfsFileSystemSizeInBytesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

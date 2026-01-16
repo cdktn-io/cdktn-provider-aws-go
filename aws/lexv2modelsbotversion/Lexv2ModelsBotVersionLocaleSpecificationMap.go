@@ -5,9 +5,9 @@ package lexv2modelsbotversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbotversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbotversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -108,7 +108,7 @@ func NewLexv2ModelsBotVersionLocaleSpecificationMap(terraformResource cdktf.IInt
 	j := jsiiProxy_Lexv2ModelsBotVersionLocaleSpecificationMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecificationMap",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecificationMap",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -120,7 +120,7 @@ func NewLexv2ModelsBotVersionLocaleSpecificationMap_Override(l Lexv2ModelsBotVer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecificationMap",
+		"@cdktn/provider-aws.lexv2ModelsBotVersion.Lexv2ModelsBotVersionLocaleSpecificationMap",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

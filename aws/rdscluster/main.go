@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsCluster",
+		"@cdktn/provider-aws.rdsCluster.RdsCluster",
 		reflect.TypeOf((*RdsCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -269,6 +269,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "upgradeRolloutOrder", GoGetter: "UpgradeRolloutOrder"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
 		},
@@ -279,15 +280,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterConfig",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterConfig",
 		reflect.TypeOf((*RdsClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterMasterUserSecret",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterMasterUserSecret",
 		reflect.TypeOf((*RdsClusterMasterUserSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterMasterUserSecretList",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterMasterUserSecretList",
 		reflect.TypeOf((*RdsClusterMasterUserSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -308,7 +309,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterMasterUserSecretOutputReference",
 		reflect.TypeOf((*RdsClusterMasterUserSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -343,11 +344,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterRestoreToPointInTime",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterRestoreToPointInTime",
 		reflect.TypeOf((*RdsClusterRestoreToPointInTime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterRestoreToPointInTimeOutputReference",
 		reflect.TypeOf((*RdsClusterRestoreToPointInTimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,11 +395,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterS3Import",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterS3Import",
 		reflect.TypeOf((*RdsClusterS3Import)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterS3ImportOutputReference",
 		reflect.TypeOf((*RdsClusterS3ImportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
@@ -441,11 +442,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterScalingConfiguration",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterScalingConfiguration",
 		reflect.TypeOf((*RdsClusterScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
 		reflect.TypeOf((*RdsClusterScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoPause", GoGetter: "AutoPause"},
@@ -495,11 +496,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterServerlessv2ScalingConfiguration",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterServerlessv2ScalingConfiguration",
 		reflect.TypeOf((*RdsClusterServerlessv2ScalingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterServerlessv2ScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterServerlessv2ScalingConfigurationOutputReference",
 		reflect.TypeOf((*RdsClusterServerlessv2ScalingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -538,11 +539,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterTimeouts",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterTimeouts",
 		reflect.TypeOf((*RdsClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterTimeoutsOutputReference",
 		reflect.TypeOf((*RdsClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

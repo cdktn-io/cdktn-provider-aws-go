@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitor",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitor",
 		reflect.TypeOf((*NetworkflowmonitorMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorConfig",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorConfig",
 		reflect.TypeOf((*NetworkflowmonitorMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResource",
 		reflect.TypeOf((*NetworkflowmonitorMonitorLocalResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceList",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceList",
 		reflect.TypeOf((*NetworkflowmonitorMonitorLocalResourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorLocalResourceOutputReference",
 		reflect.TypeOf((*NetworkflowmonitorMonitorLocalResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResource",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResource",
 		reflect.TypeOf((*NetworkflowmonitorMonitorRemoteResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceList",
 		reflect.TypeOf((*NetworkflowmonitorMonitorRemoteResourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -179,7 +179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorRemoteResourceOutputReference",
 		reflect.TypeOf((*NetworkflowmonitorMonitorRemoteResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,11 +215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeouts",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeouts",
 		reflect.TypeOf((*NetworkflowmonitorMonitorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkflowmonitorMonitorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -119,6 +119,10 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateSetRoutingPolicyLabelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

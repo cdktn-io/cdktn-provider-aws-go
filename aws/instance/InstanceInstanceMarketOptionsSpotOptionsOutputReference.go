@@ -5,9 +5,9 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/instance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/instance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewInstanceInstanceMarketOptionsSpotOptionsOutputReference(terraformResourc
 	j := jsiiProxy_InstanceInstanceMarketOptionsSpotOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceInstanceMarketOptionsSpotOptionsOutputReference",
+		"@cdktn/provider-aws.instance.InstanceInstanceMarketOptionsSpotOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewInstanceInstanceMarketOptionsSpotOptionsOutputReference_Override(i Insta
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceInstanceMarketOptionsSpotOptionsOutputReference",
+		"@cdktn/provider-aws.instance.InstanceInstanceMarketOptionsSpotOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

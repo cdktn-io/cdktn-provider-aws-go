@@ -5,9 +5,9 @@ package configremediationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configremediationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configremediationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewConfigRemediationConfigurationParameterList(terraformResource cdktf.IInt
 	j := jsiiProxy_ConfigRemediationConfigurationParameterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewConfigRemediationConfigurationParameterList_Override(c ConfigRemediation
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
+		"@cdktn/provider-aws.configRemediationConfiguration.ConfigRemediationConfigurationParameterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

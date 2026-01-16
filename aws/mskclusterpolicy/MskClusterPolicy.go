@@ -5,14 +5,14 @@ package mskclusterpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskclusterpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskclusterpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy}.
 type MskClusterPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_MskClusterPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy} Resource.
 func NewMskClusterPolicy(scope constructs.Construct, id *string, config *MskClusterPolicyConfig) MskClusterPolicy {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewMskClusterPolicy(scope constructs.Construct, id *string, config *MskClus
 	j := jsiiProxy_MskClusterPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewMskClusterPolicy(scope constructs.Construct, id *string, config *MskClus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster_policy aws_msk_cluster_policy} Resource.
 func NewMskClusterPolicy_Override(m MskClusterPolicy, scope constructs.Construct, id *string, config *MskClusterPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -542,7 +542,7 @@ func MskClusterPolicy_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func MskClusterPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func MskClusterPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func MskClusterPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func MskClusterPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mskClusterPolicy.MskClusterPolicy",
+		"@cdktn/provider-aws.mskClusterPolicy.MskClusterPolicy",
 		"tfResourceType",
 		&returns,
 	)

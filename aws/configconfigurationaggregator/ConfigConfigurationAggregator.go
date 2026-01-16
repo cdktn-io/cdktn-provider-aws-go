@@ -5,14 +5,14 @@ package configconfigurationaggregator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconfigurationaggregator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconfigurationaggregator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator}.
 type ConfigConfigurationAggregator interface {
 	cdktf.TerraformResource
 	AccountAggregationSource() ConfigConfigurationAggregatorAccountAggregationSourceOutputReference
@@ -464,7 +464,7 @@ func (j *jsiiProxy_ConfigConfigurationAggregator) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator} Resource.
 func NewConfigConfigurationAggregator(scope constructs.Construct, id *string, config *ConfigConfigurationAggregatorConfig) ConfigConfigurationAggregator {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewConfigConfigurationAggregator(scope constructs.Construct, id *string, co
 	j := jsiiProxy_ConfigConfigurationAggregator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewConfigConfigurationAggregator(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_configuration_aggregator aws_config_configuration_aggregator} Resource.
 func NewConfigConfigurationAggregator_Override(c ConfigConfigurationAggregator, scope constructs.Construct, id *string, config *ConfigConfigurationAggregatorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -626,7 +626,7 @@ func ConfigConfigurationAggregator_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func ConfigConfigurationAggregator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func ConfigConfigurationAggregator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func ConfigConfigurationAggregator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ConfigConfigurationAggregator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
+		"@cdktn/provider-aws.configConfigurationAggregator.ConfigConfigurationAggregator",
 		"tfResourceType",
 		&returns,
 	)

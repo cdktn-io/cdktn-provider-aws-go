@@ -5,9 +5,9 @@ package servicequotasservicequota
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicequotasservicequota/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicequotasservicequota/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewServicequotasServiceQuotaUsageMetricMetricDimensionsList(terraformResour
 	j := jsiiProxy_ServicequotasServiceQuotaUsageMetricMetricDimensionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewServicequotasServiceQuotaUsageMetricMetricDimensionsList_Override(s Serv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

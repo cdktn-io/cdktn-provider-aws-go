@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLocationGeofenceCollection.DataAwsLocationGeofenceCollection",
+		"@cdktn/provider-aws.dataAwsLocationGeofenceCollection.DataAwsLocationGeofenceCollection",
 		reflect.TypeOf((*DataAwsLocationGeofenceCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLocationGeofenceCollection.DataAwsLocationGeofenceCollectionConfig",
+		"@cdktn/provider-aws.dataAwsLocationGeofenceCollection.DataAwsLocationGeofenceCollectionConfig",
 		reflect.TypeOf((*DataAwsLocationGeofenceCollectionConfig)(nil)).Elem(),
 	)
 }

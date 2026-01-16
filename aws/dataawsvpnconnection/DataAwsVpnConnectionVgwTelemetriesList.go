@@ -5,9 +5,9 @@ package dataawsvpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsVpnConnectionVgwTelemetriesList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataAwsVpnConnectionVgwTelemetriesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionVgwTelemetriesList",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionVgwTelemetriesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsVpnConnectionVgwTelemetriesList_Override(d DataAwsVpnConnectionVg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionVgwTelemetriesList",
+		"@cdktn/provider-aws.dataAwsVpnConnection.DataAwsVpnConnectionVgwTelemetriesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

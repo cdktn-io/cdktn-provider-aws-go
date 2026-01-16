@@ -5,14 +5,14 @@ package apigatewayrestapiput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayrestapiput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayrestapiput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put}.
 type ApiGatewayRestApiPut interface {
 	cdktf.TerraformResource
 	Body() *string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_ApiGatewayRestApiPut) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
 func NewApiGatewayRestApiPut(scope constructs.Construct, id *string, config *ApiGatewayRestApiPutConfig) ApiGatewayRestApiPut {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewApiGatewayRestApiPut(scope constructs.Construct, id *string, config *Api
 	j := jsiiProxy_ApiGatewayRestApiPut{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewApiGatewayRestApiPut(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
 func NewApiGatewayRestApiPut_Override(a ApiGatewayRestApiPut, scope constructs.Construct, id *string, config *ApiGatewayRestApiPutConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -625,7 +625,7 @@ func ApiGatewayRestApiPut_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func ApiGatewayRestApiPut_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func ApiGatewayRestApiPut_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func ApiGatewayRestApiPut_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func ApiGatewayRestApiPut_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPut",
 		"tfResourceType",
 		&returns,
 	)

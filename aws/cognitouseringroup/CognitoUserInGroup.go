@@ -5,14 +5,14 @@ package cognitouseringroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouseringroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouseringroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group}.
 type CognitoUserInGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_CognitoUserInGroup) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group} Resource.
 func NewCognitoUserInGroup(scope constructs.Construct, id *string, config *CognitoUserInGroupConfig) CognitoUserInGroup {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewCognitoUserInGroup(scope constructs.Construct, id *string, config *Cogni
 	j := jsiiProxy_CognitoUserInGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewCognitoUserInGroup(scope constructs.Construct, id *string, config *Cogni
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_in_group aws_cognito_user_in_group} Resource.
 func NewCognitoUserInGroup_Override(c CognitoUserInGroup, scope constructs.Construct, id *string, config *CognitoUserInGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -565,7 +565,7 @@ func CognitoUserInGroup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func CognitoUserInGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func CognitoUserInGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func CognitoUserInGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func CognitoUserInGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
+		"@cdktn/provider-aws.cognitoUserInGroup.CognitoUserInGroup",
 		"tfResourceType",
 		&returns,
 	)

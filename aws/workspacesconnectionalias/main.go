@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAlias",
 		reflect.TypeOf((*WorkspacesConnectionAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasConfig",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasConfig",
 		reflect.TypeOf((*WorkspacesConnectionAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasTimeouts",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasTimeouts",
 		reflect.TypeOf((*WorkspacesConnectionAliasTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasTimeoutsOutputReference",
+		"@cdktn/provider-aws.workspacesConnectionAlias.WorkspacesConnectionAliasTimeoutsOutputReference",
 		reflect.TypeOf((*WorkspacesConnectionAliasTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

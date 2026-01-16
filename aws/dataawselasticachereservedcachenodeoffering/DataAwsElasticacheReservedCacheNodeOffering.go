@@ -5,14 +5,14 @@ package dataawselasticachereservedcachenodeoffering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawselasticachereservedcachenodeoffering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticachereservedcachenodeoffering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering}.
 type DataAwsElasticacheReservedCacheNodeOffering interface {
 	cdktf.TerraformDataSource
 	CacheNodeType() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAwsElasticacheReservedCacheNodeOffering) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering} Data Source.
 func NewDataAwsElasticacheReservedCacheNodeOffering(scope constructs.Construct, id *string, config *DataAwsElasticacheReservedCacheNodeOfferingConfig) DataAwsElasticacheReservedCacheNodeOffering {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAwsElasticacheReservedCacheNodeOffering(scope constructs.Construct, 
 	j := jsiiProxy_DataAwsElasticacheReservedCacheNodeOffering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewDataAwsElasticacheReservedCacheNodeOffering(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_reserved_cache_node_offering aws_elasticache_reserved_cache_node_offering} Data Source.
 func NewDataAwsElasticacheReservedCacheNodeOffering_Override(d DataAwsElasticacheReservedCacheNodeOffering, scope constructs.Construct, id *string, config *DataAwsElasticacheReservedCacheNodeOfferingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -519,7 +519,7 @@ func DataAwsElasticacheReservedCacheNodeOffering_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func DataAwsElasticacheReservedCacheNodeOffering_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAwsElasticacheReservedCacheNodeOffering_IsTerraformDataSource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataAwsElasticacheReservedCacheNodeOffering_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataAwsElasticacheReservedCacheNodeOffering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
+		"@cdktn/provider-aws.dataAwsElasticacheReservedCacheNodeOffering.DataAwsElasticacheReservedCacheNodeOffering",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package route53recoverycontrolconfigcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoverycontrolconfigcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoverycontrolconfigcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewRoute53RecoverycontrolconfigClusterClusterEndpointsList(terraformResourc
 	j := jsiiProxy_Route53RecoverycontrolconfigClusterClusterEndpointsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigCluster.Route53RecoverycontrolconfigClusterClusterEndpointsList",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigCluster.Route53RecoverycontrolconfigClusterClusterEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewRoute53RecoverycontrolconfigClusterClusterEndpointsList_Override(r Route
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigCluster.Route53RecoverycontrolconfigClusterClusterEndpointsList",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigCluster.Route53RecoverycontrolconfigClusterClusterEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

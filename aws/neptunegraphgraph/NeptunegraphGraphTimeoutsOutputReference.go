@@ -5,9 +5,9 @@ package neptunegraphgraph
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptunegraphgraph/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptunegraphgraph/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNeptunegraphGraphTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_NeptunegraphGraphTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNeptunegraphGraphTimeoutsOutputReference_Override(n NeptunegraphGraphTim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

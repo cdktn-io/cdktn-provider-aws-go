@@ -5,14 +5,14 @@ package lakeformationidentitycenterconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationidentitycenterconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationidentitycenterconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration}.
 type LakeformationIdentityCenterConfiguration interface {
 	cdktf.TerraformResource
 	ApplicationArn() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_LakeformationIdentityCenterConfiguration) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
 func NewLakeformationIdentityCenterConfiguration(scope constructs.Construct, id *string, config *LakeformationIdentityCenterConfigurationConfig) LakeformationIdentityCenterConfiguration {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewLakeformationIdentityCenterConfiguration(scope constructs.Construct, id 
 	j := jsiiProxy_LakeformationIdentityCenterConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewLakeformationIdentityCenterConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
 func NewLakeformationIdentityCenterConfiguration_Override(l LakeformationIdentityCenterConfiguration, scope constructs.Construct, id *string, config *LakeformationIdentityCenterConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -519,7 +519,7 @@ func LakeformationIdentityCenterConfiguration_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func LakeformationIdentityCenterConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func LakeformationIdentityCenterConfiguration_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func LakeformationIdentityCenterConfiguration_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func LakeformationIdentityCenterConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
+		"@cdktn/provider-aws.lakeformationIdentityCenterConfiguration.LakeformationIdentityCenterConfiguration",
 		"tfResourceType",
 		&returns,
 	)

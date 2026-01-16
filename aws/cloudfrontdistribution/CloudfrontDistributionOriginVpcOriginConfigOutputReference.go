@@ -5,9 +5,9 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -38,6 +38,9 @@ type CloudfrontDistributionOriginVpcOriginConfigOutputReference interface {
 	OriginReadTimeout() *float64
 	SetOriginReadTimeout(val *float64)
 	OriginReadTimeoutInput() *float64
+	OwnerAccountId() *string
+	SetOwnerAccountId(val *string)
+	OwnerAccountIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,6 +78,7 @@ type CloudfrontDistributionOriginVpcOriginConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetOriginKeepaliveTimeout()
 	ResetOriginReadTimeout()
+	ResetOwnerAccountId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -180,6 +184,26 @@ func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) O
 	return returns
 }
 
+func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) OwnerAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ownerAccountId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) OwnerAccountIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ownerAccountIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -230,7 +254,7 @@ func NewCloudfrontDistributionOriginVpcOriginConfigOutputReference(terraformReso
 	j := jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +266,7 @@ func NewCloudfrontDistributionOriginVpcOriginConfigOutputReference_Override(c Cl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -299,6 +323,17 @@ func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference)Se
 	_jsii_.Set(
 		j,
 		"originReadTimeout",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference)SetOwnerAccountId(val *string) {
+	if err := j.validateSetOwnerAccountIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ownerAccountId",
 		val,
 	)
 }
@@ -534,6 +569,14 @@ func (c *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) R
 	_jsii_.InvokeVoid(
 		c,
 		"resetOriginReadTimeout",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontDistributionOriginVpcOriginConfigOutputReference) ResetOwnerAccountId() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOwnerAccountId",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2fleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEc2FleetFleetInstanceSetList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_Ec2FleetFleetInstanceSetList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEc2FleetFleetInstanceSetList_Override(e Ec2FleetFleetInstanceSetList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetFleetInstanceSetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

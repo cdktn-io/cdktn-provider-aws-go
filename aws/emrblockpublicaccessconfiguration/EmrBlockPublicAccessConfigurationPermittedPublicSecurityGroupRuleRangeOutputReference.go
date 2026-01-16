@@ -5,9 +5,9 @@ package emrblockpublicaccessconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrblockpublicaccessconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrblockpublicaccessconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOu
 	j := jsiiProxy_EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewEmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRangeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

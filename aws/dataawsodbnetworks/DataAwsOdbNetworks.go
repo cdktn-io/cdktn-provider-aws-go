@@ -5,14 +5,14 @@ package dataawsodbnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbnetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbnetworks/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_networks aws_odb_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_networks aws_odb_networks}.
 type DataAwsOdbNetworks interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsOdbNetworks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_networks aws_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_networks aws_odb_networks} Data Source.
 func NewDataAwsOdbNetworks(scope constructs.Construct, id *string, config *DataAwsOdbNetworksConfig) DataAwsOdbNetworks {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataAwsOdbNetworks(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsOdbNetworks{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataAwsOdbNetworks(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_networks aws_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_networks aws_odb_networks} Data Source.
 func NewDataAwsOdbNetworks_Override(d DataAwsOdbNetworks, scope constructs.Construct, id *string, config *DataAwsOdbNetworksConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataAwsOdbNetworks_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataAwsOdbNetworks_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataAwsOdbNetworks_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataAwsOdbNetworks_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataAwsOdbNetworks_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		"tfResourceType",
 		&returns,
 	)

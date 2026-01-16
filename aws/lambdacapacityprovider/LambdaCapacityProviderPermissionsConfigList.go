@@ -5,9 +5,9 @@ package lambdacapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdacapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdacapacityprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLambdaCapacityProviderPermissionsConfigList(terraformResource cdktf.IInt
 	j := jsiiProxy_LambdaCapacityProviderPermissionsConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigList",
+		"@cdktn/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLambdaCapacityProviderPermissionsConfigList_Override(l LambdaCapacityPro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigList",
+		"@cdktn/provider-aws.lambdaCapacityProvider.LambdaCapacityProviderPermissionsConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

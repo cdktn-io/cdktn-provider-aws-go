@@ -5,9 +5,9 @@ package s3controldirectorybucketaccesspointscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controldirectorybucketaccesspointscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controldirectorybucketaccesspointscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewS3ControlDirectoryBucketAccessPointScopeScopeList(terraformResource cdkt
 	j := jsiiProxy_S3ControlDirectoryBucketAccessPointScopeScopeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlDirectoryBucketAccessPointScope.S3ControlDirectoryBucketAccessPointScopeScopeList",
+		"@cdktn/provider-aws.s3ControlDirectoryBucketAccessPointScope.S3ControlDirectoryBucketAccessPointScopeScopeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewS3ControlDirectoryBucketAccessPointScopeScopeList_Override(s S3ControlDi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlDirectoryBucketAccessPointScope.S3ControlDirectoryBucketAccessPointScopeScopeList",
+		"@cdktn/provider-aws.s3ControlDirectoryBucketAccessPointScope.S3ControlDirectoryBucketAccessPointScopeScopeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

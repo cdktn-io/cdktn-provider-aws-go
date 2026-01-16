@@ -5,9 +5,9 @@ package cognitoresourceserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoresourceserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoresourceserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCognitoResourceServerScopeOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_CognitoResourceServerScopeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCognitoResourceServerScopeOutputReference_Override(c CognitoResourceServ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

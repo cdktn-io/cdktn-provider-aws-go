@@ -5,14 +5,14 @@ package elasticacheusergroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheusergroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheusergroupassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association}.
 type ElasticacheUserGroupAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ElasticacheUserGroupAssociation) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association} Resource.
 func NewElasticacheUserGroupAssociation(scope constructs.Construct, id *string, config *ElasticacheUserGroupAssociationConfig) ElasticacheUserGroupAssociation {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewElasticacheUserGroupAssociation(scope constructs.Construct, id *string, 
 	j := jsiiProxy_ElasticacheUserGroupAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewElasticacheUserGroupAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user_group_association aws_elasticache_user_group_association} Resource.
 func NewElasticacheUserGroupAssociation_Override(e ElasticacheUserGroupAssociation, scope constructs.Construct, id *string, config *ElasticacheUserGroupAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -555,7 +555,7 @@ func ElasticacheUserGroupAssociation_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func ElasticacheUserGroupAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func ElasticacheUserGroupAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ElasticacheUserGroupAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ElasticacheUserGroupAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		"tfResourceType",
 		&returns,
 	)

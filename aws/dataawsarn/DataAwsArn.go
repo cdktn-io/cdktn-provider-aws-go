@@ -5,14 +5,14 @@ package dataawsarn
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsarn/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsarn/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/arn aws_arn}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/arn aws_arn}.
 type DataAwsArn interface {
 	cdktf.TerraformDataSource
 	Account() *string
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataAwsArn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/arn aws_arn} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/arn aws_arn} Data Source.
 func NewDataAwsArn(scope constructs.Construct, id *string, config *DataAwsArnConfig) DataAwsArn {
 	_init_.Initialize()
 
@@ -353,7 +353,7 @@ func NewDataAwsArn(scope constructs.Construct, id *string, config *DataAwsArnCon
 	j := jsiiProxy_DataAwsArn{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -361,12 +361,12 @@ func NewDataAwsArn(scope constructs.Construct, id *string, config *DataAwsArnCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/arn aws_arn} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/arn aws_arn} Data Source.
 func NewDataAwsArn_Override(d DataAwsArn, scope constructs.Construct, id *string, config *DataAwsArnConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -450,7 +450,7 @@ func DataAwsArn_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsArn_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsArn_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -523,7 +523,7 @@ func DataAwsArn_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsArn_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsArn.DataAwsArn",
+		"@cdktn/provider-aws.dataAwsArn.DataAwsArn",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
 type FinspaceKxCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -911,7 +911,7 @@ func (j *jsiiProxy_FinspaceKxCluster) VpcConfigurationInput() *FinspaceKxCluster
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) FinspaceKxCluster {
 	_init_.Initialize()
 
@@ -921,7 +921,7 @@ func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *Finspa
 	j := jsiiProxy_FinspaceKxCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -929,12 +929,12 @@ func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *Finspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster_Override(f FinspaceKxCluster, scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1172,7 +1172,7 @@ func FinspaceKxCluster_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1207,7 +1207,7 @@ func FinspaceKxCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1226,7 +1226,7 @@ func FinspaceKxCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1245,7 +1245,7 @@ func FinspaceKxCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1258,7 +1258,7 @@ func FinspaceKxCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.finspaceKxCluster.FinspaceKxCluster",
+		"@cdktn/provider-aws.finspaceKxCluster.FinspaceKxCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package verifiedaccessgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedaccessgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedaccessgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group}.
 type VerifiedaccessGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_VerifiedaccessGroup) VerifiedaccessInstanceIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group} Resource.
 func NewVerifiedaccessGroup(scope constructs.Construct, id *string, config *VerifiedaccessGroupConfig) VerifiedaccessGroup {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewVerifiedaccessGroup(scope constructs.Construct, id *string, config *Veri
 	j := jsiiProxy_VerifiedaccessGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewVerifiedaccessGroup(scope constructs.Construct, id *string, config *Veri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_group aws_verifiedaccess_group} Resource.
 func NewVerifiedaccessGroup_Override(v VerifiedaccessGroup, scope constructs.Construct, id *string, config *VerifiedaccessGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -727,7 +727,7 @@ func VerifiedaccessGroup_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func VerifiedaccessGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func VerifiedaccessGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func VerifiedaccessGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func VerifiedaccessGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
+		"@cdktn/provider-aws.verifiedaccessGroup.VerifiedaccessGroup",
 		"tfResourceType",
 		&returns,
 	)

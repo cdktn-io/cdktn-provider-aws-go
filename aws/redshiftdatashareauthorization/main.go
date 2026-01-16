@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorization",
 		reflect.TypeOf((*RedshiftDataShareAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorizationConfig",
+		"@cdktn/provider-aws.redshiftDataShareAuthorization.RedshiftDataShareAuthorizationConfig",
 		reflect.TypeOf((*RedshiftDataShareAuthorizationConfig)(nil)).Elem(),
 	)
 }

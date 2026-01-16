@@ -5,14 +5,14 @@ package vpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_connection aws_vpn_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_connection aws_vpn_connection}.
 type VpnConnection interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1922,7 +1922,7 @@ func (j *jsiiProxy_VpnConnection) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_connection aws_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_connection aws_vpn_connection} Resource.
 func NewVpnConnection(scope constructs.Construct, id *string, config *VpnConnectionConfig) VpnConnection {
 	_init_.Initialize()
 
@@ -1932,7 +1932,7 @@ func NewVpnConnection(scope constructs.Construct, id *string, config *VpnConnect
 	j := jsiiProxy_VpnConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1940,12 +1940,12 @@ func NewVpnConnection(scope constructs.Construct, id *string, config *VpnConnect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpn_connection aws_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpn_connection aws_vpn_connection} Resource.
 func NewVpnConnection_Override(v VpnConnection, scope constructs.Construct, id *string, config *VpnConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -2667,7 +2667,7 @@ func VpnConnection_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2702,7 +2702,7 @@ func VpnConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2721,7 +2721,7 @@ func VpnConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2740,7 +2740,7 @@ func VpnConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2753,7 +2753,7 @@ func VpnConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpnConnection.VpnConnection",
+		"@cdktn/provider-aws.vpnConnection.VpnConnection",
 		"tfResourceType",
 		&returns,
 	)

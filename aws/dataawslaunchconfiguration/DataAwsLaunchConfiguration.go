@@ -5,14 +5,14 @@ package dataawslaunchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslaunchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslaunchconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/launch_configuration aws_launch_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/launch_configuration aws_launch_configuration}.
 type DataAwsLaunchConfiguration interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_DataAwsLaunchConfiguration) UserData() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/launch_configuration aws_launch_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/launch_configuration aws_launch_configuration} Data Source.
 func NewDataAwsLaunchConfiguration(scope constructs.Construct, id *string, config *DataAwsLaunchConfigurationConfig) DataAwsLaunchConfiguration {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewDataAwsLaunchConfiguration(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsLaunchConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewDataAwsLaunchConfiguration(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/launch_configuration aws_launch_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/launch_configuration aws_launch_configuration} Data Source.
 func NewDataAwsLaunchConfiguration_Override(d DataAwsLaunchConfiguration, scope constructs.Construct, id *string, config *DataAwsLaunchConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -606,7 +606,7 @@ func DataAwsLaunchConfiguration_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -641,7 +641,7 @@ func DataAwsLaunchConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func DataAwsLaunchConfiguration_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func DataAwsLaunchConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func DataAwsLaunchConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
+		"@cdktn/provider-aws.dataAwsLaunchConfiguration.DataAwsLaunchConfiguration",
 		"tfResourceType",
 		&returns,
 	)

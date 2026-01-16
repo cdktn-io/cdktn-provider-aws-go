@@ -5,9 +5,9 @@ package cloudwatchmetricstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchmetricstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchmetricstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewCloudwatchMetricStreamIncludeFilterOutputReference(terraformResource cdk
 	j := jsiiProxy_CloudwatchMetricStreamIncludeFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewCloudwatchMetricStreamIncludeFilterOutputReference_Override(c Cloudwatch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
+		"@cdktn/provider-aws.cloudwatchMetricStream.CloudwatchMetricStreamIncludeFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

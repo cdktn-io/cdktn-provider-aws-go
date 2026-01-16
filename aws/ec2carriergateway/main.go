@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ec2CarrierGateway.Ec2CarrierGateway",
+		"@cdktn/provider-aws.ec2CarrierGateway.Ec2CarrierGateway",
 		reflect.TypeOf((*Ec2CarrierGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ec2CarrierGateway.Ec2CarrierGatewayConfig",
+		"@cdktn/provider-aws.ec2CarrierGateway.Ec2CarrierGatewayConfig",
 		reflect.TypeOf((*Ec2CarrierGatewayConfig)(nil)).Elem(),
 	)
 }

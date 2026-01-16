@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKey",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKey",
 		reflect.TypeOf((*PaymentcryptographyKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,19 +94,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyConfig",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyConfig",
 		reflect.TypeOf((*PaymentcryptographyKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributes",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributes",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUse",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributesKeyModesOfUse)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUseList",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUseList",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributesKeyModesOfUseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesList",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesList",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesOutputReference",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributesOutputReference",
 		reflect.TypeOf((*PaymentcryptographyKeyKeyAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -251,11 +251,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeouts",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeouts",
 		reflect.TypeOf((*PaymentcryptographyKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
+		"@cdktn/provider-aws.paymentcryptographyKey.PaymentcryptographyKeyTimeoutsOutputReference",
 		reflect.TypeOf((*PaymentcryptographyKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

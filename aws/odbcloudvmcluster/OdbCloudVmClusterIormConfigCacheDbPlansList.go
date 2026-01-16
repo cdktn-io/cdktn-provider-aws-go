@@ -5,9 +5,9 @@ package odbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewOdbCloudVmClusterIormConfigCacheDbPlansList(terraformResource cdktf.IInt
 	j := jsiiProxy_OdbCloudVmClusterIormConfigCacheDbPlansList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewOdbCloudVmClusterIormConfigCacheDbPlansList_Override(o OdbCloudVmCluster
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
+		"@cdktn/provider-aws.odbCloudVmCluster.OdbCloudVmClusterIormConfigCacheDbPlansList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

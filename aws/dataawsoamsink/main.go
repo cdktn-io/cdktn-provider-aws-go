@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOamSink.DataAwsOamSink",
+		"@cdktn/provider-aws.dataAwsOamSink.DataAwsOamSink",
 		reflect.TypeOf((*DataAwsOamSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOamSink.DataAwsOamSinkConfig",
+		"@cdktn/provider-aws.dataAwsOamSink.DataAwsOamSinkConfig",
 		reflect.TypeOf((*DataAwsOamSinkConfig)(nil)).Elem(),
 	)
 }

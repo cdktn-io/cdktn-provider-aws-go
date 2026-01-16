@@ -5,14 +5,14 @@ package cecostallocationtag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cecostallocationtag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cecostallocationtag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
 type CeCostAllocationTag interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_CeCostAllocationTag) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) CeCostAllocationTag {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCo
 	j := jsiiProxy_CeCostAllocationTag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag_Override(c CeCostAllocationTag, scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -507,7 +507,7 @@ func CeCostAllocationTag_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func CeCostAllocationTag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func CeCostAllocationTag_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func CeCostAllocationTag_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func CeCostAllocationTag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
+		"@cdktn/provider-aws.ceCostAllocationTag.CeCostAllocationTag",
 		"tfResourceType",
 		&returns,
 	)

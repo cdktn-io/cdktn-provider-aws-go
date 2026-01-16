@@ -5,14 +5,14 @@ package dataawschatbotslackworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawschatbotslackworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawschatbotslackworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace}.
 type DataAwsChatbotSlackWorkspace interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsChatbotSlackWorkspace) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
 func NewDataAwsChatbotSlackWorkspace(scope constructs.Construct, id *string, config *DataAwsChatbotSlackWorkspaceConfig) DataAwsChatbotSlackWorkspace {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsChatbotSlackWorkspace(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsChatbotSlackWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsChatbotSlackWorkspace(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/chatbot_slack_workspace aws_chatbot_slack_workspace} Data Source.
 func NewDataAwsChatbotSlackWorkspace_Override(d DataAwsChatbotSlackWorkspace, scope constructs.Construct, id *string, config *DataAwsChatbotSlackWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsChatbotSlackWorkspace_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsChatbotSlackWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsChatbotSlackWorkspace_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsChatbotSlackWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsChatbotSlackWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		"tfResourceType",
 		&returns,
 	)

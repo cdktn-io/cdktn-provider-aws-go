@@ -7,7 +7,7 @@ package cloudwatchlogtransformer
 type CloudwatchLogTransformerTransformerConfigSubstituteString struct {
 	// entry block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
 	Entry interface{} `field:"optional" json:"entry" yaml:"entry"`
 }
 

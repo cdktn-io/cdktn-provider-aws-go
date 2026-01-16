@@ -5,14 +5,14 @@ package eipdomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eipdomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eipdomainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_domain_name aws_eip_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_domain_name aws_eip_domain_name}.
 type EipDomainName interface {
 	cdktf.TerraformResource
 	AllocationId() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_EipDomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
 func NewEipDomainName(scope constructs.Construct, id *string, config *EipDomainNameConfig) EipDomainName {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewEipDomainName(scope constructs.Construct, id *string, config *EipDomainN
 	j := jsiiProxy_EipDomainName{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewEipDomainName(scope constructs.Construct, id *string, config *EipDomainN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
 func NewEipDomainName_Override(e EipDomainName, scope constructs.Construct, id *string, config *EipDomainNameConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -542,7 +542,7 @@ func EipDomainName_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func EipDomainName_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func EipDomainName_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func EipDomainName_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func EipDomainName_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.eipDomainName.EipDomainName",
+		"@cdktn/provider-aws.eipDomainName.EipDomainName",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawslocationtrackerassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslocationtrackerassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslocationtrackerassociations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations}.
 type DataAwsLocationTrackerAssociations interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsLocationTrackerAssociations) TrackerNameInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations} Data Source.
 func NewDataAwsLocationTrackerAssociations(scope constructs.Construct, id *string, config *DataAwsLocationTrackerAssociationsConfig) DataAwsLocationTrackerAssociations {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAwsLocationTrackerAssociations(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsLocationTrackerAssociations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAwsLocationTrackerAssociations(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/location_tracker_associations aws_location_tracker_associations} Data Source.
 func NewDataAwsLocationTrackerAssociations_Override(d DataAwsLocationTrackerAssociations, scope constructs.Construct, id *string, config *DataAwsLocationTrackerAssociationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAwsLocationTrackerAssociations_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAwsLocationTrackerAssociations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAwsLocationTrackerAssociations_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsLocationTrackerAssociations_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAwsLocationTrackerAssociations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
+		"@cdktn/provider-aws.dataAwsLocationTrackerAssociations.DataAwsLocationTrackerAssociations",
 		"tfResourceType",
 		&returns,
 	)

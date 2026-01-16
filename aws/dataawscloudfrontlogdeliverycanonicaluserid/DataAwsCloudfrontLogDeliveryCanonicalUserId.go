@@ -5,14 +5,14 @@ package dataawscloudfrontlogdeliverycanonicaluserid
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudfrontlogdeliverycanonicaluserid/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontlogdeliverycanonicaluserid/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
 type DataAwsCloudfrontLogDeliveryCanonicalUserId interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -289,7 +289,7 @@ func (j *jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) DataAwsCloudfrontLogDeliveryCanonicalUserId {
 	_init_.Initialize()
 
@@ -299,7 +299,7 @@ func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, 
 	j := jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -307,12 +307,12 @@ func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId_Override(d DataAwsCloudfrontLogDeliveryCanonicalUserId, scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -396,7 +396,7 @@ func DataAwsCloudfrontLogDeliveryCanonicalUserId_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -431,7 +431,7 @@ func DataAwsCloudfrontLogDeliveryCanonicalUserId_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -450,7 +450,7 @@ func DataAwsCloudfrontLogDeliveryCanonicalUserId_IsTerraformDataSource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAwsCloudfrontLogDeliveryCanonicalUserId_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAwsCloudfrontLogDeliveryCanonicalUserId_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		"tfResourceType",
 		&returns,
 	)

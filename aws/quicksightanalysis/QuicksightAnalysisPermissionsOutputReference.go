@@ -5,9 +5,9 @@ package quicksightanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewQuicksightAnalysisPermissionsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_QuicksightAnalysisPermissionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysisPermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysisPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewQuicksightAnalysisPermissionsOutputReference_Override(q QuicksightAnalys
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAnalysis.QuicksightAnalysisPermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightAnalysis.QuicksightAnalysisPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		q,
 	)

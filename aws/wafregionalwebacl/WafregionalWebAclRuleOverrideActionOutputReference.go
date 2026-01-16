@@ -5,9 +5,9 @@ package wafregionalwebacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalwebacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalwebacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewWafregionalWebAclRuleOverrideActionOutputReference(terraformResource cdk
 	j := jsiiProxy_WafregionalWebAclRuleOverrideActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAclRuleOverrideActionOutputReference",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAclRuleOverrideActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewWafregionalWebAclRuleOverrideActionOutputReference_Override(w Wafregiona
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalWebAcl.WafregionalWebAclRuleOverrideActionOutputReference",
+		"@cdktn/provider-aws.wafregionalWebAcl.WafregionalWebAclRuleOverrideActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

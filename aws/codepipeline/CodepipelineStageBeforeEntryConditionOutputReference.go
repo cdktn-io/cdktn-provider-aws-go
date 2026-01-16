@@ -5,9 +5,9 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewCodepipelineStageBeforeEntryConditionOutputReference(terraformResource c
 	j := jsiiProxy_CodepipelineStageBeforeEntryConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewCodepipelineStageBeforeEntryConditionOutputReference_Override(c Codepipe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
+		"@cdktn/provider-aws.codepipeline.CodepipelineStageBeforeEntryConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

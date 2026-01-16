@@ -5,9 +5,9 @@ package vpcencryptioncontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -247,7 +247,7 @@ func NewVpcEncryptionControlResourceExclusionsOutputReference(terraformResource 
 	j := jsiiProxy_VpcEncryptionControlResourceExclusionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -259,7 +259,7 @@ func NewVpcEncryptionControlResourceExclusionsOutputReference_Override(v VpcEncr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

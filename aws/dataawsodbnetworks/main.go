@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworks",
 		reflect.TypeOf((*DataAwsOdbNetworks)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksConfig",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksConfig",
 		reflect.TypeOf((*DataAwsOdbNetworksConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworks",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworks",
 		reflect.TypeOf((*DataAwsOdbNetworksOdbNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworksList",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworksList",
 		reflect.TypeOf((*DataAwsOdbNetworksOdbNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworksOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbNetworks.DataAwsOdbNetworksOdbNetworksOutputReference",
 		reflect.TypeOf((*DataAwsOdbNetworksOdbNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},

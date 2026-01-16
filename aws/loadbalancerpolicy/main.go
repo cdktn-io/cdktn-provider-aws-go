@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.loadBalancerPolicy.LoadBalancerPolicy",
+		"@cdktn/provider-aws.loadBalancerPolicy.LoadBalancerPolicy",
 		reflect.TypeOf((*LoadBalancerPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.loadBalancerPolicy.LoadBalancerPolicyConfig",
+		"@cdktn/provider-aws.loadBalancerPolicy.LoadBalancerPolicyConfig",
 		reflect.TypeOf((*LoadBalancerPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute",
+		"@cdktn/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttribute",
 		reflect.TypeOf((*LoadBalancerPolicyPolicyAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttributeList",
+		"@cdktn/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttributeList",
 		reflect.TypeOf((*LoadBalancerPolicyPolicyAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttributeOutputReference",
+		"@cdktn/provider-aws.loadBalancerPolicy.LoadBalancerPolicyPolicyAttributeOutputReference",
 		reflect.TypeOf((*LoadBalancerPolicyPolicyAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

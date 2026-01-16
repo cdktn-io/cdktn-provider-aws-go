@@ -5,14 +5,14 @@ package memorydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/memorydbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_cluster aws_memorydb_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_cluster aws_memorydb_cluster}.
 type MemorydbCluster interface {
 	cdktf.TerraformResource
 	AclName() *string
@@ -1048,7 +1048,7 @@ func (j *jsiiProxy_MemorydbCluster) TlsEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
 func NewMemorydbCluster(scope constructs.Construct, id *string, config *MemorydbClusterConfig) MemorydbCluster {
 	_init_.Initialize()
 
@@ -1058,7 +1058,7 @@ func NewMemorydbCluster(scope constructs.Construct, id *string, config *Memorydb
 	j := jsiiProxy_MemorydbCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1066,12 +1066,12 @@ func NewMemorydbCluster(scope constructs.Construct, id *string, config *Memorydb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_cluster aws_memorydb_cluster} Resource.
 func NewMemorydbCluster_Override(m MemorydbCluster, scope constructs.Construct, id *string, config *MemorydbClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1474,7 +1474,7 @@ func MemorydbCluster_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1509,7 +1509,7 @@ func MemorydbCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1528,7 +1528,7 @@ func MemorydbCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1547,7 +1547,7 @@ func MemorydbCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1560,7 +1560,7 @@ func MemorydbCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.memorydbCluster.MemorydbCluster",
+		"@cdktn/provider-aws.memorydbCluster.MemorydbCluster",
 		"tfResourceType",
 		&returns,
 	)

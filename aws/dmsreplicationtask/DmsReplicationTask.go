@@ -5,14 +5,14 @@ package dmsreplicationtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsreplicationtask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsreplicationtask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_task aws_dms_replication_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task}.
 type DmsReplicationTask interface {
 	cdktf.TerraformResource
 	CdcStartPosition() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_DmsReplicationTask) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
 func NewDmsReplicationTask(scope constructs.Construct, id *string, config *DmsReplicationTaskConfig) DmsReplicationTask {
 	_init_.Initialize()
 
@@ -672,7 +672,7 @@ func NewDmsReplicationTask(scope constructs.Construct, id *string, config *DmsRe
 	j := jsiiProxy_DmsReplicationTask{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -680,12 +680,12 @@ func NewDmsReplicationTask(scope constructs.Construct, id *string, config *DmsRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
 func NewDmsReplicationTask_Override(d DmsReplicationTask, scope constructs.Construct, id *string, config *DmsReplicationTaskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -934,7 +934,7 @@ func DmsReplicationTask_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -969,7 +969,7 @@ func DmsReplicationTask_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -988,7 +988,7 @@ func DmsReplicationTask_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1007,7 +1007,7 @@ func DmsReplicationTask_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1020,7 +1020,7 @@ func DmsReplicationTask_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dmsReplicationTask.DmsReplicationTask",
+		"@cdktn/provider-aws.dmsReplicationTask.DmsReplicationTask",
 		"tfResourceType",
 		&returns,
 	)

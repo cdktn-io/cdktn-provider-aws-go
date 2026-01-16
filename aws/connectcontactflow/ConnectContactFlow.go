@@ -5,14 +5,14 @@ package connectcontactflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectcontactflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectcontactflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow aws_connect_contact_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow aws_connect_contact_flow}.
 type ConnectContactFlow interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -570,7 +570,7 @@ func (j *jsiiProxy_ConnectContactFlow) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
 func NewConnectContactFlow(scope constructs.Construct, id *string, config *ConnectContactFlowConfig) ConnectContactFlow {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewConnectContactFlow(scope constructs.Construct, id *string, config *Conne
 	j := jsiiProxy_ConnectContactFlow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -588,12 +588,12 @@ func NewConnectContactFlow(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
 func NewConnectContactFlow_Override(c ConnectContactFlow, scope constructs.Construct, id *string, config *ConnectContactFlowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -798,7 +798,7 @@ func ConnectContactFlow_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func ConnectContactFlow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func ConnectContactFlow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func ConnectContactFlow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func ConnectContactFlow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.connectContactFlow.ConnectContactFlow",
+		"@cdktn/provider-aws.connectContactFlow.ConnectContactFlow",
 		"tfResourceType",
 		&returns,
 	)

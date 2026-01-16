@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledAction",
 		reflect.TypeOf((*RedshiftScheduledAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionConfig",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionConfig",
 		reflect.TypeOf((*RedshiftScheduledActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetAction",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetAction",
 		reflect.TypeOf((*RedshiftScheduledActionTargetAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionOutputReference",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionOutputReference",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionPauseCluster",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionPauseCluster",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionPauseCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionPauseClusterOutputReference",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionPauseClusterOutputReference",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionPauseClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterIdentifier", GoGetter: "ClusterIdentifier"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeCluster",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeCluster",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionResizeCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeClusterOutputReference",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResizeClusterOutputReference",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionResizeClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classic", GoGetter: "Classic"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeCluster",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeCluster",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionResumeCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeClusterOutputReference",
+		"@cdktn/provider-aws.redshiftScheduledAction.RedshiftScheduledActionTargetActionResumeClusterOutputReference",
 		reflect.TypeOf((*RedshiftScheduledActionTargetActionResumeClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterIdentifier", GoGetter: "ClusterIdentifier"},

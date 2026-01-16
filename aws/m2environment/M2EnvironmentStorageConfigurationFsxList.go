@@ -5,9 +5,9 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2environment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewM2EnvironmentStorageConfigurationFsxList(terraformResource cdktf.IInterp
 	j := jsiiProxy_M2EnvironmentStorageConfigurationFsxList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewM2EnvironmentStorageConfigurationFsxList_Override(m M2EnvironmentStorage
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationFsxList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixList",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixList",
 		reflect.TypeOf((*DataAwsPrefixList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListConfig",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListConfig",
 		reflect.TypeOf((*DataAwsPrefixListConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilter",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilter",
 		reflect.TypeOf((*DataAwsPrefixListFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterList",
 		reflect.TypeOf((*DataAwsPrefixListFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListFilterOutputReference",
 		reflect.TypeOf((*DataAwsPrefixListFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListTimeouts",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListTimeouts",
 		reflect.TypeOf((*DataAwsPrefixListTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsPrefixList.DataAwsPrefixListTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsPrefixList.DataAwsPrefixListTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsPrefixListTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

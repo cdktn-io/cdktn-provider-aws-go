@@ -5,9 +5,9 @@ package dataawsecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecstaskdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEcsTaskDefinitionEphemeralStorageList(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsEcsTaskDefinitionEphemeralStorageList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionEphemeralStorageList",
+		"@cdktn/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionEphemeralStorageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEcsTaskDefinitionEphemeralStorageList_Override(d DataAwsEcsTaskDe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionEphemeralStorageList",
+		"@cdktn/provider-aws.dataAwsEcsTaskDefinition.DataAwsEcsTaskDefinitionEphemeralStorageList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

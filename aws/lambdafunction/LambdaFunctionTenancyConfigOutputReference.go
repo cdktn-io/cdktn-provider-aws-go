@@ -5,9 +5,9 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewLambdaFunctionTenancyConfigOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_LambdaFunctionTenancyConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewLambdaFunctionTenancyConfigOutputReference_Override(l LambdaFunctionTena
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionTenancyConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

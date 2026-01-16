@@ -5,9 +5,9 @@ package dmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDmsEndpointTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DmsEndpointTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDmsEndpointTimeoutsOutputReference_Override(d DmsEndpointTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

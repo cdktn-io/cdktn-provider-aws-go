@@ -5,9 +5,9 @@ package kendraquerysuggestionsblocklist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kendraquerysuggestionsblocklist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kendraquerysuggestionsblocklist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewKendraQuerySuggestionsBlockListSourceS3PathOutputReference(terraformReso
 	j := jsiiProxy_KendraQuerySuggestionsBlockListSourceS3PathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3PathOutputReference",
+		"@cdktn/provider-aws.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewKendraQuerySuggestionsBlockListSourceS3PathOutputReference_Override(k Ke
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3PathOutputReference",
+		"@cdktn/provider-aws.kendraQuerySuggestionsBlockList.KendraQuerySuggestionsBlockListSourceS3PathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

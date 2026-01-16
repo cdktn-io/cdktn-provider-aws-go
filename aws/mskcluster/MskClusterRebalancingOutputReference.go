@@ -5,9 +5,9 @@ package mskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewMskClusterRebalancingOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_MskClusterRebalancingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterRebalancingOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterRebalancingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewMskClusterRebalancingOutputReference_Override(m MskClusterRebalancingOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterRebalancingOutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterRebalancingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

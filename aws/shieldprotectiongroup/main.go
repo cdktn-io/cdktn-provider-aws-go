@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroup",
 		reflect.TypeOf((*ShieldProtectionGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.shieldProtectionGroup.ShieldProtectionGroupConfig",
+		"@cdktn/provider-aws.shieldProtectionGroup.ShieldProtectionGroupConfig",
 		reflect.TypeOf((*ShieldProtectionGroupConfig)(nil)).Elem(),
 	)
 }

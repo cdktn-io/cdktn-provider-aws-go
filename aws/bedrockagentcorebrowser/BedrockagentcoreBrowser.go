@@ -5,14 +5,14 @@ package bedrockagentcorebrowser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcorebrowser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcorebrowser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
 type BedrockagentcoreBrowser interface {
 	cdktf.TerraformResource
 	BrowserArn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) BedrockagentcoreBrowser {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_BedrockagentcoreBrowser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser_Override(b BedrockagentcoreBrowser, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -672,7 +672,7 @@ func BedrockagentcoreBrowser_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func BedrockagentcoreBrowser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func BedrockagentcoreBrowser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func BedrockagentcoreBrowser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func BedrockagentcoreBrowser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
+		"@cdktn/provider-aws.bedrockagentcoreBrowser.BedrockagentcoreBrowser",
 		"tfResourceType",
 		&returns,
 	)

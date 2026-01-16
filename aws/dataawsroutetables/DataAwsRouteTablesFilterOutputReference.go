@@ -5,9 +5,9 @@ package dataawsroutetables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroutetables/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroutetables/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDataAwsRouteTablesFilterOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsRouteTablesFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRouteTables.DataAwsRouteTablesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRouteTables.DataAwsRouteTablesFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDataAwsRouteTablesFilterOutputReference_Override(d DataAwsRouteTablesFil
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRouteTables.DataAwsRouteTablesFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsRouteTables.DataAwsRouteTablesFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

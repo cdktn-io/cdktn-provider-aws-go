@@ -5,14 +5,14 @@ package dataawsiamaccesskeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamaccesskeys/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamaccesskeys/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_access_keys aws_iam_access_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_access_keys aws_iam_access_keys}.
 type DataAwsIamAccessKeys interface {
 	cdktf.TerraformDataSource
 	AccessKeys() DataAwsIamAccessKeysAccessKeysList
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsIamAccessKeys) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source.
 func NewDataAwsIamAccessKeys(scope constructs.Construct, id *string, config *DataAwsIamAccessKeysConfig) DataAwsIamAccessKeys {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataAwsIamAccessKeys(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAwsIamAccessKeys{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataAwsIamAccessKeys(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_access_keys aws_iam_access_keys} Data Source.
 func NewDataAwsIamAccessKeys_Override(d DataAwsIamAccessKeys, scope constructs.Construct, id *string, config *DataAwsIamAccessKeysConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataAwsIamAccessKeys_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataAwsIamAccessKeys_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataAwsIamAccessKeys_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataAwsIamAccessKeys_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataAwsIamAccessKeys_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
+		"@cdktn/provider-aws.dataAwsIamAccessKeys.DataAwsIamAccessKeys",
 		"tfResourceType",
 		&returns,
 	)

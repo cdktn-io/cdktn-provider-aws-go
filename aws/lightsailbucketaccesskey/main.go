@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		reflect.TypeOf((*LightsailBucketAccessKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKeyConfig",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKeyConfig",
 		reflect.TypeOf((*LightsailBucketAccessKeyConfig)(nil)).Elem(),
 	)
 }

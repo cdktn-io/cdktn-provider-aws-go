@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataShares",
 		reflect.TypeOf((*DataAwsRedshiftDataShares)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,15 +60,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesConfig",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesConfig",
 		reflect.TypeOf((*DataAwsRedshiftDataSharesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataShares",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataShares",
 		reflect.TypeOf((*DataAwsRedshiftDataSharesDataShares)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
 		reflect.TypeOf((*DataAwsRedshiftDataSharesDataSharesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesOutputReference",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesOutputReference",
 		reflect.TypeOf((*DataAwsRedshiftDataSharesDataSharesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

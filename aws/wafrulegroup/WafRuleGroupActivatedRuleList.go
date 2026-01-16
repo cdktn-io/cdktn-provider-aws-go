@@ -5,9 +5,9 @@ package wafrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWafRuleGroupActivatedRuleList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_WafRuleGroupActivatedRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRuleGroup.WafRuleGroupActivatedRuleList",
+		"@cdktn/provider-aws.wafRuleGroup.WafRuleGroupActivatedRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWafRuleGroupActivatedRuleList_Override(w WafRuleGroupActivatedRuleList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafRuleGroup.WafRuleGroupActivatedRuleList",
+		"@cdktn/provider-aws.wafRuleGroup.WafRuleGroupActivatedRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

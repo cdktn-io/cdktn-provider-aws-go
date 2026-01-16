@@ -5,14 +5,14 @@ package opensearchoutboundconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchoutboundconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchoutboundconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection}.
 type OpensearchOutboundConnection interface {
 	cdktf.TerraformResource
 	AcceptConnection() interface{}
@@ -510,7 +510,7 @@ func (j *jsiiProxy_OpensearchOutboundConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
 func NewOpensearchOutboundConnection(scope constructs.Construct, id *string, config *OpensearchOutboundConnectionConfig) OpensearchOutboundConnection {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewOpensearchOutboundConnection(scope constructs.Construct, id *string, con
 	j := jsiiProxy_OpensearchOutboundConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewOpensearchOutboundConnection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_outbound_connection aws_opensearch_outbound_connection} Resource.
 func NewOpensearchOutboundConnection_Override(o OpensearchOutboundConnection, scope constructs.Construct, id *string, config *OpensearchOutboundConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -672,7 +672,7 @@ func OpensearchOutboundConnection_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func OpensearchOutboundConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func OpensearchOutboundConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func OpensearchOutboundConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func OpensearchOutboundConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
+		"@cdktn/provider-aws.opensearchOutboundConnection.OpensearchOutboundConnection",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsramresourceshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsramresourceshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsramresourceshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
 type DataAwsRamResourceShare interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_DataAwsRamResourceShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) DataAwsRamResourceShare {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsRamResourceShare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare_Override(d DataAwsRamResourceShare, scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -603,7 +603,7 @@ func DataAwsRamResourceShare_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -638,7 +638,7 @@ func DataAwsRamResourceShare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func DataAwsRamResourceShare_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func DataAwsRamResourceShare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func DataAwsRamResourceShare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
+		"@cdktn/provider-aws.dataAwsRamResourceShare.DataAwsRamResourceShare",
 		"tfResourceType",
 		&returns,
 	)

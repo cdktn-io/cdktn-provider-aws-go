@@ -5,9 +5,9 @@ package lblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewLbListenerDefaultActionForwardStickinessOutputReference(terraformResourc
 	j := jsiiProxy_LbListenerDefaultActionForwardStickinessOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListener.LbListenerDefaultActionForwardStickinessOutputReference",
+		"@cdktn/provider-aws.lbListener.LbListenerDefaultActionForwardStickinessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewLbListenerDefaultActionForwardStickinessOutputReference_Override(l LbLis
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListener.LbListenerDefaultActionForwardStickinessOutputReference",
+		"@cdktn/provider-aws.lbListener.LbListenerDefaultActionForwardStickinessOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

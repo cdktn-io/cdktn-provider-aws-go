@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContact",
 		reflect.TypeOf((*NotificationscontactsEmailContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig",
+		"@cdktn/provider-aws.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig",
 		reflect.TypeOf((*NotificationscontactsEmailContactConfig)(nil)).Elem(),
 	)
 }

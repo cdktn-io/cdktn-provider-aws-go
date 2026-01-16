@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccount",
 		reflect.TypeOf((*DetectiveOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccountConfig",
+		"@cdktn/provider-aws.detectiveOrganizationAdminAccount.DetectiveOrganizationAdminAccountConfig",
 		reflect.TypeOf((*DetectiveOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 }

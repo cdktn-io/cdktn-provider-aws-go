@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventArchive.CloudwatchEventArchive",
+		"@cdktn/provider-aws.cloudwatchEventArchive.CloudwatchEventArchive",
 		reflect.TypeOf((*CloudwatchEventArchive)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventArchive.CloudwatchEventArchiveConfig",
+		"@cdktn/provider-aws.cloudwatchEventArchive.CloudwatchEventArchiveConfig",
 		reflect.TypeOf((*CloudwatchEventArchiveConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package networkflowmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkflowmonitormonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewNetworkflowmonitorMonitorTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_NetworkflowmonitorMonitorTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewNetworkflowmonitorMonitorTimeoutsOutputReference_Override(n Networkflowm
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkflowmonitorMonitor.NetworkflowmonitorMonitorTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

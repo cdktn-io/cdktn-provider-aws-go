@@ -5,9 +5,9 @@ package chimesdkvoicesipmediaapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimesdkvoicesipmediaapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimesdkvoicesipmediaapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewChimesdkvoiceSipMediaApplicationEndpointsOutputReference(terraformResour
 	j := jsiiProxy_ChimesdkvoiceSipMediaApplicationEndpointsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplicationEndpointsOutputReference",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplicationEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewChimesdkvoiceSipMediaApplicationEndpointsOutputReference_Override(c Chim
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplicationEndpointsOutputReference",
+		"@cdktn/provider-aws.chimesdkvoiceSipMediaApplication.ChimesdkvoiceSipMediaApplicationEndpointsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

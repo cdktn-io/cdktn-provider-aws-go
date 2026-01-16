@@ -5,14 +5,14 @@ package networkmanagerlinkassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerlinkassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerlinkassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association}.
 type NetworkmanagerLinkAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_NetworkmanagerLinkAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association} Resource.
 func NewNetworkmanagerLinkAssociation(scope constructs.Construct, id *string, config *NetworkmanagerLinkAssociationConfig) NetworkmanagerLinkAssociation {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewNetworkmanagerLinkAssociation(scope constructs.Construct, id *string, co
 	j := jsiiProxy_NetworkmanagerLinkAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewNetworkmanagerLinkAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_link_association aws_networkmanager_link_association} Resource.
 func NewNetworkmanagerLinkAssociation_Override(n NetworkmanagerLinkAssociation, scope constructs.Construct, id *string, config *NetworkmanagerLinkAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -554,7 +554,7 @@ func NetworkmanagerLinkAssociation_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func NetworkmanagerLinkAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func NetworkmanagerLinkAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func NetworkmanagerLinkAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func NetworkmanagerLinkAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
+		"@cdktn/provider-aws.networkmanagerLinkAssociation.NetworkmanagerLinkAssociation",
 		"tfResourceType",
 		&returns,
 	)

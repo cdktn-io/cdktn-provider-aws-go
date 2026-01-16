@@ -99,11 +99,19 @@ func (j *jsiiProxy_DataAwsVpcEndpoint) validateSetServiceNameParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_DataAwsVpcEndpoint) validateSetServiceRegionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAwsVpcEndpoint) validateSetStateParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_DataAwsVpcEndpoint) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVpcEndpoint) validateSetVpcEndpointTypeParameters(val *string) error {
 	return nil
 }
 

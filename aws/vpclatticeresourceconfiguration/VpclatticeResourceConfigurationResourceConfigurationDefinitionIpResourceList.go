@@ -5,9 +5,9 @@ package vpclatticeresourceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticeresourceconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticeresourceconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource
 	j := jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceList",
+		"@cdktn/provider-aws.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewVpclatticeResourceConfigurationResourceConfigurationDefinitionIpResource
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceList",
+		"@cdktn/provider-aws.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionIpResourceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		v,
 	)

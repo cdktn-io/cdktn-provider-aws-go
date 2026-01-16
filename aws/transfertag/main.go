@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferTag.TransferTag",
+		"@cdktn/provider-aws.transferTag.TransferTag",
 		reflect.TypeOf((*TransferTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferTag.TransferTagConfig",
+		"@cdktn/provider-aws.transferTag.TransferTagConfig",
 		reflect.TypeOf((*TransferTagConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package dataawscetags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscetags/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscetags/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsCeTagsFilterAndList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_DataAwsCeTagsFilterAndList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterAndList",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterAndList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsCeTagsFilterAndList_Override(d DataAwsCeTagsFilterAndList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterAndList",
+		"@cdktn/provider-aws.dataAwsCeTags.DataAwsCeTagsFilterAndList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

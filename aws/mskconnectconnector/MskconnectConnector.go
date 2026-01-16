@@ -5,14 +5,14 @@ package mskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mskconnect_connector aws_mskconnect_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_connector aws_mskconnect_connector}.
 type MskconnectConnector interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_MskconnectConnector) WorkerConfigurationInput() *MskconnectCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource.
 func NewMskconnectConnector(scope constructs.Construct, id *string, config *MskconnectConnectorConfig) MskconnectConnector {
 	_init_.Initialize()
 
@@ -717,7 +717,7 @@ func NewMskconnectConnector(scope constructs.Construct, id *string, config *Mskc
 	j := jsiiProxy_MskconnectConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -725,12 +725,12 @@ func NewMskconnectConnector(scope constructs.Construct, id *string, config *Mskc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_connector aws_mskconnect_connector} Resource.
 func NewMskconnectConnector_Override(m MskconnectConnector, scope constructs.Construct, id *string, config *MskconnectConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -913,7 +913,7 @@ func MskconnectConnector_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -948,7 +948,7 @@ func MskconnectConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -967,7 +967,7 @@ func MskconnectConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -986,7 +986,7 @@ func MskconnectConnector_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func MskconnectConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mskconnectConnector.MskconnectConnector",
+		"@cdktn/provider-aws.mskconnectConnector.MskconnectConnector",
 		"tfResourceType",
 		&returns,
 	)

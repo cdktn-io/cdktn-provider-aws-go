@@ -5,9 +5,9 @@ package workspacesworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspacesworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewWorkspacesWorkspaceWorkspacePropertiesOutputReference(terraformResource 
 	j := jsiiProxy_WorkspacesWorkspaceWorkspacePropertiesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewWorkspacesWorkspaceWorkspacePropertiesOutputReference_Override(w Workspa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
+		"@cdktn/provider-aws.workspacesWorkspace.WorkspacesWorkspaceWorkspacePropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStream",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStream",
 		reflect.TypeOf((*KinesisVideoStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStreamConfig",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStreamConfig",
 		reflect.TypeOf((*KinesisVideoStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStreamTimeouts",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStreamTimeouts",
 		reflect.TypeOf((*KinesisVideoStreamTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.kinesisVideoStream.KinesisVideoStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.kinesisVideoStream.KinesisVideoStreamTimeoutsOutputReference",
 		reflect.TypeOf((*KinesisVideoStreamTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

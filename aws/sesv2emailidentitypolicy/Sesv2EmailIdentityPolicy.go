@@ -5,14 +5,14 @@ package sesv2emailidentitypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2emailidentitypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2emailidentitypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy}.
 type Sesv2EmailIdentityPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_Sesv2EmailIdentityPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
 func NewSesv2EmailIdentityPolicy(scope constructs.Construct, id *string, config *Sesv2EmailIdentityPolicyConfig) Sesv2EmailIdentityPolicy {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewSesv2EmailIdentityPolicy(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_Sesv2EmailIdentityPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewSesv2EmailIdentityPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
 func NewSesv2EmailIdentityPolicy_Override(s Sesv2EmailIdentityPolicy, scope constructs.Construct, id *string, config *Sesv2EmailIdentityPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func Sesv2EmailIdentityPolicy_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func Sesv2EmailIdentityPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Sesv2EmailIdentityPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func Sesv2EmailIdentityPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func Sesv2EmailIdentityPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
+		"@cdktn/provider-aws.sesv2EmailIdentityPolicy.Sesv2EmailIdentityPolicy",
 		"tfResourceType",
 		&returns,
 	)

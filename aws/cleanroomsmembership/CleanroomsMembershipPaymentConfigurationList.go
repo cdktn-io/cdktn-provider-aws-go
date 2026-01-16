@@ -5,9 +5,9 @@ package cleanroomsmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cleanroomsmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cleanroomsmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCleanroomsMembershipPaymentConfigurationList(terraformResource cdktf.IIn
 	j := jsiiProxy_CleanroomsMembershipPaymentConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCleanroomsMembershipPaymentConfigurationList_Override(c CleanroomsMember
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
+		"@cdktn/provider-aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

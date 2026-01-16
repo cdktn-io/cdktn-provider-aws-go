@@ -5,14 +5,14 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecsexpressgatewayservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service}.
 type EcsExpressGatewayService interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -699,7 +699,7 @@ func (j *jsiiProxy_EcsExpressGatewayService) WaitForSteadyStateInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) EcsExpressGatewayService {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_EcsExpressGatewayService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -717,12 +717,12 @@ func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService_Override(e EcsExpressGatewayService, scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -927,7 +927,7 @@ func EcsExpressGatewayService_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -962,7 +962,7 @@ func EcsExpressGatewayService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func EcsExpressGatewayService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1000,7 +1000,7 @@ func EcsExpressGatewayService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1013,7 +1013,7 @@ func EcsExpressGatewayService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
+		"@cdktn/provider-aws.ecsExpressGatewayService.EcsExpressGatewayService",
 		"tfResourceType",
 		&returns,
 	)

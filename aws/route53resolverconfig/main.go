@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfig",
 		reflect.TypeOf((*Route53ResolverConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverConfig.Route53ResolverConfigConfig",
+		"@cdktn/provider-aws.route53ResolverConfig.Route53ResolverConfigConfig",
 		reflect.TypeOf((*Route53ResolverConfigConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		reflect.TypeOf((*DataAwsBackupReportPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanConfig",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanConfig",
 		reflect.TypeOf((*DataAwsBackupReportPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannel",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannel",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportDeliveryChannel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannelList",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannelList",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportDeliveryChannelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannelOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportDeliveryChannelOutputReference",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportDeliveryChannelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSetting",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSetting",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingList",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportSettingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
 		reflect.TypeOf((*DataAwsBackupReportPlanReportSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},

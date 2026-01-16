@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBus",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBus",
 		reflect.TypeOf((*CloudwatchEventBus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBusConfig",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBusConfig",
 		reflect.TypeOf((*CloudwatchEventBusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBusDeadLetterConfig",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBusDeadLetterConfig",
 		reflect.TypeOf((*CloudwatchEventBusDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBusDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBusDeadLetterConfigOutputReference",
 		reflect.TypeOf((*CloudwatchEventBusDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBusLogConfig",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBusLogConfig",
 		reflect.TypeOf((*CloudwatchEventBusLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventBus.CloudwatchEventBusLogConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventBus.CloudwatchEventBusLogConfigOutputReference",
 		reflect.TypeOf((*CloudwatchEventBusLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package autoscalinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/autoscalinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalinggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -325,7 +325,7 @@ func NewAutoscalingGroupInitialLifecycleHookOutputReference(terraformResource cd
 	j := jsiiProxy_AutoscalingGroupInitialLifecycleHookOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroupInitialLifecycleHookOutputReference",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInitialLifecycleHookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -337,7 +337,7 @@ func NewAutoscalingGroupInitialLifecycleHookOutputReference_Override(a Autoscali
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.autoscalingGroup.AutoscalingGroupInitialLifecycleHookOutputReference",
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInitialLifecycleHookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

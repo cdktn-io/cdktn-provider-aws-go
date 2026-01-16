@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspace",
 		reflect.TypeOf((*DataAwsChatbotSlackWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,7 +61,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspaceConfig",
+		"@cdktn/provider-aws.dataAwsChatbotSlackWorkspace.DataAwsChatbotSlackWorkspaceConfig",
 		reflect.TypeOf((*DataAwsChatbotSlackWorkspaceConfig)(nil)).Elem(),
 	)
 }

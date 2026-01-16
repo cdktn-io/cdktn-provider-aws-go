@@ -5,9 +5,9 @@ package devicefarmdevicepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDevicefarmDevicePoolRuleList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_DevicefarmDevicePoolRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDevicefarmDevicePoolRuleList_Override(d DevicefarmDevicePoolRuleList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

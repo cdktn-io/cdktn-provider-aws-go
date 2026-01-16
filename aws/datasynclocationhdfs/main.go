@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfs",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfs",
 		reflect.TypeOf((*DatasyncLocationHdfs)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsConfig",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsConfig",
 		reflect.TypeOf((*DatasyncLocationHdfsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNode",
 		reflect.TypeOf((*DatasyncLocationHdfsNameNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeList",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeList",
 		reflect.TypeOf((*DatasyncLocationHdfsNameNodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
 		reflect.TypeOf((*DatasyncLocationHdfsNameNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfiguration",
 		reflect.TypeOf((*DatasyncLocationHdfsQopConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsQopConfigurationOutputReference",
 		reflect.TypeOf((*DatasyncLocationHdfsQopConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

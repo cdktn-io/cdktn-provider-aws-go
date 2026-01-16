@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGateway",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGateway",
 		reflect.TypeOf((*DataAwsNatGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -96,11 +96,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddress",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddress",
 		reflect.TypeOf((*DataAwsNatGatewayAvailabilityZoneAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressList",
 		reflect.TypeOf((*DataAwsNatGatewayAvailabilityZoneAddressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayAvailabilityZoneAddressOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewayAvailabilityZoneAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationIds", GoGetter: "AllocationIds"},
@@ -156,15 +156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayConfig",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayConfig",
 		reflect.TypeOf((*DataAwsNatGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilter",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilter",
 		reflect.TypeOf((*DataAwsNatGatewayFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterList",
 		reflect.TypeOf((*DataAwsNatGatewayFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -186,7 +186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayFilterOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewayFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddress",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddress",
 		reflect.TypeOf((*DataAwsNatGatewayRegionalNatGatewayAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddressList",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddressList",
 		reflect.TypeOf((*DataAwsNatGatewayRegionalNatGatewayAddressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -247,7 +247,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddressOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayRegionalNatGatewayAddressOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewayRegionalNatGatewayAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationId", GoGetter: "AllocationId"},
@@ -286,11 +286,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayTimeouts",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayTimeouts",
 		reflect.TypeOf((*DataAwsNatGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsNatGateway.DataAwsNatGatewayTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsNatGateway.DataAwsNatGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsNatGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

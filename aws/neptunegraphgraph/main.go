@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraph",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraph",
 		reflect.TypeOf((*NeptunegraphGraph)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphConfig",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphConfig",
 		reflect.TypeOf((*NeptunegraphGraphConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeouts",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeouts",
 		reflect.TypeOf((*NeptunegraphGraphTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphTimeoutsOutputReference",
 		reflect.TypeOf((*NeptunegraphGraphTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfiguration",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfiguration",
 		reflect.TypeOf((*NeptunegraphGraphVectorSearchConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationList",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationList",
 		reflect.TypeOf((*NeptunegraphGraphVectorSearchConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
+		"@cdktn/provider-aws.neptunegraphGraph.NeptunegraphGraphVectorSearchConfigurationOutputReference",
 		reflect.TypeOf((*NeptunegraphGraphVectorSearchConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicy",
 		reflect.TypeOf((*S3ControlAccessGrantsInstanceResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicyConfig",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstanceResourcePolicy.S3ControlAccessGrantsInstanceResourcePolicyConfig",
 		reflect.TypeOf((*S3ControlAccessGrantsInstanceResourcePolicyConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -518,7 +518,7 @@ func NewPipesPipeTargetParametersEcsTaskParametersOutputReference(terraformResou
 	j := jsiiProxy_PipesPipeTargetParametersEcsTaskParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -530,7 +530,7 @@ func NewPipesPipeTargetParametersEcsTaskParametersOutputReference_Override(p Pip
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

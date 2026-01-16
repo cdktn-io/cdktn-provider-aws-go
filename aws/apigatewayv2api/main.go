@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2Api",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2Api",
 		reflect.TypeOf((*Apigatewayv2Api)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2ApiConfig",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2ApiConfig",
 		reflect.TypeOf((*Apigatewayv2ApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfiguration",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfiguration",
 		reflect.TypeOf((*Apigatewayv2ApiCorsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
+		"@cdktn/provider-aws.apigatewayv2Api.Apigatewayv2ApiCorsConfigurationOutputReference",
 		reflect.TypeOf((*Apigatewayv2ApiCorsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowCredentials", GoGetter: "AllowCredentials"},

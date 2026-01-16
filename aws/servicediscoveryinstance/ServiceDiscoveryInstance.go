@@ -5,14 +5,14 @@ package servicediscoveryinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicediscoveryinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicediscoveryinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_instance aws_service_discovery_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_instance aws_service_discovery_instance}.
 type ServiceDiscoveryInstance interface {
 	cdktf.TerraformResource
 	Attributes() *map[string]*string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_ServiceDiscoveryInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) ServiceDiscoveryInstance {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ServiceDiscoveryInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance_Override(s ServiceDiscoveryInstance, scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func ServiceDiscoveryInstance_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func ServiceDiscoveryInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func ServiceDiscoveryInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func ServiceDiscoveryInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func ServiceDiscoveryInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
+		"@cdktn/provider-aws.serviceDiscoveryInstance.ServiceDiscoveryInstance",
 		"tfResourceType",
 		&returns,
 	)

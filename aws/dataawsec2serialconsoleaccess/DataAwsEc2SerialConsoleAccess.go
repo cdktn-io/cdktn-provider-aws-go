@@ -5,14 +5,14 @@ package dataawsec2serialconsoleaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2serialconsoleaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2serialconsoleaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access}.
 type DataAwsEc2SerialConsoleAccess interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsEc2SerialConsoleAccess) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access} Data Source.
 func NewDataAwsEc2SerialConsoleAccess(scope constructs.Construct, id *string, config *DataAwsEc2SerialConsoleAccessConfig) DataAwsEc2SerialConsoleAccess {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsEc2SerialConsoleAccess(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsEc2SerialConsoleAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsEc2SerialConsoleAccess(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_serial_console_access aws_ec2_serial_console_access} Data Source.
 func NewDataAwsEc2SerialConsoleAccess_Override(d DataAwsEc2SerialConsoleAccess, scope constructs.Construct, id *string, config *DataAwsEc2SerialConsoleAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -431,7 +431,7 @@ func DataAwsEc2SerialConsoleAccess_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -466,7 +466,7 @@ func DataAwsEc2SerialConsoleAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -485,7 +485,7 @@ func DataAwsEc2SerialConsoleAccess_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataAwsEc2SerialConsoleAccess_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsEc2SerialConsoleAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
+		"@cdktn/provider-aws.dataAwsEc2SerialConsoleAccess.DataAwsEc2SerialConsoleAccess",
 		"tfResourceType",
 		&returns,
 	)

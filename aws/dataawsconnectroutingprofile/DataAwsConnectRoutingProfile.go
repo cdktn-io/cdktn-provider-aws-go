@@ -5,14 +5,14 @@ package dataawsconnectroutingprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectroutingprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectroutingprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile}.
 type DataAwsConnectRoutingProfile interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_DataAwsConnectRoutingProfile) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile} Data Source.
 func NewDataAwsConnectRoutingProfile(scope constructs.Construct, id *string, config *DataAwsConnectRoutingProfileConfig) DataAwsConnectRoutingProfile {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewDataAwsConnectRoutingProfile(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsConnectRoutingProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewDataAwsConnectRoutingProfile(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_routing_profile aws_connect_routing_profile} Data Source.
 func NewDataAwsConnectRoutingProfile_Override(d DataAwsConnectRoutingProfile, scope constructs.Construct, id *string, config *DataAwsConnectRoutingProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -590,7 +590,7 @@ func DataAwsConnectRoutingProfile_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func DataAwsConnectRoutingProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func DataAwsConnectRoutingProfile_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func DataAwsConnectRoutingProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func DataAwsConnectRoutingProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
+		"@cdktn/provider-aws.dataAwsConnectRoutingProfile.DataAwsConnectRoutingProfile",
 		"tfResourceType",
 		&returns,
 	)

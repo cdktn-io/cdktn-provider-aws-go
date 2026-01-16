@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTable",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTable",
 		reflect.TypeOf((*DefaultRouteTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableConfig",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableConfig",
 		reflect.TypeOf((*DefaultRouteTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableRoute",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableRoute",
 		reflect.TypeOf((*DefaultRouteTableRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableRouteList",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableRouteList",
 		reflect.TypeOf((*DefaultRouteTableRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableRouteOutputReference",
 		reflect.TypeOf((*DefaultRouteTableRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlock", GoGetter: "CidrBlock"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableTimeouts",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableTimeouts",
 		reflect.TypeOf((*DefaultRouteTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.defaultRouteTable.DefaultRouteTableTimeoutsOutputReference",
+		"@cdktn/provider-aws.defaultRouteTable.DefaultRouteTableTimeoutsOutputReference",
 		reflect.TypeOf((*DefaultRouteTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

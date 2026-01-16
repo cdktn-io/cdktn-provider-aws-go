@@ -5,14 +5,14 @@ package docdbclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbclustersnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot}.
 type DocdbClusterSnapshot interface {
 	cdktf.TerraformResource
 	AvailabilityZones() *[]*string
@@ -525,7 +525,7 @@ func (j *jsiiProxy_DocdbClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
 func NewDocdbClusterSnapshot(scope constructs.Construct, id *string, config *DocdbClusterSnapshotConfig) DocdbClusterSnapshot {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDocdbClusterSnapshot(scope constructs.Construct, id *string, config *Doc
 	j := jsiiProxy_DocdbClusterSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -543,12 +543,12 @@ func NewDocdbClusterSnapshot(scope constructs.Construct, id *string, config *Doc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_snapshot aws_docdb_cluster_snapshot} Resource.
 func NewDocdbClusterSnapshot_Override(d DocdbClusterSnapshot, scope constructs.Construct, id *string, config *DocdbClusterSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -676,7 +676,7 @@ func DocdbClusterSnapshot_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -711,7 +711,7 @@ func DocdbClusterSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func DocdbClusterSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func DocdbClusterSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -762,7 +762,7 @@ func DocdbClusterSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
+		"@cdktn/provider-aws.docdbClusterSnapshot.DocdbClusterSnapshot",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package oamsinkpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/oamsinkpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/oamsinkpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink_policy aws_oam_sink_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink_policy aws_oam_sink_policy}.
 type OamSinkPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_OamSinkPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink_policy aws_oam_sink_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink_policy aws_oam_sink_policy} Resource.
 func NewOamSinkPolicy(scope constructs.Construct, id *string, config *OamSinkPolicyConfig) OamSinkPolicy {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewOamSinkPolicy(scope constructs.Construct, id *string, config *OamSinkPol
 	j := jsiiProxy_OamSinkPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewOamSinkPolicy(scope constructs.Construct, id *string, config *OamSinkPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/oam_sink_policy aws_oam_sink_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/oam_sink_policy aws_oam_sink_policy} Resource.
 func NewOamSinkPolicy_Override(o OamSinkPolicy, scope constructs.Construct, id *string, config *OamSinkPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -577,7 +577,7 @@ func OamSinkPolicy_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func OamSinkPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func OamSinkPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func OamSinkPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func OamSinkPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicy",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicy",
 		"tfResourceType",
 		&returns,
 	)

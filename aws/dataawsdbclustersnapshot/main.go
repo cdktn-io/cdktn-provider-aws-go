@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbClusterSnapshot.DataAwsDbClusterSnapshot",
+		"@cdktn/provider-aws.dataAwsDbClusterSnapshot.DataAwsDbClusterSnapshot",
 		reflect.TypeOf((*DataAwsDbClusterSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbClusterSnapshot.DataAwsDbClusterSnapshotConfig",
+		"@cdktn/provider-aws.dataAwsDbClusterSnapshot.DataAwsDbClusterSnapshotConfig",
 		reflect.TypeOf((*DataAwsDbClusterSnapshotConfig)(nil)).Elem(),
 	)
 }

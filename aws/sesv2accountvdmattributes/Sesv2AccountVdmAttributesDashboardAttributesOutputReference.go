@@ -5,9 +5,9 @@ package sesv2accountvdmattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2accountvdmattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2accountvdmattributes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSesv2AccountVdmAttributesDashboardAttributesOutputReference(terraformRes
 	j := jsiiProxy_Sesv2AccountVdmAttributesDashboardAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributesDashboardAttributesOutputReference",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributesDashboardAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSesv2AccountVdmAttributesDashboardAttributesOutputReference_Override(s S
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributesDashboardAttributesOutputReference",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributesDashboardAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

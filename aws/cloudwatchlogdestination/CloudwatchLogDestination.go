@@ -5,14 +5,14 @@ package cloudwatchlogdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchlogdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchlogdestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination}.
 type CloudwatchLogDestination interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CloudwatchLogDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination} Resource.
 func NewCloudwatchLogDestination(scope constructs.Construct, id *string, config *CloudwatchLogDestinationConfig) CloudwatchLogDestination {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewCloudwatchLogDestination(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_CloudwatchLogDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewCloudwatchLogDestination(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_destination aws_cloudwatch_log_destination} Resource.
 func NewCloudwatchLogDestination_Override(c CloudwatchLogDestination, scope constructs.Construct, id *string, config *CloudwatchLogDestinationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -646,7 +646,7 @@ func CloudwatchLogDestination_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func CloudwatchLogDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func CloudwatchLogDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func CloudwatchLogDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func CloudwatchLogDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
+		"@cdktn/provider-aws.cloudwatchLogDestination.CloudwatchLogDestination",
 		"tfResourceType",
 		&returns,
 	)

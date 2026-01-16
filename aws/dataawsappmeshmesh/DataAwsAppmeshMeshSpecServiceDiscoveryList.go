@@ -5,9 +5,9 @@ package dataawsappmeshmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsappmeshmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappmeshmesh/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAppmeshMeshSpecServiceDiscoveryList(terraformResource cdktf.IInte
 	j := jsiiProxy_DataAwsAppmeshMeshSpecServiceDiscoveryList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecServiceDiscoveryList",
+		"@cdktn/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecServiceDiscoveryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAppmeshMeshSpecServiceDiscoveryList_Override(d DataAwsAppmeshMesh
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecServiceDiscoveryList",
+		"@cdktn/provider-aws.dataAwsAppmeshMesh.DataAwsAppmeshMeshSpecServiceDiscoveryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

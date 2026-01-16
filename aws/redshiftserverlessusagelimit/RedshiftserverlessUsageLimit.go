@@ -5,14 +5,14 @@ package redshiftserverlessusagelimit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlessusagelimit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlessusagelimit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit}.
 type RedshiftserverlessUsageLimit interface {
 	cdktf.TerraformResource
 	Amount() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_RedshiftserverlessUsageLimit) UsageTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit} Resource.
 func NewRedshiftserverlessUsageLimit(scope constructs.Construct, id *string, config *RedshiftserverlessUsageLimitConfig) RedshiftserverlessUsageLimit {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewRedshiftserverlessUsageLimit(scope constructs.Construct, id *string, con
 	j := jsiiProxy_RedshiftserverlessUsageLimit{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewRedshiftserverlessUsageLimit(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_usage_limit aws_redshiftserverless_usage_limit} Resource.
 func NewRedshiftserverlessUsageLimit_Override(r RedshiftserverlessUsageLimit, scope constructs.Construct, id *string, config *RedshiftserverlessUsageLimitConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -646,7 +646,7 @@ func RedshiftserverlessUsageLimit_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func RedshiftserverlessUsageLimit_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func RedshiftserverlessUsageLimit_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func RedshiftserverlessUsageLimit_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func RedshiftserverlessUsageLimit_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
+		"@cdktn/provider-aws.redshiftserverlessUsageLimit.RedshiftserverlessUsageLimit",
 		"tfResourceType",
 		&returns,
 	)

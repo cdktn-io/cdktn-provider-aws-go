@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpoint",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpoint",
 		reflect.TypeOf((*VpcEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointConfig",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointConfig",
 		reflect.TypeOf((*VpcEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsEntry",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsEntry",
 		reflect.TypeOf((*VpcEndpointDnsEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsEntryList",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsEntryList",
 		reflect.TypeOf((*VpcEndpointDnsEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsEntryOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsEntryOutputReference",
 		reflect.TypeOf((*VpcEndpointDnsEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsOptions",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsOptions",
 		reflect.TypeOf((*VpcEndpointDnsOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointDnsOptionsOutputReference",
 		reflect.TypeOf((*VpcEndpointDnsOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,8 +224,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "privateDnsOnlyForInboundResolverEndpoint", GoGetter: "PrivateDnsOnlyForInboundResolverEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "privateDnsOnlyForInboundResolverEndpointInput", GoGetter: "PrivateDnsOnlyForInboundResolverEndpointInput"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsPreference", GoGetter: "PrivateDnsPreference"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsPreferenceInput", GoGetter: "PrivateDnsPreferenceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsSpecifiedDomains", GoGetter: "PrivateDnsSpecifiedDomains"},
+			_jsii_.MemberProperty{JsiiProperty: "privateDnsSpecifiedDomainsInput", GoGetter: "PrivateDnsSpecifiedDomainsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDnsRecordIpType", GoMethod: "ResetDnsRecordIpType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivateDnsOnlyForInboundResolverEndpoint", GoMethod: "ResetPrivateDnsOnlyForInboundResolverEndpoint"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrivateDnsPreference", GoMethod: "ResetPrivateDnsPreference"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrivateDnsSpecifiedDomains", GoMethod: "ResetPrivateDnsSpecifiedDomains"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -238,11 +244,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointSubnetConfiguration",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointSubnetConfiguration",
 		reflect.TypeOf((*VpcEndpointSubnetConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointSubnetConfigurationList",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointSubnetConfigurationList",
 		reflect.TypeOf((*VpcEndpointSubnetConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -264,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointSubnetConfigurationOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointSubnetConfigurationOutputReference",
 		reflect.TypeOf((*VpcEndpointSubnetConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -305,11 +311,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointTimeouts",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointTimeouts",
 		reflect.TypeOf((*VpcEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcEndpoint.VpcEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcEndpoint.VpcEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*VpcEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

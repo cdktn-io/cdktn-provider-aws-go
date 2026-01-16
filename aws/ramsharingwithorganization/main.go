@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		reflect.TypeOf((*RamSharingWithOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganizationConfig",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganizationConfig",
 		reflect.TypeOf((*RamSharingWithOrganizationConfig)(nil)).Elem(),
 	)
 }

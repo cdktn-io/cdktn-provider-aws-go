@@ -5,9 +5,9 @@ package emrcontainersvirtualcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrcontainersvirtualcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrcontainersvirtualcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewEmrcontainersVirtualClusterContainerProviderOutputReference(terraformRes
 	j := jsiiProxy_EmrcontainersVirtualClusterContainerProviderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewEmrcontainersVirtualClusterContainerProviderOutputReference_Override(e E
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
+		"@cdktn/provider-aws.emrcontainersVirtualCluster.EmrcontainersVirtualClusterContainerProviderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

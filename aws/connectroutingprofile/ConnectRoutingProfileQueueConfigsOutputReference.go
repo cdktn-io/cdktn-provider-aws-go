@@ -5,9 +5,9 @@ package connectroutingprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectroutingprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectroutingprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -273,7 +273,7 @@ func NewConnectRoutingProfileQueueConfigsOutputReference(terraformResource cdktf
 	j := jsiiProxy_ConnectRoutingProfileQueueConfigsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -285,7 +285,7 @@ func NewConnectRoutingProfileQueueConfigsOutputReference_Override(c ConnectRouti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
+		"@cdktn/provider-aws.connectRoutingProfile.ConnectRoutingProfileQueueConfigsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

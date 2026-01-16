@@ -5,9 +5,9 @@ package xraygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/xraygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/xraygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewXrayGroupInsightsConfigurationOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_XrayGroupInsightsConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
+		"@cdktn/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewXrayGroupInsightsConfigurationOutputReference_Override(x XrayGroupInsigh
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
+		"@cdktn/provider-aws.xrayGroup.XrayGroupInsightsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		x,
 	)

@@ -5,9 +5,9 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputRefer
 	j := jsiiProxy_BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewBedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlowDefinitionNodeConfigurationConditionConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspace",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspace",
 		reflect.TypeOf((*GrafanaWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountAccessType", GoGetter: "AccountAccessType"},
@@ -126,15 +126,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceConfig",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceConfig",
 		reflect.TypeOf((*GrafanaWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceNetworkAccessControl",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceNetworkAccessControl",
 		reflect.TypeOf((*GrafanaWorkspaceNetworkAccessControl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceNetworkAccessControlOutputReference",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceNetworkAccessControlOutputReference",
 		reflect.TypeOf((*GrafanaWorkspaceNetworkAccessControlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceTimeouts",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceTimeouts",
 		reflect.TypeOf((*GrafanaWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*GrafanaWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceVpcConfiguration",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceVpcConfiguration",
 		reflect.TypeOf((*GrafanaWorkspaceVpcConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.grafanaWorkspace.GrafanaWorkspaceVpcConfigurationOutputReference",
+		"@cdktn/provider-aws.grafanaWorkspace.GrafanaWorkspaceVpcConfigurationOutputReference",
 		reflect.TypeOf((*GrafanaWorkspaceVpcConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

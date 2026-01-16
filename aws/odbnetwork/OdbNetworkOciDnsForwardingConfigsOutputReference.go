@@ -5,9 +5,9 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewOdbNetworkOciDnsForwardingConfigsOutputReference(terraformResource cdktf
 	j := jsiiProxy_OdbNetworkOciDnsForwardingConfigsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewOdbNetworkOciDnsForwardingConfigsOutputReference_Override(o OdbNetworkOc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkOciDnsForwardingConfigsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)

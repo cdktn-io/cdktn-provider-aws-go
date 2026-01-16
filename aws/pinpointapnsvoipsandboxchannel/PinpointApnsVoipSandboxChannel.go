@@ -5,14 +5,14 @@ package pinpointapnsvoipsandboxchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointapnsvoipsandboxchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointapnsvoipsandboxchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel}.
 type PinpointApnsVoipSandboxChannel interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_PinpointApnsVoipSandboxChannel) TokenKeyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel} Resource.
 func NewPinpointApnsVoipSandboxChannel(scope constructs.Construct, id *string, config *PinpointApnsVoipSandboxChannelConfig) PinpointApnsVoipSandboxChannel {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewPinpointApnsVoipSandboxChannel(scope constructs.Construct, id *string, c
 	j := jsiiProxy_PinpointApnsVoipSandboxChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -567,12 +567,12 @@ func NewPinpointApnsVoipSandboxChannel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_apns_voip_sandbox_channel aws_pinpoint_apns_voip_sandbox_channel} Resource.
 func NewPinpointApnsVoipSandboxChannel_Override(p PinpointApnsVoipSandboxChannel, scope constructs.Construct, id *string, config *PinpointApnsVoipSandboxChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -777,7 +777,7 @@ func PinpointApnsVoipSandboxChannel_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func PinpointApnsVoipSandboxChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func PinpointApnsVoipSandboxChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func PinpointApnsVoipSandboxChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func PinpointApnsVoipSandboxChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
+		"@cdktn/provider-aws.pinpointApnsVoipSandboxChannel.PinpointApnsVoipSandboxChannel",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		reflect.TypeOf((*DetectiveOrganizationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfigurationConfig",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfigurationConfig",
 		reflect.TypeOf((*DetectiveOrganizationConfigurationConfig)(nil)).Elem(),
 	)
 }

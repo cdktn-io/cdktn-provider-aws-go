@@ -5,14 +5,14 @@ package dataawsmqbrokerinstancetypeofferings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmqbrokerinstancetypeofferings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmqbrokerinstancetypeofferings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings}.
 type DataAwsMqBrokerInstanceTypeOfferings interface {
 	cdktf.TerraformDataSource
 	BrokerInstanceOptions() DataAwsMqBrokerInstanceTypeOfferingsBrokerInstanceOptionsList
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsMqBrokerInstanceTypeOfferings) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings} Data Source.
 func NewDataAwsMqBrokerInstanceTypeOfferings(scope constructs.Construct, id *string, config *DataAwsMqBrokerInstanceTypeOfferingsConfig) DataAwsMqBrokerInstanceTypeOfferings {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsMqBrokerInstanceTypeOfferings(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsMqBrokerInstanceTypeOfferings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsMqBrokerInstanceTypeOfferings(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_instance_type_offerings aws_mq_broker_instance_type_offerings} Data Source.
 func NewDataAwsMqBrokerInstanceTypeOfferings_Override(d DataAwsMqBrokerInstanceTypeOfferings, scope constructs.Construct, id *string, config *DataAwsMqBrokerInstanceTypeOfferingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -512,7 +512,7 @@ func DataAwsMqBrokerInstanceTypeOfferings_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -547,7 +547,7 @@ func DataAwsMqBrokerInstanceTypeOfferings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsMqBrokerInstanceTypeOfferings_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsMqBrokerInstanceTypeOfferings_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsMqBrokerInstanceTypeOfferings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
+		"@cdktn/provider-aws.dataAwsMqBrokerInstanceTypeOfferings.DataAwsMqBrokerInstanceTypeOfferings",
 		"tfResourceType",
 		&returns,
 	)

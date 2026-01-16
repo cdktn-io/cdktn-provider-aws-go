@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		reflect.TypeOf((*DataAwsDbInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "upgradeRolloutOrder", GoGetter: "UpgradeRolloutOrder"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroups", GoGetter: "VpcSecurityGroups"},
 		},
 		func() interface{} {
@@ -108,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceConfig",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceConfig",
 		reflect.TypeOf((*DataAwsDbInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecret",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecret",
 		reflect.TypeOf((*DataAwsDbInstanceMasterUserSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretList",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretList",
 		reflect.TypeOf((*DataAwsDbInstanceMasterUserSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstanceMasterUserSecretOutputReference",
 		reflect.TypeOf((*DataAwsDbInstanceMasterUserSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

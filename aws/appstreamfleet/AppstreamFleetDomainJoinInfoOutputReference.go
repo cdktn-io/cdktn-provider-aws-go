@@ -5,9 +5,9 @@ package appstreamfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appstreamfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamfleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppstreamFleetDomainJoinInfoOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AppstreamFleetDomainJoinInfoOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppstreamFleetDomainJoinInfoOutputReference_Override(a AppstreamFleetDom
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
+		"@cdktn/provider-aws.appstreamFleet.AppstreamFleetDomainJoinInfoOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

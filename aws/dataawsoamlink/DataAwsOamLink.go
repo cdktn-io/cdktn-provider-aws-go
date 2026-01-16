@@ -5,14 +5,14 @@ package dataawsoamlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsoamlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsoamlink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_link aws_oam_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_link aws_oam_link}.
 type DataAwsOamLink interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsOamLink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_link aws_oam_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_link aws_oam_link} Data Source.
 func NewDataAwsOamLink(scope constructs.Construct, id *string, config *DataAwsOamLinkConfig) DataAwsOamLink {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsOamLink(scope constructs.Construct, id *string, config *DataAwsOa
 	j := jsiiProxy_DataAwsOamLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewDataAwsOamLink(scope constructs.Construct, id *string, config *DataAwsOa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/oam_link aws_oam_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/oam_link aws_oam_link} Data Source.
 func NewDataAwsOamLink_Override(d DataAwsOamLink, scope constructs.Construct, id *string, config *DataAwsOamLinkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -542,7 +542,7 @@ func DataAwsOamLink_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func DataAwsOamLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsOamLink_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataAwsOamLink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsOamLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOamLink.DataAwsOamLink",
+		"@cdktn/provider-aws.dataAwsOamLink.DataAwsOamLink",
 		"tfResourceType",
 		&returns,
 	)

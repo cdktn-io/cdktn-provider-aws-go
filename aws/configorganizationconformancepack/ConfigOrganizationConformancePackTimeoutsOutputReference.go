@@ -5,9 +5,9 @@ package configorganizationconformancepack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configorganizationconformancepack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationconformancepack/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewConfigOrganizationConformancePackTimeoutsOutputReference(terraformResour
 	j := jsiiProxy_ConfigOrganizationConformancePackTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewConfigOrganizationConformancePackTimeoutsOutputReference_Override(c Conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
+		"@cdktn/provider-aws.configOrganizationConformancePack.ConfigOrganizationConformancePackTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

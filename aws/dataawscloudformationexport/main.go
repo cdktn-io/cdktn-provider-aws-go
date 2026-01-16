@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudformationExport.DataAwsCloudformationExport",
+		"@cdktn/provider-aws.dataAwsCloudformationExport.DataAwsCloudformationExport",
 		reflect.TypeOf((*DataAwsCloudformationExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudformationExport.DataAwsCloudformationExportConfig",
+		"@cdktn/provider-aws.dataAwsCloudformationExport.DataAwsCloudformationExportConfig",
 		reflect.TypeOf((*DataAwsCloudformationExportConfig)(nil)).Elem(),
 	)
 }

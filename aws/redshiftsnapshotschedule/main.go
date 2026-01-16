@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotSchedule",
 		reflect.TypeOf((*RedshiftSnapshotSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotScheduleConfig",
+		"@cdktn/provider-aws.redshiftSnapshotSchedule.RedshiftSnapshotScheduleConfig",
 		reflect.TypeOf((*RedshiftSnapshotScheduleConfig)(nil)).Elem(),
 	)
 }

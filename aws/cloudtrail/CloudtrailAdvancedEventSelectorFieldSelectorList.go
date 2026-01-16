@@ -5,9 +5,9 @@ package cloudtrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudtrail/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudtrail/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCloudtrailAdvancedEventSelectorFieldSelectorList(terraformResource cdktf
 	j := jsiiProxy_CloudtrailAdvancedEventSelectorFieldSelectorList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelectorList",
+		"@cdktn/provider-aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelectorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCloudtrailAdvancedEventSelectorFieldSelectorList_Override(c CloudtrailAd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelectorList",
+		"@cdktn/provider-aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelectorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

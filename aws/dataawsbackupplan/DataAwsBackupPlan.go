@@ -5,14 +5,14 @@ package dataawsbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_plan aws_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_plan aws_backup_plan}.
 type DataAwsBackupPlan interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAwsBackupPlan) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
 func NewDataAwsBackupPlan(scope constructs.Construct, id *string, config *DataAwsBackupPlanConfig) DataAwsBackupPlan {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAwsBackupPlan(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsBackupPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAwsBackupPlan(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
 func NewDataAwsBackupPlan_Override(d DataAwsBackupPlan, scope constructs.Construct, id *string, config *DataAwsBackupPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAwsBackupPlan_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAwsBackupPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAwsBackupPlan_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsBackupPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsBackupPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
+		"@cdktn/provider-aws.dataAwsBackupPlan.DataAwsBackupPlan",
 		"tfResourceType",
 		&returns,
 	)

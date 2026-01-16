@@ -5,14 +5,14 @@ package dataawsmediaconvertqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmediaconvertqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmediaconvertqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/media_convert_queue aws_media_convert_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/media_convert_queue aws_media_convert_queue}.
 type DataAwsMediaConvertQueue interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsMediaConvertQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/media_convert_queue aws_media_convert_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/media_convert_queue aws_media_convert_queue} Data Source.
 func NewDataAwsMediaConvertQueue(scope constructs.Construct, id *string, config *DataAwsMediaConvertQueueConfig) DataAwsMediaConvertQueue {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAwsMediaConvertQueue(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsMediaConvertQueue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataAwsMediaConvertQueue(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/media_convert_queue aws_media_convert_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/media_convert_queue aws_media_convert_queue} Data Source.
 func NewDataAwsMediaConvertQueue_Override(d DataAwsMediaConvertQueue, scope constructs.Construct, id *string, config *DataAwsMediaConvertQueueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -463,7 +463,7 @@ func DataAwsMediaConvertQueue_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataAwsMediaConvertQueue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataAwsMediaConvertQueue_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataAwsMediaConvertQueue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAwsMediaConvertQueue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		"tfResourceType",
 		&returns,
 	)

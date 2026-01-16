@@ -5,9 +5,9 @@ package comprehenddocumentclassifier
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/comprehenddocumentclassifier/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/comprehenddocumentclassifier/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewComprehendDocumentClassifierVpcConfigOutputReference(terraformResource c
 	j := jsiiProxy_ComprehendDocumentClassifierVpcConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfigOutputReference",
+		"@cdktn/provider-aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewComprehendDocumentClassifierVpcConfigOutputReference_Override(c Comprehe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfigOutputReference",
+		"@cdktn/provider-aws.comprehendDocumentClassifier.ComprehendDocumentClassifierVpcConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,14 +5,14 @@ package codebuildproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildproject/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_project aws_codebuild_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_project aws_codebuild_project}.
 type CodebuildProject interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -962,7 +962,7 @@ func (j *jsiiProxy_CodebuildProject) VpcConfigInput() *CodebuildProjectVpcConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
 func NewCodebuildProject(scope constructs.Construct, id *string, config *CodebuildProjectConfig) CodebuildProject {
 	_init_.Initialize()
 
@@ -972,7 +972,7 @@ func NewCodebuildProject(scope constructs.Construct, id *string, config *Codebui
 	j := jsiiProxy_CodebuildProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -980,12 +980,12 @@ func NewCodebuildProject(scope constructs.Construct, id *string, config *Codebui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
 func NewCodebuildProject_Override(c CodebuildProject, scope constructs.Construct, id *string, config *CodebuildProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1245,7 +1245,7 @@ func CodebuildProject_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1280,7 +1280,7 @@ func CodebuildProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1299,7 +1299,7 @@ func CodebuildProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1318,7 +1318,7 @@ func CodebuildProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1331,7 +1331,7 @@ func CodebuildProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codebuildProject.CodebuildProject",
+		"@cdktn/provider-aws.codebuildProject.CodebuildProject",
 		"tfResourceType",
 		&returns,
 	)

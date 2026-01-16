@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEcrPullThroughCacheRule.DataAwsEcrPullThroughCacheRule",
+		"@cdktn/provider-aws.dataAwsEcrPullThroughCacheRule.DataAwsEcrPullThroughCacheRule",
 		reflect.TypeOf((*DataAwsEcrPullThroughCacheRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEcrPullThroughCacheRule.DataAwsEcrPullThroughCacheRuleConfig",
+		"@cdktn/provider-aws.dataAwsEcrPullThroughCacheRule.DataAwsEcrPullThroughCacheRuleConfig",
 		reflect.TypeOf((*DataAwsEcrPullThroughCacheRuleConfig)(nil)).Elem(),
 	)
 }

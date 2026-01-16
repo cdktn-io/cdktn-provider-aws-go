@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerification",
 		reflect.TypeOf((*SesDomainIdentityVerification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationConfig",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationConfig",
 		reflect.TypeOf((*SesDomainIdentityVerificationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationTimeouts",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationTimeouts",
 		reflect.TypeOf((*SesDomainIdentityVerificationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationTimeoutsOutputReference",
+		"@cdktn/provider-aws.sesDomainIdentityVerification.SesDomainIdentityVerificationTimeoutsOutputReference",
 		reflect.TypeOf((*SesDomainIdentityVerificationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

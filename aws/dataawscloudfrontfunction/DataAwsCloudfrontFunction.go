@@ -5,14 +5,14 @@ package dataawscloudfrontfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudfrontfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_function aws_cloudfront_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_function aws_cloudfront_function}.
 type DataAwsCloudfrontFunction interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAwsCloudfrontFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
 func NewDataAwsCloudfrontFunction(scope constructs.Construct, id *string, config *DataAwsCloudfrontFunctionConfig) DataAwsCloudfrontFunction {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataAwsCloudfrontFunction(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsCloudfrontFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -417,12 +417,12 @@ func NewDataAwsCloudfrontFunction(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
 func NewDataAwsCloudfrontFunction_Override(d DataAwsCloudfrontFunction, scope constructs.Construct, id *string, config *DataAwsCloudfrontFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -517,7 +517,7 @@ func DataAwsCloudfrontFunction_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsCloudfrontFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsCloudfrontFunction_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -590,7 +590,7 @@ func DataAwsCloudfrontFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAwsCloudfrontFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
+		"@cdktn/provider-aws.dataAwsCloudfrontFunction.DataAwsCloudfrontFunction",
 		"tfResourceType",
 		&returns,
 	)

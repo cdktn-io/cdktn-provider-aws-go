@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersion",
 		reflect.TypeOf((*LambdaLayerVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaLayerVersion.LambdaLayerVersionConfig",
+		"@cdktn/provider-aws.lambdaLayerVersion.LambdaLayerVersionConfig",
 		reflect.TypeOf((*LambdaLayerVersionConfig)(nil)).Elem(),
 	)
 }

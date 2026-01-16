@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftBuild.GameliftBuild",
+		"@cdktn/provider-aws.gameliftBuild.GameliftBuild",
 		reflect.TypeOf((*GameliftBuild)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftBuild.GameliftBuildConfig",
+		"@cdktn/provider-aws.gameliftBuild.GameliftBuildConfig",
 		reflect.TypeOf((*GameliftBuildConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.gameliftBuild.GameliftBuildStorageLocation",
+		"@cdktn/provider-aws.gameliftBuild.GameliftBuildStorageLocation",
 		reflect.TypeOf((*GameliftBuildStorageLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.gameliftBuild.GameliftBuildStorageLocationOutputReference",
+		"@cdktn/provider-aws.gameliftBuild.GameliftBuildStorageLocationOutputReference",
 		reflect.TypeOf((*GameliftBuildStorageLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},

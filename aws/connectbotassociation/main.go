@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectBotAssociation.ConnectBotAssociation",
+		"@cdktn/provider-aws.connectBotAssociation.ConnectBotAssociation",
 		reflect.TypeOf((*ConnectBotAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectBotAssociation.ConnectBotAssociationConfig",
+		"@cdktn/provider-aws.connectBotAssociation.ConnectBotAssociationConfig",
 		reflect.TypeOf((*ConnectBotAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectBotAssociation.ConnectBotAssociationLexBot",
+		"@cdktn/provider-aws.connectBotAssociation.ConnectBotAssociationLexBot",
 		reflect.TypeOf((*ConnectBotAssociationLexBot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectBotAssociation.ConnectBotAssociationLexBotOutputReference",
+		"@cdktn/provider-aws.connectBotAssociation.ConnectBotAssociationLexBotOutputReference",
 		reflect.TypeOf((*ConnectBotAssociationLexBotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

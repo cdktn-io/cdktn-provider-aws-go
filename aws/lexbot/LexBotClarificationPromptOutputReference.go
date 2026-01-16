@@ -5,9 +5,9 @@ package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewLexBotClarificationPromptOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_LexBotClarificationPromptOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotClarificationPromptOutputReference",
+		"@cdktn/provider-aws.lexBot.LexBotClarificationPromptOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewLexBotClarificationPromptOutputReference_Override(l LexBotClarificationP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotClarificationPromptOutputReference",
+		"@cdktn/provider-aws.lexBot.LexBotClarificationPromptOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

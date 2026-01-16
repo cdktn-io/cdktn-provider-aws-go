@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTermination",
 		reflect.TypeOf((*ChimeVoiceConnectorTermination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTerminationConfig",
+		"@cdktn/provider-aws.chimeVoiceConnectorTermination.ChimeVoiceConnectorTerminationConfig",
 		reflect.TypeOf((*ChimeVoiceConnectorTerminationConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package qbusinessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/qbusinessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qbusinessapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewQbusinessApplicationEncryptionConfigurationList(terraformResource cdktf.
 	j := jsiiProxy_QbusinessApplicationEncryptionConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewQbusinessApplicationEncryptionConfigurationList_Override(q QbusinessAppl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
+		"@cdktn/provider-aws.qbusinessApplication.QbusinessApplicationEncryptionConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		q,
 	)

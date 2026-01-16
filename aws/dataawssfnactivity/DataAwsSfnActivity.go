@@ -5,14 +5,14 @@ package dataawssfnactivity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssfnactivity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssfnactivity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_activity aws_sfn_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_activity aws_sfn_activity}.
 type DataAwsSfnActivity interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsSfnActivity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
 func NewDataAwsSfnActivity(scope constructs.Construct, id *string, config *DataAwsSfnActivityConfig) DataAwsSfnActivity {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAwsSfnActivity(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsSfnActivity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAwsSfnActivity(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
 func NewDataAwsSfnActivity_Override(d DataAwsSfnActivity, scope constructs.Construct, id *string, config *DataAwsSfnActivityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataAwsSfnActivity_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataAwsSfnActivity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataAwsSfnActivity_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAwsSfnActivity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsSfnActivity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
+		"@cdktn/provider-aws.dataAwsSfnActivity.DataAwsSfnActivity",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package backupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBackupSelectionSelectionTagList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_BackupSelectionSelectionTagList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionSelectionTagList",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionSelectionTagList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBackupSelectionSelectionTagList_Override(b BackupSelectionSelectionTagLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupSelection.BackupSelectionSelectionTagList",
+		"@cdktn/provider-aws.backupSelection.BackupSelectionSelectionTagList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

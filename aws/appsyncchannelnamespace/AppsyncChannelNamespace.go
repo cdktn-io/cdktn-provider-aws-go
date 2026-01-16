@@ -5,14 +5,14 @@ package appsyncchannelnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncchannelnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncchannelnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace}.
 type AppsyncChannelNamespace interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_AppsyncChannelNamespace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace} Resource.
 func NewAppsyncChannelNamespace(scope constructs.Construct, id *string, config *AppsyncChannelNamespaceConfig) AppsyncChannelNamespace {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewAppsyncChannelNamespace(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AppsyncChannelNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewAppsyncChannelNamespace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_channel_namespace aws_appsync_channel_namespace} Resource.
 func NewAppsyncChannelNamespace_Override(a AppsyncChannelNamespace, scope constructs.Construct, id *string, config *AppsyncChannelNamespaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -660,7 +660,7 @@ func AppsyncChannelNamespace_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func AppsyncChannelNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func AppsyncChannelNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func AppsyncChannelNamespace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func AppsyncChannelNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
+		"@cdktn/provider-aws.appsyncChannelNamespace.AppsyncChannelNamespace",
 		"tfResourceType",
 		&returns,
 	)

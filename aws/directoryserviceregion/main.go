@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegion",
 		reflect.TypeOf((*DirectoryServiceRegion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionConfig",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionConfig",
 		reflect.TypeOf((*DirectoryServiceRegionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeouts",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeouts",
 		reflect.TypeOf((*DirectoryServiceRegionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionTimeoutsOutputReference",
 		reflect.TypeOf((*DirectoryServiceRegionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionVpcSettings",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionVpcSettings",
 		reflect.TypeOf((*DirectoryServiceRegionVpcSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.directoryServiceRegion.DirectoryServiceRegionVpcSettingsOutputReference",
+		"@cdktn/provider-aws.directoryServiceRegion.DirectoryServiceRegionVpcSettingsOutputReference",
 		reflect.TypeOf((*DirectoryServiceRegionVpcSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

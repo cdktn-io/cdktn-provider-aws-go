@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRule.WafRule",
+		"@cdktn/provider-aws.wafRule.WafRule",
 		reflect.TypeOf((*WafRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafRule.WafRuleConfig",
+		"@cdktn/provider-aws.wafRule.WafRuleConfig",
 		reflect.TypeOf((*WafRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafRule.WafRulePredicates",
+		"@cdktn/provider-aws.wafRule.WafRulePredicates",
 		reflect.TypeOf((*WafRulePredicates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRule.WafRulePredicatesList",
+		"@cdktn/provider-aws.wafRule.WafRulePredicatesList",
 		reflect.TypeOf((*WafRulePredicatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafRule.WafRulePredicatesOutputReference",
+		"@cdktn/provider-aws.wafRule.WafRulePredicatesOutputReference",
 		reflect.TypeOf((*WafRulePredicatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

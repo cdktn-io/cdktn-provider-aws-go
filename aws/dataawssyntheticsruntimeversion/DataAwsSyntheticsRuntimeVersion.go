@@ -5,14 +5,14 @@ package dataawssyntheticsruntimeversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssyntheticsruntimeversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssyntheticsruntimeversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version}.
 type DataAwsSyntheticsRuntimeVersion interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersion) VersionName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
 func NewDataAwsSyntheticsRuntimeVersion(scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionConfig) DataAwsSyntheticsRuntimeVersion {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAwsSyntheticsRuntimeVersion(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAwsSyntheticsRuntimeVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAwsSyntheticsRuntimeVersion(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/synthetics_runtime_version aws_synthetics_runtime_version} Data Source.
 func NewDataAwsSyntheticsRuntimeVersion_Override(d DataAwsSyntheticsRuntimeVersion, scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAwsSyntheticsRuntimeVersion_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAwsSyntheticsRuntimeVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAwsSyntheticsRuntimeVersion_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsSyntheticsRuntimeVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAwsSyntheticsRuntimeVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
+		"@cdktn/provider-aws.dataAwsSyntheticsRuntimeVersion.DataAwsSyntheticsRuntimeVersion",
 		"tfResourceType",
 		&returns,
 	)

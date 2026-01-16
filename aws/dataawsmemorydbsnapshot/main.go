@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshot",
+		"@cdktn/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshot",
 		reflect.TypeOf((*DataAwsMemorydbSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,11 +71,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfiguration",
+		"@cdktn/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfiguration",
 		reflect.TypeOf((*DataAwsMemorydbSnapshotClusterConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfigurationList",
+		"@cdktn/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfigurationList",
 		reflect.TypeOf((*DataAwsMemorydbSnapshotClusterConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfigurationOutputReference",
+		"@cdktn/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotClusterConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsMemorydbSnapshotClusterConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,7 +142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotConfig",
+		"@cdktn/provider-aws.dataAwsMemorydbSnapshot.DataAwsMemorydbSnapshotConfig",
 		reflect.TypeOf((*DataAwsMemorydbSnapshotConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetAction",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetAction",
 		reflect.TypeOf((*BudgetsBudgetAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -101,11 +101,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThreshold",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThreshold",
 		reflect.TypeOf((*BudgetsBudgetActionActionThreshold)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionActionThresholdOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionActionThresholdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionThresholdType", GoGetter: "ActionThresholdType"},
@@ -141,19 +141,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionConfig",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionConfig",
 		reflect.TypeOf((*BudgetsBudgetActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinition",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinition",
 		reflect.TypeOf((*BudgetsBudgetActionDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinition",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinition",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionIamActionDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,11 +240,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionScpActionDefinition",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionScpActionDefinition",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionScpActionDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionScpActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionScpActionDefinitionOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionScpActionDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -280,11 +280,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinition",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinition",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionSsmActionDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionSubType", GoGetter: "ActionSubType"},
@@ -322,11 +322,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber",
 		reflect.TypeOf((*BudgetsBudgetActionSubscriber)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriberList",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriberList",
 		reflect.TypeOf((*BudgetsBudgetActionSubscriberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -348,7 +348,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriberOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionSubscriberOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionSubscriberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -384,11 +384,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionTimeouts",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionTimeouts",
 		reflect.TypeOf((*BudgetsBudgetActionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.budgetsBudgetAction.BudgetsBudgetActionTimeoutsOutputReference",
+		"@cdktn/provider-aws.budgetsBudgetAction.BudgetsBudgetActionTimeoutsOutputReference",
 		reflect.TypeOf((*BudgetsBudgetActionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

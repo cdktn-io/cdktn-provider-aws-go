@@ -5,14 +5,14 @@ package appmeshvirtualrouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshvirtualrouter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router}.
 type AppmeshVirtualRouter interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_AppmeshVirtualRouter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
 func NewAppmeshVirtualRouter(scope constructs.Construct, id *string, config *AppmeshVirtualRouterConfig) AppmeshVirtualRouter {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewAppmeshVirtualRouter(scope constructs.Construct, id *string, config *App
 	j := jsiiProxy_AppmeshVirtualRouter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewAppmeshVirtualRouter(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
 func NewAppmeshVirtualRouter_Override(a AppmeshVirtualRouter, scope constructs.Construct, id *string, config *AppmeshVirtualRouterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -703,7 +703,7 @@ func AppmeshVirtualRouter_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func AppmeshVirtualRouter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func AppmeshVirtualRouter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func AppmeshVirtualRouter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func AppmeshVirtualRouter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
+		"@cdktn/provider-aws.appmeshVirtualRouter.AppmeshVirtualRouter",
 		"tfResourceType",
 		&returns,
 	)

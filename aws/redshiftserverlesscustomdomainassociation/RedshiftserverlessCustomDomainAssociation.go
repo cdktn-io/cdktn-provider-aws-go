@@ -5,14 +5,14 @@ package redshiftserverlesscustomdomainassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlesscustomdomainassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlesscustomdomainassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association}.
 type RedshiftserverlessCustomDomainAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_RedshiftserverlessCustomDomainAssociation) WorkgroupNameInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
 func NewRedshiftserverlessCustomDomainAssociation(scope constructs.Construct, id *string, config *RedshiftserverlessCustomDomainAssociationConfig) RedshiftserverlessCustomDomainAssociation {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewRedshiftserverlessCustomDomainAssociation(scope constructs.Construct, id
 	j := jsiiProxy_RedshiftserverlessCustomDomainAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewRedshiftserverlessCustomDomainAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_custom_domain_association aws_redshiftserverless_custom_domain_association} Resource.
 func NewRedshiftserverlessCustomDomainAssociation_Override(r RedshiftserverlessCustomDomainAssociation, scope constructs.Construct, id *string, config *RedshiftserverlessCustomDomainAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -552,7 +552,7 @@ func RedshiftserverlessCustomDomainAssociation_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func RedshiftserverlessCustomDomainAssociation_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func RedshiftserverlessCustomDomainAssociation_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func RedshiftserverlessCustomDomainAssociation_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func RedshiftserverlessCustomDomainAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
+		"@cdktn/provider-aws.redshiftserverlessCustomDomainAssociation.RedshiftserverlessCustomDomainAssociation",
 		"tfResourceType",
 		&returns,
 	)

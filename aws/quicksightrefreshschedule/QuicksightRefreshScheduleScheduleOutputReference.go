@@ -5,9 +5,9 @@ package quicksightrefreshschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightrefreshschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightrefreshschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewQuicksightRefreshScheduleScheduleOutputReference(terraformResource cdktf
 	j := jsiiProxy_QuicksightRefreshScheduleScheduleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleOutputReference",
+		"@cdktn/provider-aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewQuicksightRefreshScheduleScheduleOutputReference_Override(q QuicksightRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleOutputReference",
+		"@cdktn/provider-aws.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		q,
 	)

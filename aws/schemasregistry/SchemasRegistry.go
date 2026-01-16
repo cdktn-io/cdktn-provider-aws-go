@@ -5,14 +5,14 @@ package schemasregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/schemasregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schemasregistry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry aws_schemas_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry}.
 type SchemasRegistry interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SchemasRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasRegistryConfig) SchemasRegistry {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasR
 	j := jsiiProxy_SchemasRegistry{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry_Override(s SchemasRegistry, scope constructs.Construct, id *string, config *SchemasRegistryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SchemasRegistry_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SchemasRegistry_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SchemasRegistry_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SchemasRegistry_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SchemasRegistry_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.schemasRegistry.SchemasRegistry",
+		"@cdktn/provider-aws.schemasRegistry.SchemasRegistry",
 		"tfResourceType",
 		&returns,
 	)

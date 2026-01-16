@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgent",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgent",
 		reflect.TypeOf((*DatasyncAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationKey", GoGetter: "ActivationKey"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgentConfig",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgentConfig",
 		reflect.TypeOf((*DatasyncAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgentTimeouts",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgentTimeouts",
 		reflect.TypeOf((*DatasyncAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
+		"@cdktn/provider-aws.datasyncAgent.DatasyncAgentTimeoutsOutputReference",
 		reflect.TypeOf((*DatasyncAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

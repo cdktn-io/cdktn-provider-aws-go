@@ -5,9 +5,9 @@ package elasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheserverlesscache/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheserverlesscache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewElasticacheServerlessCacheCacheUsageLimitsList(terraformResource cdktf.I
 	j := jsiiProxy_ElasticacheServerlessCacheCacheUsageLimitsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewElasticacheServerlessCacheCacheUsageLimitsList_Override(e ElasticacheSer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
+		"@cdktn/provider-aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

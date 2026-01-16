@@ -5,14 +5,14 @@ package cognitouserpooldomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpooldomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpooldomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain}.
 type CognitoUserPoolDomain interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_CognitoUserPoolDomain) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain} Resource.
 func NewCognitoUserPoolDomain(scope constructs.Construct, id *string, config *CognitoUserPoolDomainConfig) CognitoUserPoolDomain {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewCognitoUserPoolDomain(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_CognitoUserPoolDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -512,12 +512,12 @@ func NewCognitoUserPoolDomain(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool_domain aws_cognito_user_pool_domain} Resource.
 func NewCognitoUserPoolDomain_Override(c CognitoUserPoolDomain, scope constructs.Construct, id *string, config *CognitoUserPoolDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -667,7 +667,7 @@ func CognitoUserPoolDomain_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -702,7 +702,7 @@ func CognitoUserPoolDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func CognitoUserPoolDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func CognitoUserPoolDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func CognitoUserPoolDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
+		"@cdktn/provider-aws.cognitoUserPoolDomain.CognitoUserPoolDomain",
 		"tfResourceType",
 		&returns,
 	)

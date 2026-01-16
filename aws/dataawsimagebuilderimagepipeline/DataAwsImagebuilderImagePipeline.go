@@ -5,14 +5,14 @@ package dataawsimagebuilderimagepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsimagebuilderimagepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsimagebuilderimagepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
 type DataAwsImagebuilderImagePipeline interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DataAwsImagebuilderImagePipeline) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Data Source.
 func NewDataAwsImagebuilderImagePipeline(scope constructs.Construct, id *string, config *DataAwsImagebuilderImagePipelineConfig) DataAwsImagebuilderImagePipeline {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewDataAwsImagebuilderImagePipeline(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataAwsImagebuilderImagePipeline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewDataAwsImagebuilderImagePipeline(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Data Source.
 func NewDataAwsImagebuilderImagePipeline_Override(d DataAwsImagebuilderImagePipeline, scope constructs.Construct, id *string, config *DataAwsImagebuilderImagePipelineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -641,7 +641,7 @@ func DataAwsImagebuilderImagePipeline_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -676,7 +676,7 @@ func DataAwsImagebuilderImagePipeline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func DataAwsImagebuilderImagePipeline_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func DataAwsImagebuilderImagePipeline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func DataAwsImagebuilderImagePipeline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
+		"@cdktn/provider-aws.dataAwsImagebuilderImagePipeline.DataAwsImagebuilderImagePipeline",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package appsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -278,7 +278,7 @@ func NewAppsyncDatasourceDynamodbConfigOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_AppsyncDatasourceDynamodbConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewAppsyncDatasourceDynamodbConfigOutputReference_Override(a AppsyncDatasou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

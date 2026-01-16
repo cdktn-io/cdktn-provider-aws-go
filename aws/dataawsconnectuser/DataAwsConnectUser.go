@@ -5,14 +5,14 @@ package dataawsconnectuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsconnectuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_user aws_connect_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_user aws_connect_user}.
 type DataAwsConnectUser interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_DataAwsConnectUser) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_user aws_connect_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_user aws_connect_user} Data Source.
 func NewDataAwsConnectUser(scope constructs.Construct, id *string, config *DataAwsConnectUserConfig) DataAwsConnectUser {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDataAwsConnectUser(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsConnectUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewDataAwsConnectUser(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/connect_user aws_connect_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_user aws_connect_user} Data Source.
 func NewDataAwsConnectUser_Override(d DataAwsConnectUser, scope constructs.Construct, id *string, config *DataAwsConnectUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -612,7 +612,7 @@ func DataAwsConnectUser_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func DataAwsConnectUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func DataAwsConnectUser_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func DataAwsConnectUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func DataAwsConnectUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTarget",
 		reflect.TypeOf((*CloudwatchEventTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetAppsyncTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetAppsyncTarget",
 		reflect.TypeOf((*CloudwatchEventTargetAppsyncTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetAppsyncTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetAppsyncTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetAppsyncTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTarget",
 		reflect.TypeOf((*CloudwatchEventTargetBatchTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetBatchTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetBatchTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arraySize", GoGetter: "ArraySize"},
@@ -224,15 +224,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetConfig",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetConfig",
 		reflect.TypeOf((*CloudwatchEventTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetDeadLetterConfig",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetDeadLetterConfig",
 		reflect.TypeOf((*CloudwatchEventTargetDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetDeadLetterConfigOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -267,15 +267,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTarget",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategy",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategy",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetCapacityProviderStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategyList",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategyList",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetCapacityProviderStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "base", GoGetter: "Base"},
@@ -337,11 +337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetNetworkConfiguration",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetNetworkConfiguration",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIp", GoGetter: "AssignPublicIp"},
@@ -381,11 +381,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategy",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategy",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetOrderedPlacementStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategyList",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategyList",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetOrderedPlacementStrategyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -407,7 +407,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -444,7 +444,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategy", GoGetter: "CapacityProviderStrategy"},
@@ -518,11 +518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraint",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraint",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetPlacementConstraint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraintList",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraintList",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetPlacementConstraintList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -544,7 +544,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -581,11 +581,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetHttpTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetHttpTarget",
 		reflect.TypeOf((*CloudwatchEventTargetHttpTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetHttpTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetHttpTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetHttpTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -626,11 +626,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformer",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformer",
 		reflect.TypeOf((*CloudwatchEventTargetInputTransformer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformerOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetInputTransformerOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetInputTransformerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -667,11 +667,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTarget",
 		reflect.TypeOf((*CloudwatchEventTargetKinesisTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetKinesisTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetKinesisTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -706,11 +706,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRedshiftTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRedshiftTarget",
 		reflect.TypeOf((*CloudwatchEventTargetRedshiftTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRedshiftTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRedshiftTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetRedshiftTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -759,11 +759,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRetryPolicy",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRetryPolicy",
 		reflect.TypeOf((*CloudwatchEventTargetRetryPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRetryPolicyOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRetryPolicyOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetRetryPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -801,11 +801,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargets",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargets",
 		reflect.TypeOf((*CloudwatchEventTargetRunCommandTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargetsList",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargetsList",
 		reflect.TypeOf((*CloudwatchEventTargetRunCommandTargetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -827,7 +827,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargetsOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetRunCommandTargetsOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetRunCommandTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -863,11 +863,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTarget",
 		reflect.TypeOf((*CloudwatchEventTargetSagemakerPipelineTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetSagemakerPipelineTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -903,11 +903,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct",
 		reflect.TypeOf((*CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList",
 		reflect.TypeOf((*CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -929,7 +929,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -965,11 +965,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTarget",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTarget",
 		reflect.TypeOf((*CloudwatchEventTargetSqsTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTargetOutputReference",
+		"@cdktn/provider-aws.cloudwatchEventTarget.CloudwatchEventTargetSqsTargetOutputReference",
 		reflect.TypeOf((*CloudwatchEventTargetSqsTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

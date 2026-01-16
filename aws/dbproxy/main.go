@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		reflect.TypeOf((*DbProxy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -29,6 +29,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "defaultAuthSchemeInput", GoGetter: "DefaultAuthSchemeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointNetworkType", GoGetter: "EndpointNetworkType"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointNetworkTypeInput", GoGetter: "EndpointNetworkTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "engineFamily", GoGetter: "EngineFamily"},
 			_jsii_.MemberProperty{JsiiProperty: "engineFamilyInput", GoGetter: "EngineFamilyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
@@ -70,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAuth", GoMethod: "ResetAuth"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDebugLogging", GoMethod: "ResetDebugLogging"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultAuthScheme", GoMethod: "ResetDefaultAuthScheme"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEndpointNetworkType", GoMethod: "ResetEndpointNetworkType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIdleClientTimeout", GoMethod: "ResetIdleClientTimeout"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -77,6 +80,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRequireTls", GoMethod: "ResetRequireTls"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetConnectionNetworkType", GoMethod: "ResetTargetConnectionNetworkType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcSecurityGroupIds", GoMethod: "ResetVpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
@@ -87,6 +91,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tagsAll", GoGetter: "TagsAll"},
 			_jsii_.MemberProperty{JsiiProperty: "tagsAllInput", GoGetter: "TagsAllInput"},
 			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "targetConnectionNetworkType", GoGetter: "TargetConnectionNetworkType"},
+			_jsii_.MemberProperty{JsiiProperty: "targetConnectionNetworkTypeInput", GoGetter: "TargetConnectionNetworkTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
@@ -108,11 +114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxy.DbProxyAuth",
+		"@cdktn/provider-aws.dbProxy.DbProxyAuth",
 		reflect.TypeOf((*DbProxyAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxy.DbProxyAuthList",
+		"@cdktn/provider-aws.dbProxy.DbProxyAuthList",
 		reflect.TypeOf((*DbProxyAuthList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxy.DbProxyAuthOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyAuthOutputReference",
 		reflect.TypeOf((*DbProxyAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authScheme", GoGetter: "AuthScheme"},
@@ -184,15 +190,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxy.DbProxyConfig",
+		"@cdktn/provider-aws.dbProxy.DbProxyConfig",
 		reflect.TypeOf((*DbProxyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbProxy.DbProxyTimeouts",
+		"@cdktn/provider-aws.dbProxy.DbProxyTimeouts",
 		reflect.TypeOf((*DbProxyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbProxy.DbProxyTimeoutsOutputReference",
 		reflect.TypeOf((*DbProxyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

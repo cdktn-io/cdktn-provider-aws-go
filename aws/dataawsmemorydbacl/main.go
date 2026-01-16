@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAcl",
 		reflect.TypeOf((*DataAwsMemorydbAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAclConfig",
+		"@cdktn/provider-aws.dataAwsMemorydbAcl.DataAwsMemorydbAclConfig",
 		reflect.TypeOf((*DataAwsMemorydbAclConfig)(nil)).Elem(),
 	)
 }

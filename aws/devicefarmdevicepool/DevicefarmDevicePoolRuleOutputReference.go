@@ -5,9 +5,9 @@ package devicefarmdevicepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devicefarmdevicepool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDevicefarmDevicePoolRuleOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DevicefarmDevicePoolRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDevicefarmDevicePoolRuleOutputReference_Override(d DevicefarmDevicePoolR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
+		"@cdktn/provider-aws.devicefarmDevicePool.DevicefarmDevicePoolRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

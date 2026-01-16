@@ -5,9 +5,9 @@ package macie2invitationaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/macie2invitationaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2invitationaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewMacie2InvitationAccepterTimeoutsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_Macie2InvitationAccepterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewMacie2InvitationAccepterTimeoutsOutputReference_Override(m Macie2Invitat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2InvitationAccepter.Macie2InvitationAccepterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

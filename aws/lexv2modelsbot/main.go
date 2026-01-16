@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBot",
 		reflect.TypeOf((*Lexv2ModelsBot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotConfig",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotConfig",
 		reflect.TypeOf((*Lexv2ModelsBotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy",
 		reflect.TypeOf((*Lexv2ModelsBotDataPrivacy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyList",
 		reflect.TypeOf((*Lexv2ModelsBotDataPrivacyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacyOutputReference",
 		reflect.TypeOf((*Lexv2ModelsBotDataPrivacyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "childDirected", GoGetter: "ChildDirected"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembers",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembers",
 		reflect.TypeOf((*Lexv2ModelsBotMembers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembersList",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembersList",
 		reflect.TypeOf((*Lexv2ModelsBotMembersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -189,7 +189,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembersOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotMembersOutputReference",
 		reflect.TypeOf((*Lexv2ModelsBotMembersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aliasId", GoGetter: "AliasId"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeouts",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeouts",
 		reflect.TypeOf((*Lexv2ModelsBotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsBot.Lexv2ModelsBotTimeoutsOutputReference",
 		reflect.TypeOf((*Lexv2ModelsBotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

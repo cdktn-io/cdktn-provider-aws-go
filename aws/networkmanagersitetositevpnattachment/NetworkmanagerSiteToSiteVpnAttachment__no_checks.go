@@ -119,6 +119,10 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetProvisioner
 	return nil
 }
 
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetRoutingPolicyLabelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

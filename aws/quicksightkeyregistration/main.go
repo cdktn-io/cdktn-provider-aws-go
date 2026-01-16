@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		reflect.TypeOf((*QuicksightKeyRegistration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationConfig",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationConfig",
 		reflect.TypeOf((*QuicksightKeyRegistrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistration",
 		reflect.TypeOf((*QuicksightKeyRegistrationKeyRegistration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistrationList",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistrationList",
 		reflect.TypeOf((*QuicksightKeyRegistrationKeyRegistrationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistrationOutputReference",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistrationOutputReference",
 		reflect.TypeOf((*QuicksightKeyRegistrationKeyRegistrationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package mainroutetableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mainroutetableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mainroutetableassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/main_route_table_association aws_main_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association}.
 type MainRouteTableAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_MainRouteTableAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
 func NewMainRouteTableAssociation(scope constructs.Construct, id *string, config *MainRouteTableAssociationConfig) MainRouteTableAssociation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewMainRouteTableAssociation(scope constructs.Construct, id *string, config
 	j := jsiiProxy_MainRouteTableAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewMainRouteTableAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
 func NewMainRouteTableAssociation_Override(m MainRouteTableAssociation, scope constructs.Construct, id *string, config *MainRouteTableAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -566,7 +566,7 @@ func MainRouteTableAssociation_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func MainRouteTableAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func MainRouteTableAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func MainRouteTableAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func MainRouteTableAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
+		"@cdktn/provider-aws.mainRouteTableAssociation.MainRouteTableAssociation",
 		"tfResourceType",
 		&returns,
 	)

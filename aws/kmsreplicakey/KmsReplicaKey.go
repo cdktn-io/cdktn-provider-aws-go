@@ -5,14 +5,14 @@ package kmsreplicakey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kmsreplicakey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsreplicakey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_replica_key aws_kms_replica_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key}.
 type KmsReplicaKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_KmsReplicaKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) KmsReplicaKey {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplica
 	j := jsiiProxy_KmsReplicaKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -598,12 +598,12 @@ func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey_Override(k KmsReplicaKey, scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -797,7 +797,7 @@ func KmsReplicaKey_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -832,7 +832,7 @@ func KmsReplicaKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func KmsReplicaKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func KmsReplicaKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func KmsReplicaKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.kmsReplicaKey.KmsReplicaKey",
+		"@cdktn/provider-aws.kmsReplicaKey.KmsReplicaKey",
 		"tfResourceType",
 		&returns,
 	)

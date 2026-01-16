@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.notificationsNotificationHub.NotificationsNotificationHub",
+		"@cdktn/provider-aws.notificationsNotificationHub.NotificationsNotificationHub",
 		reflect.TypeOf((*NotificationsNotificationHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.notificationsNotificationHub.NotificationsNotificationHubConfig",
+		"@cdktn/provider-aws.notificationsNotificationHub.NotificationsNotificationHubConfig",
 		reflect.TypeOf((*NotificationsNotificationHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.notificationsNotificationHub.NotificationsNotificationHubTimeouts",
+		"@cdktn/provider-aws.notificationsNotificationHub.NotificationsNotificationHubTimeouts",
 		reflect.TypeOf((*NotificationsNotificationHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.notificationsNotificationHub.NotificationsNotificationHubTimeoutsOutputReference",
+		"@cdktn/provider-aws.notificationsNotificationHub.NotificationsNotificationHubTimeoutsOutputReference",
 		reflect.TypeOf((*NotificationsNotificationHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.spotDatafeedSubscription.SpotDatafeedSubscription",
+		"@cdktn/provider-aws.spotDatafeedSubscription.SpotDatafeedSubscription",
 		reflect.TypeOf((*SpotDatafeedSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.spotDatafeedSubscription.SpotDatafeedSubscriptionConfig",
+		"@cdktn/provider-aws.spotDatafeedSubscription.SpotDatafeedSubscriptionConfig",
 		reflect.TypeOf((*SpotDatafeedSubscriptionConfig)(nil)).Elem(),
 	)
 }

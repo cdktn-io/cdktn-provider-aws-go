@@ -5,9 +5,9 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -663,7 +663,7 @@ func NewQuicksightDataSourceParametersOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_QuicksightDataSourceParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSourceParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSourceParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -675,7 +675,7 @@ func NewQuicksightDataSourceParametersOutputReference_Override(q QuicksightDataS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSource.QuicksightDataSourceParametersOutputReference",
+		"@cdktn/provider-aws.quicksightDataSource.QuicksightDataSourceParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfiguration",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfiguration",
 		reflect.TypeOf((*S3BucketCorsConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationConfig",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationConfig",
 		reflect.TypeOf((*S3BucketCorsConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRule",
 		reflect.TypeOf((*S3BucketCorsConfigurationCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleList",
 		reflect.TypeOf((*S3BucketCorsConfigurationCorsRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,7 +107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleOutputReference",
+		"@cdktn/provider-aws.s3BucketCorsConfiguration.S3BucketCorsConfigurationCorsRuleOutputReference",
 		reflect.TypeOf((*S3BucketCorsConfigurationCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},

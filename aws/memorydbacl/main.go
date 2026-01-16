@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAcl",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAcl",
 		reflect.TypeOf((*MemorydbAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbAcl.MemorydbAclConfig",
+		"@cdktn/provider-aws.memorydbAcl.MemorydbAclConfig",
 		reflect.TypeOf((*MemorydbAclConfig)(nil)).Elem(),
 	)
 }

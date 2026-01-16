@@ -5,14 +5,14 @@ package sesv2accountvdmattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2accountvdmattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2accountvdmattributes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}.
 type Sesv2AccountVdmAttributes interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_Sesv2AccountVdmAttributes) VdmEnabledInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
 func NewSesv2AccountVdmAttributes(scope constructs.Construct, id *string, config *Sesv2AccountVdmAttributesConfig) Sesv2AccountVdmAttributes {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewSesv2AccountVdmAttributes(scope constructs.Construct, id *string, config
 	j := jsiiProxy_Sesv2AccountVdmAttributes{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewSesv2AccountVdmAttributes(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
 func NewSesv2AccountVdmAttributes_Override(s Sesv2AccountVdmAttributes, scope constructs.Construct, id *string, config *Sesv2AccountVdmAttributesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -545,7 +545,7 @@ func Sesv2AccountVdmAttributes_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -580,7 +580,7 @@ func Sesv2AccountVdmAttributes_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -599,7 +599,7 @@ func Sesv2AccountVdmAttributes_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func Sesv2AccountVdmAttributes_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func Sesv2AccountVdmAttributes_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
+		"@cdktn/provider-aws.sesv2AccountVdmAttributes.Sesv2AccountVdmAttributes",
 		"tfResourceType",
 		&returns,
 	)

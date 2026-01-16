@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestriction",
 		reflect.TypeOf((*QuicksightIpRestriction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightIpRestriction.QuicksightIpRestrictionConfig",
+		"@cdktn/provider-aws.quicksightIpRestriction.QuicksightIpRestrictionConfig",
 		reflect.TypeOf((*QuicksightIpRestrictionConfig)(nil)).Elem(),
 	)
 }

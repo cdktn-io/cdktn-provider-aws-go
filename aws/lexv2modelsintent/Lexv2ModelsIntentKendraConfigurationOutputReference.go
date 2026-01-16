@@ -5,9 +5,9 @@ package lexv2modelsintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsintent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewLexv2ModelsIntentKendraConfigurationOutputReference(terraformResource cd
 	j := jsiiProxy_Lexv2ModelsIntentKendraConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfigurationOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewLexv2ModelsIntentKendraConfigurationOutputReference_Override(l Lexv2Mode
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfigurationOutputReference",
+		"@cdktn/provider-aws.lexv2ModelsIntent.Lexv2ModelsIntentKendraConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		l,
 	)

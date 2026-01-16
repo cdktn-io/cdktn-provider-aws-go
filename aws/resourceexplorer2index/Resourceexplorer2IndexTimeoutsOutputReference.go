@@ -5,9 +5,9 @@ package resourceexplorer2index
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourceexplorer2index/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2index/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewResourceexplorer2IndexTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_Resourceexplorer2IndexTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewResourceexplorer2IndexTimeoutsOutputReference_Override(r Resourceexplore
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2IndexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

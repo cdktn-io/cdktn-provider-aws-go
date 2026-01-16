@@ -5,9 +5,9 @@ package pinpointapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPinpointAppQuietTimeOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_PinpointAppQuietTimeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApp.PinpointAppQuietTimeOutputReference",
+		"@cdktn/provider-aws.pinpointApp.PinpointAppQuietTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPinpointAppQuietTimeOutputReference_Override(p PinpointAppQuietTimeOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointApp.PinpointAppQuietTimeOutputReference",
+		"@cdktn/provider-aws.pinpointApp.PinpointAppQuietTimeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

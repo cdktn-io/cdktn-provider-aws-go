@@ -5,9 +5,9 @@ package dataawsinternetgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsinternetgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsinternetgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsInternetGatewayFilterList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DataAwsInternetGatewayFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInternetGateway.DataAwsInternetGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsInternetGateway.DataAwsInternetGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsInternetGatewayFilterList_Override(d DataAwsInternetGatewayFilter
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsInternetGateway.DataAwsInternetGatewayFilterList",
+		"@cdktn/provider-aws.dataAwsInternetGateway.DataAwsInternetGatewayFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

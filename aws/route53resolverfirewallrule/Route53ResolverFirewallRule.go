@@ -5,14 +5,14 @@ package route53resolverfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverfirewallrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule}.
 type Route53ResolverFirewallRule interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -32,6 +32,9 @@ type Route53ResolverFirewallRule interface {
 	BlockResponseInput() *string
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	ConfidenceThreshold() *string
+	SetConfidenceThreshold(val *string)
+	ConfidenceThresholdInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,6 +49,9 @@ type Route53ResolverFirewallRule interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DnsThreatProtection() *string
+	SetDnsThreatProtection(val *string)
+	DnsThreatProtectionInput() *string
 	FirewallDomainListId() *string
 	SetFirewallDomainListId(val *string)
 	FirewallDomainListIdInput() *string
@@ -55,6 +61,7 @@ type Route53ResolverFirewallRule interface {
 	FirewallRuleGroupId() *string
 	SetFirewallRuleGroupId(val *string)
 	FirewallRuleGroupIdInput() *string
+	FirewallThreatProtectionId() *string
 	// Experimental.
 	ForEach() cdktf.ITerraformIterator
 	// Experimental.
@@ -147,6 +154,9 @@ type Route53ResolverFirewallRule interface {
 	ResetBlockOverrideDomain()
 	ResetBlockOverrideTtl()
 	ResetBlockResponse()
+	ResetConfidenceThreshold()
+	ResetDnsThreatProtection()
+	ResetFirewallDomainListId()
 	ResetFirewallDomainRedirectionAction()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -282,6 +292,26 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) CdktfStack() cdktf.TerraformStac
 	return returns
 }
 
+func (j *jsiiProxy_Route53ResolverFirewallRule) ConfidenceThreshold() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confidenceThreshold",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule) ConfidenceThresholdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confidenceThresholdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Route53ResolverFirewallRule) Connection() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -317,6 +347,26 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule) DnsThreatProtection() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dnsThreatProtection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule) DnsThreatProtectionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dnsThreatProtectionInput",
 		&returns,
 	)
 	return returns
@@ -377,6 +427,16 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) FirewallRuleGroupIdInput() *stri
 	_jsii_.Get(
 		j,
 		"firewallRuleGroupIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule) FirewallThreatProtectionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firewallThreatProtectionId",
 		&returns,
 	)
 	return returns
@@ -593,7 +653,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRule) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule} Resource.
 func NewRoute53ResolverFirewallRule(scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleConfig) Route53ResolverFirewallRule {
 	_init_.Initialize()
 
@@ -603,7 +663,7 @@ func NewRoute53ResolverFirewallRule(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_Route53ResolverFirewallRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +671,12 @@ func NewRoute53ResolverFirewallRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_rule aws_route53_resolver_firewall_rule} Resource.
 func NewRoute53ResolverFirewallRule_Override(r Route53ResolverFirewallRule, scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -677,6 +737,17 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetBlockResponse(val *string) {
 	)
 }
 
+func (j *jsiiProxy_Route53ResolverFirewallRule)SetConfidenceThreshold(val *string) {
+	if err := j.validateSetConfidenceThresholdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"confidenceThreshold",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Route53ResolverFirewallRule)SetConnection(val interface{}) {
 	if err := j.validateSetConnectionParameters(val); err != nil {
 		panic(err)
@@ -703,6 +774,17 @@ func (j *jsiiProxy_Route53ResolverFirewallRule)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Route53ResolverFirewallRule)SetDnsThreatProtection(val *string) {
+	if err := j.validateSetDnsThreatProtectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dnsThreatProtection",
 		val,
 	)
 }
@@ -843,7 +925,7 @@ func Route53ResolverFirewallRule_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +960,7 @@ func Route53ResolverFirewallRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +979,7 @@ func Route53ResolverFirewallRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +998,7 @@ func Route53ResolverFirewallRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +1011,7 @@ func Route53ResolverFirewallRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
+		"@cdktn/provider-aws.route53ResolverFirewallRule.Route53ResolverFirewallRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -1214,6 +1296,30 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) ResetBlockResponse() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetBlockResponse",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Route53ResolverFirewallRule) ResetConfidenceThreshold() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetConfidenceThreshold",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Route53ResolverFirewallRule) ResetDnsThreatProtection() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetDnsThreatProtection",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Route53ResolverFirewallRule) ResetFirewallDomainListId() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetFirewallDomainListId",
 		nil, // no parameters
 	)
 }

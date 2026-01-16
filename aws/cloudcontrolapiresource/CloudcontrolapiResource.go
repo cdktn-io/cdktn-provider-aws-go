@@ -5,14 +5,14 @@ package cloudcontrolapiresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudcontrolapiresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudcontrolapiresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource}.
 type CloudcontrolapiResource interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_CloudcontrolapiResource) TypeVersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
 func NewCloudcontrolapiResource(scope constructs.Construct, id *string, config *CloudcontrolapiResourceConfig) CloudcontrolapiResource {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewCloudcontrolapiResource(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CloudcontrolapiResource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -505,12 +505,12 @@ func NewCloudcontrolapiResource(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudcontrolapi_resource aws_cloudcontrolapi_resource} Resource.
 func NewCloudcontrolapiResource_Override(c CloudcontrolapiResource, scope constructs.Construct, id *string, config *CloudcontrolapiResourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -671,7 +671,7 @@ func CloudcontrolapiResource_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func CloudcontrolapiResource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func CloudcontrolapiResource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func CloudcontrolapiResource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func CloudcontrolapiResource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
+		"@cdktn/provider-aws.cloudcontrolapiResource.CloudcontrolapiResource",
 		"tfResourceType",
 		&returns,
 	)

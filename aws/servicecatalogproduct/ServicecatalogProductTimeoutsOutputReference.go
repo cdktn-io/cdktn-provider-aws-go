@@ -5,9 +5,9 @@ package servicecatalogproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicecatalogproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewServicecatalogProductTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_ServicecatalogProductTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProductTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProductTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewServicecatalogProductTimeoutsOutputReference_Override(s ServicecatalogPr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicecatalogProduct.ServicecatalogProductTimeoutsOutputReference",
+		"@cdktn/provider-aws.servicecatalogProduct.ServicecatalogProductTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,9 +5,9 @@ package gluetrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluetrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluetrigger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewGlueTriggerTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_GlueTriggerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewGlueTriggerTimeoutsOutputReference_Override(g GlueTriggerTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

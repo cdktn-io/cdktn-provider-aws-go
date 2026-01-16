@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationLfTag.LakeformationLfTag",
+		"@cdktn/provider-aws.lakeformationLfTag.LakeformationLfTag",
 		reflect.TypeOf((*LakeformationLfTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationLfTag.LakeformationLfTagConfig",
+		"@cdktn/provider-aws.lakeformationLfTag.LakeformationLfTagConfig",
 		reflect.TypeOf((*LakeformationLfTagConfig)(nil)).Elem(),
 	)
 }

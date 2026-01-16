@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfig",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfig",
 		reflect.TypeOf((*DevopsguruEventSourcesConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,19 +71,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigConfig",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigConfig",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSources",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSources",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfiler)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerOutputReference",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerOutputReference",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesList",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesList",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
+		"@cdktn/provider-aws.devopsguruEventSourcesConfig.DevopsguruEventSourcesConfigEventSourcesOutputReference",
 		reflect.TypeOf((*DevopsguruEventSourcesConfigEventSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonCodeGuruProfiler", GoGetter: "AmazonCodeGuruProfiler"},

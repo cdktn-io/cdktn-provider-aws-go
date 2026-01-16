@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		reflect.TypeOf((*Route53ResolverDnssecConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfigConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfigConfig",
 		reflect.TypeOf((*Route53ResolverDnssecConfigConfig)(nil)).Elem(),
 	)
 }

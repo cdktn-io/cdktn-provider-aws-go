@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRule",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRule",
 		reflect.TypeOf((*CodestarnotificationsNotificationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig",
 		reflect.TypeOf((*CodestarnotificationsNotificationRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTarget",
 		reflect.TypeOf((*CodestarnotificationsNotificationRuleTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
 		reflect.TypeOf((*CodestarnotificationsNotificationRuleTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetOutputReference",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetOutputReference",
 		reflect.TypeOf((*CodestarnotificationsNotificationRuleTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},

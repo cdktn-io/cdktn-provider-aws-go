@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueSchema.GlueSchema",
+		"@cdktn/provider-aws.glueSchema.GlueSchema",
 		reflect.TypeOf((*GlueSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueSchema.GlueSchemaConfig",
+		"@cdktn/provider-aws.glueSchema.GlueSchemaConfig",
 		reflect.TypeOf((*GlueSchemaConfig)(nil)).Elem(),
 	)
 }

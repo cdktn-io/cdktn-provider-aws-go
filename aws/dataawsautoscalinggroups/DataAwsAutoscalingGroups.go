@@ -5,14 +5,14 @@ package dataawsautoscalinggroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsautoscalinggroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsautoscalinggroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups}.
 type DataAwsAutoscalingGroups interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsAutoscalingGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups} Data Source.
 func NewDataAwsAutoscalingGroups(scope constructs.Construct, id *string, config *DataAwsAutoscalingGroupsConfig) DataAwsAutoscalingGroups {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAwsAutoscalingGroups(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsAutoscalingGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAwsAutoscalingGroups(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/autoscaling_groups aws_autoscaling_groups} Data Source.
 func NewDataAwsAutoscalingGroups_Override(d DataAwsAutoscalingGroups, scope constructs.Construct, id *string, config *DataAwsAutoscalingGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -466,7 +466,7 @@ func DataAwsAutoscalingGroups_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsAutoscalingGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func DataAwsAutoscalingGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAwsAutoscalingGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsAutoscalingGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroups",
 		"tfResourceType",
 		&returns,
 	)

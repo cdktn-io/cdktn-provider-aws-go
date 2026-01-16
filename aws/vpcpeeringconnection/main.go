@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnection",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnection",
 		reflect.TypeOf((*VpcPeeringConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accepter", GoGetter: "Accepter"},
@@ -101,11 +101,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionAccepter",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionAccepter",
 		reflect.TypeOf((*VpcPeeringConnectionAccepter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionAccepterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionAccepterOutputReference",
 		reflect.TypeOf((*VpcPeeringConnectionAccepterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowRemoteVpcDnsResolution", GoGetter: "AllowRemoteVpcDnsResolution"},
@@ -140,15 +140,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionConfig",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionConfig",
 		reflect.TypeOf((*VpcPeeringConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionRequester",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionRequester",
 		reflect.TypeOf((*VpcPeeringConnectionRequester)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionRequesterOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionRequesterOutputReference",
 		reflect.TypeOf((*VpcPeeringConnectionRequesterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowRemoteVpcDnsResolution", GoGetter: "AllowRemoteVpcDnsResolution"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionTimeouts",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionTimeouts",
 		reflect.TypeOf((*VpcPeeringConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcPeeringConnection.VpcPeeringConnectionTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcPeeringConnection.VpcPeeringConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*VpcPeeringConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.docdbSubnetGroup.DocdbSubnetGroup",
+		"@cdktn/provider-aws.docdbSubnetGroup.DocdbSubnetGroup",
 		reflect.TypeOf((*DocdbSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.docdbSubnetGroup.DocdbSubnetGroupConfig",
+		"@cdktn/provider-aws.docdbSubnetGroup.DocdbSubnetGroupConfig",
 		reflect.TypeOf((*DocdbSubnetGroupConfig)(nil)).Elem(),
 	)
 }

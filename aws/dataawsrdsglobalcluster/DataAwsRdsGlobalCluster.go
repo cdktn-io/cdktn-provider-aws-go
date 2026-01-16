@@ -5,14 +5,14 @@ package dataawsrdsglobalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsrdsglobalcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdsglobalcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster}.
 type DataAwsRdsGlobalCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -409,7 +409,7 @@ func (j *jsiiProxy_DataAwsRdsGlobalCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster} Data Source.
 func NewDataAwsRdsGlobalCluster(scope constructs.Construct, id *string, config *DataAwsRdsGlobalClusterConfig) DataAwsRdsGlobalCluster {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewDataAwsRdsGlobalCluster(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsRdsGlobalCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,12 +427,12 @@ func NewDataAwsRdsGlobalCluster(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_global_cluster aws_rds_global_cluster} Data Source.
 func NewDataAwsRdsGlobalCluster_Override(d DataAwsRdsGlobalCluster, scope constructs.Construct, id *string, config *DataAwsRdsGlobalClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -516,7 +516,7 @@ func DataAwsRdsGlobalCluster_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -551,7 +551,7 @@ func DataAwsRdsGlobalCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsRdsGlobalCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -589,7 +589,7 @@ func DataAwsRdsGlobalCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -602,7 +602,7 @@ func DataAwsRdsGlobalCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
+		"@cdktn/provider-aws.dataAwsRdsGlobalCluster.DataAwsRdsGlobalCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannel",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannel",
 		reflect.TypeOf((*MediaPackageChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,19 +82,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelConfig",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelConfig",
 		reflect.TypeOf((*MediaPackageChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngest",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngest",
 		reflect.TypeOf((*MediaPackageChannelHlsIngest)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpoints",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpoints",
 		reflect.TypeOf((*MediaPackageChannelHlsIngestIngestEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpointsList",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpointsList",
 		reflect.TypeOf((*MediaPackageChannelHlsIngestIngestEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpointsOutputReference",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestIngestEndpointsOutputReference",
 		reflect.TypeOf((*MediaPackageChannelHlsIngestIngestEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,7 +150,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestList",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestList",
 		reflect.TypeOf((*MediaPackageChannelHlsIngestList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
 		reflect.TypeOf((*MediaPackageChannelHlsIngestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

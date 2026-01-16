@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		reflect.TypeOf((*DataAwsCognitoUserGroups)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsConfig",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsConfig",
 		reflect.TypeOf((*DataAwsCognitoUserGroupsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroups",
 		reflect.TypeOf((*DataAwsCognitoUserGroupsGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroupsList",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroupsList",
 		reflect.TypeOf((*DataAwsCognitoUserGroupsGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroupsOutputReference",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroupsGroupsOutputReference",
 		reflect.TypeOf((*DataAwsCognitoUserGroupsGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

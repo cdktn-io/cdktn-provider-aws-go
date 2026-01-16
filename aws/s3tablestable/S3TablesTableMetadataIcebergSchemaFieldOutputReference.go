@@ -5,9 +5,9 @@ package s3tablestable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewS3TablesTableMetadataIcebergSchemaFieldOutputReference(terraformResource
 	j := jsiiProxy_S3TablesTableMetadataIcebergSchemaFieldOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaFieldOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaFieldOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewS3TablesTableMetadataIcebergSchemaFieldOutputReference_Override(s S3Tabl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaFieldOutputReference",
+		"@cdktn/provider-aws.s3TablesTable.S3TablesTableMetadataIcebergSchemaFieldOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

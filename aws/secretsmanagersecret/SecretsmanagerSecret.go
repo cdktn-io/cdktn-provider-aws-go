@@ -5,14 +5,14 @@ package secretsmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/secretsmanagersecret/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/secretsmanagersecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret}.
 type SecretsmanagerSecret interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -585,7 +585,7 @@ func (j *jsiiProxy_SecretsmanagerSecret) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
 func NewSecretsmanagerSecret(scope constructs.Construct, id *string, config *SecretsmanagerSecretConfig) SecretsmanagerSecret {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewSecretsmanagerSecret(scope constructs.Construct, id *string, config *Sec
 	j := jsiiProxy_SecretsmanagerSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -603,12 +603,12 @@ func NewSecretsmanagerSecret(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
 func NewSecretsmanagerSecret_Override(s SecretsmanagerSecret, scope constructs.Construct, id *string, config *SecretsmanagerSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -813,7 +813,7 @@ func SecretsmanagerSecret_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -848,7 +848,7 @@ func SecretsmanagerSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -867,7 +867,7 @@ func SecretsmanagerSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func SecretsmanagerSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -899,7 +899,7 @@ func SecretsmanagerSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		"tfResourceType",
 		&returns,
 	)

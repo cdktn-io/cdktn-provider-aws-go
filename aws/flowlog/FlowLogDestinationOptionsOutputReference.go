@@ -5,9 +5,9 @@ package flowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/flowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/flowlog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFlowLogDestinationOptionsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_FlowLogDestinationOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
+		"@cdktn/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFlowLogDestinationOptionsOutputReference_Override(f FlowLogDestinationOp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
+		"@cdktn/provider-aws.flowLog.FlowLogDestinationOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

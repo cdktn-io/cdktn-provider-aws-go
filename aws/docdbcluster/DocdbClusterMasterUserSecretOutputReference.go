@@ -5,9 +5,9 @@ package docdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/docdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDocdbClusterMasterUserSecretOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DocdbClusterMasterUserSecretOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDocdbClusterMasterUserSecretOutputReference_Override(d DocdbClusterMaste
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
+		"@cdktn/provider-aws.docdbCluster.DocdbClusterMasterUserSecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

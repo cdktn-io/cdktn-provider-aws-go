@@ -5,14 +5,14 @@ package dataawsimagebuilderdistributionconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsimagebuilderdistributionconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsimagebuilderdistributionconfigurations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations}.
 type DataAwsImagebuilderDistributionConfigurations interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAwsImagebuilderDistributionConfigurations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations} Data Source.
 func NewDataAwsImagebuilderDistributionConfigurations(scope constructs.Construct, id *string, config *DataAwsImagebuilderDistributionConfigurationsConfig) DataAwsImagebuilderDistributionConfigurations {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAwsImagebuilderDistributionConfigurations(scope constructs.Construct
 	j := jsiiProxy_DataAwsImagebuilderDistributionConfigurations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAwsImagebuilderDistributionConfigurations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/imagebuilder_distribution_configurations aws_imagebuilder_distribution_configurations} Data Source.
 func NewDataAwsImagebuilderDistributionConfigurations_Override(d DataAwsImagebuilderDistributionConfigurations, scope constructs.Construct, id *string, config *DataAwsImagebuilderDistributionConfigurationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataAwsImagebuilderDistributionConfigurations_GenerateConfigForImport(scope
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataAwsImagebuilderDistributionConfigurations_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataAwsImagebuilderDistributionConfigurations_IsTerraformDataSource(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsImagebuilderDistributionConfigurations_IsTerraformElement(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsImagebuilderDistributionConfigurations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
+		"@cdktn/provider-aws.dataAwsImagebuilderDistributionConfigurations.DataAwsImagebuilderDistributionConfigurations",
 		"tfResourceType",
 		&returns,
 	)

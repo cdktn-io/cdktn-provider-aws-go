@@ -5,9 +5,9 @@ package resourcegroupsgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourcegroupsgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourcegroupsgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewResourcegroupsGroupConfigurationOutputReference(terraformResource cdktf.
 	j := jsiiProxy_ResourcegroupsGroupConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewResourcegroupsGroupConfigurationOutputReference_Override(r Resourcegroup
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
+		"@cdktn/provider-aws.resourcegroupsGroup.ResourcegroupsGroupConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

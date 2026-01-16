@@ -5,14 +5,14 @@ package pinpointsmschannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointsmschannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointsmschannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel}.
 type PinpointSmsChannel interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_PinpointSmsChannel) TransactionalMessagesPerSecond() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel} Resource.
 func NewPinpointSmsChannel(scope constructs.Construct, id *string, config *PinpointSmsChannelConfig) PinpointSmsChannel {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewPinpointSmsChannel(scope constructs.Construct, id *string, config *Pinpo
 	j := jsiiProxy_PinpointSmsChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewPinpointSmsChannel(scope constructs.Construct, id *string, config *Pinpo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_sms_channel aws_pinpoint_sms_channel} Resource.
 func NewPinpointSmsChannel_Override(p PinpointSmsChannel, scope constructs.Construct, id *string, config *PinpointSmsChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -624,7 +624,7 @@ func PinpointSmsChannel_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func PinpointSmsChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func PinpointSmsChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func PinpointSmsChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func PinpointSmsChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
+		"@cdktn/provider-aws.pinpointSmsChannel.PinpointSmsChannel",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawslicensemanagerreceivedlicense
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslicensemanagerreceivedlicense/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslicensemanagerreceivedlicense/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license}.
 type DataAwsLicensemanagerReceivedLicense interface {
 	cdktf.TerraformDataSource
 	Beneficiary() *string
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicense) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license} Data Source.
 func NewDataAwsLicensemanagerReceivedLicense(scope constructs.Construct, id *string, config *DataAwsLicensemanagerReceivedLicenseConfig) DataAwsLicensemanagerReceivedLicense {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewDataAwsLicensemanagerReceivedLicense(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAwsLicensemanagerReceivedLicense{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -484,12 +484,12 @@ func NewDataAwsLicensemanagerReceivedLicense(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/licensemanager_received_license aws_licensemanager_received_license} Data Source.
 func NewDataAwsLicensemanagerReceivedLicense_Override(d DataAwsLicensemanagerReceivedLicense, scope constructs.Construct, id *string, config *DataAwsLicensemanagerReceivedLicenseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -584,7 +584,7 @@ func DataAwsLicensemanagerReceivedLicense_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -619,7 +619,7 @@ func DataAwsLicensemanagerReceivedLicense_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAwsLicensemanagerReceivedLicense_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func DataAwsLicensemanagerReceivedLicense_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -670,7 +670,7 @@ func DataAwsLicensemanagerReceivedLicense_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
+		"@cdktn/provider-aws.dataAwsLicensemanagerReceivedLicense.DataAwsLicensemanagerReceivedLicense",
 		"tfResourceType",
 		&returns,
 	)

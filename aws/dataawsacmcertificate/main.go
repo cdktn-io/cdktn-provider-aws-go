@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsAcmCertificate.DataAwsAcmCertificate",
+		"@cdktn/provider-aws.dataAwsAcmCertificate.DataAwsAcmCertificate",
 		reflect.TypeOf((*DataAwsAcmCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsAcmCertificate.DataAwsAcmCertificateConfig",
+		"@cdktn/provider-aws.dataAwsAcmCertificate.DataAwsAcmCertificateConfig",
 		reflect.TypeOf((*DataAwsAcmCertificateConfig)(nil)).Elem(),
 	)
 }

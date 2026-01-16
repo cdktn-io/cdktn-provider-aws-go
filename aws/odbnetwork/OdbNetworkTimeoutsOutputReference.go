@@ -5,9 +5,9 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOdbNetworkTimeoutsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_OdbNetworkTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOdbNetworkTimeoutsOutputReference_Override(o OdbNetworkTimeoutsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

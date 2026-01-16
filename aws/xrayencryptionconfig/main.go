@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfig",
 		reflect.TypeOf((*XrayEncryptionConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.xrayEncryptionConfig.XrayEncryptionConfigConfig",
+		"@cdktn/provider-aws.xrayEncryptionConfig.XrayEncryptionConfigConfig",
 		reflect.TypeOf((*XrayEncryptionConfigConfig)(nil)).Elem(),
 	)
 }

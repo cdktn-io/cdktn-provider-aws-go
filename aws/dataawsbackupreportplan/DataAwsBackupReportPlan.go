@@ -5,14 +5,14 @@ package dataawsbackupreportplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_report_plan aws_backup_report_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_report_plan aws_backup_report_plan}.
 type DataAwsBackupReportPlan interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsBackupReportPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_report_plan aws_backup_report_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_report_plan aws_backup_report_plan} Data Source.
 func NewDataAwsBackupReportPlan(scope constructs.Construct, id *string, config *DataAwsBackupReportPlanConfig) DataAwsBackupReportPlan {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsBackupReportPlan(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsBackupReportPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAwsBackupReportPlan(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/backup_report_plan aws_backup_report_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/backup_report_plan aws_backup_report_plan} Data Source.
 func NewDataAwsBackupReportPlan_Override(d DataAwsBackupReportPlan, scope constructs.Construct, id *string, config *DataAwsBackupReportPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAwsBackupReportPlan_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAwsBackupReportPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAwsBackupReportPlan_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAwsBackupReportPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsBackupReportPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlan",
 		"tfResourceType",
 		&returns,
 	)

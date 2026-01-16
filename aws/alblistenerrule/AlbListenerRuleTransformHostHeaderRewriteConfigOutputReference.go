@@ -5,9 +5,9 @@ package alblistenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alblistenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alblistenerrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewAlbListenerRuleTransformHostHeaderRewriteConfigOutputReference(terraform
 	j := jsiiProxy_AlbListenerRuleTransformHostHeaderRewriteConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleTransformHostHeaderRewriteConfigOutputReference",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleTransformHostHeaderRewriteConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewAlbListenerRuleTransformHostHeaderRewriteConfigOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.albListenerRule.AlbListenerRuleTransformHostHeaderRewriteConfigOutputReference",
+		"@cdktn/provider-aws.albListenerRule.AlbListenerRuleTransformHostHeaderRewriteConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -5,14 +5,14 @@ package ebssnapshotblockpublicaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebssnapshotblockpublicaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebssnapshotblockpublicaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access}.
 type EbsSnapshotBlockPublicAccess interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_EbsSnapshotBlockPublicAccess) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
 func NewEbsSnapshotBlockPublicAccess(scope constructs.Construct, id *string, config *EbsSnapshotBlockPublicAccessConfig) EbsSnapshotBlockPublicAccess {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewEbsSnapshotBlockPublicAccess(scope constructs.Construct, id *string, con
 	j := jsiiProxy_EbsSnapshotBlockPublicAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewEbsSnapshotBlockPublicAccess(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_snapshot_block_public_access aws_ebs_snapshot_block_public_access} Resource.
 func NewEbsSnapshotBlockPublicAccess_Override(e EbsSnapshotBlockPublicAccess, scope constructs.Construct, id *string, config *EbsSnapshotBlockPublicAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -497,7 +497,7 @@ func EbsSnapshotBlockPublicAccess_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func EbsSnapshotBlockPublicAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func EbsSnapshotBlockPublicAccess_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func EbsSnapshotBlockPublicAccess_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func EbsSnapshotBlockPublicAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
+		"@cdktn/provider-aws.ebsSnapshotBlockPublicAccess.EbsSnapshotBlockPublicAccess",
 		"tfResourceType",
 		&returns,
 	)

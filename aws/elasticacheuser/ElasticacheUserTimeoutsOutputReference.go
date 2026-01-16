@@ -5,9 +5,9 @@ package elasticacheuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewElasticacheUserTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_ElasticacheUserTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewElasticacheUserTimeoutsOutputReference_Override(e ElasticacheUserTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUserTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

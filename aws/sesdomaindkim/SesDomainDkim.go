@@ -5,14 +5,14 @@ package sesdomaindkim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesdomaindkim/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesdomaindkim/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim}.
 type SesDomainDkim interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_SesDomainDkim) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
 func NewSesDomainDkim(scope constructs.Construct, id *string, config *SesDomainDkimConfig) SesDomainDkim {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewSesDomainDkim(scope constructs.Construct, id *string, config *SesDomainD
 	j := jsiiProxy_SesDomainDkim{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewSesDomainDkim(scope constructs.Construct, id *string, config *SesDomainD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
 func NewSesDomainDkim_Override(s SesDomainDkim, scope constructs.Construct, id *string, config *SesDomainDkimConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -508,7 +508,7 @@ func SesDomainDkim_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func SesDomainDkim_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func SesDomainDkim_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func SesDomainDkim_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func SesDomainDkim_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesDomainDkim.SesDomainDkim",
+		"@cdktn/provider-aws.sesDomainDkim.SesDomainDkim",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transcribeVocabularyFilter.TranscribeVocabularyFilter",
+		"@cdktn/provider-aws.transcribeVocabularyFilter.TranscribeVocabularyFilter",
 		reflect.TypeOf((*TranscribeVocabularyFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transcribeVocabularyFilter.TranscribeVocabularyFilterConfig",
+		"@cdktn/provider-aws.transcribeVocabularyFilter.TranscribeVocabularyFilterConfig",
 		reflect.TypeOf((*TranscribeVocabularyFilterConfig)(nil)).Elem(),
 	)
 }

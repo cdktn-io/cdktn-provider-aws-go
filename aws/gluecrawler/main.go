@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawler",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawler",
 		reflect.TypeOf((*GlueCrawler)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerCatalogTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerCatalogTarget",
 		reflect.TypeOf((*GlueCrawlerCatalogTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerCatalogTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerCatalogTargetList",
 		reflect.TypeOf((*GlueCrawlerCatalogTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerCatalogTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerCatalogTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerCatalogTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,15 +219,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerConfig",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerConfig",
 		reflect.TypeOf((*GlueCrawlerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDeltaTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDeltaTarget",
 		reflect.TypeOf((*GlueCrawlerDeltaTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDeltaTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDeltaTargetList",
 		reflect.TypeOf((*GlueCrawlerDeltaTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -249,7 +249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDeltaTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDeltaTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerDeltaTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDynamodbTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDynamodbTarget",
 		reflect.TypeOf((*GlueCrawlerDynamodbTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDynamodbTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDynamodbTargetList",
 		reflect.TypeOf((*GlueCrawlerDynamodbTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -317,7 +317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerDynamodbTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerDynamodbTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerDynamodbTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -357,11 +357,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerHudiTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerHudiTarget",
 		reflect.TypeOf((*GlueCrawlerHudiTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerHudiTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerHudiTargetList",
 		reflect.TypeOf((*GlueCrawlerHudiTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -383,7 +383,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerHudiTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerHudiTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerHudiTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -425,11 +425,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerIcebergTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerIcebergTarget",
 		reflect.TypeOf((*GlueCrawlerIcebergTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerIcebergTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerIcebergTargetList",
 		reflect.TypeOf((*GlueCrawlerIcebergTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -451,7 +451,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerIcebergTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerIcebergTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerIcebergTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -493,11 +493,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerJdbcTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerJdbcTarget",
 		reflect.TypeOf((*GlueCrawlerJdbcTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerJdbcTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerJdbcTargetList",
 		reflect.TypeOf((*GlueCrawlerJdbcTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -519,7 +519,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerJdbcTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerJdbcTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -561,11 +561,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerLakeFormationConfiguration",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerLakeFormationConfiguration",
 		reflect.TypeOf((*GlueCrawlerLakeFormationConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerLakeFormationConfigurationOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerLakeFormationConfigurationOutputReference",
 		reflect.TypeOf((*GlueCrawlerLakeFormationConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -603,11 +603,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerLineageConfiguration",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerLineageConfiguration",
 		reflect.TypeOf((*GlueCrawlerLineageConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerLineageConfigurationOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerLineageConfigurationOutputReference",
 		reflect.TypeOf((*GlueCrawlerLineageConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -642,11 +642,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerMongodbTarget",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerMongodbTarget",
 		reflect.TypeOf((*GlueCrawlerMongodbTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerMongodbTargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerMongodbTargetList",
 		reflect.TypeOf((*GlueCrawlerMongodbTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -668,7 +668,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerMongodbTargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerMongodbTargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerMongodbTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -707,11 +707,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicy",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicy",
 		reflect.TypeOf((*GlueCrawlerRecrawlPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerRecrawlPolicyOutputReference",
 		reflect.TypeOf((*GlueCrawlerRecrawlPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -746,11 +746,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerS3Target",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerS3Target",
 		reflect.TypeOf((*GlueCrawlerS3Target)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerS3TargetList",
 		reflect.TypeOf((*GlueCrawlerS3TargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -772,7 +772,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerS3TargetOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerS3TargetOutputReference",
 		reflect.TypeOf((*GlueCrawlerS3TargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -821,11 +821,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerSchemaChangePolicy",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerSchemaChangePolicy",
 		reflect.TypeOf((*GlueCrawlerSchemaChangePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueCrawler.GlueCrawlerSchemaChangePolicyOutputReference",
+		"@cdktn/provider-aws.glueCrawler.GlueCrawlerSchemaChangePolicyOutputReference",
 		reflect.TypeOf((*GlueCrawlerSchemaChangePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

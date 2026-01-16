@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.opensearchserverlessLifecyclePolicy.OpensearchserverlessLifecyclePolicy",
+		"@cdktn/provider-aws.opensearchserverlessLifecyclePolicy.OpensearchserverlessLifecyclePolicy",
 		reflect.TypeOf((*OpensearchserverlessLifecyclePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.opensearchserverlessLifecyclePolicy.OpensearchserverlessLifecyclePolicyConfig",
+		"@cdktn/provider-aws.opensearchserverlessLifecyclePolicy.OpensearchserverlessLifecyclePolicyConfig",
 		reflect.TypeOf((*OpensearchserverlessLifecyclePolicyConfig)(nil)).Elem(),
 	)
 }

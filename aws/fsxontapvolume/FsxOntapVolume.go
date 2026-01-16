@@ -5,14 +5,14 @@ package fsxontapvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fsxontapvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxontapvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume}.
 type FsxOntapVolume interface {
 	cdktf.TerraformResource
 	AggregateConfiguration() FsxOntapVolumeAggregateConfigurationOutputReference
@@ -880,7 +880,7 @@ func (j *jsiiProxy_FsxOntapVolume) VolumeTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource.
 func NewFsxOntapVolume(scope constructs.Construct, id *string, config *FsxOntapVolumeConfig) FsxOntapVolume {
 	_init_.Initialize()
 
@@ -890,7 +890,7 @@ func NewFsxOntapVolume(scope constructs.Construct, id *string, config *FsxOntapV
 	j := jsiiProxy_FsxOntapVolume{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -898,12 +898,12 @@ func NewFsxOntapVolume(scope constructs.Construct, id *string, config *FsxOntapV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_ontap_volume aws_fsx_ontap_volume} Resource.
 func NewFsxOntapVolume_Override(f FsxOntapVolume, scope constructs.Construct, id *string, config *FsxOntapVolumeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1196,7 +1196,7 @@ func FsxOntapVolume_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1231,7 +1231,7 @@ func FsxOntapVolume_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1250,7 +1250,7 @@ func FsxOntapVolume_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1269,7 +1269,7 @@ func FsxOntapVolume_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1282,7 +1282,7 @@ func FsxOntapVolume_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.fsxOntapVolume.FsxOntapVolume",
+		"@cdktn/provider-aws.fsxOntapVolume.FsxOntapVolume",
 		"tfResourceType",
 		&returns,
 	)

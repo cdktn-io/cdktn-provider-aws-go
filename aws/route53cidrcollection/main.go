@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.route53CidrCollection.Route53CidrCollection",
+		"@cdktn/provider-aws.route53CidrCollection.Route53CidrCollection",
 		reflect.TypeOf((*Route53CidrCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.route53CidrCollection.Route53CidrCollectionConfig",
+		"@cdktn/provider-aws.route53CidrCollection.Route53CidrCollectionConfig",
 		reflect.TypeOf((*Route53CidrCollectionConfig)(nil)).Elem(),
 	)
 }

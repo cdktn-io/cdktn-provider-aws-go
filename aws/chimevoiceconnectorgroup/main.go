@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroup",
+		"@cdktn/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroup",
 		reflect.TypeOf((*ChimeVoiceConnectorGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConfig",
+		"@cdktn/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConfig",
 		reflect.TypeOf((*ChimeVoiceConnectorGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector",
+		"@cdktn/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnector",
 		reflect.TypeOf((*ChimeVoiceConnectorGroupConnector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnectorList",
+		"@cdktn/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnectorList",
 		reflect.TypeOf((*ChimeVoiceConnectorGroupConnectorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnectorOutputReference",
+		"@cdktn/provider-aws.chimeVoiceConnectorGroup.ChimeVoiceConnectorGroupConnectorOutputReference",
 		reflect.TypeOf((*ChimeVoiceConnectorGroupConnectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

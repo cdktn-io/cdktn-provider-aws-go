@@ -5,14 +5,14 @@ package dataawssesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawssesv2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssesv2configurationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set}.
 type DataAwsSesv2ConfigurationSet interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSet) VdmOptions() DataAwsSesv2Config
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
 func NewDataAwsSesv2ConfigurationSet(scope constructs.Construct, id *string, config *DataAwsSesv2ConfigurationSetConfig) DataAwsSesv2ConfigurationSet {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsSesv2ConfigurationSet(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsSesv2ConfigurationSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewDataAwsSesv2ConfigurationSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
 func NewDataAwsSesv2ConfigurationSet_Override(d DataAwsSesv2ConfigurationSet, scope constructs.Construct, id *string, config *DataAwsSesv2ConfigurationSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -542,7 +542,7 @@ func DataAwsSesv2ConfigurationSet_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func DataAwsSesv2ConfigurationSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAwsSesv2ConfigurationSet_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataAwsSesv2ConfigurationSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAwsSesv2ConfigurationSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
+		"@cdktn/provider-aws.dataAwsSesv2ConfigurationSet.DataAwsSesv2ConfigurationSet",
 		"tfResourceType",
 		&returns,
 	)

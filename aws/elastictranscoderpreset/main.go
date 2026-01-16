@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPreset",
 		reflect.TypeOf((*ElastictranscoderPreset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudio",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudio",
 		reflect.TypeOf((*ElastictranscoderPresetAudio)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptions",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptions",
 		reflect.TypeOf((*ElastictranscoderPresetAudioCodecOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptionsOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioCodecOptionsOutputReference",
 		reflect.TypeOf((*ElastictranscoderPresetAudioCodecOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitDepth", GoGetter: "BitDepth"},
@@ -156,7 +156,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetAudioOutputReference",
 		reflect.TypeOf((*ElastictranscoderPresetAudioOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioPackingMode", GoGetter: "AudioPackingMode"},
@@ -203,15 +203,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetConfig",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetConfig",
 		reflect.TypeOf((*ElastictranscoderPresetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnails",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnails",
 		reflect.TypeOf((*ElastictranscoderPresetThumbnails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetThumbnailsOutputReference",
 		reflect.TypeOf((*ElastictranscoderPresetThumbnailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatio", GoGetter: "AspectRatio"},
@@ -267,11 +267,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideo",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideo",
 		reflect.TypeOf((*ElastictranscoderPresetVideo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoOutputReference",
 		reflect.TypeOf((*ElastictranscoderPresetVideoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatio", GoGetter: "AspectRatio"},
@@ -342,11 +342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarks",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarks",
 		reflect.TypeOf((*ElastictranscoderPresetVideoWatermarks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksList",
 		reflect.TypeOf((*ElastictranscoderPresetVideoWatermarksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -368,7 +368,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPreset.ElastictranscoderPresetVideoWatermarksOutputReference",
 		reflect.TypeOf((*ElastictranscoderPresetVideoWatermarksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package connectcontactflowmodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectcontactflowmodule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectcontactflowmodule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module}.
 type ConnectContactFlowModule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_ConnectContactFlowModule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module} Resource.
 func NewConnectContactFlowModule(scope constructs.Construct, id *string, config *ConnectContactFlowModuleConfig) ConnectContactFlowModule {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewConnectContactFlowModule(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ConnectContactFlowModule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewConnectContactFlowModule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_contact_flow_module aws_connect_contact_flow_module} Resource.
 func NewConnectContactFlowModule_Override(c ConnectContactFlowModule, scope constructs.Construct, id *string, config *ConnectContactFlowModuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -763,7 +763,7 @@ func ConnectContactFlowModule_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func ConnectContactFlowModule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func ConnectContactFlowModule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func ConnectContactFlowModule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func ConnectContactFlowModule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
+		"@cdktn/provider-aws.connectContactFlowModule.ConnectContactFlowModule",
 		"tfResourceType",
 		&returns,
 	)

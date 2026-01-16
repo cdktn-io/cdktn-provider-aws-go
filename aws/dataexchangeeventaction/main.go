@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventAction",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventAction",
 		reflect.TypeOf((*DataexchangeEventAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -78,19 +78,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionAction",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionAction",
 		reflect.TypeOf((*DataexchangeEventActionAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3Encryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3EncryptionList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3EncryptionList",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3EncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3EncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,7 +150,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3List",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3List",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3OutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3OutputReference",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3RevisionDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3RevisionDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference",
 		reflect.TypeOf((*DataexchangeEventActionActionExportRevisionToS3RevisionDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionList",
 		reflect.TypeOf((*DataexchangeEventActionActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionOutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionActionOutputReference",
 		reflect.TypeOf((*DataexchangeEventActionActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,15 +333,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionConfig",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionConfig",
 		reflect.TypeOf((*DataexchangeEventActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEvent",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEvent",
 		reflect.TypeOf((*DataexchangeEventActionEvent)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventList",
 		reflect.TypeOf((*DataexchangeEventActionEventList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -363,7 +363,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventOutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventOutputReference",
 		reflect.TypeOf((*DataexchangeEventActionEventOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -399,11 +399,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublished",
 		reflect.TypeOf((*DataexchangeEventActionEventRevisionPublished)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedList",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedList",
 		reflect.TypeOf((*DataexchangeEventActionEventRevisionPublishedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -425,7 +425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedOutputReference",
+		"@cdktn/provider-aws.dataexchangeEventAction.DataexchangeEventActionEventRevisionPublishedOutputReference",
 		reflect.TypeOf((*DataexchangeEventActionEventRevisionPublishedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

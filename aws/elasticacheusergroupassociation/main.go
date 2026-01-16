@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociation",
 		reflect.TypeOf((*ElasticacheUserGroupAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationConfig",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationConfig",
 		reflect.TypeOf((*ElasticacheUserGroupAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeouts",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeouts",
 		reflect.TypeOf((*ElasticacheUserGroupAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheUserGroupAssociation.ElasticacheUserGroupAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticacheUserGroupAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

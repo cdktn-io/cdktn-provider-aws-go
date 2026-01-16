@@ -5,14 +5,17 @@ package ecscapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecscapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecscapacityprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
 type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference interface {
 	cdktf.ComplexObject
+	CapacityOptionType() *string
+	SetCapacityOptionType(val *string)
+	CapacityOptionTypeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +82,7 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	PutInstanceRequirements(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements)
 	PutNetworkConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration)
 	PutStorageConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration)
+	ResetCapacityOptionType()
 	ResetInstanceRequirements()
 	ResetMonitoring()
 	ResetStorageConfiguration()
@@ -95,6 +99,26 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 // The jsii proxy struct for EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference
 type jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) CapacityOptionType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"capacityOptionType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) CapacityOptionTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"capacityOptionTypeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ComplexObjectIndex() interface{} {
@@ -277,7 +301,7 @@ func NewEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputR
 	j := jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -289,9 +313,20 @@ func NewEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
+	)
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference)SetCapacityOptionType(val *string) {
+	if err := j.validateSetCapacityOptionTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"capacityOptionType",
+		val,
 	)
 }
 
@@ -588,6 +623,14 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 		e,
 		"putStorageConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ResetCapacityOptionType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetCapacityOptionType",
+		nil, // no parameters
 	)
 }
 

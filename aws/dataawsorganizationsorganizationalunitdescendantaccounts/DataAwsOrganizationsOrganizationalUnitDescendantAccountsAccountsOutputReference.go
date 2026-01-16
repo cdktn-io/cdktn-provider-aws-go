@@ -5,9 +5,9 @@ package dataawsorganizationsorganizationalunitdescendantaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationsorganizationalunitdescendantaccounts/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -247,7 +247,7 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputRe
 	j := jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -259,7 +259,7 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference",
+		"@cdktn/provider-aws.dataAwsOrganizationsOrganizationalUnitDescendantAccounts.DataAwsOrganizationsOrganizationalUnitDescendantAccountsAccountsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

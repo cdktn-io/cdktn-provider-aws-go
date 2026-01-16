@@ -5,9 +5,9 @@ package s3bucketinventory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketinventory/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketinventory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewS3BucketInventoryScheduleOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_S3BucketInventoryScheduleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewS3BucketInventoryScheduleOutputReference_Override(s S3BucketInventorySch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
+		"@cdktn/provider-aws.s3BucketInventory.S3BucketInventoryScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

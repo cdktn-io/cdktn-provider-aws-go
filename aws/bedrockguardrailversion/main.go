@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersion",
 		reflect.TypeOf((*BedrockGuardrailVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionConfig",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionConfig",
 		reflect.TypeOf((*BedrockGuardrailVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeouts",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeouts",
 		reflect.TypeOf((*BedrockGuardrailVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockGuardrailVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

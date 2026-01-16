@@ -5,14 +5,14 @@ package dataawsodbdbserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsodbdbserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_server aws_odb_db_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server}.
 type DataAwsOdbDbServer interface {
 	cdktf.TerraformDataSource
 	AutonomousVirtualMachineIds() *[]*string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataAwsOdbDbServer) VmClusterIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) DataAwsOdbDbServer {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsOdbDbServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer_Override(d DataAwsOdbDbServer, scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -638,7 +638,7 @@ func DataAwsOdbDbServer_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -673,7 +673,7 @@ func DataAwsOdbDbServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func DataAwsOdbDbServer_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func DataAwsOdbDbServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func DataAwsOdbDbServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		"tfResourceType",
 		&returns,
 	)

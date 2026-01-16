@@ -5,14 +5,14 @@ package route53resolverdnssecconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53resolverdnssecconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverdnssecconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config}.
 type Route53ResolverDnssecConfig interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_Route53ResolverDnssecConfig) ValidationStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config} Resource.
 func NewRoute53ResolverDnssecConfig(scope constructs.Construct, id *string, config *Route53ResolverDnssecConfigConfig) Route53ResolverDnssecConfig {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewRoute53ResolverDnssecConfig(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_Route53ResolverDnssecConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewRoute53ResolverDnssecConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_dnssec_config aws_route53_resolver_dnssec_config} Resource.
 func NewRoute53ResolverDnssecConfig_Override(r Route53ResolverDnssecConfig, scope constructs.Construct, id *string, config *Route53ResolverDnssecConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -530,7 +530,7 @@ func Route53ResolverDnssecConfig_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func Route53ResolverDnssecConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func Route53ResolverDnssecConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func Route53ResolverDnssecConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func Route53ResolverDnssecConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
+		"@cdktn/provider-aws.route53ResolverDnssecConfig.Route53ResolverDnssecConfig",
 		"tfResourceType",
 		&returns,
 	)

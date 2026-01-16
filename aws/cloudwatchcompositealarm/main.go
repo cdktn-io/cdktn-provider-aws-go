@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		reflect.TypeOf((*CloudwatchCompositeAlarm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabled", GoGetter: "ActionsEnabled"},
@@ -99,11 +99,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressor",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressor",
 		reflect.TypeOf((*CloudwatchCompositeAlarmActionsSuppressor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionsSuppressorOutputReference",
 		reflect.TypeOf((*CloudwatchCompositeAlarmActionsSuppressorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarm", GoGetter: "Alarm"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmConfig",
+		"@cdktn/provider-aws.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmConfig",
 		reflect.TypeOf((*CloudwatchCompositeAlarmConfig)(nil)).Elem(),
 	)
 }

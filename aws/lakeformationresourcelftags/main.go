@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTags",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTags",
 		reflect.TypeOf((*LakeformationResourceLfTags)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsConfig",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsConfig",
 		reflect.TypeOf((*LakeformationResourceLfTagsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsDatabase",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsDatabase",
 		reflect.TypeOf((*LakeformationResourceLfTagsDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsDatabaseOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsDatabaseOutputReference",
 		reflect.TypeOf((*LakeformationResourceLfTagsDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTag",
 		reflect.TypeOf((*LakeformationResourceLfTagsLfTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTagList",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTagList",
 		reflect.TypeOf((*LakeformationResourceLfTagsLfTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTagOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsLfTagOutputReference",
 		reflect.TypeOf((*LakeformationResourceLfTagsLfTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTable",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTable",
 		reflect.TypeOf((*LakeformationResourceLfTagsTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableOutputReference",
 		reflect.TypeOf((*LakeformationResourceLfTagsTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumns",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumns",
 		reflect.TypeOf((*LakeformationResourceLfTagsTableWithColumns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTableWithColumnsOutputReference",
 		reflect.TypeOf((*LakeformationResourceLfTagsTableWithColumnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},
@@ -300,11 +300,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeouts",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeouts",
 		reflect.TypeOf((*LakeformationResourceLfTagsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeoutsOutputReference",
+		"@cdktn/provider-aws.lakeformationResourceLfTags.LakeformationResourceLfTagsTimeoutsOutputReference",
 		reflect.TypeOf((*LakeformationResourceLfTagsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

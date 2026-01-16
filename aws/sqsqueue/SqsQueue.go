@@ -5,14 +5,14 @@ package sqsqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sqsqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sqsqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue aws_sqs_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue aws_sqs_queue}.
 type SqsQueue interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -836,7 +836,7 @@ func (j *jsiiProxy_SqsQueue) VisibilityTimeoutSecondsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
 func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig) SqsQueue {
 	_init_.Initialize()
 
@@ -846,7 +846,7 @@ func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig)
 	j := jsiiProxy_SqsQueue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -854,12 +854,12 @@ func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue aws_sqs_queue} Resource.
 func NewSqsQueue_Override(s SqsQueue, scope constructs.Construct, id *string, config *SqsQueueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1174,7 +1174,7 @@ func SqsQueue_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1209,7 +1209,7 @@ func SqsQueue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1228,7 +1228,7 @@ func SqsQueue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1247,7 +1247,7 @@ func SqsQueue_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1260,7 +1260,7 @@ func SqsQueue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sqsQueue.SqsQueue",
+		"@cdktn/provider-aws.sqsQueue.SqsQueue",
 		"tfResourceType",
 		&returns,
 	)

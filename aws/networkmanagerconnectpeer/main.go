@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeer",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeer",
 		reflect.TypeOf((*NetworkmanagerConnectPeer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,11 +100,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptions",
 		reflect.TypeOf((*NetworkmanagerConnectPeerBgpOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
 		reflect.TypeOf((*NetworkmanagerConnectPeerBgpOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,19 +139,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfig",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfig",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfiguration",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfiguration",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurations",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurations",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfigurationBgpConfigurations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsList",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsList",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfigurationBgpConfigurationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -172,7 +172,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfigurationBgpConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,7 +208,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationList",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerConfigurationOutputReference",
 		reflect.TypeOf((*NetworkmanagerConnectPeerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bgpConfigurations", GoGetter: "BgpConfigurations"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerTimeouts",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerTimeouts",
 		reflect.TypeOf((*NetworkmanagerConnectPeerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkmanagerConnectPeerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxCluster.DaxCluster",
+		"@cdktn/provider-aws.daxCluster.DaxCluster",
 		reflect.TypeOf((*DaxCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,15 +120,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxCluster.DaxClusterConfig",
+		"@cdktn/provider-aws.daxCluster.DaxClusterConfig",
 		reflect.TypeOf((*DaxClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxCluster.DaxClusterNodes",
+		"@cdktn/provider-aws.daxCluster.DaxClusterNodes",
 		reflect.TypeOf((*DaxClusterNodes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxCluster.DaxClusterNodesList",
+		"@cdktn/provider-aws.daxCluster.DaxClusterNodesList",
 		reflect.TypeOf((*DaxClusterNodesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxCluster.DaxClusterNodesOutputReference",
+		"@cdktn/provider-aws.daxCluster.DaxClusterNodesOutputReference",
 		reflect.TypeOf((*DaxClusterNodesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxCluster.DaxClusterServerSideEncryption",
+		"@cdktn/provider-aws.daxCluster.DaxClusterServerSideEncryption",
 		reflect.TypeOf((*DaxClusterServerSideEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxCluster.DaxClusterServerSideEncryptionOutputReference",
+		"@cdktn/provider-aws.daxCluster.DaxClusterServerSideEncryptionOutputReference",
 		reflect.TypeOf((*DaxClusterServerSideEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.daxCluster.DaxClusterTimeouts",
+		"@cdktn/provider-aws.daxCluster.DaxClusterTimeouts",
 		reflect.TypeOf((*DaxClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.daxCluster.DaxClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DaxClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

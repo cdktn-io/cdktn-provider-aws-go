@@ -5,14 +5,14 @@ package vpcipamresourcediscovery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipamresourcediscovery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamresourcediscovery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
 type VpcIpamResourceDiscovery interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_VpcIpamResourceDiscovery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) VpcIpamResourceDiscovery {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_VpcIpamResourceDiscovery{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery_Override(v VpcIpamResourceDiscovery, scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -659,7 +659,7 @@ func VpcIpamResourceDiscovery_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func VpcIpamResourceDiscovery_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func VpcIpamResourceDiscovery_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func VpcIpamResourceDiscovery_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func VpcIpamResourceDiscovery_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
+		"@cdktn/provider-aws.vpcIpamResourceDiscovery.VpcIpamResourceDiscovery",
 		"tfResourceType",
 		&returns,
 	)

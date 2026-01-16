@@ -5,14 +5,14 @@ package dataawsserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsserviceprincipal/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsserviceprincipal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/service_principal aws_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/service_principal aws_service_principal}.
 type DataAwsServicePrincipal interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsServicePrincipal) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/service_principal aws_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/service_principal aws_service_principal} Data Source.
 func NewDataAwsServicePrincipal(scope constructs.Construct, id *string, config *DataAwsServicePrincipalConfig) DataAwsServicePrincipal {
 	_init_.Initialize()
 
@@ -331,7 +331,7 @@ func NewDataAwsServicePrincipal(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsServicePrincipal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +339,12 @@ func NewDataAwsServicePrincipal(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/service_principal aws_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/service_principal aws_service_principal} Data Source.
 func NewDataAwsServicePrincipal_Override(d DataAwsServicePrincipal, scope constructs.Construct, id *string, config *DataAwsServicePrincipalConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataAwsServicePrincipal_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataAwsServicePrincipal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAwsServicePrincipal_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataAwsServicePrincipal_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAwsServicePrincipal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
+		"@cdktn/provider-aws.dataAwsServicePrincipal.DataAwsServicePrincipal",
 		"tfResourceType",
 		&returns,
 	)

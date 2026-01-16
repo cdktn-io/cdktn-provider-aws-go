@@ -5,14 +5,14 @@ package ebsencryptionbydefault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebsencryptionbydefault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebsencryptionbydefault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default}.
 type EbsEncryptionByDefault interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -358,7 +358,7 @@ func (j *jsiiProxy_EbsEncryptionByDefault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
 func NewEbsEncryptionByDefault(scope constructs.Construct, id *string, config *EbsEncryptionByDefaultConfig) EbsEncryptionByDefault {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewEbsEncryptionByDefault(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_EbsEncryptionByDefault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewEbsEncryptionByDefault(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_encryption_by_default aws_ebs_encryption_by_default} Resource.
 func NewEbsEncryptionByDefault_Override(e EbsEncryptionByDefault, scope constructs.Construct, id *string, config *EbsEncryptionByDefaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -498,7 +498,7 @@ func EbsEncryptionByDefault_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func EbsEncryptionByDefault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func EbsEncryptionByDefault_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func EbsEncryptionByDefault_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func EbsEncryptionByDefault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
+		"@cdktn/provider-aws.ebsEncryptionByDefault.EbsEncryptionByDefault",
 		"tfResourceType",
 		&returns,
 	)

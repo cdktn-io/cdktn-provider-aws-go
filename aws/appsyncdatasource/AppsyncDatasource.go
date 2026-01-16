@@ -5,14 +5,14 @@ package appsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_datasource aws_appsync_datasource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_datasource aws_appsync_datasource}.
 type AppsyncDatasource interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -630,7 +630,7 @@ func (j *jsiiProxy_AppsyncDatasource) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
 func NewAppsyncDatasource(scope constructs.Construct, id *string, config *AppsyncDatasourceConfig) AppsyncDatasource {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewAppsyncDatasource(scope constructs.Construct, id *string, config *Appsyn
 	j := jsiiProxy_AppsyncDatasource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -648,12 +648,12 @@ func NewAppsyncDatasource(scope constructs.Construct, id *string, config *Appsyn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_datasource aws_appsync_datasource} Resource.
 func NewAppsyncDatasource_Override(a AppsyncDatasource, scope constructs.Construct, id *string, config *AppsyncDatasourceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -814,7 +814,7 @@ func AppsyncDatasource_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -849,7 +849,7 @@ func AppsyncDatasource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -868,7 +868,7 @@ func AppsyncDatasource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func AppsyncDatasource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -900,7 +900,7 @@ func AppsyncDatasource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		"tfResourceType",
 		&returns,
 	)

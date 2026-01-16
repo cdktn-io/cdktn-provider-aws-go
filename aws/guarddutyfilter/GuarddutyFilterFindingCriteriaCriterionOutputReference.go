@@ -5,9 +5,9 @@ package guarddutyfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutyfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutyfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -50,9 +50,15 @@ type GuarddutyFilterFindingCriteriaCriterionOutputReference interface {
 	LessThanOrEqual() *string
 	SetLessThanOrEqual(val *string)
 	LessThanOrEqualInput() *string
+	Matches() *[]*string
+	SetMatches(val *[]*string)
+	MatchesInput() *[]*string
 	NotEquals() *[]*string
 	SetNotEquals(val *[]*string)
 	NotEqualsInput() *[]*string
+	NotMatches() *[]*string
+	SetNotMatches(val *[]*string)
+	NotMatchesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -90,7 +96,9 @@ type GuarddutyFilterFindingCriteriaCriterionOutputReference interface {
 	ResetGreaterThanOrEqual()
 	ResetLessThan()
 	ResetLessThanOrEqual()
+	ResetMatches()
 	ResetNotEquals()
+	ResetNotMatches()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -276,6 +284,26 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) LessT
 	return returns
 }
 
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Matches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matches",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) MatchesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matchesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotEquals() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -291,6 +319,26 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotEq
 	_jsii_.Get(
 		j,
 		"notEqualsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotMatches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"notMatches",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotMatchesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"notMatchesInput",
 		&returns,
 	)
 	return returns
@@ -326,7 +374,7 @@ func NewGuarddutyFilterFindingCriteriaCriterionOutputReference(terraformResource
 	j := jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -338,7 +386,7 @@ func NewGuarddutyFilterFindingCriteriaCriterionOutputReference_Override(g Guardd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -443,6 +491,17 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetLes
 	)
 }
 
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetMatches(val *[]*string) {
+	if err := j.validateSetMatchesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"matches",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNotEquals(val *[]*string) {
 	if err := j.validateSetNotEqualsParameters(val); err != nil {
 		panic(err)
@@ -450,6 +509,17 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNot
 	_jsii_.Set(
 		j,
 		"notEquals",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNotMatches(val *[]*string) {
+	if err := j.validateSetNotMatchesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"notMatches",
 		val,
 	)
 }
@@ -702,10 +772,26 @@ func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Reset
 	)
 }
 
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetMatches() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMatches",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetNotEquals() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNotEquals",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetNotMatches() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNotMatches",
 		nil, // no parameters
 	)
 }

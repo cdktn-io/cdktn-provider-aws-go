@@ -5,14 +5,14 @@ package dataawskendraquerysuggestionsblocklist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskendraquerysuggestionsblocklist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendraquerysuggestionsblocklist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list}.
 type DataAwsKendraQuerySuggestionsBlockList interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockList) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsKendraQuerySuggestionsBlockList(scope constructs.Construct, id *string, config *DataAwsKendraQuerySuggestionsBlockListConfig) DataAwsKendraQuerySuggestionsBlockList {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDataAwsKendraQuerySuggestionsBlockList(scope constructs.Construct, id *s
 	j := jsiiProxy_DataAwsKendraQuerySuggestionsBlockList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,12 +498,12 @@ func NewDataAwsKendraQuerySuggestionsBlockList(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsKendraQuerySuggestionsBlockList_Override(d DataAwsKendraQuerySuggestionsBlockList, scope constructs.Construct, id *string, config *DataAwsKendraQuerySuggestionsBlockListConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -620,7 +620,7 @@ func DataAwsKendraQuerySuggestionsBlockList_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -655,7 +655,7 @@ func DataAwsKendraQuerySuggestionsBlockList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAwsKendraQuerySuggestionsBlockList_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAwsKendraQuerySuggestionsBlockList_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func DataAwsKendraQuerySuggestionsBlockList_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
+		"@cdktn/provider-aws.dataAwsKendraQuerySuggestionsBlockList.DataAwsKendraQuerySuggestionsBlockList",
 		"tfResourceType",
 		&returns,
 	)

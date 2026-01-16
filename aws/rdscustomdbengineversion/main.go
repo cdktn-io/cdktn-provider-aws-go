@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		reflect.TypeOf((*RdsCustomDbEngineVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionConfig",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionConfig",
 		reflect.TypeOf((*RdsCustomDbEngineVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionTimeouts",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionTimeouts",
 		reflect.TypeOf((*RdsCustomDbEngineVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersionTimeoutsOutputReference",
 		reflect.TypeOf((*RdsCustomDbEngineVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

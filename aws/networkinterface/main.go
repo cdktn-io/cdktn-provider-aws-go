@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterface.NetworkInterface",
+		"@cdktn/provider-aws.networkInterface.NetworkInterface",
 		reflect.TypeOf((*NetworkInterface)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceAttachment",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceAttachment",
 		reflect.TypeOf((*NetworkInterfaceAttachment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceAttachmentList",
 		reflect.TypeOf((*NetworkInterfaceAttachmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceAttachmentOutputReference",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceAttachmentOutputReference",
 		reflect.TypeOf((*NetworkInterfaceAttachmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attachmentId", GoGetter: "AttachmentId"},
@@ -206,7 +206,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterface.NetworkInterfaceConfig",
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceConfig",
 		reflect.TypeOf((*NetworkInterfaceConfig)(nil)).Elem(),
 	)
 }

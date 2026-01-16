@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		reflect.TypeOf((*NetworkAclRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRuleConfig",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRuleConfig",
 		reflect.TypeOf((*NetworkAclRuleConfig)(nil)).Elem(),
 	)
 }

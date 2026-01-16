@@ -5,14 +5,14 @@ package apigatewaymethod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewaymethod/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaymethod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method aws_api_gateway_method}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method aws_api_gateway_method}.
 type ApiGatewayMethod interface {
 	cdktf.TerraformResource
 	ApiKeyRequired() interface{}
@@ -594,7 +594,7 @@ func (j *jsiiProxy_ApiGatewayMethod) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource.
 func NewApiGatewayMethod(scope constructs.Construct, id *string, config *ApiGatewayMethodConfig) ApiGatewayMethod {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewApiGatewayMethod(scope constructs.Construct, id *string, config *ApiGate
 	j := jsiiProxy_ApiGatewayMethod{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewApiGatewayMethod(scope constructs.Construct, id *string, config *ApiGate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_method aws_api_gateway_method} Resource.
 func NewApiGatewayMethod_Override(a ApiGatewayMethod, scope constructs.Construct, id *string, config *ApiGatewayMethodConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -844,7 +844,7 @@ func ApiGatewayMethod_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -879,7 +879,7 @@ func ApiGatewayMethod_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func ApiGatewayMethod_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func ApiGatewayMethod_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -930,7 +930,7 @@ func ApiGatewayMethod_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayMethod.ApiGatewayMethod",
+		"@cdktn/provider-aws.apiGatewayMethod.ApiGatewayMethod",
 		"tfResourceType",
 		&returns,
 	)

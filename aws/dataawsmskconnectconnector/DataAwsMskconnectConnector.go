@@ -5,14 +5,14 @@ package dataawsmskconnectconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmskconnectconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmskconnectconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector}.
 type DataAwsMskconnectConnector interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsMskconnectConnector) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
 func NewDataAwsMskconnectConnector(scope constructs.Construct, id *string, config *DataAwsMskconnectConnectorConfig) DataAwsMskconnectConnector {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsMskconnectConnector(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsMskconnectConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsMskconnectConnector(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mskconnect_connector aws_mskconnect_connector} Data Source.
 func NewDataAwsMskconnectConnector_Override(d DataAwsMskconnectConnector, scope constructs.Construct, id *string, config *DataAwsMskconnectConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAwsMskconnectConnector_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAwsMskconnectConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsMskconnectConnector_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsMskconnectConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsMskconnectConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
+		"@cdktn/provider-aws.dataAwsMskconnectConnector.DataAwsMskconnectConnector",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package verifiedaccesstrustprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/verifiedaccesstrustprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/verifiedaccesstrustprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider}.
 type VerifiedaccessTrustProvider interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -620,7 +620,7 @@ func (j *jsiiProxy_VerifiedaccessTrustProvider) UserTrustProviderTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider} Resource.
 func NewVerifiedaccessTrustProvider(scope constructs.Construct, id *string, config *VerifiedaccessTrustProviderConfig) VerifiedaccessTrustProvider {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewVerifiedaccessTrustProvider(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_VerifiedaccessTrustProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,12 +638,12 @@ func NewVerifiedaccessTrustProvider(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedaccess_trust_provider aws_verifiedaccess_trust_provider} Resource.
 func NewVerifiedaccessTrustProvider_Override(v VerifiedaccessTrustProvider, scope constructs.Construct, id *string, config *VerifiedaccessTrustProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -826,7 +826,7 @@ func VerifiedaccessTrustProvider_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -861,7 +861,7 @@ func VerifiedaccessTrustProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func VerifiedaccessTrustProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -899,7 +899,7 @@ func VerifiedaccessTrustProvider_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -912,7 +912,7 @@ func VerifiedaccessTrustProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
+		"@cdktn/provider-aws.verifiedaccessTrustProvider.VerifiedaccessTrustProvider",
 		"tfResourceType",
 		&returns,
 	)

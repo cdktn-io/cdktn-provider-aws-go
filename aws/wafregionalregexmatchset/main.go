@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSet",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSet",
 		reflect.TypeOf((*WafregionalRegexMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,19 +75,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetConfig",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetConfig",
 		reflect.TypeOf((*WafregionalRegexMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTuple",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTuple",
 		reflect.TypeOf((*WafregionalRegexMatchSetRegexMatchTuple)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleFieldToMatch",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleFieldToMatch",
 		reflect.TypeOf((*WafregionalRegexMatchSetRegexMatchTupleFieldToMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleFieldToMatchOutputReference",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleFieldToMatchOutputReference",
 		reflect.TypeOf((*WafregionalRegexMatchSetRegexMatchTupleFieldToMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleList",
 		reflect.TypeOf((*WafregionalRegexMatchSetRegexMatchTupleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleOutputReference",
+		"@cdktn/provider-aws.wafregionalRegexMatchSet.WafregionalRegexMatchSetRegexMatchTupleOutputReference",
 		reflect.TypeOf((*WafregionalRegexMatchSetRegexMatchTupleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

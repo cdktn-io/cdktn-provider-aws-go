@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftCluster",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftCluster",
 		reflect.TypeOf((*RedshiftCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -202,11 +202,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodes",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodes",
 		reflect.TypeOf((*RedshiftClusterClusterNodes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesList",
 		reflect.TypeOf((*RedshiftClusterClusterNodesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterClusterNodesOutputReference",
 		reflect.TypeOf((*RedshiftClusterClusterNodesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -262,15 +262,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterConfig",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterConfig",
 		reflect.TypeOf((*RedshiftClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterTimeouts",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterTimeouts",
 		reflect.TypeOf((*RedshiftClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftCluster.RedshiftClusterTimeoutsOutputReference",
 		reflect.TypeOf((*RedshiftClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

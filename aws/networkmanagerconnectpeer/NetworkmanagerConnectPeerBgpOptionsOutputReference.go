@@ -5,9 +5,9 @@ package networkmanagerconnectpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerconnectpeer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,9 +32,9 @@ type NetworkmanagerConnectPeerBgpOptionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *NetworkmanagerConnectPeerBgpOptions
 	SetInternalValue(val *NetworkmanagerConnectPeerBgpOptions)
-	PeerAsn() *float64
-	SetPeerAsn(val *float64)
-	PeerAsnInput() *float64
+	PeerAsn() *string
+	SetPeerAsn(val *string)
+	PeerAsnInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -133,8 +133,8 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) InternalV
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) PeerAsn() *float64 {
-	var returns *float64
+func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) PeerAsn() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"peerAsn",
@@ -143,8 +143,8 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) PeerAsn()
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) PeerAsnInput() *float64 {
-	var returns *float64
+func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference) PeerAsnInput() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"peerAsnInput",
@@ -183,7 +183,7 @@ func NewNetworkmanagerConnectPeerBgpOptionsOutputReference(terraformResource cdk
 	j := jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewNetworkmanagerConnectPeerBgpOptionsOutputReference_Override(n Networkman
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
+		"@cdktn/provider-aws.networkmanagerConnectPeer.NetworkmanagerConnectPeerBgpOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)
@@ -234,7 +234,7 @@ func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference)SetInterna
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference)SetPeerAsn(val *float64) {
+func (j *jsiiProxy_NetworkmanagerConnectPeerBgpOptionsOutputReference)SetPeerAsn(val *string) {
 	if err := j.validateSetPeerAsnParameters(val); err != nil {
 		panic(err)
 	}

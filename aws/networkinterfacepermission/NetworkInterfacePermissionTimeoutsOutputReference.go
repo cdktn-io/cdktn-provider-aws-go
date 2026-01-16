@@ -5,9 +5,9 @@ package networkinterfacepermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkinterfacepermission/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkinterfacepermission/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewNetworkInterfacePermissionTimeoutsOutputReference(terraformResource cdkt
 	j := jsiiProxy_NetworkInterfacePermissionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewNetworkInterfacePermissionTimeoutsOutputReference_Override(n NetworkInte
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkInterfacePermission.NetworkInterfacePermissionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

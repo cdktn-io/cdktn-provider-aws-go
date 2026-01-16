@@ -5,14 +5,14 @@ package sagemakerworkforce
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerworkforce/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerworkforce/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce}.
 type SagemakerWorkforce interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_SagemakerWorkforce) WorkforceVpcConfigInput() *SagemakerWorkf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource.
 func NewSagemakerWorkforce(scope constructs.Construct, id *string, config *SagemakerWorkforceConfig) SagemakerWorkforce {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewSagemakerWorkforce(scope constructs.Construct, id *string, config *Sagem
 	j := jsiiProxy_SagemakerWorkforce{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewSagemakerWorkforce(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workforce aws_sagemaker_workforce} Resource.
 func NewSagemakerWorkforce_Override(s SagemakerWorkforce, scope constructs.Construct, id *string, config *SagemakerWorkforceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -615,7 +615,7 @@ func SagemakerWorkforce_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -650,7 +650,7 @@ func SagemakerWorkforce_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -669,7 +669,7 @@ func SagemakerWorkforce_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func SagemakerWorkforce_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func SagemakerWorkforce_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
+		"@cdktn/provider-aws.sagemakerWorkforce.SagemakerWorkforce",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheCluster",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheCluster",
 		reflect.TypeOf((*ElasticacheCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodes",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodes",
 		reflect.TypeOf((*ElasticacheClusterCacheNodes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodesList",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodesList",
 		reflect.TypeOf((*ElasticacheClusterCacheNodesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -193,7 +193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodesOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterCacheNodesOutputReference",
 		reflect.TypeOf((*ElasticacheClusterCacheNodesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -230,15 +230,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterConfig",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterConfig",
 		reflect.TypeOf((*ElasticacheClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfiguration",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfiguration",
 		reflect.TypeOf((*ElasticacheClusterLogDeliveryConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationList",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationList",
 		reflect.TypeOf((*ElasticacheClusterLogDeliveryConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -260,7 +260,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterLogDeliveryConfigurationOutputReference",
 		reflect.TypeOf((*ElasticacheClusterLogDeliveryConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -300,11 +300,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterTimeouts",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterTimeouts",
 		reflect.TypeOf((*ElasticacheClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticacheCluster.ElasticacheClusterTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticacheClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

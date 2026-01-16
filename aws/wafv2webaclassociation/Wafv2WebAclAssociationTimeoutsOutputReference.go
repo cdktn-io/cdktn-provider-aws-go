@@ -5,9 +5,9 @@ package wafv2webaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webaclassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewWafv2WebAclAssociationTimeoutsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_Wafv2WebAclAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewWafv2WebAclAssociationTimeoutsOutputReference_Override(w Wafv2WebAclAsso
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.wafv2WebAclAssociation.Wafv2WebAclAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

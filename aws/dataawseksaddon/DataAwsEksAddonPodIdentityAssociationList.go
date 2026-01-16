@@ -5,9 +5,9 @@ package dataawseksaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksaddon/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsEksAddonPodIdentityAssociationList(terraformResource cdktf.IInter
 	j := jsiiProxy_DataAwsEksAddonPodIdentityAssociationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsEksAddonPodIdentityAssociationList_Override(d DataAwsEksAddonPodI
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
+		"@cdktn/provider-aws.dataAwsEksAddon.DataAwsEksAddonPodIdentityAssociationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

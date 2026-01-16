@@ -5,9 +5,9 @@ package backupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBackupPlanRuleList(terraformResource cdktf.IInterpolatingParent, terrafo
 	j := jsiiProxy_BackupPlanRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleList",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBackupPlanRuleList_Override(b BackupPlanRuleList, terraformResource cdkt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleList",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

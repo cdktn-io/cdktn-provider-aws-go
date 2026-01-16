@@ -5,14 +5,14 @@ package networkaclrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkaclrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkaclrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_rule aws_network_acl_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_rule aws_network_acl_rule}.
 type NetworkAclRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -594,7 +594,7 @@ func (j *jsiiProxy_NetworkAclRule) ToPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
 func NewNetworkAclRule(scope constructs.Construct, id *string, config *NetworkAclRuleConfig) NetworkAclRule {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewNetworkAclRule(scope constructs.Construct, id *string, config *NetworkAc
 	j := jsiiProxy_NetworkAclRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewNetworkAclRule(scope constructs.Construct, id *string, config *NetworkAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
 func NewNetworkAclRule_Override(n NetworkAclRule, scope constructs.Construct, id *string, config *NetworkAclRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -844,7 +844,7 @@ func NetworkAclRule_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -879,7 +879,7 @@ func NetworkAclRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func NetworkAclRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func NetworkAclRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -930,7 +930,7 @@ func NetworkAclRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkAclRule.NetworkAclRule",
+		"@cdktn/provider-aws.networkAclRule.NetworkAclRule",
 		"tfResourceType",
 		&returns,
 	)

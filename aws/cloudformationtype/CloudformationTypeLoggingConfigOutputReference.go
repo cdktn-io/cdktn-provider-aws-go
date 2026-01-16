@@ -5,9 +5,9 @@ package cloudformationtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudformationtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudformationtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewCloudformationTypeLoggingConfigOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_CloudformationTypeLoggingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationType.CloudformationTypeLoggingConfigOutputReference",
+		"@cdktn/provider-aws.cloudformationType.CloudformationTypeLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewCloudformationTypeLoggingConfigOutputReference_Override(c Cloudformation
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudformationType.CloudformationTypeLoggingConfigOutputReference",
+		"@cdktn/provider-aws.cloudformationType.CloudformationTypeLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

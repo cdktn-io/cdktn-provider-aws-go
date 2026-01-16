@@ -5,14 +5,14 @@ package dataawseksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksnodegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_node_group aws_eks_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_group aws_eks_node_group}.
 type DataAwsEksNodeGroup interface {
 	cdktf.TerraformDataSource
 	AmiType() *string
@@ -83,6 +83,7 @@ type DataAwsEksNodeGroup interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	UpdateConfig() DataAwsEksNodeGroupUpdateConfigList
 	Version() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -524,6 +525,16 @@ func (j *jsiiProxy_DataAwsEksNodeGroup) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEksNodeGroup) UpdateConfig() DataAwsEksNodeGroupUpdateConfigList {
+	var returns DataAwsEksNodeGroupUpdateConfigList
+	_jsii_.Get(
+		j,
+		"updateConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEksNodeGroup) Version() *string {
 	var returns *string
 	_jsii_.Get(
@@ -535,7 +546,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroup) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
 func NewDataAwsEksNodeGroup(scope constructs.Construct, id *string, config *DataAwsEksNodeGroupConfig) DataAwsEksNodeGroup {
 	_init_.Initialize()
 
@@ -545,7 +556,7 @@ func NewDataAwsEksNodeGroup(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAwsEksNodeGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -553,12 +564,12 @@ func NewDataAwsEksNodeGroup(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
 func NewDataAwsEksNodeGroup_Override(d DataAwsEksNodeGroup, scope constructs.Construct, id *string, config *DataAwsEksNodeGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -675,7 +686,7 @@ func DataAwsEksNodeGroup_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -710,7 +721,7 @@ func DataAwsEksNodeGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +740,7 @@ func DataAwsEksNodeGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +759,7 @@ func DataAwsEksNodeGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +772,7 @@ func DataAwsEksNodeGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
+		"@cdktn/provider-aws.dataAwsEksNodeGroup.DataAwsEksNodeGroup",
 		"tfResourceType",
 		&returns,
 	)

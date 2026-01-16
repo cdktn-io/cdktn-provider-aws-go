@@ -5,9 +5,9 @@ package auditmanagerframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagerframework/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagerframework/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewAuditmanagerFrameworkControlSetsControlsOutputReference(terraformResourc
 	j := jsiiProxy_AuditmanagerFrameworkControlSetsControlsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControlsOutputReference",
+		"@cdktn/provider-aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewAuditmanagerFrameworkControlSetsControlsOutputReference_Override(a Audit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControlsOutputReference",
+		"@cdktn/provider-aws.auditmanagerFramework.AuditmanagerFrameworkControlSetsControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

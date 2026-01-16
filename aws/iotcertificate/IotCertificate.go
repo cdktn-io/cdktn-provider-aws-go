@@ -5,14 +5,14 @@ package iotcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iotcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_certificate aws_iot_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_certificate aws_iot_certificate}.
 type IotCertificate interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -473,7 +473,7 @@ func (j *jsiiProxy_IotCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
 func NewIotCertificate(scope constructs.Construct, id *string, config *IotCertificateConfig) IotCertificate {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewIotCertificate(scope constructs.Construct, id *string, config *IotCertif
 	j := jsiiProxy_IotCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewIotCertificate(scope constructs.Construct, id *string, config *IotCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_certificate aws_iot_certificate} Resource.
 func NewIotCertificate_Override(i IotCertificate, scope constructs.Construct, id *string, config *IotCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -646,7 +646,7 @@ func IotCertificate_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func IotCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func IotCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func IotCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func IotCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iotCertificate.IotCertificate",
+		"@cdktn/provider-aws.iotCertificate.IotCertificate",
 		"tfResourceType",
 		&returns,
 	)

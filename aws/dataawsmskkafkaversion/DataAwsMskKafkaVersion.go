@@ -5,14 +5,14 @@ package dataawsmskkafkaversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmskkafkaversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmskkafkaversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version}.
 type DataAwsMskKafkaVersion interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsMskKafkaVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version} Data Source.
 func NewDataAwsMskKafkaVersion(scope constructs.Construct, id *string, config *DataAwsMskKafkaVersionConfig) DataAwsMskKafkaVersion {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAwsMskKafkaVersion(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsMskKafkaVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAwsMskKafkaVersion(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_kafka_version aws_msk_kafka_version} Data Source.
 func NewDataAwsMskKafkaVersion_Override(d DataAwsMskKafkaVersion, scope constructs.Construct, id *string, config *DataAwsMskKafkaVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataAwsMskKafkaVersion_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataAwsMskKafkaVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataAwsMskKafkaVersion_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAwsMskKafkaVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsMskKafkaVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
+		"@cdktn/provider-aws.dataAwsMskKafkaVersion.DataAwsMskKafkaVersion",
 		"tfResourceType",
 		&returns,
 	)

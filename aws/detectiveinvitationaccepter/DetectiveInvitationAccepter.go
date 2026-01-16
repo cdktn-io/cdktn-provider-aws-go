@@ -5,14 +5,14 @@ package detectiveinvitationaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/detectiveinvitationaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/detectiveinvitationaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter}.
 type DetectiveInvitationAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DetectiveInvitationAccepter) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
 func NewDetectiveInvitationAccepter(scope constructs.Construct, id *string, config *DetectiveInvitationAccepterConfig) DetectiveInvitationAccepter {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDetectiveInvitationAccepter(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DetectiveInvitationAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDetectiveInvitationAccepter(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_invitation_accepter aws_detective_invitation_accepter} Resource.
 func NewDetectiveInvitationAccepter_Override(d DetectiveInvitationAccepter, scope constructs.Construct, id *string, config *DetectiveInvitationAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DetectiveInvitationAccepter_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DetectiveInvitationAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DetectiveInvitationAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DetectiveInvitationAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DetectiveInvitationAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
+		"@cdktn/provider-aws.detectiveInvitationAccepter.DetectiveInvitationAccepter",
 		"tfResourceType",
 		&returns,
 	)

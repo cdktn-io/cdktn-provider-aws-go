@@ -5,14 +5,14 @@ package s3tablestablebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3tablestablebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestablebucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket}.
 type S3TablesTableBucket interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_S3TablesTableBucket) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket} Resource.
 func NewS3TablesTableBucket(scope constructs.Construct, id *string, config *S3TablesTableBucketConfig) S3TablesTableBucket {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewS3TablesTableBucket(scope constructs.Construct, id *string, config *S3Ta
 	j := jsiiProxy_S3TablesTableBucket{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewS3TablesTableBucket(scope constructs.Construct, id *string, config *S3Ta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket aws_s3tables_table_bucket} Resource.
 func NewS3TablesTableBucket_Override(s S3TablesTableBucket, scope constructs.Construct, id *string, config *S3TablesTableBucketConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -624,7 +624,7 @@ func S3TablesTableBucket_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func S3TablesTableBucket_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func S3TablesTableBucket_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func S3TablesTableBucket_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func S3TablesTableBucket_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
+		"@cdktn/provider-aws.s3TablesTableBucket.S3TablesTableBucket",
 		"tfResourceType",
 		&returns,
 	)

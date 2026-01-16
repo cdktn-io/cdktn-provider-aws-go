@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftHsmConfiguration.RedshiftHsmConfiguration",
+		"@cdktn/provider-aws.redshiftHsmConfiguration.RedshiftHsmConfiguration",
 		reflect.TypeOf((*RedshiftHsmConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftHsmConfiguration.RedshiftHsmConfigurationConfig",
+		"@cdktn/provider-aws.redshiftHsmConfiguration.RedshiftHsmConfigurationConfig",
 		reflect.TypeOf((*RedshiftHsmConfigurationConfig)(nil)).Elem(),
 	)
 }

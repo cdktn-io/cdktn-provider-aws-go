@@ -5,9 +5,9 @@ package configconfigurationrecorder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configconfigurationrecorder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configconfigurationrecorder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewConfigConfigurationRecorderRecordingGroupOutputReference(terraformResour
 	j := jsiiProxy_ConfigConfigurationRecorderRecordingGroupOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupOutputReference",
+		"@cdktn/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewConfigConfigurationRecorderRecordingGroupOutputReference_Override(c Conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupOutputReference",
+		"@cdktn/provider-aws.configConfigurationRecorder.ConfigConfigurationRecorderRecordingGroupOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

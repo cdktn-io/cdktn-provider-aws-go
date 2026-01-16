@@ -5,14 +5,14 @@ package transferaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_access aws_transfer_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_access aws_transfer_access}.
 type TransferAccess interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -524,7 +524,7 @@ func (j *jsiiProxy_TransferAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess(scope constructs.Construct, id *string, config *TransferAccessConfig) TransferAccess {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewTransferAccess(scope constructs.Construct, id *string, config *TransferA
 	j := jsiiProxy_TransferAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -542,12 +542,12 @@ func NewTransferAccess(scope constructs.Construct, id *string, config *TransferA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_access aws_transfer_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_access aws_transfer_access} Resource.
 func NewTransferAccess_Override(t TransferAccess, scope constructs.Construct, id *string, config *TransferAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -719,7 +719,7 @@ func TransferAccess_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -754,7 +754,7 @@ func TransferAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func TransferAccess_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func TransferAccess_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func TransferAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferAccess.TransferAccess",
+		"@cdktn/provider-aws.transferAccess.TransferAccess",
 		"tfResourceType",
 		&returns,
 	)

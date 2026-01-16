@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeService",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeService",
 		reflect.TypeOf((*VpclatticeService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceConfig",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceConfig",
 		reflect.TypeOf((*VpclatticeServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceDnsEntry",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceDnsEntry",
 		reflect.TypeOf((*VpclatticeServiceDnsEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceDnsEntryList",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceDnsEntryList",
 		reflect.TypeOf((*VpclatticeServiceDnsEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceDnsEntryOutputReference",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceDnsEntryOutputReference",
 		reflect.TypeOf((*VpclatticeServiceDnsEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceTimeouts",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceTimeouts",
 		reflect.TypeOf((*VpclatticeServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpclatticeService.VpclatticeServiceTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpclatticeService.VpclatticeServiceTimeoutsOutputReference",
 		reflect.TypeOf((*VpclatticeServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

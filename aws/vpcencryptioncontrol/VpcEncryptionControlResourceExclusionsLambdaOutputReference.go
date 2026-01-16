@@ -5,9 +5,9 @@ package vpcencryptioncontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcencryptioncontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewVpcEncryptionControlResourceExclusionsLambdaOutputReference(terraformRes
 	j := jsiiProxy_VpcEncryptionControlResourceExclusionsLambdaOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewVpcEncryptionControlResourceExclusionsLambdaOutputReference_Override(v V
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
+		"@cdktn/provider-aws.vpcEncryptionControl.VpcEncryptionControlResourceExclusionsLambdaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

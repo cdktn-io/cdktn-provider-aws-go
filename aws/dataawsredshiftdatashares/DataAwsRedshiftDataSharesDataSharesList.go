@@ -5,9 +5,9 @@ package dataawsredshiftdatashares
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsredshiftdatashares/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsredshiftdatashares/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsRedshiftDataSharesDataSharesList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAwsRedshiftDataSharesDataSharesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsRedshiftDataSharesDataSharesList_Override(d DataAwsRedshiftDataSh
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
+		"@cdktn/provider-aws.dataAwsRedshiftDataShares.DataAwsRedshiftDataSharesDataSharesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

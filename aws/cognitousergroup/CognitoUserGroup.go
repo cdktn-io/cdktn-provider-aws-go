@@ -5,14 +5,14 @@ package cognitousergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitousergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitousergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_group aws_cognito_user_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_group aws_cognito_user_group}.
 type CognitoUserGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_CognitoUserGroup) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_group aws_cognito_user_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_group aws_cognito_user_group} Resource.
 func NewCognitoUserGroup(scope constructs.Construct, id *string, config *CognitoUserGroupConfig) CognitoUserGroup {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewCognitoUserGroup(scope constructs.Construct, id *string, config *Cognito
 	j := jsiiProxy_CognitoUserGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewCognitoUserGroup(scope constructs.Construct, id *string, config *Cognito
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cognito_user_group aws_cognito_user_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_group aws_cognito_user_group} Resource.
 func NewCognitoUserGroup_Override(c CognitoUserGroup, scope constructs.Construct, id *string, config *CognitoUserGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -636,7 +636,7 @@ func CognitoUserGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func CognitoUserGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func CognitoUserGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func CognitoUserGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func CognitoUserGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cognitoUserGroup.CognitoUserGroup",
+		"@cdktn/provider-aws.cognitoUserGroup.CognitoUserGroup",
 		"tfResourceType",
 		&returns,
 	)

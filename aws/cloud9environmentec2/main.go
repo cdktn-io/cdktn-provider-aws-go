@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2",
 		reflect.TypeOf((*Cloud9EnvironmentEc2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2Config",
+		"@cdktn/provider-aws.cloud9EnvironmentEc2.Cloud9EnvironmentEc2Config",
 		reflect.TypeOf((*Cloud9EnvironmentEc2Config)(nil)).Elem(),
 	)
 }

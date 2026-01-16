@@ -5,14 +5,14 @@ package ssmcontactscontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmcontactscontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactscontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact}.
 type SsmcontactsContact interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_SsmcontactsContact) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact(scope constructs.Construct, id *string, config *SsmcontactsContactConfig) SsmcontactsContact {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewSsmcontactsContact(scope constructs.Construct, id *string, config *Ssmco
 	j := jsiiProxy_SsmcontactsContact{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +481,12 @@ func NewSsmcontactsContact(scope constructs.Construct, id *string, config *Ssmco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_contact aws_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact_Override(s SsmcontactsContact, scope constructs.Construct, id *string, config *SsmcontactsContactConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -647,7 +647,7 @@ func SsmcontactsContact_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func SsmcontactsContact_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func SsmcontactsContact_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func SsmcontactsContact_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func SsmcontactsContact_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmcontactsContact.SsmcontactsContact",
+		"@cdktn/provider-aws.ssmcontactsContact.SsmcontactsContact",
 		"tfResourceType",
 		&returns,
 	)

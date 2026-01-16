@@ -5,9 +5,9 @@ package rekognitionstreamprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitionstreamprocessor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewRekognitionStreamProcessorOutputOutputReference(terraformResource cdktf.
 	j := jsiiProxy_RekognitionStreamProcessorOutputOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewRekognitionStreamProcessorOutputOutputReference_Override(r RekognitionSt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
+		"@cdktn/provider-aws.rekognitionStreamProcessor.RekognitionStreamProcessorOutputOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

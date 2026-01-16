@@ -5,14 +5,14 @@ package codeartifactdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codeartifactdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codeartifactdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeartifact_domain aws_codeartifact_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeartifact_domain aws_codeartifact_domain}.
 type CodeartifactDomain interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_CodeartifactDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
 func NewCodeartifactDomain(scope constructs.Construct, id *string, config *CodeartifactDomainConfig) CodeartifactDomain {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewCodeartifactDomain(scope constructs.Construct, id *string, config *Codea
 	j := jsiiProxy_CodeartifactDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -513,12 +513,12 @@ func NewCodeartifactDomain(scope constructs.Construct, id *string, config *Codea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeartifact_domain aws_codeartifact_domain} Resource.
 func NewCodeartifactDomain_Override(c CodeartifactDomain, scope constructs.Construct, id *string, config *CodeartifactDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -668,7 +668,7 @@ func CodeartifactDomain_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func CodeartifactDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func CodeartifactDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func CodeartifactDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func CodeartifactDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codeartifactDomain.CodeartifactDomain",
+		"@cdktn/provider-aws.codeartifactDomain.CodeartifactDomain",
 		"tfResourceType",
 		&returns,
 	)

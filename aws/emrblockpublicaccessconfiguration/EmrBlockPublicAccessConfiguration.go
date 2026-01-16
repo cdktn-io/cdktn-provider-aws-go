@@ -5,14 +5,14 @@ package emrblockpublicaccessconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/emrblockpublicaccessconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrblockpublicaccessconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
 type EmrBlockPublicAccessConfiguration interface {
 	cdktf.TerraformResource
 	BlockPublicSecurityGroupRules() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_EmrBlockPublicAccessConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) EmrBlockPublicAccessConfiguration {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string
 	j := jsiiProxy_EmrBlockPublicAccessConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration_Override(e EmrBlockPublicAccessConfiguration, scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -521,7 +521,7 @@ func EmrBlockPublicAccessConfiguration_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func EmrBlockPublicAccessConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func EmrBlockPublicAccessConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func EmrBlockPublicAccessConfiguration_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func EmrBlockPublicAccessConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
+		"@cdktn/provider-aws.emrBlockPublicAccessConfiguration.EmrBlockPublicAccessConfiguration",
 		"tfResourceType",
 		&returns,
 	)

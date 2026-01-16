@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayAuthorizer.ApiGatewayAuthorizer",
+		"@cdktn/provider-aws.apiGatewayAuthorizer.ApiGatewayAuthorizer",
 		reflect.TypeOf((*ApiGatewayAuthorizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayAuthorizer.ApiGatewayAuthorizerConfig",
+		"@cdktn/provider-aws.apiGatewayAuthorizer.ApiGatewayAuthorizerConfig",
 		reflect.TypeOf((*ApiGatewayAuthorizerConfig)(nil)).Elem(),
 	)
 }

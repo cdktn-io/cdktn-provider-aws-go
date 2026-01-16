@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecret",
 		reflect.TypeOf((*SecretsmanagerSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecretConfig",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecretConfig",
 		reflect.TypeOf((*SecretsmanagerSecretConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplica",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplica",
 		reflect.TypeOf((*SecretsmanagerSecretReplica)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplicaList",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplicaList",
 		reflect.TypeOf((*SecretsmanagerSecretReplicaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplicaOutputReference",
+		"@cdktn/provider-aws.secretsmanagerSecret.SecretsmanagerSecretReplicaOutputReference",
 		reflect.TypeOf((*SecretsmanagerSecretReplicaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

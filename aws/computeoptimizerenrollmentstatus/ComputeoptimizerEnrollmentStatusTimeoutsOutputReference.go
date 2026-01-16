@@ -5,9 +5,9 @@ package computeoptimizerenrollmentstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/computeoptimizerenrollmentstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/computeoptimizerenrollmentstatus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewComputeoptimizerEnrollmentStatusTimeoutsOutputReference(terraformResourc
 	j := jsiiProxy_ComputeoptimizerEnrollmentStatusTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatusTimeoutsOutputReference",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatusTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewComputeoptimizerEnrollmentStatusTimeoutsOutputReference_Override(c Compu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatusTimeoutsOutputReference",
+		"@cdktn/provider-aws.computeoptimizerEnrollmentStatus.ComputeoptimizerEnrollmentStatusTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRule",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRule",
 		reflect.TypeOf((*ConfigConfigRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleConfig",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleConfig",
 		reflect.TypeOf((*ConfigConfigRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleEvaluationMode",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleEvaluationMode",
 		reflect.TypeOf((*ConfigConfigRuleEvaluationMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeList",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeList",
 		reflect.TypeOf((*ConfigConfigRuleEvaluationModeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleEvaluationModeOutputReference",
 		reflect.TypeOf((*ConfigConfigRuleEvaluationModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleScope",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleScope",
 		reflect.TypeOf((*ConfigConfigRuleScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleScopeOutputReference",
 		reflect.TypeOf((*ConfigConfigRuleScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,15 +212,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSource",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSource",
 		reflect.TypeOf((*ConfigConfigRuleSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails",
 		reflect.TypeOf((*ConfigConfigRuleSourceCustomPolicyDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetailsOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetailsOutputReference",
 		reflect.TypeOf((*ConfigConfigRuleSourceCustomPolicyDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceOutputReference",
 		reflect.TypeOf((*ConfigConfigRuleSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -304,11 +304,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetail",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetail",
 		reflect.TypeOf((*ConfigConfigRuleSourceSourceDetail)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetailList",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetailList",
 		reflect.TypeOf((*ConfigConfigRuleSourceSourceDetailList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -330,7 +330,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetailOutputReference",
+		"@cdktn/provider-aws.configConfigRule.ConfigConfigRuleSourceSourceDetailOutputReference",
 		reflect.TypeOf((*ConfigConfigRuleSourceSourceDetailOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

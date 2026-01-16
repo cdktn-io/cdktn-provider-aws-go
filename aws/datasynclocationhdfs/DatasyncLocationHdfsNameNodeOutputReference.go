@@ -5,9 +5,9 @@ package datasynclocationhdfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynclocationhdfs/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynclocationhdfs/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewDatasyncLocationHdfsNameNodeOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DatasyncLocationHdfsNameNodeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewDatasyncLocationHdfsNameNodeOutputReference_Override(d DatasyncLocationH
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
+		"@cdktn/provider-aws.datasyncLocationHdfs.DatasyncLocationHdfsNameNodeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

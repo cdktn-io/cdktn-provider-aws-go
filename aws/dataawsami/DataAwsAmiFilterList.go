@@ -5,9 +5,9 @@ package dataawsami
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsami/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsami/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsAmiFilterList(terraformResource cdktf.IInterpolatingParent, terra
 	j := jsiiProxy_DataAwsAmiFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmi.DataAwsAmiFilterList",
+		"@cdktn/provider-aws.dataAwsAmi.DataAwsAmiFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsAmiFilterList_Override(d DataAwsAmiFilterList, terraformResource 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmi.DataAwsAmiFilterList",
+		"@cdktn/provider-aws.dataAwsAmi.DataAwsAmiFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

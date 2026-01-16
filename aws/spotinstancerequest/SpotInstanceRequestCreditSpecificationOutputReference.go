@@ -5,9 +5,9 @@ package spotinstancerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/spotinstancerequest/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/spotinstancerequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSpotInstanceRequestCreditSpecificationOutputReference(terraformResource 
 	j := jsiiProxy_SpotInstanceRequestCreditSpecificationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSpotInstanceRequestCreditSpecificationOutputReference_Override(s SpotIns
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
+		"@cdktn/provider-aws.spotInstanceRequest.SpotInstanceRequestCreditSpecificationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

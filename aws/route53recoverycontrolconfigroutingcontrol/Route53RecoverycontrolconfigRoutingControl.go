@@ -5,14 +5,14 @@ package route53recoverycontrolconfigroutingcontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recoverycontrolconfigroutingcontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoverycontrolconfigroutingcontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control}.
 type Route53RecoverycontrolconfigRoutingControl interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigRoutingControl) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
 func NewRoute53RecoverycontrolconfigRoutingControl(scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigRoutingControlConfig) Route53RecoverycontrolconfigRoutingControl {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewRoute53RecoverycontrolconfigRoutingControl(scope constructs.Construct, i
 	j := jsiiProxy_Route53RecoverycontrolconfigRoutingControl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewRoute53RecoverycontrolconfigRoutingControl(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_routing_control aws_route53recoverycontrolconfig_routing_control} Resource.
 func NewRoute53RecoverycontrolconfigRoutingControl_Override(r Route53RecoverycontrolconfigRoutingControl, scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigRoutingControlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -553,7 +553,7 @@ func Route53RecoverycontrolconfigRoutingControl_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func Route53RecoverycontrolconfigRoutingControl_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func Route53RecoverycontrolconfigRoutingControl_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func Route53RecoverycontrolconfigRoutingControl_IsTerraformResource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func Route53RecoverycontrolconfigRoutingControl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
+		"@cdktn/provider-aws.route53RecoverycontrolconfigRoutingControl.Route53RecoverycontrolconfigRoutingControl",
 		"tfResourceType",
 		&returns,
 	)

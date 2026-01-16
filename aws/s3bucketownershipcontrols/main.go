@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControls",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControls",
 		reflect.TypeOf((*S3BucketOwnershipControls)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsConfig",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsConfig",
 		reflect.TypeOf((*S3BucketOwnershipControlsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRule",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRule",
 		reflect.TypeOf((*S3BucketOwnershipControlsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
+		"@cdktn/provider-aws.s3BucketOwnershipControls.S3BucketOwnershipControlsRuleOutputReference",
 		reflect.TypeOf((*S3BucketOwnershipControlsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

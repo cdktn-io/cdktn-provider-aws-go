@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigEnvironment.AppconfigEnvironment",
+		"@cdktn/provider-aws.appconfigEnvironment.AppconfigEnvironment",
 		reflect.TypeOf((*AppconfigEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigEnvironment.AppconfigEnvironmentConfig",
+		"@cdktn/provider-aws.appconfigEnvironment.AppconfigEnvironmentConfig",
 		reflect.TypeOf((*AppconfigEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitor",
+		"@cdktn/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitor",
 		reflect.TypeOf((*AppconfigEnvironmentMonitor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitorList",
+		"@cdktn/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitorList",
 		reflect.TypeOf((*AppconfigEnvironmentMonitorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitorOutputReference",
+		"@cdktn/provider-aws.appconfigEnvironment.AppconfigEnvironmentMonitorOutputReference",
 		reflect.TypeOf((*AppconfigEnvironmentMonitorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmArn", GoGetter: "AlarmArn"},

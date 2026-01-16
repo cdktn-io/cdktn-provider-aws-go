@@ -5,9 +5,9 @@ package fmsresourceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/fmsresourceset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fmsresourceset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewFmsResourceSetTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_FmsResourceSetTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewFmsResourceSetTimeoutsOutputReference_Override(f FmsResourceSetTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
+		"@cdktn/provider-aws.fmsResourceSet.FmsResourceSetTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

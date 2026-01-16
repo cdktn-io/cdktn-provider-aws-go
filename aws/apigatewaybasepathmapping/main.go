@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMapping",
 		reflect.TypeOf((*ApiGatewayBasePathMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMappingConfig",
+		"@cdktn/provider-aws.apiGatewayBasePathMapping.ApiGatewayBasePathMappingConfig",
 		reflect.TypeOf((*ApiGatewayBasePathMappingConfig)(nil)).Elem(),
 	)
 }

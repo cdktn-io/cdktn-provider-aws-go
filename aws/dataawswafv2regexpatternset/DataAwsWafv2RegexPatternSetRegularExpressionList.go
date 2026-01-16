@@ -5,9 +5,9 @@ package dataawswafv2regexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafv2regexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafv2regexpatternset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsWafv2RegexPatternSetRegularExpressionList(terraformResource cdktf
 	j := jsiiProxy_DataAwsWafv2RegexPatternSetRegularExpressionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafv2RegexPatternSet.DataAwsWafv2RegexPatternSetRegularExpressionList",
+		"@cdktn/provider-aws.dataAwsWafv2RegexPatternSet.DataAwsWafv2RegexPatternSetRegularExpressionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsWafv2RegexPatternSetRegularExpressionList_Override(d DataAwsWafv2
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafv2RegexPatternSet.DataAwsWafv2RegexPatternSetRegularExpressionList",
+		"@cdktn/provider-aws.dataAwsWafv2RegexPatternSet.DataAwsWafv2RegexPatternSetRegularExpressionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

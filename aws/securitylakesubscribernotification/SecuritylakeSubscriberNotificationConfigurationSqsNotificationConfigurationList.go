@@ -5,9 +5,9 @@ package securitylakesubscribernotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitylakesubscribernotification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitylakesubscribernotification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurat
 	j := jsiiProxy_SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotificationConfigurationSqsNotificationConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

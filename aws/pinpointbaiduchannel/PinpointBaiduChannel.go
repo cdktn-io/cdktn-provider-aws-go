@@ -5,14 +5,14 @@ package pinpointbaiduchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointbaiduchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointbaiduchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel}.
 type PinpointBaiduChannel interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_PinpointBaiduChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
 func NewPinpointBaiduChannel(scope constructs.Construct, id *string, config *PinpointBaiduChannelConfig) PinpointBaiduChannel {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewPinpointBaiduChannel(scope constructs.Construct, id *string, config *Pin
 	j := jsiiProxy_PinpointBaiduChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewPinpointBaiduChannel(scope constructs.Construct, id *string, config *Pin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpoint_baidu_channel aws_pinpoint_baidu_channel} Resource.
 func NewPinpointBaiduChannel_Override(p PinpointBaiduChannel, scope constructs.Construct, id *string, config *PinpointBaiduChannelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -600,7 +600,7 @@ func PinpointBaiduChannel_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func PinpointBaiduChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func PinpointBaiduChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func PinpointBaiduChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func PinpointBaiduChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
+		"@cdktn/provider-aws.pinpointBaiduChannel.PinpointBaiduChannel",
 		"tfResourceType",
 		&returns,
 	)

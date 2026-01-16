@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolder",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolder",
 		reflect.TypeOf((*QuicksightFolder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderConfig",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderConfig",
 		reflect.TypeOf((*QuicksightFolderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderPermissions",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderPermissions",
 		reflect.TypeOf((*QuicksightFolderPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderPermissionsList",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderPermissionsList",
 		reflect.TypeOf((*QuicksightFolderPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderPermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderPermissionsOutputReference",
 		reflect.TypeOf((*QuicksightFolderPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderTimeouts",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderTimeouts",
 		reflect.TypeOf((*QuicksightFolderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightFolder.QuicksightFolderTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightFolder.QuicksightFolderTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightFolderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

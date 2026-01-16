@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRule",
+		"@cdktn/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRule",
 		reflect.TypeOf((*WafregionalRateBasedRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRuleConfig",
+		"@cdktn/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRuleConfig",
 		reflect.TypeOf((*WafregionalRateBasedRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate",
+		"@cdktn/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate",
 		reflect.TypeOf((*WafregionalRateBasedRulePredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicateList",
+		"@cdktn/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicateList",
 		reflect.TypeOf((*WafregionalRateBasedRulePredicateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicateOutputReference",
+		"@cdktn/provider-aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicateOutputReference",
 		reflect.TypeOf((*WafregionalRateBasedRulePredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

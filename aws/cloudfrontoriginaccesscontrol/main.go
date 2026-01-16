@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl",
+		"@cdktn/provider-aws.cloudfrontOriginAccessControl.CloudfrontOriginAccessControl",
 		reflect.TypeOf((*CloudfrontOriginAccessControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlConfig",
+		"@cdktn/provider-aws.cloudfrontOriginAccessControl.CloudfrontOriginAccessControlConfig",
 		reflect.TypeOf((*CloudfrontOriginAccessControlConfig)(nil)).Elem(),
 	)
 }

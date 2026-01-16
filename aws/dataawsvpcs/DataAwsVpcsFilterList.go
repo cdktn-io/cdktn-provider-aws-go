@@ -5,9 +5,9 @@ package dataawsvpcs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcs/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcs/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsVpcsFilterList(terraformResource cdktf.IInterpolatingParent, terr
 	j := jsiiProxy_DataAwsVpcsFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsVpcsFilterList_Override(d DataAwsVpcsFilterList, terraformResourc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcs.DataAwsVpcsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

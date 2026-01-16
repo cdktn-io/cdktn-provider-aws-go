@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.storagegatewayCachedIscsiVolume.StoragegatewayCachedIscsiVolume",
+		"@cdktn/provider-aws.storagegatewayCachedIscsiVolume.StoragegatewayCachedIscsiVolume",
 		reflect.TypeOf((*StoragegatewayCachedIscsiVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.storagegatewayCachedIscsiVolume.StoragegatewayCachedIscsiVolumeConfig",
+		"@cdktn/provider-aws.storagegatewayCachedIscsiVolume.StoragegatewayCachedIscsiVolumeConfig",
 		reflect.TypeOf((*StoragegatewayCachedIscsiVolumeConfig)(nil)).Elem(),
 	)
 }

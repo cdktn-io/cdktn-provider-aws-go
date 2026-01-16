@@ -5,9 +5,9 @@ package gluepartitionindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluepartitionindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluepartitionindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -218,7 +218,7 @@ func NewGluePartitionIndexPartitionIndexOutputReference(terraformResource cdktf.
 	j := jsiiProxy_GluePartitionIndexPartitionIndexOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndexPartitionIndexOutputReference",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndexPartitionIndexOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -230,7 +230,7 @@ func NewGluePartitionIndexPartitionIndexOutputReference_Override(g GluePartition
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndexPartitionIndexOutputReference",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndexPartitionIndexOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

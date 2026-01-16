@@ -5,14 +5,14 @@ package resourceexplorer2index
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourceexplorer2index/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2index/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index}.
 type Resourceexplorer2Index interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Resourceexplorer2Index) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
 func NewResourceexplorer2Index(scope constructs.Construct, id *string, config *Resourceexplorer2IndexConfig) Resourceexplorer2Index {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewResourceexplorer2Index(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_Resourceexplorer2Index{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewResourceexplorer2Index(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
 func NewResourceexplorer2Index_Override(r Resourceexplorer2Index, scope constructs.Construct, id *string, config *Resourceexplorer2IndexConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -554,7 +554,7 @@ func Resourceexplorer2Index_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func Resourceexplorer2Index_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func Resourceexplorer2Index_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func Resourceexplorer2Index_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func Resourceexplorer2Index_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
+		"@cdktn/provider-aws.resourceexplorer2Index.Resourceexplorer2Index",
 		"tfResourceType",
 		&returns,
 	)

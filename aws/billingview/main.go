@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingView",
+		"@cdktn/provider-aws.billingView.BillingView",
 		reflect.TypeOf((*BillingView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewConfig",
+		"@cdktn/provider-aws.billingView.BillingViewConfig",
 		reflect.TypeOf((*BillingViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpression",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpression",
 		reflect.TypeOf((*BillingViewDataFilterExpression)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionDimensions",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionDimensions",
 		reflect.TypeOf((*BillingViewDataFilterExpressionDimensions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsList",
 		reflect.TypeOf((*BillingViewDataFilterExpressionDimensionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionDimensionsOutputReference",
 		reflect.TypeOf((*BillingViewDataFilterExpressionDimensionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionList",
 		reflect.TypeOf((*BillingViewDataFilterExpressionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionOutputReference",
 		reflect.TypeOf((*BillingViewDataFilterExpressionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTags",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTags",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTagsList",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -254,7 +254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTagsOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTagsOutputReference",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -290,11 +290,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTimeRange",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTimeRange",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTimeRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTimeRangeList",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTimeRangeList",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTimeRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -316,7 +316,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewDataFilterExpressionTimeRangeOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewDataFilterExpressionTimeRangeOutputReference",
 		reflect.TypeOf((*BillingViewDataFilterExpressionTimeRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "beginDateInclusive", GoGetter: "BeginDateInclusive"},
@@ -352,11 +352,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.billingView.BillingViewTimeouts",
+		"@cdktn/provider-aws.billingView.BillingViewTimeouts",
 		reflect.TypeOf((*BillingViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.billingView.BillingViewTimeoutsOutputReference",
+		"@cdktn/provider-aws.billingView.BillingViewTimeoutsOutputReference",
 		reflect.TypeOf((*BillingViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

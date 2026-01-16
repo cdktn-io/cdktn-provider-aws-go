@@ -5,9 +5,9 @@ package gluepartitionindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluepartitionindex/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluepartitionindex/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewGluePartitionIndexTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_GluePartitionIndexTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndexTimeoutsOutputReference",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGluePartitionIndexTimeoutsOutputReference_Override(g GluePartitionIndexT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.gluePartitionIndex.GluePartitionIndexTimeoutsOutputReference",
+		"@cdktn/provider-aws.gluePartitionIndex.GluePartitionIndexTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.volumeAttachment.VolumeAttachment",
+		"@cdktn/provider-aws.volumeAttachment.VolumeAttachment",
 		reflect.TypeOf((*VolumeAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.volumeAttachment.VolumeAttachmentConfig",
+		"@cdktn/provider-aws.volumeAttachment.VolumeAttachmentConfig",
 		reflect.TypeOf((*VolumeAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.volumeAttachment.VolumeAttachmentTimeouts",
+		"@cdktn/provider-aws.volumeAttachment.VolumeAttachmentTimeouts",
 		reflect.TypeOf((*VolumeAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.volumeAttachment.VolumeAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.volumeAttachment.VolumeAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*VolumeAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

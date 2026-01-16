@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestination",
 		reflect.TypeOf((*DynamodbKinesisStreamingDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestinationConfig",
+		"@cdktn/provider-aws.dynamodbKinesisStreamingDestination.DynamodbKinesisStreamingDestinationConfig",
 		reflect.TypeOf((*DynamodbKinesisStreamingDestinationConfig)(nil)).Elem(),
 	)
 }

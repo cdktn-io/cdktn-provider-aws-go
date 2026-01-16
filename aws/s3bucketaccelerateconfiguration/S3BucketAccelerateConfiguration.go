@@ -5,14 +5,14 @@ package s3bucketaccelerateconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketaccelerateconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketaccelerateconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration}.
 type S3BucketAccelerateConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_S3BucketAccelerateConfiguration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
 func NewS3BucketAccelerateConfiguration(scope constructs.Construct, id *string, config *S3BucketAccelerateConfigurationConfig) S3BucketAccelerateConfiguration {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewS3BucketAccelerateConfiguration(scope constructs.Construct, id *string, 
 	j := jsiiProxy_S3BucketAccelerateConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewS3BucketAccelerateConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
 func NewS3BucketAccelerateConfiguration_Override(s S3BucketAccelerateConfiguration, scope constructs.Construct, id *string, config *S3BucketAccelerateConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -566,7 +566,7 @@ func S3BucketAccelerateConfiguration_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func S3BucketAccelerateConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func S3BucketAccelerateConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func S3BucketAccelerateConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func S3BucketAccelerateConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
+		"@cdktn/provider-aws.s3BucketAccelerateConfiguration.S3BucketAccelerateConfiguration",
 		"tfResourceType",
 		&returns,
 	)

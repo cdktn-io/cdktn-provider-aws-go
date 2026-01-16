@@ -5,14 +5,14 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_domain aws_route53domains_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_domain aws_route53domains_domain}.
 type Route53DomainsDomain interface {
 	cdktf.TerraformResource
 	AbuseContactEmail() *string
@@ -766,7 +766,7 @@ func (j *jsiiProxy_Route53DomainsDomain) WhoisServer() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
 func NewRoute53DomainsDomain(scope constructs.Construct, id *string, config *Route53DomainsDomainConfig) Route53DomainsDomain {
 	_init_.Initialize()
 
@@ -776,7 +776,7 @@ func NewRoute53DomainsDomain(scope constructs.Construct, id *string, config *Rou
 	j := jsiiProxy_Route53DomainsDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -784,12 +784,12 @@ func NewRoute53DomainsDomain(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
 func NewRoute53DomainsDomain_Override(r Route53DomainsDomain, scope constructs.Construct, id *string, config *Route53DomainsDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -972,7 +972,7 @@ func Route53DomainsDomain_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1007,7 +1007,7 @@ func Route53DomainsDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1026,7 +1026,7 @@ func Route53DomainsDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1045,7 +1045,7 @@ func Route53DomainsDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func Route53DomainsDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53DomainsDomain.Route53DomainsDomain",
+		"@cdktn/provider-aws.route53DomainsDomain.Route53DomainsDomain",
 		"tfResourceType",
 		&returns,
 	)

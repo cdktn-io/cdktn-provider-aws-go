@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudcontrolapiResource.DataAwsCloudcontrolapiResource",
+		"@cdktn/provider-aws.dataAwsCloudcontrolapiResource.DataAwsCloudcontrolapiResource",
 		reflect.TypeOf((*DataAwsCloudcontrolapiResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudcontrolapiResource.DataAwsCloudcontrolapiResourceConfig",
+		"@cdktn/provider-aws.dataAwsCloudcontrolapiResource.DataAwsCloudcontrolapiResourceConfig",
 		reflect.TypeOf((*DataAwsCloudcontrolapiResourceConfig)(nil)).Elem(),
 	)
 }

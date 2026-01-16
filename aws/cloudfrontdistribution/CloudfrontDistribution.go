@@ -5,14 +5,14 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
 type CloudfrontDistribution interface {
 	cdktf.TerraformResource
 	Aliases() *[]*string
@@ -32,6 +32,8 @@ type CloudfrontDistribution interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectionFunctionAssociation() CloudfrontDistributionConnectionFunctionAssociationOutputReference
+	ConnectionFunctionAssociationInput() *CloudfrontDistributionConnectionFunctionAssociation
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	ContinuousDeploymentPolicyId() *string
@@ -130,6 +132,8 @@ type CloudfrontDistribution interface {
 	TrustedSigners() CloudfrontDistributionTrustedSignersList
 	ViewerCertificate() CloudfrontDistributionViewerCertificateOutputReference
 	ViewerCertificateInput() *CloudfrontDistributionViewerCertificate
+	ViewerMtlsConfig() CloudfrontDistributionViewerMtlsConfigOutputReference
+	ViewerMtlsConfigInput() *CloudfrontDistributionViewerMtlsConfig
 	WaitForDeployment() interface{}
 	SetWaitForDeployment(val interface{})
 	WaitForDeploymentInput() interface{}
@@ -179,6 +183,7 @@ type CloudfrontDistribution interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutConnectionFunctionAssociation(value *CloudfrontDistributionConnectionFunctionAssociation)
 	PutCustomErrorResponse(value interface{})
 	PutDefaultCacheBehavior(value *CloudfrontDistributionDefaultCacheBehavior)
 	PutLoggingConfig(value *CloudfrontDistributionLoggingConfig)
@@ -187,9 +192,11 @@ type CloudfrontDistribution interface {
 	PutOriginGroup(value interface{})
 	PutRestrictions(value *CloudfrontDistributionRestrictions)
 	PutViewerCertificate(value *CloudfrontDistributionViewerCertificate)
+	PutViewerMtlsConfig(value *CloudfrontDistributionViewerMtlsConfig)
 	ResetAliases()
 	ResetAnycastIpListId()
 	ResetComment()
+	ResetConnectionFunctionAssociation()
 	ResetContinuousDeploymentPolicyId()
 	ResetCustomErrorResponse()
 	ResetDefaultRootObject()
@@ -207,6 +214,7 @@ type CloudfrontDistribution interface {
 	ResetStaging()
 	ResetTags()
 	ResetTagsAll()
+	ResetViewerMtlsConfig()
 	ResetWaitForDeployment()
 	ResetWebAclId()
 	SynthesizeAttributes() *map[string]interface{}
@@ -322,6 +330,26 @@ func (j *jsiiProxy_CloudfrontDistribution) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistribution) ConnectionFunctionAssociation() CloudfrontDistributionConnectionFunctionAssociationOutputReference {
+	var returns CloudfrontDistributionConnectionFunctionAssociationOutputReference
+	_jsii_.Get(
+		j,
+		"connectionFunctionAssociation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistribution) ConnectionFunctionAssociationInput() *CloudfrontDistributionConnectionFunctionAssociation {
+	var returns *CloudfrontDistributionConnectionFunctionAssociation
+	_jsii_.Get(
+		j,
+		"connectionFunctionAssociationInput",
 		&returns,
 	)
 	return returns
@@ -937,6 +965,26 @@ func (j *jsiiProxy_CloudfrontDistribution) ViewerCertificateInput() *CloudfrontD
 	return returns
 }
 
+func (j *jsiiProxy_CloudfrontDistribution) ViewerMtlsConfig() CloudfrontDistributionViewerMtlsConfigOutputReference {
+	var returns CloudfrontDistributionViewerMtlsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"viewerMtlsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontDistribution) ViewerMtlsConfigInput() *CloudfrontDistributionViewerMtlsConfig {
+	var returns *CloudfrontDistributionViewerMtlsConfig
+	_jsii_.Get(
+		j,
+		"viewerMtlsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudfrontDistribution) WaitForDeployment() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -978,7 +1026,7 @@ func (j *jsiiProxy_CloudfrontDistribution) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) CloudfrontDistribution {
 	_init_.Initialize()
 
@@ -988,7 +1036,7 @@ func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_CloudfrontDistribution{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -996,12 +1044,12 @@ func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution_Override(c CloudfrontDistribution, scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1261,7 +1309,7 @@ func CloudfrontDistribution_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1296,7 +1344,7 @@ func CloudfrontDistribution_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1315,7 +1363,7 @@ func CloudfrontDistribution_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1334,7 +1382,7 @@ func CloudfrontDistribution_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1347,7 +1395,7 @@ func CloudfrontDistribution_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		"tfResourceType",
 		&returns,
 	)
@@ -1604,6 +1652,17 @@ func (c *jsiiProxy_CloudfrontDistribution) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) PutConnectionFunctionAssociation(value *CloudfrontDistributionConnectionFunctionAssociation) {
+	if err := c.validatePutConnectionFunctionAssociationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putConnectionFunctionAssociation",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) PutCustomErrorResponse(value interface{}) {
 	if err := c.validatePutCustomErrorResponseParameters(value); err != nil {
 		panic(err)
@@ -1692,6 +1751,17 @@ func (c *jsiiProxy_CloudfrontDistribution) PutViewerCertificate(value *Cloudfron
 	)
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) PutViewerMtlsConfig(value *CloudfrontDistributionViewerMtlsConfig) {
+	if err := c.validatePutViewerMtlsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putViewerMtlsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) ResetAliases() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1712,6 +1782,14 @@ func (c *jsiiProxy_CloudfrontDistribution) ResetComment() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetComment",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) ResetConnectionFunctionAssociation() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetConnectionFunctionAssociation",
 		nil, // no parameters
 	)
 }
@@ -1832,6 +1910,14 @@ func (c *jsiiProxy_CloudfrontDistribution) ResetTagsAll() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) ResetViewerMtlsConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetViewerMtlsConfig",
 		nil, // no parameters
 	)
 }

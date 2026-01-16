@@ -5,9 +5,9 @@ package sagemakermodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakermodel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakermodel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSagemakerModelPrimaryContainerMultiModelConfigOutputReference(terraformR
 	j := jsiiProxy_SagemakerModelPrimaryContainerMultiModelConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSagemakerModelPrimaryContainerMultiModelConfigOutputReference_Override(s
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
+		"@cdktn/provider-aws.sagemakerModel.SagemakerModelPrimaryContainerMultiModelConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

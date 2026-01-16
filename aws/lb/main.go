@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.Lb",
+		"@cdktn/provider-aws.lb.Lb",
 		reflect.TypeOf((*Lb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLogs", GoGetter: "AccessLogs"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbAccessLogs",
+		"@cdktn/provider-aws.lb.LbAccessLogs",
 		reflect.TypeOf((*LbAccessLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbAccessLogsOutputReference",
+		"@cdktn/provider-aws.lb.LbAccessLogsOutputReference",
 		reflect.TypeOf((*LbAccessLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -224,15 +224,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbConfig",
+		"@cdktn/provider-aws.lb.LbConfig",
 		reflect.TypeOf((*LbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbConnectionLogs",
+		"@cdktn/provider-aws.lb.LbConnectionLogs",
 		reflect.TypeOf((*LbConnectionLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbConnectionLogsOutputReference",
+		"@cdktn/provider-aws.lb.LbConnectionLogsOutputReference",
 		reflect.TypeOf((*LbConnectionLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbHealthCheckLogs",
+		"@cdktn/provider-aws.lb.LbHealthCheckLogs",
 		reflect.TypeOf((*LbHealthCheckLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbHealthCheckLogsOutputReference",
+		"@cdktn/provider-aws.lb.LbHealthCheckLogsOutputReference",
 		reflect.TypeOf((*LbHealthCheckLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -316,11 +316,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbIpamPools",
+		"@cdktn/provider-aws.lb.LbIpamPools",
 		reflect.TypeOf((*LbIpamPools)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbIpamPoolsOutputReference",
+		"@cdktn/provider-aws.lb.LbIpamPoolsOutputReference",
 		reflect.TypeOf((*LbIpamPoolsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,11 +354,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbMinimumLoadBalancerCapacity",
+		"@cdktn/provider-aws.lb.LbMinimumLoadBalancerCapacity",
 		reflect.TypeOf((*LbMinimumLoadBalancerCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
+		"@cdktn/provider-aws.lb.LbMinimumLoadBalancerCapacityOutputReference",
 		reflect.TypeOf((*LbMinimumLoadBalancerCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityUnits", GoGetter: "CapacityUnits"},
@@ -392,11 +392,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbSubnetMapping",
+		"@cdktn/provider-aws.lb.LbSubnetMapping",
 		reflect.TypeOf((*LbSubnetMapping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbSubnetMappingList",
+		"@cdktn/provider-aws.lb.LbSubnetMappingList",
 		reflect.TypeOf((*LbSubnetMappingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -418,7 +418,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbSubnetMappingOutputReference",
+		"@cdktn/provider-aws.lb.LbSubnetMappingOutputReference",
 		reflect.TypeOf((*LbSubnetMappingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationId", GoGetter: "AllocationId"},
@@ -462,11 +462,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lb.LbTimeouts",
+		"@cdktn/provider-aws.lb.LbTimeouts",
 		reflect.TypeOf((*LbTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lb.LbTimeoutsOutputReference",
+		"@cdktn/provider-aws.lb.LbTimeoutsOutputReference",
 		reflect.TypeOf((*LbTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

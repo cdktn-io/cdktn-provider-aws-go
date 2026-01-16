@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalIpset.WafregionalIpset",
+		"@cdktn/provider-aws.wafregionalIpset.WafregionalIpset",
 		reflect.TypeOf((*WafregionalIpset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalIpset.WafregionalIpsetConfig",
+		"@cdktn/provider-aws.wafregionalIpset.WafregionalIpsetConfig",
 		reflect.TypeOf((*WafregionalIpsetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptor",
+		"@cdktn/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptor",
 		reflect.TypeOf((*WafregionalIpsetIpSetDescriptor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptorList",
+		"@cdktn/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptorList",
 		reflect.TypeOf((*WafregionalIpsetIpSetDescriptorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptorOutputReference",
+		"@cdktn/provider-aws.wafregionalIpset.WafregionalIpsetIpSetDescriptorOutputReference",
 		reflect.TypeOf((*WafregionalIpsetIpSetDescriptorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

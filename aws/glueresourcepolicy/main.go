@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueResourcePolicy.GlueResourcePolicy",
+		"@cdktn/provider-aws.glueResourcePolicy.GlueResourcePolicy",
 		reflect.TypeOf((*GlueResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueResourcePolicy.GlueResourcePolicyConfig",
+		"@cdktn/provider-aws.glueResourcePolicy.GlueResourcePolicyConfig",
 		reflect.TypeOf((*GlueResourcePolicyConfig)(nil)).Elem(),
 	)
 }

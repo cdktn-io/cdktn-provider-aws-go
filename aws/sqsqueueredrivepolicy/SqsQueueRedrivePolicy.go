@@ -5,14 +5,14 @@ package sqsqueueredrivepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sqsqueueredrivepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sqsqueueredrivepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy}.
 type SqsQueueRedrivePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SqsQueueRedrivePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
 func NewSqsQueueRedrivePolicy(scope constructs.Construct, id *string, config *SqsQueueRedrivePolicyConfig) SqsQueueRedrivePolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSqsQueueRedrivePolicy(scope constructs.Construct, id *string, config *Sq
 	j := jsiiProxy_SqsQueueRedrivePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSqsQueueRedrivePolicy(scope constructs.Construct, id *string, config *Sq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
 func NewSqsQueueRedrivePolicy_Override(s SqsQueueRedrivePolicy, scope constructs.Construct, id *string, config *SqsQueueRedrivePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -531,7 +531,7 @@ func SqsQueueRedrivePolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func SqsQueueRedrivePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func SqsQueueRedrivePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func SqsQueueRedrivePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func SqsQueueRedrivePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
+		"@cdktn/provider-aws.sqsQueueRedrivePolicy.SqsQueueRedrivePolicy",
 		"tfResourceType",
 		&returns,
 	)

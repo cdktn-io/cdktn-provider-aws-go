@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightTheme",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightTheme",
 		reflect.TypeOf((*QuicksightTheme)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,19 +104,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfig",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfig",
 		reflect.TypeOf((*QuicksightThemeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfiguration",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfiguration",
 		reflect.TypeOf((*QuicksightThemeConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPalette",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPalette",
 		reflect.TypeOf((*QuicksightThemeConfigurationDataColorPalette)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationDataColorPaletteOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationDataColorPaletteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colors", GoGetter: "Colors"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheet",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheet",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,15 +249,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTile",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTile",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorder",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorder",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileBorder)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorderOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileBorderOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileBorderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -292,15 +292,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayout",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayout",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayout)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutGutter",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutGutter",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayoutGutter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMargin",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMargin",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayoutMargin)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -374,7 +374,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileLayoutOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileLayoutOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -414,7 +414,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationSheetTileOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationSheetTileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "border", GoGetter: "Border"},
@@ -450,15 +450,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypography",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypography",
 		reflect.TypeOf((*QuicksightThemeConfigurationTypography)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies",
 		reflect.TypeOf((*QuicksightThemeConfigurationTypographyFontFamilies)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesList",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesList",
 		reflect.TypeOf((*QuicksightThemeConfigurationTypographyFontFamiliesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -480,7 +480,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamiliesOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationTypographyFontFamiliesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -515,7 +515,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationTypographyOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationTypographyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -551,11 +551,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationUiColorPalette",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationUiColorPalette",
 		reflect.TypeOf((*QuicksightThemeConfigurationUiColorPalette)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeConfigurationUiColorPaletteOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeConfigurationUiColorPaletteOutputReference",
 		reflect.TypeOf((*QuicksightThemeConfigurationUiColorPaletteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accent", GoGetter: "Accent"},
@@ -635,11 +635,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemePermissions",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemePermissions",
 		reflect.TypeOf((*QuicksightThemePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
 		reflect.TypeOf((*QuicksightThemePermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -661,7 +661,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemePermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemePermissionsOutputReference",
 		reflect.TypeOf((*QuicksightThemePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -697,11 +697,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeTimeouts",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeTimeouts",
 		reflect.TypeOf((*QuicksightThemeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemeTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemeTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightThemeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

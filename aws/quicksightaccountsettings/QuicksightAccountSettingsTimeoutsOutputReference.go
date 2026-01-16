@@ -5,9 +5,9 @@ package quicksightaccountsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightaccountsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightaccountsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewQuicksightAccountSettingsTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_QuicksightAccountSettingsTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewQuicksightAccountSettingsTimeoutsOutputReference_Override(q QuicksightAc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightAccountSettings.QuicksightAccountSettingsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

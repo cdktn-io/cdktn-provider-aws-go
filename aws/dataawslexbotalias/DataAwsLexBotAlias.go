@@ -5,14 +5,14 @@ package dataawslexbotalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslexbotalias/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslexbotalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias}.
 type DataAwsLexBotAlias interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAwsLexBotAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias} Data Source.
 func NewDataAwsLexBotAlias(scope constructs.Construct, id *string, config *DataAwsLexBotAliasConfig) DataAwsLexBotAlias {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAwsLexBotAlias(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsLexBotAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewDataAwsLexBotAlias(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lex_bot_alias aws_lex_bot_alias} Data Source.
 func NewDataAwsLexBotAlias_Override(d DataAwsLexBotAlias, scope constructs.Construct, id *string, config *DataAwsLexBotAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func DataAwsLexBotAlias_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func DataAwsLexBotAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsLexBotAlias_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAwsLexBotAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataAwsLexBotAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
+		"@cdktn/provider-aws.dataAwsLexBotAlias.DataAwsLexBotAlias",
 		"tfResourceType",
 		&returns,
 	)

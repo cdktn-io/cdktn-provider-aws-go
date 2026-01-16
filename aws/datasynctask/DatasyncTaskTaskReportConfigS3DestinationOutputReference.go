@@ -5,9 +5,9 @@ package datasynctask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datasynctask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datasynctask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference(terraformResour
 	j := jsiiProxy_DatasyncTaskTaskReportConfigS3DestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDatasyncTaskTaskReportConfigS3DestinationOutputReference_Override(d Data
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
+		"@cdktn/provider-aws.datasyncTask.DatasyncTaskTaskReportConfigS3DestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

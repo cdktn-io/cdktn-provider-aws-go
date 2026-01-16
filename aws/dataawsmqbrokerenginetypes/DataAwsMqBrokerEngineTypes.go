@@ -5,14 +5,14 @@ package dataawsmqbrokerenginetypes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmqbrokerenginetypes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmqbrokerenginetypes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types}.
 type DataAwsMqBrokerEngineTypes interface {
 	cdktf.TerraformDataSource
 	BrokerEngineTypes() DataAwsMqBrokerEngineTypesBrokerEngineTypesList
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEngineTypes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
 func NewDataAwsMqBrokerEngineTypes(scope constructs.Construct, id *string, config *DataAwsMqBrokerEngineTypesConfig) DataAwsMqBrokerEngineTypes {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataAwsMqBrokerEngineTypes(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAwsMqBrokerEngineTypes{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataAwsMqBrokerEngineTypes(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
 func NewDataAwsMqBrokerEngineTypes_Override(d DataAwsMqBrokerEngineTypes, scope constructs.Construct, id *string, config *DataAwsMqBrokerEngineTypesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataAwsMqBrokerEngineTypes_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataAwsMqBrokerEngineTypes_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataAwsMqBrokerEngineTypes_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataAwsMqBrokerEngineTypes_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataAwsMqBrokerEngineTypes_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
+		"@cdktn/provider-aws.dataAwsMqBrokerEngineTypes.DataAwsMqBrokerEngineTypes",
 		"tfResourceType",
 		&returns,
 	)

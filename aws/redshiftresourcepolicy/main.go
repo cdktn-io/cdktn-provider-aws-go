@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		reflect.TypeOf((*RedshiftResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicyConfig",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicyConfig",
 		reflect.TypeOf((*RedshiftResourcePolicyConfig)(nil)).Elem(),
 	)
 }

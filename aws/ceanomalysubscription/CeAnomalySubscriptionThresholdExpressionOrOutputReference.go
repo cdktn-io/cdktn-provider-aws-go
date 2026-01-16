@@ -5,9 +5,9 @@ package ceanomalysubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ceanomalysubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ceanomalysubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCeAnomalySubscriptionThresholdExpressionOrOutputReference(terraformResou
 	j := jsiiProxy_CeAnomalySubscriptionThresholdExpressionOrOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOrOutputReference",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOrOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCeAnomalySubscriptionThresholdExpressionOrOutputReference_Override(c CeA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOrOutputReference",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionOrOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

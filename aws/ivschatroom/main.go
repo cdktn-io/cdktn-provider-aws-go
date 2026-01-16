@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoom",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoom",
 		reflect.TypeOf((*IvschatRoom)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomConfig",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomConfig",
 		reflect.TypeOf((*IvschatRoomConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandler",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandler",
 		reflect.TypeOf((*IvschatRoomMessageReviewHandler)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomMessageReviewHandlerOutputReference",
 		reflect.TypeOf((*IvschatRoomMessageReviewHandlerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomTimeouts",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomTimeouts",
 		reflect.TypeOf((*IvschatRoomTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ivschatRoom.IvschatRoomTimeoutsOutputReference",
+		"@cdktn/provider-aws.ivschatRoom.IvschatRoomTimeoutsOutputReference",
 		reflect.TypeOf((*IvschatRoomTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

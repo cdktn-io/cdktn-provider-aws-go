@@ -5,14 +5,14 @@ package directoryserviceradiussettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/directoryserviceradiussettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/directoryserviceradiussettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings}.
 type DirectoryServiceRadiusSettings interface {
 	cdktf.TerraformResource
 	AuthenticationProtocol() *string
@@ -566,7 +566,7 @@ func (j *jsiiProxy_DirectoryServiceRadiusSettings) UseSameUsernameInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
 func NewDirectoryServiceRadiusSettings(scope constructs.Construct, id *string, config *DirectoryServiceRadiusSettingsConfig) DirectoryServiceRadiusSettings {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewDirectoryServiceRadiusSettings(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DirectoryServiceRadiusSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -584,12 +584,12 @@ func NewDirectoryServiceRadiusSettings(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/directory_service_radius_settings aws_directory_service_radius_settings} Resource.
 func NewDirectoryServiceRadiusSettings_Override(d DirectoryServiceRadiusSettings, scope constructs.Construct, id *string, config *DirectoryServiceRadiusSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -794,7 +794,7 @@ func DirectoryServiceRadiusSettings_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -829,7 +829,7 @@ func DirectoryServiceRadiusSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func DirectoryServiceRadiusSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -867,7 +867,7 @@ func DirectoryServiceRadiusSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func DirectoryServiceRadiusSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
+		"@cdktn/provider-aws.directoryServiceRadiusSettings.DirectoryServiceRadiusSettings",
 		"tfResourceType",
 		&returns,
 	)

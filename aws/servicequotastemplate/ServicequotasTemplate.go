@@ -5,14 +5,14 @@ package servicequotastemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/servicequotastemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicequotastemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template aws_servicequotas_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template aws_servicequotas_template}.
 type ServicequotasTemplate interface {
 	cdktf.TerraformResource
 	AwsRegion() *string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_ServicequotasTemplate) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template aws_servicequotas_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template aws_servicequotas_template} Resource.
 func NewServicequotasTemplate(scope constructs.Construct, id *string, config *ServicequotasTemplateConfig) ServicequotasTemplate {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewServicequotasTemplate(scope constructs.Construct, id *string, config *Se
 	j := jsiiProxy_ServicequotasTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -476,12 +476,12 @@ func NewServicequotasTemplate(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/servicequotas_template aws_servicequotas_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_template aws_servicequotas_template} Resource.
 func NewServicequotasTemplate_Override(s ServicequotasTemplate, scope constructs.Construct, id *string, config *ServicequotasTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -620,7 +620,7 @@ func ServicequotasTemplate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -655,7 +655,7 @@ func ServicequotasTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ServicequotasTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func ServicequotasTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func ServicequotasTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.servicequotasTemplate.ServicequotasTemplate",
+		"@cdktn/provider-aws.servicequotasTemplate.ServicequotasTemplate",
 		"tfResourceType",
 		&returns,
 	)

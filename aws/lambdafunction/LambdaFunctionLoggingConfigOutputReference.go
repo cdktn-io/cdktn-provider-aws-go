@@ -5,9 +5,9 @@ package lambdafunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lambdafunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewLambdaFunctionLoggingConfigOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_LambdaFunctionLoggingConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewLambdaFunctionLoggingConfigOutputReference_Override(l LambdaFunctionLogg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
+		"@cdktn/provider-aws.lambdaFunction.LambdaFunctionLoggingConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

@@ -5,14 +5,14 @@ package ssoadminmanagedpolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminmanagedpolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminmanagedpolicyattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment}.
 type SsoadminManagedPolicyAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SsoadminManagedPolicyAttachment) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment} Resource.
 func NewSsoadminManagedPolicyAttachment(scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentConfig) SsoadminManagedPolicyAttachment {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewSsoadminManagedPolicyAttachment(scope constructs.Construct, id *string, 
 	j := jsiiProxy_SsoadminManagedPolicyAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewSsoadminManagedPolicyAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_managed_policy_attachment aws_ssoadmin_managed_policy_attachment} Resource.
 func NewSsoadminManagedPolicyAttachment_Override(s SsoadminManagedPolicyAttachment, scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -600,7 +600,7 @@ func SsoadminManagedPolicyAttachment_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func SsoadminManagedPolicyAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func SsoadminManagedPolicyAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func SsoadminManagedPolicyAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SsoadminManagedPolicyAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
+		"@cdktn/provider-aws.ssoadminManagedPolicyAttachment.SsoadminManagedPolicyAttachment",
 		"tfResourceType",
 		&returns,
 	)

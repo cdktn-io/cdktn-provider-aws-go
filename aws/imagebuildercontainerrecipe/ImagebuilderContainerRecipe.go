@@ -5,14 +5,14 @@ package imagebuildercontainerrecipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/imagebuildercontainerrecipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/imagebuildercontainerrecipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe}.
 type ImagebuilderContainerRecipe interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -743,7 +743,7 @@ func (j *jsiiProxy_ImagebuilderContainerRecipe) WorkingDirectoryInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Resource.
 func NewImagebuilderContainerRecipe(scope constructs.Construct, id *string, config *ImagebuilderContainerRecipeConfig) ImagebuilderContainerRecipe {
 	_init_.Initialize()
 
@@ -753,7 +753,7 @@ func NewImagebuilderContainerRecipe(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ImagebuilderContainerRecipe{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -761,12 +761,12 @@ func NewImagebuilderContainerRecipe(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/imagebuilder_container_recipe aws_imagebuilder_container_recipe} Resource.
 func NewImagebuilderContainerRecipe_Override(i ImagebuilderContainerRecipe, scope constructs.Construct, id *string, config *ImagebuilderContainerRecipeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -1004,7 +1004,7 @@ func ImagebuilderContainerRecipe_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1039,7 +1039,7 @@ func ImagebuilderContainerRecipe_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func ImagebuilderContainerRecipe_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1077,7 +1077,7 @@ func ImagebuilderContainerRecipe_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1090,7 +1090,7 @@ func ImagebuilderContainerRecipe_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
+		"@cdktn/provider-aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipe",
 		"tfResourceType",
 		&returns,
 	)

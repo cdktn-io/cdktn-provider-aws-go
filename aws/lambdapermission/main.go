@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermission",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermission",
 		reflect.TypeOf((*LambdaPermission)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -46,6 +46,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
 			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "invokedViaFunctionUrl", GoGetter: "InvokedViaFunctionUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "invokedViaFunctionUrlInput", GoGetter: "InvokedViaFunctionUrlInput"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
@@ -66,6 +68,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEventSourceToken", GoMethod: "ResetEventSourceToken"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFunctionUrlAuthType", GoMethod: "ResetFunctionUrlAuthType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInvokedViaFunctionUrl", GoMethod: "ResetInvokedViaFunctionUrl"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrincipalOrgId", GoMethod: "ResetPrincipalOrgId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQualifier", GoMethod: "ResetQualifier"},
@@ -99,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lambdaPermission.LambdaPermissionConfig",
+		"@cdktn/provider-aws.lambdaPermission.LambdaPermissionConfig",
 		reflect.TypeOf((*LambdaPermissionConfig)(nil)).Elem(),
 	)
 }

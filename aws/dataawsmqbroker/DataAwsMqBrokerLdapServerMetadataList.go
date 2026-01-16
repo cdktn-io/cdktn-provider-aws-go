@@ -5,9 +5,9 @@ package dataawsmqbroker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmqbroker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmqbroker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsMqBrokerLdapServerMetadataList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAwsMqBrokerLdapServerMetadataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsMqBrokerLdapServerMetadataList_Override(d DataAwsMqBrokerLdapServ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
+		"@cdktn/provider-aws.dataAwsMqBroker.DataAwsMqBrokerLdapServerMetadataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

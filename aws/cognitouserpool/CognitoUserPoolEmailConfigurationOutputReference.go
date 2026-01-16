@@ -5,9 +5,9 @@ package cognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitouserpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewCognitoUserPoolEmailConfigurationOutputReference(terraformResource cdktf
 	j := jsiiProxy_CognitoUserPoolEmailConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolEmailConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolEmailConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewCognitoUserPoolEmailConfigurationOutputReference_Override(c CognitoUserP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoUserPool.CognitoUserPoolEmailConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPool.CognitoUserPoolEmailConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

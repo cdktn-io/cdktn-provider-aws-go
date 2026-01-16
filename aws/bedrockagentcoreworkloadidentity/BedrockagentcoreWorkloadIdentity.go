@@ -5,14 +5,14 @@ package bedrockagentcoreworkloadidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentcoreworkloadidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentcoreworkloadidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
 type BedrockagentcoreWorkloadIdentity interface {
 	cdktf.TerraformResource
 	AllowedResourceOauth2ReturnUrls() *[]*string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) WorkloadIdentityArn() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) BedrockagentcoreWorkloadIdentity {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string,
 	j := jsiiProxy_BedrockagentcoreWorkloadIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity_Override(b BedrockagentcoreWorkloadIdentity, scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -508,7 +508,7 @@ func BedrockagentcoreWorkloadIdentity_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func BedrockagentcoreWorkloadIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func BedrockagentcoreWorkloadIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func BedrockagentcoreWorkloadIdentity_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func BedrockagentcoreWorkloadIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
+		"@cdktn/provider-aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity",
 		"tfResourceType",
 		&returns,
 	)

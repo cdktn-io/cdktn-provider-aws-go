@@ -71,6 +71,14 @@ func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetPrivateDnsOn
 	return nil
 }
 
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetPrivateDnsPreferenceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetPrivateDnsSpecifiedDomainsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VpcEndpointDnsOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

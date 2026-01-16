@@ -5,14 +5,14 @@ package wafregionalbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalbytematchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
 type WafregionalByteMatchSet interface {
 	cdktf.TerraformResource
 	ByteMatchTuples() WafregionalByteMatchSetByteMatchTuplesList
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WafregionalByteMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) WafregionalByteMatchSet {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_WafregionalByteMatchSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet_Override(w WafregionalByteMatchSet, scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -521,7 +521,7 @@ func WafregionalByteMatchSet_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func WafregionalByteMatchSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func WafregionalByteMatchSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func WafregionalByteMatchSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func WafregionalByteMatchSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
+		"@cdktn/provider-aws.wafregionalByteMatchSet.WafregionalByteMatchSet",
 		"tfResourceType",
 		&returns,
 	)

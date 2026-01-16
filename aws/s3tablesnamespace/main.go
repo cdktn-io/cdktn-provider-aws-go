@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3TablesNamespace.S3TablesNamespace",
+		"@cdktn/provider-aws.s3TablesNamespace.S3TablesNamespace",
 		reflect.TypeOf((*S3TablesNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3TablesNamespace.S3TablesNamespaceConfig",
+		"@cdktn/provider-aws.s3TablesNamespace.S3TablesNamespaceConfig",
 		reflect.TypeOf((*S3TablesNamespaceConfig)(nil)).Elem(),
 	)
 }

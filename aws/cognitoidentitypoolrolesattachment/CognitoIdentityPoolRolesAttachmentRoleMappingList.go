@@ -5,9 +5,9 @@ package cognitoidentitypoolrolesattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoidentitypoolrolesattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoidentitypoolrolesattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCognitoIdentityPoolRolesAttachmentRoleMappingList(terraformResource cdkt
 	j := jsiiProxy_CognitoIdentityPoolRolesAttachmentRoleMappingList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingList",
+		"@cdktn/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCognitoIdentityPoolRolesAttachmentRoleMappingList_Override(c CognitoIden
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingList",
+		"@cdktn/provider-aws.cognitoIdentityPoolRolesAttachment.CognitoIdentityPoolRolesAttachmentRoleMappingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

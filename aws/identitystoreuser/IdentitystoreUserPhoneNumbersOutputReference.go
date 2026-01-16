@@ -5,9 +5,9 @@ package identitystoreuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/identitystoreuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/identitystoreuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewIdentitystoreUserPhoneNumbersOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_IdentitystoreUserPhoneNumbersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreUser.IdentitystoreUserPhoneNumbersOutputReference",
+		"@cdktn/provider-aws.identitystoreUser.IdentitystoreUserPhoneNumbersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewIdentitystoreUserPhoneNumbersOutputReference_Override(i IdentitystoreUse
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.identitystoreUser.IdentitystoreUserPhoneNumbersOutputReference",
+		"@cdktn/provider-aws.identitystoreUser.IdentitystoreUserPhoneNumbersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

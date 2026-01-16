@@ -5,14 +5,14 @@ package iamuserpoliciesexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/iamuserpoliciesexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamuserpoliciesexclusive/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive}.
 type IamUserPoliciesExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_IamUserPoliciesExclusive) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
 func NewIamUserPoliciesExclusive(scope constructs.Construct, id *string, config *IamUserPoliciesExclusiveConfig) IamUserPoliciesExclusive {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewIamUserPoliciesExclusive(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_IamUserPoliciesExclusive{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewIamUserPoliciesExclusive(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_policies_exclusive aws_iam_user_policies_exclusive} Resource.
 func NewIamUserPoliciesExclusive_Override(i IamUserPoliciesExclusive, scope constructs.Construct, id *string, config *IamUserPoliciesExclusiveConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -461,7 +461,7 @@ func IamUserPoliciesExclusive_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func IamUserPoliciesExclusive_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func IamUserPoliciesExclusive_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func IamUserPoliciesExclusive_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func IamUserPoliciesExclusive_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
+		"@cdktn/provider-aws.iamUserPoliciesExclusive.IamUserPoliciesExclusive",
 		"tfResourceType",
 		&returns,
 	)

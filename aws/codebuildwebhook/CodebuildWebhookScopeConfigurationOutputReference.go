@@ -5,9 +5,9 @@ package codebuildwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildwebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewCodebuildWebhookScopeConfigurationOutputReference(terraformResource cdkt
 	j := jsiiProxy_CodebuildWebhookScopeConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewCodebuildWebhookScopeConfigurationOutputReference_Override(c CodebuildWe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
+		"@cdktn/provider-aws.codebuildWebhook.CodebuildWebhookScopeConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

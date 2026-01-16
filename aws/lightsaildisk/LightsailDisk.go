@@ -5,14 +5,14 @@ package lightsaildisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildisk/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildisk/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk aws_lightsail_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk aws_lightsail_disk}.
 type LightsailDisk interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_LightsailDisk) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
 func NewLightsailDisk(scope constructs.Construct, id *string, config *LightsailDiskConfig) LightsailDisk {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewLightsailDisk(scope constructs.Construct, id *string, config *LightsailD
 	j := jsiiProxy_LightsailDisk{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewLightsailDisk(scope constructs.Construct, id *string, config *LightsailD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk aws_lightsail_disk} Resource.
 func NewLightsailDisk_Override(l LightsailDisk, scope constructs.Construct, id *string, config *LightsailDiskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -668,7 +668,7 @@ func LightsailDisk_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func LightsailDisk_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func LightsailDisk_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func LightsailDisk_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func LightsailDisk_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailDisk.LightsailDisk",
+		"@cdktn/provider-aws.lightsailDisk.LightsailDisk",
 		"tfResourceType",
 		&returns,
 	)

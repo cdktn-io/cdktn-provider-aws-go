@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOffering",
 		reflect.TypeOf((*DataAwsEc2CapacityBlockOffering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOfferingConfig",
+		"@cdktn/provider-aws.dataAwsEc2CapacityBlockOffering.DataAwsEc2CapacityBlockOfferingConfig",
 		reflect.TypeOf((*DataAwsEc2CapacityBlockOfferingConfig)(nil)).Elem(),
 	)
 }

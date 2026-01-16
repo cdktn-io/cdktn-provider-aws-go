@@ -5,14 +5,14 @@ package launchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/launchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/launch_configuration aws_launch_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_configuration aws_launch_configuration}.
 type LaunchConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -775,7 +775,7 @@ func (j *jsiiProxy_LaunchConfiguration) UserDataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
 func NewLaunchConfiguration(scope constructs.Construct, id *string, config *LaunchConfigurationConfig) LaunchConfiguration {
 	_init_.Initialize()
 
@@ -785,7 +785,7 @@ func NewLaunchConfiguration(scope constructs.Construct, id *string, config *Laun
 	j := jsiiProxy_LaunchConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -793,12 +793,12 @@ func NewLaunchConfiguration(scope constructs.Construct, id *string, config *Laun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_configuration aws_launch_configuration} Resource.
 func NewLaunchConfiguration_Override(l LaunchConfiguration, scope constructs.Construct, id *string, config *LaunchConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1058,7 +1058,7 @@ func LaunchConfiguration_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1093,7 +1093,7 @@ func LaunchConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1112,7 +1112,7 @@ func LaunchConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1131,7 +1131,7 @@ func LaunchConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1144,7 +1144,7 @@ func LaunchConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.launchConfiguration.LaunchConfiguration",
+		"@cdktn/provider-aws.launchConfiguration.LaunchConfiguration",
 		"tfResourceType",
 		&returns,
 	)

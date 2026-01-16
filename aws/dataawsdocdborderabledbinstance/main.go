@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstance",
 		reflect.TypeOf((*DataAwsDocdbOrderableDbInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstanceConfig",
+		"@cdktn/provider-aws.dataAwsDocdbOrderableDbInstance.DataAwsDocdbOrderableDbInstanceConfig",
 		reflect.TypeOf((*DataAwsDocdbOrderableDbInstanceConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package lakeformationresourcelftag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationresourcelftag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationresourcelftag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag}.
 type LakeformationResourceLfTag interface {
 	cdktf.TerraformResource
 	CatalogId() *string
@@ -465,7 +465,7 @@ func (j *jsiiProxy_LakeformationResourceLfTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
 func NewLakeformationResourceLfTag(scope constructs.Construct, id *string, config *LakeformationResourceLfTagConfig) LakeformationResourceLfTag {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewLakeformationResourceLfTag(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LakeformationResourceLfTag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -483,12 +483,12 @@ func NewLakeformationResourceLfTag(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_resource_lf_tag aws_lakeformation_resource_lf_tag} Resource.
 func NewLakeformationResourceLfTag_Override(l LakeformationResourceLfTag, scope constructs.Construct, id *string, config *LakeformationResourceLfTagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -594,7 +594,7 @@ func LakeformationResourceLfTag_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -629,7 +629,7 @@ func LakeformationResourceLfTag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -648,7 +648,7 @@ func LakeformationResourceLfTag_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func LakeformationResourceLfTag_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func LakeformationResourceLfTag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
+		"@cdktn/provider-aws.lakeformationResourceLfTag.LakeformationResourceLfTag",
 		"tfResourceType",
 		&returns,
 	)

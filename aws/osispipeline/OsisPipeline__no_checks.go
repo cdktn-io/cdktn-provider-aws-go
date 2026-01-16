@@ -139,6 +139,10 @@ func (j *jsiiProxy_OsisPipeline) validateSetPipelineNameParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_OsisPipeline) validateSetPipelineRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OsisPipeline) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

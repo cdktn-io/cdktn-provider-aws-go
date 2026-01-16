@@ -5,14 +5,14 @@ package datazoneformtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneformtype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneformtype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_form_type aws_datazone_form_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_form_type aws_datazone_form_type}.
 type DatazoneFormType interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DatazoneFormType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_form_type aws_datazone_form_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_form_type aws_datazone_form_type} Resource.
 func NewDatazoneFormType(scope constructs.Construct, id *string, config *DatazoneFormTypeConfig) DatazoneFormType {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewDatazoneFormType(scope constructs.Construct, id *string, config *Datazon
 	j := jsiiProxy_DatazoneFormType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -559,12 +559,12 @@ func NewDatazoneFormType(scope constructs.Construct, id *string, config *Datazon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_form_type aws_datazone_form_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_form_type aws_datazone_form_type} Resource.
 func NewDatazoneFormType_Override(d DatazoneFormType, scope constructs.Construct, id *string, config *DatazoneFormTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -714,7 +714,7 @@ func DatazoneFormType_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func DatazoneFormType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func DatazoneFormType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func DatazoneFormType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func DatazoneFormType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneFormType.DatazoneFormType",
+		"@cdktn/provider-aws.datazoneFormType.DatazoneFormType",
 		"tfResourceType",
 		&returns,
 	)

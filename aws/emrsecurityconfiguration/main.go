@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfiguration",
 		reflect.TypeOf((*EmrSecurityConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.emrSecurityConfiguration.EmrSecurityConfigurationConfig",
+		"@cdktn/provider-aws.emrSecurityConfiguration.EmrSecurityConfigurationConfig",
 		reflect.TypeOf((*EmrSecurityConfigurationConfig)(nil)).Elem(),
 	)
 }

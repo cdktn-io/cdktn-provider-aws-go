@@ -5,9 +5,9 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksighttheme/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksighttheme/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewQuicksightThemePermissionsList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_QuicksightThemePermissionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewQuicksightThemePermissionsList_Override(q QuicksightThemePermissionsList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
+		"@cdktn/provider-aws.quicksightTheme.QuicksightThemePermissionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		q,
 	)

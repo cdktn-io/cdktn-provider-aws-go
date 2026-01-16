@@ -5,14 +5,14 @@ package dataawsec2networkinsightspath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2networkinsightspath/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2networkinsightspath/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path}.
 type DataAwsEc2NetworkInsightsPath interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataAwsEc2NetworkInsightsPath) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path} Data Source.
 func NewDataAwsEc2NetworkInsightsPath(scope constructs.Construct, id *string, config *DataAwsEc2NetworkInsightsPathConfig) DataAwsEc2NetworkInsightsPath {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewDataAwsEc2NetworkInsightsPath(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAwsEc2NetworkInsightsPath{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -500,12 +500,12 @@ func NewDataAwsEc2NetworkInsightsPath(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_network_insights_path aws_ec2_network_insights_path} Data Source.
 func NewDataAwsEc2NetworkInsightsPath_Override(d DataAwsEc2NetworkInsightsPath, scope constructs.Construct, id *string, config *DataAwsEc2NetworkInsightsPathConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -611,7 +611,7 @@ func DataAwsEc2NetworkInsightsPath_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -646,7 +646,7 @@ func DataAwsEc2NetworkInsightsPath_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -665,7 +665,7 @@ func DataAwsEc2NetworkInsightsPath_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func DataAwsEc2NetworkInsightsPath_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func DataAwsEc2NetworkInsightsPath_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
+		"@cdktn/provider-aws.dataAwsEc2NetworkInsightsPath.DataAwsEc2NetworkInsightsPath",
 		"tfResourceType",
 		&returns,
 	)

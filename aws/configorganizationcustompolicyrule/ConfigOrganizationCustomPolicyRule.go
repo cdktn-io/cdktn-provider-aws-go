@@ -5,14 +5,14 @@ package configorganizationcustompolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configorganizationcustompolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationcustompolicyrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule}.
 type ConfigOrganizationCustomPolicyRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -677,7 +677,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomPolicyRule) TriggerTypesInput() *[]*s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule} Resource.
 func NewConfigOrganizationCustomPolicyRule(scope constructs.Construct, id *string, config *ConfigOrganizationCustomPolicyRuleConfig) ConfigOrganizationCustomPolicyRule {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewConfigOrganizationCustomPolicyRule(scope constructs.Construct, id *strin
 	j := jsiiProxy_ConfigOrganizationCustomPolicyRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -695,12 +695,12 @@ func NewConfigOrganizationCustomPolicyRule(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_policy_rule aws_config_organization_custom_policy_rule} Resource.
 func NewConfigOrganizationCustomPolicyRule_Override(c ConfigOrganizationCustomPolicyRule, scope constructs.Construct, id *string, config *ConfigOrganizationCustomPolicyRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -949,7 +949,7 @@ func ConfigOrganizationCustomPolicyRule_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -984,7 +984,7 @@ func ConfigOrganizationCustomPolicyRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1003,7 +1003,7 @@ func ConfigOrganizationCustomPolicyRule_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1022,7 +1022,7 @@ func ConfigOrganizationCustomPolicyRule_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1035,7 +1035,7 @@ func ConfigOrganizationCustomPolicyRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
+		"@cdktn/provider-aws.configOrganizationCustomPolicyRule.ConfigOrganizationCustomPolicyRule",
 		"tfResourceType",
 		&returns,
 	)

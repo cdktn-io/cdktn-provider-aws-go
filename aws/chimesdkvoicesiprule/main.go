@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRule",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRule",
 		reflect.TypeOf((*ChimesdkvoiceSipRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleConfig",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleConfig",
 		reflect.TypeOf((*ChimesdkvoiceSipRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplications",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplications",
 		reflect.TypeOf((*ChimesdkvoiceSipRuleTargetApplications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsList",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsList",
 		reflect.TypeOf((*ChimesdkvoiceSipRuleTargetApplicationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
+		"@cdktn/provider-aws.chimesdkvoiceSipRule.ChimesdkvoiceSipRuleTargetApplicationsOutputReference",
 		reflect.TypeOf((*ChimesdkvoiceSipRuleTargetApplicationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegion", GoGetter: "AwsRegion"},

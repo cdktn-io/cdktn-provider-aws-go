@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamSink.OamSink",
+		"@cdktn/provider-aws.oamSink.OamSink",
 		reflect.TypeOf((*OamSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamSink.OamSinkConfig",
+		"@cdktn/provider-aws.oamSink.OamSinkConfig",
 		reflect.TypeOf((*OamSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.oamSink.OamSinkTimeouts",
+		"@cdktn/provider-aws.oamSink.OamSinkTimeouts",
 		reflect.TypeOf((*OamSinkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.oamSink.OamSinkTimeoutsOutputReference",
+		"@cdktn/provider-aws.oamSink.OamSinkTimeoutsOutputReference",
 		reflect.TypeOf((*OamSinkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueue",
 		reflect.TypeOf((*DataAwsMediaConvertQueue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueueConfig",
+		"@cdktn/provider-aws.dataAwsMediaConvertQueue.DataAwsMediaConvertQueueConfig",
 		reflect.TypeOf((*DataAwsMediaConvertQueueConfig)(nil)).Elem(),
 	)
 }

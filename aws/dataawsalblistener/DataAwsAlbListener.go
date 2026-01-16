@@ -5,14 +5,14 @@ package dataawsalblistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalblistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalblistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_listener aws_alb_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_listener aws_alb_listener}.
 type DataAwsAlbListener interface {
 	cdktf.TerraformDataSource
 	AlpnPolicy() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_DataAwsAlbListener) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_listener aws_alb_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_listener aws_alb_listener} Data Source.
 func NewDataAwsAlbListener(scope constructs.Construct, id *string, config *DataAwsAlbListenerConfig) DataAwsAlbListener {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDataAwsAlbListener(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsAlbListener{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewDataAwsAlbListener(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_listener aws_alb_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_listener aws_alb_listener} Data Source.
 func NewDataAwsAlbListener_Override(d DataAwsAlbListener, scope constructs.Construct, id *string, config *DataAwsAlbListenerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -626,7 +626,7 @@ func DataAwsAlbListener_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func DataAwsAlbListener_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func DataAwsAlbListener_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func DataAwsAlbListener_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DataAwsAlbListener_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
+		"@cdktn/provider-aws.dataAwsAlbListener.DataAwsAlbListener",
 		"tfResourceType",
 		&returns,
 	)

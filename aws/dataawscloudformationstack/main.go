@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudformationStack.DataAwsCloudformationStack",
+		"@cdktn/provider-aws.dataAwsCloudformationStack.DataAwsCloudformationStack",
 		reflect.TypeOf((*DataAwsCloudformationStack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudformationStack.DataAwsCloudformationStackConfig",
+		"@cdktn/provider-aws.dataAwsCloudformationStack.DataAwsCloudformationStackConfig",
 		reflect.TypeOf((*DataAwsCloudformationStackConfig)(nil)).Elem(),
 	)
 }

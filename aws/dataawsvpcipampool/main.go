@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPool",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPool",
 		reflect.TypeOf((*DataAwsVpcIpamPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolConfig",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolConfig",
 		reflect.TypeOf((*DataAwsVpcIpamPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilter",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilter",
 		reflect.TypeOf((*DataAwsVpcIpamPoolFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilterList",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilterList",
 		reflect.TypeOf((*DataAwsVpcIpamPoolFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolFilterOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamPoolFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeouts",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeouts",
 		reflect.TypeOf((*DataAwsVpcIpamPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsVpcIpamPool.DataAwsVpcIpamPoolTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsVpcIpamPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

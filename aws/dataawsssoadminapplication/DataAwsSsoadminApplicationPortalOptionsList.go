@@ -5,9 +5,9 @@ package dataawsssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsssoadminapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsSsoadminApplicationPortalOptionsList(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAwsSsoadminApplicationPortalOptionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsSsoadminApplicationPortalOptionsList_Override(d DataAwsSsoadminAp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
+		"@cdktn/provider-aws.dataAwsSsoadminApplication.DataAwsSsoadminApplicationPortalOptionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

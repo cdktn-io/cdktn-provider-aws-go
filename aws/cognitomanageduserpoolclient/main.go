@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClient",
 		reflect.TypeOf((*CognitoManagedUserPoolClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenValidity", GoGetter: "AccessTokenValidity"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfiguration",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfiguration",
 		reflect.TypeOf((*CognitoManagedUserPoolClientAnalyticsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfigurationList",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfigurationList",
 		reflect.TypeOf((*CognitoManagedUserPoolClientAnalyticsConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference",
 		reflect.TypeOf((*CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationArn", GoGetter: "ApplicationArn"},
@@ -213,15 +213,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientConfig",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientConfig",
 		reflect.TypeOf((*CognitoManagedUserPoolClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotation",
 		reflect.TypeOf((*CognitoManagedUserPoolClientRefreshTokenRotation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotationList",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotationList",
 		reflect.TypeOf((*CognitoManagedUserPoolClientRefreshTokenRotationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -243,7 +243,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotationOutputReference",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientRefreshTokenRotationOutputReference",
 		reflect.TypeOf((*CognitoManagedUserPoolClientRefreshTokenRotationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -280,11 +280,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnits",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnits",
 		reflect.TypeOf((*CognitoManagedUserPoolClientTokenValidityUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnitsList",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnitsList",
 		reflect.TypeOf((*CognitoManagedUserPoolClientTokenValidityUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -306,7 +306,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnitsOutputReference",
+		"@cdktn/provider-aws.cognitoManagedUserPoolClient.CognitoManagedUserPoolClientTokenValidityUnitsOutputReference",
 		reflect.TypeOf((*CognitoManagedUserPoolClientTokenValidityUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},

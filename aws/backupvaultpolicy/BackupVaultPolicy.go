@@ -5,14 +5,14 @@ package backupvaultpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupvaultpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupvaultpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault_policy aws_backup_vault_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_policy aws_backup_vault_policy}.
 type BackupVaultPolicy interface {
 	cdktf.TerraformResource
 	BackupVaultArn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_BackupVaultPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault_policy aws_backup_vault_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_policy aws_backup_vault_policy} Resource.
 func NewBackupVaultPolicy(scope constructs.Construct, id *string, config *BackupVaultPolicyConfig) BackupVaultPolicy {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewBackupVaultPolicy(scope constructs.Construct, id *string, config *Backup
 	j := jsiiProxy_BackupVaultPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewBackupVaultPolicy(scope constructs.Construct, id *string, config *Backup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_vault_policy aws_backup_vault_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_policy aws_backup_vault_policy} Resource.
 func NewBackupVaultPolicy_Override(b BackupVaultPolicy, scope constructs.Construct, id *string, config *BackupVaultPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -542,7 +542,7 @@ func BackupVaultPolicy_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func BackupVaultPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func BackupVaultPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func BackupVaultPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func BackupVaultPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.backupVaultPolicy.BackupVaultPolicy",
+		"@cdktn/provider-aws.backupVaultPolicy.BackupVaultPolicy",
 		"tfResourceType",
 		&returns,
 	)

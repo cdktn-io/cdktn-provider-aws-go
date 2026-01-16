@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUser",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUser",
 		reflect.TypeOf((*MemorydbUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessString", GoGetter: "AccessString"},
@@ -84,11 +84,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUserAuthenticationMode",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUserAuthenticationMode",
 		reflect.TypeOf((*MemorydbUserAuthenticationMode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUserAuthenticationModeOutputReference",
 		reflect.TypeOf((*MemorydbUserAuthenticationModeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.memorydbUser.MemorydbUserConfig",
+		"@cdktn/provider-aws.memorydbUser.MemorydbUserConfig",
 		reflect.TypeOf((*MemorydbUserConfig)(nil)).Elem(),
 	)
 }

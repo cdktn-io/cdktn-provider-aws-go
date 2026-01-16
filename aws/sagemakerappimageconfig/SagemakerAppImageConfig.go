@@ -5,14 +5,14 @@ package sagemakerappimageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerappimageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerappimageconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config}.
 type SagemakerAppImageConfig interface {
 	cdktf.TerraformResource
 	AppImageConfigName() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_SagemakerAppImageConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource.
 func NewSagemakerAppImageConfig(scope constructs.Construct, id *string, config *SagemakerAppImageConfigConfig) SagemakerAppImageConfig {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewSagemakerAppImageConfig(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SagemakerAppImageConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewSagemakerAppImageConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_app_image_config aws_sagemaker_app_image_config} Resource.
 func NewSagemakerAppImageConfig_Override(s SagemakerAppImageConfig, scope constructs.Construct, id *string, config *SagemakerAppImageConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -650,7 +650,7 @@ func SagemakerAppImageConfig_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -685,7 +685,7 @@ func SagemakerAppImageConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -704,7 +704,7 @@ func SagemakerAppImageConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func SagemakerAppImageConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func SagemakerAppImageConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
+		"@cdktn/provider-aws.sagemakerAppImageConfig.SagemakerAppImageConfig",
 		"tfResourceType",
 		&returns,
 	)

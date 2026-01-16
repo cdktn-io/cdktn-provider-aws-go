@@ -5,9 +5,9 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bcmdataexportsexport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bcmdataexportsexport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -289,7 +289,7 @@ func NewBcmdataexportsExportExportOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_BcmdataexportsExportExportOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -301,7 +301,7 @@ func NewBcmdataexportsExportExportOutputReference_Override(b BcmdataexportsExpor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
+		"@cdktn/provider-aws.bcmdataexportsExport.BcmdataexportsExportExportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

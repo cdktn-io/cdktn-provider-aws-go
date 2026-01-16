@@ -5,14 +5,14 @@ package devopsguruserviceintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/devopsguruserviceintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devopsguruserviceintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration}.
 type DevopsguruServiceIntegration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DevopsguruServiceIntegration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
 func NewDevopsguruServiceIntegration(scope constructs.Construct, id *string, config *DevopsguruServiceIntegrationConfig) DevopsguruServiceIntegration {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDevopsguruServiceIntegration(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DevopsguruServiceIntegration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -411,12 +411,12 @@ func NewDevopsguruServiceIntegration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devopsguru_service_integration aws_devopsguru_service_integration} Resource.
 func NewDevopsguruServiceIntegration_Override(d DevopsguruServiceIntegration, scope constructs.Construct, id *string, config *DevopsguruServiceIntegrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -511,7 +511,7 @@ func DevopsguruServiceIntegration_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -546,7 +546,7 @@ func DevopsguruServiceIntegration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -565,7 +565,7 @@ func DevopsguruServiceIntegration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DevopsguruServiceIntegration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func DevopsguruServiceIntegration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
+		"@cdktn/provider-aws.devopsguruServiceIntegration.DevopsguruServiceIntegration",
 		"tfResourceType",
 		&returns,
 	)

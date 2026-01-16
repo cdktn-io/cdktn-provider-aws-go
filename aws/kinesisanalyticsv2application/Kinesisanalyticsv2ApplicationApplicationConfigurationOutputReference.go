@@ -5,9 +5,9 @@ package kinesisanalyticsv2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/kinesisanalyticsv2application/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisanalyticsv2application/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -15,6 +15,8 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference interf
 	cdktf.ComplexObject
 	ApplicationCodeConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfigurationOutputReference
 	ApplicationCodeConfigurationInput() *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfiguration
+	ApplicationEncryptionConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference
+	ApplicationEncryptionConfigurationInput() *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration
 	ApplicationSnapshotConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference
 	ApplicationSnapshotConfigurationInput() *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration
 	// the index of the complex object in a list.
@@ -79,12 +81,14 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference interf
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutApplicationCodeConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCodeConfiguration)
+	PutApplicationEncryptionConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration)
 	PutApplicationSnapshotConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration)
 	PutEnvironmentProperties(value *Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentProperties)
 	PutFlinkApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfiguration)
 	PutRunConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationRunConfiguration)
 	PutSqlApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration)
 	PutVpcConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfiguration)
+	ResetApplicationEncryptionConfiguration()
 	ResetApplicationSnapshotConfiguration()
 	ResetEnvironmentProperties()
 	ResetFlinkApplicationConfiguration()
@@ -121,6 +125,26 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	_jsii_.Get(
 		j,
 		"applicationCodeConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) ApplicationEncryptionConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference {
+	var returns Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"applicationEncryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) ApplicationEncryptionConfigurationInput() *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration {
+	var returns *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration
+	_jsii_.Get(
+		j,
+		"applicationEncryptionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -326,7 +350,7 @@ func NewKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference(ter
 	j := jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -338,7 +362,7 @@ func NewKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference",
+		"@cdktn/provider-aws.kinesisanalyticsv2Application.Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)
@@ -596,6 +620,17 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	)
 }
 
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) PutApplicationEncryptionConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEncryptionConfiguration) {
+	if err := k.validatePutApplicationEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		k,
+		"putApplicationEncryptionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) PutApplicationSnapshotConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration) {
 	if err := k.validatePutApplicationSnapshotConfigurationParameters(value); err != nil {
 		panic(err)
@@ -659,6 +694,14 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 		k,
 		"putVpcConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) ResetApplicationEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetApplicationEncryptionConfiguration",
+		nil, // no parameters
 	)
 }
 

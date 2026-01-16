@@ -5,14 +5,14 @@ package wafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.
 type Wafv2WebAcl interface {
 	cdktf.TerraformResource
 	ApplicationIntegrationUrl() *string
@@ -759,7 +759,7 @@ func (j *jsiiProxy_Wafv2WebAcl) VisibilityConfigInput() *Wafv2WebAclVisibilityCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
 func NewWafv2WebAcl(scope constructs.Construct, id *string, config *Wafv2WebAclConfig) Wafv2WebAcl {
 	_init_.Initialize()
 
@@ -769,7 +769,7 @@ func NewWafv2WebAcl(scope constructs.Construct, id *string, config *Wafv2WebAclC
 	j := jsiiProxy_Wafv2WebAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -777,12 +777,12 @@ func NewWafv2WebAcl(scope constructs.Construct, id *string, config *Wafv2WebAclC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
 func NewWafv2WebAcl_Override(w Wafv2WebAcl, scope constructs.Construct, id *string, config *Wafv2WebAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -976,7 +976,7 @@ func Wafv2WebAcl_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1011,7 +1011,7 @@ func Wafv2WebAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1030,7 +1030,7 @@ func Wafv2WebAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1049,7 +1049,7 @@ func Wafv2WebAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1062,7 +1062,7 @@ func Wafv2WebAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafv2WebAcl.Wafv2WebAcl",
+		"@cdktn/provider-aws.wafv2WebAcl.Wafv2WebAcl",
 		"tfResourceType",
 		&returns,
 	)

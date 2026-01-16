@@ -5,14 +5,14 @@ package connecthoursofoperation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connecthoursofoperation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connecthoursofoperation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation}.
 type ConnectHoursOfOperation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ConnectHoursOfOperation) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
 func NewConnectHoursOfOperation(scope constructs.Construct, id *string, config *ConnectHoursOfOperationConfig) ConnectHoursOfOperation {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewConnectHoursOfOperation(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ConnectHoursOfOperation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewConnectHoursOfOperation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_hours_of_operation aws_connect_hours_of_operation} Resource.
 func NewConnectHoursOfOperation_Override(c ConnectHoursOfOperation, scope constructs.Construct, id *string, config *ConnectHoursOfOperationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -715,7 +715,7 @@ func ConnectHoursOfOperation_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -750,7 +750,7 @@ func ConnectHoursOfOperation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func ConnectHoursOfOperation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -788,7 +788,7 @@ func ConnectHoursOfOperation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func ConnectHoursOfOperation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
+		"@cdktn/provider-aws.connectHoursOfOperation.ConnectHoursOfOperation",
 		"tfResourceType",
 		&returns,
 	)

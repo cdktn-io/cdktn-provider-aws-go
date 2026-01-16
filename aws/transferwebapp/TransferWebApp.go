@@ -5,14 +5,14 @@ package transferwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/transferwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferwebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app aws_transfer_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app aws_transfer_web_app}.
 type TransferWebApp interface {
 	cdktf.TerraformResource
 	AccessEndpoint() *string
@@ -35,6 +35,8 @@ type TransferWebApp interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EndpointDetails() TransferWebAppEndpointDetailsList
+	EndpointDetailsInput() interface{}
 	// Experimental.
 	ForEach() cdktf.ITerraformIterator
 	// Experimental.
@@ -123,9 +125,11 @@ type TransferWebApp interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEndpointDetails(value interface{})
 	PutIdentityProviderDetails(value interface{})
 	PutWebAppUnits(value interface{})
 	ResetAccessEndpoint()
+	ResetEndpointDetails()
 	ResetIdentityProviderDetails()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -227,6 +231,26 @@ func (j *jsiiProxy_TransferWebApp) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferWebApp) EndpointDetails() TransferWebAppEndpointDetailsList {
+	var returns TransferWebAppEndpointDetailsList
+	_jsii_.Get(
+		j,
+		"endpointDetails",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferWebApp) EndpointDetailsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"endpointDetailsInput",
 		&returns,
 	)
 	return returns
@@ -463,7 +487,7 @@ func (j *jsiiProxy_TransferWebApp) WebAppUnitsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
 func NewTransferWebApp(scope constructs.Construct, id *string, config *TransferWebAppConfig) TransferWebApp {
 	_init_.Initialize()
 
@@ -473,7 +497,7 @@ func NewTransferWebApp(scope constructs.Construct, id *string, config *TransferW
 	j := jsiiProxy_TransferWebApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -481,12 +505,12 @@ func NewTransferWebApp(scope constructs.Construct, id *string, config *TransferW
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_web_app aws_transfer_web_app} Resource.
 func NewTransferWebApp_Override(t TransferWebApp, scope constructs.Construct, id *string, config *TransferWebAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -614,7 +638,7 @@ func TransferWebApp_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -649,7 +673,7 @@ func TransferWebApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +692,7 @@ func TransferWebApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +711,7 @@ func TransferWebApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +724,7 @@ func TransferWebApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.transferWebApp.TransferWebApp",
+		"@cdktn/provider-aws.transferWebApp.TransferWebApp",
 		"tfResourceType",
 		&returns,
 	)
@@ -957,6 +981,17 @@ func (t *jsiiProxy_TransferWebApp) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (t *jsiiProxy_TransferWebApp) PutEndpointDetails(value interface{}) {
+	if err := t.validatePutEndpointDetailsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putEndpointDetails",
+		[]interface{}{value},
+	)
+}
+
 func (t *jsiiProxy_TransferWebApp) PutIdentityProviderDetails(value interface{}) {
 	if err := t.validatePutIdentityProviderDetailsParameters(value); err != nil {
 		panic(err)
@@ -983,6 +1018,14 @@ func (t *jsiiProxy_TransferWebApp) ResetAccessEndpoint() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetAccessEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferWebApp) ResetEndpointDetails() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEndpointDetails",
 		nil, // no parameters
 	)
 }

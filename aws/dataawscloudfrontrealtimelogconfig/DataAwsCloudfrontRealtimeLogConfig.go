@@ -5,14 +5,14 @@ package dataawscloudfrontrealtimelogconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudfrontrealtimelogconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontrealtimelogconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config}.
 type DataAwsCloudfrontRealtimeLogConfig interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsCloudfrontRealtimeLogConfig) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config} Data Source.
 func NewDataAwsCloudfrontRealtimeLogConfig(scope constructs.Construct, id *string, config *DataAwsCloudfrontRealtimeLogConfigConfig) DataAwsCloudfrontRealtimeLogConfig {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewDataAwsCloudfrontRealtimeLogConfig(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataAwsCloudfrontRealtimeLogConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewDataAwsCloudfrontRealtimeLogConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_realtime_log_config aws_cloudfront_realtime_log_config} Data Source.
 func NewDataAwsCloudfrontRealtimeLogConfig_Override(d DataAwsCloudfrontRealtimeLogConfig, scope constructs.Construct, id *string, config *DataAwsCloudfrontRealtimeLogConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -439,7 +439,7 @@ func DataAwsCloudfrontRealtimeLogConfig_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -474,7 +474,7 @@ func DataAwsCloudfrontRealtimeLogConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsCloudfrontRealtimeLogConfig_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -512,7 +512,7 @@ func DataAwsCloudfrontRealtimeLogConfig_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsCloudfrontRealtimeLogConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontRealtimeLogConfig.DataAwsCloudfrontRealtimeLogConfig",
 		"tfResourceType",
 		&returns,
 	)

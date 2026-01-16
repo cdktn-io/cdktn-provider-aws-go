@@ -5,14 +5,14 @@ package locationgeofencecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/locationgeofencecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationgeofencecollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_geofence_collection aws_location_geofence_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_geofence_collection aws_location_geofence_collection}.
 type LocationGeofenceCollection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_LocationGeofenceCollection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_geofence_collection aws_location_geofence_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_geofence_collection aws_location_geofence_collection} Resource.
 func NewLocationGeofenceCollection(scope constructs.Construct, id *string, config *LocationGeofenceCollectionConfig) LocationGeofenceCollection {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewLocationGeofenceCollection(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LocationGeofenceCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewLocationGeofenceCollection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/location_geofence_collection aws_location_geofence_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_geofence_collection aws_location_geofence_collection} Resource.
 func NewLocationGeofenceCollection_Override(l LocationGeofenceCollection, scope constructs.Construct, id *string, config *LocationGeofenceCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -694,7 +694,7 @@ func LocationGeofenceCollection_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -729,7 +729,7 @@ func LocationGeofenceCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func LocationGeofenceCollection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func LocationGeofenceCollection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func LocationGeofenceCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
+		"@cdktn/provider-aws.locationGeofenceCollection.LocationGeofenceCollection",
 		"tfResourceType",
 		&returns,
 	)

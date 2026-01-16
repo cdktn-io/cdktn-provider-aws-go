@@ -5,14 +5,14 @@ package lightsaildiskattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsaildiskattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaildiskattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment}.
 type LightsailDiskAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_LightsailDiskAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment} Resource.
 func NewLightsailDiskAttachment(scope constructs.Construct, id *string, config *LightsailDiskAttachmentConfig) LightsailDiskAttachment {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewLightsailDiskAttachment(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_LightsailDiskAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewLightsailDiskAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_disk_attachment aws_lightsail_disk_attachment} Resource.
 func NewLightsailDiskAttachment_Override(l LightsailDiskAttachment, scope constructs.Construct, id *string, config *LightsailDiskAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -565,7 +565,7 @@ func LightsailDiskAttachment_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func LightsailDiskAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func LightsailDiskAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func LightsailDiskAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func LightsailDiskAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
+		"@cdktn/provider-aws.lightsailDiskAttachment.LightsailDiskAttachment",
 		"tfResourceType",
 		&returns,
 	)

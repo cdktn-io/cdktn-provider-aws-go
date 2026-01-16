@@ -5,9 +5,9 @@ package route53recordsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53recordsexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recordsexclusive/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -518,7 +518,7 @@ func NewRoute53RecordsExclusiveResourceRecordSetOutputReference(terraformResourc
 	j := jsiiProxy_Route53RecordsExclusiveResourceRecordSetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetOutputReference",
+		"@cdktn/provider-aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -530,7 +530,7 @@ func NewRoute53RecordsExclusiveResourceRecordSetOutputReference_Override(r Route
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetOutputReference",
+		"@cdktn/provider-aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

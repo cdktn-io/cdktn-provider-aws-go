@@ -5,14 +5,14 @@ package dxhostedtransitvirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxhostedtransitvirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxhostedtransitvirtualinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface}.
 type DxHostedTransitVirtualInterface interface {
 	cdktf.TerraformResource
 	AddressFamily() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
 func NewDxHostedTransitVirtualInterface(scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceConfig) DxHostedTransitVirtualInterface {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDxHostedTransitVirtualInterface(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DxHostedTransitVirtualInterface{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -654,12 +654,12 @@ func NewDxHostedTransitVirtualInterface(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
 func NewDxHostedTransitVirtualInterface_Override(d DxHostedTransitVirtualInterface, scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -875,7 +875,7 @@ func DxHostedTransitVirtualInterface_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -910,7 +910,7 @@ func DxHostedTransitVirtualInterface_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func DxHostedTransitVirtualInterface_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -948,7 +948,7 @@ func DxHostedTransitVirtualInterface_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -961,7 +961,7 @@ func DxHostedTransitVirtualInterface_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
+		"@cdktn/provider-aws.dxHostedTransitVirtualInterface.DxHostedTransitVirtualInterface",
 		"tfResourceType",
 		&returns,
 	)

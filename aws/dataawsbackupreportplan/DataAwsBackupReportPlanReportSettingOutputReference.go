@@ -5,9 +5,9 @@ package dataawsbackupreportplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbackupreportplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -225,7 +225,7 @@ func NewDataAwsBackupReportPlanReportSettingOutputReference(terraformResource cd
 	j := jsiiProxy_DataAwsBackupReportPlanReportSettingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -237,7 +237,7 @@ func NewDataAwsBackupReportPlanReportSettingOutputReference_Override(d DataAwsBa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
+		"@cdktn/provider-aws.dataAwsBackupReportPlan.DataAwsBackupReportPlanReportSettingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

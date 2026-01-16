@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsApiGatewayAuthorizer.DataAwsApiGatewayAuthorizer",
+		"@cdktn/provider-aws.dataAwsApiGatewayAuthorizer.DataAwsApiGatewayAuthorizer",
 		reflect.TypeOf((*DataAwsApiGatewayAuthorizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsApiGatewayAuthorizer.DataAwsApiGatewayAuthorizerConfig",
+		"@cdktn/provider-aws.dataAwsApiGatewayAuthorizer.DataAwsApiGatewayAuthorizerConfig",
 		reflect.TypeOf((*DataAwsApiGatewayAuthorizerConfig)(nil)).Elem(),
 	)
 }

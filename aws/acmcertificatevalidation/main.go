@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidation",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidation",
 		reflect.TypeOf((*AcmCertificateValidation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidationConfig",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidationConfig",
 		reflect.TypeOf((*AcmCertificateValidationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidationTimeouts",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidationTimeouts",
 		reflect.TypeOf((*AcmCertificateValidationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.acmCertificateValidation.AcmCertificateValidationTimeoutsOutputReference",
+		"@cdktn/provider-aws.acmCertificateValidation.AcmCertificateValidationTimeoutsOutputReference",
 		reflect.TypeOf((*AcmCertificateValidationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

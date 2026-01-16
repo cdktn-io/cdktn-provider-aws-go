@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDocdbEngineVersion.DataAwsDocdbEngineVersion",
+		"@cdktn/provider-aws.dataAwsDocdbEngineVersion.DataAwsDocdbEngineVersion",
 		reflect.TypeOf((*DataAwsDocdbEngineVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDocdbEngineVersion.DataAwsDocdbEngineVersionConfig",
+		"@cdktn/provider-aws.dataAwsDocdbEngineVersion.DataAwsDocdbEngineVersionConfig",
 		reflect.TypeOf((*DataAwsDocdbEngineVersionConfig)(nil)).Elem(),
 	)
 }

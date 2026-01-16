@@ -5,14 +5,14 @@ package dsqlclusterpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dsqlclusterpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dsqlclusterpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering}.
 type DsqlClusterPeering interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_DsqlClusterPeering) WitnessRegionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) DsqlClusterPeering {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlC
 	j := jsiiProxy_DsqlClusterPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewDsqlClusterPeering(scope constructs.Construct, id *string, config *DsqlC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dsql_cluster_peering aws_dsql_cluster_peering} Resource.
 func NewDsqlClusterPeering_Override(d DsqlClusterPeering, scope constructs.Construct, id *string, config *DsqlClusterPeeringConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -554,7 +554,7 @@ func DsqlClusterPeering_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func DsqlClusterPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func DsqlClusterPeering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DsqlClusterPeering_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func DsqlClusterPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
+		"@cdktn/provider-aws.dsqlClusterPeering.DsqlClusterPeering",
 		"tfResourceType",
 		&returns,
 	)

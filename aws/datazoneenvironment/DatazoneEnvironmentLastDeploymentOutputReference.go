@@ -5,9 +5,9 @@ package datazoneenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -225,7 +225,7 @@ func NewDatazoneEnvironmentLastDeploymentOutputReference(terraformResource cdktf
 	j := jsiiProxy_DatazoneEnvironmentLastDeploymentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -237,7 +237,7 @@ func NewDatazoneEnvironmentLastDeploymentOutputReference_Override(d DatazoneEnvi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironmentLastDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

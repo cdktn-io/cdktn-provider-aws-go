@@ -5,14 +5,14 @@ package dataawsalbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalbtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalbtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_target_group aws_alb_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_target_group aws_alb_target_group}.
 type DataAwsAlbTargetGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -607,7 +607,7 @@ func (j *jsiiProxy_DataAwsAlbTargetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
 func NewDataAwsAlbTargetGroup(scope constructs.Construct, id *string, config *DataAwsAlbTargetGroupConfig) DataAwsAlbTargetGroup {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewDataAwsAlbTargetGroup(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsAlbTargetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -625,12 +625,12 @@ func NewDataAwsAlbTargetGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source.
 func NewDataAwsAlbTargetGroup_Override(d DataAwsAlbTargetGroup, scope constructs.Construct, id *string, config *DataAwsAlbTargetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -758,7 +758,7 @@ func DataAwsAlbTargetGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -793,7 +793,7 @@ func DataAwsAlbTargetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func DataAwsAlbTargetGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func DataAwsAlbTargetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func DataAwsAlbTargetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
+		"@cdktn/provider-aws.dataAwsAlbTargetGroup.DataAwsAlbTargetGroup",
 		"tfResourceType",
 		&returns,
 	)

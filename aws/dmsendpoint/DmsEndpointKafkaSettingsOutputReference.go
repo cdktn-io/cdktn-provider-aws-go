@@ -5,9 +5,9 @@ package dmsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -614,7 +614,7 @@ func NewDmsEndpointKafkaSettingsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DmsEndpointKafkaSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointKafkaSettingsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointKafkaSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -626,7 +626,7 @@ func NewDmsEndpointKafkaSettingsOutputReference_Override(d DmsEndpointKafkaSetti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsEndpoint.DmsEndpointKafkaSettingsOutputReference",
+		"@cdktn/provider-aws.dmsEndpoint.DmsEndpointKafkaSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,9 +5,9 @@ package controltowerlandingzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowerlandingzone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowerlandingzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewControltowerLandingZoneDriftStatusOutputReference(terraformResource cdkt
 	j := jsiiProxy_ControltowerLandingZoneDriftStatusOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewControltowerLandingZoneDriftStatusOutputReference_Override(c Controltowe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
+		"@cdktn/provider-aws.controltowerLandingZone.ControltowerLandingZoneDriftStatusOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

@@ -5,14 +5,14 @@ package m2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2application/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2application/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_application aws_m2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_application aws_m2_application}.
 type M2Application interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_M2Application) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_application aws_m2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_application aws_m2_application} Resource.
 func NewM2Application(scope constructs.Construct, id *string, config *M2ApplicationConfig) M2Application {
 	_init_.Initialize()
 
@@ -565,7 +565,7 @@ func NewM2Application(scope constructs.Construct, id *string, config *M2Applicat
 	j := jsiiProxy_M2Application{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -573,12 +573,12 @@ func NewM2Application(scope constructs.Construct, id *string, config *M2Applicat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_application aws_m2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_application aws_m2_application} Resource.
 func NewM2Application_Override(m M2Application, scope constructs.Construct, id *string, config *M2ApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -739,7 +739,7 @@ func M2Application_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -774,7 +774,7 @@ func M2Application_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func M2Application_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func M2Application_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func M2Application_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.m2Application.M2Application",
+		"@cdktn/provider-aws.m2Application.M2Application",
 		"tfResourceType",
 		&returns,
 	)

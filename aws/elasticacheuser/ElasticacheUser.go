@@ -5,14 +5,14 @@ package elasticacheuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elasticacheuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user aws_elasticache_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user aws_elasticache_user}.
 type ElasticacheUser interface {
 	cdktf.TerraformResource
 	AccessString() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_ElasticacheUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser(scope constructs.Construct, id *string, config *ElasticacheUserConfig) ElasticacheUser {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewElasticacheUser(scope constructs.Construct, id *string, config *Elastica
 	j := jsiiProxy_ElasticacheUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -599,12 +599,12 @@ func NewElasticacheUser(scope constructs.Construct, id *string, config *Elastica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_user aws_elasticache_user} Resource.
 func NewElasticacheUser_Override(e ElasticacheUser, scope constructs.Construct, id *string, config *ElasticacheUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -798,7 +798,7 @@ func ElasticacheUser_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func ElasticacheUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func ElasticacheUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func ElasticacheUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func ElasticacheUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.elasticacheUser.ElasticacheUser",
+		"@cdktn/provider-aws.elasticacheUser.ElasticacheUser",
 		"tfResourceType",
 		&returns,
 	)

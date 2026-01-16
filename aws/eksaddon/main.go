@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAddon.EksAddon",
+		"@cdktn/provider-aws.eksAddon.EksAddon",
 		reflect.TypeOf((*EksAddon)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAddon.EksAddonConfig",
+		"@cdktn/provider-aws.eksAddon.EksAddonConfig",
 		reflect.TypeOf((*EksAddonConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAddon.EksAddonPodIdentityAssociation",
+		"@cdktn/provider-aws.eksAddon.EksAddonPodIdentityAssociation",
 		reflect.TypeOf((*EksAddonPodIdentityAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAddon.EksAddonPodIdentityAssociationList",
+		"@cdktn/provider-aws.eksAddon.EksAddonPodIdentityAssociationList",
 		reflect.TypeOf((*EksAddonPodIdentityAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonPodIdentityAssociationOutputReference",
 		reflect.TypeOf((*EksAddonPodIdentityAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,11 +174,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.eksAddon.EksAddonTimeouts",
+		"@cdktn/provider-aws.eksAddon.EksAddonTimeouts",
 		reflect.TypeOf((*EksAddonTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
+		"@cdktn/provider-aws.eksAddon.EksAddonTimeoutsOutputReference",
 		reflect.TypeOf((*EksAddonTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

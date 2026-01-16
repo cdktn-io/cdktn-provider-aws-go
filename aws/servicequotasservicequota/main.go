@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuota",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuota",
 		reflect.TypeOf((*ServicequotasServiceQuota)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaConfig",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaConfig",
 		reflect.TypeOf((*ServicequotasServiceQuotaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetric",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetric",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetric)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricList",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricList",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetricList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,11 +112,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensions",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensions",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetricMetricDimensions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsList",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetricMetricDimensionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetricMetricDimensionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "class", GoGetter: "Class"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricOutputReference",
+		"@cdktn/provider-aws.servicequotasServiceQuota.ServicequotasServiceQuotaUsageMetricOutputReference",
 		reflect.TypeOf((*ServicequotasServiceQuotaUsageMetricOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

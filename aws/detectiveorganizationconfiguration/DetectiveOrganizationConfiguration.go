@@ -5,14 +5,14 @@ package detectiveorganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/detectiveorganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/detectiveorganizationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration}.
 type DetectiveOrganizationConfiguration interface {
 	cdktf.TerraformResource
 	AutoEnable() interface{}
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DetectiveOrganizationConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
 func NewDetectiveOrganizationConfiguration(scope constructs.Construct, id *string, config *DetectiveOrganizationConfigurationConfig) DetectiveOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDetectiveOrganizationConfiguration(scope constructs.Construct, id *strin
 	j := jsiiProxy_DetectiveOrganizationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDetectiveOrganizationConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/detective_organization_configuration aws_detective_organization_configuration} Resource.
 func NewDetectiveOrganizationConfiguration_Override(d DetectiveOrganizationConfiguration, scope constructs.Construct, id *string, config *DetectiveOrganizationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DetectiveOrganizationConfiguration_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DetectiveOrganizationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DetectiveOrganizationConfiguration_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DetectiveOrganizationConfiguration_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DetectiveOrganizationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
+		"@cdktn/provider-aws.detectiveOrganizationConfiguration.DetectiveOrganizationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package lightsailbucketaccesskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lightsailbucketaccesskey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailbucketaccesskey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key}.
 type LightsailBucketAccessKey interface {
 	cdktf.TerraformResource
 	AccessKeyId() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_LightsailBucketAccessKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key} Resource.
 func NewLightsailBucketAccessKey(scope constructs.Construct, id *string, config *LightsailBucketAccessKeyConfig) LightsailBucketAccessKey {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewLightsailBucketAccessKey(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_LightsailBucketAccessKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewLightsailBucketAccessKey(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket_access_key aws_lightsail_bucket_access_key} Resource.
 func NewLightsailBucketAccessKey_Override(l LightsailBucketAccessKey, scope constructs.Construct, id *string, config *LightsailBucketAccessKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -541,7 +541,7 @@ func LightsailBucketAccessKey_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func LightsailBucketAccessKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func LightsailBucketAccessKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func LightsailBucketAccessKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func LightsailBucketAccessKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
+		"@cdktn/provider-aws.lightsailBucketAccessKey.LightsailBucketAccessKey",
 		"tfResourceType",
 		&returns,
 	)

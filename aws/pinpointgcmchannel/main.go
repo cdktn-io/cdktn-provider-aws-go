@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.pinpointGcmChannel.PinpointGcmChannel",
+		"@cdktn/provider-aws.pinpointGcmChannel.PinpointGcmChannel",
 		reflect.TypeOf((*PinpointGcmChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.pinpointGcmChannel.PinpointGcmChannelConfig",
+		"@cdktn/provider-aws.pinpointGcmChannel.PinpointGcmChannelConfig",
 		reflect.TypeOf((*PinpointGcmChannelConfig)(nil)).Elem(),
 	)
 }

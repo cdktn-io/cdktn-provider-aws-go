@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroup",
 		reflect.TypeOf((*WafregionalRuleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activatedRule", GoGetter: "ActivatedRule"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRule",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRule",
 		reflect.TypeOf((*WafregionalRuleGroupActivatedRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleAction",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleAction",
 		reflect.TypeOf((*WafregionalRuleGroupActivatedRuleAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleActionOutputReference",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleActionOutputReference",
 		reflect.TypeOf((*WafregionalRuleGroupActivatedRuleActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleList",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleList",
 		reflect.TypeOf((*WafregionalRuleGroupActivatedRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -148,7 +148,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupActivatedRuleOutputReference",
 		reflect.TypeOf((*WafregionalRuleGroupActivatedRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupConfig",
+		"@cdktn/provider-aws.wafregionalRuleGroup.WafregionalRuleGroupConfig",
 		reflect.TypeOf((*WafregionalRuleGroupConfig)(nil)).Elem(),
 	)
 }

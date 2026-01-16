@@ -5,9 +5,9 @@ package pipespipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pipespipe/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pipespipe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -374,7 +374,7 @@ func NewPipesPipeSourceParametersKinesisStreamParametersOutputReference(terrafor
 	j := jsiiProxy_PipesPipeSourceParametersKinesisStreamParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -386,7 +386,7 @@ func NewPipesPipeSourceParametersKinesisStreamParametersOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
+		"@cdktn/provider-aws.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectUser.ConnectUser",
+		"@cdktn/provider-aws.connectUser.ConnectUser",
 		reflect.TypeOf((*ConnectUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectUser.ConnectUserConfig",
+		"@cdktn/provider-aws.connectUser.ConnectUserConfig",
 		reflect.TypeOf((*ConnectUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectUser.ConnectUserIdentityInfo",
+		"@cdktn/provider-aws.connectUser.ConnectUserIdentityInfo",
 		reflect.TypeOf((*ConnectUserIdentityInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectUser.ConnectUserIdentityInfoOutputReference",
+		"@cdktn/provider-aws.connectUser.ConnectUserIdentityInfoOutputReference",
 		reflect.TypeOf((*ConnectUserIdentityInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.connectUser.ConnectUserPhoneConfig",
+		"@cdktn/provider-aws.connectUser.ConnectUserPhoneConfig",
 		reflect.TypeOf((*ConnectUserPhoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.connectUser.ConnectUserPhoneConfigOutputReference",
 		reflect.TypeOf((*ConnectUserPhoneConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "afterContactWorkTimeLimit", GoGetter: "AfterContactWorkTimeLimit"},

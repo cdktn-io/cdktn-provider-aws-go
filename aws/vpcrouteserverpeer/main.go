@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeer",
 		reflect.TypeOf((*VpcRouteServerPeer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,11 +89,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptions",
 		reflect.TypeOf((*VpcRouteServerPeerBgpOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptionsList",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptionsList",
 		reflect.TypeOf((*VpcRouteServerPeerBgpOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptionsOutputReference",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerBgpOptionsOutputReference",
 		reflect.TypeOf((*VpcRouteServerPeerBgpOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,15 +152,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerConfig",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerConfig",
 		reflect.TypeOf((*VpcRouteServerPeerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerTimeouts",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerTimeouts",
 		reflect.TypeOf((*VpcRouteServerPeerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerTimeoutsOutputReference",
+		"@cdktn/provider-aws.vpcRouteServerPeer.VpcRouteServerPeerTimeoutsOutputReference",
 		reflect.TypeOf((*VpcRouteServerPeerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

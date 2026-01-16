@@ -5,14 +5,14 @@ package networkmanagerdxgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerdxgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerdxgatewayattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment}.
 type NetworkmanagerDxGatewayAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -70,6 +70,9 @@ type NetworkmanagerDxGatewayAttachment interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RoutingPolicyLabel() *string
+	SetRoutingPolicyLabel(val *string)
+	RoutingPolicyLabelInput() *string
 	SegmentName() *string
 	State() *string
 	Tags() *map[string]*string
@@ -131,6 +134,7 @@ type NetworkmanagerDxGatewayAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoutingPolicyLabel()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -401,6 +405,26 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) RawOverrides() interface{}
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) RoutingPolicyLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) RoutingPolicyLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingPolicyLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) SegmentName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -502,7 +526,7 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
 func NewNetworkmanagerDxGatewayAttachment(scope constructs.Construct, id *string, config *NetworkmanagerDxGatewayAttachmentConfig) NetworkmanagerDxGatewayAttachment {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewNetworkmanagerDxGatewayAttachment(scope constructs.Construct, id *string
 	j := jsiiProxy_NetworkmanagerDxGatewayAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -520,12 +544,12 @@ func NewNetworkmanagerDxGatewayAttachment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
 func NewNetworkmanagerDxGatewayAttachment_Override(n NetworkmanagerDxGatewayAttachment, scope constructs.Construct, id *string, config *NetworkmanagerDxGatewayAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -632,6 +656,17 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment)SetProvisioners(val *[]inte
 	)
 }
 
+func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment)SetRoutingPolicyLabel(val *string) {
+	if err := j.validateSetRoutingPolicyLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyLabel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -653,7 +688,7 @@ func NetworkmanagerDxGatewayAttachment_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -688,7 +723,7 @@ func NetworkmanagerDxGatewayAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +742,7 @@ func NetworkmanagerDxGatewayAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +761,7 @@ func NetworkmanagerDxGatewayAttachment_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -739,7 +774,7 @@ func NetworkmanagerDxGatewayAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
+		"@cdktn/provider-aws.networkmanagerDxGatewayAttachment.NetworkmanagerDxGatewayAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -1011,6 +1046,14 @@ func (n *jsiiProxy_NetworkmanagerDxGatewayAttachment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerDxGatewayAttachment) ResetRoutingPolicyLabel() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoutingPolicyLabel",
 		nil, // no parameters
 	)
 }

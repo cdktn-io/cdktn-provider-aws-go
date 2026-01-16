@@ -5,9 +5,9 @@ package gluecatalogtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluecatalogtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewGlueCatalogTableStorageDescriptorOutputReference(terraformResource cdktf
 	j := jsiiProxy_GlueCatalogTableStorageDescriptorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewGlueCatalogTableStorageDescriptorOutputReference_Override(g GlueCatalogT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
+		"@cdktn/provider-aws.glueCatalogTable.GlueCatalogTableStorageDescriptorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

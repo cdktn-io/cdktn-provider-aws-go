@@ -5,9 +5,9 @@ package route53domainsregistereddomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRoute53DomainsRegisteredDomainNameServerList(terraformResource cdktf.IIn
 	j := jsiiProxy_Route53DomainsRegisteredDomainNameServerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRoute53DomainsRegisteredDomainNameServerList_Override(r Route53DomainsRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
+		"@cdktn/provider-aws.route53DomainsRegisteredDomain.Route53DomainsRegisteredDomainNameServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

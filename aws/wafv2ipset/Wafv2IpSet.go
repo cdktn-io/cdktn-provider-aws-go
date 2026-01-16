@@ -5,14 +5,14 @@ package wafv2ipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2ipset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2ipset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set}.
 type Wafv2IpSet interface {
 	cdktf.TerraformResource
 	Addresses() *[]*string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_Wafv2IpSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
 func NewWafv2IpSet(scope constructs.Construct, id *string, config *Wafv2IpSetConfig) Wafv2IpSet {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewWafv2IpSet(scope constructs.Construct, id *string, config *Wafv2IpSetCon
 	j := jsiiProxy_Wafv2IpSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewWafv2IpSet(scope constructs.Construct, id *string, config *Wafv2IpSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafv2_ip_set aws_wafv2_ip_set} Resource.
 func NewWafv2IpSet_Override(w Wafv2IpSet, scope constructs.Construct, id *string, config *Wafv2IpSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -763,7 +763,7 @@ func Wafv2IpSet_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func Wafv2IpSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func Wafv2IpSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func Wafv2IpSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func Wafv2IpSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafv2IpSet.Wafv2IpSet",
+		"@cdktn/provider-aws.wafv2IpSet.Wafv2IpSet",
 		"tfResourceType",
 		&returns,
 	)

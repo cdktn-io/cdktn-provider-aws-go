@@ -5,9 +5,9 @@ package dataawsvpcdhcpoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcdhcpoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcdhcpoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsVpcDhcpOptionsFilterList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_DataAwsVpcDhcpOptionsFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsVpcDhcpOptionsFilterList_Override(d DataAwsVpcDhcpOptionsFilterLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilterList",
+		"@cdktn/provider-aws.dataAwsVpcDhcpOptions.DataAwsVpcDhcpOptionsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

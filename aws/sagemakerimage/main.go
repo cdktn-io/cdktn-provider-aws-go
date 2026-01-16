@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerImage.SagemakerImage",
+		"@cdktn/provider-aws.sagemakerImage.SagemakerImage",
 		reflect.TypeOf((*SagemakerImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerImage.SagemakerImageConfig",
+		"@cdktn/provider-aws.sagemakerImage.SagemakerImageConfig",
 		reflect.TypeOf((*SagemakerImageConfig)(nil)).Elem(),
 	)
 }

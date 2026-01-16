@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBot",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBot",
 		reflect.TypeOf((*DataAwsLexBot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLexBot.DataAwsLexBotConfig",
+		"@cdktn/provider-aws.dataAwsLexBot.DataAwsLexBotConfig",
 		reflect.TypeOf((*DataAwsLexBotConfig)(nil)).Elem(),
 	)
 }

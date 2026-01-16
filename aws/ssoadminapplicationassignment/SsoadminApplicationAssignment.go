@@ -5,14 +5,14 @@ package ssoadminapplicationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssoadminapplicationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplicationassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment}.
 type SsoadminApplicationAssignment interface {
 	cdktf.TerraformResource
 	ApplicationArn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SsoadminApplicationAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
 func NewSsoadminApplicationAssignment(scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfig) SsoadminApplicationAssignment {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewSsoadminApplicationAssignment(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SsoadminApplicationAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewSsoadminApplicationAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
 func NewSsoadminApplicationAssignment_Override(s SsoadminApplicationAssignment, scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -541,7 +541,7 @@ func SsoadminApplicationAssignment_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func SsoadminApplicationAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func SsoadminApplicationAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func SsoadminApplicationAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func SsoadminApplicationAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
+		"@cdktn/provider-aws.ssoadminApplicationAssignment.SsoadminApplicationAssignment",
 		"tfResourceType",
 		&returns,
 	)

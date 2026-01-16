@@ -5,9 +5,9 @@ package dataawsautoscalinggroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsautoscalinggroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsautoscalinggroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsAutoscalingGroupsFilterList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataAwsAutoscalingGroupsFilterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsAutoscalingGroupsFilterList_Override(d DataAwsAutoscalingGroupsFi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
+		"@cdktn/provider-aws.dataAwsAutoscalingGroups.DataAwsAutoscalingGroupsFilterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

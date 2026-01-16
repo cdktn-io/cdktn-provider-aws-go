@@ -5,14 +5,14 @@ package apigatewayv2model
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2model/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2model/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model}.
 type Apigatewayv2Model interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_Apigatewayv2Model) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model} Resource.
 func NewApigatewayv2Model(scope constructs.Construct, id *string, config *Apigatewayv2ModelConfig) Apigatewayv2Model {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewApigatewayv2Model(scope constructs.Construct, id *string, config *Apigat
 	j := jsiiProxy_Apigatewayv2Model{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewApigatewayv2Model(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_model aws_apigatewayv2_model} Resource.
 func NewApigatewayv2Model_Override(a Apigatewayv2Model, scope constructs.Construct, id *string, config *Apigatewayv2ModelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -634,7 +634,7 @@ func Apigatewayv2Model_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -669,7 +669,7 @@ func Apigatewayv2Model_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func Apigatewayv2Model_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func Apigatewayv2Model_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func Apigatewayv2Model_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2Model.Apigatewayv2Model",
+		"@cdktn/provider-aws.apigatewayv2Model.Apigatewayv2Model",
 		"tfResourceType",
 		&returns,
 	)

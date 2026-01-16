@@ -5,9 +5,9 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskreplicator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskreplicator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewMskReplicatorKafkaClusterOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_MskReplicatorKafkaClusterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewMskReplicatorKafkaClusterOutputReference_Override(m MskReplicatorKafkaCl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

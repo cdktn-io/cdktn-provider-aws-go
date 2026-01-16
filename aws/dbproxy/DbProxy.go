@@ -5,14 +5,14 @@ package dbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dbproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy aws_db_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy aws_db_proxy}.
 type DbProxy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -41,6 +41,9 @@ type DbProxy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Endpoint() *string
+	EndpointNetworkType() *string
+	SetEndpointNetworkType(val *string)
+	EndpointNetworkTypeInput() *string
 	EngineFamily() *string
 	SetEngineFamily(val *string)
 	EngineFamilyInput() *string
@@ -92,6 +95,9 @@ type DbProxy interface {
 	SetTagsAll(val *map[string]*string)
 	TagsAllInput() *map[string]*string
 	TagsInput() *map[string]*string
+	TargetConnectionNetworkType() *string
+	SetTargetConnectionNetworkType(val *string)
+	TargetConnectionNetworkTypeInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -154,6 +160,7 @@ type DbProxy interface {
 	ResetAuth()
 	ResetDebugLogging()
 	ResetDefaultAuthScheme()
+	ResetEndpointNetworkType()
 	ResetId()
 	ResetIdleClientTimeout()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -163,6 +170,7 @@ type DbProxy interface {
 	ResetRequireTls()
 	ResetTags()
 	ResetTagsAll()
+	ResetTargetConnectionNetworkType()
 	ResetTimeouts()
 	ResetVpcSecurityGroupIds()
 	SynthesizeAttributes() *map[string]interface{}
@@ -308,6 +316,26 @@ func (j *jsiiProxy_DbProxy) Endpoint() *string {
 	_jsii_.Get(
 		j,
 		"endpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DbProxy) EndpointNetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointNetworkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DbProxy) EndpointNetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointNetworkTypeInput",
 		&returns,
 	)
 	return returns
@@ -573,6 +601,26 @@ func (j *jsiiProxy_DbProxy) TagsInput() *map[string]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DbProxy) TargetConnectionNetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetConnectionNetworkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DbProxy) TargetConnectionNetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetConnectionNetworkTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DbProxy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -664,7 +712,7 @@ func (j *jsiiProxy_DbProxy) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy aws_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy aws_db_proxy} Resource.
 func NewDbProxy(scope constructs.Construct, id *string, config *DbProxyConfig) DbProxy {
 	_init_.Initialize()
 
@@ -674,7 +722,7 @@ func NewDbProxy(scope constructs.Construct, id *string, config *DbProxyConfig) D
 	j := jsiiProxy_DbProxy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -682,12 +730,12 @@ func NewDbProxy(scope constructs.Construct, id *string, config *DbProxyConfig) D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/db_proxy aws_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/db_proxy aws_db_proxy} Resource.
 func NewDbProxy_Override(d DbProxy, scope constructs.Construct, id *string, config *DbProxyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -741,6 +789,17 @@ func (j *jsiiProxy_DbProxy)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DbProxy)SetEndpointNetworkType(val *string) {
+	if err := j.validateSetEndpointNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointNetworkType",
 		val,
 	)
 }
@@ -882,6 +941,17 @@ func (j *jsiiProxy_DbProxy)SetTagsAll(val *map[string]*string) {
 	)
 }
 
+func (j *jsiiProxy_DbProxy)SetTargetConnectionNetworkType(val *string) {
+	if err := j.validateSetTargetConnectionNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetConnectionNetworkType",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DbProxy)SetVpcSecurityGroupIds(val *[]*string) {
 	if err := j.validateSetVpcSecurityGroupIdsParameters(val); err != nil {
 		panic(err)
@@ -914,7 +984,7 @@ func DbProxy_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -949,7 +1019,7 @@ func DbProxy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +1038,7 @@ func DbProxy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -987,7 +1057,7 @@ func DbProxy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1000,7 +1070,7 @@ func DbProxy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dbProxy.DbProxy",
+		"@cdktn/provider-aws.dbProxy.DbProxy",
 		"tfResourceType",
 		&returns,
 	)
@@ -1303,6 +1373,14 @@ func (d *jsiiProxy_DbProxy) ResetDefaultAuthScheme() {
 	)
 }
 
+func (d *jsiiProxy_DbProxy) ResetEndpointNetworkType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEndpointNetworkType",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DbProxy) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
@@ -1355,6 +1433,14 @@ func (d *jsiiProxy_DbProxy) ResetTagsAll() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DbProxy) ResetTargetConnectionNetworkType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTargetConnectionNetworkType",
 		nil, // no parameters
 	)
 }

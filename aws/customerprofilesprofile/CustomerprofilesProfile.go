@@ -5,14 +5,14 @@ package customerprofilesprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/customerprofilesprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/customerprofilesprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile}.
 type CustomerprofilesProfile interface {
 	cdktf.TerraformResource
 	AccountNumber() *string
@@ -861,7 +861,7 @@ func (j *jsiiProxy_CustomerprofilesProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile} Resource.
 func NewCustomerprofilesProfile(scope constructs.Construct, id *string, config *CustomerprofilesProfileConfig) CustomerprofilesProfile {
 	_init_.Initialize()
 
@@ -871,7 +871,7 @@ func NewCustomerprofilesProfile(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CustomerprofilesProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -879,12 +879,12 @@ func NewCustomerprofilesProfile(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/customerprofiles_profile aws_customerprofiles_profile} Resource.
 func NewCustomerprofilesProfile_Override(c CustomerprofilesProfile, scope constructs.Construct, id *string, config *CustomerprofilesProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1188,7 +1188,7 @@ func CustomerprofilesProfile_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1223,7 +1223,7 @@ func CustomerprofilesProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1242,7 +1242,7 @@ func CustomerprofilesProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1261,7 +1261,7 @@ func CustomerprofilesProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1274,7 +1274,7 @@ func CustomerprofilesProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		"tfResourceType",
 		&returns,
 	)

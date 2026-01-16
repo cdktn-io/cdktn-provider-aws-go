@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnector",
+		"@cdktn/provider-aws.transferConnector.TransferConnector",
 		reflect.TypeOf((*TransferConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
@@ -104,11 +104,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorAs2Config",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorAs2Config",
 		reflect.TypeOf((*TransferConnectorAs2Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorAs2ConfigOutputReference",
 		reflect.TypeOf((*TransferConnectorAs2ConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,15 +158,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorConfig",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorConfig",
 		reflect.TypeOf((*TransferConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfig",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfig",
 		reflect.TypeOf((*TransferConnectorEgressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfigOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfigOutputReference",
 		reflect.TypeOf((*TransferConnectorEgressConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,11 +202,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLattice",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLattice",
 		reflect.TypeOf((*TransferConnectorEgressConfigVpcLattice)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorEgressConfigVpcLatticeOutputReference",
 		reflect.TypeOf((*TransferConnectorEgressConfigVpcLatticeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorSftpConfig",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorSftpConfig",
 		reflect.TypeOf((*TransferConnectorSftpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorSftpConfigOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorSftpConfigOutputReference",
 		reflect.TypeOf((*TransferConnectorSftpConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -285,11 +285,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorTimeouts",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorTimeouts",
 		reflect.TypeOf((*TransferConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferConnector.TransferConnectorTimeoutsOutputReference",
+		"@cdktn/provider-aws.transferConnector.TransferConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*TransferConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

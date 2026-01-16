@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.mskVpcConnection.MskVpcConnection",
+		"@cdktn/provider-aws.mskVpcConnection.MskVpcConnection",
 		reflect.TypeOf((*MskVpcConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.mskVpcConnection.MskVpcConnectionConfig",
+		"@cdktn/provider-aws.mskVpcConnection.MskVpcConnectionConfig",
 		reflect.TypeOf((*MskVpcConnectionConfig)(nil)).Elem(),
 	)
 }

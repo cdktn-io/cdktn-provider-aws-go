@@ -5,14 +5,14 @@ package lexv2modelsbotlocale
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsbotlocale/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsbotlocale/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale}.
 type Lexv2ModelsBotLocale interface {
 	cdktf.TerraformResource
 	BotId() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_Lexv2ModelsBotLocale) VoiceSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
 func NewLexv2ModelsBotLocale(scope constructs.Construct, id *string, config *Lexv2ModelsBotLocaleConfig) Lexv2ModelsBotLocale {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewLexv2ModelsBotLocale(scope constructs.Construct, id *string, config *Lex
 	j := jsiiProxy_Lexv2ModelsBotLocale{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewLexv2ModelsBotLocale(scope constructs.Construct, id *string, config *Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot_locale aws_lexv2models_bot_locale} Resource.
 func NewLexv2ModelsBotLocale_Override(l Lexv2ModelsBotLocale, scope constructs.Construct, id *string, config *Lexv2ModelsBotLocaleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -693,7 +693,7 @@ func Lexv2ModelsBotLocale_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func Lexv2ModelsBotLocale_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func Lexv2ModelsBotLocale_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func Lexv2ModelsBotLocale_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func Lexv2ModelsBotLocale_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
+		"@cdktn/provider-aws.lexv2ModelsBotLocale.Lexv2ModelsBotLocale",
 		"tfResourceType",
 		&returns,
 	)

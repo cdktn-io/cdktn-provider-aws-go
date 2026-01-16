@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUser",
 		reflect.TypeOf((*DataAwsConnectUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserConfig",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserConfig",
 		reflect.TypeOf((*DataAwsConnectUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfo",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfo",
 		reflect.TypeOf((*DataAwsConnectUserIdentityInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfoList",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfoList",
 		reflect.TypeOf((*DataAwsConnectUserIdentityInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfoOutputReference",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserIdentityInfoOutputReference",
 		reflect.TypeOf((*DataAwsConnectUserIdentityInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfig",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfig",
 		reflect.TypeOf((*DataAwsConnectUserPhoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigList",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigList",
 		reflect.TypeOf((*DataAwsConnectUserPhoneConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsConnectUser.DataAwsConnectUserPhoneConfigOutputReference",
 		reflect.TypeOf((*DataAwsConnectUserPhoneConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "afterContactWorkTimeLimit", GoGetter: "AfterContactWorkTimeLimit"},

@@ -5,9 +5,9 @@ package workspaceswebusersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebusersettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWorkspaceswebUserSettingsToolbarConfigurationList(terraformResource cdkt
 	j := jsiiProxy_WorkspaceswebUserSettingsToolbarConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationList",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWorkspaceswebUserSettingsToolbarConfigurationList_Override(w Workspacesw
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationList",
+		"@cdktn/provider-aws.workspaceswebUserSettings.WorkspaceswebUserSettingsToolbarConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

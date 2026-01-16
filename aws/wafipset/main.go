@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafIpset.WafIpset",
+		"@cdktn/provider-aws.wafIpset.WafIpset",
 		reflect.TypeOf((*WafIpset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafIpset.WafIpsetConfig",
+		"@cdktn/provider-aws.wafIpset.WafIpsetConfig",
 		reflect.TypeOf((*WafIpsetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafIpset.WafIpsetIpSetDescriptors",
+		"@cdktn/provider-aws.wafIpset.WafIpsetIpSetDescriptors",
 		reflect.TypeOf((*WafIpsetIpSetDescriptors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafIpset.WafIpsetIpSetDescriptorsList",
+		"@cdktn/provider-aws.wafIpset.WafIpsetIpSetDescriptorsList",
 		reflect.TypeOf((*WafIpsetIpSetDescriptorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
+		"@cdktn/provider-aws.wafIpset.WafIpsetIpSetDescriptorsOutputReference",
 		reflect.TypeOf((*WafIpsetIpSetDescriptorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsResource.ResourcegroupsResource",
+		"@cdktn/provider-aws.resourcegroupsResource.ResourcegroupsResource",
 		reflect.TypeOf((*ResourcegroupsResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsResource.ResourcegroupsResourceConfig",
+		"@cdktn/provider-aws.resourcegroupsResource.ResourcegroupsResourceConfig",
 		reflect.TypeOf((*ResourcegroupsResourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.resourcegroupsResource.ResourcegroupsResourceTimeouts",
+		"@cdktn/provider-aws.resourcegroupsResource.ResourcegroupsResourceTimeouts",
 		reflect.TypeOf((*ResourcegroupsResourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.resourcegroupsResource.ResourcegroupsResourceTimeoutsOutputReference",
+		"@cdktn/provider-aws.resourcegroupsResource.ResourcegroupsResourceTimeoutsOutputReference",
 		reflect.TypeOf((*ResourcegroupsResourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

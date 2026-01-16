@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfiguration",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfiguration",
 		reflect.TypeOf((*IotDomainConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,11 +108,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfig",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfig",
 		reflect.TypeOf((*IotDomainConfigurationAuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationAuthorizerConfigOutputReference",
 		reflect.TypeOf((*IotDomainConfigurationAuthorizerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowAuthorizerOverride", GoGetter: "AllowAuthorizerOverride"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationConfig",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationConfig",
 		reflect.TypeOf((*IotDomainConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationTlsConfig",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationTlsConfig",
 		reflect.TypeOf((*IotDomainConfigurationTlsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotDomainConfiguration.IotDomainConfigurationTlsConfigOutputReference",
+		"@cdktn/provider-aws.iotDomainConfiguration.IotDomainConfigurationTlsConfigOutputReference",
 		reflect.TypeOf((*IotDomainConfigurationTlsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

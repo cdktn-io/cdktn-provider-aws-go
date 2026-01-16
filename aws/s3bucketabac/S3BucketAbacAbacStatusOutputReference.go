@@ -5,9 +5,9 @@ package s3bucketabac
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3bucketabac/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketabac/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewS3BucketAbacAbacStatusOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_S3BucketAbacAbacStatusOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewS3BucketAbacAbacStatusOutputReference_Override(s S3BucketAbacAbacStatusO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
+		"@cdktn/provider-aws.s3BucketAbac.S3BucketAbacAbacStatusOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

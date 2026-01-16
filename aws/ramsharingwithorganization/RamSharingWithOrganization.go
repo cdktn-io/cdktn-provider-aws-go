@@ -5,14 +5,14 @@ package ramsharingwithorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ramsharingwithorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ramsharingwithorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
 type RamSharingWithOrganization interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -310,7 +310,7 @@ func (j *jsiiProxy_RamSharingWithOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization(scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) RamSharingWithOrganization {
 	_init_.Initialize()
 
@@ -320,7 +320,7 @@ func NewRamSharingWithOrganization(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_RamSharingWithOrganization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -328,12 +328,12 @@ func NewRamSharingWithOrganization(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization_Override(r RamSharingWithOrganization, scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -428,7 +428,7 @@ func RamSharingWithOrganization_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func RamSharingWithOrganization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func RamSharingWithOrganization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func RamSharingWithOrganization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func RamSharingWithOrganization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
+		"@cdktn/provider-aws.ramSharingWithOrganization.RamSharingWithOrganization",
 		"tfResourceType",
 		&returns,
 	)

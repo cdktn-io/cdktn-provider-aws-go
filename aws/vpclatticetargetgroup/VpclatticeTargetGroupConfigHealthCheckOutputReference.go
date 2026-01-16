@@ -5,9 +5,9 @@ package vpclatticetargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpclatticetargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticetargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewVpclatticeTargetGroupConfigHealthCheckOutputReference(terraformResource 
 	j := jsiiProxy_VpclatticeTargetGroupConfigHealthCheckOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewVpclatticeTargetGroupConfigHealthCheckOutputReference_Override(v Vpclatt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
+		"@cdktn/provider-aws.vpclatticeTargetGroup.VpclatticeTargetGroupConfigHealthCheckOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

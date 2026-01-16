@@ -5,9 +5,9 @@ package cognitoresourceserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cognitoresourceserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoresourceserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCognitoResourceServerScopeList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_CognitoResourceServerScopeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCognitoResourceServerScopeList_Override(c CognitoResourceServerScopeList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
+		"@cdktn/provider-aws.cognitoResourceServer.CognitoResourceServerScopeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

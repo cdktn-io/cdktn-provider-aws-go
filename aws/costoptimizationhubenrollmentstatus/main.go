@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.costoptimizationhubEnrollmentStatus.CostoptimizationhubEnrollmentStatus",
+		"@cdktn/provider-aws.costoptimizationhubEnrollmentStatus.CostoptimizationhubEnrollmentStatus",
 		reflect.TypeOf((*CostoptimizationhubEnrollmentStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.costoptimizationhubEnrollmentStatus.CostoptimizationhubEnrollmentStatusConfig",
+		"@cdktn/provider-aws.costoptimizationhubEnrollmentStatus.CostoptimizationhubEnrollmentStatusConfig",
 		reflect.TypeOf((*CostoptimizationhubEnrollmentStatusConfig)(nil)).Elem(),
 	)
 }

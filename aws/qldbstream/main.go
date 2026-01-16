@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qldbStream.QldbStream",
+		"@cdktn/provider-aws.qldbStream.QldbStream",
 		reflect.TypeOf((*QldbStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qldbStream.QldbStreamConfig",
+		"@cdktn/provider-aws.qldbStream.QldbStreamConfig",
 		reflect.TypeOf((*QldbStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qldbStream.QldbStreamKinesisConfiguration",
+		"@cdktn/provider-aws.qldbStream.QldbStreamKinesisConfiguration",
 		reflect.TypeOf((*QldbStreamKinesisConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qldbStream.QldbStreamKinesisConfigurationOutputReference",
+		"@cdktn/provider-aws.qldbStream.QldbStreamKinesisConfigurationOutputReference",
 		reflect.TypeOf((*QldbStreamKinesisConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregationEnabled", GoGetter: "AggregationEnabled"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.qldbStream.QldbStreamTimeouts",
+		"@cdktn/provider-aws.qldbStream.QldbStreamTimeouts",
 		reflect.TypeOf((*QldbStreamTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
+		"@cdktn/provider-aws.qldbStream.QldbStreamTimeoutsOutputReference",
 		reflect.TypeOf((*QldbStreamTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

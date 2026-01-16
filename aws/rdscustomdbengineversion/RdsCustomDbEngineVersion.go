@@ -5,14 +5,14 @@ package rdscustomdbengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscustomdbengineversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscustomdbengineversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
 type RdsCustomDbEngineVersion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -734,7 +734,7 @@ func (j *jsiiProxy_RdsCustomDbEngineVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) RdsCustomDbEngineVersion {
 	_init_.Initialize()
 
@@ -744,7 +744,7 @@ func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_RdsCustomDbEngineVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -752,12 +752,12 @@ func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion_Override(r RdsCustomDbEngineVersion, scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1006,7 +1006,7 @@ func RdsCustomDbEngineVersion_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1041,7 +1041,7 @@ func RdsCustomDbEngineVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1060,7 +1060,7 @@ func RdsCustomDbEngineVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1079,7 +1079,7 @@ func RdsCustomDbEngineVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1092,7 +1092,7 @@ func RdsCustomDbEngineVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
+		"@cdktn/provider-aws.rdsCustomDbEngineVersion.RdsCustomDbEngineVersion",
 		"tfResourceType",
 		&returns,
 	)

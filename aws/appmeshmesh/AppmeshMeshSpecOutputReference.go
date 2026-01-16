@@ -5,9 +5,9 @@ package appmeshmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appmeshmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appmeshmesh/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewAppmeshMeshSpecOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_AppmeshMeshSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewAppmeshMeshSpecOutputReference_Override(a AppmeshMeshSpecOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
+		"@cdktn/provider-aws.appmeshMesh.AppmeshMeshSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

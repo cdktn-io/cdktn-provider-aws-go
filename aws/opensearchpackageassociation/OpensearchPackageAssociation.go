@@ -5,14 +5,14 @@ package opensearchpackageassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchpackageassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchpackageassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_package_association aws_opensearch_package_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_package_association aws_opensearch_package_association}.
 type OpensearchPackageAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_OpensearchPackageAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_package_association aws_opensearch_package_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_package_association aws_opensearch_package_association} Resource.
 func NewOpensearchPackageAssociation(scope constructs.Construct, id *string, config *OpensearchPackageAssociationConfig) OpensearchPackageAssociation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewOpensearchPackageAssociation(scope constructs.Construct, id *string, con
 	j := jsiiProxy_OpensearchPackageAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewOpensearchPackageAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/opensearch_package_association aws_opensearch_package_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/opensearch_package_association aws_opensearch_package_association} Resource.
 func NewOpensearchPackageAssociation_Override(o OpensearchPackageAssociation, scope constructs.Construct, id *string, config *OpensearchPackageAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -566,7 +566,7 @@ func OpensearchPackageAssociation_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func OpensearchPackageAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func OpensearchPackageAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func OpensearchPackageAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func OpensearchPackageAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociation",
 		"tfResourceType",
 		&returns,
 	)

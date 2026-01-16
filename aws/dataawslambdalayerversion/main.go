@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaLayerVersion.DataAwsLambdaLayerVersion",
+		"@cdktn/provider-aws.dataAwsLambdaLayerVersion.DataAwsLambdaLayerVersion",
 		reflect.TypeOf((*DataAwsLambdaLayerVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaLayerVersion.DataAwsLambdaLayerVersionConfig",
+		"@cdktn/provider-aws.dataAwsLambdaLayerVersion.DataAwsLambdaLayerVersionConfig",
 		reflect.TypeOf((*DataAwsLambdaLayerVersionConfig)(nil)).Elem(),
 	)
 }

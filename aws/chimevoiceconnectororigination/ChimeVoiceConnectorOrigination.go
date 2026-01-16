@@ -5,14 +5,14 @@ package chimevoiceconnectororigination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/chimevoiceconnectororigination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimevoiceconnectororigination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination}.
 type ChimeVoiceConnectorOrigination interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorOrigination) VoiceConnectorIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
 func NewChimeVoiceConnectorOrigination(scope constructs.Construct, id *string, config *ChimeVoiceConnectorOriginationConfig) ChimeVoiceConnectorOrigination {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewChimeVoiceConnectorOrigination(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ChimeVoiceConnectorOrigination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewChimeVoiceConnectorOrigination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_origination aws_chime_voice_connector_origination} Resource.
 func NewChimeVoiceConnectorOrigination_Override(c ChimeVoiceConnectorOrigination, scope constructs.Construct, id *string, config *ChimeVoiceConnectorOriginationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -555,7 +555,7 @@ func ChimeVoiceConnectorOrigination_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func ChimeVoiceConnectorOrigination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func ChimeVoiceConnectorOrigination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func ChimeVoiceConnectorOrigination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ChimeVoiceConnectorOrigination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
+		"@cdktn/provider-aws.chimeVoiceConnectorOrigination.ChimeVoiceConnectorOrigination",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package guarddutyfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/guarddutyfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutyfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewGuarddutyFilterFindingCriteriaOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_GuarddutyFilterFindingCriteriaOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewGuarddutyFilterFindingCriteriaOutputReference_Override(g GuarddutyFilter
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
+		"@cdktn/provider-aws.guarddutyFilter.GuarddutyFilterFindingCriteriaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)

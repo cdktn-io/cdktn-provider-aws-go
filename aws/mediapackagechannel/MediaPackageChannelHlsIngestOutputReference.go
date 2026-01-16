@@ -5,9 +5,9 @@ package mediapackagechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mediapackagechannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mediapackagechannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -170,7 +170,7 @@ func NewMediaPackageChannelHlsIngestOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_MediaPackageChannelHlsIngestOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -182,7 +182,7 @@ func NewMediaPackageChannelHlsIngestOutputReference_Override(m MediaPackageChann
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
+		"@cdktn/provider-aws.mediaPackageChannel.MediaPackageChannelHlsIngestOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

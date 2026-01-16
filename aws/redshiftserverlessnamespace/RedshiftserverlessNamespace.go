@@ -5,14 +5,14 @@ package redshiftserverlessnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftserverlessnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftserverlessnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace}.
 type RedshiftserverlessNamespace interface {
 	cdktf.TerraformResource
 	AdminPasswordSecretArn() *string
@@ -702,7 +702,7 @@ func (j *jsiiProxy_RedshiftserverlessNamespace) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace} Resource.
 func NewRedshiftserverlessNamespace(scope constructs.Construct, id *string, config *RedshiftserverlessNamespaceConfig) RedshiftserverlessNamespace {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewRedshiftserverlessNamespace(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_RedshiftserverlessNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -720,12 +720,12 @@ func NewRedshiftserverlessNamespace(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshiftserverless_namespace aws_redshiftserverless_namespace} Resource.
 func NewRedshiftserverlessNamespace_Override(r RedshiftserverlessNamespace, scope constructs.Construct, id *string, config *RedshiftserverlessNamespaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -985,7 +985,7 @@ func RedshiftserverlessNamespace_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1020,7 +1020,7 @@ func RedshiftserverlessNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1039,7 +1039,7 @@ func RedshiftserverlessNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1058,7 +1058,7 @@ func RedshiftserverlessNamespace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1071,7 +1071,7 @@ func RedshiftserverlessNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		"tfResourceType",
 		&returns,
 	)

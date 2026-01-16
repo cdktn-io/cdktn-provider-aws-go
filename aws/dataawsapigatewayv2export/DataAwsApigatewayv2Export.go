@@ -5,14 +5,14 @@ package dataawsapigatewayv2export
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsapigatewayv2export/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsapigatewayv2export/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export}.
 type DataAwsApigatewayv2Export interface {
 	cdktf.TerraformDataSource
 	ApiId() *string
@@ -441,7 +441,7 @@ func (j *jsiiProxy_DataAwsApigatewayv2Export) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
 func NewDataAwsApigatewayv2Export(scope constructs.Construct, id *string, config *DataAwsApigatewayv2ExportConfig) DataAwsApigatewayv2Export {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAwsApigatewayv2Export(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsApigatewayv2Export{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -459,12 +459,12 @@ func NewDataAwsApigatewayv2Export(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/apigatewayv2_export aws_apigatewayv2_export} Data Source.
 func NewDataAwsApigatewayv2Export_Override(d DataAwsApigatewayv2Export, scope constructs.Construct, id *string, config *DataAwsApigatewayv2ExportConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -614,7 +614,7 @@ func DataAwsApigatewayv2Export_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -649,7 +649,7 @@ func DataAwsApigatewayv2Export_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func DataAwsApigatewayv2Export_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func DataAwsApigatewayv2Export_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func DataAwsApigatewayv2Export_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
+		"@cdktn/provider-aws.dataAwsApigatewayv2Export.DataAwsApigatewayv2Export",
 		"tfResourceType",
 		&returns,
 	)

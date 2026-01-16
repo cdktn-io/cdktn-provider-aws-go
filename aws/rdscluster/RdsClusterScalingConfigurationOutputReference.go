@@ -5,9 +5,9 @@ package rdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewRdsClusterScalingConfigurationOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_RdsClusterScalingConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewRdsClusterScalingConfigurationOutputReference_Override(r RdsClusterScali
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
+		"@cdktn/provider-aws.rdsCluster.RdsClusterScalingConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

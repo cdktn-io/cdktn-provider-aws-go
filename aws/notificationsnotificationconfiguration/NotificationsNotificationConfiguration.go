@@ -5,14 +5,14 @@ package notificationsnotificationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/notificationsnotificationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/notificationsnotificationconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration}.
 type NotificationsNotificationConfiguration interface {
 	cdktf.TerraformResource
 	AggregationDuration() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_NotificationsNotificationConfiguration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
 func NewNotificationsNotificationConfiguration(scope constructs.Construct, id *string, config *NotificationsNotificationConfigurationConfig) NotificationsNotificationConfiguration {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewNotificationsNotificationConfiguration(scope constructs.Construct, id *s
 	j := jsiiProxy_NotificationsNotificationConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewNotificationsNotificationConfiguration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_notification_configuration aws_notifications_notification_configuration} Resource.
 func NewNotificationsNotificationConfiguration_Override(n NotificationsNotificationConfiguration, scope constructs.Construct, id *string, config *NotificationsNotificationConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -553,7 +553,7 @@ func NotificationsNotificationConfiguration_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func NotificationsNotificationConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func NotificationsNotificationConfiguration_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func NotificationsNotificationConfiguration_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func NotificationsNotificationConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
+		"@cdktn/provider-aws.notificationsNotificationConfiguration.NotificationsNotificationConfiguration",
 		"tfResourceType",
 		&returns,
 	)

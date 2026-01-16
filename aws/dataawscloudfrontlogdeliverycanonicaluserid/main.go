@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserId",
 		reflect.TypeOf((*DataAwsCloudfrontLogDeliveryCanonicalUserId)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,7 +61,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig",
+		"@cdktn/provider-aws.dataAwsCloudfrontLogDeliveryCanonicalUserId.DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig",
 		reflect.TypeOf((*DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig)(nil)).Elem(),
 	)
 }

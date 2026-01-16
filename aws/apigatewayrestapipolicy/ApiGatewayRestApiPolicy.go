@@ -5,14 +5,14 @@ package apigatewayrestapipolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayrestapipolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayrestapipolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy}.
 type ApiGatewayRestApiPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_ApiGatewayRestApiPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy} Resource.
 func NewApiGatewayRestApiPolicy(scope constructs.Construct, id *string, config *ApiGatewayRestApiPolicyConfig) ApiGatewayRestApiPolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewApiGatewayRestApiPolicy(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ApiGatewayRestApiPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewApiGatewayRestApiPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_rest_api_policy aws_api_gateway_rest_api_policy} Resource.
 func NewApiGatewayRestApiPolicy_Override(a ApiGatewayRestApiPolicy, scope constructs.Construct, id *string, config *ApiGatewayRestApiPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -531,7 +531,7 @@ func ApiGatewayRestApiPolicy_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func ApiGatewayRestApiPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func ApiGatewayRestApiPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func ApiGatewayRestApiPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func ApiGatewayRestApiPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
+		"@cdktn/provider-aws.apiGatewayRestApiPolicy.ApiGatewayRestApiPolicy",
 		"tfResourceType",
 		&returns,
 	)

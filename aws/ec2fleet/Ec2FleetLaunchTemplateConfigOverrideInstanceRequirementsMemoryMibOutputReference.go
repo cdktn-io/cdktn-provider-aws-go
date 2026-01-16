@@ -5,9 +5,9 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2fleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewEc2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputR
 	j := jsiiProxy_Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewEc2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

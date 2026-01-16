@@ -5,14 +5,14 @@ package dataawsnetworkmanagersite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkmanagersite/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagersite/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_site aws_networkmanager_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_site aws_networkmanager_site}.
 type DataAwsNetworkmanagerSite interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerSite) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_site aws_networkmanager_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_site aws_networkmanager_site} Data Source.
 func NewDataAwsNetworkmanagerSite(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerSiteConfig) DataAwsNetworkmanagerSite {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewDataAwsNetworkmanagerSite(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAwsNetworkmanagerSite{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewDataAwsNetworkmanagerSite(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/networkmanager_site aws_networkmanager_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_site aws_networkmanager_site} Data Source.
 func NewDataAwsNetworkmanagerSite_Override(d DataAwsNetworkmanagerSite, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerSiteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DataAwsNetworkmanagerSite_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DataAwsNetworkmanagerSite_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DataAwsNetworkmanagerSite_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAwsNetworkmanagerSite_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAwsNetworkmanagerSite_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
+		"@cdktn/provider-aws.dataAwsNetworkmanagerSite.DataAwsNetworkmanagerSite",
 		"tfResourceType",
 		&returns,
 	)

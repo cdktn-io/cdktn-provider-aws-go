@@ -5,14 +5,14 @@ package sagemakermonitoringschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakermonitoringschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakermonitoringschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule}.
 type SagemakerMonitoringSchedule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SagemakerMonitoringSchedule) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource.
 func NewSagemakerMonitoringSchedule(scope constructs.Construct, id *string, config *SagemakerMonitoringScheduleConfig) SagemakerMonitoringSchedule {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewSagemakerMonitoringSchedule(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_SagemakerMonitoringSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -458,12 +458,12 @@ func NewSagemakerMonitoringSchedule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_monitoring_schedule aws_sagemaker_monitoring_schedule} Resource.
 func NewSagemakerMonitoringSchedule_Override(s SagemakerMonitoringSchedule, scope constructs.Construct, id *string, config *SagemakerMonitoringScheduleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -602,7 +602,7 @@ func SagemakerMonitoringSchedule_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func SagemakerMonitoringSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func SagemakerMonitoringSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func SagemakerMonitoringSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func SagemakerMonitoringSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
+		"@cdktn/provider-aws.sagemakerMonitoringSchedule.SagemakerMonitoringSchedule",
 		"tfResourceType",
 		&returns,
 	)

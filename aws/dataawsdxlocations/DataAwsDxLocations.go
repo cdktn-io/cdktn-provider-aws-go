@@ -5,14 +5,14 @@ package dataawsdxlocations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdxlocations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdxlocations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_locations aws_dx_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_locations aws_dx_locations}.
 type DataAwsDxLocations interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsDxLocations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
 func NewDataAwsDxLocations(scope constructs.Construct, id *string, config *DataAwsDxLocationsConfig) DataAwsDxLocations {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsDxLocations(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsDxLocations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsDxLocations(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/dx_locations aws_dx_locations} Data Source.
 func NewDataAwsDxLocations_Override(d DataAwsDxLocations, scope constructs.Construct, id *string, config *DataAwsDxLocationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsDxLocations_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsDxLocations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsDxLocations_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsDxLocations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsDxLocations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
+		"@cdktn/provider-aws.dataAwsDxLocations.DataAwsDxLocations",
 		"tfResourceType",
 		&returns,
 	)

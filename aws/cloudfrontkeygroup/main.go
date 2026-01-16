@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontKeyGroup.CloudfrontKeyGroup",
+		"@cdktn/provider-aws.cloudfrontKeyGroup.CloudfrontKeyGroup",
 		reflect.TypeOf((*CloudfrontKeyGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontKeyGroup.CloudfrontKeyGroupConfig",
+		"@cdktn/provider-aws.cloudfrontKeyGroup.CloudfrontKeyGroupConfig",
 		reflect.TypeOf((*CloudfrontKeyGroupConfig)(nil)).Elem(),
 	)
 }

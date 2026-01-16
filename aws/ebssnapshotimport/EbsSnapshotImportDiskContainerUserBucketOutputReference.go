@@ -5,9 +5,9 @@ package ebssnapshotimport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ebssnapshotimport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebssnapshotimport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewEbsSnapshotImportDiskContainerUserBucketOutputReference(terraformResourc
 	j := jsiiProxy_EbsSnapshotImportDiskContainerUserBucketOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucketOutputReference",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucketOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewEbsSnapshotImportDiskContainerUserBucketOutputReference_Override(e EbsSn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucketOutputReference",
+		"@cdktn/provider-aws.ebsSnapshotImport.EbsSnapshotImportDiskContainerUserBucketOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

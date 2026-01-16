@@ -5,14 +5,14 @@ package datazoneenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/datazoneenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/datazoneenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_environment aws_datazone_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_environment aws_datazone_environment}.
 type DatazoneEnvironment interface {
 	cdktf.TerraformResource
 	AccountIdentifier() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_DatazoneEnvironment) UserParametersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
 func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) DatazoneEnvironment {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DatazoneEnvironment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -654,12 +654,12 @@ func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datazone_environment aws_datazone_environment} Resource.
 func NewDatazoneEnvironment_Override(d DatazoneEnvironment, scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -853,7 +853,7 @@ func DatazoneEnvironment_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -888,7 +888,7 @@ func DatazoneEnvironment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func DatazoneEnvironment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -926,7 +926,7 @@ func DatazoneEnvironment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -939,7 +939,7 @@ func DatazoneEnvironment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.datazoneEnvironment.DatazoneEnvironment",
+		"@cdktn/provider-aws.datazoneEnvironment.DatazoneEnvironment",
 		"tfResourceType",
 		&returns,
 	)

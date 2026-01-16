@@ -5,14 +5,14 @@ package rdsreservedinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsreservedinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsreservedinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance}.
 type RdsReservedInstance interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -620,7 +620,7 @@ func (j *jsiiProxy_RdsReservedInstance) UsagePrice() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance} Resource.
 func NewRdsReservedInstance(scope constructs.Construct, id *string, config *RdsReservedInstanceConfig) RdsReservedInstance {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewRdsReservedInstance(scope constructs.Construct, id *string, config *RdsR
 	j := jsiiProxy_RdsReservedInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,12 +638,12 @@ func NewRdsReservedInstance(scope constructs.Construct, id *string, config *RdsR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_reserved_instance aws_rds_reserved_instance} Resource.
 func NewRdsReservedInstance_Override(r RdsReservedInstance, scope constructs.Construct, id *string, config *RdsReservedInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -804,7 +804,7 @@ func RdsReservedInstance_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -839,7 +839,7 @@ func RdsReservedInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func RdsReservedInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func RdsReservedInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -890,7 +890,7 @@ func RdsReservedInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.rdsReservedInstance.RdsReservedInstance",
+		"@cdktn/provider-aws.rdsReservedInstance.RdsReservedInstance",
 		"tfResourceType",
 		&returns,
 	)

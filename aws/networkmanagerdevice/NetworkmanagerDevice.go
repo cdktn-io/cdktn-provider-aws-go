@@ -5,14 +5,14 @@ package networkmanagerdevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkmanagerdevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagerdevice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_device aws_networkmanager_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_device aws_networkmanager_device}.
 type NetworkmanagerDevice interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -608,7 +608,7 @@ func (j *jsiiProxy_NetworkmanagerDevice) VendorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
 func NewNetworkmanagerDevice(scope constructs.Construct, id *string, config *NetworkmanagerDeviceConfig) NetworkmanagerDevice {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewNetworkmanagerDevice(scope constructs.Construct, id *string, config *Net
 	j := jsiiProxy_NetworkmanagerDevice{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -626,12 +626,12 @@ func NewNetworkmanagerDevice(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_device aws_networkmanager_device} Resource.
 func NewNetworkmanagerDevice_Override(n NetworkmanagerDevice, scope constructs.Construct, id *string, config *NetworkmanagerDeviceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -825,7 +825,7 @@ func NetworkmanagerDevice_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -860,7 +860,7 @@ func NetworkmanagerDevice_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -879,7 +879,7 @@ func NetworkmanagerDevice_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func NetworkmanagerDevice_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -911,7 +911,7 @@ func NetworkmanagerDevice_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
+		"@cdktn/provider-aws.networkmanagerDevice.NetworkmanagerDevice",
 		"tfResourceType",
 		&returns,
 	)

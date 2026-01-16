@@ -5,9 +5,9 @@ package codestarnotificationsnotificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codestarnotificationsnotificationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codestarnotificationsnotificationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCodestarnotificationsNotificationRuleTargetList(terraformResource cdktf.
 	j := jsiiProxy_CodestarnotificationsNotificationRuleTargetList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCodestarnotificationsNotificationRuleTargetList_Override(c Codestarnotif
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
+		"@cdktn/provider-aws.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargetList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

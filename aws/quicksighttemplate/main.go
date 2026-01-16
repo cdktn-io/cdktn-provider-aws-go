@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplate",
 		reflect.TypeOf((*QuicksightTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateConfig",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateConfig",
 		reflect.TypeOf((*QuicksightTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplatePermissions",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplatePermissions",
 		reflect.TypeOf((*QuicksightTemplatePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplatePermissionsList",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplatePermissionsList",
 		reflect.TypeOf((*QuicksightTemplatePermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplatePermissionsOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplatePermissionsOutputReference",
 		reflect.TypeOf((*QuicksightTemplatePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntity",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntity",
 		reflect.TypeOf((*QuicksightTemplateSourceEntity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntityOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntityOutputReference",
 		reflect.TypeOf((*QuicksightTemplateSourceEntityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,15 +215,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysis",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysis",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceAnalysis)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesList",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesList",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -245,7 +245,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutputReference",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -281,7 +281,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisOutputReference",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceAnalysisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceTemplate",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceTemplate",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceTemplateOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceTemplateOutputReference",
 		reflect.TypeOf((*QuicksightTemplateSourceEntitySourceTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -356,11 +356,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateTimeouts",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateTimeouts",
 		reflect.TypeOf((*QuicksightTemplateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightTemplate.QuicksightTemplateTimeoutsOutputReference",
+		"@cdktn/provider-aws.quicksightTemplate.QuicksightTemplateTimeoutsOutputReference",
 		reflect.TypeOf((*QuicksightTemplateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

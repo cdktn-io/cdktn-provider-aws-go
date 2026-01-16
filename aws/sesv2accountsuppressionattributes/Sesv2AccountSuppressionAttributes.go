@@ -5,14 +5,14 @@ package sesv2accountsuppressionattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2accountsuppressionattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2accountsuppressionattributes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
 type Sesv2AccountSuppressionAttributes interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) Sesv2AccountSuppressionAttributes {
 	_init_.Initialize()
 
@@ -354,7 +354,7 @@ func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string
 	j := jsiiProxy_Sesv2AccountSuppressionAttributes{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -362,12 +362,12 @@ func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes_Override(s Sesv2AccountSuppressionAttributes, scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -473,7 +473,7 @@ func Sesv2AccountSuppressionAttributes_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -508,7 +508,7 @@ func Sesv2AccountSuppressionAttributes_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func Sesv2AccountSuppressionAttributes_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -546,7 +546,7 @@ func Sesv2AccountSuppressionAttributes_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func Sesv2AccountSuppressionAttributes_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
+		"@cdktn/provider-aws.sesv2AccountSuppressionAttributes.Sesv2AccountSuppressionAttributes",
 		"tfResourceType",
 		&returns,
 	)

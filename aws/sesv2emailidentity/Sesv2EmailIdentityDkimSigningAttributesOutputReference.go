@@ -5,9 +5,9 @@ package sesv2emailidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sesv2emailidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2emailidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -286,7 +286,7 @@ func NewSesv2EmailIdentityDkimSigningAttributesOutputReference(terraformResource
 	j := jsiiProxy_Sesv2EmailIdentityDkimSigningAttributesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -298,7 +298,7 @@ func NewSesv2EmailIdentityDkimSigningAttributesOutputReference_Override(s Sesv2E
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
+		"@cdktn/provider-aws.sesv2EmailIdentity.Sesv2EmailIdentityDkimSigningAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -5,9 +5,9 @@ package wafv2rulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafv2rulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafv2rulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewWafv2RuleGroupRuleVisibilityConfigOutputReference(terraformResource cdkt
 	j := jsiiProxy_Wafv2RuleGroupRuleVisibilityConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfigOutputReference",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewWafv2RuleGroupRuleVisibilityConfigOutputReference_Override(w Wafv2RuleGr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfigOutputReference",
+		"@cdktn/provider-aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

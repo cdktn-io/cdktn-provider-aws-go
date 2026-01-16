@@ -5,14 +5,14 @@ package configorganizationmanagedrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/configorganizationmanagedrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationmanagedrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule}.
 type ConfigOrganizationManagedRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -607,7 +607,7 @@ func (j *jsiiProxy_ConfigOrganizationManagedRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource.
 func NewConfigOrganizationManagedRule(scope constructs.Construct, id *string, config *ConfigOrganizationManagedRuleConfig) ConfigOrganizationManagedRule {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewConfigOrganizationManagedRule(scope constructs.Construct, id *string, co
 	j := jsiiProxy_ConfigOrganizationManagedRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -625,12 +625,12 @@ func NewConfigOrganizationManagedRule(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_managed_rule aws_config_organization_managed_rule} Resource.
 func NewConfigOrganizationManagedRule_Override(c ConfigOrganizationManagedRule, scope constructs.Construct, id *string, config *ConfigOrganizationManagedRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -846,7 +846,7 @@ func ConfigOrganizationManagedRule_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -881,7 +881,7 @@ func ConfigOrganizationManagedRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -900,7 +900,7 @@ func ConfigOrganizationManagedRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -919,7 +919,7 @@ func ConfigOrganizationManagedRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -932,7 +932,7 @@ func ConfigOrganizationManagedRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
+		"@cdktn/provider-aws.configOrganizationManagedRule.ConfigOrganizationManagedRule",
 		"tfResourceType",
 		&returns,
 	)

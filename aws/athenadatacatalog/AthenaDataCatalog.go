@@ -5,14 +5,14 @@ package athenadatacatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/athenadatacatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenadatacatalog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_data_catalog aws_athena_data_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog}.
 type AthenaDataCatalog interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_AthenaDataCatalog) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
 func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) AthenaDataCatalog {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *Athena
 	j := jsiiProxy_AthenaDataCatalog{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *Athena
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
 func NewAthenaDataCatalog_Override(a AthenaDataCatalog, scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -680,7 +680,7 @@ func AthenaDataCatalog_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -715,7 +715,7 @@ func AthenaDataCatalog_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func AthenaDataCatalog_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func AthenaDataCatalog_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func AthenaDataCatalog_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.athenaDataCatalog.AthenaDataCatalog",
+		"@cdktn/provider-aws.athenaDataCatalog.AthenaDataCatalog",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package organizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/organizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -247,7 +247,7 @@ func NewOrganizationsOrganizationNonMasterAccountsOutputReference(terraformResou
 	j := jsiiProxy_OrganizationsOrganizationNonMasterAccountsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -259,7 +259,7 @@ func NewOrganizationsOrganizationNonMasterAccountsOutputReference_Override(o Org
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
+		"@cdktn/provider-aws.organizationsOrganization.OrganizationsOrganizationNonMasterAccountsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		o,
 	)

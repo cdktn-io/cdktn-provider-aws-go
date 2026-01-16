@@ -93,6 +93,37 @@ func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validate
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validatePutSessionSummaryConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration:
+		value := value.(*[]*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration:
+		value_ := value.([]*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BedrockagentAgentMemoryConfigurationSessionSummaryConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentAgentMemoryConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerMlflowTrackingServer.SagemakerMlflowTrackingServer",
+		"@cdktn/provider-aws.sagemakerMlflowTrackingServer.SagemakerMlflowTrackingServer",
 		reflect.TypeOf((*SagemakerMlflowTrackingServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerMlflowTrackingServer.SagemakerMlflowTrackingServerConfig",
+		"@cdktn/provider-aws.sagemakerMlflowTrackingServer.SagemakerMlflowTrackingServerConfig",
 		reflect.TypeOf((*SagemakerMlflowTrackingServerConfig)(nil)).Elem(),
 	)
 }

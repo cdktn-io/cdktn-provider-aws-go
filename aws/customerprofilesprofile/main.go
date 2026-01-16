@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfile",
 		reflect.TypeOf((*CustomerprofilesProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountNumber", GoGetter: "AccountNumber"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddress",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddress",
 		reflect.TypeOf((*CustomerprofilesProfileAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileAddressOutputReference",
 		reflect.TypeOf((*CustomerprofilesProfileAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileBillingAddress",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileBillingAddress",
 		reflect.TypeOf((*CustomerprofilesProfileBillingAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileBillingAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileBillingAddressOutputReference",
 		reflect.TypeOf((*CustomerprofilesProfileBillingAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
@@ -270,15 +270,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileConfig",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileConfig",
 		reflect.TypeOf((*CustomerprofilesProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileMailingAddress",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileMailingAddress",
 		reflect.TypeOf((*CustomerprofilesProfileMailingAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileMailingAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileMailingAddressOutputReference",
 		reflect.TypeOf((*CustomerprofilesProfileMailingAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
@@ -340,11 +340,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileShippingAddress",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileShippingAddress",
 		reflect.TypeOf((*CustomerprofilesProfileShippingAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.customerprofilesProfile.CustomerprofilesProfileShippingAddressOutputReference",
+		"@cdktn/provider-aws.customerprofilesProfile.CustomerprofilesProfileShippingAddressOutputReference",
 		reflect.TypeOf((*CustomerprofilesProfileShippingAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},

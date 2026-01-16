@@ -5,14 +5,14 @@ package dxgatewayassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dxgatewayassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dxgatewayassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_gateway_association aws_dx_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_gateway_association aws_dx_gateway_association}.
 type DxGatewayAssociation interface {
 	cdktf.TerraformResource
 	AllowedPrefixes() *[]*string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DxGatewayAssociation) TransitGatewayAttachmentId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
 func NewDxGatewayAssociation(scope constructs.Construct, id *string, config *DxGatewayAssociationConfig) DxGatewayAssociation {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewDxGatewayAssociation(scope constructs.Construct, id *string, config *DxG
 	j := jsiiProxy_DxGatewayAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewDxGatewayAssociation(scope constructs.Construct, id *string, config *DxG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dx_gateway_association aws_dx_gateway_association} Resource.
 func NewDxGatewayAssociation_Override(d DxGatewayAssociation, scope constructs.Construct, id *string, config *DxGatewayAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -705,7 +705,7 @@ func DxGatewayAssociation_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func DxGatewayAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func DxGatewayAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func DxGatewayAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func DxGatewayAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
+		"@cdktn/provider-aws.dxGatewayAssociation.DxGatewayAssociation",
 		"tfResourceType",
 		&returns,
 	)

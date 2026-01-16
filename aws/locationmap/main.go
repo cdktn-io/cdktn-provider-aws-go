@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationMap.LocationMap",
+		"@cdktn/provider-aws.locationMap.LocationMap",
 		reflect.TypeOf((*LocationMap)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationMap.LocationMapConfig",
+		"@cdktn/provider-aws.locationMap.LocationMapConfig",
 		reflect.TypeOf((*LocationMapConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.locationMap.LocationMapConfiguration",
+		"@cdktn/provider-aws.locationMap.LocationMapConfiguration",
 		reflect.TypeOf((*LocationMapConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.locationMap.LocationMapConfigurationOutputReference",
+		"@cdktn/provider-aws.locationMap.LocationMapConfigurationOutputReference",
 		reflect.TypeOf((*LocationMapConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrail",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrail",
 		reflect.TypeOf((*BedrockGuardrail)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,19 +115,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailConfig",
 		reflect.TypeOf((*BedrockGuardrailConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfig",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigFiltersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfigList",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigFiltersConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -149,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigList",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -267,11 +267,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfig",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigTierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfigList",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigTierConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -293,7 +293,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigTierConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailContentPolicyConfigTierConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -328,15 +328,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfig",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfigFiltersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigList",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -358,7 +358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,7 +394,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigList",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -416,7 +416,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailContextualGroundingPolicyConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailContextualGroundingPolicyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -452,11 +452,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfig",
 		reflect.TypeOf((*BedrockGuardrailCrossRegionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfigList",
 		reflect.TypeOf((*BedrockGuardrailCrossRegionConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -478,7 +478,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailCrossRegionConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailCrossRegionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -512,11 +512,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfig",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigList",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -538,7 +538,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -578,11 +578,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -604,7 +604,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -652,11 +652,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -678,7 +678,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -731,11 +731,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTimeouts",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTimeouts",
 		reflect.TypeOf((*BedrockGuardrailTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockGuardrailTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -776,11 +776,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfig",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigList",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -802,7 +802,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -842,11 +842,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfig",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfigList",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTierConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -868,7 +868,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTierConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTierConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -903,11 +903,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfig",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTopicsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigList",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTopicsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -929,7 +929,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -970,11 +970,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfig",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigList",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -996,11 +996,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfig",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigManagedWordListsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfigList",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigManagedWordListsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1022,7 +1022,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1068,7 +1068,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1108,11 +1108,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfig",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfig",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigWordsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfigList",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfigList",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigWordsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1134,7 +1134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfigOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrail.BedrockGuardrailWordPolicyConfigWordsConfigOutputReference",
 		reflect.TypeOf((*BedrockGuardrailWordPolicyConfigWordsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

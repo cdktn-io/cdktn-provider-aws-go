@@ -5,14 +5,14 @@ package codebuildreportgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/codebuildreportgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/codebuildreportgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_report_group aws_codebuild_report_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_report_group aws_codebuild_report_group}.
 type CodebuildReportGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_CodebuildReportGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
 func NewCodebuildReportGroup(scope constructs.Construct, id *string, config *CodebuildReportGroupConfig) CodebuildReportGroup {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewCodebuildReportGroup(scope constructs.Construct, id *string, config *Cod
 	j := jsiiProxy_CodebuildReportGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewCodebuildReportGroup(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
 func NewCodebuildReportGroup_Override(c CodebuildReportGroup, scope constructs.Construct, id *string, config *CodebuildReportGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -681,7 +681,7 @@ func CodebuildReportGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -716,7 +716,7 @@ func CodebuildReportGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func CodebuildReportGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func CodebuildReportGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func CodebuildReportGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.codebuildReportGroup.CodebuildReportGroup",
+		"@cdktn/provider-aws.codebuildReportGroup.CodebuildReportGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -87,6 +87,10 @@ func (j *jsiiProxy_DataAwsDxGateway) validateSetNameParameters(val *string) erro
 	return nil
 }
 
+func (j *jsiiProxy_DataAwsDxGateway) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewDataAwsDxGatewayParameters(scope constructs.Construct, id *string, config *DataAwsDxGatewayConfig) error {
 	return nil
 }

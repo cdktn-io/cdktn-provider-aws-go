@@ -5,9 +5,9 @@ package mskreplicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskreplicator/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskreplicator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewMskReplicatorKafkaClusterAmazonMskClusterOutputReference(terraformResour
 	j := jsiiProxy_MskReplicatorKafkaClusterAmazonMskClusterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewMskReplicatorKafkaClusterAmazonMskClusterOutputReference_Override(m MskR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTrigger",
+		"@cdktn/provider-aws.glueTrigger.GlueTrigger",
 		reflect.TypeOf((*GlueTrigger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -111,11 +111,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActions",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActions",
 		reflect.TypeOf((*GlueTriggerActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsList",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsList",
 		reflect.TypeOf((*GlueTriggerActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsNotificationProperty",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsNotificationProperty",
 		reflect.TypeOf((*GlueTriggerActionsNotificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsNotificationPropertyOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsNotificationPropertyOutputReference",
 		reflect.TypeOf((*GlueTriggerActionsNotificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
 		reflect.TypeOf((*GlueTriggerActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arguments", GoGetter: "Arguments"},
@@ -227,15 +227,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerConfig",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerConfig",
 		reflect.TypeOf((*GlueTriggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerEventBatchingCondition",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerEventBatchingCondition",
 		reflect.TypeOf((*GlueTriggerEventBatchingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerEventBatchingConditionList",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerEventBatchingConditionList",
 		reflect.TypeOf((*GlueTriggerEventBatchingConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -257,7 +257,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerEventBatchingConditionOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerEventBatchingConditionOutputReference",
 		reflect.TypeOf((*GlueTriggerEventBatchingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
@@ -294,15 +294,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicate",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicate",
 		reflect.TypeOf((*GlueTriggerPredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateConditions",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateConditions",
 		reflect.TypeOf((*GlueTriggerPredicateConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateConditionsList",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateConditionsList",
 		reflect.TypeOf((*GlueTriggerPredicateConditionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -324,7 +324,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateConditionsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateConditionsOutputReference",
 		reflect.TypeOf((*GlueTriggerPredicateConditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -371,7 +371,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerPredicateOutputReference",
 		reflect.TypeOf((*GlueTriggerPredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -409,11 +409,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerTimeouts",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerTimeouts",
 		reflect.TypeOf((*GlueTriggerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerTimeoutsOutputReference",
 		reflect.TypeOf((*GlueTriggerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

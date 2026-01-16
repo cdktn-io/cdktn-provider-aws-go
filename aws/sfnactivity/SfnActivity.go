@@ -5,14 +5,14 @@ package sfnactivity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sfnactivity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sfnactivity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_activity aws_sfn_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_activity aws_sfn_activity}.
 type SfnActivity interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_SfnActivity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_activity aws_sfn_activity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_activity aws_sfn_activity} Resource.
 func NewSfnActivity(scope constructs.Construct, id *string, config *SfnActivityConfig) SfnActivity {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewSfnActivity(scope constructs.Construct, id *string, config *SfnActivityC
 	j := jsiiProxy_SfnActivity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewSfnActivity(scope constructs.Construct, id *string, config *SfnActivityC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sfn_activity aws_sfn_activity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sfn_activity aws_sfn_activity} Resource.
 func NewSfnActivity_Override(s SfnActivity, scope constructs.Construct, id *string, config *SfnActivityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -613,7 +613,7 @@ func SfnActivity_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func SfnActivity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func SfnActivity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func SfnActivity_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func SfnActivity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sfnActivity.SfnActivity",
+		"@cdktn/provider-aws.sfnActivity.SfnActivity",
 		"tfResourceType",
 		&returns,
 	)

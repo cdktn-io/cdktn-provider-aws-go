@@ -5,14 +5,14 @@ package dataawsdatapipelinepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdatapipelinepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdatapipelinepipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline}.
 type DataAwsDatapipelinePipeline interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -358,7 +358,7 @@ func (j *jsiiProxy_DataAwsDatapipelinePipeline) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
 func NewDataAwsDatapipelinePipeline(scope constructs.Construct, id *string, config *DataAwsDatapipelinePipelineConfig) DataAwsDatapipelinePipeline {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewDataAwsDatapipelinePipeline(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsDatapipelinePipeline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewDataAwsDatapipelinePipeline(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/datapipeline_pipeline aws_datapipeline_pipeline} Data Source.
 func NewDataAwsDatapipelinePipeline_Override(d DataAwsDatapipelinePipeline, scope constructs.Construct, id *string, config *DataAwsDatapipelinePipelineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataAwsDatapipelinePipeline_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataAwsDatapipelinePipeline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataAwsDatapipelinePipeline_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsDatapipelinePipeline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAwsDatapipelinePipeline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
+		"@cdktn/provider-aws.dataAwsDatapipelinePipeline.DataAwsDatapipelinePipeline",
 		"tfResourceType",
 		&returns,
 	)

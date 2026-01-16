@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueue",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueue",
 		reflect.TypeOf((*BatchJobQueue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrder",
 		reflect.TypeOf((*BatchJobQueueComputeEnvironmentOrder)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrderList",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrderList",
 		reflect.TypeOf((*BatchJobQueueComputeEnvironmentOrderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrderOutputReference",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueComputeEnvironmentOrderOutputReference",
 		reflect.TypeOf((*BatchJobQueueComputeEnvironmentOrderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,15 +155,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueConfig",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueConfig",
 		reflect.TypeOf((*BatchJobQueueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitAction",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitAction",
 		reflect.TypeOf((*BatchJobQueueJobStateTimeLimitAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitActionList",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitActionList",
 		reflect.TypeOf((*BatchJobQueueJobStateTimeLimitActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -185,7 +185,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitActionOutputReference",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueJobStateTimeLimitActionOutputReference",
 		reflect.TypeOf((*BatchJobQueueJobStateTimeLimitActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueTimeouts",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueTimeouts",
 		reflect.TypeOf((*BatchJobQueueTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.batchJobQueue.BatchJobQueueTimeoutsOutputReference",
+		"@cdktn/provider-aws.batchJobQueue.BatchJobQueueTimeoutsOutputReference",
 		reflect.TypeOf((*BatchJobQueueTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

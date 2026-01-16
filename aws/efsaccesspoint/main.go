@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPoint",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPoint",
 		reflect.TypeOf((*EfsAccessPoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointConfig",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointConfig",
 		reflect.TypeOf((*EfsAccessPointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointPosixUser",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointPosixUser",
 		reflect.TypeOf((*EfsAccessPointPosixUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointPosixUserOutputReference",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointPosixUserOutputReference",
 		reflect.TypeOf((*EfsAccessPointPosixUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectory",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectory",
 		reflect.TypeOf((*EfsAccessPointRootDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfo",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfo",
 		reflect.TypeOf((*EfsAccessPointRootDirectoryCreationInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfoOutputReference",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryCreationInfoOutputReference",
 		reflect.TypeOf((*EfsAccessPointRootDirectoryCreationInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
+		"@cdktn/provider-aws.efsAccessPoint.EfsAccessPointRootDirectoryOutputReference",
 		reflect.TypeOf((*EfsAccessPointRootDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

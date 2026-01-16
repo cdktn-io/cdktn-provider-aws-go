@@ -5,14 +5,14 @@ package route53keysigningkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53keysigningkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53keysigningkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
 type Route53KeySigningKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -537,7 +537,7 @@ func (j *jsiiProxy_Route53KeySigningKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) Route53KeySigningKey {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Rou
 	j := jsiiProxy_Route53KeySigningKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -555,12 +555,12 @@ func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey_Override(r Route53KeySigningKey, scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -699,7 +699,7 @@ func Route53KeySigningKey_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -734,7 +734,7 @@ func Route53KeySigningKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func Route53KeySigningKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +772,7 @@ func Route53KeySigningKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -785,7 +785,7 @@ func Route53KeySigningKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53KeySigningKey.Route53KeySigningKey",
+		"@cdktn/provider-aws.route53KeySigningKey.Route53KeySigningKey",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsroute53resolverrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsroute53resolverrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53resolverrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules}.
 type DataAwsRoute53ResolverRules interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -420,7 +420,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRules) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
 func NewDataAwsRoute53ResolverRules(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRulesConfig) DataAwsRoute53ResolverRules {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDataAwsRoute53ResolverRules(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsRoute53ResolverRules{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,12 +438,12 @@ func NewDataAwsRoute53ResolverRules(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rules aws_route53_resolver_rules} Data Source.
 func NewDataAwsRoute53ResolverRules_Override(d DataAwsRoute53ResolverRules, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRulesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -582,7 +582,7 @@ func DataAwsRoute53ResolverRules_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -617,7 +617,7 @@ func DataAwsRoute53ResolverRules_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -636,7 +636,7 @@ func DataAwsRoute53ResolverRules_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func DataAwsRoute53ResolverRules_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func DataAwsRoute53ResolverRules_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
+		"@cdktn/provider-aws.dataAwsRoute53ResolverRules.DataAwsRoute53ResolverRules",
 		"tfResourceType",
 		&returns,
 	)

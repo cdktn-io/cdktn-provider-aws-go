@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfiguration",
+		"@cdktn/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfiguration",
 		reflect.TypeOf((*ChatbotSlackChannelConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationConfig",
+		"@cdktn/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationConfig",
 		reflect.TypeOf((*ChatbotSlackChannelConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationTimeouts",
+		"@cdktn/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationTimeouts",
 		reflect.TypeOf((*ChatbotSlackChannelConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-aws.chatbotSlackChannelConfiguration.ChatbotSlackChannelConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*ChatbotSlackChannelConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

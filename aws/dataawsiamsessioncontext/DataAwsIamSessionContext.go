@@ -5,14 +5,14 @@ package dataawsiamsessioncontext
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsiamsessioncontext/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsiamsessioncontext/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_session_context aws_iam_session_context}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_session_context aws_iam_session_context}.
 type DataAwsIamSessionContext interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsIamSessionContext) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_session_context aws_iam_session_context} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_session_context aws_iam_session_context} Data Source.
 func NewDataAwsIamSessionContext(scope constructs.Construct, id *string, config *DataAwsIamSessionContextConfig) DataAwsIamSessionContext {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewDataAwsIamSessionContext(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsIamSessionContext{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -350,12 +350,12 @@ func NewDataAwsIamSessionContext(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/iam_session_context aws_iam_session_context} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/iam_session_context aws_iam_session_context} Data Source.
 func NewDataAwsIamSessionContext_Override(d DataAwsIamSessionContext, scope constructs.Construct, id *string, config *DataAwsIamSessionContextConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -439,7 +439,7 @@ func DataAwsIamSessionContext_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -474,7 +474,7 @@ func DataAwsIamSessionContext_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsIamSessionContext_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -512,7 +512,7 @@ func DataAwsIamSessionContext_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsIamSessionContext_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
+		"@cdktn/provider-aws.dataAwsIamSessionContext.DataAwsIamSessionContext",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package route53trafficpolicyinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/route53trafficpolicyinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53trafficpolicyinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
 type Route53TrafficPolicyInstance interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_Route53TrafficPolicyInstance) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) Route53TrafficPolicyInstance {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, con
 	j := jsiiProxy_Route53TrafficPolicyInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance_Override(r Route53TrafficPolicyInstance, scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -609,7 +609,7 @@ func Route53TrafficPolicyInstance_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -644,7 +644,7 @@ func Route53TrafficPolicyInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func Route53TrafficPolicyInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -682,7 +682,7 @@ func Route53TrafficPolicyInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func Route53TrafficPolicyInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
+		"@cdktn/provider-aws.route53TrafficPolicyInstance.Route53TrafficPolicyInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsmskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_cluster aws_msk_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_cluster aws_msk_cluster}.
 type DataAwsMskCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -490,7 +490,7 @@ func (j *jsiiProxy_DataAwsMskCluster) ZookeeperConnectStringTls() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_cluster aws_msk_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_cluster aws_msk_cluster} Data Source.
 func NewDataAwsMskCluster(scope constructs.Construct, id *string, config *DataAwsMskClusterConfig) DataAwsMskCluster {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewDataAwsMskCluster(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsMskCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,12 +508,12 @@ func NewDataAwsMskCluster(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/msk_cluster aws_msk_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/msk_cluster aws_msk_cluster} Data Source.
 func NewDataAwsMskCluster_Override(d DataAwsMskCluster, scope constructs.Construct, id *string, config *DataAwsMskClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -619,7 +619,7 @@ func DataAwsMskCluster_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -654,7 +654,7 @@ func DataAwsMskCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func DataAwsMskCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func DataAwsMskCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func DataAwsMskCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
+		"@cdktn/provider-aws.dataAwsMskCluster.DataAwsMskCluster",
 		"tfResourceType",
 		&returns,
 	)

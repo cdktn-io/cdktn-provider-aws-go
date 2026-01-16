@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dxLag.DxLag",
+		"@cdktn/provider-aws.dxLag.DxLag",
 		reflect.TypeOf((*DxLag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dxLag.DxLagConfig",
+		"@cdktn/provider-aws.dxLag.DxLagConfig",
 		reflect.TypeOf((*DxLagConfig)(nil)).Elem(),
 	)
 }

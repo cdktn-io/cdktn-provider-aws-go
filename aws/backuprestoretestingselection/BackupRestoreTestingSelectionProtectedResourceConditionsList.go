@@ -5,9 +5,9 @@ package backuprestoretestingselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backuprestoretestingselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backuprestoretestingselection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewBackupRestoreTestingSelectionProtectedResourceConditionsList(terraformRe
 	j := jsiiProxy_BackupRestoreTestingSelectionProtectedResourceConditionsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingSelection.BackupRestoreTestingSelectionProtectedResourceConditionsList",
+		"@cdktn/provider-aws.backupRestoreTestingSelection.BackupRestoreTestingSelectionProtectedResourceConditionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewBackupRestoreTestingSelectionProtectedResourceConditionsList_Override(b 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingSelection.BackupRestoreTestingSelectionProtectedResourceConditionsList",
+		"@cdktn/provider-aws.backupRestoreTestingSelection.BackupRestoreTestingSelectionProtectedResourceConditionsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		b,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget",
 		reflect.TypeOf((*SsmMaintenanceWindowTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetConfig",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetConfig",
 		reflect.TypeOf((*SsmMaintenanceWindowTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargets",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargets",
 		reflect.TypeOf((*SsmMaintenanceWindowTargetTargets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsList",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsList",
 		reflect.TypeOf((*SsmMaintenanceWindowTargetTargetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsOutputReference",
+		"@cdktn/provider-aws.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTargetTargetsOutputReference",
 		reflect.TypeOf((*SsmMaintenanceWindowTargetTargetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClient",
 		reflect.TypeOf((*CognitoUserPoolClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenValidity", GoGetter: "AccessTokenValidity"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfiguration",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfiguration",
 		reflect.TypeOf((*CognitoUserPoolClientAnalyticsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfigurationList",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfigurationList",
 		reflect.TypeOf((*CognitoUserPoolClientAnalyticsConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfigurationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientAnalyticsConfigurationOutputReference",
 		reflect.TypeOf((*CognitoUserPoolClientAnalyticsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationArn", GoGetter: "ApplicationArn"},
@@ -211,15 +211,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientConfig",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientConfig",
 		reflect.TypeOf((*CognitoUserPoolClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotation",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotation",
 		reflect.TypeOf((*CognitoUserPoolClientRefreshTokenRotation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationList",
 		reflect.TypeOf((*CognitoUserPoolClientRefreshTokenRotationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -241,7 +241,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationOutputReference",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientRefreshTokenRotationOutputReference",
 		reflect.TypeOf((*CognitoUserPoolClientRefreshTokenRotationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnits",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnits",
 		reflect.TypeOf((*CognitoUserPoolClientTokenValidityUnits)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsList",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsList",
 		reflect.TypeOf((*CognitoUserPoolClientTokenValidityUnitsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -304,7 +304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
+		"@cdktn/provider-aws.cognitoUserPoolClient.CognitoUserPoolClientTokenValidityUnitsOutputReference",
 		reflect.TypeOf((*CognitoUserPoolClientTokenValidityUnitsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},

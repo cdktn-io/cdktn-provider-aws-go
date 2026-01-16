@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroup",
 		reflect.TypeOf((*DataAwsDbParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroupConfig",
+		"@cdktn/provider-aws.dataAwsDbParameterGroup.DataAwsDbParameterGroupConfig",
 		reflect.TypeOf((*DataAwsDbParameterGroupConfig)(nil)).Elem(),
 	)
 }

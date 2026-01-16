@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsDmsReplicationTask.DataAwsDmsReplicationTask",
+		"@cdktn/provider-aws.dataAwsDmsReplicationTask.DataAwsDmsReplicationTask",
 		reflect.TypeOf((*DataAwsDmsReplicationTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsDmsReplicationTask.DataAwsDmsReplicationTaskConfig",
+		"@cdktn/provider-aws.dataAwsDmsReplicationTask.DataAwsDmsReplicationTaskConfig",
 		reflect.TypeOf((*DataAwsDmsReplicationTaskConfig)(nil)).Elem(),
 	)
 }

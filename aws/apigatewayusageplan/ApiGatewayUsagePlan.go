@@ -5,14 +5,14 @@ package apigatewayusageplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayusageplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayusageplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan}.
 type ApiGatewayUsagePlan interface {
 	cdktf.TerraformResource
 	ApiStages() ApiGatewayUsagePlanApiStagesList
@@ -536,7 +536,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlan) ThrottleSettingsInput() *ApiGatewayUsage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
 func NewApiGatewayUsagePlan(scope constructs.Construct, id *string, config *ApiGatewayUsagePlanConfig) ApiGatewayUsagePlan {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewApiGatewayUsagePlan(scope constructs.Construct, id *string, config *ApiG
 	j := jsiiProxy_ApiGatewayUsagePlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -554,12 +554,12 @@ func NewApiGatewayUsagePlan(scope constructs.Construct, id *string, config *ApiG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
 func NewApiGatewayUsagePlan_Override(a ApiGatewayUsagePlan, scope constructs.Construct, id *string, config *ApiGatewayUsagePlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -720,7 +720,7 @@ func ApiGatewayUsagePlan_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -755,7 +755,7 @@ func ApiGatewayUsagePlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func ApiGatewayUsagePlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func ApiGatewayUsagePlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func ApiGatewayUsagePlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		"tfResourceType",
 		&returns,
 	)

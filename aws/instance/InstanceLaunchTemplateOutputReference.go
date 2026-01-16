@@ -5,9 +5,9 @@ package instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/instance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/instance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewInstanceLaunchTemplateOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_InstanceLaunchTemplateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.instance.InstanceLaunchTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewInstanceLaunchTemplateOutputReference_Override(i InstanceLaunchTemplateO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.instance.InstanceLaunchTemplateOutputReference",
+		"@cdktn/provider-aws.instance.InstanceLaunchTemplateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

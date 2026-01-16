@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafGeoMatchSet.WafGeoMatchSet",
+		"@cdktn/provider-aws.wafGeoMatchSet.WafGeoMatchSet",
 		reflect.TypeOf((*WafGeoMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafGeoMatchSet.WafGeoMatchSetConfig",
+		"@cdktn/provider-aws.wafGeoMatchSet.WafGeoMatchSetConfig",
 		reflect.TypeOf((*WafGeoMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraint",
+		"@cdktn/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraint",
 		reflect.TypeOf((*WafGeoMatchSetGeoMatchConstraint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraintList",
+		"@cdktn/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraintList",
 		reflect.TypeOf((*WafGeoMatchSetGeoMatchConstraintList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraintOutputReference",
+		"@cdktn/provider-aws.wafGeoMatchSet.WafGeoMatchSetGeoMatchConstraintOutputReference",
 		reflect.TypeOf((*WafGeoMatchSetGeoMatchConstraintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

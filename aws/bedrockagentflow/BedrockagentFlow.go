@@ -5,14 +5,14 @@ package bedrockagentflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentflow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
 type BedrockagentFlow interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_BedrockagentFlow) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow(scope constructs.Construct, id *string, config *BedrockagentFlowConfig) BedrockagentFlow {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewBedrockagentFlow(scope constructs.Construct, id *string, config *Bedrock
 	j := jsiiProxy_BedrockagentFlow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -571,12 +571,12 @@ func NewBedrockagentFlow(scope constructs.Construct, id *string, config *Bedrock
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow_Override(b BedrockagentFlow, scope constructs.Construct, id *string, config *BedrockagentFlowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -726,7 +726,7 @@ func BedrockagentFlow_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func BedrockagentFlow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func BedrockagentFlow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func BedrockagentFlow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func BedrockagentFlow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.bedrockagentFlow.BedrockagentFlow",
+		"@cdktn/provider-aws.bedrockagentFlow.BedrockagentFlow",
 		"tfResourceType",
 		&returns,
 	)

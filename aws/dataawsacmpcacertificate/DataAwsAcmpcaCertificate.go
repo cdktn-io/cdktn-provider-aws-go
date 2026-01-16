@@ -5,14 +5,14 @@ package dataawsacmpcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsacmpcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsacmpcacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate}.
 type DataAwsAcmpcaCertificate interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsAcmpcaCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
 func NewDataAwsAcmpcaCertificate(scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateConfig) DataAwsAcmpcaCertificate {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAwsAcmpcaCertificate(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsAcmpcaCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAwsAcmpcaCertificate(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
 func NewDataAwsAcmpcaCertificate_Override(d DataAwsAcmpcaCertificate, scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAwsAcmpcaCertificate_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAwsAcmpcaCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsAcmpcaCertificate_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsAcmpcaCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAwsAcmpcaCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
+		"@cdktn/provider-aws.dataAwsAcmpcaCertificate.DataAwsAcmpcaCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package dataawsec2transitgatewayroutetables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsec2transitgatewayroutetables/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgatewayroutetables/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables}.
 type DataAwsEc2TransitGatewayRouteTables interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTables) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTables(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTablesConfig) DataAwsEc2TransitGatewayRouteTables {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsEc2TransitGatewayRouteTables(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAwsEc2TransitGatewayRouteTables{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsEc2TransitGatewayRouteTables(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_route_tables aws_ec2_transit_gateway_route_tables} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTables_Override(d DataAwsEc2TransitGatewayRouteTables, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTablesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -490,7 +490,7 @@ func DataAwsEc2TransitGatewayRouteTables_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsEc2TransitGatewayRouteTables_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsEc2TransitGatewayRouteTables_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsEc2TransitGatewayRouteTables_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func DataAwsEc2TransitGatewayRouteTables_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
+		"@cdktn/provider-aws.dataAwsEc2TransitGatewayRouteTables.DataAwsEc2TransitGatewayRouteTables",
 		"tfResourceType",
 		&returns,
 	)

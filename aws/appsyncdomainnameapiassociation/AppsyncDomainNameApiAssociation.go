@@ -5,14 +5,14 @@ package appsyncdomainnameapiassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncdomainnameapiassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncdomainnameapiassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association}.
 type AppsyncDomainNameApiAssociation interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AppsyncDomainNameApiAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association} Resource.
 func NewAppsyncDomainNameApiAssociation(scope constructs.Construct, id *string, config *AppsyncDomainNameApiAssociationConfig) AppsyncDomainNameApiAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewAppsyncDomainNameApiAssociation(scope constructs.Construct, id *string, 
 	j := jsiiProxy_AppsyncDomainNameApiAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewAppsyncDomainNameApiAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_domain_name_api_association aws_appsync_domain_name_api_association} Resource.
 func NewAppsyncDomainNameApiAssociation_Override(a AppsyncDomainNameApiAssociation, scope constructs.Construct, id *string, config *AppsyncDomainNameApiAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -531,7 +531,7 @@ func AppsyncDomainNameApiAssociation_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func AppsyncDomainNameApiAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func AppsyncDomainNameApiAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func AppsyncDomainNameApiAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func AppsyncDomainNameApiAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		"tfResourceType",
 		&returns,
 	)

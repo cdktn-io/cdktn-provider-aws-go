@@ -5,9 +5,9 @@ package amicopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amicopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amicopy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewAmiCopyEphemeralBlockDeviceOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_AmiCopyEphemeralBlockDeviceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amiCopy.AmiCopyEphemeralBlockDeviceOutputReference",
+		"@cdktn/provider-aws.amiCopy.AmiCopyEphemeralBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewAmiCopyEphemeralBlockDeviceOutputReference_Override(a AmiCopyEphemeralBl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amiCopy.AmiCopyEphemeralBlockDeviceOutputReference",
+		"@cdktn/provider-aws.amiCopy.AmiCopyEphemeralBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

@@ -5,9 +5,9 @@ package connectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewConnectInstanceTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_ConnectInstanceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectInstance.ConnectInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.connectInstance.ConnectInstanceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewConnectInstanceTimeoutsOutputReference_Override(c ConnectInstanceTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectInstance.ConnectInstanceTimeoutsOutputReference",
+		"@cdktn/provider-aws.connectInstance.ConnectInstanceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

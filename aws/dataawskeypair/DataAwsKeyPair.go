@@ -5,14 +5,14 @@ package dataawskeypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawskeypair/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskeypair/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/key_pair aws_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/key_pair aws_key_pair}.
 type DataAwsKeyPair interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_DataAwsKeyPair) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/key_pair aws_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/key_pair aws_key_pair} Data Source.
 func NewDataAwsKeyPair(scope constructs.Construct, id *string, config *DataAwsKeyPairConfig) DataAwsKeyPair {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewDataAwsKeyPair(scope constructs.Construct, id *string, config *DataAwsKe
 	j := jsiiProxy_DataAwsKeyPair{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewDataAwsKeyPair(scope constructs.Construct, id *string, config *DataAwsKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/key_pair aws_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/key_pair aws_key_pair} Data Source.
 func NewDataAwsKeyPair_Override(d DataAwsKeyPair, scope constructs.Construct, id *string, config *DataAwsKeyPairConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -639,7 +639,7 @@ func DataAwsKeyPair_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -674,7 +674,7 @@ func DataAwsKeyPair_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAwsKeyPair_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DataAwsKeyPair_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func DataAwsKeyPair_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
+		"@cdktn/provider-aws.dataAwsKeyPair.DataAwsKeyPair",
 		"tfResourceType",
 		&returns,
 	)

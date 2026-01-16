@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroup",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroup",
 		reflect.TypeOf((*IdentitystoreGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupConfig",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupConfig",
 		reflect.TypeOf((*IdentitystoreGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIds",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIds",
 		reflect.TypeOf((*IdentitystoreGroupExternalIds)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsList",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsList",
 		reflect.TypeOf((*IdentitystoreGroupExternalIdsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
+		"@cdktn/provider-aws.identitystoreGroup.IdentitystoreGroupExternalIdsOutputReference",
 		reflect.TypeOf((*IdentitystoreGroupExternalIdsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

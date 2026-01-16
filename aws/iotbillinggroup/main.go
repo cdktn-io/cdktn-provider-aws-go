@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroup",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroup",
 		reflect.TypeOf((*IotBillingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupConfig",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupConfig",
 		reflect.TypeOf((*IotBillingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupMetadata",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupMetadata",
 		reflect.TypeOf((*IotBillingGroupMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupMetadataList",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupMetadataList",
 		reflect.TypeOf((*IotBillingGroupMetadataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupMetadataOutputReference",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupMetadataOutputReference",
 		reflect.TypeOf((*IotBillingGroupMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupProperties",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupProperties",
 		reflect.TypeOf((*IotBillingGroupProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupPropertiesList",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupPropertiesList",
 		reflect.TypeOf((*IotBillingGroupPropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
+		"@cdktn/provider-aws.iotBillingGroup.IotBillingGroupPropertiesOutputReference",
 		reflect.TypeOf((*IotBillingGroupPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

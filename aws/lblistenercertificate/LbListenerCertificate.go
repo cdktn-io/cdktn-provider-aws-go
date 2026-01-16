@@ -5,14 +5,14 @@ package lblistenercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lblistenercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lblistenercertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate}.
 type LbListenerCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_LbListenerCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
 func NewLbListenerCertificate(scope constructs.Construct, id *string, config *LbListenerCertificateConfig) LbListenerCertificate {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewLbListenerCertificate(scope constructs.Construct, id *string, config *Lb
 	j := jsiiProxy_LbListenerCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewLbListenerCertificate(scope constructs.Construct, id *string, config *Lb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_listener_certificate aws_lb_listener_certificate} Resource.
 func NewLbListenerCertificate_Override(l LbListenerCertificate, scope constructs.Construct, id *string, config *LbListenerCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -531,7 +531,7 @@ func LbListenerCertificate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func LbListenerCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func LbListenerCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func LbListenerCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func LbListenerCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbListenerCertificate.LbListenerCertificate",
+		"@cdktn/provider-aws.lbListenerCertificate.LbListenerCertificate",
 		"tfResourceType",
 		&returns,
 	)

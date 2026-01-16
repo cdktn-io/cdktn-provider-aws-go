@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModel",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModel",
 		reflect.TypeOf((*BedrockCustomModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -112,15 +112,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelConfig",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelConfig",
 		reflect.TypeOf((*BedrockCustomModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfig",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfig",
 		reflect.TypeOf((*BedrockCustomModelOutputDataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfigList",
 		reflect.TypeOf((*BedrockCustomModelOutputDataConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -142,7 +142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfigOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelOutputDataConfigOutputReference",
 		reflect.TypeOf((*BedrockCustomModelOutputDataConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,11 +176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTimeouts",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTimeouts",
 		reflect.TypeOf((*BedrockCustomModelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTimeoutsOutputReference",
 		reflect.TypeOf((*BedrockCustomModelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfig",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfig",
 		reflect.TypeOf((*BedrockCustomModelTrainingDataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigList",
 		reflect.TypeOf((*BedrockCustomModelTrainingDataConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -244,7 +244,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingDataConfigOutputReference",
 		reflect.TypeOf((*BedrockCustomModelTrainingDataConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetrics",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetrics",
 		reflect.TypeOf((*BedrockCustomModelTrainingMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetricsList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetricsList",
 		reflect.TypeOf((*BedrockCustomModelTrainingMetricsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -303,7 +303,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetricsOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelTrainingMetricsOutputReference",
 		reflect.TypeOf((*BedrockCustomModelTrainingMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -336,11 +336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfig",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfig",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigList",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -362,7 +362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigOutputReference",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -398,11 +398,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidator",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfigValidator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidatorList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidatorList",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfigValidatorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -424,7 +424,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidatorOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationDataConfigValidatorOutputReference",
 		reflect.TypeOf((*BedrockCustomModelValidationDataConfigValidatorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,11 +458,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetrics",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetrics",
 		reflect.TypeOf((*BedrockCustomModelValidationMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetricsList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetricsList",
 		reflect.TypeOf((*BedrockCustomModelValidationMetricsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -483,7 +483,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetricsOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelValidationMetricsOutputReference",
 		reflect.TypeOf((*BedrockCustomModelValidationMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -516,11 +516,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfig",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfig",
 		reflect.TypeOf((*BedrockCustomModelVpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfigList",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfigList",
 		reflect.TypeOf((*BedrockCustomModelVpcConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -542,7 +542,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfigOutputReference",
+		"@cdktn/provider-aws.bedrockCustomModel.BedrockCustomModelVpcConfigOutputReference",
 		reflect.TypeOf((*BedrockCustomModelVpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

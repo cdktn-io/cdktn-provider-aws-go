@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.configRetentionConfiguration.ConfigRetentionConfiguration",
+		"@cdktn/provider-aws.configRetentionConfiguration.ConfigRetentionConfiguration",
 		reflect.TypeOf((*ConfigRetentionConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.configRetentionConfiguration.ConfigRetentionConfigurationConfig",
+		"@cdktn/provider-aws.configRetentionConfiguration.ConfigRetentionConfigurationConfig",
 		reflect.TypeOf((*ConfigRetentionConfigurationConfig)(nil)).Elem(),
 	)
 }

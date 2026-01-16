@@ -5,14 +5,14 @@ package dataawsnetworkacls
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsnetworkacls/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkacls/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_acls aws_network_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_acls aws_network_acls}.
 type DataAwsNetworkAcls interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsNetworkAcls) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) DataAwsNetworkAcls {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAwsNetworkAcls{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,12 +414,12 @@ func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls_Override(d DataAwsNetworkAcls, scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -525,7 +525,7 @@ func DataAwsNetworkAcls_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -560,7 +560,7 @@ func DataAwsNetworkAcls_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -579,7 +579,7 @@ func DataAwsNetworkAcls_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func DataAwsNetworkAcls_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -611,7 +611,7 @@ func DataAwsNetworkAcls_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
+		"@cdktn/provider-aws.dataAwsNetworkAcls.DataAwsNetworkAcls",
 		"tfResourceType",
 		&returns,
 	)

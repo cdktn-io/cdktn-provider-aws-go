@@ -5,9 +5,9 @@ package ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2fleet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewEc2FleetLaunchTemplateConfigOverrideOutputReference(terraformResource cd
 	j := jsiiProxy_Ec2FleetLaunchTemplateConfigOverrideOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewEc2FleetLaunchTemplateConfigOverrideOutputReference_Override(e Ec2FleetL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
+		"@cdktn/provider-aws.ec2Fleet.Ec2FleetLaunchTemplateConfigOverrideOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

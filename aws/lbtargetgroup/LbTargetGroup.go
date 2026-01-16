@@ -5,14 +5,14 @@ package lbtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lbtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group aws_lb_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group aws_lb_target_group}.
 type LbTargetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -967,7 +967,7 @@ func (j *jsiiProxy_LbTargetGroup) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group aws_lb_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group aws_lb_target_group} Resource.
 func NewLbTargetGroup(scope constructs.Construct, id *string, config *LbTargetGroupConfig) LbTargetGroup {
 	_init_.Initialize()
 
@@ -977,7 +977,7 @@ func NewLbTargetGroup(scope constructs.Construct, id *string, config *LbTargetGr
 	j := jsiiProxy_LbTargetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -985,12 +985,12 @@ func NewLbTargetGroup(scope constructs.Construct, id *string, config *LbTargetGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lb_target_group aws_lb_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group aws_lb_target_group} Resource.
 func NewLbTargetGroup_Override(l LbTargetGroup, scope constructs.Construct, id *string, config *LbTargetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1316,7 +1316,7 @@ func LbTargetGroup_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1351,7 +1351,7 @@ func LbTargetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1370,7 +1370,7 @@ func LbTargetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1389,7 +1389,7 @@ func LbTargetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1402,7 +1402,7 @@ func LbTargetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lbTargetGroup.LbTargetGroup",
+		"@cdktn/provider-aws.lbTargetGroup.LbTargetGroup",
 		"tfResourceType",
 		&returns,
 	)

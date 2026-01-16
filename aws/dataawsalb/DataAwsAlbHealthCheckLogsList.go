@@ -5,9 +5,9 @@ package dataawsalb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsalb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsalb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsAlbHealthCheckLogsList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DataAwsAlbHealthCheckLogsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbHealthCheckLogsList",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbHealthCheckLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsAlbHealthCheckLogsList_Override(d DataAwsAlbHealthCheckLogsList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAlb.DataAwsAlbHealthCheckLogsList",
+		"@cdktn/provider-aws.dataAwsAlb.DataAwsAlbHealthCheckLogsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

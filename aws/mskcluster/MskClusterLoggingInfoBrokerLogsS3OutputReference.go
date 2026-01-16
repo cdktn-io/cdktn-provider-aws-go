@@ -5,9 +5,9 @@ package mskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/mskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewMskClusterLoggingInfoBrokerLogsS3OutputReference(terraformResource cdktf
 	j := jsiiProxy_MskClusterLoggingInfoBrokerLogsS3OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3OutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewMskClusterLoggingInfoBrokerLogsS3OutputReference_Override(m MskClusterLo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3OutputReference",
+		"@cdktn/provider-aws.mskCluster.MskClusterLoggingInfoBrokerLogsS3OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

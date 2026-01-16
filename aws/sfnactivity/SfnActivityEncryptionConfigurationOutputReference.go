@@ -5,9 +5,9 @@ package sfnactivity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sfnactivity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sfnactivity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSfnActivityEncryptionConfigurationOutputReference(terraformResource cdkt
 	j := jsiiProxy_SfnActivityEncryptionConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSfnActivityEncryptionConfigurationOutputReference_Override(s SfnActivity
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
+		"@cdktn/provider-aws.sfnActivity.SfnActivityEncryptionConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

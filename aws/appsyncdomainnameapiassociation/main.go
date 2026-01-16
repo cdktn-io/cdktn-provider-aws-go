@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation",
 		reflect.TypeOf((*AppsyncDomainNameApiAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig",
+		"@cdktn/provider-aws.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig",
 		reflect.TypeOf((*AppsyncDomainNameApiAssociationConfig)(nil)).Elem(),
 	)
 }

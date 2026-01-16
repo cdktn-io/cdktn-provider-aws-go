@@ -5,14 +5,14 @@ package lakeformationdatacellsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lakeformationdatacellsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationdatacellsfilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter}.
 type LakeformationDataCellsFilter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_LakeformationDataCellsFilter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
 func NewLakeformationDataCellsFilter(scope constructs.Construct, id *string, config *LakeformationDataCellsFilterConfig) LakeformationDataCellsFilter {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewLakeformationDataCellsFilter(scope constructs.Construct, id *string, con
 	j := jsiiProxy_LakeformationDataCellsFilter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewLakeformationDataCellsFilter(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
 func NewLakeformationDataCellsFilter_Override(l LakeformationDataCellsFilter, scope constructs.Construct, id *string, config *LakeformationDataCellsFilterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -487,7 +487,7 @@ func LakeformationDataCellsFilter_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func LakeformationDataCellsFilter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func LakeformationDataCellsFilter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func LakeformationDataCellsFilter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func LakeformationDataCellsFilter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
+		"@cdktn/provider-aws.lakeformationDataCellsFilter.LakeformationDataCellsFilter",
 		"tfResourceType",
 		&returns,
 	)

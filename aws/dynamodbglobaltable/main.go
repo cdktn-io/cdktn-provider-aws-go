@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTable",
 		reflect.TypeOf((*DynamodbGlobalTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableConfig",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableConfig",
 		reflect.TypeOf((*DynamodbGlobalTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplica",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplica",
 		reflect.TypeOf((*DynamodbGlobalTableReplica)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaList",
 		reflect.TypeOf((*DynamodbGlobalTableReplicaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaOutputReference",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableReplicaOutputReference",
 		reflect.TypeOf((*DynamodbGlobalTableReplicaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableTimeouts",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableTimeouts",
 		reflect.TypeOf((*DynamodbGlobalTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableTimeoutsOutputReference",
+		"@cdktn/provider-aws.dynamodbGlobalTable.DynamodbGlobalTableTimeoutsOutputReference",
 		reflect.TypeOf((*DynamodbGlobalTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

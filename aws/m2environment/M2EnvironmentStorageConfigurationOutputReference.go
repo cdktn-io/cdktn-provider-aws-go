@@ -5,9 +5,9 @@ package m2environment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2environment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2environment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewM2EnvironmentStorageConfigurationOutputReference(terraformResource cdktf
 	j := jsiiProxy_M2EnvironmentStorageConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewM2EnvironmentStorageConfigurationOutputReference_Override(m M2Environmen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
+		"@cdktn/provider-aws.m2Environment.M2EnvironmentStorageConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

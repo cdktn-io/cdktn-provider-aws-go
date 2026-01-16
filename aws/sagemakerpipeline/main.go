@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipeline",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipeline",
 		reflect.TypeOf((*SagemakerPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipelineConfig",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipelineConfig",
 		reflect.TypeOf((*SagemakerPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipelineParallelismConfiguration",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipelineParallelismConfiguration",
 		reflect.TypeOf((*SagemakerPipelineParallelismConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipelineParallelismConfigurationOutputReference",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipelineParallelismConfigurationOutputReference",
 		reflect.TypeOf((*SagemakerPipelineParallelismConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipelinePipelineDefinitionS3Location",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipelinePipelineDefinitionS3Location",
 		reflect.TypeOf((*SagemakerPipelinePipelineDefinitionS3Location)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.sagemakerPipeline.SagemakerPipelinePipelineDefinitionS3LocationOutputReference",
+		"@cdktn/provider-aws.sagemakerPipeline.SagemakerPipelinePipelineDefinitionS3LocationOutputReference",
 		reflect.TypeOf((*SagemakerPipelinePipelineDefinitionS3LocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},

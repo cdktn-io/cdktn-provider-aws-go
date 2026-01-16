@@ -5,14 +5,14 @@ package sagemakerhumantaskui
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakerhumantaskui/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerhumantaskui/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui}.
 type SagemakerHumanTaskUi interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_SagemakerHumanTaskUi) UiTemplateInput() *SagemakerHumanTaskUi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
 func NewSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *SagemakerHumanTaskUiConfig) SagemakerHumanTaskUi {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *Sag
 	j := jsiiProxy_SagemakerHumanTaskUi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
 func NewSagemakerHumanTaskUi_Override(s SagemakerHumanTaskUi, scope constructs.Construct, id *string, config *SagemakerHumanTaskUiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -601,7 +601,7 @@ func SagemakerHumanTaskUi_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func SagemakerHumanTaskUi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func SagemakerHumanTaskUi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func SagemakerHumanTaskUi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func SagemakerHumanTaskUi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
+		"@cdktn/provider-aws.sagemakerHumanTaskUi.SagemakerHumanTaskUi",
 		"tfResourceType",
 		&returns,
 	)

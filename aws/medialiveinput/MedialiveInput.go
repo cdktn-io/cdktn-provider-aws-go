@@ -5,14 +5,14 @@ package medialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/medialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/medialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input aws_medialive_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input aws_medialive_input}.
 type MedialiveInput interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_MedialiveInput) VpcInput() *MedialiveInputVpc {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input aws_medialive_input} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input aws_medialive_input} Resource.
 func NewMedialiveInput(scope constructs.Construct, id *string, config *MedialiveInputConfig) MedialiveInput {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewMedialiveInput(scope constructs.Construct, id *string, config *Medialive
 	j := jsiiProxy_MedialiveInput{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -693,12 +693,12 @@ func NewMedialiveInput(scope constructs.Construct, id *string, config *Medialive
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/medialive_input aws_medialive_input} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_input aws_medialive_input} Resource.
 func NewMedialiveInput_Override(m MedialiveInput, scope constructs.Construct, id *string, config *MedialiveInputConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -870,7 +870,7 @@ func MedialiveInput_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -905,7 +905,7 @@ func MedialiveInput_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -924,7 +924,7 @@ func MedialiveInput_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func MedialiveInput_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +956,7 @@ func MedialiveInput_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.medialiveInput.MedialiveInput",
+		"@cdktn/provider-aws.medialiveInput.MedialiveInput",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package redshiftresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/redshiftresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftresourcepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy}.
 type RedshiftResourcePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_RedshiftResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
 func NewRedshiftResourcePolicy(scope constructs.Construct, id *string, config *RedshiftResourcePolicyConfig) RedshiftResourcePolicy {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewRedshiftResourcePolicy(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RedshiftResourcePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewRedshiftResourcePolicy(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_resource_policy aws_redshift_resource_policy} Resource.
 func NewRedshiftResourcePolicy_Override(r RedshiftResourcePolicy, scope constructs.Construct, id *string, config *RedshiftResourcePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -531,7 +531,7 @@ func RedshiftResourcePolicy_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func RedshiftResourcePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func RedshiftResourcePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func RedshiftResourcePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func RedshiftResourcePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
+		"@cdktn/provider-aws.redshiftResourcePolicy.RedshiftResourcePolicy",
 		"tfResourceType",
 		&returns,
 	)

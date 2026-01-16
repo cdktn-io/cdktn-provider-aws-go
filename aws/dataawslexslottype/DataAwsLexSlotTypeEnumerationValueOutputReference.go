@@ -5,9 +5,9 @@ package dataawslexslottype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawslexslottype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslexslottype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataAwsLexSlotTypeEnumerationValueOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataAwsLexSlotTypeEnumerationValueOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexSlotType.DataAwsLexSlotTypeEnumerationValueOutputReference",
+		"@cdktn/provider-aws.dataAwsLexSlotType.DataAwsLexSlotTypeEnumerationValueOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataAwsLexSlotTypeEnumerationValueOutputReference_Override(d DataAwsLexS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsLexSlotType.DataAwsLexSlotTypeEnumerationValueOutputReference",
+		"@cdktn/provider-aws.dataAwsLexSlotType.DataAwsLexSlotTypeEnumerationValueOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

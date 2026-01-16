@@ -5,14 +5,14 @@ package ec2clientvpnnetworkassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ec2clientvpnnetworkassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2clientvpnnetworkassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association}.
 type Ec2ClientVpnNetworkAssociation interface {
 	cdktf.TerraformResource
 	AssociationId() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_Ec2ClientVpnNetworkAssociation) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association} Resource.
 func NewEc2ClientVpnNetworkAssociation(scope constructs.Construct, id *string, config *Ec2ClientVpnNetworkAssociationConfig) Ec2ClientVpnNetworkAssociation {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewEc2ClientVpnNetworkAssociation(scope constructs.Construct, id *string, c
 	j := jsiiProxy_Ec2ClientVpnNetworkAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewEc2ClientVpnNetworkAssociation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_client_vpn_network_association aws_ec2_client_vpn_network_association} Resource.
 func NewEc2ClientVpnNetworkAssociation_Override(e Ec2ClientVpnNetworkAssociation, scope constructs.Construct, id *string, config *Ec2ClientVpnNetworkAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -577,7 +577,7 @@ func Ec2ClientVpnNetworkAssociation_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func Ec2ClientVpnNetworkAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func Ec2ClientVpnNetworkAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func Ec2ClientVpnNetworkAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func Ec2ClientVpnNetworkAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
+		"@cdktn/provider-aws.ec2ClientVpnNetworkAssociation.Ec2ClientVpnNetworkAssociation",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/provider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs aws}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs aws}.
 type AwsProvider interface {
 	cdktf.TerraformProvider
 	AccessKey() *string
@@ -140,6 +140,9 @@ type AwsProvider interface {
 	UseFipsEndpoint() interface{}
 	SetUseFipsEndpoint(val interface{})
 	UseFipsEndpointInput() interface{}
+	UserAgent() *[]*string
+	SetUserAgent(val *[]*string)
+	UserAgentInput() *[]*string
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Overrides the auto-generated logical ID with a specific ID.
@@ -183,6 +186,7 @@ type AwsProvider interface {
 	ResetTokenBucketRateLimiterCapacity()
 	ResetUseDualstackEndpoint()
 	ResetUseFipsEndpoint()
+	ResetUserAgent()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1001,8 +1005,28 @@ func (j *jsiiProxy_AwsProvider) UseFipsEndpointInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_AwsProvider) UserAgent() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"userAgent",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs aws} Resource.
+func (j *jsiiProxy_AwsProvider) UserAgentInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"userAgentInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs aws} Resource.
 func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderConfig) AwsProvider {
 	_init_.Initialize()
 
@@ -1012,7 +1036,7 @@ func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderC
 	j := jsiiProxy_AwsProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1020,12 +1044,12 @@ func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs aws} Resource.
 func NewAwsProvider_Override(a AwsProvider, scope constructs.Construct, id *string, config *AwsProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1347,6 +1371,14 @@ func (j *jsiiProxy_AwsProvider)SetUseFipsEndpoint(val interface{}) {
 	)
 }
 
+func (j *jsiiProxy_AwsProvider)SetUserAgent(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"userAgent",
+		val,
+	)
+}
+
 // Generates CDKTF code for importing a AwsProvider resource upon running "cdktf plan <stack-name>".
 func AwsProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
 	_init_.Initialize()
@@ -1357,7 +1389,7 @@ func AwsProvider_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1392,7 +1424,7 @@ func AwsProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1411,7 +1443,7 @@ func AwsProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1430,7 +1462,7 @@ func AwsProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -1443,7 +1475,7 @@ func AwsProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.provider.AwsProvider",
+		"@cdktn/provider-aws.provider.AwsProvider",
 		"tfResourceType",
 		&returns,
 	)
@@ -1756,6 +1788,14 @@ func (a *jsiiProxy_AwsProvider) ResetUseFipsEndpoint() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetUseFipsEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsProvider) ResetUserAgent() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetUserAgent",
 		nil, // no parameters
 	)
 }

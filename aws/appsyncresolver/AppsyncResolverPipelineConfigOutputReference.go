@@ -5,9 +5,9 @@ package appsyncresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/appsyncresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appsyncresolver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewAppsyncResolverPipelineConfigOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_AppsyncResolverPipelineConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverPipelineConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverPipelineConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewAppsyncResolverPipelineConfigOutputReference_Override(a AppsyncResolverP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.appsyncResolver.AppsyncResolverPipelineConfigOutputReference",
+		"@cdktn/provider-aws.appsyncResolver.AppsyncResolverPipelineConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

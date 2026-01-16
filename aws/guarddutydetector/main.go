@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetector",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetector",
 		reflect.TypeOf((*GuarddutyDetector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -87,23 +87,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorConfig",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorConfig",
 		reflect.TypeOf((*GuarddutyDetectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasources",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasources",
 		reflect.TypeOf((*GuarddutyDetectorDatasources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetes",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetes",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesKubernetes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogs",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogs",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesKubernetesAuditLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogsOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogsOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesKubernetesAuditLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesKubernetesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLogs", GoGetter: "AuditLogs"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtection",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtection",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,15 +211,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindings",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindings",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumes",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumes",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumesOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumesOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsEbsVolumesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFindingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,7 +288,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -332,11 +332,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3Logs",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3Logs",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesS3Logs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3LogsOutputReference",
+		"@cdktn/provider-aws.guarddutyDetector.GuarddutyDetectorDatasourcesS3LogsOutputReference",
 		reflect.TypeOf((*GuarddutyDetectorDatasourcesS3LogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

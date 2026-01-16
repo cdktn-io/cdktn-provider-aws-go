@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroup",
+		"@cdktn/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroup",
 		reflect.TypeOf((*SchedulerScheduleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupConfig",
+		"@cdktn/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupConfig",
 		reflect.TypeOf((*SchedulerScheduleGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupTimeouts",
+		"@cdktn/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupTimeouts",
 		reflect.TypeOf((*SchedulerScheduleGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupTimeoutsOutputReference",
+		"@cdktn/provider-aws.schedulerScheduleGroup.SchedulerScheduleGroupTimeoutsOutputReference",
 		reflect.TypeOf((*SchedulerScheduleGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

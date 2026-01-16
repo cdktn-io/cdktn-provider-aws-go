@@ -5,9 +5,9 @@ package eksidentityproviderconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/eksidentityproviderconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/eksidentityproviderconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -348,7 +348,7 @@ func NewEksIdentityProviderConfigOidcOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_EksIdentityProviderConfigOidcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -360,7 +360,7 @@ func NewEksIdentityProviderConfigOidcOutputReference_Override(e EksIdentityProvi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
+		"@cdktn/provider-aws.eksIdentityProviderConfig.EksIdentityProviderConfigOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

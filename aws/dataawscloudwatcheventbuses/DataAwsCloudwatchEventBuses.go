@@ -5,14 +5,14 @@ package dataawscloudwatcheventbuses
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscloudwatcheventbuses/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudwatcheventbuses/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses}.
 type DataAwsCloudwatchEventBuses interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsCloudwatchEventBuses) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses} Data Source.
 func NewDataAwsCloudwatchEventBuses(scope constructs.Construct, id *string, config *DataAwsCloudwatchEventBusesConfig) DataAwsCloudwatchEventBuses {
 	_init_.Initialize()
 
@@ -310,7 +310,7 @@ func NewDataAwsCloudwatchEventBuses(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAwsCloudwatchEventBuses{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -318,12 +318,12 @@ func NewDataAwsCloudwatchEventBuses(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudwatch_event_buses aws_cloudwatch_event_buses} Data Source.
 func NewDataAwsCloudwatchEventBuses_Override(d DataAwsCloudwatchEventBuses, scope constructs.Construct, id *string, config *DataAwsCloudwatchEventBusesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataAwsCloudwatchEventBuses_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataAwsCloudwatchEventBuses_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataAwsCloudwatchEventBuses_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataAwsCloudwatchEventBuses_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataAwsCloudwatchEventBuses_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBuses.DataAwsCloudwatchEventBuses",
 		"tfResourceType",
 		&returns,
 	)

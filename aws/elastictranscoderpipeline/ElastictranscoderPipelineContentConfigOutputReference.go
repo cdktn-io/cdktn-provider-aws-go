@@ -5,9 +5,9 @@ package elastictranscoderpipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/elastictranscoderpipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elastictranscoderpipeline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewElastictranscoderPipelineContentConfigOutputReference(terraformResource 
 	j := jsiiProxy_ElastictranscoderPipelineContentConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewElastictranscoderPipelineContentConfigOutputReference_Override(e Elastic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigOutputReference",
+		"@cdktn/provider-aws.elastictranscoderPipeline.ElastictranscoderPipelineContentConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

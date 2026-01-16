@@ -5,14 +5,14 @@ package vpcipv6cidrblockassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/vpcipv6cidrblockassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipv6cidrblockassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association}.
 type VpcIpv6CidrBlockAssociation interface {
 	cdktf.TerraformResource
 	AssignGeneratedIpv6CidrBlock() interface{}
@@ -523,7 +523,7 @@ func (j *jsiiProxy_VpcIpv6CidrBlockAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association} Resource.
 func NewVpcIpv6CidrBlockAssociation(scope constructs.Construct, id *string, config *VpcIpv6CidrBlockAssociationConfig) VpcIpv6CidrBlockAssociation {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewVpcIpv6CidrBlockAssociation(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_VpcIpv6CidrBlockAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewVpcIpv6CidrBlockAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipv6_cidr_block_association aws_vpc_ipv6_cidr_block_association} Resource.
 func NewVpcIpv6CidrBlockAssociation_Override(v VpcIpv6CidrBlockAssociation, scope constructs.Construct, id *string, config *VpcIpv6CidrBlockAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -718,7 +718,7 @@ func VpcIpv6CidrBlockAssociation_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -753,7 +753,7 @@ func VpcIpv6CidrBlockAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +772,7 @@ func VpcIpv6CidrBlockAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func VpcIpv6CidrBlockAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func VpcIpv6CidrBlockAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
+		"@cdktn/provider-aws.vpcIpv6CidrBlockAssociation.VpcIpv6CidrBlockAssociation",
 		"tfResourceType",
 		&returns,
 	)

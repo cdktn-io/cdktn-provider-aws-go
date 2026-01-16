@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.snsSmsPreferences.SnsSmsPreferences",
+		"@cdktn/provider-aws.snsSmsPreferences.SnsSmsPreferences",
 		reflect.TypeOf((*SnsSmsPreferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.snsSmsPreferences.SnsSmsPreferencesConfig",
+		"@cdktn/provider-aws.snsSmsPreferences.SnsSmsPreferencesConfig",
 		reflect.TypeOf((*SnsSmsPreferencesConfig)(nil)).Elem(),
 	)
 }

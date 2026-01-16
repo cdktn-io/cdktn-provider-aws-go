@@ -5,9 +5,9 @@ package backupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewBackupPlanRuleCopyActionLifecycleOutputReference(terraformResource cdktf
 	j := jsiiProxy_BackupPlanRuleCopyActionLifecycleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleCopyActionLifecycleOutputReference",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleCopyActionLifecycleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewBackupPlanRuleCopyActionLifecycleOutputReference_Override(b BackupPlanRu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlanRuleCopyActionLifecycleOutputReference",
+		"@cdktn/provider-aws.backupPlan.BackupPlanRuleCopyActionLifecycleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

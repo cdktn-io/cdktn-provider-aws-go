@@ -5,14 +5,14 @@ package inspector2memberassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/inspector2memberassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspector2memberassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_member_association aws_inspector2_member_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_member_association aws_inspector2_member_association}.
 type Inspector2MemberAssociation interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Inspector2MemberAssociation) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_member_association aws_inspector2_member_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_member_association aws_inspector2_member_association} Resource.
 func NewInspector2MemberAssociation(scope constructs.Construct, id *string, config *Inspector2MemberAssociationConfig) Inspector2MemberAssociation {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewInspector2MemberAssociation(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_Inspector2MemberAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewInspector2MemberAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/inspector2_member_association aws_inspector2_member_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_member_association aws_inspector2_member_association} Resource.
 func NewInspector2MemberAssociation_Override(i Inspector2MemberAssociation, scope constructs.Construct, id *string, config *Inspector2MemberAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -554,7 +554,7 @@ func Inspector2MemberAssociation_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func Inspector2MemberAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func Inspector2MemberAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func Inspector2MemberAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func Inspector2MemberAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
+		"@cdktn/provider-aws.inspector2MemberAssociation.Inspector2MemberAssociation",
 		"tfResourceType",
 		&returns,
 	)

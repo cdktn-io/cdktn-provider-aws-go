@@ -5,9 +5,9 @@ package amifrominstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/amifrominstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/amifrominstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -258,7 +258,7 @@ func NewAmiFromInstanceEbsBlockDeviceOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_AmiFromInstanceEbsBlockDeviceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amiFromInstance.AmiFromInstanceEbsBlockDeviceOutputReference",
+		"@cdktn/provider-aws.amiFromInstance.AmiFromInstanceEbsBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -270,7 +270,7 @@ func NewAmiFromInstanceEbsBlockDeviceOutputReference_Override(a AmiFromInstanceE
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.amiFromInstance.AmiFromInstanceEbsBlockDeviceOutputReference",
+		"@cdktn/provider-aws.amiFromInstance.AmiFromInstanceEbsBlockDeviceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

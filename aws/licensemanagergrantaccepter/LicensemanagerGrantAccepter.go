@@ -5,14 +5,14 @@ package licensemanagergrantaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/licensemanagergrantaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/licensemanagergrantaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
 type LicensemanagerGrantAccepter interface {
 	cdktf.TerraformResource
 	AllowedOperations() *[]*string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_LicensemanagerGrantAccepter) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) LicensemanagerGrantAccepter {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_LicensemanagerGrantAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -463,12 +463,12 @@ func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter_Override(l LicensemanagerGrantAccepter, scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -585,7 +585,7 @@ func LicensemanagerGrantAccepter_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -620,7 +620,7 @@ func LicensemanagerGrantAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func LicensemanagerGrantAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -658,7 +658,7 @@ func LicensemanagerGrantAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -671,7 +671,7 @@ func LicensemanagerGrantAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
+		"@cdktn/provider-aws.licensemanagerGrantAccepter.LicensemanagerGrantAccepter",
 		"tfResourceType",
 		&returns,
 	)

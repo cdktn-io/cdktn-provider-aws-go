@@ -5,14 +5,14 @@ package gluesecurityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluesecurityconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluesecurityconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_security_configuration aws_glue_security_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_security_configuration aws_glue_security_configuration}.
 type GlueSecurityConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_GlueSecurityConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
 func NewGlueSecurityConfiguration(scope constructs.Construct, id *string, config *GlueSecurityConfigurationConfig) GlueSecurityConfiguration {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewGlueSecurityConfiguration(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GlueSecurityConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewGlueSecurityConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
 func NewGlueSecurityConfiguration_Override(g GlueSecurityConfiguration, scope constructs.Construct, id *string, config *GlueSecurityConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -520,7 +520,7 @@ func GlueSecurityConfiguration_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func GlueSecurityConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func GlueSecurityConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func GlueSecurityConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func GlueSecurityConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
+		"@cdktn/provider-aws.glueSecurityConfiguration.GlueSecurityConfiguration",
 		"tfResourceType",
 		&returns,
 	)

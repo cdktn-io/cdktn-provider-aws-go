@@ -5,14 +5,14 @@ package dataawswafv2rulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawswafv2rulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafv2rulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group}.
 type DataAwsWafv2RuleGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsWafv2RuleGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group} Data Source.
 func NewDataAwsWafv2RuleGroup(scope constructs.Construct, id *string, config *DataAwsWafv2RuleGroupConfig) DataAwsWafv2RuleGroup {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAwsWafv2RuleGroup(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsWafv2RuleGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAwsWafv2RuleGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_rule_group aws_wafv2_rule_group} Data Source.
 func NewDataAwsWafv2RuleGroup_Override(d DataAwsWafv2RuleGroup, scope constructs.Construct, id *string, config *DataAwsWafv2RuleGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAwsWafv2RuleGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAwsWafv2RuleGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAwsWafv2RuleGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAwsWafv2RuleGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAwsWafv2RuleGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
+		"@cdktn/provider-aws.dataAwsWafv2RuleGroup.DataAwsWafv2RuleGroup",
 		"tfResourceType",
 		&returns,
 	)

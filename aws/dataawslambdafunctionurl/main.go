@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrl",
+		"@cdktn/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrl",
 		reflect.TypeOf((*DataAwsLambdaFunctionUrl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlConfig",
+		"@cdktn/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlConfig",
 		reflect.TypeOf((*DataAwsLambdaFunctionUrlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCors",
+		"@cdktn/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCors",
 		reflect.TypeOf((*DataAwsLambdaFunctionUrlCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCorsList",
+		"@cdktn/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCorsList",
 		reflect.TypeOf((*DataAwsLambdaFunctionUrlCorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCorsOutputReference",
+		"@cdktn/provider-aws.dataAwsLambdaFunctionUrl.DataAwsLambdaFunctionUrlCorsOutputReference",
 		reflect.TypeOf((*DataAwsLambdaFunctionUrlCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowCredentials", GoGetter: "AllowCredentials"},

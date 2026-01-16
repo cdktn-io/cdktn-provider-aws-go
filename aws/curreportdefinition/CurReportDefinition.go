@@ -5,14 +5,14 @@ package curreportdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/curreportdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/curreportdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cur_report_definition aws_cur_report_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cur_report_definition aws_cur_report_definition}.
 type CurReportDefinition interface {
 	cdktf.TerraformResource
 	AdditionalArtifacts() *[]*string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_CurReportDefinition) TimeUnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
 func NewCurReportDefinition(scope constructs.Construct, id *string, config *CurReportDefinitionConfig) CurReportDefinition {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewCurReportDefinition(scope constructs.Construct, id *string, config *CurR
 	j := jsiiProxy_CurReportDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -643,12 +643,12 @@ func NewCurReportDefinition(scope constructs.Construct, id *string, config *CurR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
 func NewCurReportDefinition_Override(c CurReportDefinition, scope constructs.Construct, id *string, config *CurReportDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -886,7 +886,7 @@ func CurReportDefinition_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -921,7 +921,7 @@ func CurReportDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -940,7 +940,7 @@ func CurReportDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -959,7 +959,7 @@ func CurReportDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -972,7 +972,7 @@ func CurReportDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.curReportDefinition.CurReportDefinition",
+		"@cdktn/provider-aws.curReportDefinition.CurReportDefinition",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBus",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBus",
 		reflect.TypeOf((*DataAwsCloudwatchEventBus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusConfig",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusConfig",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfig",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfig",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusDeadLetterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigList",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusDeadLetterConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusDeadLetterConfigOutputReference",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusDeadLetterConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfig",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfig",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigList",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigList",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusLogConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -155,7 +155,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
+		"@cdktn/provider-aws.dataAwsCloudwatchEventBus.DataAwsCloudwatchEventBusLogConfigOutputReference",
 		reflect.TypeOf((*DataAwsCloudwatchEventBusLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

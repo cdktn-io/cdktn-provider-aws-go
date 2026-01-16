@@ -5,9 +5,9 @@ package dataawsemrreleaselabels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsemrreleaselabels/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsemrreleaselabels/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewDataAwsEmrReleaseLabelsFiltersOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataAwsEmrReleaseLabelsFiltersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewDataAwsEmrReleaseLabelsFiltersOutputReference_Override(d DataAwsEmrRelea
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
+		"@cdktn/provider-aws.dataAwsEmrReleaseLabels.DataAwsEmrReleaseLabelsFiltersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

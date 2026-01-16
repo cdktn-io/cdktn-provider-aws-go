@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrants",
 		reflect.TypeOf((*DataAwsLicensemanagerGrants)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsConfig",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsConfig",
 		reflect.TypeOf((*DataAwsLicensemanagerGrantsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilter",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilter",
 		reflect.TypeOf((*DataAwsLicensemanagerGrantsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilterList",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilterList",
 		reflect.TypeOf((*DataAwsLicensemanagerGrantsFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsLicensemanagerGrants.DataAwsLicensemanagerGrantsFilterOutputReference",
 		reflect.TypeOf((*DataAwsLicensemanagerGrantsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

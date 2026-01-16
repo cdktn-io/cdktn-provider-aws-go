@@ -5,14 +5,14 @@ package controltowerbaseline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/controltowerbaseline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowerbaseline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_baseline aws_controltower_baseline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_baseline aws_controltower_baseline}.
 type ControltowerBaseline interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ControltowerBaseline) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource.
 func NewControltowerBaseline(scope constructs.Construct, id *string, config *ControltowerBaselineConfig) ControltowerBaseline {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewControltowerBaseline(scope constructs.Construct, id *string, config *Con
 	j := jsiiProxy_ControltowerBaseline{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewControltowerBaseline(scope constructs.Construct, id *string, config *Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_baseline aws_controltower_baseline} Resource.
 func NewControltowerBaseline_Override(c ControltowerBaseline, scope constructs.Construct, id *string, config *ControltowerBaselineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -646,7 +646,7 @@ func ControltowerBaseline_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func ControltowerBaseline_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func ControltowerBaseline_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func ControltowerBaseline_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func ControltowerBaseline_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.controltowerBaseline.ControltowerBaseline",
+		"@cdktn/provider-aws.controltowerBaseline.ControltowerBaseline",
 		"tfResourceType",
 		&returns,
 	)

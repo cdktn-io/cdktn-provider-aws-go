@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersions",
+		"@cdktn/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersions",
 		reflect.TypeOf((*DataAwsOdbGiVersions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsConfig",
+		"@cdktn/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsConfig",
 		reflect.TypeOf((*DataAwsOdbGiVersionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersions",
+		"@cdktn/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersions",
 		reflect.TypeOf((*DataAwsOdbGiVersionsGiVersions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersionsList",
+		"@cdktn/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersionsList",
 		reflect.TypeOf((*DataAwsOdbGiVersionsGiVersionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersionsOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbGiVersions.DataAwsOdbGiVersionsGiVersionsOutputReference",
 		reflect.TypeOf((*DataAwsOdbGiVersionsGiVersionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

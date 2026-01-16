@@ -5,14 +5,14 @@ package ecraccountsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ecraccountsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecraccountsetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_account_setting aws_ecr_account_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_account_setting aws_ecr_account_setting}.
 type EcrAccountSetting interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_EcrAccountSetting) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
 func NewEcrAccountSetting(scope constructs.Construct, id *string, config *EcrAccountSettingConfig) EcrAccountSetting {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewEcrAccountSetting(scope constructs.Construct, id *string, config *EcrAcc
 	j := jsiiProxy_EcrAccountSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewEcrAccountSetting(scope constructs.Construct, id *string, config *EcrAcc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_account_setting aws_ecr_account_setting} Resource.
 func NewEcrAccountSetting_Override(e EcrAccountSetting, scope constructs.Construct, id *string, config *EcrAccountSettingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -496,7 +496,7 @@ func EcrAccountSetting_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func EcrAccountSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func EcrAccountSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func EcrAccountSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func EcrAccountSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ecrAccountSetting.EcrAccountSetting",
+		"@cdktn/provider-aws.ecrAccountSetting.EcrAccountSetting",
 		"tfResourceType",
 		&returns,
 	)

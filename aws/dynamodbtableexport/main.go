@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExport",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExport",
 		reflect.TypeOf((*DynamodbTableExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExportConfig",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExportConfig",
 		reflect.TypeOf((*DynamodbTableExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExportIncrementalExportSpecification",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExportIncrementalExportSpecification",
 		reflect.TypeOf((*DynamodbTableExportIncrementalExportSpecification)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExportIncrementalExportSpecificationOutputReference",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExportIncrementalExportSpecificationOutputReference",
 		reflect.TypeOf((*DynamodbTableExportIncrementalExportSpecificationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExportTimeouts",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExportTimeouts",
 		reflect.TypeOf((*DynamodbTableExportTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dynamodbTableExport.DynamodbTableExportTimeoutsOutputReference",
+		"@cdktn/provider-aws.dynamodbTableExport.DynamodbTableExportTimeoutsOutputReference",
 		reflect.TypeOf((*DynamodbTableExportTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

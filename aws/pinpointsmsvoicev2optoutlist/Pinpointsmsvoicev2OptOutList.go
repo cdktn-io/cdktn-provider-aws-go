@@ -5,14 +5,14 @@ package pinpointsmsvoicev2optoutlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/pinpointsmsvoicev2optoutlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/pinpointsmsvoicev2optoutlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
 type Pinpointsmsvoicev2OptOutList interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) Pinpointsmsvoicev2OptOutList {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, con
 	j := jsiiProxy_Pinpointsmsvoicev2OptOutList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList_Override(p Pinpointsmsvoicev2OptOutList, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -530,7 +530,7 @@ func Pinpointsmsvoicev2OptOutList_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func Pinpointsmsvoicev2OptOutList_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func Pinpointsmsvoicev2OptOutList_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func Pinpointsmsvoicev2OptOutList_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func Pinpointsmsvoicev2OptOutList_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
+		"@cdktn/provider-aws.pinpointsmsvoicev2OptOutList.Pinpointsmsvoicev2OptOutList",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package apigatewayv2deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayv2deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment}.
 type Apigatewayv2Deployment interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_Apigatewayv2Deployment) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) Apigatewayv2Deployment {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *A
 	j := jsiiProxy_Apigatewayv2Deployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -434,12 +434,12 @@ func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_deployment aws_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment_Override(a Apigatewayv2Deployment, scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -578,7 +578,7 @@ func Apigatewayv2Deployment_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -613,7 +613,7 @@ func Apigatewayv2Deployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -632,7 +632,7 @@ func Apigatewayv2Deployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func Apigatewayv2Deployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func Apigatewayv2Deployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
+		"@cdktn/provider-aws.apigatewayv2Deployment.Apigatewayv2Deployment",
 		"tfResourceType",
 		&returns,
 	)

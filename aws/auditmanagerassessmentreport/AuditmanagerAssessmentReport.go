@@ -5,14 +5,14 @@ package auditmanagerassessmentreport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/auditmanagerassessmentreport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/auditmanagerassessmentreport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report}.
 type AuditmanagerAssessmentReport interface {
 	cdktf.TerraformResource
 	AssessmentId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_AuditmanagerAssessmentReport) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
 func NewAuditmanagerAssessmentReport(scope constructs.Construct, id *string, config *AuditmanagerAssessmentReportConfig) AuditmanagerAssessmentReport {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewAuditmanagerAssessmentReport(scope constructs.Construct, id *string, con
 	j := jsiiProxy_AuditmanagerAssessmentReport{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewAuditmanagerAssessmentReport(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
 func NewAuditmanagerAssessmentReport_Override(a AuditmanagerAssessmentReport, scope constructs.Construct, id *string, config *AuditmanagerAssessmentReportConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -564,7 +564,7 @@ func AuditmanagerAssessmentReport_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func AuditmanagerAssessmentReport_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func AuditmanagerAssessmentReport_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func AuditmanagerAssessmentReport_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func AuditmanagerAssessmentReport_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
+		"@cdktn/provider-aws.auditmanagerAssessmentReport.AuditmanagerAssessmentReport",
 		"tfResourceType",
 		&returns,
 	)

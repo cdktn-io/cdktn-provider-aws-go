@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestination",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestination",
 		reflect.TypeOf((*RumMetricsDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.rumMetricsDestination.RumMetricsDestinationConfig",
+		"@cdktn/provider-aws.rumMetricsDestination.RumMetricsDestinationConfig",
 		reflect.TypeOf((*RumMetricsDestinationConfig)(nil)).Elem(),
 	)
 }

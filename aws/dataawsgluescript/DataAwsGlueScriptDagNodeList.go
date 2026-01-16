@@ -5,9 +5,9 @@ package dataawsgluescript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsgluescript/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsgluescript/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDataAwsGlueScriptDagNodeList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_DataAwsGlueScriptDagNodeList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDataAwsGlueScriptDagNodeList_Override(d DataAwsGlueScriptDagNodeList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
+		"@cdktn/provider-aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

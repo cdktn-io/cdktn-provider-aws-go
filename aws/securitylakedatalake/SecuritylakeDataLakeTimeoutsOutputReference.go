@@ -5,9 +5,9 @@ package securitylakedatalake
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitylakedatalake/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitylakedatalake/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewSecuritylakeDataLakeTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_SecuritylakeDataLakeTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeDataLake.SecuritylakeDataLakeTimeoutsOutputReference",
+		"@cdktn/provider-aws.securitylakeDataLake.SecuritylakeDataLakeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewSecuritylakeDataLakeTimeoutsOutputReference_Override(s SecuritylakeDataL
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeDataLake.SecuritylakeDataLakeTimeoutsOutputReference",
+		"@cdktn/provider-aws.securitylakeDataLake.SecuritylakeDataLakeTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

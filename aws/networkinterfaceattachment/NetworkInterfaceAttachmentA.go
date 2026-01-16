@@ -5,14 +5,14 @@ package networkinterfaceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/networkinterfaceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkinterfaceattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
 type NetworkInterfaceAttachmentA interface {
 	cdktf.TerraformResource
 	AttachmentId() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentA) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) NetworkInterfaceAttachmentA {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_NetworkInterfaceAttachmentA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA_Override(n NetworkInterfaceAttachmentA, scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -622,7 +622,7 @@ func NetworkInterfaceAttachmentA_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func NetworkInterfaceAttachmentA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func NetworkInterfaceAttachmentA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func NetworkInterfaceAttachmentA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func NetworkInterfaceAttachmentA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
+		"@cdktn/provider-aws.networkInterfaceAttachment.NetworkInterfaceAttachmentA",
 		"tfResourceType",
 		&returns,
 	)

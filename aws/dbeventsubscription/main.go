@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscription",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscription",
 		reflect.TypeOf((*DbEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscriptionConfig",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscriptionConfig",
 		reflect.TypeOf((*DbEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscriptionTimeouts",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscriptionTimeouts",
 		reflect.TypeOf((*DbEventSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbEventSubscription.DbEventSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*DbEventSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package oamsinkpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/oamsinkpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/oamsinkpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewOamSinkPolicyTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_OamSinkPolicyTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewOamSinkPolicyTimeoutsOutputReference_Override(o OamSinkPolicyTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.oamSinkPolicy.OamSinkPolicyTimeoutsOutputReference",
+		"@cdktn/provider-aws.oamSinkPolicy.OamSinkPolicyTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

@@ -5,9 +5,9 @@ package bedrockguardrailversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockguardrailversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockguardrailversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewBedrockGuardrailVersionTimeoutsOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_BedrockGuardrailVersionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewBedrockGuardrailVersionTimeoutsOutputReference_Override(b BedrockGuardra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
+		"@cdktn/provider-aws.bedrockGuardrailVersion.BedrockGuardrailVersionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

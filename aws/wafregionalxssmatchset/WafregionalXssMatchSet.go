@@ -5,14 +5,14 @@ package wafregionalxssmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/wafregionalxssmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalxssmatchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set}.
 type WafregionalXssMatchSet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WafregionalXssMatchSet) XssMatchTupleInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
 func NewWafregionalXssMatchSet(scope constructs.Construct, id *string, config *WafregionalXssMatchSetConfig) WafregionalXssMatchSet {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewWafregionalXssMatchSet(scope constructs.Construct, id *string, config *W
 	j := jsiiProxy_WafregionalXssMatchSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewWafregionalXssMatchSet(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
 func NewWafregionalXssMatchSet_Override(w WafregionalXssMatchSet, scope constructs.Construct, id *string, config *WafregionalXssMatchSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -521,7 +521,7 @@ func WafregionalXssMatchSet_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -556,7 +556,7 @@ func WafregionalXssMatchSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -575,7 +575,7 @@ func WafregionalXssMatchSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func WafregionalXssMatchSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func WafregionalXssMatchSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
+		"@cdktn/provider-aws.wafregionalXssMatchSet.WafregionalXssMatchSet",
 		"tfResourceType",
 		&returns,
 	)

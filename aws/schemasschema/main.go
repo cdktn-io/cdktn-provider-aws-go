@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.schemasSchema.SchemasSchema",
+		"@cdktn/provider-aws.schemasSchema.SchemasSchema",
 		reflect.TypeOf((*SchemasSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.schemasSchema.SchemasSchemaConfig",
+		"@cdktn/provider-aws.schemasSchema.SchemasSchemaConfig",
 		reflect.TypeOf((*SchemasSchemaConfig)(nil)).Elem(),
 	)
 }

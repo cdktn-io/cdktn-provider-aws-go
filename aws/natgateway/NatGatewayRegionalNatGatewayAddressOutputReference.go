@@ -5,9 +5,9 @@ package natgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/natgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/natgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -236,7 +236,7 @@ func NewNatGatewayRegionalNatGatewayAddressOutputReference(terraformResource cdk
 	j := jsiiProxy_NatGatewayRegionalNatGatewayAddressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
+		"@cdktn/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,7 +248,7 @@ func NewNatGatewayRegionalNatGatewayAddressOutputReference_Override(n NatGateway
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
+		"@cdktn/provider-aws.natGateway.NatGatewayRegionalNatGatewayAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)

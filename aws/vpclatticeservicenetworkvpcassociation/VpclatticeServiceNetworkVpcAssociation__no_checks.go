@@ -75,6 +75,10 @@ func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validateOverrideLogic
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validatePutDnsOptionsParameters(value *VpclatticeServiceNetworkVpcAssociationDnsOptions) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validatePutTimeoutsParameters(value *VpclatticeServiceNetworkVpcAssociationTimeouts) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validateSetIdParamete
 }
 
 func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_VpclatticeServiceNetworkVpcAssociation) validateSetPrivateDnsEnabledParameters(val interface{}) error {
 	return nil
 }
 

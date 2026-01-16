@@ -5,9 +5,9 @@ package timestreaminfluxdbdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/timestreaminfluxdbdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreaminfluxdbdbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewTimestreaminfluxdbDbClusterTimeoutsOutputReference(terraformResource cdk
 	j := jsiiProxy_TimestreaminfluxdbDbClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewTimestreaminfluxdbDbClusterTimeoutsOutputReference_Override(t Timestream
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterTimeoutsOutputReference",
+		"@cdktn/provider-aws.timestreaminfluxdbDbCluster.TimestreaminfluxdbDbClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

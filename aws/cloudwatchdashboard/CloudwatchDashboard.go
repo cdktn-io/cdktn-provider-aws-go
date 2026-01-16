@@ -5,14 +5,14 @@ package cloudwatchdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/cloudwatchdashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchdashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard}.
 type CloudwatchDashboard interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_CloudwatchDashboard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) CloudwatchDashboard {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *Clou
 	j := jsiiProxy_CloudwatchDashboard{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard_Override(c CloudwatchDashboard, scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -542,7 +542,7 @@ func CloudwatchDashboard_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func CloudwatchDashboard_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func CloudwatchDashboard_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func CloudwatchDashboard_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func CloudwatchDashboard_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
+		"@cdktn/provider-aws.cloudwatchDashboard.CloudwatchDashboard",
 		"tfResourceType",
 		&returns,
 	)

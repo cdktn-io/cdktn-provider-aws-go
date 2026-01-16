@@ -5,14 +5,14 @@ package dataawsdbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsdbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdbinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_instance aws_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_instance aws_db_instance}.
 type DataAwsDbInstance interface {
 	cdktf.TerraformDataSource
 	Address() *string
@@ -105,6 +105,7 @@ type DataAwsDbInstance interface {
 	// Experimental.
 	TerraformResourceType() *string
 	Timezone() *string
+	UpgradeRolloutOrder() *string
 	VpcSecurityGroups() *[]*string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -777,6 +778,16 @@ func (j *jsiiProxy_DataAwsDbInstance) Timezone() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsDbInstance) UpgradeRolloutOrder() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"upgradeRolloutOrder",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsDbInstance) VpcSecurityGroups() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -788,7 +799,7 @@ func (j *jsiiProxy_DataAwsDbInstance) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_instance aws_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_instance aws_db_instance} Data Source.
 func NewDataAwsDbInstance(scope constructs.Construct, id *string, config *DataAwsDbInstanceConfig) DataAwsDbInstance {
 	_init_.Initialize()
 
@@ -798,7 +809,7 @@ func NewDataAwsDbInstance(scope constructs.Construct, id *string, config *DataAw
 	j := jsiiProxy_DataAwsDbInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -806,12 +817,12 @@ func NewDataAwsDbInstance(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/db_instance aws_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/db_instance aws_db_instance} Data Source.
 func NewDataAwsDbInstance_Override(d DataAwsDbInstance, scope constructs.Construct, id *string, config *DataAwsDbInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -917,7 +928,7 @@ func DataAwsDbInstance_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -952,7 +963,7 @@ func DataAwsDbInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -971,7 +982,7 @@ func DataAwsDbInstance_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -990,7 +1001,7 @@ func DataAwsDbInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1003,7 +1014,7 @@ func DataAwsDbInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
+		"@cdktn/provider-aws.dataAwsDbInstance.DataAwsDbInstance",
 		"tfResourceType",
 		&returns,
 	)

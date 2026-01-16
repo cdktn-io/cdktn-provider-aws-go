@@ -5,9 +5,9 @@ package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewLexBotTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_LexBotTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexBot.LexBotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewLexBotTimeoutsOutputReference_Override(l LexBotTimeoutsOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexBot.LexBotTimeoutsOutputReference",
+		"@cdktn/provider-aws.lexBot.LexBotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

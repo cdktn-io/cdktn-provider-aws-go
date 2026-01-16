@@ -5,9 +5,9 @@ package opensearchpackageassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/opensearchpackageassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchpackageassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewOpensearchPackageAssociationTimeoutsOutputReference(terraformResource cd
 	j := jsiiProxy_OpensearchPackageAssociationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewOpensearchPackageAssociationTimeoutsOutputReference_Override(o Opensearc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.opensearchPackageAssociation.OpensearchPackageAssociationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

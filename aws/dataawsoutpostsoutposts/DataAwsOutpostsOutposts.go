@@ -5,14 +5,14 @@ package dataawsoutpostsoutposts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsoutpostsoutposts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsoutpostsoutposts/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outposts aws_outposts_outposts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outposts aws_outposts_outposts}.
 type DataAwsOutpostsOutposts interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsOutpostsOutposts) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outposts aws_outposts_outposts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outposts aws_outposts_outposts} Data Source.
 func NewDataAwsOutpostsOutposts(scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostsConfig) DataAwsOutpostsOutposts {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAwsOutpostsOutposts(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsOutpostsOutposts{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,12 +425,12 @@ func NewDataAwsOutpostsOutposts(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/outposts_outposts aws_outposts_outposts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/outposts_outposts aws_outposts_outposts} Data Source.
 func NewDataAwsOutpostsOutposts_Override(d DataAwsOutpostsOutposts, scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -558,7 +558,7 @@ func DataAwsOutpostsOutposts_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -593,7 +593,7 @@ func DataAwsOutpostsOutposts_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -612,7 +612,7 @@ func DataAwsOutpostsOutposts_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func DataAwsOutpostsOutposts_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func DataAwsOutpostsOutposts_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
+		"@cdktn/provider-aws.dataAwsOutpostsOutposts.DataAwsOutpostsOutposts",
 		"tfResourceType",
 		&returns,
 	)

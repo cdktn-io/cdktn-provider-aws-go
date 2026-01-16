@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociation",
 		reflect.TypeOf((*DbInstanceRoleAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationConfig",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationConfig",
 		reflect.TypeOf((*DbInstanceRoleAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeouts",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeouts",
 		reflect.TypeOf((*DbInstanceRoleAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeoutsOutputReference",
+		"@cdktn/provider-aws.dbInstanceRoleAssociation.DbInstanceRoleAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*DbInstanceRoleAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

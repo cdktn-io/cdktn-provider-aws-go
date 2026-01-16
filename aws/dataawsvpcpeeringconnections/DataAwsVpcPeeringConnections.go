@@ -5,14 +5,14 @@ package dataawsvpcpeeringconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpcpeeringconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcpeeringconnections/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
 type DataAwsVpcPeeringConnections interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnections) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) DataAwsVpcPeeringConnections {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAwsVpcPeeringConnections{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,12 +390,12 @@ func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections_Override(d DataAwsVpcPeeringConnections, scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -490,7 +490,7 @@ func DataAwsVpcPeeringConnections_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -525,7 +525,7 @@ func DataAwsVpcPeeringConnections_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsVpcPeeringConnections_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsVpcPeeringConnections_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func DataAwsVpcPeeringConnections_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
+		"@cdktn/provider-aws.dataAwsVpcPeeringConnections.DataAwsVpcPeeringConnections",
 		"tfResourceType",
 		&returns,
 	)

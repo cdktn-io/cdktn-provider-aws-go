@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationResource.LakeformationResource",
+		"@cdktn/provider-aws.lakeformationResource.LakeformationResource",
 		reflect.TypeOf((*LakeformationResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,7 +87,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationResource.LakeformationResourceConfig",
+		"@cdktn/provider-aws.lakeformationResource.LakeformationResourceConfig",
 		reflect.TypeOf((*LakeformationResourceConfig)(nil)).Elem(),
 	)
 }

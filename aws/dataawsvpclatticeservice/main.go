@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeService",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeService",
 		reflect.TypeOf((*DataAwsVpclatticeService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceConfig",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceConfig",
 		reflect.TypeOf((*DataAwsVpclatticeServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntry",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntry",
 		reflect.TypeOf((*DataAwsVpclatticeServiceDnsEntry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
 		reflect.TypeOf((*DataAwsVpclatticeServiceDnsEntryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryOutputReference",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryOutputReference",
 		reflect.TypeOf((*DataAwsVpclatticeServiceDnsEntryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

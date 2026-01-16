@@ -5,14 +5,14 @@ package dmscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dmscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmscertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_certificate aws_dms_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_certificate aws_dms_certificate}.
 type DmsCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -464,7 +464,7 @@ func (j *jsiiProxy_DmsCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_certificate aws_dms_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_certificate aws_dms_certificate} Resource.
 func NewDmsCertificate(scope constructs.Construct, id *string, config *DmsCertificateConfig) DmsCertificate {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDmsCertificate(scope constructs.Construct, id *string, config *DmsCertif
 	j := jsiiProxy_DmsCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -482,12 +482,12 @@ func NewDmsCertificate(scope constructs.Construct, id *string, config *DmsCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/dms_certificate aws_dms_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_certificate aws_dms_certificate} Resource.
 func NewDmsCertificate_Override(d DmsCertificate, scope constructs.Construct, id *string, config *DmsCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -648,7 +648,7 @@ func DmsCertificate_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func DmsCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func DmsCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func DmsCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func DmsCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dmsCertificate.DmsCertificate",
+		"@cdktn/provider-aws.dmsCertificate.DmsCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilter",
 		reflect.TypeOf((*Macie2FindingsFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -97,19 +97,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterConfig",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterConfig",
 		reflect.TypeOf((*Macie2FindingsFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteria",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteria",
 		reflect.TypeOf((*Macie2FindingsFilterFindingCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion",
 		reflect.TypeOf((*Macie2FindingsFilterFindingCriteriaCriterion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionList",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionList",
 		reflect.TypeOf((*Macie2FindingsFilterFindingCriteriaCriterionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionOutputReference",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterionOutputReference",
 		reflect.TypeOf((*Macie2FindingsFilterFindingCriteriaCriterionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,7 +186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaOutputReference",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaOutputReference",
 		reflect.TypeOf((*Macie2FindingsFilterFindingCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterTimeouts",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterTimeouts",
 		reflect.TypeOf((*Macie2FindingsFilterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.macie2FindingsFilter.Macie2FindingsFilterTimeoutsOutputReference",
+		"@cdktn/provider-aws.macie2FindingsFilter.Macie2FindingsFilterTimeoutsOutputReference",
 		reflect.TypeOf((*Macie2FindingsFilterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

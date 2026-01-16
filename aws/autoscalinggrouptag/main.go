@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagA",
 		reflect.TypeOf((*AutoscalingGroupTagA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagAConfig",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagAConfig",
 		reflect.TypeOf((*AutoscalingGroupTagAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTag",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTag",
 		reflect.TypeOf((*AutoscalingGroupTagTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
+		"@cdktn/provider-aws.autoscalingGroupTag.AutoscalingGroupTagTagOutputReference",
 		reflect.TypeOf((*AutoscalingGroupTagTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

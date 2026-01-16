@@ -5,14 +5,14 @@ package dataawscognitousergroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawscognitousergroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscognitousergroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups}.
 type DataAwsCognitoUserGroups interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -310,7 +310,7 @@ func (j *jsiiProxy_DataAwsCognitoUserGroups) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups} Data Source.
 func NewDataAwsCognitoUserGroups(scope constructs.Construct, id *string, config *DataAwsCognitoUserGroupsConfig) DataAwsCognitoUserGroups {
 	_init_.Initialize()
 
@@ -320,7 +320,7 @@ func NewDataAwsCognitoUserGroups(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAwsCognitoUserGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -328,12 +328,12 @@ func NewDataAwsCognitoUserGroups(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cognito_user_groups aws_cognito_user_groups} Data Source.
 func NewDataAwsCognitoUserGroups_Override(d DataAwsCognitoUserGroups, scope constructs.Construct, id *string, config *DataAwsCognitoUserGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -417,7 +417,7 @@ func DataAwsCognitoUserGroups_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -452,7 +452,7 @@ func DataAwsCognitoUserGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -471,7 +471,7 @@ func DataAwsCognitoUserGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -490,7 +490,7 @@ func DataAwsCognitoUserGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAwsCognitoUserGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
+		"@cdktn/provider-aws.dataAwsCognitoUserGroups.DataAwsCognitoUserGroups",
 		"tfResourceType",
 		&returns,
 	)

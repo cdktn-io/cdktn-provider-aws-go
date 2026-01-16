@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflow",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflow",
 		reflect.TypeOf((*TransferWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,27 +86,27 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowConfig",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowConfig",
 		reflect.TypeOf((*TransferWorkflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionSteps",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionSteps",
 		reflect.TypeOf((*TransferWorkflowOnExceptionSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetails",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetails",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCustomStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,19 +319,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -369,7 +369,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -409,11 +409,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -451,7 +451,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -498,11 +498,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDeleteStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -540,7 +540,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsList",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsList",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -562,7 +562,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -616,11 +616,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsTagStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -662,11 +662,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTags",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTags",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsTagStepDetailsTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsList",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsList",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsTagStepDetailsTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -688,7 +688,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference",
 		reflect.TypeOf((*TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -724,23 +724,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowSteps",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowSteps",
 		reflect.TypeOf((*TransferWorkflowSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetails",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocationEfsFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -778,7 +778,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -818,11 +818,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -860,7 +860,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCopyStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsCopyStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -905,11 +905,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCustomStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCustomStepDetails",
 		reflect.TypeOf((*TransferWorkflowStepsCustomStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsCustomStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsCustomStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsCustomStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -953,19 +953,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetails",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1003,7 +1003,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1043,11 +1043,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3FileLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -1085,7 +1085,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDecryptStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsDecryptStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1132,11 +1132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDeleteStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDeleteStepDetails",
 		reflect.TypeOf((*TransferWorkflowStepsDeleteStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsDeleteStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsDeleteStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsDeleteStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1174,7 +1174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsList",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsList",
 		reflect.TypeOf((*TransferWorkflowStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1196,7 +1196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1250,11 +1250,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetails",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetails",
 		reflect.TypeOf((*TransferWorkflowStepsTagStepDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsTagStepDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1296,11 +1296,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTags",
 		reflect.TypeOf((*TransferWorkflowStepsTagStepDetailsTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsList",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsList",
 		reflect.TypeOf((*TransferWorkflowStepsTagStepDetailsTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1322,7 +1322,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsOutputReference",
+		"@cdktn/provider-aws.transferWorkflow.TransferWorkflowStepsTagStepDetailsTagsOutputReference",
 		reflect.TypeOf((*TransferWorkflowStepsTagStepDetailsTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

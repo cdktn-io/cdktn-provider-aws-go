@@ -5,9 +5,9 @@ package backuprestoretestingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backuprestoretestingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backuprestoretestingplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -276,7 +276,7 @@ func NewBackupRestoreTestingPlanRecoveryPointSelectionOutputReference(terraformR
 	j := jsiiProxy_BackupRestoreTestingPlanRecoveryPointSelectionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -288,7 +288,7 @@ func NewBackupRestoreTestingPlanRecoveryPointSelectionOutputReference_Override(b
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
+		"@cdktn/provider-aws.backupRestoreTestingPlan.BackupRestoreTestingPlanRecoveryPointSelectionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

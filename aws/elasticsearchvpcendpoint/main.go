@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpoint",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpoint",
 		reflect.TypeOf((*ElasticsearchVpcEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointConfig",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointConfig",
 		reflect.TypeOf((*ElasticsearchVpcEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointTimeouts",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointTimeouts",
 		reflect.TypeOf((*ElasticsearchVpcEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointTimeoutsOutputReference",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticsearchVpcEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptions",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptions",
 		reflect.TypeOf((*ElasticsearchVpcEndpointVpcOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
+		"@cdktn/provider-aws.elasticsearchVpcEndpoint.ElasticsearchVpcEndpointVpcOptionsOutputReference",
 		reflect.TypeOf((*ElasticsearchVpcEndpointVpcOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},

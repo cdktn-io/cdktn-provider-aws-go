@@ -5,14 +5,14 @@ package defaultnetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/defaultnetworkacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/defaultnetworkacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_network_acl aws_default_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_network_acl aws_default_network_acl}.
 type DefaultNetworkAcl interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_DefaultNetworkAcl) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
 func NewDefaultNetworkAcl(scope constructs.Construct, id *string, config *DefaultNetworkAclConfig) DefaultNetworkAcl {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDefaultNetworkAcl(scope constructs.Construct, id *string, config *Defaul
 	j := jsiiProxy_DefaultNetworkAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewDefaultNetworkAcl(scope constructs.Construct, id *string, config *Defaul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/default_network_acl aws_default_network_acl} Resource.
 func NewDefaultNetworkAcl_Override(d DefaultNetworkAcl, scope constructs.Construct, id *string, config *DefaultNetworkAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -683,7 +683,7 @@ func DefaultNetworkAcl_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func DefaultNetworkAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func DefaultNetworkAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func DefaultNetworkAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func DefaultNetworkAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
+		"@cdktn/provider-aws.defaultNetworkAcl.DefaultNetworkAcl",
 		"tfResourceType",
 		&returns,
 	)

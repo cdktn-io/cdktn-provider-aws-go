@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasource",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasource",
 		reflect.TypeOf((*AppsyncDatasource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,19 +110,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceConfig",
 		reflect.TypeOf((*AppsyncDatasourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfig",
 		reflect.TypeOf((*AppsyncDatasourceDynamodbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig",
 		reflect.TypeOf((*AppsyncDatasourceDynamodbConfigDeltaSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceDynamodbConfigDeltaSyncConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseTableTtl", GoGetter: "BaseTableTtl"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceDynamodbConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceElasticsearchConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceElasticsearchConfig",
 		reflect.TypeOf((*AppsyncDatasourceElasticsearchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceElasticsearchConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceElasticsearchConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceElasticsearchConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -250,11 +250,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfig",
 		reflect.TypeOf((*AppsyncDatasourceEventBridgeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceEventBridgeConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceEventBridgeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,19 +288,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfig",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfig",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfigAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfigAuthorizationConfigAwsIamConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -338,7 +338,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfigAuthorizationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationType", GoGetter: "AuthorizationType"},
@@ -377,7 +377,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceHttpConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceHttpConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationConfig", GoGetter: "AuthorizationConfig"},
@@ -415,11 +415,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceLambdaConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceLambdaConfig",
 		reflect.TypeOf((*AppsyncDatasourceLambdaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceLambdaConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceLambdaConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceLambdaConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -453,11 +453,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfig",
 		reflect.TypeOf((*AppsyncDatasourceOpensearchserviceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceOpensearchserviceConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceOpensearchserviceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -494,15 +494,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfig",
 		reflect.TypeOf((*AppsyncDatasourceRelationalDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfig",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfig",
 		reflect.TypeOf((*AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceRelationalDatabaseConfigHttpEndpointConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsSecretStoreArn", GoGetter: "AwsSecretStoreArn"},
@@ -547,7 +547,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigOutputReference",
+		"@cdktn/provider-aws.appsyncDatasource.AppsyncDatasourceRelationalDatabaseConfigOutputReference",
 		reflect.TypeOf((*AppsyncDatasourceRelationalDatabaseConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package ssmincidentsreplicationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ssmincidentsreplicationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmincidentsreplicationset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set}.
 type SsmincidentsReplicationSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SsmincidentsReplicationSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set} Resource.
 func NewSsmincidentsReplicationSet(scope constructs.Construct, id *string, config *SsmincidentsReplicationSetConfig) SsmincidentsReplicationSet {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewSsmincidentsReplicationSet(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SsmincidentsReplicationSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewSsmincidentsReplicationSet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmincidents_replication_set aws_ssmincidents_replication_set} Resource.
 func NewSsmincidentsReplicationSet_Override(s SsmincidentsReplicationSet, scope constructs.Construct, id *string, config *SsmincidentsReplicationSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -625,7 +625,7 @@ func SsmincidentsReplicationSet_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func SsmincidentsReplicationSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func SsmincidentsReplicationSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func SsmincidentsReplicationSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func SsmincidentsReplicationSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
+		"@cdktn/provider-aws.ssmincidentsReplicationSet.SsmincidentsReplicationSet",
 		"tfResourceType",
 		&returns,
 	)

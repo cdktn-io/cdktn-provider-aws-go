@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpression",
 		reflect.TypeOf((*LakeformationLfTagExpression)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionConfig",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionConfig",
 		reflect.TypeOf((*LakeformationLfTagExpressionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpression",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpression",
 		reflect.TypeOf((*LakeformationLfTagExpressionExpression)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionList",
 		reflect.TypeOf((*LakeformationLfTagExpressionExpressionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionOutputReference",
+		"@cdktn/provider-aws.lakeformationLfTagExpression.LakeformationLfTagExpressionExpressionOutputReference",
 		reflect.TypeOf((*LakeformationLfTagExpressionExpressionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

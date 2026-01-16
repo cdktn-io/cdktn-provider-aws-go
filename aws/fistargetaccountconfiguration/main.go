@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.fisTargetAccountConfiguration.FisTargetAccountConfiguration",
+		"@cdktn/provider-aws.fisTargetAccountConfiguration.FisTargetAccountConfiguration",
 		reflect.TypeOf((*FisTargetAccountConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.fisTargetAccountConfiguration.FisTargetAccountConfigurationConfig",
+		"@cdktn/provider-aws.fisTargetAccountConfiguration.FisTargetAccountConfigurationConfig",
 		reflect.TypeOf((*FisTargetAccountConfigurationConfig)(nil)).Elem(),
 	)
 }

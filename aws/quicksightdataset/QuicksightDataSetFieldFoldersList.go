@@ -5,9 +5,9 @@ package quicksightdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightdataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewQuicksightDataSetFieldFoldersList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_QuicksightDataSetFieldFoldersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewQuicksightDataSetFieldFoldersList_Override(q QuicksightDataSetFieldFolde
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
+		"@cdktn/provider-aws.quicksightDataSet.QuicksightDataSetFieldFoldersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		q,
 	)

@@ -5,14 +5,14 @@ package lexv2modelsslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/lexv2modelsslot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_slot aws_lexv2models_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot aws_lexv2models_slot}.
 type Lexv2ModelsSlot interface {
 	cdktf.TerraformResource
 	BotId() *string
@@ -615,7 +615,7 @@ func (j *jsiiProxy_Lexv2ModelsSlot) ValueElicitationSettingInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
 func NewLexv2ModelsSlot(scope constructs.Construct, id *string, config *Lexv2ModelsSlotConfig) Lexv2ModelsSlot {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewLexv2ModelsSlot(scope constructs.Construct, id *string, config *Lexv2Mod
 	j := jsiiProxy_Lexv2ModelsSlot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -633,12 +633,12 @@ func NewLexv2ModelsSlot(scope constructs.Construct, id *string, config *Lexv2Mod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot aws_lexv2models_slot} Resource.
 func NewLexv2ModelsSlot_Override(l Lexv2ModelsSlot, scope constructs.Construct, id *string, config *Lexv2ModelsSlotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -810,7 +810,7 @@ func Lexv2ModelsSlot_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -845,7 +845,7 @@ func Lexv2ModelsSlot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -864,7 +864,7 @@ func Lexv2ModelsSlot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func Lexv2ModelsSlot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func Lexv2ModelsSlot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
+		"@cdktn/provider-aws.lexv2ModelsSlot.Lexv2ModelsSlot",
 		"tfResourceType",
 		&returns,
 	)

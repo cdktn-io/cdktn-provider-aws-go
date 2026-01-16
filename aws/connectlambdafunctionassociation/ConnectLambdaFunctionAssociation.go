@@ -5,14 +5,14 @@ package connectlambdafunctionassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/connectlambdafunctionassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectlambdafunctionassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association}.
 type ConnectLambdaFunctionAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_ConnectLambdaFunctionAssociation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association} Resource.
 func NewConnectLambdaFunctionAssociation(scope constructs.Construct, id *string, config *ConnectLambdaFunctionAssociationConfig) ConnectLambdaFunctionAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewConnectLambdaFunctionAssociation(scope constructs.Construct, id *string,
 	j := jsiiProxy_ConnectLambdaFunctionAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewConnectLambdaFunctionAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_lambda_function_association aws_connect_lambda_function_association} Resource.
 func NewConnectLambdaFunctionAssociation_Override(c ConnectLambdaFunctionAssociation, scope constructs.Construct, id *string, config *ConnectLambdaFunctionAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -531,7 +531,7 @@ func ConnectLambdaFunctionAssociation_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func ConnectLambdaFunctionAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func ConnectLambdaFunctionAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func ConnectLambdaFunctionAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func ConnectLambdaFunctionAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
+		"@cdktn/provider-aws.connectLambdaFunctionAssociation.ConnectLambdaFunctionAssociation",
 		"tfResourceType",
 		&returns,
 	)

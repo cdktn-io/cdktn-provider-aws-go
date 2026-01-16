@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachment",
+		"@cdktn/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachment",
 		reflect.TypeOf((*NetworkInterfaceSgAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentConfig",
+		"@cdktn/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentConfig",
 		reflect.TypeOf((*NetworkInterfaceSgAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentTimeouts",
+		"@cdktn/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentTimeouts",
 		reflect.TypeOf((*NetworkInterfaceSgAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-aws.networkInterfaceSgAttachment.NetworkInterfaceSgAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkInterfaceSgAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

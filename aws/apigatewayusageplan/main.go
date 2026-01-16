@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlan",
 		reflect.TypeOf((*ApiGatewayUsagePlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,11 +96,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStages)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesList",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesOutputReference",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiId", GoGetter: "ApiId"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottle",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStagesThrottle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottleList",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottleList",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStagesThrottleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottleOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStagesThrottleOutputReference",
 		reflect.TypeOf((*ApiGatewayUsagePlanApiStagesThrottleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "burstLimit", GoGetter: "BurstLimit"},
@@ -228,15 +228,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanConfig",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanConfig",
 		reflect.TypeOf((*ApiGatewayUsagePlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanQuotaSettings",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanQuotaSettings",
 		reflect.TypeOf((*ApiGatewayUsagePlanQuotaSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanQuotaSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanQuotaSettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayUsagePlanQuotaSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettings",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettings",
 		reflect.TypeOf((*ApiGatewayUsagePlanThrottleSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettingsOutputReference",
+		"@cdktn/provider-aws.apiGatewayUsagePlan.ApiGatewayUsagePlanThrottleSettingsOutputReference",
 		reflect.TypeOf((*ApiGatewayUsagePlanThrottleSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "burstLimit", GoGetter: "BurstLimit"},

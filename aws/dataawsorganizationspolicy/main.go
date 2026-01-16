@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOrganizationsPolicy.DataAwsOrganizationsPolicy",
+		"@cdktn/provider-aws.dataAwsOrganizationsPolicy.DataAwsOrganizationsPolicy",
 		reflect.TypeOf((*DataAwsOrganizationsPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOrganizationsPolicy.DataAwsOrganizationsPolicyConfig",
+		"@cdktn/provider-aws.dataAwsOrganizationsPolicy.DataAwsOrganizationsPolicyConfig",
 		reflect.TypeOf((*DataAwsOrganizationsPolicyConfig)(nil)).Elem(),
 	)
 }

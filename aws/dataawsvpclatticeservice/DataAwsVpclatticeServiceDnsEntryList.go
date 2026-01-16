@@ -5,9 +5,9 @@ package dataawsvpclatticeservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsvpclatticeservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpclatticeservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAwsVpclatticeServiceDnsEntryList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_DataAwsVpclatticeServiceDnsEntryList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAwsVpclatticeServiceDnsEntryList_Override(d DataAwsVpclatticeService
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
+		"@cdktn/provider-aws.dataAwsVpclatticeService.DataAwsVpclatticeServiceDnsEntryList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistribution",
 		reflect.TypeOf((*CloudfrontDistribution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -26,6 +26,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "comment", GoGetter: "Comment"},
 			_jsii_.MemberProperty{JsiiProperty: "commentInput", GoGetter: "CommentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionFunctionAssociation", GoGetter: "ConnectionFunctionAssociation"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionFunctionAssociationInput", GoGetter: "ConnectionFunctionAssociationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "continuousDeploymentPolicyId", GoGetter: "ContinuousDeploymentPolicyId"},
 			_jsii_.MemberProperty{JsiiProperty: "continuousDeploymentPolicyIdInput", GoGetter: "ContinuousDeploymentPolicyIdInput"},
@@ -84,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "priceClassInput", GoGetter: "PriceClassInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putConnectionFunctionAssociation", GoMethod: "PutConnectionFunctionAssociation"},
 			_jsii_.MemberMethod{JsiiMethod: "putCustomErrorResponse", GoMethod: "PutCustomErrorResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "putDefaultCacheBehavior", GoMethod: "PutDefaultCacheBehavior"},
 			_jsii_.MemberMethod{JsiiMethod: "putLoggingConfig", GoMethod: "PutLoggingConfig"},
@@ -92,10 +95,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putOriginGroup", GoMethod: "PutOriginGroup"},
 			_jsii_.MemberMethod{JsiiMethod: "putRestrictions", GoMethod: "PutRestrictions"},
 			_jsii_.MemberMethod{JsiiMethod: "putViewerCertificate", GoMethod: "PutViewerCertificate"},
+			_jsii_.MemberMethod{JsiiMethod: "putViewerMtlsConfig", GoMethod: "PutViewerMtlsConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAliases", GoMethod: "ResetAliases"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAnycastIpListId", GoMethod: "ResetAnycastIpListId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetComment", GoMethod: "ResetComment"},
+			_jsii_.MemberMethod{JsiiMethod: "resetConnectionFunctionAssociation", GoMethod: "ResetConnectionFunctionAssociation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContinuousDeploymentPolicyId", GoMethod: "ResetContinuousDeploymentPolicyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomErrorResponse", GoMethod: "ResetCustomErrorResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultRootObject", GoMethod: "ResetDefaultRootObject"},
@@ -111,6 +116,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetStaging", GoMethod: "ResetStaging"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
+			_jsii_.MemberMethod{JsiiMethod: "resetViewerMtlsConfig", GoMethod: "ResetViewerMtlsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWaitForDeployment", GoMethod: "ResetWaitForDeployment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWebAclId", GoMethod: "ResetWebAclId"},
 			_jsii_.MemberProperty{JsiiProperty: "restrictions", GoGetter: "Restrictions"},
@@ -137,6 +143,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedSigners", GoGetter: "TrustedSigners"},
 			_jsii_.MemberProperty{JsiiProperty: "viewerCertificate", GoGetter: "ViewerCertificate"},
 			_jsii_.MemberProperty{JsiiProperty: "viewerCertificateInput", GoGetter: "ViewerCertificateInput"},
+			_jsii_.MemberProperty{JsiiProperty: "viewerMtlsConfig", GoGetter: "ViewerMtlsConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "viewerMtlsConfigInput", GoGetter: "ViewerMtlsConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDeployment", GoGetter: "WaitForDeployment"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDeploymentInput", GoGetter: "WaitForDeploymentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webAclId", GoGetter: "WebAclId"},
@@ -149,15 +157,53 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionConfig",
 		reflect.TypeOf((*CloudfrontDistributionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponse",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionConnectionFunctionAssociation",
+		reflect.TypeOf((*CloudfrontDistributionConnectionFunctionAssociation)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionConnectionFunctionAssociationOutputReference",
+		reflect.TypeOf((*CloudfrontDistributionConnectionFunctionAssociationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudfrontDistributionConnectionFunctionAssociationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponse",
 		reflect.TypeOf((*CloudfrontDistributionCustomErrorResponse)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponseList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponseList",
 		reflect.TypeOf((*CloudfrontDistributionCustomErrorResponseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -179,7 +225,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponseOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionCustomErrorResponseOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionCustomErrorResponseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,19 +268,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehavior",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehavior",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehavior)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValues",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValues",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorForwardedValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookies",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookies",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookies)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookiesOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookiesOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorForwardedValuesCookiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,7 +317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorForwardedValuesOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorForwardedValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -314,11 +360,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociation",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociation",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorFunctionAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationList",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -340,7 +386,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorFunctionAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -376,11 +422,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorGrpcConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorGrpcConfig",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorGrpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorGrpcConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorGrpcConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorGrpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -415,11 +461,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationList",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -441,7 +487,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorLambdaFunctionAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,7 +526,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionDefaultCacheBehaviorOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionDefaultCacheBehaviorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedMethods", GoGetter: "AllowedMethods"},
@@ -572,11 +618,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionLoggingConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionLoggingConfig",
 		reflect.TypeOf((*CloudfrontDistributionLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionLoggingConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionLoggingConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
@@ -617,19 +663,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehavior",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehavior",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehavior)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValues",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValues",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorForwardedValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookies)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookiesOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookiesOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorForwardedValuesCookiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -666,7 +712,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorForwardedValuesOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorForwardedValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -709,11 +755,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorFunctionAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -735,7 +781,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorFunctionAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -771,11 +817,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorGrpcConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorGrpcConfig",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorGrpcConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorGrpcConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorGrpcConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorGrpcConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -810,11 +856,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationList",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -836,7 +882,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorLambdaFunctionAssociationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -875,7 +921,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorList",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -897,7 +943,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrderedCacheBehaviorOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOrderedCacheBehaviorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedMethods", GoGetter: "AllowedMethods"},
@@ -991,15 +1037,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrigin",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOrigin",
 		reflect.TypeOf((*CloudfrontDistributionOrigin)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeader",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeader",
 		reflect.TypeOf((*CloudfrontDistributionOriginCustomHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeaderList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeaderList",
 		reflect.TypeOf((*CloudfrontDistributionOriginCustomHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1021,7 +1067,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeaderOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomHeaderOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginCustomHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1057,11 +1103,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfig",
 		reflect.TypeOf((*CloudfrontDistributionOriginCustomOriginConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginCustomOriginConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1110,15 +1156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroup",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroup",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteria",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteria",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupFailoverCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteriaOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteriaOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupFailoverCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1152,7 +1198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupList",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1174,11 +1220,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMemberList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMemberList",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1200,7 +1246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMemberOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMemberOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1234,7 +1280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1274,7 +1320,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginList",
 		reflect.TypeOf((*CloudfrontDistributionOriginList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1296,11 +1342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShield",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShield",
 		reflect.TypeOf((*CloudfrontDistributionOriginOriginShield)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOriginShieldOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginOriginShieldOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1337,7 +1383,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1408,11 +1454,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfig",
 		reflect.TypeOf((*CloudfrontDistributionOriginS3OriginConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginS3OriginConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginS3OriginConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1446,11 +1492,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfig",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfig",
 		reflect.TypeOf((*CloudfrontDistributionOriginVpcOriginConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionOriginVpcOriginConfigOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionOriginVpcOriginConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1474,8 +1520,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "originKeepaliveTimeoutInput", GoGetter: "OriginKeepaliveTimeoutInput"},
 			_jsii_.MemberProperty{JsiiProperty: "originReadTimeout", GoGetter: "OriginReadTimeout"},
 			_jsii_.MemberProperty{JsiiProperty: "originReadTimeoutInput", GoGetter: "OriginReadTimeoutInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ownerAccountId", GoGetter: "OwnerAccountId"},
+			_jsii_.MemberProperty{JsiiProperty: "ownerAccountIdInput", GoGetter: "OwnerAccountIdInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOriginKeepaliveTimeout", GoMethod: "ResetOriginKeepaliveTimeout"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOriginReadTimeout", GoMethod: "ResetOriginReadTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOwnerAccountId", GoMethod: "ResetOwnerAccountId"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -1490,15 +1539,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictions",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictions",
 		reflect.TypeOf((*CloudfrontDistributionRestrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestriction",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestriction",
 		reflect.TypeOf((*CloudfrontDistributionRestrictionsGeoRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestrictionOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsGeoRestrictionOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionRestrictionsGeoRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1535,7 +1584,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionRestrictionsOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionRestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1570,15 +1619,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroups",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroups",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItems",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItems",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroupsItems)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItemsList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItemsList",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroupsItemsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1599,7 +1648,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItemsOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsItemsOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroupsItemsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1633,7 +1682,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsList",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1654,7 +1703,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedKeyGroupsOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionTrustedKeyGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1688,15 +1737,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSigners",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSigners",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSigners)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItems",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItems",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSignersItems)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItemsList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItemsList",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSignersItemsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1717,7 +1766,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItemsOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersItemsOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSignersItemsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsAccountNumber", GoGetter: "AwsAccountNumber"},
@@ -1751,7 +1800,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersList",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersList",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSignersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1772,7 +1821,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionTrustedSignersOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionTrustedSignersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1806,11 +1855,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificate",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificate",
 		reflect.TypeOf((*CloudfrontDistributionViewerCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerCertificateOutputReference",
 		reflect.TypeOf((*CloudfrontDistributionViewerCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acmCertificateArn", GoGetter: "AcmCertificateArn"},
@@ -1852,6 +1901,93 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudfrontDistributionViewerCertificateOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerMtlsConfig",
+		reflect.TypeOf((*CloudfrontDistributionViewerMtlsConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerMtlsConfigOutputReference",
+		reflect.TypeOf((*CloudfrontDistributionViewerMtlsConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mode", GoGetter: "Mode"},
+			_jsii_.MemberProperty{JsiiProperty: "modeInput", GoGetter: "ModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putTrustStoreConfig", GoMethod: "PutTrustStoreConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMode", GoMethod: "ResetMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTrustStoreConfig", GoMethod: "ResetTrustStoreConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "trustStoreConfig", GoGetter: "TrustStoreConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "trustStoreConfigInput", GoGetter: "TrustStoreConfigInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudfrontDistributionViewerMtlsConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerMtlsConfigTrustStoreConfig",
+		reflect.TypeOf((*CloudfrontDistributionViewerMtlsConfigTrustStoreConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudfrontDistribution.CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference",
+		reflect.TypeOf((*CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "advertiseTrustStoreCaNames", GoGetter: "AdvertiseTrustStoreCaNames"},
+			_jsii_.MemberProperty{JsiiProperty: "advertiseTrustStoreCaNamesInput", GoGetter: "AdvertiseTrustStoreCaNamesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ignoreCertificateExpiry", GoGetter: "IgnoreCertificateExpiry"},
+			_jsii_.MemberProperty{JsiiProperty: "ignoreCertificateExpiryInput", GoGetter: "IgnoreCertificateExpiryInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdvertiseTrustStoreCaNames", GoMethod: "ResetAdvertiseTrustStoreCaNames"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIgnoreCertificateExpiry", GoMethod: "ResetIgnoreCertificateExpiry"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "trustStoreId", GoGetter: "TrustStoreId"},
+			_jsii_.MemberProperty{JsiiProperty: "trustStoreIdInput", GoGetter: "TrustStoreIdInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudfrontDistributionViewerMtlsConfigTrustStoreConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
 			return &j
 		},

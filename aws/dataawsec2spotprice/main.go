@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPrice",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPrice",
 		reflect.TypeOf((*DataAwsEc2SpotPrice)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceConfig",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceConfig",
 		reflect.TypeOf((*DataAwsEc2SpotPriceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilter",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilter",
 		reflect.TypeOf((*DataAwsEc2SpotPriceFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterList",
 		reflect.TypeOf((*DataAwsEc2SpotPriceFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,7 +107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceFilterOutputReference",
 		reflect.TypeOf((*DataAwsEc2SpotPriceFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceTimeouts",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceTimeouts",
 		reflect.TypeOf((*DataAwsEc2SpotPriceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceTimeoutsOutputReference",
+		"@cdktn/provider-aws.dataAwsEc2SpotPrice.DataAwsEc2SpotPriceTimeoutsOutputReference",
 		reflect.TypeOf((*DataAwsEc2SpotPriceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

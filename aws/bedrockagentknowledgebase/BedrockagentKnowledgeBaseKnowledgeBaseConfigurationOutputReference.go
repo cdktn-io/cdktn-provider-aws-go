@@ -5,9 +5,9 @@ package bedrockagentknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentknowledgebase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,6 +32,10 @@ type BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference interfac
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	KendraKnowledgeBaseConfiguration() BedrockagentKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationList
+	KendraKnowledgeBaseConfigurationInput() interface{}
+	SqlKnowledgeBaseConfiguration() BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationList
+	SqlKnowledgeBaseConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -69,7 +73,11 @@ type BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference interfac
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutKendraKnowledgeBaseConfiguration(value interface{})
+	PutSqlKnowledgeBaseConfiguration(value interface{})
 	PutVectorKnowledgeBaseConfiguration(value interface{})
+	ResetKendraKnowledgeBaseConfiguration()
+	ResetSqlKnowledgeBaseConfiguration()
 	ResetVectorKnowledgeBaseConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -131,6 +139,46 @@ func (j *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) KendraKnowledgeBaseConfiguration() BedrockagentKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationList {
+	var returns BedrockagentKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigurationList
+	_jsii_.Get(
+		j,
+		"kendraKnowledgeBaseConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) KendraKnowledgeBaseConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"kendraKnowledgeBaseConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) SqlKnowledgeBaseConfiguration() BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationList {
+	var returns BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationList
+	_jsii_.Get(
+		j,
+		"sqlKnowledgeBaseConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) SqlKnowledgeBaseConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sqlKnowledgeBaseConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -206,7 +254,7 @@ func NewBedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference(terra
 	j := jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +266,7 @@ func NewBedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference",
+		"@cdktn/provider-aws.bedrockagentKnowledgeBase.BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)
@@ -476,6 +524,28 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputRefe
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) PutKendraKnowledgeBaseConfiguration(value interface{}) {
+	if err := b.validatePutKendraKnowledgeBaseConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putKendraKnowledgeBaseConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) PutSqlKnowledgeBaseConfiguration(value interface{}) {
+	if err := b.validatePutSqlKnowledgeBaseConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSqlKnowledgeBaseConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) PutVectorKnowledgeBaseConfiguration(value interface{}) {
 	if err := b.validatePutVectorKnowledgeBaseConfigurationParameters(value); err != nil {
 		panic(err)
@@ -484,6 +554,22 @@ func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputRefe
 		b,
 		"putVectorKnowledgeBaseConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) ResetKendraKnowledgeBaseConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetKendraKnowledgeBaseConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference) ResetSqlKnowledgeBaseConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSqlKnowledgeBaseConfiguration",
+		nil, // no parameters
 	)
 }
 

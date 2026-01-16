@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPart",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPart",
 		reflect.TypeOf((*ApiGatewayDocumentationPart)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartConfig",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartConfig",
 		reflect.TypeOf((*ApiGatewayDocumentationPartConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocation",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocation",
 		reflect.TypeOf((*ApiGatewayDocumentationPartLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
+		"@cdktn/provider-aws.apiGatewayDocumentationPart.ApiGatewayDocumentationPartLocationOutputReference",
 		reflect.TypeOf((*ApiGatewayDocumentationPartLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,14 +5,14 @@ package quicksightkeyregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/quicksightkeyregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightkeyregistration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
 type QuicksightKeyRegistration interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -358,7 +358,7 @@ func (j *jsiiProxy_QuicksightKeyRegistration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) QuicksightKeyRegistration {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config
 	j := jsiiProxy_QuicksightKeyRegistration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration_Override(q QuicksightKeyRegistration, scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -487,7 +487,7 @@ func QuicksightKeyRegistration_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func QuicksightKeyRegistration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func QuicksightKeyRegistration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func QuicksightKeyRegistration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func QuicksightKeyRegistration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
+		"@cdktn/provider-aws.quicksightKeyRegistration.QuicksightKeyRegistration",
 		"tfResourceType",
 		&returns,
 	)

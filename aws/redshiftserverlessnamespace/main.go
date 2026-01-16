@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespace",
 		reflect.TypeOf((*RedshiftserverlessNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespaceConfig",
+		"@cdktn/provider-aws.redshiftserverlessNamespace.RedshiftserverlessNamespaceConfig",
 		reflect.TypeOf((*RedshiftserverlessNamespaceConfig)(nil)).Elem(),
 	)
 }

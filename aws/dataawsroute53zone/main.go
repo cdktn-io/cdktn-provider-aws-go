@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53Zone",
 		reflect.TypeOf((*DataAwsRoute53Zone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,7 +84,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsRoute53Zone.DataAwsRoute53ZoneConfig",
+		"@cdktn/provider-aws.dataAwsRoute53Zone.DataAwsRoute53ZoneConfig",
 		reflect.TypeOf((*DataAwsRoute53ZoneConfig)(nil)).Elem(),
 	)
 }

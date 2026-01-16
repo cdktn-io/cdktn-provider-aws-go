@@ -5,14 +5,14 @@ package s3controlaccessgrantsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/s3controlaccessgrantsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3controlaccessgrantsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance}.
 type S3ControlAccessGrantsInstance interface {
 	cdktf.TerraformResource
 	AccessGrantsInstanceArn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsInstance) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance} Resource.
 func NewS3ControlAccessGrantsInstance(scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceConfig) S3ControlAccessGrantsInstance {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewS3ControlAccessGrantsInstance(scope constructs.Construct, id *string, co
 	j := jsiiProxy_S3ControlAccessGrantsInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewS3ControlAccessGrantsInstance(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3control_access_grants_instance aws_s3control_access_grants_instance} Resource.
 func NewS3ControlAccessGrantsInstance_Override(s S3ControlAccessGrantsInstance, scope constructs.Construct, id *string, config *S3ControlAccessGrantsInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -588,7 +588,7 @@ func S3ControlAccessGrantsInstance_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func S3ControlAccessGrantsInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func S3ControlAccessGrantsInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func S3ControlAccessGrantsInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func S3ControlAccessGrantsInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
+		"@cdktn/provider-aws.s3ControlAccessGrantsInstance.S3ControlAccessGrantsInstance",
 		"tfResourceType",
 		&returns,
 	)

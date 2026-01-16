@@ -5,9 +5,9 @@ package gluetrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/gluetrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluetrigger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -303,7 +303,7 @@ func NewGlueTriggerActionsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_GlueTriggerActionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewGlueTriggerActionsOutputReference_Override(g GlueTriggerActionsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
+		"@cdktn/provider-aws.glueTrigger.GlueTriggerActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)

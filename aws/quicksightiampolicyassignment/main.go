@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignment",
+		"@cdktn/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignment",
 		reflect.TypeOf((*QuicksightIamPolicyAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentConfig",
+		"@cdktn/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentConfig",
 		reflect.TypeOf((*QuicksightIamPolicyAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentities",
+		"@cdktn/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentities",
 		reflect.TypeOf((*QuicksightIamPolicyAssignmentIdentities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentitiesList",
+		"@cdktn/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentitiesList",
 		reflect.TypeOf((*QuicksightIamPolicyAssignmentIdentitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentitiesOutputReference",
+		"@cdktn/provider-aws.quicksightIamPolicyAssignment.QuicksightIamPolicyAssignmentIdentitiesOutputReference",
 		reflect.TypeOf((*QuicksightIamPolicyAssignmentIdentitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

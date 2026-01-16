@@ -5,14 +5,14 @@ package m2deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/m2deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_deployment aws_m2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment}.
 type M2Deployment interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_M2Deployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
 func NewM2Deployment(scope constructs.Construct, id *string, config *M2DeploymentConfig) M2Deployment {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewM2Deployment(scope constructs.Construct, id *string, config *M2Deploymen
 	j := jsiiProxy_M2Deployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewM2Deployment(scope constructs.Construct, id *string, config *M2Deploymen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
 func NewM2Deployment_Override(m M2Deployment, scope constructs.Construct, id *string, config *M2DeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -645,7 +645,7 @@ func M2Deployment_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func M2Deployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func M2Deployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func M2Deployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func M2Deployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.m2Deployment.M2Deployment",
+		"@cdktn/provider-aws.m2Deployment.M2Deployment",
 		"tfResourceType",
 		&returns,
 	)

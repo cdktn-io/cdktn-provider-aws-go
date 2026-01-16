@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroup",
 		reflect.TypeOf((*RedshiftSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,7 +83,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroupConfig",
+		"@cdktn/provider-aws.redshiftSubnetGroup.RedshiftSubnetGroupConfig",
 		reflect.TypeOf((*RedshiftSubnetGroupConfig)(nil)).Elem(),
 	)
 }

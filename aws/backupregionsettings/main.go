@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.backupRegionSettings.BackupRegionSettings",
+		"@cdktn/provider-aws.backupRegionSettings.BackupRegionSettings",
 		reflect.TypeOf((*BackupRegionSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.backupRegionSettings.BackupRegionSettingsConfig",
+		"@cdktn/provider-aws.backupRegionSettings.BackupRegionSettingsConfig",
 		reflect.TypeOf((*BackupRegionSettingsConfig)(nil)).Elem(),
 	)
 }

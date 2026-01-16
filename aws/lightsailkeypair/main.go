@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPair",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPair",
 		reflect.TypeOf((*LightsailKeyPair)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.lightsailKeyPair.LightsailKeyPairConfig",
+		"@cdktn/provider-aws.lightsailKeyPair.LightsailKeyPairConfig",
 		reflect.TypeOf((*LightsailKeyPairConfig)(nil)).Elem(),
 	)
 }

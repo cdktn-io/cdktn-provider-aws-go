@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucket",
 		reflect.TypeOf((*S3DirectoryBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketConfig",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketConfig",
 		reflect.TypeOf((*S3DirectoryBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocation",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocation",
 		reflect.TypeOf((*S3DirectoryBucketLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationList",
 		reflect.TypeOf((*S3DirectoryBucketLocationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationOutputReference",
+		"@cdktn/provider-aws.s3DirectoryBucket.S3DirectoryBucketLocationOutputReference",
 		reflect.TypeOf((*S3DirectoryBucketLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

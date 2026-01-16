@@ -5,14 +5,14 @@ package backupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/backupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_plan aws_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_plan aws_backup_plan}.
 type BackupPlan interface {
 	cdktf.TerraformResource
 	AdvancedBackupSetting() BackupPlanAdvancedBackupSettingList
@@ -498,7 +498,7 @@ func (j *jsiiProxy_BackupPlan) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_plan aws_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_plan aws_backup_plan} Resource.
 func NewBackupPlan(scope constructs.Construct, id *string, config *BackupPlanConfig) BackupPlan {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewBackupPlan(scope constructs.Construct, id *string, config *BackupPlanCon
 	j := jsiiProxy_BackupPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewBackupPlan(scope constructs.Construct, id *string, config *BackupPlanCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/backup_plan aws_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_plan aws_backup_plan} Resource.
 func NewBackupPlan_Override(b BackupPlan, scope constructs.Construct, id *string, config *BackupPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -660,7 +660,7 @@ func BackupPlan_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func BackupPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func BackupPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func BackupPlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func BackupPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.backupPlan.BackupPlan",
+		"@cdktn/provider-aws.backupPlan.BackupPlan",
 		"tfResourceType",
 		&returns,
 	)

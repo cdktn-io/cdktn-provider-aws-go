@@ -5,9 +5,9 @@ package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewOdbNetworkManagedServicesManagedS3BackupAccessList(terraformResource cdk
 	j := jsiiProxy_OdbNetworkManagedServicesManagedS3BackupAccessList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewOdbNetworkManagedServicesManagedS3BackupAccessList_Override(o OdbNetwork
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
+		"@cdktn/provider-aws.odbNetwork.OdbNetworkManagedServicesManagedS3BackupAccessList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

@@ -5,14 +5,14 @@ package neptuneparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/neptuneparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/neptuneparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group}.
 type NeptuneParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_NeptuneParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
 func NewNeptuneParameterGroup(scope constructs.Construct, id *string, config *NeptuneParameterGroupConfig) NeptuneParameterGroup {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewNeptuneParameterGroup(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NeptuneParameterGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -530,12 +530,12 @@ func NewNeptuneParameterGroup(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/neptune_parameter_group aws_neptune_parameter_group} Resource.
 func NewNeptuneParameterGroup_Override(n NeptuneParameterGroup, scope constructs.Construct, id *string, config *NeptuneParameterGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -707,7 +707,7 @@ func NeptuneParameterGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func NeptuneParameterGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func NeptuneParameterGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func NeptuneParameterGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func NeptuneParameterGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
+		"@cdktn/provider-aws.neptuneParameterGroup.NeptuneParameterGroup",
 		"tfResourceType",
 		&returns,
 	)

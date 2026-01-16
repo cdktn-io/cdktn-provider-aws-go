@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomization",
 		reflect.TypeOf((*TransferWebAppCustomization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.transferWebAppCustomization.TransferWebAppCustomizationConfig",
+		"@cdktn/provider-aws.transferWebAppCustomization.TransferWebAppCustomizationConfig",
 		reflect.TypeOf((*TransferWebAppCustomizationConfig)(nil)).Elem(),
 	)
 }

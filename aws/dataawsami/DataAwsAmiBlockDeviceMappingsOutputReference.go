@@ -5,9 +5,9 @@ package dataawsami
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsami/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsami/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataAwsAmiBlockDeviceMappingsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataAwsAmiBlockDeviceMappingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmi.DataAwsAmiBlockDeviceMappingsOutputReference",
+		"@cdktn/provider-aws.dataAwsAmi.DataAwsAmiBlockDeviceMappingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataAwsAmiBlockDeviceMappingsOutputReference_Override(d DataAwsAmiBlockD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAmi.DataAwsAmiBlockDeviceMappingsOutputReference",
+		"@cdktn/provider-aws.dataAwsAmi.DataAwsAmiBlockDeviceMappingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,9 +5,9 @@ package finspacekxvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/finspacekxvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewFinspaceKxVolumeNas1ConfigurationOutputReference(terraformResource cdktf
 	j := jsiiProxy_FinspaceKxVolumeNas1ConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewFinspaceKxVolumeNas1ConfigurationOutputReference_Override(f FinspaceKxVo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
+		"@cdktn/provider-aws.finspaceKxVolume.FinspaceKxVolumeNas1ConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		f,
 	)

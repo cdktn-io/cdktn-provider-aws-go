@@ -5,14 +5,14 @@ package dataawsathenanamedquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsathenanamedquery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsathenanamedquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/athena_named_query aws_athena_named_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/athena_named_query aws_athena_named_query}.
 type DataAwsAthenaNamedQuery interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsAthenaNamedQuery) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/athena_named_query aws_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/athena_named_query aws_athena_named_query} Data Source.
 func NewDataAwsAthenaNamedQuery(scope constructs.Construct, id *string, config *DataAwsAthenaNamedQueryConfig) DataAwsAthenaNamedQuery {
 	_init_.Initialize()
 
@@ -379,7 +379,7 @@ func NewDataAwsAthenaNamedQuery(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAwsAthenaNamedQuery{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -387,12 +387,12 @@ func NewDataAwsAthenaNamedQuery(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/athena_named_query aws_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/athena_named_query aws_athena_named_query} Data Source.
 func NewDataAwsAthenaNamedQuery_Override(d DataAwsAthenaNamedQuery, scope constructs.Construct, id *string, config *DataAwsAthenaNamedQueryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAwsAthenaNamedQuery_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAwsAthenaNamedQuery_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAwsAthenaNamedQuery_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAwsAthenaNamedQuery_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAwsAthenaNamedQuery_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
+		"@cdktn/provider-aws.dataAwsAthenaNamedQuery.DataAwsAthenaNamedQuery",
 		"tfResourceType",
 		&returns,
 	)

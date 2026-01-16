@@ -5,9 +5,9 @@ package alb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/alb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/alb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -265,7 +265,7 @@ func NewAlbSubnetMappingOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_AlbSubnetMappingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingOutputReference",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -277,7 +277,7 @@ func NewAlbSubnetMappingOutputReference_Override(a AlbSubnetMappingOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.alb.AlbSubnetMappingOutputReference",
+		"@cdktn/provider-aws.alb.AlbSubnetMappingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

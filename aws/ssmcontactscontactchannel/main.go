@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannel",
 		reflect.TypeOf((*SsmcontactsContactChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationStatus", GoGetter: "ActivationStatus"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelConfig",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelConfig",
 		reflect.TypeOf((*SsmcontactsContactChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddress",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddress",
 		reflect.TypeOf((*SsmcontactsContactChannelDeliveryAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddressOutputReference",
+		"@cdktn/provider-aws.ssmcontactsContactChannel.SsmcontactsContactChannelDeliveryAddressOutputReference",
 		reflect.TypeOf((*SsmcontactsContactChannelDeliveryAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package rdsinstancestate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/rdsinstancestate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsinstancestate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewRdsInstanceStateTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_RdsInstanceStateTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewRdsInstanceStateTimeoutsOutputReference_Override(r RdsInstanceStateTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
+		"@cdktn/provider-aws.rdsInstanceState.RdsInstanceStateTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

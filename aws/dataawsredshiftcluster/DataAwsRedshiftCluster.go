@@ -5,14 +5,14 @@ package dataawsredshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsredshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsredshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_cluster aws_redshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_cluster aws_redshift_cluster}.
 type DataAwsRedshiftCluster interface {
 	cdktf.TerraformDataSource
 	AllowVersionUpgrade() cdktf.IResolvable
@@ -754,7 +754,7 @@ func (j *jsiiProxy_DataAwsRedshiftCluster) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
 func NewDataAwsRedshiftCluster(scope constructs.Construct, id *string, config *DataAwsRedshiftClusterConfig) DataAwsRedshiftCluster {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewDataAwsRedshiftCluster(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAwsRedshiftCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -772,12 +772,12 @@ func NewDataAwsRedshiftCluster(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
 func NewDataAwsRedshiftCluster_Override(d DataAwsRedshiftCluster, scope constructs.Construct, id *string, config *DataAwsRedshiftClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -883,7 +883,7 @@ func DataAwsRedshiftCluster_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -918,7 +918,7 @@ func DataAwsRedshiftCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func DataAwsRedshiftCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +956,7 @@ func DataAwsRedshiftCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -969,7 +969,7 @@ func DataAwsRedshiftCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
+		"@cdktn/provider-aws.dataAwsRedshiftCluster.DataAwsRedshiftCluster",
 		"tfResourceType",
 		&returns,
 	)

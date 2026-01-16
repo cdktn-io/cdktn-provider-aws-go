@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServer",
 		reflect.TypeOf((*DataAwsOdbDbServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerConfig",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerConfig",
 		reflect.TypeOf((*DataAwsOdbDbServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetails",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetails",
 		reflect.TypeOf((*DataAwsOdbDbServerDbServerPatchingDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetailsList",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetailsList",
 		reflect.TypeOf((*DataAwsOdbDbServerDbServerPatchingDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetailsOutputReference",
+		"@cdktn/provider-aws.dataAwsOdbDbServer.DataAwsOdbDbServerDbServerPatchingDetailsOutputReference",
 		reflect.TypeOf((*DataAwsOdbDbServerDbServerPatchingDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

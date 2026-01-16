@@ -5,14 +5,14 @@ package dataawsipranges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsipranges/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsipranges/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ip_ranges aws_ip_ranges}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ip_ranges aws_ip_ranges}.
 type DataAwsIpRanges interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAwsIpRanges) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ip_ranges aws_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ip_ranges aws_ip_ranges} Data Source.
 func NewDataAwsIpRanges(scope constructs.Construct, id *string, config *DataAwsIpRangesConfig) DataAwsIpRanges {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsIpRanges(scope constructs.Construct, id *string, config *DataAwsI
 	j := jsiiProxy_DataAwsIpRanges{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAwsIpRanges(scope constructs.Construct, id *string, config *DataAwsI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/ip_ranges aws_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ip_ranges aws_ip_ranges} Data Source.
 func NewDataAwsIpRanges_Override(d DataAwsIpRanges, scope constructs.Construct, id *string, config *DataAwsIpRangesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -509,7 +509,7 @@ func DataAwsIpRanges_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func DataAwsIpRanges_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataAwsIpRanges_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DataAwsIpRanges_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsIpRanges_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
+		"@cdktn/provider-aws.dataAwsIpRanges.DataAwsIpRanges",
 		"tfResourceType",
 		&returns,
 	)

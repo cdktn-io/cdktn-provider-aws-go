@@ -5,14 +5,14 @@ package sagemakeruserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/sagemakeruserprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakeruserprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile}.
 type SagemakerUserProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_SagemakerUserProfile) UserSettingsInput() *SagemakerUserProfi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
 func NewSagemakerUserProfile(scope constructs.Construct, id *string, config *SagemakerUserProfileConfig) SagemakerUserProfile {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewSagemakerUserProfile(scope constructs.Construct, id *string, config *Sag
 	j := jsiiProxy_SagemakerUserProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewSagemakerUserProfile(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_user_profile aws_sagemaker_user_profile} Resource.
 func NewSagemakerUserProfile_Override(s SagemakerUserProfile, scope constructs.Construct, id *string, config *SagemakerUserProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -717,7 +717,7 @@ func SagemakerUserProfile_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func SagemakerUserProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func SagemakerUserProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func SagemakerUserProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func SagemakerUserProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
+		"@cdktn/provider-aws.sagemakerUserProfile.SagemakerUserProfile",
 		"tfResourceType",
 		&returns,
 	)

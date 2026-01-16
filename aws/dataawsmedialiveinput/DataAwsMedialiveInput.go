@@ -5,14 +5,14 @@ package dataawsmedialiveinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsmedialiveinput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/medialive_input aws_medialive_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/medialive_input aws_medialive_input}.
 type DataAwsMedialiveInput interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -453,7 +453,7 @@ func (j *jsiiProxy_DataAwsMedialiveInput) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) DataAwsMedialiveInput {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAwsMedialiveInput{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput_Override(d DataAwsMedialiveInput, scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -560,7 +560,7 @@ func DataAwsMedialiveInput_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -595,7 +595,7 @@ func DataAwsMedialiveInput_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAwsMedialiveInput_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -633,7 +633,7 @@ func DataAwsMedialiveInput_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -646,7 +646,7 @@ func DataAwsMedialiveInput_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
+		"@cdktn/provider-aws.dataAwsMedialiveInput.DataAwsMedialiveInput",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package securitylakesubscribernotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/securitylakesubscribernotification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securitylakesubscribernotification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification}.
 type SecuritylakeSubscriberNotification interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SecuritylakeSubscriberNotification) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification} Resource.
 func NewSecuritylakeSubscriberNotification(scope constructs.Construct, id *string, config *SecuritylakeSubscriberNotificationConfig) SecuritylakeSubscriberNotification {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewSecuritylakeSubscriberNotification(scope constructs.Construct, id *strin
 	j := jsiiProxy_SecuritylakeSubscriberNotification{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewSecuritylakeSubscriberNotification(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securitylake_subscriber_notification aws_securitylake_subscriber_notification} Resource.
 func NewSecuritylakeSubscriberNotification_Override(s SecuritylakeSubscriberNotification, scope constructs.Construct, id *string, config *SecuritylakeSubscriberNotificationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -519,7 +519,7 @@ func SecuritylakeSubscriberNotification_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func SecuritylakeSubscriberNotification_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func SecuritylakeSubscriberNotification_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func SecuritylakeSubscriberNotification_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func SecuritylakeSubscriberNotification_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
+		"@cdktn/provider-aws.securitylakeSubscriberNotification.SecuritylakeSubscriberNotification",
 		"tfResourceType",
 		&returns,
 	)

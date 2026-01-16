@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftEventSubscription.RedshiftEventSubscription",
+		"@cdktn/provider-aws.redshiftEventSubscription.RedshiftEventSubscription",
 		reflect.TypeOf((*RedshiftEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionConfig",
+		"@cdktn/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionConfig",
 		reflect.TypeOf((*RedshiftEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionTimeouts",
+		"@cdktn/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionTimeouts",
 		reflect.TypeOf((*RedshiftEventSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-aws.redshiftEventSubscription.RedshiftEventSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*RedshiftEventSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

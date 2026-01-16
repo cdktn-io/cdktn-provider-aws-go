@@ -5,14 +5,14 @@ package ceanomalysubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/ceanomalysubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ceanomalysubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription}.
 type CeAnomalySubscription interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_CeAnomalySubscription) ThresholdExpressionInput() *CeAnomalyS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription} Resource.
 func NewCeAnomalySubscription(scope constructs.Construct, id *string, config *CeAnomalySubscriptionConfig) CeAnomalySubscription {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewCeAnomalySubscription(scope constructs.Construct, id *string, config *Ce
 	j := jsiiProxy_CeAnomalySubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewCeAnomalySubscription(scope constructs.Construct, id *string, config *Ce
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ce_anomaly_subscription aws_ce_anomaly_subscription} Resource.
 func NewCeAnomalySubscription_Override(c CeAnomalySubscription, scope constructs.Construct, id *string, config *CeAnomalySubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -693,7 +693,7 @@ func CeAnomalySubscription_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func CeAnomalySubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func CeAnomalySubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func CeAnomalySubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func CeAnomalySubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
+		"@cdktn/provider-aws.ceAnomalySubscription.CeAnomalySubscription",
 		"tfResourceType",
 		&returns,
 	)

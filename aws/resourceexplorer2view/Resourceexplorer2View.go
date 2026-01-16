@@ -5,14 +5,14 @@ package resourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/resourceexplorer2view/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2view/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view}.
 type Resourceexplorer2View interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_Resourceexplorer2View) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) Resourceexplorer2View {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Re
 	j := jsiiProxy_Resourceexplorer2View{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.25.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_view aws_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View_Override(r Resourceexplorer2View, scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -648,7 +648,7 @@ func Resourceexplorer2View_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func Resourceexplorer2View_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func Resourceexplorer2View_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func Resourceexplorer2View_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func Resourceexplorer2View_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-aws.resourceexplorer2View.Resourceexplorer2View",
+		"@cdktn/provider-aws.resourceexplorer2View.Resourceexplorer2View",
 		"tfResourceType",
 		&returns,
 	)

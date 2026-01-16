@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.dataAwsIotEndpoint.DataAwsIotEndpoint",
+		"@cdktn/provider-aws.dataAwsIotEndpoint.DataAwsIotEndpoint",
 		reflect.TypeOf((*DataAwsIotEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.dataAwsIotEndpoint.DataAwsIotEndpointConfig",
+		"@cdktn/provider-aws.dataAwsIotEndpoint.DataAwsIotEndpointConfig",
 		reflect.TypeOf((*DataAwsIotEndpointConfig)(nil)).Elem(),
 	)
 }

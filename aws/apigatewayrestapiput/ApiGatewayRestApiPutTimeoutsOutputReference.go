@@ -5,9 +5,9 @@ package apigatewayrestapiput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
 
-	"github.com/cdktf/cdktf-provider-aws-go/aws/v21/apigatewayrestapiput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayrestapiput/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewApiGatewayRestApiPutTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_ApiGatewayRestApiPutTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewApiGatewayRestApiPutTimeoutsOutputReference_Override(a ApiGatewayRestApi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
+		"@cdktn/provider-aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

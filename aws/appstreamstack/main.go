@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStack",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStack",
 		reflect.TypeOf((*AppstreamStack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessEndpoints", GoGetter: "AccessEndpoints"},
@@ -114,11 +114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackAccessEndpoints",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackAccessEndpoints",
 		reflect.TypeOf((*AppstreamStackAccessEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackAccessEndpointsList",
 		reflect.TypeOf((*AppstreamStackAccessEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackAccessEndpointsOutputReference",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackAccessEndpointsOutputReference",
 		reflect.TypeOf((*AppstreamStackAccessEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -177,11 +177,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackApplicationSettings",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackApplicationSettings",
 		reflect.TypeOf((*AppstreamStackApplicationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackApplicationSettingsOutputReference",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackApplicationSettingsOutputReference",
 		reflect.TypeOf((*AppstreamStackApplicationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -218,15 +218,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackConfig",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackConfig",
 		reflect.TypeOf((*AppstreamStackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackStorageConnectors",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackStorageConnectors",
 		reflect.TypeOf((*AppstreamStackStorageConnectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackStorageConnectorsList",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackStorageConnectorsList",
 		reflect.TypeOf((*AppstreamStackStorageConnectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -248,7 +248,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackStorageConnectorsOutputReference",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackStorageConnectorsOutputReference",
 		reflect.TypeOf((*AppstreamStackStorageConnectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,11 +288,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackStreamingExperienceSettings",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackStreamingExperienceSettings",
 		reflect.TypeOf((*AppstreamStackStreamingExperienceSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackStreamingExperienceSettingsOutputReference",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackStreamingExperienceSettingsOutputReference",
 		reflect.TypeOf((*AppstreamStackStreamingExperienceSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -327,11 +327,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackUserSettings",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackUserSettings",
 		reflect.TypeOf((*AppstreamStackUserSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackUserSettingsList",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackUserSettingsList",
 		reflect.TypeOf((*AppstreamStackUserSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -353,7 +353,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-aws.appstreamStack.AppstreamStackUserSettingsOutputReference",
+		"@cdktn/provider-aws.appstreamStack.AppstreamStackUserSettingsOutputReference",
 		reflect.TypeOf((*AppstreamStackUserSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
