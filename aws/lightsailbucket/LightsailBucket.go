@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lightsailbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lightsailbucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_bucket aws_lightsail_bucket}.
 type LightsailBucket interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_LightsailBucket) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket(scope constructs.Construct, id *string, config *LightsailBucketConfig) LightsailBucket {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewLightsailBucket(scope constructs.Construct, id *string, config *Lightsai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_bucket aws_lightsail_bucket} Resource.
 func NewLightsailBucket_Override(l LightsailBucket, scope constructs.Construct, id *string, config *LightsailBucketConfig) {
 	_init_.Initialize()
 

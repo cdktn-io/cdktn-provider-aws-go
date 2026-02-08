@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appsyncresolver
 
 
 type AppsyncResolverCachingConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appsync_resolver#caching_keys AppsyncResolver#caching_keys}.
 	CachingKeys *[]*string `field:"optional" json:"cachingKeys" yaml:"cachingKeys"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appsync_resolver#ttl AppsyncResolver#ttl}.
 	Ttl *float64 `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

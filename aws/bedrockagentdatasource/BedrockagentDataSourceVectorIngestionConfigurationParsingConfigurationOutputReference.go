@@ -1,18 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bedrockagentdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
 type BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference interface {
 	cdktf.ComplexObject
+	BedrockDataAutomationConfiguration() BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockDataAutomationConfigurationList
+	BedrockDataAutomationConfigurationInput() interface{}
 	BedrockFoundationModelConfiguration() BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationList
 	BedrockFoundationModelConfigurationInput() interface{}
 	// the index of the complex object in a list.
@@ -69,7 +71,9 @@ type BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutpu
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutBedrockDataAutomationConfiguration(value interface{})
 	PutBedrockFoundationModelConfiguration(value interface{})
+	ResetBedrockDataAutomationConfiguration()
 	ResetBedrockFoundationModelConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -84,6 +88,26 @@ type BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutpu
 // The jsii proxy struct for BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference
 type jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) BedrockDataAutomationConfiguration() BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockDataAutomationConfigurationList {
+	var returns BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockDataAutomationConfigurationList
+	_jsii_.Get(
+		j,
+		"bedrockDataAutomationConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) BedrockDataAutomationConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"bedrockDataAutomationConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) BedrockFoundationModelConfiguration() BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationList {
@@ -476,6 +500,17 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) PutBedrockDataAutomationConfiguration(value interface{}) {
+	if err := b.validatePutBedrockDataAutomationConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putBedrockDataAutomationConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) PutBedrockFoundationModelConfiguration(value interface{}) {
 	if err := b.validatePutBedrockFoundationModelConfigurationParameters(value); err != nil {
 		panic(err)
@@ -484,6 +519,14 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 		b,
 		"putBedrockFoundationModelConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) ResetBedrockDataAutomationConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetBedrockDataAutomationConfiguration",
+		nil, // no parameters
 	)
 }
 

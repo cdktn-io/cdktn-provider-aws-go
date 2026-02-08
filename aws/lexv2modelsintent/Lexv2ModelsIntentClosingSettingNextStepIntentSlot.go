@@ -1,17 +1,17 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsintent
 
 
 type Lexv2ModelsIntentClosingSettingNextStepIntentSlot struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#map_block_key Lexv2ModelsIntent#map_block_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#map_block_key Lexv2ModelsIntent#map_block_key}.
 	MapBlockKey *string `field:"required" json:"mapBlockKey" yaml:"mapBlockKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#shape Lexv2ModelsIntent#shape}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#shape Lexv2ModelsIntent#shape}.
 	Shape *string `field:"optional" json:"shape" yaml:"shape"`
 	// value block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#value Lexv2ModelsIntent#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#value Lexv2ModelsIntent#value}
 	Value interface{} `field:"optional" json:"value" yaml:"value"`
 }
 

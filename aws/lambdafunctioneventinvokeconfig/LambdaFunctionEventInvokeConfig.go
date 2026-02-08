@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lambdafunctioneventinvokeconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdafunctioneventinvokeconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdafunctioneventinvokeconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config}.
 type LambdaFunctionEventInvokeConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_LambdaFunctionEventInvokeConfig) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) LambdaFunctionEventInvokeConfig {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewLambdaFunctionEventInvokeConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_function_event_invoke_config aws_lambda_function_event_invoke_config} Resource.
 func NewLambdaFunctionEventInvokeConfig_Override(l LambdaFunctionEventInvokeConfig, scope constructs.Construct, id *string, config *LambdaFunctionEventInvokeConfigConfig) {
 	_init_.Initialize()
 

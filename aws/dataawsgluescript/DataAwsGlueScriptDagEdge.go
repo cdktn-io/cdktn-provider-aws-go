@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsgluescript
 
 
 type DataAwsGlueScriptDagEdge struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script#source DataAwsGlueScript#source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script#source DataAwsGlueScript#source}.
 	Source *string `field:"required" json:"source" yaml:"source"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script#target DataAwsGlueScript#target}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script#target DataAwsGlueScript#target}.
 	Target *string `field:"required" json:"target" yaml:"target"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script#target_parameter DataAwsGlueScript#target_parameter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script#target_parameter DataAwsGlueScript#target_parameter}.
 	TargetParameter *string `field:"optional" json:"targetParameter" yaml:"targetParameter"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appstreamimagebuilder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appstreamimagebuilder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appstreamimagebuilder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appstream_image_builder aws_appstream_image_builder}.
 type AppstreamImageBuilder interface {
 	cdktf.TerraformResource
 	AccessEndpoint() AppstreamImageBuilderAccessEndpointList
@@ -701,7 +701,7 @@ func (j *jsiiProxy_AppstreamImageBuilder) VpcConfigInput() *AppstreamImageBuilde
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) AppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -719,7 +719,7 @@ func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appstream_image_builder aws_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder_Override(a AppstreamImageBuilder, scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) {
 	_init_.Initialize()
 

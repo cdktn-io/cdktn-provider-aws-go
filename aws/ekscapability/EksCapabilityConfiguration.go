@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ekscapability
@@ -7,7 +7,7 @@ package ekscapability
 type EksCapabilityConfiguration struct {
 	// argo_cd block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
 	ArgoCd interface{} `field:"optional" json:"argoCd" yaml:"argoCd"`
 }
 

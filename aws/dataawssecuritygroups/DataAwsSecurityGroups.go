@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawssecuritygroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawssecuritygroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawssecuritygroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/security_groups aws_security_groups}.
 type DataAwsSecurityGroups interface {
 	cdktf.TerraformDataSource
 	Arns() *[]*string
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsSecurityGroups) VpcIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/security_groups aws_security_groups} Data Source.
 func NewDataAwsSecurityGroups(scope constructs.Construct, id *string, config *DataAwsSecurityGroupsConfig) DataAwsSecurityGroups {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsSecurityGroups(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/security_groups aws_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/security_groups aws_security_groups} Data Source.
 func NewDataAwsSecurityGroups_Override(d DataAwsSecurityGroups, scope constructs.Construct, id *string, config *DataAwsSecurityGroupsConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluecatalogdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluecatalogdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluecatalogdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_catalog_database aws_glue_catalog_database}.
 type GlueCatalogDatabase interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_GlueCatalogDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
 func NewGlueCatalogDatabase(scope constructs.Construct, id *string, config *GlueCatalogDatabaseConfig) GlueCatalogDatabase {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewGlueCatalogDatabase(scope constructs.Construct, id *string, config *Glue
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_catalog_database aws_glue_catalog_database} Resource.
 func NewGlueCatalogDatabase_Override(g GlueCatalogDatabase, scope constructs.Construct, id *string, config *GlueCatalogDatabaseConfig) {
 	_init_.Initialize()
 

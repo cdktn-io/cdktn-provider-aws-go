@@ -1,21 +1,21 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynamodbtable
 
 
 type DynamodbTableImportTable struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dynamodb_table#input_format DynamodbTable#input_format}.
 	InputFormat *string `field:"required" json:"inputFormat" yaml:"inputFormat"`
 	// s3_bucket_source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dynamodb_table#s3_bucket_source DynamodbTable#s3_bucket_source}
 	S3BucketSource *DynamodbTableImportTableS3BucketSource `field:"required" json:"s3BucketSource" yaml:"s3BucketSource"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dynamodb_table#input_compression_type DynamodbTable#input_compression_type}.
 	InputCompressionType *string `field:"optional" json:"inputCompressionType" yaml:"inputCompressionType"`
 	// input_format_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dynamodb_table#input_format_options DynamodbTable#input_format_options}
 	InputFormatOptions *DynamodbTableImportTableInputFormatOptions `field:"optional" json:"inputFormatOptions" yaml:"inputFormatOptions"`
 }
 

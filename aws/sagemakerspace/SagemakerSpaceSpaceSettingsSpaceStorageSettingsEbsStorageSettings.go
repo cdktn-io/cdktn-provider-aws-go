@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sagemakerspace
 
 
 type SagemakerSpaceSpaceSettingsSpaceStorageSettingsEbsStorageSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_space#ebs_volume_size_in_gb SagemakerSpace#ebs_volume_size_in_gb}.
 	EbsVolumeSizeInGb *float64 `field:"required" json:"ebsVolumeSizeInGb" yaml:"ebsVolumeSizeInGb"`
 }
 

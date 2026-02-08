@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcendpointserviceprivatednsverification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointserviceprivatednsverification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcendpointserviceprivatednsverification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification}.
 type VpcEndpointServicePrivateDnsVerification interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_VpcEndpointServicePrivateDnsVerification) WaitForVerification
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification} Resource.
 func NewVpcEndpointServicePrivateDnsVerification(scope constructs.Construct, id *string, config *VpcEndpointServicePrivateDnsVerificationConfig) VpcEndpointServicePrivateDnsVerification {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewVpcEndpointServicePrivateDnsVerification(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_service_private_dns_verification aws_vpc_endpoint_service_private_dns_verification} Resource.
 func NewVpcEndpointServicePrivateDnsVerification_Override(v VpcEndpointServicePrivateDnsVerification, scope constructs.Construct, id *string, config *VpcEndpointServicePrivateDnsVerificationConfig) {
 	_init_.Initialize()
 

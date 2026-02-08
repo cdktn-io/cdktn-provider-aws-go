@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package locationtracker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/locationtracker/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/locationtracker/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/location_tracker aws_location_tracker}.
 type LocationTracker interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_LocationTracker) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/location_tracker aws_location_tracker} Resource.
 func NewLocationTracker(scope constructs.Construct, id *string, config *LocationTrackerConfig) LocationTracker {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewLocationTracker(scope constructs.Construct, id *string, config *Location
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/location_tracker aws_location_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/location_tracker aws_location_tracker} Resource.
 func NewLocationTracker_Override(l LocationTracker, scope constructs.Construct, id *string, config *LocationTrackerConfig) {
 	_init_.Initialize()
 

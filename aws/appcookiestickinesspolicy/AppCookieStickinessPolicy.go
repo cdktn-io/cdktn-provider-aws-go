@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appcookiestickinesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appcookiestickinesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appcookiestickinesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy}.
 type AppCookieStickinessPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_AppCookieStickinessPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) AppCookieStickinessPolicy {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewAppCookieStickinessPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/app_cookie_stickiness_policy aws_app_cookie_stickiness_policy} Resource.
 func NewAppCookieStickinessPolicy_Override(a AppCookieStickinessPolicy, scope constructs.Construct, id *string, config *AppCookieStickinessPolicyConfig) {
 	_init_.Initialize()
 

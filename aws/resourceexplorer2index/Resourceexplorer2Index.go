@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourceexplorer2index
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourceexplorer2index/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/resourceexplorer2index/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index}.
 type Resourceexplorer2Index interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Resourceexplorer2Index) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
 func NewResourceexplorer2Index(scope constructs.Construct, id *string, config *Resourceexplorer2IndexConfig) Resourceexplorer2Index {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewResourceexplorer2Index(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourceexplorer2_index aws_resourceexplorer2_index} Resource.
 func NewResourceexplorer2Index_Override(r Resourceexplorer2Index, scope constructs.Construct, id *string, config *Resourceexplorer2IndexConfig) {
 	_init_.Initialize()
 

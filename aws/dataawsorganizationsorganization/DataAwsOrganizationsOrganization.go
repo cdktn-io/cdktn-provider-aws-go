@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsorganizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsorganizationsorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organization aws_organizations_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_organization aws_organizations_organization}.
 type DataAwsOrganizationsOrganization interface {
 	cdktf.TerraformDataSource
 	Accounts() DataAwsOrganizationsOrganizationAccountsList
@@ -60,6 +60,9 @@ type DataAwsOrganizationsOrganization interface {
 	SetProvider(val cdktf.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	ReturnOrganizationOnly() interface{}
+	SetReturnOrganizationOnly(val interface{})
+	ReturnOrganizationOnlyInput() interface{}
 	Roots() DataAwsOrganizationsOrganizationRootsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
@@ -96,6 +99,7 @@ type DataAwsOrganizationsOrganization interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetReturnOrganizationOnly()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Adds this resource to the terraform JSON output.
@@ -345,6 +349,26 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganization) RawOverrides() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsOrganizationsOrganization) ReturnOrganizationOnly() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"returnOrganizationOnly",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOrganizationsOrganization) ReturnOrganizationOnlyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"returnOrganizationOnlyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOrganizationsOrganization) Roots() DataAwsOrganizationsOrganizationRootsList {
 	var returns DataAwsOrganizationsOrganizationRootsList
 	_jsii_.Get(
@@ -386,7 +410,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganization) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organization aws_organizations_organization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_organization aws_organizations_organization} Data Source.
 func NewDataAwsOrganizationsOrganization(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationConfig) DataAwsOrganizationsOrganization {
 	_init_.Initialize()
 
@@ -404,7 +428,7 @@ func NewDataAwsOrganizationsOrganization(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_organization aws_organizations_organization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_organization aws_organizations_organization} Data Source.
 func NewDataAwsOrganizationsOrganization_Override(d DataAwsOrganizationsOrganization, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationConfig) {
 	_init_.Initialize()
 
@@ -468,6 +492,17 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganization)SetProvider(val cdktf.Terraf
 	_jsii_.Set(
 		j,
 		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsOrganizationsOrganization)SetReturnOrganizationOnly(val interface{}) {
+	if err := j.validateSetReturnOrganizationOnlyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"returnOrganizationOnly",
 		val,
 	)
 }
@@ -769,6 +804,14 @@ func (d *jsiiProxy_DataAwsOrganizationsOrganization) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsOrganizationsOrganization) ResetReturnOrganizationOnly() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetReturnOrganizationOnly",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package memorydbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/memorydbsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group}.
 type MemorydbSubnetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -499,7 +499,7 @@ func (j *jsiiProxy_MemorydbSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group} Resource.
 func NewMemorydbSubnetGroup(scope constructs.Construct, id *string, config *MemorydbSubnetGroupConfig) MemorydbSubnetGroup {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewMemorydbSubnetGroup(scope constructs.Construct, id *string, config *Memo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_subnet_group aws_memorydb_subnet_group} Resource.
 func NewMemorydbSubnetGroup_Override(m MemorydbSubnetGroup, scope constructs.Construct, id *string, config *MemorydbSubnetGroupConfig) {
 	_init_.Initialize()
 

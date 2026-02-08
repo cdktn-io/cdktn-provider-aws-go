@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxontapfilesystem
 
 
 type FsxOntapFileSystemDiskIopsConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_ontap_file_system#iops FsxOntapFileSystem#iops}.
 	Iops *float64 `field:"optional" json:"iops" yaml:"iops"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_ontap_file_system#mode FsxOntapFileSystem#mode}.
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 }
 

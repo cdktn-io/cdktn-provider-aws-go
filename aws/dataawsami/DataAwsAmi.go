@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsami
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsami/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsami/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ami aws_ami}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ami aws_ami}.
 type DataAwsAmi interface {
 	cdktf.TerraformDataSource
 	AllowUnsafeFilter() interface{}
@@ -881,7 +881,7 @@ func (j *jsiiProxy_DataAwsAmi) VirtualizationType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiConfig) DataAwsAmi {
 	_init_.Initialize()
 
@@ -899,7 +899,7 @@ func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi_Override(d DataAwsAmi, scope constructs.Construct, id *string, config *DataAwsAmiConfig) {
 	_init_.Initialize()
 

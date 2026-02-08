@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pipespipe
 
 
 type PipesPipeTargetParametersEcsTaskParametersPlacementConstraint struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe#expression PipesPipe#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/pipes_pipe#expression PipesPipe#expression}.
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

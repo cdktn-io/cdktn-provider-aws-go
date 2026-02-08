@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mediaconvertqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mediaconvertqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mediaconvertqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_convert_queue aws_media_convert_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/media_convert_queue aws_media_convert_queue}.
 type MediaConvertQueue interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -536,7 +536,7 @@ func (j *jsiiProxy_MediaConvertQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
 func NewMediaConvertQueue(scope constructs.Construct, id *string, config *MediaConvertQueueConfig) MediaConvertQueue {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewMediaConvertQueue(scope constructs.Construct, id *string, config *MediaC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
 func NewMediaConvertQueue_Override(m MediaConvertQueue, scope constructs.Construct, id *string, config *MediaConvertQueueConfig) {
 	_init_.Initialize()
 

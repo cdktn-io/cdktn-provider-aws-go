@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbdbnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbdbnodes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
 type DataAwsOdbDbNodes interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOdbDbNodes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) DataAwsOdbDbNodes {
 	_init_.Initialize()
 
@@ -317,7 +317,7 @@ func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes_Override(d DataAwsOdbDbNodes, scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ecsservice
@@ -7,9 +7,9 @@ package ecsservice
 type EcsServiceVolumeConfiguration struct {
 	// managed_ebs_volume block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecs_service#managed_ebs_volume EcsService#managed_ebs_volume}
 	ManagedEbsVolume *EcsServiceVolumeConfigurationManagedEbsVolume `field:"required" json:"managedEbsVolume" yaml:"managedEbsVolume"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecs_service#name EcsService#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecs_service#name EcsService#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

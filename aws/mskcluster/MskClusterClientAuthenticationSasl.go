@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mskcluster
 
 
 type MskClusterClientAuthenticationSasl struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster#iam MskCluster#iam}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/msk_cluster#iam MskCluster#iam}.
 	Iam interface{} `field:"optional" json:"iam" yaml:"iam"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster#scram MskCluster#scram}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/msk_cluster#scram MskCluster#scram}.
 	Scram interface{} `field:"optional" json:"scram" yaml:"scram"`
 }
 

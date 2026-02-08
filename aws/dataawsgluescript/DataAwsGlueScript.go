@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsgluescript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsgluescript/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsgluescript/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script aws_glue_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script aws_glue_script}.
 type DataAwsGlueScript interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsGlueScript) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script aws_glue_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script aws_glue_script} Data Source.
 func NewDataAwsGlueScript(scope constructs.Construct, id *string, config *DataAwsGlueScriptConfig) DataAwsGlueScript {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsGlueScript(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/glue_script aws_glue_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/glue_script aws_glue_script} Data Source.
 func NewDataAwsGlueScript_Override(d DataAwsGlueScript, scope constructs.Construct, id *string, config *DataAwsGlueScriptConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbcloudautonomousvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbcloudautonomousvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
 type DataAwsOdbCloudAutonomousVmCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -23,6 +23,7 @@ type DataAwsOdbCloudAutonomousVmCluster interface {
 	AvailableCpus() *float64
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	CloudExadataInfrastructureArn() *string
 	CloudExadataInfrastructureId() *string
 	ComputeModel() *string
 	// Experimental.
@@ -75,6 +76,7 @@ type DataAwsOdbCloudAutonomousVmCluster interface {
 	Ocid() *string
 	OciResourceAnchorName() *string
 	OciUrl() *string
+	OdbNetworkArn() *string
 	OdbNetworkId() *string
 	OdbNodeStorageSizeInGbs() *float64
 	PercentProgress() *float64
@@ -221,6 +223,16 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) CdktfStack() cdktf.Terraf
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) CloudExadataInfrastructureArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudExadataInfrastructureArn",
 		&returns,
 	)
 	return returns
@@ -576,6 +588,16 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) OciUrl() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) OdbNetworkId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -827,7 +849,7 @@ func (j *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) TotalContainerDatabases()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *DataAwsOdbCloudAutonomousVmClusterConfig) DataAwsOdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -845,7 +867,7 @@ func NewDataAwsOdbCloudAutonomousVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsOdbCloudAutonomousVmCluster_Override(d DataAwsOdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *DataAwsOdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 

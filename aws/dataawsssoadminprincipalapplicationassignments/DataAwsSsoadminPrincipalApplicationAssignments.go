@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsssoadminprincipalapplicationassignments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminprincipalapplicationassignments/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssoadminprincipalapplicationassignments/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments}.
 type DataAwsSsoadminPrincipalApplicationAssignments interface {
 	cdktf.TerraformDataSource
 	ApplicationAssignments() DataAwsSsoadminPrincipalApplicationAssignmentsApplicationAssignmentsList
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
 func NewDataAwsSsoadminPrincipalApplicationAssignments(scope constructs.Construct, id *string, config *DataAwsSsoadminPrincipalApplicationAssignmentsConfig) DataAwsSsoadminPrincipalApplicationAssignments {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataAwsSsoadminPrincipalApplicationAssignments(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_principal_application_assignments aws_ssoadmin_principal_application_assignments} Data Source.
 func NewDataAwsSsoadminPrincipalApplicationAssignments_Override(d DataAwsSsoadminPrincipalApplicationAssignments, scope constructs.Construct, id *string, config *DataAwsSsoadminPrincipalApplicationAssignmentsConfig) {
 	_init_.Initialize()
 

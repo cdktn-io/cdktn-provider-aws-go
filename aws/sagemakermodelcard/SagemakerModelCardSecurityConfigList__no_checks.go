@@ -1,0 +1,41 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package sagemakermodelcard
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelCardSecurityConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelCardSecurityConfigList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewSagemakerModelCardSecurityConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

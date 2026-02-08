@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package configorganizationcustomrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/configorganizationcustomrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/configorganizationcustomrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule}.
 type ConfigOrganizationCustomRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -630,7 +630,7 @@ func (j *jsiiProxy_ConfigOrganizationCustomRule) TriggerTypesInput() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
 func NewConfigOrganizationCustomRule(scope constructs.Construct, id *string, config *ConfigOrganizationCustomRuleConfig) ConfigOrganizationCustomRule {
 	_init_.Initialize()
 
@@ -648,7 +648,7 @@ func NewConfigOrganizationCustomRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/config_organization_custom_rule aws_config_organization_custom_rule} Resource.
 func NewConfigOrganizationCustomRule_Override(c ConfigOrganizationCustomRule, scope constructs.Construct, id *string, config *ConfigOrganizationCustomRuleConfig) {
 	_init_.Initialize()
 

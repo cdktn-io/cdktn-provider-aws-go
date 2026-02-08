@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsecrpublicimages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecrpublicimages/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecrpublicimages/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images}.
 type DataAwsEcrpublicImages interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataAwsEcrpublicImages) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source.
 func NewDataAwsEcrpublicImages(scope constructs.Construct, id *string, config *DataAwsEcrpublicImagesConfig) DataAwsEcrpublicImages {
 	_init_.Initialize()
 
@@ -365,7 +365,7 @@ func NewDataAwsEcrpublicImages(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecrpublic_images aws_ecrpublic_images} Data Source.
 func NewDataAwsEcrpublicImages_Override(d DataAwsEcrpublicImages, scope constructs.Construct, id *string, config *DataAwsEcrpublicImagesConfig) {
 	_init_.Initialize()
 

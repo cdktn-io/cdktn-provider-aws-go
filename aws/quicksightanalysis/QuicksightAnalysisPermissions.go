@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package quicksightanalysis
 
 
 type QuicksightAnalysisPermissions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}.
 	Actions *[]*string `field:"required" json:"actions" yaml:"actions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}.
 	Principal *string `field:"required" json:"principal" yaml:"principal"`
 }
 

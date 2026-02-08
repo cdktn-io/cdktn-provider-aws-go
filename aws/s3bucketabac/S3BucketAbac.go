@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3bucketabac
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketabac/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketabac/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac}.
 type S3BucketAbac interface {
 	cdktf.TerraformResource
 	AbacStatus() S3BucketAbacAbacStatusList
@@ -381,7 +381,7 @@ func (j *jsiiProxy_S3BucketAbac) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac} Resource.
 func NewS3BucketAbac(scope constructs.Construct, id *string, config *S3BucketAbacConfig) S3BucketAbac {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewS3BucketAbac(scope constructs.Construct, id *string, config *S3BucketAba
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_abac aws_s3_bucket_abac} Resource.
 func NewS3BucketAbac_Override(s S3BucketAbac, scope constructs.Construct, id *string, config *S3BucketAbacConfig) {
 	_init_.Initialize()
 

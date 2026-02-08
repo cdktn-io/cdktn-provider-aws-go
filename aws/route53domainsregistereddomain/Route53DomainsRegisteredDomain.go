@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53domainsregistereddomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53domainsregistereddomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53domainsregistereddomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain}.
 type Route53DomainsRegisteredDomain interface {
 	cdktf.TerraformResource
 	AbuseContactEmail() *string
@@ -779,7 +779,7 @@ func (j *jsiiProxy_Route53DomainsRegisteredDomain) WhoisServer() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) Route53DomainsRegisteredDomain {
 	_init_.Initialize()
 
@@ -797,7 +797,7 @@ func NewRoute53DomainsRegisteredDomain(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53domains_registered_domain aws_route53domains_registered_domain} Resource.
 func NewRoute53DomainsRegisteredDomain_Override(r Route53DomainsRegisteredDomain, scope constructs.Construct, id *string, config *Route53DomainsRegisteredDomainConfig) {
 	_init_.Initialize()
 

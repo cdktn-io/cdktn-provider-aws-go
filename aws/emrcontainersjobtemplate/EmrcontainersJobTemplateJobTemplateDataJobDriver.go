@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emrcontainersjobtemplate
@@ -7,11 +7,11 @@ package emrcontainersjobtemplate
 type EmrcontainersJobTemplateJobTemplateDataJobDriver struct {
 	// spark_sql_job_driver block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrcontainers_job_template#spark_sql_job_driver EmrcontainersJobTemplate#spark_sql_job_driver}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emrcontainers_job_template#spark_sql_job_driver EmrcontainersJobTemplate#spark_sql_job_driver}
 	SparkSqlJobDriver *EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriver `field:"optional" json:"sparkSqlJobDriver" yaml:"sparkSqlJobDriver"`
 	// spark_submit_job_driver block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrcontainers_job_template#spark_submit_job_driver EmrcontainersJobTemplate#spark_submit_job_driver}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emrcontainers_job_template#spark_submit_job_driver EmrcontainersJobTemplate#spark_submit_job_driver}
 	SparkSubmitJobDriver *EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDriver `field:"optional" json:"sparkSubmitJobDriver" yaml:"sparkSubmitJobDriver"`
 }
 

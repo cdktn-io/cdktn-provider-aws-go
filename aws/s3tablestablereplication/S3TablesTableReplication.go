@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3tablestablereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestablereplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3tablestablereplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication}.
 type S3TablesTableReplication interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_S3TablesTableReplication) VersionToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
 func NewS3TablesTableReplication(scope constructs.Construct, id *string, config *S3TablesTableReplicationConfig) S3TablesTableReplication {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewS3TablesTableReplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
 func NewS3TablesTableReplication_Override(s S3TablesTableReplication, scope constructs.Construct, id *string, config *S3TablesTableReplicationConfig) {
 	_init_.Initialize()
 

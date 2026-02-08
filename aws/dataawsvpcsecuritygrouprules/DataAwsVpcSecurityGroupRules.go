@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpcsecuritygrouprules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcsecuritygrouprules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcsecuritygrouprules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules}.
 type DataAwsVpcSecurityGroupRules interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAwsVpcSecurityGroupRules) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules} Data Source.
 func NewDataAwsVpcSecurityGroupRules(scope constructs.Construct, id *string, config *DataAwsVpcSecurityGroupRulesConfig) DataAwsVpcSecurityGroupRules {
 	_init_.Initialize()
 
@@ -353,7 +353,7 @@ func NewDataAwsVpcSecurityGroupRules(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_security_group_rules aws_vpc_security_group_rules} Data Source.
 func NewDataAwsVpcSecurityGroupRules_Override(d DataAwsVpcSecurityGroupRules, scope constructs.Construct, id *string, config *DataAwsVpcSecurityGroupRulesConfig) {
 	_init_.Initialize()
 

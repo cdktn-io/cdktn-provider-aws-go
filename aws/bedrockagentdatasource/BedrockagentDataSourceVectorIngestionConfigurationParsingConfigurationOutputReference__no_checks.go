@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -44,6 +44,10 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 }
 
 func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationOutputReference) validatePutBedrockDataAutomationConfigurationParameters(value interface{}) error {
 	return nil
 }
 

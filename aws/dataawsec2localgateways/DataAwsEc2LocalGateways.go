@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsec2localgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2localgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2localgateways/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways}.
 type DataAwsEc2LocalGateways interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGateways) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
 func NewDataAwsEc2LocalGateways(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewaysConfig) DataAwsEc2LocalGateways {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsEc2LocalGateways(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
 func NewDataAwsEc2LocalGateways_Override(d DataAwsEc2LocalGateways, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewaysConfig) {
 	_init_.Initialize()
 

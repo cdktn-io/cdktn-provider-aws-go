@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package timestreaminfluxdbdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/timestreaminfluxdbdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/timestreaminfluxdbdbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster}.
 type TimestreaminfluxdbDbCluster interface {
 	cdktf.TerraformResource
 	AllocatedStorage() *float64
@@ -839,7 +839,7 @@ func (j *jsiiProxy_TimestreaminfluxdbDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) TimestreaminfluxdbDbCluster {
 	_init_.Initialize()
 
@@ -857,7 +857,7 @@ func NewTimestreaminfluxdbDbCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/timestreaminfluxdb_db_cluster aws_timestreaminfluxdb_db_cluster} Resource.
 func NewTimestreaminfluxdbDbCluster_Override(t TimestreaminfluxdbDbCluster, scope constructs.Construct, id *string, config *TimestreaminfluxdbDbClusterConfig) {
 	_init_.Initialize()
 

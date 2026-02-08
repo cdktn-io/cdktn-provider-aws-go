@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fisexperimenttemplate
@@ -7,7 +7,7 @@ package fisexperimenttemplate
 type FisExperimentTemplateExperimentReportConfigurationOutputs struct {
 	// s3_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fis_experiment_template#s3_configuration FisExperimentTemplate#s3_configuration}
 	S3Configuration *FisExperimentTemplateExperimentReportConfigurationOutputsS3Configuration `field:"optional" json:"s3Configuration" yaml:"s3Configuration"`
 }
 

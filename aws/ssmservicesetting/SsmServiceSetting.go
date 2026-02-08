@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssmservicesetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmservicesetting/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmservicesetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_service_setting aws_ssm_service_setting}.
 type SsmServiceSetting interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_SsmServiceSetting) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmServiceSettingConfig) SsmServiceSetting {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_service_setting aws_ssm_service_setting} Resource.
 func NewSsmServiceSetting_Override(s SsmServiceSetting, scope constructs.Construct, id *string, config *SsmServiceSettingConfig) {
 	_init_.Initialize()
 

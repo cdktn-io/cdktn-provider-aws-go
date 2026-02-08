@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsreplicakey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsreplicakey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kmsreplicakey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_key aws_kms_replica_key}.
 type KmsReplicaKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_KmsReplicaKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) KmsReplicaKey {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewKmsReplicaKey(scope constructs.Construct, id *string, config *KmsReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_key aws_kms_replica_key} Resource.
 func NewKmsReplicaKey_Override(k KmsReplicaKey, scope constructs.Construct, id *string, config *KmsReplicaKeyConfig) {
 	_init_.Initialize()
 

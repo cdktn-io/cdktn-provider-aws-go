@@ -1,22 +1,23 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawss3object
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawss3object/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawss3object/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/s3_object aws_s3_object}.
 type DataAwsS3Object interface {
 	cdktf.TerraformDataSource
 	Arn() *string
 	Body() *string
+	BodyBase64() *string
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
@@ -47,6 +48,9 @@ type DataAwsS3Object interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DownloadBody() *string
+	SetDownloadBody(val *string)
+	DownloadBodyInput() *string
 	Etag() *string
 	Expiration() *string
 	Expires() *string
@@ -129,6 +133,7 @@ type DataAwsS3Object interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	ResetChecksumMode()
+	ResetDownloadBody()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -171,6 +176,16 @@ func (j *jsiiProxy_DataAwsS3Object) Body() *string {
 	_jsii_.Get(
 		j,
 		"body",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsS3Object) BodyBase64() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bodyBase64",
 		&returns,
 	)
 	return returns
@@ -371,6 +386,26 @@ func (j *jsiiProxy_DataAwsS3Object) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsS3Object) DownloadBody() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"downloadBody",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsS3Object) DownloadBodyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"downloadBodyInput",
 		&returns,
 	)
 	return returns
@@ -717,7 +752,7 @@ func (j *jsiiProxy_DataAwsS3Object) WebsiteRedirectLocation() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/s3_object aws_s3_object} Data Source.
 func NewDataAwsS3Object(scope constructs.Construct, id *string, config *DataAwsS3ObjectConfig) DataAwsS3Object {
 	_init_.Initialize()
 
@@ -735,7 +770,7 @@ func NewDataAwsS3Object(scope constructs.Construct, id *string, config *DataAwsS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/s3_object aws_s3_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/s3_object aws_s3_object} Data Source.
 func NewDataAwsS3Object_Override(d DataAwsS3Object, scope constructs.Construct, id *string, config *DataAwsS3ObjectConfig) {
 	_init_.Initialize()
 
@@ -783,6 +818,17 @@ func (j *jsiiProxy_DataAwsS3Object)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsS3Object)SetDownloadBody(val *string) {
+	if err := j.validateSetDownloadBodyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"downloadBody",
 		val,
 	)
 }
@@ -1169,6 +1215,14 @@ func (d *jsiiProxy_DataAwsS3Object) ResetChecksumMode() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetChecksumMode",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsS3Object) ResetDownloadBody() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDownloadBody",
 		nil, // no parameters
 	)
 }

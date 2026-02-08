@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package amplifydomainassociation
 
 
 type AmplifyDomainAssociationSubDomain struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/amplify_domain_association#branch_name AmplifyDomainAssociation#branch_name}.
 	BranchName *string `field:"required" json:"branchName" yaml:"branchName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/amplify_domain_association#prefix AmplifyDomainAssociation#prefix}.
 	Prefix *string `field:"required" json:"prefix" yaml:"prefix"`
 }
 

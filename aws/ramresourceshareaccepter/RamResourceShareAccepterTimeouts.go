@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ramresourceshareaccepter
 
 
 type RamResourceShareAccepterTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share_accepter#create RamResourceShareAccepter#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ram_resource_share_accepter#create RamResourceShareAccepter#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ram_resource_share_accepter#delete RamResourceShareAccepter#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ram_resource_share_accepter#delete RamResourceShareAccepter#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

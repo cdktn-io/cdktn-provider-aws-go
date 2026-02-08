@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawskendraquerysuggestionsblocklist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendraquerysuggestionsblocklist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawskendraquerysuggestionsblocklist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list}.
 type DataAwsKendraQuerySuggestionsBlockList interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAwsKendraQuerySuggestionsBlockList) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsKendraQuerySuggestionsBlockList(scope constructs.Construct, id *string, config *DataAwsKendraQuerySuggestionsBlockListConfig) DataAwsKendraQuerySuggestionsBlockList {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewDataAwsKendraQuerySuggestionsBlockList(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_query_suggestions_block_list aws_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsKendraQuerySuggestionsBlockList_Override(d DataAwsKendraQuerySuggestionsBlockList, scope constructs.Construct, id *string, config *DataAwsKendraQuerySuggestionsBlockListConfig) {
 	_init_.Initialize()
 

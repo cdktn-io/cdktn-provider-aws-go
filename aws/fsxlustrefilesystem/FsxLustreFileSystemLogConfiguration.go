@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxlustrefilesystem
 
 
 type FsxLustreFileSystemLogConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system#destination FsxLustreFileSystem#destination}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_lustre_file_system#destination FsxLustreFileSystem#destination}.
 	Destination *string `field:"optional" json:"destination" yaml:"destination"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system#level FsxLustreFileSystem#level}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_lustre_file_system#level FsxLustreFileSystem#level}.
 	Level *string `field:"optional" json:"level" yaml:"level"`
 }
 

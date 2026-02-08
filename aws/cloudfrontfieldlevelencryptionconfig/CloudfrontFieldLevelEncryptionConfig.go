@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfrontfieldlevelencryptionconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontfieldlevelencryptionconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudfrontfieldlevelencryptionconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config}.
 type CloudfrontFieldLevelEncryptionConfig interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config} Resource.
 func NewCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionConfigConfig) CloudfrontFieldLevelEncryptionConfig {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_field_level_encryption_config aws_cloudfront_field_level_encryption_config} Resource.
 func NewCloudfrontFieldLevelEncryptionConfig_Override(c CloudfrontFieldLevelEncryptionConfig, scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionConfigConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsservicecatalogproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsservicecatalogproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsservicecatalogproduct/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product}.
 type DataAwsServicecatalogProduct interface {
 	cdktf.TerraformDataSource
 	AcceptLanguage() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DataAwsServicecatalogProduct) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) DataAwsServicecatalogProduct {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewDataAwsServicecatalogProduct(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/servicecatalog_product aws_servicecatalog_product} Data Source.
 func NewDataAwsServicecatalogProduct_Override(d DataAwsServicecatalogProduct, scope constructs.Construct, id *string, config *DataAwsServicecatalogProductConfig) {
 	_init_.Initialize()
 

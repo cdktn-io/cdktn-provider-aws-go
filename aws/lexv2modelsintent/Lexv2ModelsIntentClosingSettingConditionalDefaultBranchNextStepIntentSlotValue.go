@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsintent
 
 
 type Lexv2ModelsIntentClosingSettingConditionalDefaultBranchNextStepIntentSlotValue struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#interpreted_value Lexv2ModelsIntent#interpreted_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#interpreted_value Lexv2ModelsIntent#interpreted_value}.
 	InterpretedValue *string `field:"optional" json:"interpretedValue" yaml:"interpretedValue"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnet
@@ -57,11 +57,19 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
 			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4IpamPoolId", GoGetter: "Ipv4IpamPoolId"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4IpamPoolIdInput", GoGetter: "Ipv4IpamPoolIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4NetmaskLength", GoGetter: "Ipv4NetmaskLength"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv4NetmaskLengthInput", GoGetter: "Ipv4NetmaskLengthInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6CidrBlock", GoGetter: "Ipv6CidrBlock"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6CidrBlockAssociationId", GoGetter: "Ipv6CidrBlockAssociationId"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6CidrBlockInput", GoGetter: "Ipv6CidrBlockInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6IpamPoolId", GoGetter: "Ipv6IpamPoolId"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6IpamPoolIdInput", GoGetter: "Ipv6IpamPoolIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6Native", GoGetter: "Ipv6Native"},
 			_jsii_.MemberProperty{JsiiProperty: "ipv6NativeInput", GoGetter: "Ipv6NativeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6NetmaskLength", GoGetter: "Ipv6NetmaskLength"},
+			_jsii_.MemberProperty{JsiiProperty: "ipv6NetmaskLengthInput", GoGetter: "Ipv6NetmaskLengthInput"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "mapCustomerOwnedIpOnLaunch", GoGetter: "MapCustomerOwnedIpOnLaunch"},
 			_jsii_.MemberProperty{JsiiProperty: "mapCustomerOwnedIpOnLaunchInput", GoGetter: "MapCustomerOwnedIpOnLaunchInput"},
@@ -93,8 +101,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableResourceNameDnsAaaaRecordOnLaunch", GoMethod: "ResetEnableResourceNameDnsAaaaRecordOnLaunch"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableResourceNameDnsARecordOnLaunch", GoMethod: "ResetEnableResourceNameDnsARecordOnLaunch"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv4IpamPoolId", GoMethod: "ResetIpv4IpamPoolId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv4NetmaskLength", GoMethod: "ResetIpv4NetmaskLength"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpv6CidrBlock", GoMethod: "ResetIpv6CidrBlock"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv6IpamPoolId", GoMethod: "ResetIpv6IpamPoolId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpv6Native", GoMethod: "ResetIpv6Native"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIpv6NetmaskLength", GoMethod: "ResetIpv6NetmaskLength"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMapCustomerOwnedIpOnLaunch", GoMethod: "ResetMapCustomerOwnedIpOnLaunch"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMapPublicIpOnLaunch", GoMethod: "ResetMapPublicIpOnLaunch"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOutpostArn", GoMethod: "ResetOutpostArn"},

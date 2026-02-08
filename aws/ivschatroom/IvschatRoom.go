@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ivschatroom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ivschatroom/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ivschatroom/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ivschat_room aws_ivschat_room}.
 type IvschatRoom interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_IvschatRoom) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
 func NewIvschatRoom(scope constructs.Construct, id *string, config *IvschatRoomConfig) IvschatRoom {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewIvschatRoom(scope constructs.Construct, id *string, config *IvschatRoomC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ivschat_room aws_ivschat_room} Resource.
 func NewIvschatRoom_Override(i IvschatRoom, scope constructs.Construct, id *string, config *IvschatRoomConfig) {
 	_init_.Initialize()
 

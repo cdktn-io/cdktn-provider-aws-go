@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbsslnegotiationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lbsslnegotiationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lbsslnegotiationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy}.
 type LbSslNegotiationPolicy interface {
 	cdktf.TerraformResource
 	Attribute() LbSslNegotiationPolicyAttributeList
@@ -451,7 +451,7 @@ func (j *jsiiProxy_LbSslNegotiationPolicy) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
 func NewLbSslNegotiationPolicy(scope constructs.Construct, id *string, config *LbSslNegotiationPolicyConfig) LbSslNegotiationPolicy {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewLbSslNegotiationPolicy(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lb_ssl_negotiation_policy aws_lb_ssl_negotiation_policy} Resource.
 func NewLbSslNegotiationPolicy_Override(l LbSslNegotiationPolicy, scope constructs.Construct, id *string, config *LbSslNegotiationPolicyConfig) {
 	_init_.Initialize()
 

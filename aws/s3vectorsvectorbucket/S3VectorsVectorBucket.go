@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3vectorsvectorbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3vectorsvectorbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3vectorsvectorbucket/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket}.
 type S3VectorsVectorBucket interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_S3VectorsVectorBucket) VectorBucketNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) S3VectorsVectorBucket {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3vectors_vector_bucket aws_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket_Override(s S3VectorsVectorBucket, scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) {
 	_init_.Initialize()
 

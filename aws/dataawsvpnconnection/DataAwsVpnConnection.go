@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpn_connection aws_vpn_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpn_connection aws_vpn_connection}.
 type DataAwsVpnConnection interface {
 	cdktf.TerraformDataSource
 	Category() *string
@@ -478,7 +478,7 @@ func (j *jsiiProxy_DataAwsVpnConnection) VpnGatewayId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
 func NewDataAwsVpnConnection(scope constructs.Construct, id *string, config *DataAwsVpnConnectionConfig) DataAwsVpnConnection {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewDataAwsVpnConnection(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpn_connection aws_vpn_connection} Data Source.
 func NewDataAwsVpnConnection_Override(d DataAwsVpnConnection, scope constructs.Construct, id *string, config *DataAwsVpnConnectionConfig) {
 	_init_.Initialize()
 

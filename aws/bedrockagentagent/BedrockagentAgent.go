@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bedrockagentagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentagent/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentagent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent}.
 type BedrockagentAgent interface {
 	cdktf.TerraformResource
 	AgentArn() *string
@@ -733,7 +733,7 @@ func (j *jsiiProxy_BedrockagentAgent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent} Resource.
 func NewBedrockagentAgent(scope constructs.Construct, id *string, config *BedrockagentAgentConfig) BedrockagentAgent {
 	_init_.Initialize()
 
@@ -751,7 +751,7 @@ func NewBedrockagentAgent(scope constructs.Construct, id *string, config *Bedroc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagent_agent aws_bedrockagent_agent} Resource.
 func NewBedrockagentAgent_Override(b BedrockagentAgent, scope constructs.Construct, id *string, config *BedrockagentAgentConfig) {
 	_init_.Initialize()
 

@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsslottype
 
 
 type Lexv2ModelsSlotTypeSlotTypeValuesSynonyms struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_slot_type#value Lexv2ModelsSlotType#value}.
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

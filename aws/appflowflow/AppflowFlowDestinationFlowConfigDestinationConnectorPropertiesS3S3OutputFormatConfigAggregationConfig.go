@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appflowflow
 
 
 type AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}.
 	AggregationType *string `field:"optional" json:"aggregationType" yaml:"aggregationType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}.
 	TargetFileSize *float64 `field:"optional" json:"targetFileSize" yaml:"targetFileSize"`
 }
 

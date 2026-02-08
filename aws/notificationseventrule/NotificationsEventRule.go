@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationseventrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/notificationseventrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/notificationseventrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_event_rule aws_notifications_event_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_event_rule aws_notifications_event_rule}.
 type NotificationsEventRule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_NotificationsEventRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
 func NewNotificationsEventRule(scope constructs.Construct, id *string, config *NotificationsEventRuleConfig) NotificationsEventRule {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewNotificationsEventRule(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_event_rule aws_notifications_event_rule} Resource.
 func NewNotificationsEventRule_Override(n NotificationsEventRule, scope constructs.Construct, id *string, config *NotificationsEventRuleConfig) {
 	_init_.Initialize()
 

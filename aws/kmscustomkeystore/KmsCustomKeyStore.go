@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmscustomkeystore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmscustomkeystore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kmscustomkeystore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store}.
 type KmsCustomKeyStore interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -597,7 +597,7 @@ func (j *jsiiProxy_KmsCustomKeyStore) XksProxyVpcEndpointServiceNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) KmsCustomKeyStore {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewKmsCustomKeyStore(scope constructs.Construct, id *string, config *KmsCus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_custom_key_store aws_kms_custom_key_store} Resource.
 func NewKmsCustomKeyStore_Override(k KmsCustomKeyStore, scope constructs.Construct, id *string, config *KmsCustomKeyStoreConfig) {
 	_init_.Initialize()
 

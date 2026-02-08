@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package shieldapplicationlayerautomaticresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/shieldapplicationlayerautomaticresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/shieldapplicationlayerautomaticresponse/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response}.
 type ShieldApplicationLayerAutomaticResponse interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_ShieldApplicationLayerAutomaticResponse) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response} Resource.
 func NewShieldApplicationLayerAutomaticResponse(scope constructs.Construct, id *string, config *ShieldApplicationLayerAutomaticResponseConfig) ShieldApplicationLayerAutomaticResponse {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewShieldApplicationLayerAutomaticResponse(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/shield_application_layer_automatic_response aws_shield_application_layer_automatic_response} Resource.
 func NewShieldApplicationLayerAutomaticResponse_Override(s ShieldApplicationLayerAutomaticResponse, scope constructs.Construct, id *string, config *ShieldApplicationLayerAutomaticResponseConfig) {
 	_init_.Initialize()
 

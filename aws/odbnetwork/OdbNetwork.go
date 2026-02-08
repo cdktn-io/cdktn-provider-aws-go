@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_network aws_odb_network}.
 type OdbNetwork interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -66,6 +66,12 @@ type OdbNetwork interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	KmsAccess() *string
+	SetKmsAccess(val *string)
+	KmsAccessInput() *string
+	KmsPolicyDocument() *string
+	SetKmsPolicyDocument(val *string)
+	KmsPolicyDocumentInput() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -102,6 +108,12 @@ type OdbNetwork interface {
 	S3PolicyDocumentInput() *string
 	Status() *string
 	StatusReason() *string
+	StsAccess() *string
+	SetStsAccess(val *string)
+	StsAccessInput() *string
+	StsPolicyDocument() *string
+	SetStsPolicyDocument(val *string)
+	StsPolicyDocumentInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktf.StringMap
@@ -165,11 +177,15 @@ type OdbNetwork interface {
 	ResetCustomDomainName()
 	ResetDefaultDnsPrefix()
 	ResetDeleteAssociatedResources()
+	ResetKmsAccess()
+	ResetKmsPolicyDocument()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetS3PolicyDocument()
+	ResetStsAccess()
+	ResetStsPolicyDocument()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -460,6 +476,46 @@ func (j *jsiiProxy_OdbNetwork) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OdbNetwork) KmsAccess() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) KmsAccessInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsAccessInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) KmsPolicyDocument() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsPolicyDocument",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) KmsPolicyDocumentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsPolicyDocumentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OdbNetwork) Lifecycle() *cdktf.TerraformResourceLifecycle {
 	var returns *cdktf.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -680,6 +736,46 @@ func (j *jsiiProxy_OdbNetwork) StatusReason() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OdbNetwork) StsAccess() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stsAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) StsAccessInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stsAccessInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) StsPolicyDocument() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stsPolicyDocument",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) StsPolicyDocumentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stsPolicyDocumentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OdbNetwork) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -781,7 +877,7 @@ func (j *jsiiProxy_OdbNetwork) ZeroEtlAccessInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkConfig) OdbNetwork {
 	_init_.Initialize()
 
@@ -799,7 +895,7 @@ func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork_Override(o OdbNetwork, scope constructs.Construct, id *string, config *OdbNetworkConfig) {
 	_init_.Initialize()
 
@@ -936,6 +1032,28 @@ func (j *jsiiProxy_OdbNetwork)SetForEach(val cdktf.ITerraformIterator) {
 	)
 }
 
+func (j *jsiiProxy_OdbNetwork)SetKmsAccess(val *string) {
+	if err := j.validateSetKmsAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsAccess",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetwork)SetKmsPolicyDocument(val *string) {
+	if err := j.validateSetKmsPolicyDocumentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsPolicyDocument",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OdbNetwork)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -995,6 +1113,28 @@ func (j *jsiiProxy_OdbNetwork)SetS3PolicyDocument(val *string) {
 	_jsii_.Set(
 		j,
 		"s3PolicyDocument",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetwork)SetStsAccess(val *string) {
+	if err := j.validateSetStsAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stsAccess",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbNetwork)SetStsPolicyDocument(val *string) {
+	if err := j.validateSetStsPolicyDocumentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stsPolicyDocument",
 		val,
 	)
 }
@@ -1417,6 +1557,22 @@ func (o *jsiiProxy_OdbNetwork) ResetDeleteAssociatedResources() {
 	)
 }
 
+func (o *jsiiProxy_OdbNetwork) ResetKmsAccess() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetKmsAccess",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetwork) ResetKmsPolicyDocument() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetKmsPolicyDocument",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OdbNetwork) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		o,
@@ -1437,6 +1593,22 @@ func (o *jsiiProxy_OdbNetwork) ResetS3PolicyDocument() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetS3PolicyDocument",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetwork) ResetStsAccess() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetStsAccess",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbNetwork) ResetStsPolicyDocument() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetStsPolicyDocument",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsstoragegatewaylocaldisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsstoragegatewaylocaldisk/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsstoragegatewaylocaldisk/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk}.
 type DataAwsStoragegatewayLocalDisk interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -371,7 +371,7 @@ func (j *jsiiProxy_DataAwsStoragegatewayLocalDisk) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk} Data Source.
 func NewDataAwsStoragegatewayLocalDisk(scope constructs.Construct, id *string, config *DataAwsStoragegatewayLocalDiskConfig) DataAwsStoragegatewayLocalDisk {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAwsStoragegatewayLocalDisk(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/storagegateway_local_disk aws_storagegateway_local_disk} Data Source.
 func NewDataAwsStoragegatewayLocalDisk_Override(d DataAwsStoragegatewayLocalDisk, scope constructs.Construct, id *string, config *DataAwsStoragegatewayLocalDiskConfig) {
 	_init_.Initialize()
 

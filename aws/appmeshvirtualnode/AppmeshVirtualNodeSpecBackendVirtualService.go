@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshvirtualnode
 
 
 type AppmeshVirtualNodeSpecBackendVirtualService struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#virtual_service_name AppmeshVirtualNode#virtual_service_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#virtual_service_name AppmeshVirtualNode#virtual_service_name}.
 	VirtualServiceName *string `field:"required" json:"virtualServiceName" yaml:"virtualServiceName"`
 	// client_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#client_policy AppmeshVirtualNode#client_policy}
 	ClientPolicy *AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicy `field:"optional" json:"clientPolicy" yaml:"clientPolicy"`
 }
 

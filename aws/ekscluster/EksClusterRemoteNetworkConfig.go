@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ekscluster
@@ -7,11 +7,11 @@ package ekscluster
 type EksClusterRemoteNetworkConfig struct {
 	// remote_node_networks block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
 	RemoteNodeNetworks *EksClusterRemoteNetworkConfigRemoteNodeNetworks `field:"required" json:"remoteNodeNetworks" yaml:"remoteNodeNetworks"`
 	// remote_pod_networks block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
 	RemotePodNetworks *EksClusterRemoteNetworkConfigRemotePodNetworks `field:"optional" json:"remotePodNetworks" yaml:"remotePodNetworks"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticachereservedcachenode
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticachereservedcachenode/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elasticachereservedcachenode/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node}.
 type ElasticacheReservedCacheNode interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_ElasticacheReservedCacheNode) UsagePrice() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node} Resource.
 func NewElasticacheReservedCacheNode(scope constructs.Construct, id *string, config *ElasticacheReservedCacheNodeConfig) ElasticacheReservedCacheNode {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewElasticacheReservedCacheNode(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_reserved_cache_node aws_elasticache_reserved_cache_node} Resource.
 func NewElasticacheReservedCacheNode_Override(e ElasticacheReservedCacheNode, scope constructs.Construct, id *string, config *ElasticacheReservedCacheNodeConfig) {
 	_init_.Initialize()
 

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package medialivechannel
 
 
 type MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265SettingsColorSpaceSettingsHdr10Settings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#max_cll MedialiveChannel#max_cll}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#max_cll MedialiveChannel#max_cll}.
 	MaxCll *float64 `field:"optional" json:"maxCll" yaml:"maxCll"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#max_fall MedialiveChannel#max_fall}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#max_fall MedialiveChannel#max_fall}.
 	MaxFall *float64 `field:"optional" json:"maxFall" yaml:"maxFall"`
 }
 

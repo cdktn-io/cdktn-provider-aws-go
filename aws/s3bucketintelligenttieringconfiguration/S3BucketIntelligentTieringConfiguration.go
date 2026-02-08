@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3bucketintelligenttieringconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketintelligenttieringconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketintelligenttieringconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration}.
 type S3BucketIntelligentTieringConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_S3BucketIntelligentTieringConfiguration) TieringInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) S3BucketIntelligentTieringConfiguration {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewS3BucketIntelligentTieringConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_intelligent_tiering_configuration aws_s3_bucket_intelligent_tiering_configuration} Resource.
 func NewS3BucketIntelligentTieringConfiguration_Override(s S3BucketIntelligentTieringConfiguration, scope constructs.Construct, id *string, config *S3BucketIntelligentTieringConfigurationConfig) {
 	_init_.Initialize()
 

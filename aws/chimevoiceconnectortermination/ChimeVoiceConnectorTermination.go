@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chimevoiceconnectortermination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/chimevoiceconnectortermination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/chimevoiceconnectortermination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination}.
 type ChimeVoiceConnectorTermination interface {
 	cdktf.TerraformResource
 	CallingRegions() *[]*string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorTermination) VoiceConnectorIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
 func NewChimeVoiceConnectorTermination(scope constructs.Construct, id *string, config *ChimeVoiceConnectorTerminationConfig) ChimeVoiceConnectorTermination {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewChimeVoiceConnectorTermination(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/chime_voice_connector_termination aws_chime_voice_connector_termination} Resource.
 func NewChimeVoiceConnectorTermination_Override(c ChimeVoiceConnectorTermination, scope constructs.Construct, id *string, config *ChimeVoiceConnectorTerminationConfig) {
 	_init_.Initialize()
 

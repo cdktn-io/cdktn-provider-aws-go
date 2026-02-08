@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53resolverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53resolverendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint}.
 type Route53ResolverEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_Route53ResolverEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
 func NewRoute53ResolverEndpoint(scope constructs.Construct, id *string, config *Route53ResolverEndpointConfig) Route53ResolverEndpoint {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewRoute53ResolverEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_endpoint aws_route53_resolver_endpoint} Resource.
 func NewRoute53ResolverEndpoint_Override(r Route53ResolverEndpoint, scope constructs.Construct, id *string, config *Route53ResolverEndpointConfig) {
 	_init_.Initialize()
 

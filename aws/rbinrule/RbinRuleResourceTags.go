@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rbinrule
 
 
 type RbinRuleResourceTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rbin_rule#resource_tag_key RbinRule#resource_tag_key}.
 	ResourceTagKey *string `field:"required" json:"resourceTagKey" yaml:"resourceTagKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rbin_rule#resource_tag_value RbinRule#resource_tag_value}.
 	ResourceTagValue *string `field:"optional" json:"resourceTagValue" yaml:"resourceTagValue"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecatalogprovisioningartifact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogprovisioningartifact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogprovisioningartifact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact}.
 type ServicecatalogProvisioningArtifact interface {
 	cdktf.TerraformResource
 	AcceptLanguage() *string
@@ -619,7 +619,7 @@ func (j *jsiiProxy_ServicecatalogProvisioningArtifact) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact} Resource.
 func NewServicecatalogProvisioningArtifact(scope constructs.Construct, id *string, config *ServicecatalogProvisioningArtifactConfig) ServicecatalogProvisioningArtifact {
 	_init_.Initialize()
 
@@ -637,7 +637,7 @@ func NewServicecatalogProvisioningArtifact(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_provisioning_artifact aws_servicecatalog_provisioning_artifact} Resource.
 func NewServicecatalogProvisioningArtifact_Override(s ServicecatalogProvisioningArtifact, scope constructs.Construct, id *string, config *ServicecatalogProvisioningArtifactConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotdomainconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotdomainconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iotdomainconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration}.
 type IotDomainConfiguration interface {
 	cdktf.TerraformResource
 	ApplicationProtocol() *string
@@ -643,7 +643,7 @@ func (j *jsiiProxy_IotDomainConfiguration) ValidationCertificateArnInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
 func NewIotDomainConfiguration(scope constructs.Construct, id *string, config *IotDomainConfigurationConfig) IotDomainConfiguration {
 	_init_.Initialize()
 
@@ -661,7 +661,7 @@ func NewIotDomainConfiguration(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_domain_configuration aws_iot_domain_configuration} Resource.
 func NewIotDomainConfiguration_Override(i IotDomainConfiguration, scope constructs.Construct, id *string, config *IotDomainConfigurationConfig) {
 	_init_.Initialize()
 

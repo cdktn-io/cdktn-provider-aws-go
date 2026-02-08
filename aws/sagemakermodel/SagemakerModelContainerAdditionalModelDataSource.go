@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sagemakermodel
 
 
 type SagemakerModelContainerAdditionalModelDataSource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_model#channel_name SagemakerModel#channel_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_model#channel_name SagemakerModel#channel_name}.
 	ChannelName *string `field:"required" json:"channelName" yaml:"channelName"`
 	// s3_data_source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
 	S3DataSource interface{} `field:"required" json:"s3DataSource" yaml:"s3DataSource"`
 }
 

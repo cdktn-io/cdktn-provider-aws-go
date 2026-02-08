@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -103,6 +103,10 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetAutonomousDataStorage
 	return nil
 }
 
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetCloudExadataInfrastructureArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetCloudExadataInfrastructureIdParameters(val *string) error {
 	return nil
 }
@@ -144,6 +148,10 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetLifecycleParameters(v
 }
 
 func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetMemoryPerOracleComputeUnitInGbsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetOdbNetworkArnParameters(val *string) error {
 	return nil
 }
 

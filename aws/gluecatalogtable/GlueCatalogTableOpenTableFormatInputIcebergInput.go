@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluecatalogtable
 
 
 type GlueCatalogTableOpenTableFormatInputIcebergInput struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.
 	MetadataOperation *string `field:"required" json:"metadataOperation" yaml:"metadataOperation"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

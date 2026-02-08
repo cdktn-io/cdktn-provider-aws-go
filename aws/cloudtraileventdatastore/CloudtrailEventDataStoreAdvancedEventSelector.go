@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudtraileventdatastore
@@ -7,9 +7,9 @@ package cloudtraileventdatastore
 type CloudtrailEventDataStoreAdvancedEventSelector struct {
 	// field_selector block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_event_data_store#field_selector CloudtrailEventDataStore#field_selector}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudtrail_event_data_store#field_selector CloudtrailEventDataStore#field_selector}
 	FieldSelector interface{} `field:"optional" json:"fieldSelector" yaml:"fieldSelector"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudtrail_event_data_store#name CloudtrailEventDataStore#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudtrail_event_data_store#name CloudtrailEventDataStore#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicequotasservicequota
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicequotasservicequota/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicequotasservicequota/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota}.
 type ServicequotasServiceQuota interface {
 	cdktf.TerraformResource
 	Adjustable() cdktf.IResolvable
@@ -491,7 +491,7 @@ func (j *jsiiProxy_ServicequotasServiceQuota) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) ServicequotasServiceQuota {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewServicequotasServiceQuota(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicequotas_service_quota aws_servicequotas_service_quota} Resource.
 func NewServicequotasServiceQuota_Override(s ServicequotasServiceQuota, scope constructs.Construct, id *string, config *ServicequotasServiceQuotaConfig) {
 	_init_.Initialize()
 

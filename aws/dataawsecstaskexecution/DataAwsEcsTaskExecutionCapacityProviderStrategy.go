@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsecstaskexecution
 
 
 type DataAwsEcsTaskExecutionCapacityProviderStrategy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_task_execution#capacity_provider DataAwsEcsTaskExecution#capacity_provider}.
 	CapacityProvider *string `field:"required" json:"capacityProvider" yaml:"capacityProvider"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_task_execution#base DataAwsEcsTaskExecution#base}.
 	Base *float64 `field:"optional" json:"base" yaml:"base"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_task_execution#weight DataAwsEcsTaskExecution#weight}.
 	Weight *float64 `field:"optional" json:"weight" yaml:"weight"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudwatcheventendpoint
@@ -7,11 +7,11 @@ package cloudwatcheventendpoint
 type CloudwatchEventEndpointRoutingConfigFailoverConfig struct {
 	// primary block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_endpoint#primary CloudwatchEventEndpoint#primary}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudwatch_event_endpoint#primary CloudwatchEventEndpoint#primary}
 	Primary *CloudwatchEventEndpointRoutingConfigFailoverConfigPrimary `field:"required" json:"primary" yaml:"primary"`
 	// secondary block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_event_endpoint#secondary CloudwatchEventEndpoint#secondary}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudwatch_event_endpoint#secondary CloudwatchEventEndpoint#secondary}
 	Secondary *CloudwatchEventEndpointRoutingConfigFailoverConfigSecondary `field:"required" json:"secondary" yaml:"secondary"`
 }
 

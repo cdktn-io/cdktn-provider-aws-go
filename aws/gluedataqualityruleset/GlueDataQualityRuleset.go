@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluedataqualityruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluedataqualityruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluedataqualityruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset}.
 type GlueDataQualityRuleset interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GlueDataQualityRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) GlueDataQualityRuleset {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_data_quality_ruleset aws_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset_Override(g GlueDataQualityRuleset, scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) {
 	_init_.Initialize()
 

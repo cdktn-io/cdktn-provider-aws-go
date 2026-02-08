@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecatalogbudgetresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogbudgetresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogbudgetresourceassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association}.
 type ServicecatalogBudgetResourceAssociation interface {
 	cdktf.TerraformResource
 	BudgetName() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ServicecatalogBudgetResourceAssociation) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
 func NewServicecatalogBudgetResourceAssociation(scope constructs.Construct, id *string, config *ServicecatalogBudgetResourceAssociationConfig) ServicecatalogBudgetResourceAssociation {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewServicecatalogBudgetResourceAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_budget_resource_association aws_servicecatalog_budget_resource_association} Resource.
 func NewServicecatalogBudgetResourceAssociation_Override(s ServicecatalogBudgetResourceAssociation, scope constructs.Construct, id *string, config *ServicecatalogBudgetResourceAssociationConfig) {
 	_init_.Initialize()
 

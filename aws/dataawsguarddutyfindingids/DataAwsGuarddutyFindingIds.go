@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsguarddutyfindingids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsguarddutyfindingids/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsguarddutyfindingids/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids}.
 type DataAwsGuarddutyFindingIds interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsGuarddutyFindingIds) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
 func NewDataAwsGuarddutyFindingIds(scope constructs.Construct, id *string, config *DataAwsGuarddutyFindingIdsConfig) DataAwsGuarddutyFindingIds {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsGuarddutyFindingIds(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/guardduty_finding_ids aws_guardduty_finding_ids} Data Source.
 func NewDataAwsGuarddutyFindingIds_Override(d DataAwsGuarddutyFindingIds, scope constructs.Construct, id *string, config *DataAwsGuarddutyFindingIdsConfig) {
 	_init_.Initialize()
 

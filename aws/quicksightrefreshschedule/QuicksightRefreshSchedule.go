@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package quicksightrefreshschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightrefreshschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightrefreshschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule}.
 type QuicksightRefreshSchedule interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_QuicksightRefreshSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource.
 func NewQuicksightRefreshSchedule(scope constructs.Construct, id *string, config *QuicksightRefreshScheduleConfig) QuicksightRefreshSchedule {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewQuicksightRefreshSchedule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_refresh_schedule aws_quicksight_refresh_schedule} Resource.
 func NewQuicksightRefreshSchedule_Override(q QuicksightRefreshSchedule, scope constructs.Construct, id *string, config *QuicksightRefreshScheduleConfig) {
 	_init_.Initialize()
 

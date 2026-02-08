@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsidentitystoreusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsidentitystoreusers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsidentitystoreusers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_users aws_identitystore_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/identitystore_users aws_identitystore_users}.
 type DataAwsIdentitystoreUsers interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreUsers) Users() DataAwsIdentitystoreUsersU
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
 func NewDataAwsIdentitystoreUsers(scope constructs.Construct, id *string, config *DataAwsIdentitystoreUsersConfig) DataAwsIdentitystoreUsers {
 	_init_.Initialize()
 
@@ -317,7 +317,7 @@ func NewDataAwsIdentitystoreUsers(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/identitystore_users aws_identitystore_users} Data Source.
 func NewDataAwsIdentitystoreUsers_Override(d DataAwsIdentitystoreUsers, scope constructs.Construct, id *string, config *DataAwsIdentitystoreUsersConfig) {
 	_init_.Initialize()
 

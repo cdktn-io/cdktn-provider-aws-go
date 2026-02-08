@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitouserpool
 
 
 type CognitoUserPoolSchemaStringAttributeConstraints struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_user_pool#max_length CognitoUserPool#max_length}.
 	MaxLength *string `field:"optional" json:"maxLength" yaml:"maxLength"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_user_pool#min_length CognitoUserPool#min_length}.
 	MinLength *string `field:"optional" json:"minLength" yaml:"minLength"`
 }
 

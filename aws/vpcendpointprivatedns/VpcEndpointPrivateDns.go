@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcendpointprivatedns
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointprivatedns/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcendpointprivatedns/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns}.
 type VpcEndpointPrivateDns interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_VpcEndpointPrivateDns) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) VpcEndpointPrivateDns {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewVpcEndpointPrivateDns(scope constructs.Construct, id *string, config *Vp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_private_dns aws_vpc_endpoint_private_dns} Resource.
 func NewVpcEndpointPrivateDns_Override(v VpcEndpointPrivateDns, scope constructs.Construct, id *string, config *VpcEndpointPrivateDnsConfig) {
 	_init_.Initialize()
 

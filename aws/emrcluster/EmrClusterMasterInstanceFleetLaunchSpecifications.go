@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emrcluster
@@ -7,11 +7,11 @@ package emrcluster
 type EmrClusterMasterInstanceFleetLaunchSpecifications struct {
 	// on_demand_specification block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_cluster#on_demand_specification EmrCluster#on_demand_specification}
 	OnDemandSpecification interface{} `field:"optional" json:"onDemandSpecification" yaml:"onDemandSpecification"`
 	// spot_specification block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_cluster#spot_specification EmrCluster#spot_specification}
 	SpotSpecification interface{} `field:"optional" json:"spotSpecification" yaml:"spotSpecification"`
 }
 

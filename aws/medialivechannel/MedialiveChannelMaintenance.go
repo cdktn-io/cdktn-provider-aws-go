@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package medialivechannel
 
 
 type MedialiveChannelMaintenance struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#maintenance_day MedialiveChannel#maintenance_day}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#maintenance_day MedialiveChannel#maintenance_day}.
 	MaintenanceDay *string `field:"required" json:"maintenanceDay" yaml:"maintenanceDay"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#maintenance_start_time MedialiveChannel#maintenance_start_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#maintenance_start_time MedialiveChannel#maintenance_start_time}.
 	MaintenanceStartTime *string `field:"required" json:"maintenanceStartTime" yaml:"maintenanceStartTime"`
 }
 

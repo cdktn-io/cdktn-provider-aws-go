@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package docdbclusterinstance
@@ -26,6 +26,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "caCertIdentifier", GoGetter: "CaCertIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "caCertIdentifierInput", GoGetter: "CaCertIdentifierInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "certificateRotationRestart", GoGetter: "CertificateRotationRestart"},
+			_jsii_.MemberProperty{JsiiProperty: "certificateRotationRestartInput", GoGetter: "CertificateRotationRestartInput"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterIdentifier", GoGetter: "ClusterIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterIdentifierInput", GoGetter: "ClusterIdentifierInput"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
@@ -91,6 +93,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoMinorVersionUpgrade", GoMethod: "ResetAutoMinorVersionUpgrade"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAvailabilityZone", GoMethod: "ResetAvailabilityZone"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCaCertIdentifier", GoMethod: "ResetCaCertIdentifier"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCertificateRotationRestart", GoMethod: "ResetCertificateRotationRestart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCopyTagsToSnapshot", GoMethod: "ResetCopyTagsToSnapshot"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnablePerformanceInsights", GoMethod: "ResetEnablePerformanceInsights"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},

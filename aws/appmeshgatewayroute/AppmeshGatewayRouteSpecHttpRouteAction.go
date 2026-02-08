@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshgatewayroute
@@ -7,11 +7,11 @@ package appmeshgatewayroute
 type AppmeshGatewayRouteSpecHttpRouteAction struct {
 	// target block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_gateway_route#target AppmeshGatewayRoute#target}
 	Target *AppmeshGatewayRouteSpecHttpRouteActionTarget `field:"required" json:"target" yaml:"target"`
 	// rewrite block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_gateway_route#rewrite AppmeshGatewayRoute#rewrite}
 	Rewrite *AppmeshGatewayRouteSpecHttpRouteActionRewrite `field:"optional" json:"rewrite" yaml:"rewrite"`
 }
 

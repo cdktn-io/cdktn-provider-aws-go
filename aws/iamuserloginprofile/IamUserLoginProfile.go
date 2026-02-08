@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamuserloginprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamuserloginprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iamuserloginprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile}.
 type IamUserLoginProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_IamUserLoginProfile) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
 func NewIamUserLoginProfile(scope constructs.Construct, id *string, config *IamUserLoginProfileConfig) IamUserLoginProfile {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewIamUserLoginProfile(scope constructs.Construct, id *string, config *IamU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_login_profile aws_iam_user_login_profile} Resource.
 func NewIamUserLoginProfile_Override(i IamUserLoginProfile, scope constructs.Construct, id *string, config *IamUserLoginProfileConfig) {
 	_init_.Initialize()
 

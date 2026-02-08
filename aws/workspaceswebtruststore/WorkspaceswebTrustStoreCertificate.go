@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workspaceswebtruststore
 
 
 type WorkspaceswebTrustStoreCertificate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_trust_store#body WorkspaceswebTrustStore#body}.
 	Body *string `field:"required" json:"body" yaml:"body"`
 }
 

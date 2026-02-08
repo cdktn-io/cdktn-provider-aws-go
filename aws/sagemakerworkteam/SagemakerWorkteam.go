@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sagemakerworkteam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakerworkteam/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakerworkteam/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam}.
 type SagemakerWorkteam interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_SagemakerWorkteam) WorkteamNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
 func NewSagemakerWorkteam(scope constructs.Construct, id *string, config *SagemakerWorkteamConfig) SagemakerWorkteam {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewSagemakerWorkteam(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_workteam aws_sagemaker_workteam} Resource.
 func NewSagemakerWorkteam_Override(s SagemakerWorkteam, scope constructs.Construct, id *string, config *SagemakerWorkteamConfig) {
 	_init_.Initialize()
 

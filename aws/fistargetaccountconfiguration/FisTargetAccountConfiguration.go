@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fistargetaccountconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fistargetaccountconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fistargetaccountconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration}.
 type FisTargetAccountConfiguration interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_FisTargetAccountConfiguration) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration} Resource.
 func NewFisTargetAccountConfiguration(scope constructs.Construct, id *string, config *FisTargetAccountConfigurationConfig) FisTargetAccountConfiguration {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewFisTargetAccountConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fis_target_account_configuration aws_fis_target_account_configuration} Resource.
 func NewFisTargetAccountConfiguration_Override(f FisTargetAccountConfiguration, scope constructs.Construct, id *string, config *FisTargetAccountConfigurationConfig) {
 	_init_.Initialize()
 

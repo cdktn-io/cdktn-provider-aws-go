@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kinesisstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kinesisstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kinesisstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kinesis_stream aws_kinesis_stream}.
 type KinesisStream interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -645,7 +645,7 @@ func (j *jsiiProxy_KinesisStream) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStreamConfig) KinesisStream {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream_Override(k KinesisStream, scope constructs.Construct, id *string, config *KinesisStreamConfig) {
 	_init_.Initialize()
 

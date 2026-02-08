@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package transferhostkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/transferhostkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/transferhostkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/transfer_host_key aws_transfer_host_key}.
 type TransferHostKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_TransferHostKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey(scope constructs.Construct, id *string, config *TransferHostKeyConfig) TransferHostKey {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewTransferHostKey(scope constructs.Construct, id *string, config *Transfer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource.
 func NewTransferHostKey_Override(t TransferHostKey, scope constructs.Construct, id *string, config *TransferHostKeyConfig) {
 	_init_.Initialize()
 

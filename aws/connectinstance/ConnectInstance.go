@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance aws_connect_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance aws_connect_instance}.
 type ConnectInstance interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -687,7 +687,7 @@ func (j *jsiiProxy_ConnectInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance aws_connect_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance aws_connect_instance} Resource.
 func NewConnectInstance(scope constructs.Construct, id *string, config *ConnectInstanceConfig) ConnectInstance {
 	_init_.Initialize()
 
@@ -705,7 +705,7 @@ func NewConnectInstance(scope constructs.Construct, id *string, config *ConnectI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance aws_connect_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance aws_connect_instance} Resource.
 func NewConnectInstance_Override(c ConnectInstance, scope constructs.Construct, id *string, config *ConnectInstanceConfig) {
 	_init_.Initialize()
 

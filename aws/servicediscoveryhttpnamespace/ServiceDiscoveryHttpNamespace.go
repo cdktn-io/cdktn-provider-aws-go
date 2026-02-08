@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicediscoveryhttpnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicediscoveryhttpnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicediscoveryhttpnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace}.
 type ServiceDiscoveryHttpNamespace interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_ServiceDiscoveryHttpNamespace) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace} Resource.
 func NewServiceDiscoveryHttpNamespace(scope constructs.Construct, id *string, config *ServiceDiscoveryHttpNamespaceConfig) ServiceDiscoveryHttpNamespace {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewServiceDiscoveryHttpNamespace(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/service_discovery_http_namespace aws_service_discovery_http_namespace} Resource.
 func NewServiceDiscoveryHttpNamespace_Override(s ServiceDiscoveryHttpNamespace, scope constructs.Construct, id *string, config *ServiceDiscoveryHttpNamespaceConfig) {
 	_init_.Initialize()
 

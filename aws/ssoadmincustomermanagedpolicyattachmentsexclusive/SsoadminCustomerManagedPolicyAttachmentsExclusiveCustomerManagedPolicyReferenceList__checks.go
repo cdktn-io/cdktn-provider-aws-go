@@ -1,0 +1,107 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build !no_runtime_type_checking
+
+package ssoadmincustomermanagedpolicyattachmentsexclusive
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/hashicorp/terraform-cdk-go/cdktf"
+)
+
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	if mapKeyAttributeName == nil {
+		return fmt.Errorf("parameter mapKeyAttributeName is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateGetParameters(index *float64) error {
+	if index == nil {
+		return fmt.Errorf("parameter index is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateSetInternalValueParameters(val interface{}) error {
+	switch val.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReference:
+		val := val.(*[]*SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReference)
+		for idx_97dfc6, v := range *val {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		}
+	case []*SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReference:
+		val_ := val.([]*SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReference)
+		val := &val_
+		for idx_97dfc6, v := range *val {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReference; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceList) validateSetWrapsSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewSsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPolicyReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	if wrapsSet == nil {
+		return fmt.Errorf("parameter wrapsSet is required, but nil was provided")
+	}
+
+	return nil
+}
+

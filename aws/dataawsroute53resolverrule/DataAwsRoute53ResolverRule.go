@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsroute53resolverrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53resolverrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsroute53resolverrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule}.
 type DataAwsRoute53ResolverRule interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -477,7 +477,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
 func NewDataAwsRoute53ResolverRule(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRuleConfig) DataAwsRoute53ResolverRule {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDataAwsRoute53ResolverRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_resolver_rule aws_route53_resolver_rule} Data Source.
 func NewDataAwsRoute53ResolverRule_Override(d DataAwsRoute53ResolverRule, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverRuleConfig) {
 	_init_.Initialize()
 

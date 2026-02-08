@@ -1,18 +1,21 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/batchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/batchjobdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
 type BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference interface {
 	cdktf.ComplexObject
+	AllowPrivilegeEscalation() interface{}
+	SetAllowPrivilegeEscalation(val interface{})
+	AllowPrivilegeEscalationInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +82,7 @@ type BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutput
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	ResetAllowPrivilegeEscalation()
 	ResetPrivileged()
 	ResetReadOnlyRootFileSystem()
 	ResetRunAsGroup()
@@ -97,6 +101,26 @@ type BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutput
 // The jsii proxy struct for BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference
 type jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) AllowPrivilegeEscalation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowPrivilegeEscalation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) AllowPrivilegeEscalationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowPrivilegeEscalationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) ComplexObjectIndex() interface{} {
@@ -294,6 +318,17 @@ func NewBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOut
 		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference)SetAllowPrivilegeEscalation(val interface{}) {
+	if err := j.validateSetAllowPrivilegeEscalationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowPrivilegeEscalation",
+		val,
 	)
 }
 
@@ -591,6 +626,14 @@ func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurit
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) ResetAllowPrivilegeEscalation() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAllowPrivilegeEscalation",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) ResetPrivileged() {

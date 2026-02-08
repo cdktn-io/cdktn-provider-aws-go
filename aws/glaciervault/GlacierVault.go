@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package glaciervault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glaciervault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/glaciervault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glacier_vault aws_glacier_vault}.
 type GlacierVault interface {
 	cdktf.TerraformResource
 	AccessPolicy() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_GlacierVault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
 func NewGlacierVault(scope constructs.Construct, id *string, config *GlacierVaultConfig) GlacierVault {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewGlacierVault(scope constructs.Construct, id *string, config *GlacierVaul
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glacier_vault aws_glacier_vault} Resource.
 func NewGlacierVault_Override(g GlacierVault, scope constructs.Construct, id *string, config *GlacierVaultConfig) {
 	_init_.Initialize()
 

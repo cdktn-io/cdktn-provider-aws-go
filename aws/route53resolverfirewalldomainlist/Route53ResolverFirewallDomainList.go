@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53resolverfirewalldomainlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53resolverfirewalldomainlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53resolverfirewalldomainlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list}.
 type Route53ResolverFirewallDomainList interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_Route53ResolverFirewallDomainList) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Resource.
 func NewRoute53ResolverFirewallDomainList(scope constructs.Construct, id *string, config *Route53ResolverFirewallDomainListConfig) Route53ResolverFirewallDomainList {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewRoute53ResolverFirewallDomainList(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_resolver_firewall_domain_list aws_route53_resolver_firewall_domain_list} Resource.
 func NewRoute53ResolverFirewallDomainList_Override(r Route53ResolverFirewallDomainList, scope constructs.Construct, id *string, config *Route53ResolverFirewallDomainListConfig) {
 	_init_.Initialize()
 

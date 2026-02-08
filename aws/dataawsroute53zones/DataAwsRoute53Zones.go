@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsroute53zones
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsroute53zones/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsroute53zones/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_zones aws_route53_zones}.
 type DataAwsRoute53Zones interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -263,7 +263,7 @@ func (j *jsiiProxy_DataAwsRoute53Zones) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) DataAwsRoute53Zones {
 	_init_.Initialize()
 
@@ -281,7 +281,7 @@ func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones_Override(d DataAwsRoute53Zones, scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bedrockagentcoregateway
@@ -7,7 +7,7 @@ package bedrockagentcoregateway
 type BedrockagentcoreGatewayProtocolConfiguration struct {
 	// mcp block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
 	Mcp interface{} `field:"optional" json:"mcp" yaml:"mcp"`
 }
 

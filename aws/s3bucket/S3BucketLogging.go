@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3bucket
 
 
 type S3BucketLogging struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket#target_bucket S3Bucket#target_bucket}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket#target_bucket S3Bucket#target_bucket}.
 	TargetBucket *string `field:"required" json:"targetBucket" yaml:"targetBucket"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket#target_prefix S3Bucket#target_prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket#target_prefix S3Bucket#target_prefix}.
 	TargetPrefix *string `field:"optional" json:"targetPrefix" yaml:"targetPrefix"`
 }
 

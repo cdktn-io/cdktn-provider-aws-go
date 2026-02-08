@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rdscustomdbengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdscustomdbengineversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rdscustomdbengineversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version}.
 type RdsCustomDbEngineVersion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -734,7 +734,7 @@ func (j *jsiiProxy_RdsCustomDbEngineVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) RdsCustomDbEngineVersion {
 	_init_.Initialize()
 
@@ -752,7 +752,7 @@ func NewRdsCustomDbEngineVersion(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_custom_db_engine_version aws_rds_custom_db_engine_version} Resource.
 func NewRdsCustomDbEngineVersion_Override(r RdsCustomDbEngineVersion, scope constructs.Construct, id *string, config *RdsCustomDbEngineVersionConfig) {
 	_init_.Initialize()
 

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sagemakerworkteam
 
 
 type SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstraints struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_workteam#source_ip SagemakerWorkteam#source_ip}.
 	SourceIp *string `field:"optional" json:"sourceIp" yaml:"sourceIp"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sagemaker_workteam#vpc_source_ip SagemakerWorkteam#vpc_source_ip}.
 	VpcSourceIp *string `field:"optional" json:"vpcSourceIp" yaml:"vpcSourceIp"`
 }
 

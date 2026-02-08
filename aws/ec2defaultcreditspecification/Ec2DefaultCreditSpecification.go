@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ec2defaultcreditspecification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2defaultcreditspecification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2defaultcreditspecification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification}.
 type Ec2DefaultCreditSpecification interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_Ec2DefaultCreditSpecification) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification} Resource.
 func NewEc2DefaultCreditSpecification(scope constructs.Construct, id *string, config *Ec2DefaultCreditSpecificationConfig) Ec2DefaultCreditSpecification {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewEc2DefaultCreditSpecification(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_default_credit_specification aws_ec2_default_credit_specification} Resource.
 func NewEc2DefaultCreditSpecification_Override(e Ec2DefaultCreditSpecification, scope constructs.Construct, id *string, config *Ec2DefaultCreditSpecificationConfig) {
 	_init_.Initialize()
 

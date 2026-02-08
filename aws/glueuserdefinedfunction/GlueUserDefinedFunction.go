@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package glueuserdefinedfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/glueuserdefinedfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/glueuserdefinedfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function}.
 type GlueUserDefinedFunction interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_GlueUserDefinedFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
 func NewGlueUserDefinedFunction(scope constructs.Construct, id *string, config *GlueUserDefinedFunctionConfig) GlueUserDefinedFunction {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewGlueUserDefinedFunction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_user_defined_function aws_glue_user_defined_function} Resource.
 func NewGlueUserDefinedFunction_Override(g GlueUserDefinedFunction, scope constructs.Construct, id *string, config *GlueUserDefinedFunctionConfig) {
 	_init_.Initialize()
 

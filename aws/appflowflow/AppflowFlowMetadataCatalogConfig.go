@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appflowflow
@@ -7,7 +7,7 @@ package appflowflow
 type AppflowFlowMetadataCatalogConfig struct {
 	// glue_data_catalog block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
 	GlueDataCatalog *AppflowFlowMetadataCatalogConfigGlueDataCatalog `field:"optional" json:"glueDataCatalog" yaml:"glueDataCatalog"`
 }
 

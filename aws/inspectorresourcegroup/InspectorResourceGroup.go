@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package inspectorresourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/inspectorresourcegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/inspectorresourcegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector_resource_group aws_inspector_resource_group}.
 type InspectorResourceGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -368,7 +368,7 @@ func (j *jsiiProxy_InspectorResourceGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) InspectorResourceGroup {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewInspectorResourceGroup(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector_resource_group aws_inspector_resource_group} Resource.
 func NewInspectorResourceGroup_Override(i InspectorResourceGroup, scope constructs.Construct, id *string, config *InspectorResourceGroupConfig) {
 	_init_.Initialize()
 

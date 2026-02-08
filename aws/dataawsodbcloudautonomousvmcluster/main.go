@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbcloudautonomousvmcluster
@@ -22,6 +22,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "availableContainerDatabases", GoGetter: "AvailableContainerDatabases"},
 			_jsii_.MemberProperty{JsiiProperty: "availableCpus", GoGetter: "AvailableCpus"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureArn", GoGetter: "CloudExadataInfrastructureArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureId", GoGetter: "CloudExadataInfrastructureId"},
 			_jsii_.MemberProperty{JsiiProperty: "computeModel", GoGetter: "ComputeModel"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -67,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ocid", GoGetter: "Ocid"},
 			_jsii_.MemberProperty{JsiiProperty: "ociResourceAnchorName", GoGetter: "OciResourceAnchorName"},
 			_jsii_.MemberProperty{JsiiProperty: "ociUrl", GoGetter: "OciUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "odbNetworkArn", GoGetter: "OdbNetworkArn"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkId", GoGetter: "OdbNetworkId"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNodeStorageSizeInGbs", GoGetter: "OdbNodeStorageSizeInGbs"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},

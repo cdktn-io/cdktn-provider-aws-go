@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package daxparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/daxparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/daxparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
 type DaxParameterGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DaxParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxParameterGroupConfig) DaxParameterGroup {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxPar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup_Override(d DaxParameterGroup, scope constructs.Construct, id *string, config *DaxParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewaydomainname
@@ -100,10 +100,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegionalCertificateArn", GoMethod: "ResetRegionalCertificateArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegionalCertificateName", GoMethod: "ResetRegionalCertificateName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRoutingMode", GoMethod: "ResetRoutingMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityPolicy", GoMethod: "ResetSecurityPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberProperty{JsiiProperty: "routingMode", GoGetter: "RoutingMode"},
+			_jsii_.MemberProperty{JsiiProperty: "routingModeInput", GoGetter: "RoutingModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "securityPolicy", GoGetter: "SecurityPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "securityPolicyInput", GoGetter: "SecurityPolicyInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},

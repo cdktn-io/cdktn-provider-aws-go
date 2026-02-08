@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpclatticeservicenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpclatticeservicenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpclatticeservicenetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network}.
 type DataAwsVpclatticeServiceNetwork interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsVpclatticeServiceNetwork) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
 func NewDataAwsVpclatticeServiceNetwork(scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceNetworkConfig) DataAwsVpclatticeServiceNetwork {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsVpclatticeServiceNetwork(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpclattice_service_network aws_vpclattice_service_network} Data Source.
 func NewDataAwsVpclatticeServiceNetwork_Override(d DataAwsVpclatticeServiceNetwork, scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceNetworkConfig) {
 	_init_.Initialize()
 

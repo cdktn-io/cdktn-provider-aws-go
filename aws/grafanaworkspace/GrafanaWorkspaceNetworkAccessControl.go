@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package grafanaworkspace
 
 
 type GrafanaWorkspaceNetworkAccessControl struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/grafana_workspace#prefix_list_ids GrafanaWorkspace#prefix_list_ids}.
 	PrefixListIds *[]*string `field:"required" json:"prefixListIds" yaml:"prefixListIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/grafana_workspace#vpce_ids GrafanaWorkspace#vpce_ids}.
 	VpceIds *[]*string `field:"required" json:"vpceIds" yaml:"vpceIds"`
 }
 

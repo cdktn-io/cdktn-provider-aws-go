@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package medialivechannel
 
 
 type MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsKeyProviderSettingsStaticKeySettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#static_key_value MedialiveChannel#static_key_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#static_key_value MedialiveChannel#static_key_value}.
 	StaticKeyValue *string `field:"required" json:"staticKeyValue" yaml:"staticKeyValue"`
 	// key_provider_server block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#key_provider_server MedialiveChannel#key_provider_server}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#key_provider_server MedialiveChannel#key_provider_server}
 	KeyProviderServer *MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsKeyProviderSettingsStaticKeySettingsKeyProviderServer `field:"optional" json:"keyProviderServer" yaml:"keyProviderServer"`
 }
 

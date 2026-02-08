@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package quicksightingestion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightingestion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightingestion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion}.
 type QuicksightIngestion interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_QuicksightIngestion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion(scope constructs.Construct, id *string, config *QuicksightIngestionConfig) QuicksightIngestion {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewQuicksightIngestion(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_ingestion aws_quicksight_ingestion} Resource.
 func NewQuicksightIngestion_Override(q QuicksightIngestion, scope constructs.Construct, id *string, config *QuicksightIngestionConfig) {
 	_init_.Initialize()
 

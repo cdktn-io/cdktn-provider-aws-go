@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawscloudfrontoriginaccessidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawscloudfrontoriginaccessidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawscloudfrontoriginaccessidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity}.
 type DataAwsCloudfrontOriginAccessIdentity interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Data Source.
 func NewDataAwsCloudfrontOriginAccessIdentity(scope constructs.Construct, id *string, config *DataAwsCloudfrontOriginAccessIdentityConfig) DataAwsCloudfrontOriginAccessIdentity {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsCloudfrontOriginAccessIdentity(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/cloudfront_origin_access_identity aws_cloudfront_origin_access_identity} Data Source.
 func NewDataAwsCloudfrontOriginAccessIdentity_Override(d DataAwsCloudfrontOriginAccessIdentity, scope constructs.Construct, id *string, config *DataAwsCloudfrontOriginAccessIdentityConfig) {
 	_init_.Initialize()
 

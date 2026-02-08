@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datasynclocationhdfs
 
 
 type DatasyncLocationHdfsNameNode struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/datasync_location_hdfs#hostname DatasyncLocationHdfs#hostname}.
 	Hostname *string `field:"required" json:"hostname" yaml:"hostname"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/datasync_location_hdfs#port DatasyncLocationHdfs#port}.
 	Port *float64 `field:"required" json:"port" yaml:"port"`
 }
 

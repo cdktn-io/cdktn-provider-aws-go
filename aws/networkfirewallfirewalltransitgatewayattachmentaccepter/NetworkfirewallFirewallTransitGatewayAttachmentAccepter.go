@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkfirewallfirewalltransitgatewayattachmentaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkfirewallfirewalltransitgatewayattachmentaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkfirewallfirewalltransitgatewayattachmentaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
 type NetworkfirewallFirewallTransitGatewayAttachmentAccepter interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) Tran
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) NetworkfirewallFirewallTransitGatewayAttachmentAccepter {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter_Override(n NetworkfirewallFirewallTransitGatewayAttachmentAccepter, scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) {
 	_init_.Initialize()
 

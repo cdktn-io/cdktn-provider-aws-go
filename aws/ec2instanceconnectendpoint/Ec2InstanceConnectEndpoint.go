@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ec2instanceconnectendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2instanceconnectendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2instanceconnectendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint}.
 type Ec2InstanceConnectEndpoint interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_Ec2InstanceConnectEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) Ec2InstanceConnectEndpoint {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_instance_connect_endpoint aws_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint_Override(e Ec2InstanceConnectEndpoint, scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) {
 	_init_.Initialize()
 

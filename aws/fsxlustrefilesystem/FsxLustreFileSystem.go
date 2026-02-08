@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxlustrefilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxlustrefilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxlustrefilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system}.
 type FsxLustreFileSystem interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -1119,7 +1119,7 @@ func (j *jsiiProxy_FsxLustreFileSystem) WeeklyMaintenanceStartTimeInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
 func NewFsxLustreFileSystem(scope constructs.Construct, id *string, config *FsxLustreFileSystemConfig) FsxLustreFileSystem {
 	_init_.Initialize()
 
@@ -1137,7 +1137,7 @@ func NewFsxLustreFileSystem(scope constructs.Construct, id *string, config *FsxL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_lustre_file_system aws_fsx_lustre_file_system} Resource.
 func NewFsxLustreFileSystem_Override(f FsxLustreFileSystem, scope constructs.Construct, id *string, config *FsxLustreFileSystemConfig) {
 	_init_.Initialize()
 

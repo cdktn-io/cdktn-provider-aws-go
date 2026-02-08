@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewayresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_resource aws_api_gateway_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_resource aws_api_gateway_resource}.
 type ApiGatewayResource interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ApiGatewayResource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_resource aws_api_gateway_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_resource aws_api_gateway_resource} Resource.
 func NewApiGatewayResource(scope constructs.Construct, id *string, config *ApiGatewayResourceConfig) ApiGatewayResource {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewApiGatewayResource(scope constructs.Construct, id *string, config *ApiGa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_resource aws_api_gateway_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_resource aws_api_gateway_resource} Resource.
 func NewApiGatewayResource_Override(a ApiGatewayResource, scope constructs.Construct, id *string, config *ApiGatewayResourceConfig) {
 	_init_.Initialize()
 

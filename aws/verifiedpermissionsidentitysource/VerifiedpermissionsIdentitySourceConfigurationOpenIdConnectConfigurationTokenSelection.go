@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package verifiedpermissionsidentitysource
@@ -7,11 +7,11 @@ package verifiedpermissionsidentitysource
 type VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigurationTokenSelection struct {
 	// access_token_only block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_identity_source#access_token_only VerifiedpermissionsIdentitySource#access_token_only}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/verifiedpermissions_identity_source#access_token_only VerifiedpermissionsIdentitySource#access_token_only}
 	AccessTokenOnly interface{} `field:"optional" json:"accessTokenOnly" yaml:"accessTokenOnly"`
 	// identity_token_only block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_identity_source#identity_token_only VerifiedpermissionsIdentitySource#identity_token_only}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/verifiedpermissions_identity_source#identity_token_only VerifiedpermissionsIdentitySource#identity_token_only}
 	IdentityTokenOnly interface{} `field:"optional" json:"identityTokenOnly" yaml:"identityTokenOnly"`
 }
 

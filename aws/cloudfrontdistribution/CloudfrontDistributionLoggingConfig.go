@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfrontdistribution
 
 
 type CloudfrontDistributionLoggingConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution#bucket CloudfrontDistribution#bucket}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_distribution#bucket CloudfrontDistribution#bucket}.
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution#include_cookies CloudfrontDistribution#include_cookies}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_distribution#include_cookies CloudfrontDistribution#include_cookies}.
 	IncludeCookies interface{} `field:"optional" json:"includeCookies" yaml:"includeCookies"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_distribution#prefix CloudfrontDistribution#prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_distribution#prefix CloudfrontDistribution#prefix}.
 	Prefix *string `field:"optional" json:"prefix" yaml:"prefix"`
 }
 

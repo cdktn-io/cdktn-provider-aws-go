@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluecrawler
 
 
 type GlueCrawlerMongodbTarget struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.
 	ConnectionName *string `field:"required" json:"connectionName" yaml:"connectionName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#path GlueCrawler#path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#path GlueCrawler#path}.
 	Path *string `field:"required" json:"path" yaml:"path"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}.
 	ScanAll interface{} `field:"optional" json:"scanAll" yaml:"scanAll"`
 }
 

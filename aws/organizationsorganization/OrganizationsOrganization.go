@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/organizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/organizationsorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organization aws_organizations_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/organizations_organization aws_organizations_organization}.
 type OrganizationsOrganization interface {
 	cdktf.TerraformResource
 	Accounts() OrganizationsOrganizationAccountsList
@@ -74,6 +74,9 @@ type OrganizationsOrganization interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ReturnOrganizationOnly() interface{}
+	SetReturnOrganizationOnly(val interface{})
+	ReturnOrganizationOnlyInput() interface{}
 	Roots() OrganizationsOrganizationRootsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
@@ -131,6 +134,7 @@ type OrganizationsOrganization interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetReturnOrganizationOnly()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -429,6 +433,26 @@ func (j *jsiiProxy_OrganizationsOrganization) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_OrganizationsOrganization) ReturnOrganizationOnly() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"returnOrganizationOnly",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationsOrganization) ReturnOrganizationOnlyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"returnOrganizationOnlyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrganizationsOrganization) Roots() OrganizationsOrganizationRootsList {
 	var returns OrganizationsOrganizationRootsList
 	_jsii_.Get(
@@ -470,7 +494,7 @@ func (j *jsiiProxy_OrganizationsOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
 func NewOrganizationsOrganization(scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) OrganizationsOrganization {
 	_init_.Initialize()
 
@@ -488,7 +512,7 @@ func NewOrganizationsOrganization(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/organizations_organization aws_organizations_organization} Resource.
 func NewOrganizationsOrganization_Override(o OrganizationsOrganization, scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) {
 	_init_.Initialize()
 
@@ -607,6 +631,17 @@ func (j *jsiiProxy_OrganizationsOrganization)SetProvisioners(val *[]interface{})
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrganizationsOrganization)SetReturnOrganizationOnly(val interface{}) {
+	if err := j.validateSetReturnOrganizationOnlyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"returnOrganizationOnly",
 		val,
 	)
 }
@@ -1000,6 +1035,14 @@ func (o *jsiiProxy_OrganizationsOrganization) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrganizationsOrganization) ResetReturnOrganizationOnly() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetReturnOrganizationOnly",
 		nil, // no parameters
 	)
 }

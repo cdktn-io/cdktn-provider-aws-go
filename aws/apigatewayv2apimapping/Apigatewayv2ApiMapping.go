@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewayv2apimapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2apimapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2apimapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping}.
 type Apigatewayv2ApiMapping interface {
 	cdktf.TerraformResource
 	ApiId() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_Apigatewayv2ApiMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping} Resource.
 func NewApigatewayv2ApiMapping(scope constructs.Construct, id *string, config *Apigatewayv2ApiMappingConfig) Apigatewayv2ApiMapping {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewApigatewayv2ApiMapping(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_api_mapping aws_apigatewayv2_api_mapping} Resource.
 func NewApigatewayv2ApiMapping_Override(a Apigatewayv2ApiMapping, scope constructs.Construct, id *string, config *Apigatewayv2ApiMappingConfig) {
 	_init_.Initialize()
 

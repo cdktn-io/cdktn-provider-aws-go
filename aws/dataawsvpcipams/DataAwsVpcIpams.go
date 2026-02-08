@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpcipams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipams/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcipams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipams aws_vpc_ipams}.
 type DataAwsVpcIpams interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsVpcIpams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) DataAwsVpcIpams {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewDataAwsVpcIpams(scope constructs.Construct, id *string, config *DataAwsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipams aws_vpc_ipams} Data Source.
 func NewDataAwsVpcIpams_Override(d DataAwsVpcIpams, scope constructs.Construct, id *string, config *DataAwsVpcIpamsConfig) {
 	_init_.Initialize()
 

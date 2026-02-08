@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsbedrockagentagentversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbedrockagentagentversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbedrockagentagentversions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions}.
 type DataAwsBedrockagentAgentVersions interface {
 	cdktf.TerraformDataSource
 	AgentId() *string
@@ -312,7 +312,7 @@ func (j *jsiiProxy_DataAwsBedrockagentAgentVersions) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions} Data Source.
 func NewDataAwsBedrockagentAgentVersions(scope constructs.Construct, id *string, config *DataAwsBedrockagentAgentVersionsConfig) DataAwsBedrockagentAgentVersions {
 	_init_.Initialize()
 
@@ -330,7 +330,7 @@ func NewDataAwsBedrockagentAgentVersions(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrockagent_agent_versions aws_bedrockagent_agent_versions} Data Source.
 func NewDataAwsBedrockagentAgentVersions_Override(d DataAwsBedrockagentAgentVersions, scope constructs.Construct, id *string, config *DataAwsBedrockagentAgentVersionsConfig) {
 	_init_.Initialize()
 

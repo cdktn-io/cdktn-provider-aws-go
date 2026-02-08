@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ec2transitgatewaydefaultroutetablepropagation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2transitgatewaydefaultroutetablepropagation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2transitgatewaydefaultroutetablepropagation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation}.
 type Ec2TransitGatewayDefaultRouteTablePropagation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_Ec2TransitGatewayDefaultRouteTablePropagation) TransitGateway
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation} Resource.
 func NewEc2TransitGatewayDefaultRouteTablePropagation(scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTablePropagationConfig) Ec2TransitGatewayDefaultRouteTablePropagation {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewEc2TransitGatewayDefaultRouteTablePropagation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_transit_gateway_default_route_table_propagation aws_ec2_transit_gateway_default_route_table_propagation} Resource.
 func NewEc2TransitGatewayDefaultRouteTablePropagation_Override(e Ec2TransitGatewayDefaultRouteTablePropagation, scope constructs.Construct, id *string, config *Ec2TransitGatewayDefaultRouteTablePropagationConfig) {
 	_init_.Initialize()
 

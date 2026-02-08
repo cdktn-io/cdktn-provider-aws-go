@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecatalogportfolio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogportfolio/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogportfolio/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
 type ServicecatalogPortfolio interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ServicecatalogPortfolio) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
 func NewServicecatalogPortfolio(scope constructs.Construct, id *string, config *ServicecatalogPortfolioConfig) ServicecatalogPortfolio {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewServicecatalogPortfolio(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio aws_servicecatalog_portfolio} Resource.
 func NewServicecatalogPortfolio_Override(s ServicecatalogPortfolio, scope constructs.Construct, id *string, config *ServicecatalogPortfolioConfig) {
 	_init_.Initialize()
 

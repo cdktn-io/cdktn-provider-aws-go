@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rekognitionstreamprocessor
@@ -7,7 +7,7 @@ package rekognitionstreamprocessor
 type RekognitionStreamProcessorDataSharingPreference struct {
 	// Do you want to share data with Rekognition to improve model performance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_stream_processor#opt_in RekognitionStreamProcessor#opt_in}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rekognition_stream_processor#opt_in RekognitionStreamProcessor#opt_in}
 	OptIn interface{} `field:"required" json:"optIn" yaml:"optIn"`
 }
 

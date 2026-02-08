@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sesv2accountvdmattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sesv2accountvdmattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sesv2accountvdmattributes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}.
 type Sesv2AccountVdmAttributes interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_Sesv2AccountVdmAttributes) VdmEnabledInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
 func NewSesv2AccountVdmAttributes(scope constructs.Construct, id *string, config *Sesv2AccountVdmAttributesConfig) Sesv2AccountVdmAttributes {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewSesv2AccountVdmAttributes(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource.
 func NewSesv2AccountVdmAttributes_Override(s Sesv2AccountVdmAttributes, scope constructs.Construct, id *string, config *Sesv2AccountVdmAttributesConfig) {
 	_init_.Initialize()
 

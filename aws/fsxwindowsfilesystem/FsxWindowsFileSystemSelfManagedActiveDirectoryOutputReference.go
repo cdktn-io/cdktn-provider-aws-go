@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxwindowsfilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -31,6 +31,9 @@ type FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference interface {
 	DnsIps() *[]*string
 	SetDnsIps(val *[]*string)
 	DnsIpsInput() *[]*string
+	DomainJoinServiceAccountSecret() *string
+	SetDomainJoinServiceAccountSecret(val *string)
+	DomainJoinServiceAccountSecretInput() *string
 	DomainName() *string
 	SetDomainName(val *string)
 	DomainNameInput() *string
@@ -82,8 +85,11 @@ type FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	ResetDomainJoinServiceAccountSecret()
 	ResetFileSystemAdministratorsGroup()
 	ResetOrganizationalUnitDistinguishedName()
+	ResetPassword()
+	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -144,6 +150,26 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	_jsii_.Get(
 		j,
 		"dnsIpsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) DomainJoinServiceAccountSecret() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"domainJoinServiceAccountSecret",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) DomainJoinServiceAccountSecretInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"domainJoinServiceAccountSecretInput",
 		&returns,
 	)
 	return returns
@@ -346,6 +372,17 @@ func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	_jsii_.Set(
 		j,
 		"dnsIps",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference)SetDomainJoinServiceAccountSecret(val *string) {
+	if err := j.validateSetDomainJoinServiceAccountSecretParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"domainJoinServiceAccountSecret",
 		val,
 	)
 }
@@ -624,6 +661,14 @@ func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	return returns
 }
 
+func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetDomainJoinServiceAccountSecret() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetDomainJoinServiceAccountSecret",
+		nil, // no parameters
+	)
+}
+
 func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetFileSystemAdministratorsGroup() {
 	_jsii_.InvokeVoid(
 		f,
@@ -636,6 +681,22 @@ func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference
 	_jsii_.InvokeVoid(
 		f,
 		"resetOrganizationalUnitDistinguishedName",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetPassword() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetPassword",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference) ResetUsername() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetUsername",
 		nil, // no parameters
 	)
 }

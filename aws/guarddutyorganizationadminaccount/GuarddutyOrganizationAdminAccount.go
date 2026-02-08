@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package guarddutyorganizationadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutyorganizationadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/guarddutyorganizationadminaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account}.
 type GuarddutyOrganizationAdminAccount interface {
 	cdktf.TerraformResource
 	AdminAccountId() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_GuarddutyOrganizationAdminAccount) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account} Resource.
 func NewGuarddutyOrganizationAdminAccount(scope constructs.Construct, id *string, config *GuarddutyOrganizationAdminAccountConfig) GuarddutyOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewGuarddutyOrganizationAdminAccount(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_organization_admin_account aws_guardduty_organization_admin_account} Resource.
 func NewGuarddutyOrganizationAdminAccount_Override(g GuarddutyOrganizationAdminAccount, scope constructs.Construct, id *string, config *GuarddutyOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 

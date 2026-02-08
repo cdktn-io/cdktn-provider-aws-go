@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewaydomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewaydomainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name}.
 type ApiGatewayDomainName interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -105,6 +105,9 @@ type ApiGatewayDomainName interface {
 	RegionalDomainName() *string
 	RegionalZoneId() *string
 	RegionInput() *string
+	RoutingMode() *string
+	SetRoutingMode(val *string)
+	RoutingModeInput() *string
 	SecurityPolicy() *string
 	SetSecurityPolicy(val *string)
 	SecurityPolicyInput() *string
@@ -185,6 +188,7 @@ type ApiGatewayDomainName interface {
 	ResetRegion()
 	ResetRegionalCertificateArn()
 	ResetRegionalCertificateName()
+	ResetRoutingMode()
 	ResetSecurityPolicy()
 	ResetTags()
 	ResetTagsAll()
@@ -707,6 +711,26 @@ func (j *jsiiProxy_ApiGatewayDomainName) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApiGatewayDomainName) RoutingMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName) RoutingModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApiGatewayDomainName) SecurityPolicy() *string {
 	var returns *string
 	_jsii_.Get(
@@ -818,7 +842,7 @@ func (j *jsiiProxy_ApiGatewayDomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) ApiGatewayDomainName {
 	_init_.Initialize()
 
@@ -836,7 +860,7 @@ func NewApiGatewayDomainName(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_domain_name aws_api_gateway_domain_name} Resource.
 func NewApiGatewayDomainName_Override(a ApiGatewayDomainName, scope constructs.Construct, id *string, config *ApiGatewayDomainNameConfig) {
 	_init_.Initialize()
 
@@ -1054,6 +1078,17 @@ func (j *jsiiProxy_ApiGatewayDomainName)SetRegionalCertificateName(val *string) 
 	_jsii_.Set(
 		j,
 		"regionalCertificateName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiGatewayDomainName)SetRoutingMode(val *string) {
+	if err := j.validateSetRoutingModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingMode",
 		val,
 	)
 }
@@ -1593,6 +1628,14 @@ func (a *jsiiProxy_ApiGatewayDomainName) ResetRegionalCertificateName() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRegionalCertificateName",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiGatewayDomainName) ResetRoutingMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRoutingMode",
 		nil, // no parameters
 	)
 }

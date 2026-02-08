@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appfabricingestion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/appfabricingestion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/appfabricingestion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion}.
 type AppfabricIngestion interface {
 	cdktf.TerraformResource
 	App() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_AppfabricIngestion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
 func NewAppfabricIngestion(scope constructs.Construct, id *string, config *AppfabricIngestionConfig) AppfabricIngestion {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewAppfabricIngestion(scope constructs.Construct, id *string, config *Appfa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appfabric_ingestion aws_appfabric_ingestion} Resource.
 func NewAppfabricIngestion_Override(a AppfabricIngestion, scope constructs.Construct, id *string, config *AppfabricIngestionConfig) {
 	_init_.Initialize()
 

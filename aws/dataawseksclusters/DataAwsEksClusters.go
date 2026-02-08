@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawseksclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawseksclusters/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_clusters aws_eks_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_clusters aws_eks_clusters}.
 type DataAwsEksClusters interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsEksClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_clusters aws_eks_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_clusters aws_eks_clusters} Data Source.
 func NewDataAwsEksClusters(scope constructs.Construct, id *string, config *DataAwsEksClustersConfig) DataAwsEksClusters {
 	_init_.Initialize()
 
@@ -318,7 +318,7 @@ func NewDataAwsEksClusters(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_clusters aws_eks_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_clusters aws_eks_clusters} Data Source.
 func NewDataAwsEksClusters_Override(d DataAwsEksClusters, scope constructs.Construct, id *string, config *DataAwsEksClustersConfig) {
 	_init_.Initialize()
 

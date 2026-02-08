@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbcloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbcloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbcloudvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster}.
 type DataAwsOdbCloudVmCluster interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -750,7 +750,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmCluster) VipIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) DataAwsOdbCloudVmCluster {
 	_init_.Initialize()
 
@@ -768,7 +768,7 @@ func NewDataAwsOdbCloudVmCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_cloud_vm_cluster aws_odb_cloud_vm_cluster} Data Source.
 func NewDataAwsOdbCloudVmCluster_Override(d DataAwsOdbCloudVmCluster, scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClusterConfig) {
 	_init_.Initialize()
 

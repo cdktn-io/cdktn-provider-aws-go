@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rekognitioncollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitioncollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rekognitioncollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

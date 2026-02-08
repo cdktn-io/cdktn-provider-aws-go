@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package licensemanagergrant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/licensemanagergrant/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/licensemanagergrant/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant aws_licensemanager_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/licensemanager_grant aws_licensemanager_grant}.
 type LicensemanagerGrant interface {
 	cdktf.TerraformResource
 	AllowedOperations() *[]*string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_LicensemanagerGrant) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
 func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) LicensemanagerGrant {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *Lice
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
 func NewLicensemanagerGrant_Override(l LicensemanagerGrant, scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) {
 	_init_.Initialize()
 

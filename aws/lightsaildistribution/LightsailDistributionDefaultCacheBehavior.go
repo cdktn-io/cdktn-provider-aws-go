@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lightsaildistribution
@@ -7,7 +7,7 @@ package lightsaildistribution
 type LightsailDistributionDefaultCacheBehavior struct {
 	// The cache behavior of the distribution.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
 	Behavior *string `field:"required" json:"behavior" yaml:"behavior"`
 }
 

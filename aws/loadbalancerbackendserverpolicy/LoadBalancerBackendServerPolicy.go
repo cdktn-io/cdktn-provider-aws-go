@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loadbalancerbackendserverpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/loadbalancerbackendserverpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/loadbalancerbackendserverpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy}.
 type LoadBalancerBackendServerPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_LoadBalancerBackendServerPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) LoadBalancerBackendServerPolicy {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewLoadBalancerBackendServerPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/load_balancer_backend_server_policy aws_load_balancer_backend_server_policy} Resource.
 func NewLoadBalancerBackendServerPolicy_Override(l LoadBalancerBackendServerPolicy, scope constructs.Construct, id *string, config *LoadBalancerBackendServerPolicyConfig) {
 	_init_.Initialize()
 

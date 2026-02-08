@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/launchtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_template aws_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/launch_template aws_launch_template}.
 type LaunchTemplate interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -112,6 +112,8 @@ type LaunchTemplate interface {
 	NamePrefixInput() *string
 	NetworkInterfaces() LaunchTemplateNetworkInterfacesList
 	NetworkInterfacesInput() interface{}
+	NetworkPerformanceOptions() LaunchTemplateNetworkPerformanceOptionsOutputReference
+	NetworkPerformanceOptionsInput() *LaunchTemplateNetworkPerformanceOptions
 	// The tree node.
 	Node() constructs.Node
 	Placement() LaunchTemplatePlacementOutputReference
@@ -217,6 +219,7 @@ type LaunchTemplate interface {
 	PutMetadataOptions(value *LaunchTemplateMetadataOptions)
 	PutMonitoring(value *LaunchTemplateMonitoring)
 	PutNetworkInterfaces(value interface{})
+	PutNetworkPerformanceOptions(value *LaunchTemplateNetworkPerformanceOptions)
 	PutPlacement(value *LaunchTemplatePlacement)
 	PutPrivateDnsNameOptions(value *LaunchTemplatePrivateDnsNameOptions)
 	PutTagSpecifications(value interface{})
@@ -247,6 +250,7 @@ type LaunchTemplate interface {
 	ResetName()
 	ResetNamePrefix()
 	ResetNetworkInterfaces()
+	ResetNetworkPerformanceOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -929,6 +933,26 @@ func (j *jsiiProxy_LaunchTemplate) NetworkInterfacesInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_LaunchTemplate) NetworkPerformanceOptions() LaunchTemplateNetworkPerformanceOptionsOutputReference {
+	var returns LaunchTemplateNetworkPerformanceOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"networkPerformanceOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplate) NetworkPerformanceOptionsInput() *LaunchTemplateNetworkPerformanceOptions {
+	var returns *LaunchTemplateNetworkPerformanceOptions
+	_jsii_.Get(
+		j,
+		"networkPerformanceOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LaunchTemplate) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -1220,7 +1244,7 @@ func (j *jsiiProxy_LaunchTemplate) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTemplateConfig) LaunchTemplate {
 	_init_.Initialize()
 
@@ -1238,7 +1262,7 @@ func NewLaunchTemplate(scope constructs.Construct, id *string, config *LaunchTem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/launch_template aws_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/launch_template aws_launch_template} Resource.
 func NewLaunchTemplate_Override(l LaunchTemplate, scope constructs.Construct, id *string, config *LaunchTemplateConfig) {
 	_init_.Initialize()
 
@@ -2055,6 +2079,17 @@ func (l *jsiiProxy_LaunchTemplate) PutNetworkInterfaces(value interface{}) {
 	)
 }
 
+func (l *jsiiProxy_LaunchTemplate) PutNetworkPerformanceOptions(value *LaunchTemplateNetworkPerformanceOptions) {
+	if err := l.validatePutNetworkPerformanceOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putNetworkPerformanceOptions",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_LaunchTemplate) PutPlacement(value *LaunchTemplatePlacement) {
 	if err := l.validatePutPlacementParameters(value); err != nil {
 		panic(err)
@@ -2300,6 +2335,14 @@ func (l *jsiiProxy_LaunchTemplate) ResetNetworkInterfaces() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetNetworkInterfaces",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LaunchTemplate) ResetNetworkPerformanceOptions() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetNetworkPerformanceOptions",
 		nil, // no parameters
 	)
 }

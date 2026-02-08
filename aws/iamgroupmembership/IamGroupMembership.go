@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamgroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamgroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iamgroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_membership aws_iam_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_group_membership aws_iam_group_membership}.
 type IamGroupMembership interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_IamGroupMembership) UsersInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
 func NewIamGroupMembership(scope constructs.Construct, id *string, config *IamGroupMembershipConfig) IamGroupMembership {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewIamGroupMembership(scope constructs.Construct, id *string, config *IamGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_group_membership aws_iam_group_membership} Resource.
 func NewIamGroupMembership_Override(i IamGroupMembership, scope constructs.Construct, id *string, config *IamGroupMembershipConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudwatchloggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudwatchloggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudwatchloggroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group}.
 type CloudwatchLogGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -561,7 +561,7 @@ func (j *jsiiProxy_CloudwatchLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
 func NewCloudwatchLogGroup(scope constructs.Construct, id *string, config *CloudwatchLogGroupConfig) CloudwatchLogGroup {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewCloudwatchLogGroup(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
 func NewCloudwatchLogGroup_Override(c CloudwatchLogGroup, scope constructs.Construct, id *string, config *CloudwatchLogGroupConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securityhubmember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/securityhubmember/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/securityhubmember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_member aws_securityhub_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_member aws_securityhub_member}.
 type SecurityhubMember interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_SecurityhubMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
 func NewSecurityhubMember(scope constructs.Construct, id *string, config *SecurityhubMemberConfig) SecurityhubMember {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewSecurityhubMember(scope constructs.Construct, id *string, config *Securi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_member aws_securityhub_member} Resource.
 func NewSecurityhubMember_Override(s SecurityhubMember, scope constructs.Construct, id *string, config *SecurityhubMemberConfig) {
 	_init_.Initialize()
 

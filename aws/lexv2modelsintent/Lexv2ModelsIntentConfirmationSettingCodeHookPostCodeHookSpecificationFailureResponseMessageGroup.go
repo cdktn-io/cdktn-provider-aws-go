@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsintent
@@ -7,11 +7,11 @@ package lexv2modelsintent
 type Lexv2ModelsIntentConfirmationSettingCodeHookPostCodeHookSpecificationFailureResponseMessageGroup struct {
 	// message block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#message Lexv2ModelsIntent#message}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#message Lexv2ModelsIntent#message}
 	Message interface{} `field:"optional" json:"message" yaml:"message"`
 	// variation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_intent#variation Lexv2ModelsIntent#variation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_intent#variation Lexv2ModelsIntent#variation}
 	Variation interface{} `field:"optional" json:"variation" yaml:"variation"`
 }
 

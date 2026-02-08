@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerdevice
 
 
 type NetworkmanagerDeviceAwsLocation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}.
 	SubnetArn *string `field:"optional" json:"subnetArn" yaml:"subnetArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}.
 	Zone *string `field:"optional" json:"zone" yaml:"zone"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package verifiedpermissionspolicy
@@ -7,11 +7,11 @@ package verifiedpermissionspolicy
 type VerifiedpermissionsPolicyDefinition struct {
 	// static block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_policy#static VerifiedpermissionsPolicy#static}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/verifiedpermissions_policy#static VerifiedpermissionsPolicy#static}
 	Static interface{} `field:"optional" json:"static" yaml:"static"`
 	// template_linked block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/verifiedpermissions_policy#template_linked VerifiedpermissionsPolicy#template_linked}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/verifiedpermissions_policy#template_linked VerifiedpermissionsPolicy#template_linked}
 	TemplateLinked interface{} `field:"optional" json:"templateLinked" yaml:"templateLinked"`
 }
 

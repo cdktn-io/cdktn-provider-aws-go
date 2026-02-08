@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsredshiftserverlesscredentials
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsredshiftserverlesscredentials/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsredshiftserverlesscredentials/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials}.
 type DataAwsRedshiftserverlessCredentials interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessCredentials) WorkgroupNameInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials} Data Source.
 func NewDataAwsRedshiftserverlessCredentials(scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessCredentialsConfig) DataAwsRedshiftserverlessCredentials {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAwsRedshiftserverlessCredentials(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/redshiftserverless_credentials aws_redshiftserverless_credentials} Data Source.
 func NewDataAwsRedshiftserverlessCredentials_Override(d DataAwsRedshiftserverlessCredentials, scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessCredentialsConfig) {
 	_init_.Initialize()
 

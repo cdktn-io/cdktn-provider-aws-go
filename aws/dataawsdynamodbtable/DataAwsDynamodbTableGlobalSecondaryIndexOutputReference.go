@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsdynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -33,6 +33,7 @@ type DataAwsDynamodbTableGlobalSecondaryIndexOutputReference interface {
 	HashKey() *string
 	InternalValue() *DataAwsDynamodbTableGlobalSecondaryIndex
 	SetInternalValue(val *DataAwsDynamodbTableGlobalSecondaryIndex)
+	KeySchema() DataAwsDynamodbTableGlobalSecondaryIndexKeySchemaList
 	Name() *string
 	NonKeyAttributes() *[]*string
 	OnDemandThroughput() DataAwsDynamodbTableGlobalSecondaryIndexOnDemandThroughputList
@@ -143,6 +144,16 @@ func (j *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsDynamodbTableGlobalSecondaryIndexOutputReference) KeySchema() DataAwsDynamodbTableGlobalSecondaryIndexKeySchemaList {
+	var returns DataAwsDynamodbTableGlobalSecondaryIndexKeySchemaList
+	_jsii_.Get(
+		j,
+		"keySchema",
 		&returns,
 	)
 	return returns

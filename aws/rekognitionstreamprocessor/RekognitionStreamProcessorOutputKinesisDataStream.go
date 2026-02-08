@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rekognitionstreamprocessor
@@ -7,7 +7,7 @@ package rekognitionstreamprocessor
 type RekognitionStreamProcessorOutputKinesisDataStream struct {
 	// ARN of the output Amazon Kinesis Data Streams stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_stream_processor#arn RekognitionStreamProcessor#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rekognition_stream_processor#arn RekognitionStreamProcessor#arn}
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

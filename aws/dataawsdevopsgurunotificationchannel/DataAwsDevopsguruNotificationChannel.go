@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsdevopsgurunotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsdevopsgurunotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsdevopsgurunotificationchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel}.
 type DataAwsDevopsguruNotificationChannel interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -336,7 +336,7 @@ func (j *jsiiProxy_DataAwsDevopsguruNotificationChannel) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
 func NewDataAwsDevopsguruNotificationChannel(scope constructs.Construct, id *string, config *DataAwsDevopsguruNotificationChannelConfig) DataAwsDevopsguruNotificationChannel {
 	_init_.Initialize()
 
@@ -354,7 +354,7 @@ func NewDataAwsDevopsguruNotificationChannel(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/devopsguru_notification_channel aws_devopsguru_notification_channel} Data Source.
 func NewDataAwsDevopsguruNotificationChannel_Override(d DataAwsDevopsguruNotificationChannel, scope constructs.Construct, id *string, config *DataAwsDevopsguruNotificationChannelConfig) {
 	_init_.Initialize()
 

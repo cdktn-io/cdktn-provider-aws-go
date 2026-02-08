@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawscetags
@@ -7,15 +7,15 @@ package dataawscetags
 type DataAwsCeTagsFilterNot struct {
 	// cost_category block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_tags#cost_category DataAwsCeTags#cost_category}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ce_tags#cost_category DataAwsCeTags#cost_category}
 	CostCategory *DataAwsCeTagsFilterNotCostCategory `field:"optional" json:"costCategory" yaml:"costCategory"`
 	// dimension block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_tags#dimension DataAwsCeTags#dimension}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ce_tags#dimension DataAwsCeTags#dimension}
 	Dimension *DataAwsCeTagsFilterNotDimension `field:"optional" json:"dimension" yaml:"dimension"`
 	// tags block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ce_tags#tags DataAwsCeTags#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ce_tags#tags DataAwsCeTags#tags}
 	Tags *DataAwsCeTagsFilterNotTags `field:"optional" json:"tags" yaml:"tags"`
 }
 

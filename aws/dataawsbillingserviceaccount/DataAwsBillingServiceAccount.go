@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsbillingserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbillingserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbillingserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/billing_service_account aws_billing_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/billing_service_account aws_billing_service_account}.
 type DataAwsBillingServiceAccount interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAwsBillingServiceAccount) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
 func NewDataAwsBillingServiceAccount(scope constructs.Construct, id *string, config *DataAwsBillingServiceAccountConfig) DataAwsBillingServiceAccount {
 	_init_.Initialize()
 
@@ -294,7 +294,7 @@ func NewDataAwsBillingServiceAccount(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
 func NewDataAwsBillingServiceAccount_Override(d DataAwsBillingServiceAccount, scope constructs.Construct, id *string, config *DataAwsBillingServiceAccountConfig) {
 	_init_.Initialize()
 

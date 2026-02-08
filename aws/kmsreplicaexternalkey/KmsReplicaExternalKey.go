@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kmsreplicaexternalkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/kmsreplicaexternalkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/kmsreplicaexternalkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key}.
 type KmsReplicaExternalKey interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_KmsReplicaExternalKey) ValidToInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
 func NewKmsReplicaExternalKey(scope constructs.Construct, id *string, config *KmsReplicaExternalKeyConfig) KmsReplicaExternalKey {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewKmsReplicaExternalKey(scope constructs.Construct, id *string, config *Km
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kms_replica_external_key aws_kms_replica_external_key} Resource.
 func NewKmsReplicaExternalKey_Override(k KmsReplicaExternalKey, scope constructs.Construct, id *string, config *KmsReplicaExternalKeyConfig) {
 	_init_.Initialize()
 

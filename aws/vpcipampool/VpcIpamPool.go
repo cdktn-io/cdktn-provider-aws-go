@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcipampool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipampool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcipampool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}.
 type VpcIpamPool interface {
 	cdktf.TerraformResource
 	AddressFamily() *string
@@ -106,6 +106,8 @@ type VpcIpamPool interface {
 	SourceIpamPoolId() *string
 	SetSourceIpamPoolId(val *string)
 	SourceIpamPoolIdInput() *string
+	SourceResource() VpcIpamPoolSourceResourceOutputReference
+	SourceResourceInput() *VpcIpamPoolSourceResource
 	State() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
@@ -164,6 +166,7 @@ type VpcIpamPool interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutSourceResource(value *VpcIpamPoolSourceResource)
 	PutTimeouts(value *VpcIpamPoolTimeouts)
 	ResetAllocationDefaultNetmaskLength()
 	ResetAllocationMaxNetmaskLength()
@@ -182,6 +185,7 @@ type VpcIpamPool interface {
 	ResetPubliclyAdvertisable()
 	ResetRegion()
 	ResetSourceIpamPoolId()
+	ResetSourceResource()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -683,6 +687,26 @@ func (j *jsiiProxy_VpcIpamPool) SourceIpamPoolIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VpcIpamPool) SourceResource() VpcIpamPoolSourceResourceOutputReference {
+	var returns VpcIpamPoolSourceResourceOutputReference
+	_jsii_.Get(
+		j,
+		"sourceResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcIpamPool) SourceResourceInput() *VpcIpamPoolSourceResource {
+	var returns *VpcIpamPoolSourceResource
+	_jsii_.Get(
+		j,
+		"sourceResourceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpcIpamPool) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -784,7 +808,7 @@ func (j *jsiiProxy_VpcIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
 func NewVpcIpamPool(scope constructs.Construct, id *string, config *VpcIpamPoolConfig) VpcIpamPool {
 	_init_.Initialize()
 
@@ -802,7 +826,7 @@ func NewVpcIpamPool(scope constructs.Construct, id *string, config *VpcIpamPoolC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
 func NewVpcIpamPool_Override(v VpcIpamPool, scope constructs.Construct, id *string, config *VpcIpamPoolConfig) {
 	_init_.Initialize()
 
@@ -1432,6 +1456,17 @@ func (v *jsiiProxy_VpcIpamPool) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (v *jsiiProxy_VpcIpamPool) PutSourceResource(value *VpcIpamPoolSourceResource) {
+	if err := v.validatePutSourceResourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putSourceResource",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VpcIpamPool) PutTimeouts(value *VpcIpamPoolTimeouts) {
 	if err := v.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1559,6 +1594,14 @@ func (v *jsiiProxy_VpcIpamPool) ResetSourceIpamPoolId() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetSourceIpamPoolId",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcIpamPool) ResetSourceResource() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetSourceResource",
 		nil, // no parameters
 	)
 }

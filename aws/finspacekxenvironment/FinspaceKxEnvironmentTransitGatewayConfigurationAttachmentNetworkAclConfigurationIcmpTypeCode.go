@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package finspacekxenvironment
 
 
 type FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAclConfigurationIcmpTypeCode struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/finspace_kx_environment#code FinspaceKxEnvironment#code}.
 	Code *float64 `field:"required" json:"code" yaml:"code"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/finspace_kx_environment#type FinspaceKxEnvironment#type}.
 	Type *float64 `field:"required" json:"type" yaml:"type"`
 }
 

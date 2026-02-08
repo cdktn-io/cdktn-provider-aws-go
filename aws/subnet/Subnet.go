@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/subnet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/subnet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/subnet aws_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/subnet aws_subnet}.
 type Subnet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -70,13 +70,25 @@ type Subnet interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Ipv4IpamPoolId() *string
+	SetIpv4IpamPoolId(val *string)
+	Ipv4IpamPoolIdInput() *string
+	Ipv4NetmaskLength() *float64
+	SetIpv4NetmaskLength(val *float64)
+	Ipv4NetmaskLengthInput() *float64
 	Ipv6CidrBlock() *string
 	SetIpv6CidrBlock(val *string)
 	Ipv6CidrBlockAssociationId() *string
 	Ipv6CidrBlockInput() *string
+	Ipv6IpamPoolId() *string
+	SetIpv6IpamPoolId(val *string)
+	Ipv6IpamPoolIdInput() *string
 	Ipv6Native() interface{}
 	SetIpv6Native(val interface{})
 	Ipv6NativeInput() interface{}
+	Ipv6NetmaskLength() *float64
+	SetIpv6NetmaskLength(val *float64)
+	Ipv6NetmaskLengthInput() *float64
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -180,8 +192,12 @@ type Subnet interface {
 	ResetEnableResourceNameDnsAaaaRecordOnLaunch()
 	ResetEnableResourceNameDnsARecordOnLaunch()
 	ResetId()
+	ResetIpv4IpamPoolId()
+	ResetIpv4NetmaskLength()
 	ResetIpv6CidrBlock()
+	ResetIpv6IpamPoolId()
 	ResetIpv6Native()
+	ResetIpv6NetmaskLength()
 	ResetMapCustomerOwnedIpOnLaunch()
 	ResetMapPublicIpOnLaunch()
 	ResetOutpostArn()
@@ -501,6 +517,46 @@ func (j *jsiiProxy_Subnet) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Subnet) Ipv4IpamPoolId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv4IpamPoolId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv4IpamPoolIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv4IpamPoolIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv4NetmaskLength() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ipv4NetmaskLength",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv4NetmaskLengthInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ipv4NetmaskLengthInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Subnet) Ipv6CidrBlock() *string {
 	var returns *string
 	_jsii_.Get(
@@ -531,6 +587,26 @@ func (j *jsiiProxy_Subnet) Ipv6CidrBlockInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Subnet) Ipv6IpamPoolId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6IpamPoolId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv6IpamPoolIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6IpamPoolIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Subnet) Ipv6Native() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -546,6 +622,26 @@ func (j *jsiiProxy_Subnet) Ipv6NativeInput() interface{} {
 	_jsii_.Get(
 		j,
 		"ipv6NativeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv6NetmaskLength() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ipv6NetmaskLength",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Subnet) Ipv6NetmaskLengthInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ipv6NetmaskLengthInput",
 		&returns,
 	)
 	return returns
@@ -822,7 +918,7 @@ func (j *jsiiProxy_Subnet) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/subnet aws_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/subnet aws_subnet} Resource.
 func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Subnet {
 	_init_.Initialize()
 
@@ -840,7 +936,7 @@ func NewSubnet(scope constructs.Construct, id *string, config *SubnetConfig) Sub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/subnet aws_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/subnet aws_subnet} Resource.
 func NewSubnet_Override(s Subnet, scope constructs.Construct, id *string, config *SubnetConfig) {
 	_init_.Initialize()
 
@@ -999,6 +1095,28 @@ func (j *jsiiProxy_Subnet)SetId(val *string) {
 	)
 }
 
+func (j *jsiiProxy_Subnet)SetIpv4IpamPoolId(val *string) {
+	if err := j.validateSetIpv4IpamPoolIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv4IpamPoolId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Subnet)SetIpv4NetmaskLength(val *float64) {
+	if err := j.validateSetIpv4NetmaskLengthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv4NetmaskLength",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Subnet)SetIpv6CidrBlock(val *string) {
 	if err := j.validateSetIpv6CidrBlockParameters(val); err != nil {
 		panic(err)
@@ -1010,6 +1128,17 @@ func (j *jsiiProxy_Subnet)SetIpv6CidrBlock(val *string) {
 	)
 }
 
+func (j *jsiiProxy_Subnet)SetIpv6IpamPoolId(val *string) {
+	if err := j.validateSetIpv6IpamPoolIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6IpamPoolId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_Subnet)SetIpv6Native(val interface{}) {
 	if err := j.validateSetIpv6NativeParameters(val); err != nil {
 		panic(err)
@@ -1017,6 +1146,17 @@ func (j *jsiiProxy_Subnet)SetIpv6Native(val interface{}) {
 	_jsii_.Set(
 		j,
 		"ipv6Native",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Subnet)SetIpv6NetmaskLength(val *float64) {
+	if err := j.validateSetIpv6NetmaskLengthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6NetmaskLength",
 		val,
 	)
 }
@@ -1583,6 +1723,22 @@ func (s *jsiiProxy_Subnet) ResetId() {
 	)
 }
 
+func (s *jsiiProxy_Subnet) ResetIpv4IpamPoolId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetIpv4IpamPoolId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_Subnet) ResetIpv4NetmaskLength() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetIpv4NetmaskLength",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_Subnet) ResetIpv6CidrBlock() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1591,10 +1747,26 @@ func (s *jsiiProxy_Subnet) ResetIpv6CidrBlock() {
 	)
 }
 
+func (s *jsiiProxy_Subnet) ResetIpv6IpamPoolId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetIpv6IpamPoolId",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_Subnet) ResetIpv6Native() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetIpv6Native",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_Subnet) ResetIpv6NetmaskLength() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetIpv6NetmaskLength",
 		nil, // no parameters
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbtargetgroup
@@ -7,11 +7,11 @@ package lbtargetgroup
 type LbTargetGroupTargetGroupHealth struct {
 	// dns_failover block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lb_target_group#dns_failover LbTargetGroup#dns_failover}
 	DnsFailover *LbTargetGroupTargetGroupHealthDnsFailover `field:"optional" json:"dnsFailover" yaml:"dnsFailover"`
 	// unhealthy_state_routing block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lb_target_group#unhealthy_state_routing LbTargetGroup#unhealthy_state_routing}
 	UnhealthyStateRouting *LbTargetGroupTargetGroupHealthUnhealthyStateRouting `field:"optional" json:"unhealthyStateRouting" yaml:"unhealthyStateRouting"`
 }
 

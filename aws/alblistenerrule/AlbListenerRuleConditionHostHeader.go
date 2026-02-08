@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alblistenerrule
 
 
 type AlbListenerRuleConditionHostHeader struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule#regex_values AlbListenerRule#regex_values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener_rule#regex_values AlbListenerRule#regex_values}.
 	RegexValues *[]*string `field:"optional" json:"regexValues" yaml:"regexValues"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

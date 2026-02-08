@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxwindowsfilesystem
@@ -251,6 +251,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsIps", GoGetter: "DnsIps"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsIpsInput", GoGetter: "DnsIpsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "domainJoinServiceAccountSecret", GoGetter: "DomainJoinServiceAccountSecret"},
+			_jsii_.MemberProperty{JsiiProperty: "domainJoinServiceAccountSecretInput", GoGetter: "DomainJoinServiceAccountSecretInput"},
 			_jsii_.MemberProperty{JsiiProperty: "domainName", GoGetter: "DomainName"},
 			_jsii_.MemberProperty{JsiiProperty: "domainNameInput", GoGetter: "DomainNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fileSystemAdministratorsGroup", GoGetter: "FileSystemAdministratorsGroup"},
@@ -272,8 +274,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "organizationalUnitDistinguishedNameInput", GoGetter: "OrganizationalUnitDistinguishedNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "password", GoGetter: "Password"},
 			_jsii_.MemberProperty{JsiiProperty: "passwordInput", GoGetter: "PasswordInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDomainJoinServiceAccountSecret", GoMethod: "ResetDomainJoinServiceAccountSecret"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFileSystemAdministratorsGroup", GoMethod: "ResetFileSystemAdministratorsGroup"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOrganizationalUnitDistinguishedName", GoMethod: "ResetOrganizationalUnitDistinguishedName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPassword", GoMethod: "ResetPassword"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUsername", GoMethod: "ResetUsername"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

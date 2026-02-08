@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationsorganization
@@ -65,6 +65,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetFeatureSet", GoMethod: "ResetFeatureSet"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetReturnOrganizationOnly", GoMethod: "ResetReturnOrganizationOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "returnOrganizationOnly", GoGetter: "ReturnOrganizationOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "returnOrganizationOnlyInput", GoGetter: "ReturnOrganizationOnlyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "roots", GoGetter: "Roots"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},

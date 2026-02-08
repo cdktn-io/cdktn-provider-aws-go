@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsconnectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsconnectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsconnectinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance aws_connect_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/connect_instance aws_connect_instance}.
 type DataAwsConnectInstance interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DataAwsConnectInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
 func NewDataAwsConnectInstance(scope constructs.Construct, id *string, config *DataAwsConnectInstanceConfig) DataAwsConnectInstance {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewDataAwsConnectInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
 func NewDataAwsConnectInstance_Override(d DataAwsConnectInstance, scope constructs.Construct, id *string, config *DataAwsConnectInstanceConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsrdsclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsrdsclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsrdsclusterparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group}.
 type DataAwsRdsClusterParameterGroup interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsRdsClusterParameterGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
 func NewDataAwsRdsClusterParameterGroup(scope constructs.Construct, id *string, config *DataAwsRdsClusterParameterGroupConfig) DataAwsRdsClusterParameterGroup {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsRdsClusterParameterGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/rds_cluster_parameter_group aws_rds_cluster_parameter_group} Data Source.
 func NewDataAwsRdsClusterParameterGroup_Override(d DataAwsRdsClusterParameterGroup, scope constructs.Construct, id *string, config *DataAwsRdsClusterParameterGroupConfig) {
 	_init_.Initialize()
 

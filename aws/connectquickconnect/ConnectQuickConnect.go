@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectquickconnect
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectquickconnect/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectquickconnect/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect aws_connect_quick_connect}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect aws_connect_quick_connect}.
 type ConnectQuickConnect interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_ConnectQuickConnect) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect aws_connect_quick_connect} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect aws_connect_quick_connect} Resource.
 func NewConnectQuickConnect(scope constructs.Construct, id *string, config *ConnectQuickConnectConfig) ConnectQuickConnect {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewConnectQuickConnect(scope constructs.Construct, id *string, config *Conn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect aws_connect_quick_connect} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect aws_connect_quick_connect} Resource.
 func NewConnectQuickConnect_Override(c ConnectQuickConnect, scope constructs.Construct, id *string, config *ConnectQuickConnectConfig) {
 	_init_.Initialize()
 

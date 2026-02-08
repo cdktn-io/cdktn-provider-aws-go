@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appflowconnectorprofile
 
 
 type AppflowConnectorProfileConnectorProfileConfigConnectorProfileCredentialsVeeva struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appflow_connector_profile#password AppflowConnectorProfile#password}.
 	Password *string `field:"required" json:"password" yaml:"password"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appflow_connector_profile#username AppflowConnectorProfile#username}.
 	Username *string `field:"required" json:"username" yaml:"username"`
 }
 

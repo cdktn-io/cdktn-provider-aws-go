@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lambdafunction
 
 
 type LambdaFunctionFileSystemConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function#arn LambdaFunction#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_function#arn LambdaFunction#arn}.
 	Arn *string `field:"required" json:"arn" yaml:"arn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_function#local_mount_path LambdaFunction#local_mount_path}.
 	LocalMountPath *string `field:"required" json:"localMountPath" yaml:"localMountPath"`
 }
 

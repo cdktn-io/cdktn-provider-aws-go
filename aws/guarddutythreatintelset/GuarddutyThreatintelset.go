@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package guarddutythreatintelset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/guarddutythreatintelset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/guarddutythreatintelset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset}.
 type GuarddutyThreatintelset interface {
 	cdktf.TerraformResource
 	Activate() interface{}
@@ -508,7 +508,7 @@ func (j *jsiiProxy_GuarddutyThreatintelset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) GuarddutyThreatintelset {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewGuarddutyThreatintelset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/guardduty_threatintelset aws_guardduty_threatintelset} Resource.
 func NewGuarddutyThreatintelset_Override(g GuarddutyThreatintelset, scope constructs.Construct, id *string, config *GuarddutyThreatintelsetConfig) {
 	_init_.Initialize()
 

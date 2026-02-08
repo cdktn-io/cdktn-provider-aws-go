@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kinesisanalyticsapplication
 
 
 type KinesisAnalyticsApplicationInputsStartingPositionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kinesis_analytics_application#starting_position KinesisAnalyticsApplication#starting_position}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kinesis_analytics_application#starting_position KinesisAnalyticsApplication#starting_position}.
 	StartingPosition *string `field:"optional" json:"startingPosition" yaml:"startingPosition"`
 }
 

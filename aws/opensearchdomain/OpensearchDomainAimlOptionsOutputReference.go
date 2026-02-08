@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/opensearchdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -36,6 +36,8 @@ type OpensearchDomainAimlOptionsOutputReference interface {
 	NaturalLanguageQueryGenerationOptionsInput() *OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptions
 	S3VectorsEngine() OpensearchDomainAimlOptionsS3VectorsEngineOutputReference
 	S3VectorsEngineInput() *OpensearchDomainAimlOptionsS3VectorsEngine
+	ServerlessVectorAcceleration() OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference
+	ServerlessVectorAccelerationInput() *OpensearchDomainAimlOptionsServerlessVectorAcceleration
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type OpensearchDomainAimlOptionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutNaturalLanguageQueryGenerationOptions(value *OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptions)
 	PutS3VectorsEngine(value *OpensearchDomainAimlOptionsS3VectorsEngine)
+	PutServerlessVectorAcceleration(value *OpensearchDomainAimlOptionsServerlessVectorAcceleration)
 	ResetNaturalLanguageQueryGenerationOptions()
 	ResetS3VectorsEngine()
+	ResetServerlessVectorAcceleration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) S3VectorsEngineIn
 	_jsii_.Get(
 		j,
 		"s3VectorsEngineInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) ServerlessVectorAcceleration() OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference {
+	var returns OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputReference
+	_jsii_.Get(
+		j,
+		"serverlessVectorAcceleration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) ServerlessVectorAccelerationInput() *OpensearchDomainAimlOptionsServerlessVectorAcceleration {
+	var returns *OpensearchDomainAimlOptionsServerlessVectorAcceleration
+	_jsii_.Get(
+		j,
+		"serverlessVectorAccelerationInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (o *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) PutS3VectorsEngin
 	)
 }
 
+func (o *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) PutServerlessVectorAcceleration(value *OpensearchDomainAimlOptionsServerlessVectorAcceleration) {
+	if err := o.validatePutServerlessVectorAccelerationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putServerlessVectorAcceleration",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) ResetNaturalLanguageQueryGenerationOptions() {
 	_jsii_.InvokeVoid(
 		o,
@@ -500,6 +535,14 @@ func (o *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) ResetS3VectorsEng
 	_jsii_.InvokeVoid(
 		o,
 		"resetS3VectorsEngine",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchDomainAimlOptionsOutputReference) ResetServerlessVectorAcceleration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetServerlessVectorAcceleration",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rekognitioncollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rekognitioncollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rekognitioncollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_collection aws_rekognition_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rekognition_collection aws_rekognition_collection}.
 type RekognitionCollection interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_RekognitionCollection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
 func NewRekognitionCollection(scope constructs.Construct, id *string, config *RekognitionCollectionConfig) RekognitionCollection {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewRekognitionCollection(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
 func NewRekognitionCollection_Override(r RekognitionCollection, scope constructs.Construct, id *string, config *RekognitionCollectionConfig) {
 	_init_.Initialize()
 

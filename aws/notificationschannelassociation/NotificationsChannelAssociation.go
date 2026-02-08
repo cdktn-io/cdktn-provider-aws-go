@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationschannelassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/notificationschannelassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/notificationschannelassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_channel_association aws_notifications_channel_association}.
 type NotificationsChannelAssociation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_NotificationsChannelAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) NotificationsChannelAssociation {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/notifications_channel_association aws_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation_Override(n NotificationsChannelAssociation, scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsnetworkmanagercorenetworkpolicydocument
@@ -1052,11 +1052,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDestinations", GoMethod: "ResetDestinations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEdgeLocationAssociation", GoMethod: "ResetEdgeLocationAssociation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMode", GoMethod: "ResetMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRoutingPolicyNames", GoMethod: "ResetRoutingPolicyNames"},
 			_jsii_.MemberMethod{JsiiMethod: "resetShareWith", GoMethod: "ResetShareWith"},
 			_jsii_.MemberMethod{JsiiMethod: "resetShareWithExcept", GoMethod: "ResetShareWithExcept"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVia", GoMethod: "ResetVia"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWhenSentTo", GoMethod: "ResetWhenSentTo"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "routingPolicyNames", GoGetter: "RoutingPolicyNames"},
+			_jsii_.MemberProperty{JsiiProperty: "routingPolicyNamesInput", GoGetter: "RoutingPolicyNamesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "segment", GoGetter: "Segment"},
 			_jsii_.MemberProperty{JsiiProperty: "segmentInput", GoGetter: "SegmentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "shareWith", GoGetter: "ShareWith"},

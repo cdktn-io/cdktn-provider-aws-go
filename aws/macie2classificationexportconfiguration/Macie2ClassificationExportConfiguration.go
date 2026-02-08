@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package macie2classificationexportconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2classificationexportconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/macie2classificationexportconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration}.
 type Macie2ClassificationExportConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_Macie2ClassificationExportConfiguration) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
 func NewMacie2ClassificationExportConfiguration(scope constructs.Construct, id *string, config *Macie2ClassificationExportConfigurationConfig) Macie2ClassificationExportConfiguration {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewMacie2ClassificationExportConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_classification_export_configuration aws_macie2_classification_export_configuration} Resource.
 func NewMacie2ClassificationExportConfiguration_Override(m Macie2ClassificationExportConfiguration, scope constructs.Construct, id *string, config *Macie2ClassificationExportConfigurationConfig) {
 	_init_.Initialize()
 

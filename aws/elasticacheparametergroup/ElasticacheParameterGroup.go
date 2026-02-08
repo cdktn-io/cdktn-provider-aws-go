@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticacheparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/elasticacheparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/elasticacheparametergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group}.
 type ElasticacheParameterGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -487,7 +487,7 @@ func (j *jsiiProxy_ElasticacheParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group} Resource.
 func NewElasticacheParameterGroup(scope constructs.Construct, id *string, config *ElasticacheParameterGroupConfig) ElasticacheParameterGroup {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewElasticacheParameterGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/elasticache_parameter_group aws_elasticache_parameter_group} Resource.
 func NewElasticacheParameterGroup_Override(e ElasticacheParameterGroup, scope constructs.Construct, id *string, config *ElasticacheParameterGroupConfig) {
 	_init_.Initialize()
 

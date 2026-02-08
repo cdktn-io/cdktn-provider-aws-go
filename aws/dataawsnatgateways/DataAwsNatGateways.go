@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsnatgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnatgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsnatgateways/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/nat_gateways aws_nat_gateways}.
 type DataAwsNatGateways interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsNatGateways) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
 func NewDataAwsNatGateways(scope constructs.Construct, id *string, config *DataAwsNatGatewaysConfig) DataAwsNatGateways {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsNatGateways(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/nat_gateways aws_nat_gateways} Data Source.
 func NewDataAwsNatGateways_Override(d DataAwsNatGateways, scope constructs.Construct, id *string, config *DataAwsNatGatewaysConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawswafipset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafipset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawswafipset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/waf_ipset aws_waf_ipset}.
 type DataAwsWafIpset interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -288,7 +288,7 @@ func (j *jsiiProxy_DataAwsWafIpset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
 func NewDataAwsWafIpset(scope constructs.Construct, id *string, config *DataAwsWafIpsetConfig) DataAwsWafIpset {
 	_init_.Initialize()
 
@@ -306,7 +306,7 @@ func NewDataAwsWafIpset(scope constructs.Construct, id *string, config *DataAwsW
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/waf_ipset aws_waf_ipset} Data Source.
 func NewDataAwsWafIpset_Override(d DataAwsWafIpset, scope constructs.Construct, id *string, config *DataAwsWafIpsetConfig) {
 	_init_.Initialize()
 

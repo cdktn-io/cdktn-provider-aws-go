@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ec2allowedimagessettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ec2allowedimagessettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ec2allowedimagessettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}.
 type Ec2AllowedImagesSettings interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
 func NewEc2AllowedImagesSettings(scope constructs.Construct, id *string, config *Ec2AllowedImagesSettingsConfig) Ec2AllowedImagesSettings {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewEc2AllowedImagesSettings(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
 func NewEc2AllowedImagesSettings_Override(e Ec2AllowedImagesSettings, scope constructs.Construct, id *string, config *Ec2AllowedImagesSettingsConfig) {
 	_init_.Initialize()
 

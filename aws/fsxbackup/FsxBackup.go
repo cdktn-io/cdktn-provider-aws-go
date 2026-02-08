@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxbackup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxbackup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxbackup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_backup aws_fsx_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_backup aws_fsx_backup}.
 type FsxBackup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_FsxBackup) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
 func NewFsxBackup(scope constructs.Construct, id *string, config *FsxBackupConfig) FsxBackup {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewFsxBackup(scope constructs.Construct, id *string, config *FsxBackupConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_backup aws_fsx_backup} Resource.
 func NewFsxBackup_Override(f FsxBackup, scope constructs.Construct, id *string, config *FsxBackupConfig) {
 	_init_.Initialize()
 

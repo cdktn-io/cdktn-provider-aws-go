@@ -1,17 +1,17 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ekscluster
 
 
 type EksClusterOutpostConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}.
 	ControlPlaneInstanceType *string `field:"required" json:"controlPlaneInstanceType" yaml:"controlPlaneInstanceType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}.
 	OutpostArns *[]*string `field:"required" json:"outpostArns" yaml:"outpostArns"`
 	// control_plane_placement block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
 	ControlPlanePlacement *EksClusterOutpostConfigControlPlanePlacement `field:"optional" json:"controlPlanePlacement" yaml:"controlPlanePlacement"`
 }
 

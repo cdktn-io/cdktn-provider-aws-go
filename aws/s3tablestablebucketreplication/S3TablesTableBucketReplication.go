@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3tablestablebucketreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3tablestablebucketreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3tablestablebucketreplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication}.
 type S3TablesTableBucketReplication interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_S3TablesTableBucketReplication) VersionToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
 func NewS3TablesTableBucketReplication(scope constructs.Construct, id *string, config *S3TablesTableBucketReplicationConfig) S3TablesTableBucketReplication {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewS3TablesTableBucketReplication(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3tables_table_bucket_replication aws_s3tables_table_bucket_replication} Resource.
 func NewS3TablesTableBucketReplication_Override(s S3TablesTableBucketReplication, scope constructs.Construct, id *string, config *S3TablesTableBucketReplicationConfig) {
 	_init_.Initialize()
 

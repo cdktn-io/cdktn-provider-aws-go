@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package natgatewayeipassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/natgatewayeipassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/natgatewayeipassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association}.
 type NatGatewayEipAssociation interface {
 	cdktf.TerraformResource
 	AllocationId() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_NatGatewayEipAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
 func NewNatGatewayEipAssociation(scope constructs.Construct, id *string, config *NatGatewayEipAssociationConfig) NatGatewayEipAssociation {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewNatGatewayEipAssociation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/nat_gateway_eip_association aws_nat_gateway_eip_association} Resource.
 func NewNatGatewayEipAssociation_Override(n NatGatewayEipAssociation, scope constructs.Construct, id *string, config *NatGatewayEipAssociationConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package wafregionalbytematchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/wafregionalbytematchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/wafregionalbytematchset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set}.
 type WafregionalByteMatchSet interface {
 	cdktf.TerraformResource
 	ByteMatchTuples() WafregionalByteMatchSetByteMatchTuplesList
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WafregionalByteMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) WafregionalByteMatchSet {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewWafregionalByteMatchSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/wafregional_byte_match_set aws_wafregional_byte_match_set} Resource.
 func NewWafregionalByteMatchSet_Override(w WafregionalByteMatchSet, scope constructs.Construct, id *string, config *WafregionalByteMatchSetConfig) {
 	_init_.Initialize()
 

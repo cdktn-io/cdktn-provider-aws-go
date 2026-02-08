@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devicefarminstanceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/devicefarminstanceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/devicefarminstanceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile}.
 type DevicefarmInstanceProfile interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DevicefarmInstanceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
 func NewDevicefarmInstanceProfile(scope constructs.Construct, id *string, config *DevicefarmInstanceProfileConfig) DevicefarmInstanceProfile {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewDevicefarmInstanceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/devicefarm_instance_profile aws_devicefarm_instance_profile} Resource.
 func NewDevicefarmInstanceProfile_Override(d DevicefarmInstanceProfile, scope constructs.Construct, id *string, config *DevicefarmInstanceProfileConfig) {
 	_init_.Initialize()
 

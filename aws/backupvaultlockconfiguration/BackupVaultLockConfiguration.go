@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupvaultlockconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backupvaultlockconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/backupvaultlockconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration}.
 type BackupVaultLockConfiguration interface {
 	cdktf.TerraformResource
 	BackupVaultArn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_BackupVaultLockConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
 func NewBackupVaultLockConfiguration(scope constructs.Construct, id *string, config *BackupVaultLockConfigurationConfig) BackupVaultLockConfiguration {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewBackupVaultLockConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_vault_lock_configuration aws_backup_vault_lock_configuration} Resource.
 func NewBackupVaultLockConfiguration_Override(b BackupVaultLockConfiguration, scope constructs.Construct, id *string, config *BackupVaultLockConfigurationConfig) {
 	_init_.Initialize()
 

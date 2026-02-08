@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsquicksightanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsquicksightanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsquicksightanalysis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis}.
 type DataAwsQuicksightAnalysis interface {
 	cdktf.TerraformDataSource
 	AnalysisId() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataAwsQuicksightAnalysis) ThemeArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
 func NewDataAwsQuicksightAnalysis(scope constructs.Construct, id *string, config *DataAwsQuicksightAnalysisConfig) DataAwsQuicksightAnalysis {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataAwsQuicksightAnalysis(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/quicksight_analysis aws_quicksight_analysis} Data Source.
 func NewDataAwsQuicksightAnalysis_Override(d DataAwsQuicksightAnalysis, scope constructs.Construct, id *string, config *DataAwsQuicksightAnalysisConfig) {
 	_init_.Initialize()
 

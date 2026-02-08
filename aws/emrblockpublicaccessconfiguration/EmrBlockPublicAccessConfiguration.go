@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emrblockpublicaccessconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrblockpublicaccessconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrblockpublicaccessconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration}.
 type EmrBlockPublicAccessConfiguration interface {
 	cdktf.TerraformResource
 	BlockPublicSecurityGroupRules() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_EmrBlockPublicAccessConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) EmrBlockPublicAccessConfiguration {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewEmrBlockPublicAccessConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_block_public_access_configuration aws_emr_block_public_access_configuration} Resource.
 func NewEmrBlockPublicAccessConfiguration_Override(e EmrBlockPublicAccessConfiguration, scope constructs.Construct, id *string, config *EmrBlockPublicAccessConfigurationConfig) {
 	_init_.Initialize()
 

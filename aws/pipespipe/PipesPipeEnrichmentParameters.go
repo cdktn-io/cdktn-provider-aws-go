@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pipespipe
@@ -7,9 +7,9 @@ package pipespipe
 type PipesPipeEnrichmentParameters struct {
 	// http_parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}
 	HttpParameters *PipesPipeEnrichmentParametersHttpParameters `field:"optional" json:"httpParameters" yaml:"httpParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
 	InputTemplate *string `field:"optional" json:"inputTemplate" yaml:"inputTemplate"`
 }
 

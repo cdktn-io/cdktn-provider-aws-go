@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53vpcassociationauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53vpcassociationauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53vpcassociationauthorization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
 type Route53VpcAssociationAuthorization interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) Route53VpcAssociationAuthorization {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization_Override(r Route53VpcAssociationAuthorization, scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) {
 	_init_.Initialize()
 

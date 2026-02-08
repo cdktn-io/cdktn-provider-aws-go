@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package odbcloudautonomousvmcluster
@@ -24,6 +24,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "availableContainerDatabases", GoGetter: "AvailableContainerDatabases"},
 			_jsii_.MemberProperty{JsiiProperty: "availableCpus", GoGetter: "AvailableCpus"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureArn", GoGetter: "CloudExadataInfrastructureArn"},
+			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureArnInput", GoGetter: "CloudExadataInfrastructureArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureId", GoGetter: "CloudExadataInfrastructureId"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudExadataInfrastructureIdInput", GoGetter: "CloudExadataInfrastructureIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "computeModel", GoGetter: "ComputeModel"},
@@ -83,6 +85,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ocid", GoGetter: "Ocid"},
 			_jsii_.MemberProperty{JsiiProperty: "ociResourceAnchorName", GoGetter: "OciResourceAnchorName"},
 			_jsii_.MemberProperty{JsiiProperty: "ociUrl", GoGetter: "OciUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "odbNetworkArn", GoGetter: "OdbNetworkArn"},
+			_jsii_.MemberProperty{JsiiProperty: "odbNetworkArnInput", GoGetter: "OdbNetworkArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkId", GoGetter: "OdbNetworkId"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetworkIdInput", GoGetter: "OdbNetworkIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNodeStorageSizeInGbs", GoGetter: "OdbNodeStorageSizeInGbs"},
@@ -100,10 +104,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "reservedCpus", GoGetter: "ReservedCpus"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCloudExadataInfrastructureArn", GoMethod: "ResetCloudExadataInfrastructureArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCloudExadataInfrastructureId", GoMethod: "ResetCloudExadataInfrastructureId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIsMtlsEnabledVmCluster", GoMethod: "ResetIsMtlsEnabledVmCluster"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLicenseModel", GoMethod: "ResetLicenseModel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaintenanceWindow", GoMethod: "ResetMaintenanceWindow"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOdbNetworkArn", GoMethod: "ResetOdbNetworkArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOdbNetworkId", GoMethod: "ResetOdbNetworkId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},

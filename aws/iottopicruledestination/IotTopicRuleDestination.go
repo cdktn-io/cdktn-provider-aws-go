@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iottopicruledestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iottopicruledestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iottopicruledestination/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination}.
 type IotTopicRuleDestination interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_IotTopicRuleDestination) VpcConfigurationInput() *IotTopicRul
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) IotTopicRuleDestination {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_topic_rule_destination aws_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination_Override(i IotTopicRuleDestination, scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) {
 	_init_.Initialize()
 

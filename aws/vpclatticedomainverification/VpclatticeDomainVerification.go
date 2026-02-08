@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpclatticedomainverification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpclatticedomainverification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpclatticedomainverification/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification}.
 type VpclatticeDomainVerification interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_VpclatticeDomainVerification) TxtRecordValue() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
 func NewVpclatticeDomainVerification(scope constructs.Construct, id *string, config *VpclatticeDomainVerificationConfig) VpclatticeDomainVerification {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewVpclatticeDomainVerification(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
 func NewVpclatticeDomainVerification_Override(v VpclatticeDomainVerification, scope constructs.Construct, id *string, config *VpclatticeDomainVerificationConfig) {
 	_init_.Initialize()
 

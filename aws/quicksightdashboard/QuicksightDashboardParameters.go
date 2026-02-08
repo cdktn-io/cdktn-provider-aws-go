@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package quicksightdashboard
@@ -7,19 +7,19 @@ package quicksightdashboard
 type QuicksightDashboardParameters struct {
 	// date_time_parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
 	DateTimeParameters interface{} `field:"optional" json:"dateTimeParameters" yaml:"dateTimeParameters"`
 	// decimal_parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
 	DecimalParameters interface{} `field:"optional" json:"decimalParameters" yaml:"decimalParameters"`
 	// integer_parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
 	IntegerParameters interface{} `field:"optional" json:"integerParameters" yaml:"integerParameters"`
 	// string_parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
 	StringParameters interface{} `field:"optional" json:"stringParameters" yaml:"stringParameters"`
 }
 

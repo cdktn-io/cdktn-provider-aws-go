@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redshiftsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/redshiftsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/redshiftsubnetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group}.
 type RedshiftSubnetGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_RedshiftSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
 func NewRedshiftSubnetGroup(scope constructs.Construct, id *string, config *RedshiftSubnetGroupConfig) RedshiftSubnetGroup {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewRedshiftSubnetGroup(scope constructs.Construct, id *string, config *Reds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/redshift_subnet_group aws_redshift_subnet_group} Resource.
 func NewRedshiftSubnetGroup_Override(r RedshiftSubnetGroup, scope constructs.Construct, id *string, config *RedshiftSubnetGroupConfig) {
 	_init_.Initialize()
 

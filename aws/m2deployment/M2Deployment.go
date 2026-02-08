@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package m2deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/m2deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/m2deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/m2_deployment aws_m2_deployment}.
 type M2Deployment interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_M2Deployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
 func NewM2Deployment(scope constructs.Construct, id *string, config *M2DeploymentConfig) M2Deployment {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewM2Deployment(scope constructs.Construct, id *string, config *M2Deploymen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/m2_deployment aws_m2_deployment} Resource.
 func NewM2Deployment_Override(m M2Deployment, scope constructs.Construct, id *string, config *M2DeploymentConfig) {
 	_init_.Initialize()
 

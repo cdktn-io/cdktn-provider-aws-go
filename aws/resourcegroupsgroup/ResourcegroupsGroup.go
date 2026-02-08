@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroupsgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/resourcegroupsgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/resourcegroupsgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourcegroups_group aws_resourcegroups_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourcegroups_group aws_resourcegroups_group}.
 type ResourcegroupsGroup interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_ResourcegroupsGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource.
 func NewResourcegroupsGroup(scope constructs.Construct, id *string, config *ResourcegroupsGroupConfig) ResourcegroupsGroup {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewResourcegroupsGroup(scope constructs.Construct, id *string, config *Reso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/resourcegroups_group aws_resourcegroups_group} Resource.
 func NewResourcegroupsGroup_Override(r ResourcegroupsGroup, scope constructs.Construct, id *string, config *ResourcegroupsGroupConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkinterfaceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkinterfaceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkinterfaceattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
 type NetworkInterfaceAttachmentA interface {
 	cdktf.TerraformResource
 	AttachmentId() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentA) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) NetworkInterfaceAttachmentA {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA_Override(n NetworkInterfaceAttachmentA, scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) {
 	_init_.Initialize()
 

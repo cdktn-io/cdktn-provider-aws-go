@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectvocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectvocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectvocabulary/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_vocabulary aws_connect_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_vocabulary aws_connect_vocabulary}.
 type ConnectVocabulary interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ConnectVocabulary) VocabularyId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
 func NewConnectVocabulary(scope constructs.Construct, id *string, config *ConnectVocabularyConfig) ConnectVocabulary {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewConnectVocabulary(scope constructs.Construct, id *string, config *Connec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_vocabulary aws_connect_vocabulary} Resource.
 func NewConnectVocabulary_Override(c ConnectVocabulary, scope constructs.Construct, id *string, config *ConnectVocabularyConfig) {
 	_init_.Initialize()
 

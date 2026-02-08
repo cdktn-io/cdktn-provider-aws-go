@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyspaceskeyspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/keyspaceskeyspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/keyspaceskeyspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace}.
 type KeyspacesKeyspace interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -464,7 +464,7 @@ func (j *jsiiProxy_KeyspacesKeyspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
 func NewKeyspacesKeyspace(scope constructs.Construct, id *string, config *KeyspacesKeyspaceConfig) KeyspacesKeyspace {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewKeyspacesKeyspace(scope constructs.Construct, id *string, config *Keyspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/keyspaces_keyspace aws_keyspaces_keyspace} Resource.
 func NewKeyspacesKeyspace_Override(k KeyspacesKeyspace, scope constructs.Construct, id *string, config *KeyspacesKeyspaceConfig) {
 	_init_.Initialize()
 

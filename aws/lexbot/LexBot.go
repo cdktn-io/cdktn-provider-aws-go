@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lex_bot aws_lex_bot}.
 type LexBot interface {
 	cdktf.TerraformResource
 	AbortStatement() LexBotAbortStatementOutputReference
@@ -767,7 +767,7 @@ func (j *jsiiProxy_LexBot) VoiceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) LexBot {
 	_init_.Initialize()
 
@@ -785,7 +785,7 @@ func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot aws_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lex_bot aws_lex_bot} Resource.
 func NewLexBot_Override(l LexBot, scope constructs.Construct, id *string, config *LexBotConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package qldbstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/qldbstream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/qldbstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_stream aws_qldb_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/qldb_stream aws_qldb_stream}.
 type QldbStream interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_QldbStream) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_stream aws_qldb_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/qldb_stream aws_qldb_stream} Resource.
 func NewQldbStream(scope constructs.Construct, id *string, config *QldbStreamConfig) QldbStream {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewQldbStream(scope constructs.Construct, id *string, config *QldbStreamCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/qldb_stream aws_qldb_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/qldb_stream aws_qldb_stream} Resource.
 func NewQldbStream_Override(q QldbStream, scope constructs.Construct, id *string, config *QldbStreamConfig) {
 	_init_.Initialize()
 

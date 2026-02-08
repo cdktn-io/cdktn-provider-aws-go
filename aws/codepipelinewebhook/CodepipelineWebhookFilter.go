@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package codepipelinewebhook
 
 
 type CodepipelineWebhookFilter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}.
 	JsonPath *string `field:"required" json:"jsonPath" yaml:"jsonPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}.
 	MatchEquals *string `field:"required" json:"matchEquals" yaml:"matchEquals"`
 }
 

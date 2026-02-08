@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workspaceswebportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebportal/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspaceswebportal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
 type WorkspaceswebPortal interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -691,7 +691,7 @@ func (j *jsiiProxy_WorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) WorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal_Override(w WorkspaceswebPortal, scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) {
 	_init_.Initialize()
 

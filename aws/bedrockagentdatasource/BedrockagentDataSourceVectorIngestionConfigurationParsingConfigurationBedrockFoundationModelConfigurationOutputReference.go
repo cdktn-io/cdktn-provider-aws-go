@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bedrockagentdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/bedrockagentdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/bedrockagentdatasource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -35,6 +35,9 @@ type BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedro
 	ModelArn() *string
 	SetModelArn(val *string)
 	ModelArnInput() *string
+	ParsingModality() *string
+	SetParsingModality(val *string)
+	ParsingModalityInput() *string
 	ParsingPrompt() BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationParsingPromptList
 	ParsingPromptInput() interface{}
 	// Experimental.
@@ -70,6 +73,7 @@ type BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedro
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutParsingPrompt(value interface{})
+	ResetParsingModality()
 	ResetParsingPrompt()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -151,6 +155,26 @@ func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 	_jsii_.Get(
 		j,
 		"modelArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationOutputReference) ParsingModality() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parsingModality",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationOutputReference) ParsingModalityInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parsingModalityInput",
 		&returns,
 	)
 	return returns
@@ -264,6 +288,17 @@ func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 	_jsii_.Set(
 		j,
 		"modelArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationOutputReference)SetParsingModality(val *string) {
+	if err := j.validateSetParsingModalityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parsingModality",
 		val,
 	)
 }
@@ -484,6 +519,14 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConf
 		b,
 		"putParsingPrompt",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationOutputReference) ResetParsingModality() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetParsingModality",
+		nil, // no parameters
 	)
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssmdocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmdocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmdocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_document aws_ssm_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_document aws_ssm_document}.
 type SsmDocument interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -714,7 +714,7 @@ func (j *jsiiProxy_SsmDocument) VersionNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentConfig) SsmDocument {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument_Override(s SsmDocument, scope constructs.Construct, id *string, config *SsmDocumentConfig) {
 	_init_.Initialize()
 

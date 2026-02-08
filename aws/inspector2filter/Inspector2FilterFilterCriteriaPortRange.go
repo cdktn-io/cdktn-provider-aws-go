@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package inspector2filter
 
 
 type Inspector2FilterFilterCriteriaPortRange struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector2_filter#begin_inclusive Inspector2Filter#begin_inclusive}.
 	BeginInclusive *float64 `field:"required" json:"beginInclusive" yaml:"beginInclusive"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.
 	EndInclusive *float64 `field:"required" json:"endInclusive" yaml:"endInclusive"`
 }
 

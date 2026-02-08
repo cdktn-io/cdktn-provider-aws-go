@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accountalternatecontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/accountalternatecontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/accountalternatecontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/account_alternate_contact aws_account_alternate_contact}.
 type AccountAlternateContact interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AccountAlternateContact) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
 func NewAccountAlternateContact(scope constructs.Construct, id *string, config *AccountAlternateContactConfig) AccountAlternateContact {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewAccountAlternateContact(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/account_alternate_contact aws_account_alternate_contact} Resource.
 func NewAccountAlternateContact_Override(a AccountAlternateContact, scope constructs.Construct, id *string, config *AccountAlternateContactConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataexchangeeventaction
@@ -24,15 +24,15 @@ type DataexchangeEventActionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// action block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
 	Action interface{} `field:"optional" json:"action" yaml:"action"`
 	// event block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
 	Event interface{} `field:"optional" json:"event" yaml:"event"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_event_action#region DataexchangeEventAction#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_event_action#region DataexchangeEventAction#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

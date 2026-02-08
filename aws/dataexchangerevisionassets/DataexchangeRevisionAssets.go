@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataexchangerevisionassets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataexchangerevisionassets/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataexchangerevisionassets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
 type DataexchangeRevisionAssets interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssets) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) DataexchangeRevisionAssets {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets_Override(d DataexchangeRevisionAssets, scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) {
 	_init_.Initialize()
 

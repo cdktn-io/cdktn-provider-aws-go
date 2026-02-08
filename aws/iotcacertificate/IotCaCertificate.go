@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iotcacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate}.
 type IotCaCertificate interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -567,7 +567,7 @@ func (j *jsiiProxy_IotCaCertificate) VerificationCertificatePemInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCertificateConfig) IotCaCertificate {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewIotCaCertificate(scope constructs.Construct, id *string, config *IotCaCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_ca_certificate aws_iot_ca_certificate} Resource.
 func NewIotCaCertificate_Override(i IotCaCertificate, scope constructs.Construct, id *string, config *IotCaCertificateConfig) {
 	_init_.Initialize()
 

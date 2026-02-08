@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appautoscalingpolicy
@@ -7,11 +7,11 @@ package appautoscalingpolicy
 type AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationCustomizedLoadMetricSpecificationMetricDataQueryMetricStat struct {
 	// metric block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#metric AppautoscalingPolicy#metric}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#metric AppautoscalingPolicy#metric}
 	Metric *AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationCustomizedLoadMetricSpecificationMetricDataQueryMetricStatMetric `field:"required" json:"metric" yaml:"metric"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#stat AppautoscalingPolicy#stat}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#stat AppautoscalingPolicy#stat}.
 	Stat *string `field:"required" json:"stat" yaml:"stat"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#unit AppautoscalingPolicy#unit}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#unit AppautoscalingPolicy#unit}.
 	Unit *string `field:"optional" json:"unit" yaml:"unit"`
 }
 

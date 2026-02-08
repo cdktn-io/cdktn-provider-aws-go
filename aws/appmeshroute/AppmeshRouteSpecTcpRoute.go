@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshroute
@@ -7,15 +7,15 @@ package appmeshroute
 type AppmeshRouteSpecTcpRoute struct {
 	// action block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_route#action AppmeshRoute#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_route#action AppmeshRoute#action}
 	Action *AppmeshRouteSpecTcpRouteAction `field:"required" json:"action" yaml:"action"`
 	// match block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_route#match AppmeshRoute#match}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_route#match AppmeshRoute#match}
 	Match *AppmeshRouteSpecTcpRouteMatch `field:"optional" json:"match" yaml:"match"`
 	// timeout block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_route#timeout AppmeshRoute#timeout}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_route#timeout AppmeshRoute#timeout}
 	Timeout *AppmeshRouteSpecTcpRouteTimeout `field:"optional" json:"timeout" yaml:"timeout"`
 }
 

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package inspector2filter
 
 
 type Inspector2FilterFilterCriteriaLambdaFunctionLastModifiedAt struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector2_filter#end_inclusive Inspector2Filter#end_inclusive}.
 	EndInclusive *string `field:"optional" json:"endInclusive" yaml:"endInclusive"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/inspector2_filter#start_inclusive Inspector2Filter#start_inclusive}.
 	StartInclusive *string `field:"optional" json:"startInclusive" yaml:"startInclusive"`
 }
 

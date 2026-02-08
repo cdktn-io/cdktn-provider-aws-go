@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewayv2domainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayv2domainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayv2domainname/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name}.
 type Apigatewayv2DomainName interface {
 	cdktf.TerraformResource
 	ApiMappingSelectionExpression() *string
@@ -70,6 +70,9 @@ type Apigatewayv2DomainName interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	RoutingMode() *string
+	SetRoutingMode(val *string)
+	RoutingModeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -136,6 +139,7 @@ type Apigatewayv2DomainName interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetRoutingMode()
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
@@ -407,6 +411,26 @@ func (j *jsiiProxy_Apigatewayv2DomainName) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Apigatewayv2DomainName) RoutingMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Apigatewayv2DomainName) RoutingModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routingModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Apigatewayv2DomainName) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -498,7 +522,7 @@ func (j *jsiiProxy_Apigatewayv2DomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
 func NewApigatewayv2DomainName(scope constructs.Construct, id *string, config *Apigatewayv2DomainNameConfig) Apigatewayv2DomainName {
 	_init_.Initialize()
 
@@ -516,7 +540,7 @@ func NewApigatewayv2DomainName(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_domain_name aws_apigatewayv2_domain_name} Resource.
 func NewApigatewayv2DomainName_Override(a Apigatewayv2DomainName, scope constructs.Construct, id *string, config *Apigatewayv2DomainNameConfig) {
 	_init_.Initialize()
 
@@ -624,6 +648,17 @@ func (j *jsiiProxy_Apigatewayv2DomainName)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Apigatewayv2DomainName)SetRoutingMode(val *string) {
+	if err := j.validateSetRoutingModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingMode",
 		val,
 	)
 }
@@ -1064,6 +1099,14 @@ func (a *jsiiProxy_Apigatewayv2DomainName) ResetRegion() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_Apigatewayv2DomainName) ResetRoutingMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRoutingMode",
 		nil, // no parameters
 	)
 }

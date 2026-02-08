@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53recoverycontrolconfigcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53recoverycontrolconfigcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53recoverycontrolconfigcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster}.
 type Route53RecoverycontrolconfigCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_Route53RecoverycontrolconfigCluster) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster} Resource.
 func NewRoute53RecoverycontrolconfigCluster(scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigClusterConfig) Route53RecoverycontrolconfigCluster {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRoute53RecoverycontrolconfigCluster(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53recoverycontrolconfig_cluster aws_route53recoverycontrolconfig_cluster} Resource.
 func NewRoute53RecoverycontrolconfigCluster_Override(r Route53RecoverycontrolconfigCluster, scope constructs.Construct, id *string, config *Route53RecoverycontrolconfigClusterConfig) {
 	_init_.Initialize()
 

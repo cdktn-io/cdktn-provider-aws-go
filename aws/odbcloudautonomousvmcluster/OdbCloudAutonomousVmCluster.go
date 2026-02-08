@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package odbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbcloudautonomousvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbcloudautonomousvmcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster}.
 type OdbCloudAutonomousVmCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -25,6 +25,9 @@ type OdbCloudAutonomousVmCluster interface {
 	AvailableCpus() *float64
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	CloudExadataInfrastructureArn() *string
+	SetCloudExadataInfrastructureArn(val *string)
+	CloudExadataInfrastructureArnInput() *string
 	CloudExadataInfrastructureId() *string
 	SetCloudExadataInfrastructureId(val *string)
 	CloudExadataInfrastructureIdInput() *string
@@ -96,6 +99,9 @@ type OdbCloudAutonomousVmCluster interface {
 	Ocid() *string
 	OciResourceAnchorName() *string
 	OciUrl() *string
+	OdbNetworkArn() *string
+	SetOdbNetworkArn(val *string)
+	OdbNetworkArnInput() *string
 	OdbNetworkId() *string
 	SetOdbNetworkId(val *string)
 	OdbNetworkIdInput() *string
@@ -193,10 +199,14 @@ type OdbCloudAutonomousVmCluster interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutMaintenanceWindow(value interface{})
 	PutTimeouts(value *OdbCloudAutonomousVmClusterTimeouts)
+	ResetCloudExadataInfrastructureArn()
+	ResetCloudExadataInfrastructureId()
 	ResetDescription()
 	ResetIsMtlsEnabledVmCluster()
 	ResetLicenseModel()
 	ResetMaintenanceWindow()
+	ResetOdbNetworkArn()
+	ResetOdbNetworkId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -297,6 +307,26 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) CdktfStack() cdktf.TerraformStac
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) CloudExadataInfrastructureArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudExadataInfrastructureArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) CloudExadataInfrastructureArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudExadataInfrastructureArnInput",
 		&returns,
 	)
 	return returns
@@ -742,6 +772,26 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) OciUrl() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) OdbNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OdbCloudAutonomousVmCluster) OdbNetworkId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1093,7 +1143,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) TotalContainerDatabasesInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) OdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -1111,7 +1161,7 @@ func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/odb_cloud_autonomous_vm_cluster aws_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster_Override(o OdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 
@@ -1129,6 +1179,17 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster)SetAutonomousDataStorageSizeInTbs
 	_jsii_.Set(
 		j,
 		"autonomousDataStorageSizeInTbs",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster)SetCloudExadataInfrastructureArn(val *string) {
+	if err := j.validateSetCloudExadataInfrastructureArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cloudExadataInfrastructureArn",
 		val,
 	)
 }
@@ -1266,6 +1327,17 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster)SetMemoryPerOracleComputeUnitInGb
 	_jsii_.Set(
 		j,
 		"memoryPerOracleComputeUnitInGbs",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster)SetOdbNetworkArn(val *string) {
+	if err := j.validateSetOdbNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbNetworkArn",
 		val,
 	)
 }
@@ -1741,6 +1813,22 @@ func (o *jsiiProxy_OdbCloudAutonomousVmCluster) PutTimeouts(value *OdbCloudAuton
 	)
 }
 
+func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetCloudExadataInfrastructureArn() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCloudExadataInfrastructureArn",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetCloudExadataInfrastructureId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCloudExadataInfrastructureId",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetDescription() {
 	_jsii_.InvokeVoid(
 		o,
@@ -1769,6 +1857,22 @@ func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetMaintenanceWindow() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetMaintenanceWindow",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetOdbNetworkArn() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetOdbNetworkArn",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbCloudAutonomousVmCluster) ResetOdbNetworkId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetOdbNetworkId",
 		nil, // no parameters
 	)
 }

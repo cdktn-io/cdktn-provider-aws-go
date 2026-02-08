@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emrserverlessapplication
 
 
 type EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}.
 	Cpu *string `field:"required" json:"cpu" yaml:"cpu"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}.
 	Memory *string `field:"required" json:"memory" yaml:"memory"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}.
 	Disk *string `field:"optional" json:"disk" yaml:"disk"`
 }
 

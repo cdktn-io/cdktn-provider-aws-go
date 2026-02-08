@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package controltowercontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/controltowercontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/controltowercontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_control aws_controltower_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/controltower_control aws_controltower_control}.
 type ControltowerControl interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_ControltowerControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_control aws_controltower_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/controltower_control aws_controltower_control} Resource.
 func NewControltowerControl(scope constructs.Construct, id *string, config *ControltowerControlConfig) ControltowerControl {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewControltowerControl(scope constructs.Construct, id *string, config *Cont
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/controltower_control aws_controltower_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/controltower_control aws_controltower_control} Resource.
 func NewControltowerControl_Override(c ControltowerControl, scope constructs.Construct, id *string, config *ControltowerControlConfig) {
 	_init_.Initialize()
 

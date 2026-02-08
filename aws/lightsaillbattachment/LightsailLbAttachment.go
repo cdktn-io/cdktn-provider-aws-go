@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lightsaillbattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsaillbattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lightsaillbattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
 type LightsailLbAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_LightsailLbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) LightsailLbAttachment {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment_Override(l LightsailLbAttachment, scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) {
 	_init_.Initialize()
 

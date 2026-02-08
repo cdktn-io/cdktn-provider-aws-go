@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpcpeeringconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcpeeringconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcpeeringconnections/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections}.
 type DataAwsVpcPeeringConnections interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnections) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) DataAwsVpcPeeringConnections {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsVpcPeeringConnections(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_peering_connections aws_vpc_peering_connections} Data Source.
 func NewDataAwsVpcPeeringConnections_Override(d DataAwsVpcPeeringConnections, scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionsConfig) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssmcontactsrotation
@@ -7,11 +7,11 @@ package ssmcontactsrotation
 type SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes struct {
 	// end block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation#end SsmcontactsRotation#end}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssmcontacts_rotation#end SsmcontactsRotation#end}
 	End interface{} `field:"optional" json:"end" yaml:"end"`
 	// start block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation#start SsmcontactsRotation#start}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssmcontacts_rotation#start SsmcontactsRotation#start}
 	Start interface{} `field:"optional" json:"start" yaml:"start"`
 }
 

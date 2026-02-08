@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsbot
 
 
 type Lexv2ModelsBotDataPrivacy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.
 	ChildDirected interface{} `field:"required" json:"childDirected" yaml:"childDirected"`
 }
 

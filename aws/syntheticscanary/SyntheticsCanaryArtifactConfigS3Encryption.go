@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package syntheticscanary
 
 
 type SyntheticsCanaryArtifactConfigS3Encryption struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}.
 	EncryptionMode *string `field:"optional" json:"encryptionMode" yaml:"encryptionMode"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}.
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

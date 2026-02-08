@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package autoscalinggrouptag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalinggrouptag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/autoscalinggrouptag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag}.
 type AutoscalingGroupTagA interface {
 	cdktf.TerraformResource
 	AutoscalingGroupName() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AutoscalingGroupTagA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
 func NewAutoscalingGroupTagA(scope constructs.Construct, id *string, config *AutoscalingGroupTagAConfig) AutoscalingGroupTagA {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewAutoscalingGroupTagA(scope constructs.Construct, id *string, config *Aut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_group_tag aws_autoscaling_group_tag} Resource.
 func NewAutoscalingGroupTagA_Override(a AutoscalingGroupTagA, scope constructs.Construct, id *string, config *AutoscalingGroupTagAConfig) {
 	_init_.Initialize()
 

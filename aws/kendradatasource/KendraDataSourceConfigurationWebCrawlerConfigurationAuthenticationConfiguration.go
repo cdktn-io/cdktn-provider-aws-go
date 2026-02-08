@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kendradatasource
@@ -7,7 +7,7 @@ package kendradatasource
 type KendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration struct {
 	// basic_authentication block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
 	BasicAuthentication interface{} `field:"optional" json:"basicAuthentication" yaml:"basicAuthentication"`
 }
 

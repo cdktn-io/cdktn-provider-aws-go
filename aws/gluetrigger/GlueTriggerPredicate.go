@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluetrigger
@@ -7,9 +7,9 @@ package gluetrigger
 type GlueTriggerPredicate struct {
 	// conditions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
 	Conditions interface{} `field:"required" json:"conditions" yaml:"conditions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.
 	Logical *string `field:"optional" json:"logical" yaml:"logical"`
 }
 

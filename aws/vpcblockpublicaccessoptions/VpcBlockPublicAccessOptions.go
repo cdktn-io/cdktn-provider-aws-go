@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcblockpublicaccessoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcblockpublicaccessoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcblockpublicaccessoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options}.
 type VpcBlockPublicAccessOptions interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessOptions) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
 func NewVpcBlockPublicAccessOptions(scope constructs.Construct, id *string, config *VpcBlockPublicAccessOptionsConfig) VpcBlockPublicAccessOptions {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewVpcBlockPublicAccessOptions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
 func NewVpcBlockPublicAccessOptions_Override(v VpcBlockPublicAccessOptions, scope constructs.Construct, id *string, config *VpcBlockPublicAccessOptionsConfig) {
 	_init_.Initialize()
 

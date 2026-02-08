@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package albtargetgroup
@@ -7,11 +7,11 @@ package albtargetgroup
 type AlbTargetGroupTargetGroupHealth struct {
 	// dns_failover block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_target_group#dns_failover AlbTargetGroup#dns_failover}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_target_group#dns_failover AlbTargetGroup#dns_failover}
 	DnsFailover *AlbTargetGroupTargetGroupHealthDnsFailover `field:"optional" json:"dnsFailover" yaml:"dnsFailover"`
 	// unhealthy_state_routing block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_target_group#unhealthy_state_routing AlbTargetGroup#unhealthy_state_routing}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_target_group#unhealthy_state_routing AlbTargetGroup#unhealthy_state_routing}
 	UnhealthyStateRouting *AlbTargetGroupTargetGroupHealthUnhealthyStateRouting `field:"optional" json:"unhealthyStateRouting" yaml:"unhealthyStateRouting"`
 }
 

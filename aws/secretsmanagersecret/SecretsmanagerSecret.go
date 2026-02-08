@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package secretsmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/secretsmanagersecret/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/secretsmanagersecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret}.
 type SecretsmanagerSecret interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -585,7 +585,7 @@ func (j *jsiiProxy_SecretsmanagerSecret) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
 func NewSecretsmanagerSecret(scope constructs.Construct, id *string, config *SecretsmanagerSecretConfig) SecretsmanagerSecret {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewSecretsmanagerSecret(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/secretsmanager_secret aws_secretsmanager_secret} Resource.
 func NewSecretsmanagerSecret_Override(s SecretsmanagerSecret, scope constructs.Construct, id *string, config *SecretsmanagerSecretConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53trafficpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53trafficpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53trafficpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy}.
 type Route53TrafficPolicy interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Route53TrafficPolicy) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy} Resource.
 func NewRoute53TrafficPolicy(scope constructs.Construct, id *string, config *Route53TrafficPolicyConfig) Route53TrafficPolicy {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewRoute53TrafficPolicy(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy aws_route53_traffic_policy} Resource.
 func NewRoute53TrafficPolicy_Override(r Route53TrafficPolicy, scope constructs.Construct, id *string, config *Route53TrafficPolicyConfig) {
 	_init_.Initialize()
 

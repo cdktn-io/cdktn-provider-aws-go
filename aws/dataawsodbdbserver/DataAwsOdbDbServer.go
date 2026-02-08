@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbdbserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbdbserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbdbserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_server aws_odb_db_server}.
 type DataAwsOdbDbServer interface {
 	cdktf.TerraformDataSource
 	AutonomousVirtualMachineIds() *[]*string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataAwsOdbDbServer) VmClusterIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) DataAwsOdbDbServer {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer_Override(d DataAwsOdbDbServer, scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitoresourceserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitoresourceserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cognitoresourceserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_resource_server aws_cognito_resource_server}.
 type CognitoResourceServer interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_CognitoResourceServer) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
 func NewCognitoResourceServer(scope constructs.Construct, id *string, config *CognitoResourceServerConfig) CognitoResourceServer {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewCognitoResourceServer(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_resource_server aws_cognito_resource_server} Resource.
 func NewCognitoResourceServer_Override(c CognitoResourceServer, scope constructs.Construct, id *string, config *CognitoResourceServerConfig) {
 	_init_.Initialize()
 

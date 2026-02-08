@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfrontmultitenantdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontmultitenantdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudfrontmultitenantdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution}.
 type CloudfrontMultitenantDistribution interface {
 	cdktf.TerraformResource
 	ActiveTrustedKeyGroups() CloudfrontMultitenantDistributionActiveTrustedKeyGroupsList
@@ -778,7 +778,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistribution) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
 func NewCloudfrontMultitenantDistribution(scope constructs.Construct, id *string, config *CloudfrontMultitenantDistributionConfig) CloudfrontMultitenantDistribution {
 	_init_.Initialize()
 
@@ -796,7 +796,7 @@ func NewCloudfrontMultitenantDistribution(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
 func NewCloudfrontMultitenantDistribution_Override(c CloudfrontMultitenantDistribution, scope constructs.Construct, id *string, config *CloudfrontMultitenantDistributionConfig) {
 	_init_.Initialize()
 

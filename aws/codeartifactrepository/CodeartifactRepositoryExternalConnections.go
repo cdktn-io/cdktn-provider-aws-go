@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package codeartifactrepository
 
 
 type CodeartifactRepositoryExternalConnections struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/codeartifact_repository#external_connection_name CodeartifactRepository#external_connection_name}.
 	ExternalConnectionName *string `field:"required" json:"externalConnectionName" yaml:"externalConnectionName"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagertransitgatewayconnectpeerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagertransitgatewayconnectpeerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmanagertransitgatewayconnectpeerassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association}.
 type NetworkmanagerTransitGatewayConnectPeerAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) TransitGa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
 func NewNetworkmanagerTransitGatewayConnectPeerAssociation(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayConnectPeerAssociationConfig) NetworkmanagerTransitGatewayConnectPeerAssociation {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewNetworkmanagerTransitGatewayConnectPeerAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
 func NewNetworkmanagerTransitGatewayConnectPeerAssociation_Override(n NetworkmanagerTransitGatewayConnectPeerAssociation, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayConnectPeerAssociationConfig) {
 	_init_.Initialize()
 

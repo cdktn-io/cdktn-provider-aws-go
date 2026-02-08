@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamservicespecificcredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamservicespecificcredential/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iamservicespecificcredential/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential}.
 type IamServiceSpecificCredential interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -481,7 +481,7 @@ func (j *jsiiProxy_IamServiceSpecificCredential) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) IamServiceSpecificCredential {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewIamServiceSpecificCredential(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_service_specific_credential aws_iam_service_specific_credential} Resource.
 func NewIamServiceSpecificCredential_Override(i IamServiceSpecificCredential, scope constructs.Construct, id *string, config *IamServiceSpecificCredentialConfig) {
 	_init_.Initialize()
 

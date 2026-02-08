@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backuplogicallyairgappedvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/backuplogicallyairgappedvault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/backuplogicallyairgappedvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault}.
 type BackupLogicallyAirGappedVault interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
 func NewBackupLogicallyAirGappedVault(scope constructs.Construct, id *string, config *BackupLogicallyAirGappedVaultConfig) BackupLogicallyAirGappedVault {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewBackupLogicallyAirGappedVault(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
 func NewBackupLogicallyAirGappedVault_Override(b BackupLogicallyAirGappedVault, scope constructs.Construct, id *string, config *BackupLogicallyAirGappedVaultConfig) {
 	_init_.Initialize()
 

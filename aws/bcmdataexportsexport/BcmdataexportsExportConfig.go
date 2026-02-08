@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bcmdataexportsexport
@@ -24,13 +24,13 @@ type BcmdataexportsExportConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// export block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}
 	Export interface{} `field:"optional" json:"export" yaml:"export"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bcmdataexports_export#timeouts BcmdataexportsExport#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bcmdataexports_export#timeouts BcmdataexportsExport#timeouts}
 	Timeouts *BcmdataexportsExportTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

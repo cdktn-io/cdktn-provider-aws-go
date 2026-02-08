@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcipampool
@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "publicIpSourceInput", GoGetter: "PublicIpSourceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "publiclyAdvertisable", GoGetter: "PubliclyAdvertisable"},
 			_jsii_.MemberProperty{JsiiProperty: "publiclyAdvertisableInput", GoGetter: "PubliclyAdvertisableInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putSourceResource", GoMethod: "PutSourceResource"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
@@ -94,11 +95,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetPubliclyAdvertisable", GoMethod: "ResetPubliclyAdvertisable"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSourceIpamPoolId", GoMethod: "ResetSourceIpamPoolId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceResource", GoMethod: "ResetSourceResource"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceIpamPoolId", GoGetter: "SourceIpamPoolId"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceIpamPoolIdInput", GoGetter: "SourceIpamPoolIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceResource", GoGetter: "SourceResource"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceResourceInput", GoGetter: "SourceResourceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
@@ -125,6 +129,50 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolConfig",
 		reflect.TypeOf((*VpcIpamPoolConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolSourceResource",
+		reflect.TypeOf((*VpcIpamPoolSourceResource)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolSourceResourceOutputReference",
+		reflect.TypeOf((*VpcIpamPoolSourceResourceOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceId", GoGetter: "ResourceId"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceIdInput", GoGetter: "ResourceIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceOwner", GoGetter: "ResourceOwner"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceOwnerInput", GoGetter: "ResourceOwnerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceRegion", GoGetter: "ResourceRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceRegionInput", GoGetter: "ResourceRegionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceType", GoGetter: "ResourceType"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceTypeInput", GoGetter: "ResourceTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_VpcIpamPoolSourceResourceOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.vpcIpamPool.VpcIpamPoolTimeouts",

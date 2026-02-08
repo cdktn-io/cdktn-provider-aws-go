@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mskconnectworkerconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mskconnectworkerconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mskconnectworkerconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration}.
 type MskconnectWorkerConfiguration interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_MskconnectWorkerConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
 func NewMskconnectWorkerConfiguration(scope constructs.Construct, id *string, config *MskconnectWorkerConfigurationConfig) MskconnectWorkerConfiguration {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewMskconnectWorkerConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/mskconnect_worker_configuration aws_mskconnect_worker_configuration} Resource.
 func NewMskconnectWorkerConfiguration_Override(m MskconnectWorkerConfiguration, scope constructs.Construct, id *string, config *MskconnectWorkerConfigurationConfig) {
 	_init_.Initialize()
 

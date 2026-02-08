@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dynamodbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -35,6 +35,8 @@ type DynamodbTableGlobalSecondaryIndexOutputReference interface {
 	HashKeyInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	KeySchema() DynamodbTableGlobalSecondaryIndexKeySchemaList
+	KeySchemaInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -89,8 +91,11 @@ type DynamodbTableGlobalSecondaryIndexOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutKeySchema(value interface{})
 	PutOnDemandThroughput(value *DynamodbTableGlobalSecondaryIndexOnDemandThroughput)
 	PutWarmThroughput(value *DynamodbTableGlobalSecondaryIndexWarmThroughput)
+	ResetHashKey()
+	ResetKeySchema()
 	ResetNonKeyAttributes()
 	ResetOnDemandThroughput()
 	ResetRangeKey()
@@ -177,6 +182,26 @@ func (j *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) InternalVal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) KeySchema() DynamodbTableGlobalSecondaryIndexKeySchemaList {
+	var returns DynamodbTableGlobalSecondaryIndexKeySchemaList
+	_jsii_.Get(
+		j,
+		"keySchema",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) KeySchemaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"keySchemaInput",
 		&returns,
 	)
 	return returns
@@ -708,6 +733,17 @@ func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) Interpolati
 	return returns
 }
 
+func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) PutKeySchema(value interface{}) {
+	if err := d.validatePutKeySchemaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putKeySchema",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) PutOnDemandThroughput(value *DynamodbTableGlobalSecondaryIndexOnDemandThroughput) {
 	if err := d.validatePutOnDemandThroughputParameters(value); err != nil {
 		panic(err)
@@ -727,6 +763,22 @@ func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) PutWarmThro
 		d,
 		"putWarmThroughput",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) ResetHashKey() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetHashKey",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) ResetKeySchema() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetKeySchema",
+		nil, // no parameters
 	)
 }
 

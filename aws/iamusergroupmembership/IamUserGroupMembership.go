@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamusergroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iamusergroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iamusergroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership}.
 type IamUserGroupMembership interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_IamUserGroupMembership) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership} Resource.
 func NewIamUserGroupMembership(scope constructs.Construct, id *string, config *IamUserGroupMembershipConfig) IamUserGroupMembership {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewIamUserGroupMembership(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iam_user_group_membership aws_iam_user_group_membership} Resource.
 func NewIamUserGroupMembership_Override(i IamUserGroupMembership, scope constructs.Construct, id *string, config *IamUserGroupMembershipConfig) {
 	_init_.Initialize()
 

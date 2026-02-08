@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package memorydbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/memorydbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/memorydbsnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot}.
 type MemorydbSnapshot interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_MemorydbSnapshot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
 func NewMemorydbSnapshot(scope constructs.Construct, id *string, config *MemorydbSnapshotConfig) MemorydbSnapshot {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewMemorydbSnapshot(scope constructs.Construct, id *string, config *Memoryd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
 func NewMemorydbSnapshot_Override(m MemorydbSnapshot, scope constructs.Construct, id *string, config *MemorydbSnapshotConfig) {
 	_init_.Initialize()
 

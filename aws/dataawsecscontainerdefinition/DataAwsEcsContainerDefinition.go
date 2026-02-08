@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsecscontainerdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsecscontainerdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsecscontainerdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition}.
 type DataAwsEcsContainerDefinition interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAwsEcsContainerDefinition) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition} Data Source.
 func NewDataAwsEcsContainerDefinition(scope constructs.Construct, id *string, config *DataAwsEcsContainerDefinitionConfig) DataAwsEcsContainerDefinition {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAwsEcsContainerDefinition(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ecs_container_definition aws_ecs_container_definition} Data Source.
 func NewDataAwsEcsContainerDefinition_Override(d DataAwsEcsContainerDefinition, scope constructs.Construct, id *string, config *DataAwsEcsContainerDefinitionConfig) {
 	_init_.Initialize()
 

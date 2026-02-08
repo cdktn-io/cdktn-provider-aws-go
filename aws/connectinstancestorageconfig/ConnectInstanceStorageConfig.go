@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectinstancestorageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectinstancestorageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectinstancestorageconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config}.
 type ConnectInstanceStorageConfig interface {
 	cdktf.TerraformResource
 	AssociationId() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ConnectInstanceStorageConfig) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
 func NewConnectInstanceStorageConfig(scope constructs.Construct, id *string, config *ConnectInstanceStorageConfigConfig) ConnectInstanceStorageConfig {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewConnectInstanceStorageConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_instance_storage_config aws_connect_instance_storage_config} Resource.
 func NewConnectInstanceStorageConfig_Override(c ConnectInstanceStorageConfig, scope constructs.Construct, id *string, config *ConnectInstanceStorageConfigConfig) {
 	_init_.Initialize()
 

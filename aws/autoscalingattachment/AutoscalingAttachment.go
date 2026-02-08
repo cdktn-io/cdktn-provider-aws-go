@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package autoscalingattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/autoscalingattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/autoscalingattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment}.
 type AutoscalingAttachment interface {
 	cdktf.TerraformResource
 	AutoscalingGroupName() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_AutoscalingAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment} Resource.
 func NewAutoscalingAttachment(scope constructs.Construct, id *string, config *AutoscalingAttachmentConfig) AutoscalingAttachment {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewAutoscalingAttachment(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_attachment aws_autoscaling_attachment} Resource.
 func NewAutoscalingAttachment_Override(a AutoscalingAttachment, scope constructs.Construct, id *string, config *AutoscalingAttachmentConfig) {
 	_init_.Initialize()
 

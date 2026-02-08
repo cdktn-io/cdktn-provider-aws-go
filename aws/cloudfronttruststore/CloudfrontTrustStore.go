@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfronttruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfronttruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudfronttruststore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store}.
 type CloudfrontTrustStore interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_CloudfrontTrustStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) CloudfrontTrustStore {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_trust_store aws_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore_Override(c CloudfrontTrustStore, scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) {
 	_init_.Initialize()
 

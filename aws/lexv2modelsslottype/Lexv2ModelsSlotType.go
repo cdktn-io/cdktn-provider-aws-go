@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexv2modelsslottype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lexv2modelsslottype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lexv2modelsslottype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type}.
 type Lexv2ModelsSlotType interface {
 	cdktf.TerraformResource
 	BotId() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_Lexv2ModelsSlotType) ValueSelectionSettingInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type} Resource.
 func NewLexv2ModelsSlotType(scope constructs.Construct, id *string, config *Lexv2ModelsSlotTypeConfig) Lexv2ModelsSlotType {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewLexv2ModelsSlotType(scope constructs.Construct, id *string, config *Lexv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lexv2models_slot_type aws_lexv2models_slot_type} Resource.
 func NewLexv2ModelsSlotType_Override(l Lexv2ModelsSlotType, scope constructs.Construct, id *string, config *Lexv2ModelsSlotTypeConfig) {
 	_init_.Initialize()
 

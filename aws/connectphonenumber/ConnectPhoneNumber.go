@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectphonenumber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectphonenumber/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectphonenumber/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number aws_connect_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_phone_number aws_connect_phone_number}.
 type ConnectPhoneNumber interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_ConnectPhoneNumber) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
 func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) ConnectPhoneNumber {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_phone_number aws_connect_phone_number} Resource.
 func NewConnectPhoneNumber_Override(c ConnectPhoneNumber, scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) {
 	_init_.Initialize()
 

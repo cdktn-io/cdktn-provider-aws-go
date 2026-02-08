@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rdsintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/rdsintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/rdsintegration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_integration aws_rds_integration}.
 type RdsIntegration interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_RdsIntegration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegrationConfig) RdsIntegration {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewRdsIntegration(scope constructs.Construct, id *string, config *RdsIntegr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/rds_integration aws_rds_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/rds_integration aws_rds_integration} Resource.
 func NewRdsIntegration_Override(r RdsIntegration, scope constructs.Construct, id *string, config *RdsIntegrationConfig) {
 	_init_.Initialize()
 

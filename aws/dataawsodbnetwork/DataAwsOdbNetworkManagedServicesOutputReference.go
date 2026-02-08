@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsodbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsodbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsodbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,12 +32,14 @@ type DataAwsOdbNetworkManagedServicesOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsOdbNetworkManagedServices
 	SetInternalValue(val *DataAwsOdbNetworkManagedServices)
+	KmsAccess() DataAwsOdbNetworkManagedServicesKmsAccessList
 	ManagedS3BackupAccess() DataAwsOdbNetworkManagedServicesManagedS3BackupAccessList
 	ManagedServiceIpv4Cidrs() *[]*string
 	ResourceGatewayArn() *string
 	S3Access() DataAwsOdbNetworkManagedServicesS3AccessList
 	ServiceNetworkArn() *string
 	ServiceNetworkEndpoint() DataAwsOdbNetworkManagedServicesServiceNetworkEndpointList
+	StsAccess() DataAwsOdbNetworkManagedServicesStsAccessList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -136,6 +138,16 @@ func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) InternalValu
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) KmsAccess() DataAwsOdbNetworkManagedServicesKmsAccessList {
+	var returns DataAwsOdbNetworkManagedServicesKmsAccessList
+	_jsii_.Get(
+		j,
+		"kmsAccess",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) ManagedS3BackupAccess() DataAwsOdbNetworkManagedServicesManagedS3BackupAccessList {
 	var returns DataAwsOdbNetworkManagedServicesManagedS3BackupAccessList
 	_jsii_.Get(
@@ -191,6 +203,16 @@ func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) ServiceNetwo
 	_jsii_.Get(
 		j,
 		"serviceNetworkEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetworkManagedServicesOutputReference) StsAccess() DataAwsOdbNetworkManagedServicesStsAccessList {
+	var returns DataAwsOdbNetworkManagedServicesStsAccessList
+	_jsii_.Get(
+		j,
+		"stsAccess",
 		&returns,
 	)
 	return returns

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ecrpublicrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ecrpublicrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ecrpublicrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository}.
 type EcrpublicRepository interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_EcrpublicRepository) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
 func NewEcrpublicRepository(scope constructs.Construct, id *string, config *EcrpublicRepositoryConfig) EcrpublicRepository {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewEcrpublicRepository(scope constructs.Construct, id *string, config *Ecrp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecrpublic_repository aws_ecrpublic_repository} Resource.
 func NewEcrpublicRepository_Override(e EcrpublicRepository, scope constructs.Construct, id *string, config *EcrpublicRepositoryConfig) {
 	_init_.Initialize()
 

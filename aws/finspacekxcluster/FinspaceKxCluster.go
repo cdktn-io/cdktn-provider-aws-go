@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package finspacekxcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/finspacekxcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/finspacekxcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
 type FinspaceKxCluster interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -911,7 +911,7 @@ func (j *jsiiProxy_FinspaceKxCluster) VpcConfigurationInput() *FinspaceKxCluster
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) FinspaceKxCluster {
 	_init_.Initialize()
 
@@ -929,7 +929,7 @@ func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *Finspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster_Override(f FinspaceKxCluster, scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mainroutetableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/mainroutetableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/mainroutetableassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/main_route_table_association aws_main_route_table_association}.
 type MainRouteTableAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_MainRouteTableAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
 func NewMainRouteTableAssociation(scope constructs.Construct, id *string, config *MainRouteTableAssociationConfig) MainRouteTableAssociation {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewMainRouteTableAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/main_route_table_association aws_main_route_table_association} Resource.
 func NewMainRouteTableAssociation_Override(m MainRouteTableAssociation, scope constructs.Construct, id *string, config *MainRouteTableAssociationConfig) {
 	_init_.Initialize()
 

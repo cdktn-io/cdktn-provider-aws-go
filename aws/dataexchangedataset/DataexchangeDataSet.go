@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataexchangedataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataexchangedataset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataexchangedataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set}.
 type DataexchangeDataSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataexchangeDataSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) DataexchangeDataSet {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dataexchange_data_set aws_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet_Override(d DataexchangeDataSet, scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) {
 	_init_.Initialize()
 

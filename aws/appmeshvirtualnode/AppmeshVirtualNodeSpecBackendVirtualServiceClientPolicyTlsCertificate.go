@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshvirtualnode
@@ -7,11 +7,11 @@ package appmeshvirtualnode
 type AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificate struct {
 	// file block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#file AppmeshVirtualNode#file}
 	File *AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateFile `field:"optional" json:"file" yaml:"file"`
 	// sds block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#sds AppmeshVirtualNode#sds}
 	Sds *AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertificateSds `field:"optional" json:"sds" yaml:"sds"`
 }
 

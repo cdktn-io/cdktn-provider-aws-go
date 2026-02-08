@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsnetworkmanagerglobalnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagerglobalnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsnetworkmanagerglobalnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network}.
 type DataAwsNetworkmanagerGlobalNetwork interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerGlobalNetwork) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network} Data Source.
 func NewDataAwsNetworkmanagerGlobalNetwork(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerGlobalNetworkConfig) DataAwsNetworkmanagerGlobalNetwork {
 	_init_.Initialize()
 
@@ -352,7 +352,7 @@ func NewDataAwsNetworkmanagerGlobalNetwork(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/networkmanager_global_network aws_networkmanager_global_network} Data Source.
 func NewDataAwsNetworkmanagerGlobalNetwork_Override(d DataAwsNetworkmanagerGlobalNetwork, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerGlobalNetworkConfig) {
 	_init_.Initialize()
 

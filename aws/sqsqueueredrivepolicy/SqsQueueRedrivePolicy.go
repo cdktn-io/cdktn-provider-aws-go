@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqsqueueredrivepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sqsqueueredrivepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sqsqueueredrivepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy}.
 type SqsQueueRedrivePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SqsQueueRedrivePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
 func NewSqsQueueRedrivePolicy(scope constructs.Construct, id *string, config *SqsQueueRedrivePolicyConfig) SqsQueueRedrivePolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewSqsQueueRedrivePolicy(scope constructs.Construct, id *string, config *Sq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_redrive_policy aws_sqs_queue_redrive_policy} Resource.
 func NewSqsQueueRedrivePolicy_Override(s SqsQueueRedrivePolicy, scope constructs.Construct, id *string, config *SqsQueueRedrivePolicyConfig) {
 	_init_.Initialize()
 

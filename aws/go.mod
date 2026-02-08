@@ -1,4 +1,4 @@
-module github.com/cdktn-io/cdktn-provider-aws-go/aws/v21
+module github.com/cdktn-io/cdktn-provider-aws-go/aws/v22
 
 go 1.23
 

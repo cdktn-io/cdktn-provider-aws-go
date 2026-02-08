@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package macie2account
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/macie2account/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/macie2account/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_account aws_macie2_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_account aws_macie2_account}.
 type Macie2Account interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_Macie2Account) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_account aws_macie2_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_account aws_macie2_account} Resource.
 func NewMacie2Account(scope constructs.Construct, id *string, config *Macie2AccountConfig) Macie2Account {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewMacie2Account(scope constructs.Construct, id *string, config *Macie2Acco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/macie2_account aws_macie2_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/macie2_account aws_macie2_account} Resource.
 func NewMacie2Account_Override(m Macie2Account, scope constructs.Construct, id *string, config *Macie2AccountConfig) {
 	_init_.Initialize()
 

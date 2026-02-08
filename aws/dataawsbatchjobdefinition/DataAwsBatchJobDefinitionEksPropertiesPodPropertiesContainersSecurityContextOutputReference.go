@@ -1,18 +1,19 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsbatchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbatchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbatchjobdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
 type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference interface {
 	cdktf.ComplexObject
+	AllowPrivilegeEscalation() cdktf.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -82,6 +83,16 @@ type DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContex
 // The jsii proxy struct for DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference
 type jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) AllowPrivilegeEscalation() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+	_jsii_.Get(
+		j,
+		"allowPrivilegeEscalation",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsBatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference) ComplexObjectIndex() interface{} {

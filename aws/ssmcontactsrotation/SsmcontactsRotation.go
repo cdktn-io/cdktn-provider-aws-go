@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssmcontactsrotation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation}.
 type SsmcontactsRotation interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SsmcontactsRotation) TimeZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) SsmcontactsRotation {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *Ssmc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssmcontacts_rotation aws_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation_Override(s SsmcontactsRotation, scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) {
 	_init_.Initialize()
 

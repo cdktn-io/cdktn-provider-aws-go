@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package autoscalinggroup
 
 
 type AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/autoscaling_group#alarms AutoscalingGroup#alarms}.
 	Alarms *[]*string `field:"optional" json:"alarms" yaml:"alarms"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightsapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/applicationinsightsapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/applicationinsightsapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/applicationinsights_application aws_applicationinsights_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/applicationinsights_application aws_applicationinsights_application}.
 type ApplicationinsightsApplication interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -560,7 +560,7 @@ func (j *jsiiProxy_ApplicationinsightsApplication) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/applicationinsights_application aws_applicationinsights_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/applicationinsights_application aws_applicationinsights_application} Resource.
 func NewApplicationinsightsApplication(scope constructs.Construct, id *string, config *ApplicationinsightsApplicationConfig) ApplicationinsightsApplication {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewApplicationinsightsApplication(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/applicationinsights_application aws_applicationinsights_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/applicationinsights_application aws_applicationinsights_application} Resource.
 func NewApplicationinsightsApplication_Override(a ApplicationinsightsApplication, scope constructs.Construct, id *string, config *ApplicationinsightsApplicationConfig) {
 	_init_.Initialize()
 

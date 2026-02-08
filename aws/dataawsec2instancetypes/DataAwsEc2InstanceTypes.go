@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsec2instancetypes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2instancetypes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2instancetypes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types}.
 type DataAwsEc2InstanceTypes interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceTypes) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types} Data Source.
 func NewDataAwsEc2InstanceTypes(scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypesConfig) DataAwsEc2InstanceTypes {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewDataAwsEc2InstanceTypes(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_instance_types aws_ec2_instance_types} Data Source.
 func NewDataAwsEc2InstanceTypes_Override(d DataAwsEc2InstanceTypes, scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypesConfig) {
 	_init_.Initialize()
 

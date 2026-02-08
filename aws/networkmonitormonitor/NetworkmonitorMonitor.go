@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmonitormonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
 type NetworkmonitorMonitor interface {
 	cdktf.TerraformResource
 	AggregationPeriod() *float64
@@ -414,7 +414,7 @@ func (j *jsiiProxy_NetworkmonitorMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) NetworkmonitorMonitor {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor_Override(n NetworkmonitorMonitor, scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) {
 	_init_.Initialize()
 

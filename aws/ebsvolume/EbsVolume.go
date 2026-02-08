@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ebsvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ebsvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ebsvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_volume aws_ebs_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ebs_volume aws_ebs_volume}.
 type EbsVolume interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -715,7 +715,7 @@ func (j *jsiiProxy_EbsVolume) VolumeInitializationRateInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_volume aws_ebs_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ebs_volume aws_ebs_volume} Resource.
 func NewEbsVolume(scope constructs.Construct, id *string, config *EbsVolumeConfig) EbsVolume {
 	_init_.Initialize()
 
@@ -733,7 +733,7 @@ func NewEbsVolume(scope constructs.Construct, id *string, config *EbsVolumeConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ebs_volume aws_ebs_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ebs_volume aws_ebs_volume} Resource.
 func NewEbsVolume_Override(e EbsVolume, scope constructs.Construct, id *string, config *EbsVolumeConfig) {
 	_init_.Initialize()
 

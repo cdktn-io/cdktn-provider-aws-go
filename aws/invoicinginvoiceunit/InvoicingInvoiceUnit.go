@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package invoicinginvoiceunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/invoicinginvoiceunit/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/invoicinginvoiceunit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit}.
 type InvoicingInvoiceUnit interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnit) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) InvoicingInvoiceUnit {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *Inv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/invoicing_invoice_unit aws_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit_Override(i InvoicingInvoiceUnit, scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) {
 	_init_.Initialize()
 

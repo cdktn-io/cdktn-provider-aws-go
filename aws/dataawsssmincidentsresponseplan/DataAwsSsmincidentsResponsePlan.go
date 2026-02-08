@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsssmincidentsresponseplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmincidentsresponseplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssmincidentsresponseplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan}.
 type DataAwsSsmincidentsResponsePlan interface {
 	cdktf.TerraformDataSource
 	Action() DataAwsSsmincidentsResponsePlanActionList
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsSsmincidentsResponsePlan) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
 func NewDataAwsSsmincidentsResponsePlan(scope constructs.Construct, id *string, config *DataAwsSsmincidentsResponsePlanConfig) DataAwsSsmincidentsResponsePlan {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsSsmincidentsResponsePlan(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssmincidents_response_plan aws_ssmincidents_response_plan} Data Source.
 func NewDataAwsSsmincidentsResponsePlan_Override(d DataAwsSsmincidentsResponsePlan, scope constructs.Construct, id *string, config *DataAwsSsmincidentsResponsePlanConfig) {
 	_init_.Initialize()
 

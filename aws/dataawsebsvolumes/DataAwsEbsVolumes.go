@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsebsvolumes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsebsvolumes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsebsvolumes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ebs_volumes aws_ebs_volumes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ebs_volumes aws_ebs_volumes}.
 type DataAwsEbsVolumes interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataAwsEbsVolumes) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ebs_volumes aws_ebs_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ebs_volumes aws_ebs_volumes} Data Source.
 func NewDataAwsEbsVolumes(scope constructs.Construct, id *string, config *DataAwsEbsVolumesConfig) DataAwsEbsVolumes {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAwsEbsVolumes(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ebs_volumes aws_ebs_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ebs_volumes aws_ebs_volumes} Data Source.
 func NewDataAwsEbsVolumes_Override(d DataAwsEbsVolumes, scope constructs.Construct, id *string, config *DataAwsEbsVolumesConfig) {
 	_init_.Initialize()
 

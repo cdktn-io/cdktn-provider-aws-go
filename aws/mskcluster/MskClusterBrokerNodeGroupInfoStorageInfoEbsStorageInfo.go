@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mskcluster
@@ -7,9 +7,9 @@ package mskcluster
 type MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfo struct {
 	// provisioned_throughput block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster#provisioned_throughput MskCluster#provisioned_throughput}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/msk_cluster#provisioned_throughput MskCluster#provisioned_throughput}
 	ProvisionedThroughput *MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedThroughput `field:"optional" json:"provisionedThroughput" yaml:"provisionedThroughput"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/msk_cluster#volume_size MskCluster#volume_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/msk_cluster#volume_size MskCluster#volume_size}.
 	VolumeSize *float64 `field:"optional" json:"volumeSize" yaml:"volumeSize"`
 }
 

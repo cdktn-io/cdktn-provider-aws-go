@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package quicksightkeyregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/quicksightkeyregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/quicksightkeyregistration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration}.
 type QuicksightKeyRegistration interface {
 	cdktf.TerraformResource
 	AwsAccountId() *string
@@ -358,7 +358,7 @@ func (j *jsiiProxy_QuicksightKeyRegistration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) QuicksightKeyRegistration {
 	_init_.Initialize()
 
@@ -376,7 +376,7 @@ func NewQuicksightKeyRegistration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_key_registration aws_quicksight_key_registration} Resource.
 func NewQuicksightKeyRegistration_Override(q QuicksightKeyRegistration, scope constructs.Construct, id *string, config *QuicksightKeyRegistrationConfig) {
 	_init_.Initialize()
 

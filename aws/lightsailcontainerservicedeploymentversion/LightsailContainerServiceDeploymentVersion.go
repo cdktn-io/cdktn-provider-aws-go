@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lightsailcontainerservicedeploymentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lightsailcontainerservicedeploymentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lightsailcontainerservicedeploymentversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version}.
 type LightsailContainerServiceDeploymentVersion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_LightsailContainerServiceDeploymentVersion) Version() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
 func NewLightsailContainerServiceDeploymentVersion(scope constructs.Construct, id *string, config *LightsailContainerServiceDeploymentVersionConfig) LightsailContainerServiceDeploymentVersion {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewLightsailContainerServiceDeploymentVersion(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lightsail_container_service_deployment_version aws_lightsail_container_service_deployment_version} Resource.
 func NewLightsailContainerServiceDeploymentVersion_Override(l LightsailContainerServiceDeploymentVersion, scope constructs.Construct, id *string, config *LightsailContainerServiceDeploymentVersionConfig) {
 	_init_.Initialize()
 

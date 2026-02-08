@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package odbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/odbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/odbnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,12 +32,14 @@ type OdbNetworkManagedServicesOutputReference interface {
 	Fqn() *string
 	InternalValue() *OdbNetworkManagedServices
 	SetInternalValue(val *OdbNetworkManagedServices)
+	KmsAccess() OdbNetworkManagedServicesKmsAccessList
 	ManagedS3BackupAccess() OdbNetworkManagedServicesManagedS3BackupAccessList
 	ManagedServiceIpv4Cidrs() *[]*string
 	ResourceGatewayArn() *string
 	S3Access() OdbNetworkManagedServicesS3AccessList
 	ServiceNetworkArn() *string
 	ServiceNetworkEndpoint() OdbNetworkManagedServicesServiceNetworkEndpointList
+	StsAccess() OdbNetworkManagedServicesStsAccessList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -136,6 +138,16 @@ func (j *jsiiProxy_OdbNetworkManagedServicesOutputReference) InternalValue() *Od
 	return returns
 }
 
+func (j *jsiiProxy_OdbNetworkManagedServicesOutputReference) KmsAccess() OdbNetworkManagedServicesKmsAccessList {
+	var returns OdbNetworkManagedServicesKmsAccessList
+	_jsii_.Get(
+		j,
+		"kmsAccess",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OdbNetworkManagedServicesOutputReference) ManagedS3BackupAccess() OdbNetworkManagedServicesManagedS3BackupAccessList {
 	var returns OdbNetworkManagedServicesManagedS3BackupAccessList
 	_jsii_.Get(
@@ -191,6 +203,16 @@ func (j *jsiiProxy_OdbNetworkManagedServicesOutputReference) ServiceNetworkEndpo
 	_jsii_.Get(
 		j,
 		"serviceNetworkEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetworkManagedServicesOutputReference) StsAccess() OdbNetworkManagedServicesStsAccessList {
+	var returns OdbNetworkManagedServicesStsAccessList
+	_jsii_.Get(
+		j,
+		"stsAccess",
 		&returns,
 	)
 	return returns

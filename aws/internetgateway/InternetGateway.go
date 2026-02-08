@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package internetgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/internetgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/internetgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway aws_internet_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway aws_internet_gateway}.
 type InternetGateway interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_InternetGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway aws_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway aws_internet_gateway} Resource.
 func NewInternetGateway(scope constructs.Construct, id *string, config *InternetGatewayConfig) InternetGateway {
 	_init_.Initialize()
 
@@ -470,7 +470,7 @@ func NewInternetGateway(scope constructs.Construct, id *string, config *Internet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway aws_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway aws_internet_gateway} Resource.
 func NewInternetGateway_Override(i InternetGateway, scope constructs.Construct, id *string, config *InternetGatewayConfig) {
 	_init_.Initialize()
 

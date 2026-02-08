@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsvpcipampool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsvpcipampool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsvpcipampool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool}.
 type DataAwsVpcIpamPool interface {
 	cdktf.TerraformDataSource
 	AddressFamily() *string
@@ -75,6 +75,7 @@ type DataAwsVpcIpamPool interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	SourceIpamPoolId() *string
+	SourceResource() DataAwsVpcIpamPoolSourceResourceList
 	State() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
@@ -493,6 +494,16 @@ func (j *jsiiProxy_DataAwsVpcIpamPool) SourceIpamPoolId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpcIpamPool) SourceResource() DataAwsVpcIpamPoolSourceResourceList {
+	var returns DataAwsVpcIpamPoolSourceResourceList
+	_jsii_.Get(
+		j,
+		"sourceResource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpcIpamPool) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -574,7 +585,7 @@ func (j *jsiiProxy_DataAwsVpcIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
 func NewDataAwsVpcIpamPool(scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolConfig) DataAwsVpcIpamPool {
 	_init_.Initialize()
 
@@ -592,7 +603,7 @@ func NewDataAwsVpcIpamPool(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/vpc_ipam_pool aws_vpc_ipam_pool} Data Source.
 func NewDataAwsVpcIpamPool_Override(d DataAwsVpcIpamPool, scope constructs.Construct, id *string, config *DataAwsVpcIpamPoolConfig) {
 	_init_.Initialize()
 

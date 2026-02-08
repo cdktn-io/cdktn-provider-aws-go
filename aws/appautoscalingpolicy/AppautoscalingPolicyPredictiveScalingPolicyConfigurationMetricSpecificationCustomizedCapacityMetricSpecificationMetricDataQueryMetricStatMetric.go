@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appautoscalingpolicy
@@ -7,11 +7,11 @@ package appautoscalingpolicy
 type AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationCustomizedCapacityMetricSpecificationMetricDataQueryMetricStatMetric struct {
 	// dimension block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#dimension AppautoscalingPolicy#dimension}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#dimension AppautoscalingPolicy#dimension}
 	Dimension interface{} `field:"optional" json:"dimension" yaml:"dimension"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#metric_name AppautoscalingPolicy#metric_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#metric_name AppautoscalingPolicy#metric_name}.
 	MetricName *string `field:"optional" json:"metricName" yaml:"metricName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appautoscaling_policy#namespace AppautoscalingPolicy#namespace}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appautoscaling_policy#namespace AppautoscalingPolicy#namespace}.
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
 }
 

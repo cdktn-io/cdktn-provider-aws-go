@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package codepipeline
 
 
 type CodepipelineTriggerGitConfigurationPushFilePaths struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline#excludes Codepipeline#excludes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/codepipeline#excludes Codepipeline#excludes}.
 	Excludes *[]*string `field:"optional" json:"excludes" yaml:"excludes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/codepipeline#includes Codepipeline#includes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/codepipeline#includes Codepipeline#includes}.
 	Includes *[]*string `field:"optional" json:"includes" yaml:"includes"`
 }
 

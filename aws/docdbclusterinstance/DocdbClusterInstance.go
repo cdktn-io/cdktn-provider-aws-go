@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package docdbclusterinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/docdbclusterinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/docdbclusterinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance}.
 type DocdbClusterInstance interface {
 	cdktf.TerraformResource
 	ApplyImmediately() interface{}
@@ -30,6 +30,9 @@ type DocdbClusterInstance interface {
 	CaCertIdentifierInput() *string
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	CertificateRotationRestart() *string
+	SetCertificateRotationRestart(val *string)
+	CertificateRotationRestartInput() *string
 	ClusterIdentifier() *string
 	SetClusterIdentifier(val *string)
 	ClusterIdentifierInput() *string
@@ -176,6 +179,7 @@ type DocdbClusterInstance interface {
 	ResetAutoMinorVersionUpgrade()
 	ResetAvailabilityZone()
 	ResetCaCertIdentifier()
+	ResetCertificateRotationRestart()
 	ResetCopyTagsToSnapshot()
 	ResetEnablePerformanceInsights()
 	ResetEngine()
@@ -305,6 +309,26 @@ func (j *jsiiProxy_DocdbClusterInstance) CdktfStack() cdktf.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocdbClusterInstance) CertificateRotationRestart() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"certificateRotationRestart",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DocdbClusterInstance) CertificateRotationRestartInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"certificateRotationRestartInput",
 		&returns,
 	)
 	return returns
@@ -861,7 +885,7 @@ func (j *jsiiProxy_DocdbClusterInstance) Writer() cdktf.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
 func NewDocdbClusterInstance(scope constructs.Construct, id *string, config *DocdbClusterInstanceConfig) DocdbClusterInstance {
 	_init_.Initialize()
 
@@ -879,7 +903,7 @@ func NewDocdbClusterInstance(scope constructs.Construct, id *string, config *Doc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/docdb_cluster_instance aws_docdb_cluster_instance} Resource.
 func NewDocdbClusterInstance_Override(d DocdbClusterInstance, scope constructs.Construct, id *string, config *DocdbClusterInstanceConfig) {
 	_init_.Initialize()
 
@@ -930,6 +954,17 @@ func (j *jsiiProxy_DocdbClusterInstance)SetCaCertIdentifier(val *string) {
 	_jsii_.Set(
 		j,
 		"caCertIdentifier",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DocdbClusterInstance)SetCertificateRotationRestart(val *string) {
+	if err := j.validateSetCertificateRotationRestartParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"certificateRotationRestart",
 		val,
 	)
 }
@@ -1548,6 +1583,14 @@ func (d *jsiiProxy_DocdbClusterInstance) ResetCaCertIdentifier() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCaCertIdentifier",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DocdbClusterInstance) ResetCertificateRotationRestart() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCertificateRotationRestart",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawslbtruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawslbtruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawslbtruststore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb_trust_store aws_lb_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/lb_trust_store aws_lb_trust_store}.
 type DataAwsLbTrustStore interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -337,7 +337,7 @@ func (j *jsiiProxy_DataAwsLbTrustStore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
 func NewDataAwsLbTrustStore(scope constructs.Construct, id *string, config *DataAwsLbTrustStoreConfig) DataAwsLbTrustStore {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAwsLbTrustStore(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
 func NewDataAwsLbTrustStore_Override(d DataAwsLbTrustStore, scope constructs.Construct, id *string, config *DataAwsLbTrustStoreConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package route53trafficpolicyinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/route53trafficpolicyinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/route53trafficpolicyinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance}.
 type Route53TrafficPolicyInstance interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_Route53TrafficPolicyInstance) TtlInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) Route53TrafficPolicyInstance {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewRoute53TrafficPolicyInstance(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/route53_traffic_policy_instance aws_route53_traffic_policy_instance} Resource.
 func NewRoute53TrafficPolicyInstance_Override(r Route53TrafficPolicyInstance, scope constructs.Construct, id *string, config *Route53TrafficPolicyInstanceConfig) {
 	_init_.Initialize()
 

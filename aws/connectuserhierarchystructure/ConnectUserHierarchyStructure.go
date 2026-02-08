@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectuserhierarchystructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/connectuserhierarchystructure/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/connectuserhierarchystructure/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure}.
 type ConnectUserHierarchyStructure interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructure) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) ConnectUserHierarchyStructure {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure_Override(c ConnectUserHierarchyStructure, scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) {
 	_init_.Initialize()
 

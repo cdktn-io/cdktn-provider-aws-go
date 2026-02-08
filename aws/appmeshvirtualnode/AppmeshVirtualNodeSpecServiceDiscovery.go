@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshvirtualnode
@@ -7,11 +7,11 @@ package appmeshvirtualnode
 type AppmeshVirtualNodeSpecServiceDiscovery struct {
 	// aws_cloud_map block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#aws_cloud_map AppmeshVirtualNode#aws_cloud_map}
 	AwsCloudMap *AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMap `field:"optional" json:"awsCloudMap" yaml:"awsCloudMap"`
 	// dns block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_node#dns AppmeshVirtualNode#dns}
 	Dns *AppmeshVirtualNodeSpecServiceDiscoveryDns `field:"optional" json:"dns" yaml:"dns"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchjobdefinition
@@ -364,6 +364,8 @@ func init() {
 		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference",
 		reflect.TypeOf((*BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityContextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowPrivilegeEscalation", GoGetter: "AllowPrivilegeEscalation"},
+			_jsii_.MemberProperty{JsiiProperty: "allowPrivilegeEscalationInput", GoGetter: "AllowPrivilegeEscalationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -385,6 +387,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "privilegedInput", GoGetter: "PrivilegedInput"},
 			_jsii_.MemberProperty{JsiiProperty: "readOnlyRootFileSystem", GoGetter: "ReadOnlyRootFileSystem"},
 			_jsii_.MemberProperty{JsiiProperty: "readOnlyRootFileSystemInput", GoGetter: "ReadOnlyRootFileSystemInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowPrivilegeEscalation", GoMethod: "ResetAllowPrivilegeEscalation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivileged", GoMethod: "ResetPrivileged"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReadOnlyRootFileSystem", GoMethod: "ResetReadOnlyRootFileSystem"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRunAsGroup", GoMethod: "ResetRunAsGroup"},
@@ -732,6 +735,8 @@ func init() {
 		"@cdktn/provider-aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference",
 		reflect.TypeOf((*BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityContextOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowPrivilegeEscalation", GoGetter: "AllowPrivilegeEscalation"},
+			_jsii_.MemberProperty{JsiiProperty: "allowPrivilegeEscalationInput", GoGetter: "AllowPrivilegeEscalationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -753,6 +758,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "privilegedInput", GoGetter: "PrivilegedInput"},
 			_jsii_.MemberProperty{JsiiProperty: "readOnlyRootFileSystem", GoGetter: "ReadOnlyRootFileSystem"},
 			_jsii_.MemberProperty{JsiiProperty: "readOnlyRootFileSystemInput", GoGetter: "ReadOnlyRootFileSystemInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowPrivilegeEscalation", GoMethod: "ResetAllowPrivilegeEscalation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivileged", GoMethod: "ResetPrivileged"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReadOnlyRootFileSystem", GoMethod: "ResetReadOnlyRootFileSystem"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRunAsGroup", GoMethod: "ResetRunAsGroup"},

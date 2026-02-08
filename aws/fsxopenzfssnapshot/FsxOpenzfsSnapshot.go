@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fsxopenzfssnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/fsxopenzfssnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/fsxopenzfssnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot}.
 type FsxOpenzfsSnapshot interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_FsxOpenzfsSnapshot) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
 func NewFsxOpenzfsSnapshot(scope constructs.Construct, id *string, config *FsxOpenzfsSnapshotConfig) FsxOpenzfsSnapshot {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewFsxOpenzfsSnapshot(scope constructs.Construct, id *string, config *FsxOp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/fsx_openzfs_snapshot aws_fsx_openzfs_snapshot} Resource.
 func NewFsxOpenzfsSnapshot_Override(f FsxOpenzfsSnapshot, scope constructs.Construct, id *string, config *FsxOpenzfsSnapshotConfig) {
 	_init_.Initialize()
 

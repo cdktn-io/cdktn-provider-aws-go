@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lambdaruntimemanagementconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lambdaruntimemanagementconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lambdaruntimemanagementconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config}.
 type LambdaRuntimeManagementConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_LambdaRuntimeManagementConfig) UpdateRuntimeOnInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
 func NewLambdaRuntimeManagementConfig(scope constructs.Construct, id *string, config *LambdaRuntimeManagementConfigConfig) LambdaRuntimeManagementConfig {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewLambdaRuntimeManagementConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lambda_runtime_management_config aws_lambda_runtime_management_config} Resource.
 func NewLambdaRuntimeManagementConfig_Override(l LambdaRuntimeManagementConfig, scope constructs.Construct, id *string, config *LambdaRuntimeManagementConfigConfig) {
 	_init_.Initialize()
 

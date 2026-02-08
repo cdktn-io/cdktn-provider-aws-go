@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sesreceiptrule
 
 
 type SesReceiptRuleAddHeaderAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_rule#header_name SesReceiptRule#header_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ses_receipt_rule#header_name SesReceiptRule#header_name}.
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_rule#header_value SesReceiptRule#header_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ses_receipt_rule#header_value SesReceiptRule#header_value}.
 	HeaderValue *string `field:"required" json:"headerValue" yaml:"headerValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ses_receipt_rule#position SesReceiptRule#position}.
 	Position *float64 `field:"required" json:"position" yaml:"position"`
 }
 

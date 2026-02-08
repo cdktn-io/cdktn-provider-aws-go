@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sqsqueuepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sqsqueuepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sqsqueuepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy}.
 type SqsQueuePolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SqsQueuePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy} Resource.
 func NewSqsQueuePolicy(scope constructs.Construct, id *string, config *SqsQueuePolicyConfig) SqsQueuePolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewSqsQueuePolicy(scope constructs.Construct, id *string, config *SqsQueueP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sqs_queue_policy aws_sqs_queue_policy} Resource.
 func NewSqsQueuePolicy_Override(s SqsQueuePolicy, scope constructs.Construct, id *string, config *SqsQueuePolicyConfig) {
 	_init_.Initialize()
 

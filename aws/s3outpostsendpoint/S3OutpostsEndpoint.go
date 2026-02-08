@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3outpostsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3outpostsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3outpostsendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint}.
 type S3OutpostsEndpoint interface {
 	cdktf.TerraformResource
 	AccessType() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_S3OutpostsEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint} Resource.
 func NewS3OutpostsEndpoint(scope constructs.Construct, id *string, config *S3OutpostsEndpointConfig) S3OutpostsEndpoint {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewS3OutpostsEndpoint(scope constructs.Construct, id *string, config *S3Out
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3outposts_endpoint aws_s3outposts_endpoint} Resource.
 func NewS3OutpostsEndpoint_Override(s S3OutpostsEndpoint, scope constructs.Construct, id *string, config *S3OutpostsEndpointConfig) {
 	_init_.Initialize()
 

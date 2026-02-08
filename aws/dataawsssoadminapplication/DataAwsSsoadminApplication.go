@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsssoadminapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssoadminapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssoadminapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
 type DataAwsSsoadminApplication interface {
 	cdktf.TerraformDataSource
 	ApplicationAccount() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) DataAwsSsoadminApplication {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication_Override(d DataAwsSsoadminApplication, scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) {
 	_init_.Initialize()
 

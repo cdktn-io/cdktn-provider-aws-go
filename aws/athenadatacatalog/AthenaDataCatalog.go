@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package athenadatacatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/athenadatacatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/athenadatacatalog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/athena_data_catalog aws_athena_data_catalog}.
 type AthenaDataCatalog interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_AthenaDataCatalog) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
 func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) AthenaDataCatalog {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *Athena
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/athena_data_catalog aws_athena_data_catalog} Resource.
 func NewAthenaDataCatalog_Override(a AthenaDataCatalog, scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) {
 	_init_.Initialize()
 

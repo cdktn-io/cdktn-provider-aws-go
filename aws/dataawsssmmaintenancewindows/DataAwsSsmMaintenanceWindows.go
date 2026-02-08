@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsssmmaintenancewindows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsssmmaintenancewindows/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsssmmaintenancewindows/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows}.
 type DataAwsSsmMaintenanceWindows interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataAwsSsmMaintenanceWindows) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) DataAwsSsmMaintenanceWindows {
 	_init_.Initialize()
 
@@ -342,7 +342,7 @@ func NewDataAwsSsmMaintenanceWindows(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ssm_maintenance_windows aws_ssm_maintenance_windows} Data Source.
 func NewDataAwsSsmMaintenanceWindows_Override(d DataAwsSsmMaintenanceWindows, scope constructs.Construct, id *string, config *DataAwsSsmMaintenanceWindowsConfig) {
 	_init_.Initialize()
 

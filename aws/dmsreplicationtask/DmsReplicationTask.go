@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dmsreplicationtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dmsreplicationtask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dmsreplicationtask/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dms_replication_task aws_dms_replication_task}.
 type DmsReplicationTask interface {
 	cdktf.TerraformResource
 	CdcStartPosition() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_DmsReplicationTask) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
 func NewDmsReplicationTask(scope constructs.Construct, id *string, config *DmsReplicationTaskConfig) DmsReplicationTask {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewDmsReplicationTask(scope constructs.Construct, id *string, config *DmsRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dms_replication_task aws_dms_replication_task} Resource.
 func NewDmsReplicationTask_Override(d DmsReplicationTask, scope constructs.Construct, id *string, config *DmsReplicationTaskConfig) {
 	_init_.Initialize()
 

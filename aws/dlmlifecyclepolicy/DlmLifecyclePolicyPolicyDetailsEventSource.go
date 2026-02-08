@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dlmlifecyclepolicy
@@ -7,9 +7,9 @@ package dlmlifecyclepolicy
 type DlmLifecyclePolicyPolicyDetailsEventSource struct {
 	// parameters block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
 	Parameters *DlmLifecyclePolicyPolicyDetailsEventSourceParameters `field:"required" json:"parameters" yaml:"parameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

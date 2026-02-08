@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewayusageplankey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewayusageplankey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewayusageplankey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key}.
 type ApiGatewayUsagePlanKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlanKey) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
 func NewApiGatewayUsagePlanKey(scope constructs.Construct, id *string, config *ApiGatewayUsagePlanKeyConfig) ApiGatewayUsagePlanKey {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewApiGatewayUsagePlanKey(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_usage_plan_key aws_api_gateway_usage_plan_key} Resource.
 func NewApiGatewayUsagePlanKey_Override(a ApiGatewayUsagePlanKey, scope constructs.Construct, id *string, config *ApiGatewayUsagePlanKeyConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawseksnodegroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawseksnodegroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawseksnodegroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_groups aws_eks_node_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_node_groups aws_eks_node_groups}.
 type DataAwsEksNodeGroups interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
 func NewDataAwsEksNodeGroups(scope constructs.Construct, id *string, config *DataAwsEksNodeGroupsConfig) DataAwsEksNodeGroups {
 	_init_.Initialize()
 
@@ -341,7 +341,7 @@ func NewDataAwsEksNodeGroups(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
 func NewDataAwsEksNodeGroups_Override(d DataAwsEksNodeGroups, scope constructs.Construct, id *string, config *DataAwsEksNodeGroupsConfig) {
 	_init_.Initialize()
 

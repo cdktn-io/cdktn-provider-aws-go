@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apigatewaydocumentationpart
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apigatewaydocumentationpart/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apigatewaydocumentationpart/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part}.
 type ApiGatewayDocumentationPart interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ApiGatewayDocumentationPart) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
 func NewApiGatewayDocumentationPart(scope constructs.Construct, id *string, config *ApiGatewayDocumentationPartConfig) ApiGatewayDocumentationPart {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewApiGatewayDocumentationPart(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/api_gateway_documentation_part aws_api_gateway_documentation_part} Resource.
 func NewApiGatewayDocumentationPart_Override(a ApiGatewayDocumentationPart, scope constructs.Construct, id *string, config *ApiGatewayDocumentationPartConfig) {
 	_init_.Initialize()
 

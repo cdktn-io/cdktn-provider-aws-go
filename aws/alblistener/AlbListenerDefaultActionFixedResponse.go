@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alblistener
 
 
 type AlbListenerDefaultActionFixedResponse struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener#content_type AlbListener#content_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener#content_type AlbListener#content_type}.
 	ContentType *string `field:"required" json:"contentType" yaml:"contentType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener#message_body AlbListener#message_body}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener#message_body AlbListener#message_body}.
 	MessageBody *string `field:"optional" json:"messageBody" yaml:"messageBody"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener#status_code AlbListener#status_code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener#status_code AlbListener#status_code}.
 	StatusCode *string `field:"optional" json:"statusCode" yaml:"statusCode"`
 }
 

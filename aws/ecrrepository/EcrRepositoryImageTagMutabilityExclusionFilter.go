@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ecrrepository
 
 
 type EcrRepositoryImageTagMutabilityExclusionFilter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository#filter EcrRepository#filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecr_repository#filter EcrRepository#filter}.
 	Filter *string `field:"required" json:"filter" yaml:"filter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ecr_repository#filter_type EcrRepository#filter_type}.
 	FilterType *string `field:"required" json:"filterType" yaml:"filterType"`
 }
 

@@ -1,23 +1,23 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package connectquickconnect
 
 
 type ConnectQuickConnectQuickConnectConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.
 	QuickConnectType *string `field:"required" json:"quickConnectType" yaml:"quickConnectType"`
 	// phone_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
 	PhoneConfig interface{} `field:"optional" json:"phoneConfig" yaml:"phoneConfig"`
 	// queue_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
 	QueueConfig interface{} `field:"optional" json:"queueConfig" yaml:"queueConfig"`
 	// user_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
 	UserConfig interface{} `field:"optional" json:"userConfig" yaml:"userConfig"`
 }
 

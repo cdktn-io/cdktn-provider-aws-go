@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsappstreamimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsappstreamimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsappstreamimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/appstream_image aws_appstream_image}.
 type DataAwsAppstreamImage interface {
 	cdktf.TerraformDataSource
 	Applications() DataAwsAppstreamImageApplicationsList
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsAppstreamImage) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) DataAwsAppstreamImage {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage_Override(d DataAwsAppstreamImage, scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) {
 	_init_.Initialize()
 

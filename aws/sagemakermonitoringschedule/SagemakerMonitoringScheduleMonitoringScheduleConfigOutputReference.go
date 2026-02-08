@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sagemakermonitoringschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/sagemakermonitoringschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/sagemakermonitoringschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,6 +32,8 @@ type SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference interfac
 	Fqn() *string
 	InternalValue() *SagemakerMonitoringScheduleMonitoringScheduleConfig
 	SetInternalValue(val *SagemakerMonitoringScheduleMonitoringScheduleConfig)
+	MonitoringJobDefinition() SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionOutputReference
+	MonitoringJobDefinitionInput() *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition
 	MonitoringJobDefinitionName() *string
 	SetMonitoringJobDefinitionName(val *string)
 	MonitoringJobDefinitionNameInput() *string
@@ -72,7 +74,10 @@ type SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference interfac
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutMonitoringJobDefinition(value *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition)
 	PutScheduleConfig(value *SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfig)
+	ResetMonitoringJobDefinition()
+	ResetMonitoringJobDefinitionName()
 	ResetScheduleConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -134,6 +139,26 @@ func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) MonitoringJobDefinition() SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionOutputReference {
+	var returns SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinitionOutputReference
+	_jsii_.Get(
+		j,
+		"monitoringJobDefinition",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) MonitoringJobDefinitionInput() *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition {
+	var returns *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition
+	_jsii_.Get(
+		j,
+		"monitoringJobDefinitionInput",
 		&returns,
 	)
 	return returns
@@ -510,6 +535,17 @@ func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputRefe
 	return returns
 }
 
+func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) PutMonitoringJobDefinition(value *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition) {
+	if err := s.validatePutMonitoringJobDefinitionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putMonitoringJobDefinition",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) PutScheduleConfig(value *SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfig) {
 	if err := s.validatePutScheduleConfigParameters(value); err != nil {
 		panic(err)
@@ -518,6 +554,22 @@ func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputRefe
 		s,
 		"putScheduleConfig",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) ResetMonitoringJobDefinition() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMonitoringJobDefinition",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) ResetMonitoringJobDefinitionName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMonitoringJobDefinitionName",
+		nil, // no parameters
 	)
 }
 

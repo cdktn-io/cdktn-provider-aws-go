@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package s3bucketaccelerateconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/s3bucketaccelerateconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/s3bucketaccelerateconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration}.
 type S3BucketAccelerateConfiguration interface {
 	cdktf.TerraformResource
 	Bucket() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_S3BucketAccelerateConfiguration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
 func NewS3BucketAccelerateConfiguration(scope constructs.Construct, id *string, config *S3BucketAccelerateConfigurationConfig) S3BucketAccelerateConfiguration {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewS3BucketAccelerateConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/s3_bucket_accelerate_configuration aws_s3_bucket_accelerate_configuration} Resource.
 func NewS3BucketAccelerateConfiguration_Override(s S3BucketAccelerateConfiguration, scope constructs.Construct, id *string, config *S3BucketAccelerateConfigurationConfig) {
 	_init_.Initialize()
 

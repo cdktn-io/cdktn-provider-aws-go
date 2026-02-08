@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apprunnerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/apprunnerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/apprunnerdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
 type ApprunnerDeployment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ApprunnerDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment(scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) ApprunnerDeployment {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewApprunnerDeployment(scope constructs.Construct, id *string, config *Appr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment_Override(a ApprunnerDeployment, scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) {
 	_init_.Initialize()
 

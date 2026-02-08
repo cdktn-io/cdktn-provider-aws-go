@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfrontmultitenantdistribution
@@ -1331,13 +1331,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "member", GoGetter: "Member"},
 			_jsii_.MemberProperty{JsiiProperty: "memberInput", GoGetter: "MemberInput"},
-			_jsii_.MemberProperty{JsiiProperty: "originId", GoGetter: "OriginId"},
-			_jsii_.MemberProperty{JsiiProperty: "originIdInput", GoGetter: "OriginIdInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putFailoverCriteria", GoMethod: "PutFailoverCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "putMember", GoMethod: "PutMember"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFailoverCriteria", GoMethod: "ResetFailoverCriteria"},

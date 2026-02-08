@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsbedrockinferenceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsbedrockinferenceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsbedrockinferenceprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
 type DataAwsBedrockInferenceProfile interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) DataAwsBedrockInferenceProfile {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile_Override(d DataAwsBedrockInferenceProfile, scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) {
 	_init_.Initialize()
 

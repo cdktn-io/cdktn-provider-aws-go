@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkfirewallrulegroup
@@ -7,9 +7,9 @@ package networkfirewallrulegroup
 type NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSets struct {
 	// ip_set block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_rule_group#ip_set NetworkfirewallRuleGroup#ip_set}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkfirewall_rule_group#ip_set NetworkfirewallRuleGroup#ip_set}
 	IpSet *NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSetsIpSet `field:"required" json:"ipSet" yaml:"ipSet"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkfirewall_rule_group#key NetworkfirewallRuleGroup#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkfirewall_rule_group#key NetworkfirewallRuleGroup#key}.
 	Key *string `field:"required" json:"key" yaml:"key"`
 }
 

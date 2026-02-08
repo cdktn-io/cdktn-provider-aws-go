@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawskendrathesaurus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawskendrathesaurus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawskendrathesaurus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus}.
 type DataAwsKendraThesaurus interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -491,7 +491,7 @@ func (j *jsiiProxy_DataAwsKendraThesaurus) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
 func NewDataAwsKendraThesaurus(scope constructs.Construct, id *string, config *DataAwsKendraThesaurusConfig) DataAwsKendraThesaurus {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewDataAwsKendraThesaurus(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/kendra_thesaurus aws_kendra_thesaurus} Data Source.
 func NewDataAwsKendraThesaurus_Override(d DataAwsKendraThesaurus, scope constructs.Construct, id *string, config *DataAwsKendraThesaurusConfig) {
 	_init_.Initialize()
 

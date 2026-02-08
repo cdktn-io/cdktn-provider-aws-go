@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcipamresourcediscovery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcipamresourcediscovery/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcipamresourcediscovery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
 type VpcIpamResourceDiscovery interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -56,6 +56,8 @@ type VpcIpamResourceDiscovery interface {
 	Node() constructs.Node
 	OperatingRegions() VpcIpamResourceDiscoveryOperatingRegionsList
 	OperatingRegionsInput() interface{}
+	OrganizationalUnitExclusion() VpcIpamResourceDiscoveryOrganizationalUnitExclusionList
+	OrganizationalUnitExclusionInput() interface{}
 	OwnerId() *string
 	// Experimental.
 	Provider() cdktf.TerraformProvider
@@ -128,9 +130,11 @@ type VpcIpamResourceDiscovery interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutOperatingRegions(value interface{})
+	PutOrganizationalUnitExclusion(value interface{})
 	PutTimeouts(value *VpcIpamResourceDiscoveryTimeouts)
 	ResetDescription()
 	ResetId()
+	ResetOrganizationalUnitExclusion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -346,6 +350,26 @@ func (j *jsiiProxy_VpcIpamResourceDiscovery) OperatingRegionsInput() interface{}
 	return returns
 }
 
+func (j *jsiiProxy_VpcIpamResourceDiscovery) OrganizationalUnitExclusion() VpcIpamResourceDiscoveryOrganizationalUnitExclusionList {
+	var returns VpcIpamResourceDiscoveryOrganizationalUnitExclusionList
+	_jsii_.Get(
+		j,
+		"organizationalUnitExclusion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcIpamResourceDiscovery) OrganizationalUnitExclusionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"organizationalUnitExclusionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpcIpamResourceDiscovery) OwnerId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -497,7 +521,7 @@ func (j *jsiiProxy_VpcIpamResourceDiscovery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) VpcIpamResourceDiscovery {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery_Override(v VpcIpamResourceDiscovery, scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1037,17 @@ func (v *jsiiProxy_VpcIpamResourceDiscovery) PutOperatingRegions(value interface
 	)
 }
 
+func (v *jsiiProxy_VpcIpamResourceDiscovery) PutOrganizationalUnitExclusion(value interface{}) {
+	if err := v.validatePutOrganizationalUnitExclusionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putOrganizationalUnitExclusion",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VpcIpamResourceDiscovery) PutTimeouts(value *VpcIpamResourceDiscoveryTimeouts) {
 	if err := v.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1036,6 +1071,14 @@ func (v *jsiiProxy_VpcIpamResourceDiscovery) ResetId() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcIpamResourceDiscovery) ResetOrganizationalUnitExclusion() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetOrganizationalUnitExclusion",
 		nil, // no parameters
 	)
 }

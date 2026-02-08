@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workspaceswebipaccesssettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspaceswebipaccesssettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspaceswebipaccesssettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings}.
 type WorkspaceswebIpAccessSettings interface {
 	cdktf.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettings) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
 func NewWorkspaceswebIpAccessSettings(scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsConfig) WorkspaceswebIpAccessSettings {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewWorkspaceswebIpAccessSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
 func NewWorkspaceswebIpAccessSettings_Override(w WorkspaceswebIpAccessSettings, scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsConfig) {
 	_init_.Initialize()
 

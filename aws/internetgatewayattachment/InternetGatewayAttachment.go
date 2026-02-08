@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package internetgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/internetgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/internetgatewayattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment}.
 type InternetGatewayAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_InternetGatewayAttachment) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) InternetGatewayAttachment {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewInternetGatewayAttachment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/internet_gateway_attachment aws_internet_gateway_attachment} Resource.
 func NewInternetGatewayAttachment_Override(i InternetGatewayAttachment, scope constructs.Construct, id *string, config *InternetGatewayAttachmentConfig) {
 	_init_.Initialize()
 

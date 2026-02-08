@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshvirtualrouter
 
 
 type AppmeshVirtualRouterSpecListenerPortMapping struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_router#port AppmeshVirtualRouter#port}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_router#port AppmeshVirtualRouter#port}.
 	Port *float64 `field:"required" json:"port" yaml:"port"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_virtual_router#protocol AppmeshVirtualRouter#protocol}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_virtual_router#protocol AppmeshVirtualRouter#protocol}.
 	Protocol *string `field:"required" json:"protocol" yaml:"protocol"`
 }
 

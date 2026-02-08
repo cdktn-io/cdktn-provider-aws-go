@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotloggingoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/iotloggingoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/iotloggingoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_logging_options aws_iot_logging_options}.
 type IotLoggingOptions interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_IotLoggingOptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
 func NewIotLoggingOptions(scope constructs.Construct, id *string, config *IotLoggingOptionsConfig) IotLoggingOptions {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewIotLoggingOptions(scope constructs.Construct, id *string, config *IotLog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/iot_logging_options aws_iot_logging_options} Resource.
 func NewIotLoggingOptions_Override(i IotLoggingOptions, scope constructs.Construct, id *string, config *IotLoggingOptionsConfig) {
 	_init_.Initialize()
 

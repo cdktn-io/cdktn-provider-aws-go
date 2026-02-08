@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package shieldsubscription
@@ -24,9 +24,9 @@ type ShieldSubscriptionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Whether to automatically renew the subscription when it expires.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_subscription#auto_renew ShieldSubscription#auto_renew}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/shield_subscription#auto_renew ShieldSubscription#auto_renew}
 	AutoRenew *string `field:"optional" json:"autoRenew" yaml:"autoRenew"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/shield_subscription#skip_destroy ShieldSubscription#skip_destroy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/shield_subscription#skip_destroy ShieldSubscription#skip_destroy}.
 	SkipDestroy interface{} `field:"optional" json:"skipDestroy" yaml:"skipDestroy"`
 }
 

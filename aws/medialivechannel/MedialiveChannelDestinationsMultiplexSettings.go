@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package medialivechannel
 
 
 type MedialiveChannelDestinationsMultiplexSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#multiplex_id MedialiveChannel#multiplex_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#multiplex_id MedialiveChannel#multiplex_id}.
 	MultiplexId *string `field:"required" json:"multiplexId" yaml:"multiplexId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#program_name MedialiveChannel#program_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#program_name MedialiveChannel#program_name}.
 	ProgramName *string `field:"required" json:"programName" yaml:"programName"`
 }
 

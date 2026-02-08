@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package schemasregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/schemasregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/schemasregistry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/schemas_registry aws_schemas_registry}.
 type SchemasRegistry interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_SchemasRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasRegistryConfig) SchemasRegistry {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry_Override(s SchemasRegistry, scope constructs.Construct, id *string, config *SchemasRegistryConfig) {
 	_init_.Initialize()
 

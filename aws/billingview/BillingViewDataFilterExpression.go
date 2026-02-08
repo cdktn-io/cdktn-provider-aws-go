@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package billingview
@@ -7,15 +7,15 @@ package billingview
 type BillingViewDataFilterExpression struct {
 	// dimensions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view#dimensions BillingView#dimensions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/billing_view#dimensions BillingView#dimensions}
 	Dimensions interface{} `field:"optional" json:"dimensions" yaml:"dimensions"`
 	// tags block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view#tags BillingView#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/billing_view#tags BillingView#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// time_range block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/billing_view#time_range BillingView#time_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/billing_view#time_range BillingView#time_range}
 	TimeRange interface{} `field:"optional" json:"timeRange" yaml:"timeRange"`
 }
 

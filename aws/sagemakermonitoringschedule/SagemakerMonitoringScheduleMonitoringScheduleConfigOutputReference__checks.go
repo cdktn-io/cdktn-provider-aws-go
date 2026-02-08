@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -88,6 +88,17 @@ func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputRefe
 func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	if terraformAttribute == nil {
 		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference) validatePutMonitoringJobDefinitionParameters(value *SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDefinition) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

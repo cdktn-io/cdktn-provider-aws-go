@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsfisexperimenttemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsfisexperimenttemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsfisexperimenttemplates/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates}.
 type DataAwsFisExperimentTemplates interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsFisExperimentTemplates) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
 func NewDataAwsFisExperimentTemplates(scope constructs.Construct, id *string, config *DataAwsFisExperimentTemplatesConfig) DataAwsFisExperimentTemplates {
 	_init_.Initialize()
 
@@ -318,7 +318,7 @@ func NewDataAwsFisExperimentTemplates(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/fis_experiment_templates aws_fis_experiment_templates} Data Source.
 func NewDataAwsFisExperimentTemplates_Override(d DataAwsFisExperimentTemplates, scope constructs.Construct, id *string, config *DataAwsFisExperimentTemplatesConfig) {
 	_init_.Initialize()
 

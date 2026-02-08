@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawselasticacheuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawselasticacheuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawselasticacheuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_user aws_elasticache_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/elasticache_user aws_elasticache_user}.
 type DataAwsElasticacheUser interface {
 	cdktf.TerraformDataSource
 	AccessString() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAwsElasticacheUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_user aws_elasticache_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/elasticache_user aws_elasticache_user} Data Source.
 func NewDataAwsElasticacheUser(scope constructs.Construct, id *string, config *DataAwsElasticacheUserConfig) DataAwsElasticacheUser {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAwsElasticacheUser(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/elasticache_user aws_elasticache_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/elasticache_user aws_elasticache_user} Data Source.
 func NewDataAwsElasticacheUser_Override(d DataAwsElasticacheUser, scope constructs.Construct, id *string, config *DataAwsElasticacheUserConfig) {
 	_init_.Initialize()
 

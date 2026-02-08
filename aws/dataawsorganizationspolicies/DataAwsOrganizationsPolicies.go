@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsorganizationspolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsorganizationspolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsorganizationspolicies/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies aws_organizations_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_policies aws_organizations_policies}.
 type DataAwsOrganizationsPolicies interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataAwsOrganizationsPolicies) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies aws_organizations_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_policies aws_organizations_policies} Data Source.
 func NewDataAwsOrganizationsPolicies(scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesConfig) DataAwsOrganizationsPolicies {
 	_init_.Initialize()
 
@@ -317,7 +317,7 @@ func NewDataAwsOrganizationsPolicies(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/organizations_policies aws_organizations_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/organizations_policies aws_organizations_policies} Data Source.
 func NewDataAwsOrganizationsPolicies_Override(d DataAwsOrganizationsPolicies, scope constructs.Construct, id *string, config *DataAwsOrganizationsPoliciesConfig) {
 	_init_.Initialize()
 

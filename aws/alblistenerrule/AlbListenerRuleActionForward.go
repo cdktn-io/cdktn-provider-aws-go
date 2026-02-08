@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alblistenerrule
@@ -7,11 +7,11 @@ package alblistenerrule
 type AlbListenerRuleActionForward struct {
 	// target_group block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule#target_group AlbListenerRule#target_group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener_rule#target_group AlbListenerRule#target_group}
 	TargetGroup interface{} `field:"required" json:"targetGroup" yaml:"targetGroup"`
 	// stickiness block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/alb_listener_rule#stickiness AlbListenerRule#stickiness}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/alb_listener_rule#stickiness AlbListenerRule#stickiness}
 	Stickiness *AlbListenerRuleActionForwardStickiness `field:"optional" json:"stickiness" yaml:"stickiness"`
 }
 

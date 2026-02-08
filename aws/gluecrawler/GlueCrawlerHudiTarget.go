@@ -1,17 +1,17 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluecrawler
 
 
 type GlueCrawlerHudiTarget struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}.
 	MaximumTraversalDepth *float64 `field:"required" json:"maximumTraversalDepth" yaml:"maximumTraversalDepth"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#paths GlueCrawler#paths}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#paths GlueCrawler#paths}.
 	Paths *[]*string `field:"required" json:"paths" yaml:"paths"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}.
 	ConnectionName *string `field:"optional" json:"connectionName" yaml:"connectionName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}.
 	Exclusions *[]*string `field:"optional" json:"exclusions" yaml:"exclusions"`
 }
 

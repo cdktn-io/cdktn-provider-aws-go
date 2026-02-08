@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawswafv2webacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawswafv2webacl/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawswafv2webacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl}.
 type DataAwsWafv2WebAcl interface {
 	cdktf.TerraformDataSource
 	Arn() *string
@@ -382,7 +382,7 @@ func (j *jsiiProxy_DataAwsWafv2WebAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl} Data Source.
 func NewDataAwsWafv2WebAcl(scope constructs.Construct, id *string, config *DataAwsWafv2WebAclConfig) DataAwsWafv2WebAcl {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAwsWafv2WebAcl(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/wafv2_web_acl aws_wafv2_web_acl} Data Source.
 func NewDataAwsWafv2WebAcl_Override(d DataAwsWafv2WebAcl, scope constructs.Construct, id *string, config *DataAwsWafv2WebAclConfig) {
 	_init_.Initialize()
 

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsnetworkmanagercorenetworkpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsnetworkmanagercorenetworkpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsnetworkmanagercorenetworkpolicydocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -49,6 +49,9 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference
 	Mode() *string
 	SetMode(val *string)
 	ModeInput() *string
+	RoutingPolicyNames() *[]*string
+	SetRoutingPolicyNames(val *[]*string)
+	RoutingPolicyNamesInput() *[]*string
 	Segment() *string
 	SetSegment(val *string)
 	SegmentInput() *string
@@ -102,6 +105,7 @@ type DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference
 	ResetDestinations()
 	ResetEdgeLocationAssociation()
 	ResetMode()
+	ResetRoutingPolicyNames()
 	ResetShareWith()
 	ResetShareWithExcept()
 	ResetVia()
@@ -286,6 +290,26 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	_jsii_.Get(
 		j,
 		"modeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) RoutingPolicyNames() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"routingPolicyNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) RoutingPolicyNamesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"routingPolicyNamesInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	_jsii_.Set(
 		j,
 		"mode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference)SetRoutingPolicyNames(val *[]*string) {
+	if err := j.validateSetRoutingPolicyNamesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routingPolicyNames",
 		val,
 	)
 }
@@ -837,6 +872,14 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsO
 	_jsii_.InvokeVoid(
 		d,
 		"resetMode",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocumentSegmentActionsOutputReference) ResetRoutingPolicyNames() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRoutingPolicyNames",
 		nil, // no parameters
 	)
 }

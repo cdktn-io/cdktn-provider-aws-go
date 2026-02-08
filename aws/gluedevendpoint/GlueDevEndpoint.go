@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gluedevendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/gluedevendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/gluedevendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint}.
 type GlueDevEndpoint interface {
 	cdktf.TerraformResource
 	Arguments() *map[string]*string
@@ -815,7 +815,7 @@ func (j *jsiiProxy_GlueDevEndpoint) ZeppelinRemoteSparkInterpreterPort() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevEndpointConfig) GlueDevEndpoint {
 	_init_.Initialize()
 
@@ -833,7 +833,7 @@ func NewGlueDevEndpoint(scope constructs.Construct, id *string, config *GlueDevE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/glue_dev_endpoint aws_glue_dev_endpoint} Resource.
 func NewGlueDevEndpoint_Override(g GlueDevEndpoint, scope constructs.Construct, id *string, config *GlueDevEndpointConfig) {
 	_init_.Initialize()
 

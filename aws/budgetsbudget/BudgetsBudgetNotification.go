@@ -1,21 +1,21 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package budgetsbudget
 
 
 type BudgetsBudgetNotification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#comparison_operator BudgetsBudget#comparison_operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#comparison_operator BudgetsBudget#comparison_operator}.
 	ComparisonOperator *string `field:"required" json:"comparisonOperator" yaml:"comparisonOperator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#notification_type BudgetsBudget#notification_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#notification_type BudgetsBudget#notification_type}.
 	NotificationType *string `field:"required" json:"notificationType" yaml:"notificationType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#threshold BudgetsBudget#threshold}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#threshold BudgetsBudget#threshold}.
 	Threshold *float64 `field:"required" json:"threshold" yaml:"threshold"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#threshold_type BudgetsBudget#threshold_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#threshold_type BudgetsBudget#threshold_type}.
 	ThresholdType *string `field:"required" json:"thresholdType" yaml:"thresholdType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#subscriber_email_addresses BudgetsBudget#subscriber_email_addresses}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#subscriber_email_addresses BudgetsBudget#subscriber_email_addresses}.
 	SubscriberEmailAddresses *[]*string `field:"optional" json:"subscriberEmailAddresses" yaml:"subscriberEmailAddresses"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/budgets_budget#subscriber_sns_topic_arns BudgetsBudget#subscriber_sns_topic_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/budgets_budget#subscriber_sns_topic_arns BudgetsBudget#subscriber_sns_topic_arns}.
 	SubscriberSnsTopicArns *[]*string `field:"optional" json:"subscriberSnsTopicArns" yaml:"subscriberSnsTopicArns"`
 }
 

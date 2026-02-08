@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataawsec2transitgatewayvpnattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/dataawsec2transitgatewayvpnattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/dataawsec2transitgatewayvpnattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment}.
 type DataAwsEc2TransitGatewayVpnAttachment interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -409,7 +409,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayVpnAttachment) VpnConnectionIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) DataAwsEc2TransitGatewayVpnAttachment {
 	_init_.Initialize()
 
@@ -427,7 +427,7 @@ func NewDataAwsEc2TransitGatewayVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/ec2_transit_gateway_vpn_attachment aws_ec2_transit_gateway_vpn_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpnAttachment_Override(d DataAwsEc2TransitGatewayVpnAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpnAttachmentConfig) {
 	_init_.Initialize()
 

@@ -1,19 +1,19 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securityhubautomationrule
 
 
 type SecurityhubAutomationRuleCriteriaConfidence struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}.
 	Eq *float64 `field:"optional" json:"eq" yaml:"eq"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}.
 	Gt *float64 `field:"optional" json:"gt" yaml:"gt"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}.
 	Gte *float64 `field:"optional" json:"gte" yaml:"gte"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}.
 	Lt *float64 `field:"optional" json:"lt" yaml:"lt"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}.
 	Lte *float64 `field:"optional" json:"lte" yaml:"lte"`
 }
 

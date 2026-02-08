@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcdhcpoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcdhcpoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcdhcpoptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options}.
 type VpcDhcpOptions interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -548,7 +548,7 @@ func (j *jsiiProxy_VpcDhcpOptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
 func NewVpcDhcpOptions(scope constructs.Construct, id *string, config *VpcDhcpOptionsConfig) VpcDhcpOptions {
 	_init_.Initialize()
 
@@ -566,7 +566,7 @@ func NewVpcDhcpOptions(scope constructs.Construct, id *string, config *VpcDhcpOp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_dhcp_options aws_vpc_dhcp_options} Resource.
 func NewVpcDhcpOptions_Override(v VpcDhcpOptions, scope constructs.Construct, id *string, config *VpcDhcpOptionsConfig) {
 	_init_.Initialize()
 

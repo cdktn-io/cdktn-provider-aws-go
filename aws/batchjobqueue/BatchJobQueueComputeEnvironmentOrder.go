@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchjobqueue
 
 
 type BatchJobQueueComputeEnvironmentOrder struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.
 	ComputeEnvironment *string `field:"required" json:"computeEnvironment" yaml:"computeEnvironment"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
 	Order *float64 `field:"required" json:"order" yaml:"order"`
 }
 

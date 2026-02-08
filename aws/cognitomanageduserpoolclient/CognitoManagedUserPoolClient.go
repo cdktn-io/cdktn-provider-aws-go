@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitomanageduserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cognitomanageduserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cognitomanageduserpoolclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
 type CognitoManagedUserPoolClient interface {
 	cdktf.TerraformResource
 	AccessTokenValidity() *float64
@@ -894,7 +894,7 @@ func (j *jsiiProxy_CognitoManagedUserPoolClient) WriteAttributesInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) CognitoManagedUserPoolClient {
 	_init_.Initialize()
 
@@ -912,7 +912,7 @@ func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient_Override(c CognitoManagedUserPoolClient, scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpcendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/vpcendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/vpcendpointpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
 type VpcEndpointPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_VpcEndpointPolicy) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) VpcEndpointPolicy {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEnd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy_Override(v VpcEndpointPolicy, scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) {
 	_init_.Initialize()
 

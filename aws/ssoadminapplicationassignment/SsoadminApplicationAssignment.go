@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssoadminapplicationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplicationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssoadminapplicationassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment}.
 type SsoadminApplicationAssignment interface {
 	cdktf.TerraformResource
 	ApplicationArn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SsoadminApplicationAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
 func NewSsoadminApplicationAssignment(scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfig) SsoadminApplicationAssignment {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewSsoadminApplicationAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_assignment aws_ssoadmin_application_assignment} Resource.
 func NewSsoadminApplicationAssignment_Override(s SsoadminApplicationAssignment, scope constructs.Construct, id *string, config *SsoadminApplicationAssignmentConfig) {
 	_init_.Initialize()
 

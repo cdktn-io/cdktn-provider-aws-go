@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagertransitgatewayregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/networkmanagertransitgatewayregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/networkmanagertransitgatewayregistration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration}.
 type NetworkmanagerTransitGatewayRegistration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRegistration) TransitGatewayArnIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration} Resource.
 func NewNetworkmanagerTransitGatewayRegistration(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRegistrationConfig) NetworkmanagerTransitGatewayRegistration {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewNetworkmanagerTransitGatewayRegistration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_transit_gateway_registration aws_networkmanager_transit_gateway_registration} Resource.
 func NewNetworkmanagerTransitGatewayRegistration_Override(n NetworkmanagerTransitGatewayRegistration, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRegistrationConfig) {
 	_init_.Initialize()
 

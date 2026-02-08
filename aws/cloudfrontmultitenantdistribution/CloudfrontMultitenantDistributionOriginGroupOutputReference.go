@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cloudfrontmultitenantdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/cloudfrontmultitenantdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/cloudfrontmultitenantdistribution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -32,13 +32,13 @@ type CloudfrontMultitenantDistributionOriginGroupOutputReference interface {
 	FailoverCriteriaInput() interface{}
 	// Experimental.
 	Fqn() *string
+	Id() *string
+	SetId(val *string)
+	IdInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Member() CloudfrontMultitenantDistributionOriginGroupMemberList
 	MemberInput() interface{}
-	OriginId() *string
-	SetOriginId(val *string)
-	OriginIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -150,6 +150,26 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) IdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -175,26 +195,6 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) 
 	_jsii_.Get(
 		j,
 		"memberInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) OriginId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"originId",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference) OriginIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"originIdInput",
 		&returns,
 	)
 	return returns
@@ -270,6 +270,17 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference)S
 	)
 }
 
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference)SetId(val *string) {
+	if err := j.validateSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"id",
+		val,
+	)
+}
+
 func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -277,17 +288,6 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference)S
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginGroupOutputReference)SetOriginId(val *string) {
-	if err := j.validateSetOriginIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"originId",
 		val,
 	)
 }

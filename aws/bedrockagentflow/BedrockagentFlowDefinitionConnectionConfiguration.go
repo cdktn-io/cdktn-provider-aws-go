@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bedrockagentflow
@@ -7,11 +7,11 @@ package bedrockagentflow
 type BedrockagentFlowDefinitionConnectionConfiguration struct {
 	// conditional block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_flow#conditional BedrockagentFlow#conditional}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagent_flow#conditional BedrockagentFlow#conditional}
 	Conditional interface{} `field:"optional" json:"conditional" yaml:"conditional"`
 	// data block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/bedrockagent_flow#data BedrockagentFlow#data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagent_flow#data BedrockagentFlow#data}
 	Data interface{} `field:"optional" json:"data" yaml:"data"`
 }
 

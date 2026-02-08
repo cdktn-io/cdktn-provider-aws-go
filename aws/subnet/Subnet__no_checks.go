@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -143,11 +143,27 @@ func (j *jsiiProxy_Subnet) validateSetIdParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_Subnet) validateSetIpv4IpamPoolIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetIpv4NetmaskLengthParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_Subnet) validateSetIpv6CidrBlockParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_Subnet) validateSetIpv6IpamPoolIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Subnet) validateSetIpv6NativeParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Subnet) validateSetIpv6NetmaskLengthParameters(val *float64) error {
 	return nil
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ssoadminapplicationaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/ssoadminapplicationaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/ssoadminapplicationaccessscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope}.
 type SsoadminApplicationAccessScope interface {
 	cdktf.TerraformResource
 	ApplicationArn() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_SsoadminApplicationAccessScope) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) SsoadminApplicationAccessScope {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewSsoadminApplicationAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_application_access_scope aws_ssoadmin_application_access_scope} Resource.
 func NewSsoadminApplicationAccessScope_Override(s SsoadminApplicationAccessScope, scope constructs.Construct, id *string, config *SsoadminApplicationAccessScopeConfig) {
 	_init_.Initialize()
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecatalogportfolioshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/servicecatalogportfolioshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/servicecatalogportfolioshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share}.
 type ServicecatalogPortfolioShare interface {
 	cdktf.TerraformResource
 	Accepted() cdktf.IResolvable
@@ -534,7 +534,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioShare) WaitForAcceptanceInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share} Resource.
 func NewServicecatalogPortfolioShare(scope constructs.Construct, id *string, config *ServicecatalogPortfolioShareConfig) ServicecatalogPortfolioShare {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewServicecatalogPortfolioShare(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/servicecatalog_portfolio_share aws_servicecatalog_portfolio_share} Resource.
 func NewServicecatalogPortfolioShare_Override(s ServicecatalogPortfolioShare, scope constructs.Construct, id *string, config *ServicecatalogPortfolioShareConfig) {
 	_init_.Initialize()
 

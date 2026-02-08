@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emrstudio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/emrstudio/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/emrstudio/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio aws_emr_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_studio aws_emr_studio}.
 type EmrStudio interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -708,7 +708,7 @@ func (j *jsiiProxy_EmrStudio) WorkspaceSecurityGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio aws_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_studio aws_emr_studio} Resource.
 func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfig) EmrStudio {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/emr_studio aws_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/emr_studio aws_emr_studio} Resource.
 func NewEmrStudio_Override(e EmrStudio, scope constructs.Construct, id *string, config *EmrStudioConfig) {
 	_init_.Initialize()
 

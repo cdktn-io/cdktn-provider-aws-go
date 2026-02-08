@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -297,6 +297,14 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetAutonomousDataStorage
 	return nil
 }
 
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetCloudExadataInfrastructureArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetCloudExadataInfrastructureIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -464,6 +472,14 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetLifecycleParameters(v
 }
 
 func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetMemoryPerOracleComputeUnitInGbsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_OdbCloudAutonomousVmCluster) validateSetOdbNetworkArnParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lexbotalias
 
 
 type LexBotAliasConversationLogs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot_alias#iam_role_arn LexBotAlias#iam_role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lex_bot_alias#iam_role_arn LexBotAlias#iam_role_arn}.
 	IamRoleArn *string `field:"required" json:"iamRoleArn" yaml:"iamRoleArn"`
 	// log_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lex_bot_alias#log_settings LexBotAlias#log_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lex_bot_alias#log_settings LexBotAlias#log_settings}
 	LogSettings interface{} `field:"optional" json:"logSettings" yaml:"logSettings"`
 }
 

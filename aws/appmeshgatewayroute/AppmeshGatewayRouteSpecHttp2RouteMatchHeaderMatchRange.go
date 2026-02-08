@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appmeshgatewayroute
 
 
 type AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRange struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_gateway_route#end AppmeshGatewayRoute#end}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_gateway_route#end AppmeshGatewayRoute#end}.
 	End *float64 `field:"required" json:"end" yaml:"end"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/appmesh_gateway_route#start AppmeshGatewayRoute#start}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/appmesh_gateway_route#start AppmeshGatewayRoute#start}.
 	Start *float64 `field:"required" json:"start" yaml:"start"`
 }
 

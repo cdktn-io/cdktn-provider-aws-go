@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -88,6 +88,37 @@ func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) validateGet
 func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	if terraformAttribute == nil {
 		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbTableGlobalSecondaryIndexOutputReference) validatePutKeySchemaParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*DynamodbTableGlobalSecondaryIndexKeySchema:
+		value := value.(*[]*DynamodbTableGlobalSecondaryIndexKeySchema)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DynamodbTableGlobalSecondaryIndexKeySchema:
+		value_ := value.([]*DynamodbTableGlobalSecondaryIndexKeySchema)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DynamodbTableGlobalSecondaryIndexKeySchema; received %#v (a %T)", value, value)
+		}
 	}
 
 	return nil

@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package medialivechannel
 
 
 type MedialiveChannelEncoderSettingsAudioDescriptionsAudioNormalizationSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#algorithm MedialiveChannel#algorithm}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#algorithm MedialiveChannel#algorithm}.
 	Algorithm *string `field:"optional" json:"algorithm" yaml:"algorithm"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#algorithm_control MedialiveChannel#algorithm_control}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#algorithm_control MedialiveChannel#algorithm_control}.
 	AlgorithmControl *string `field:"optional" json:"algorithmControl" yaml:"algorithmControl"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/medialive_channel#target_lkfs MedialiveChannel#target_lkfs}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/medialive_channel#target_lkfs MedialiveChannel#target_lkfs}.
 	TargetLkfs *float64 `field:"optional" json:"targetLkfs" yaml:"targetLkfs"`
 }
 

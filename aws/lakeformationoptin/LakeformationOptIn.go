@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lakeformationoptin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/lakeformationoptin/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/lakeformationoptin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
 type LakeformationOptIn interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_LakeformationOptIn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn(scope constructs.Construct, id *string, config *LakeformationOptInConfig) LakeformationOptIn {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewLakeformationOptIn(scope constructs.Construct, id *string, config *Lakef
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn_Override(l LakeformationOptIn, scope constructs.Construct, id *string, config *LakeformationOptInConfig) {
 	_init_.Initialize()
 

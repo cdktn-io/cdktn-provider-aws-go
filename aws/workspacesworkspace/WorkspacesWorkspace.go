@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package workspacesworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v21/workspacesworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v22/workspacesworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_workspace aws_workspaces_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspaces_workspace aws_workspaces_workspace}.
 type WorkspacesWorkspace interface {
 	cdktf.TerraformResource
 	BundleId() *string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_WorkspacesWorkspace) WorkspacePropertiesInput() *WorkspacesWo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
 func NewWorkspacesWorkspace(scope constructs.Construct, id *string, config *WorkspacesWorkspaceConfig) WorkspacesWorkspace {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewWorkspacesWorkspace(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
 func NewWorkspacesWorkspace_Override(w WorkspacesWorkspace, scope constructs.Construct, id *string, config *WorkspacesWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package gameliftfleet
 
 
 type GameliftFleetRuntimeConfigurationServerProcess struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/gamelift_fleet#concurrent_executions GameliftFleet#concurrent_executions}.
 	ConcurrentExecutions *float64 `field:"required" json:"concurrentExecutions" yaml:"concurrentExecutions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}.
 	LaunchPath *string `field:"required" json:"launchPath" yaml:"launchPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.28.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/gamelift_fleet#parameters GameliftFleet#parameters}.
 	Parameters *string `field:"optional" json:"parameters" yaml:"parameters"`
 }
 
