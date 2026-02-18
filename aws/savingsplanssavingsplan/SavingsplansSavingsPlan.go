@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan}.
 type SavingsplansSavingsPlan interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -615,7 +615,7 @@ func (j *jsiiProxy_SavingsplansSavingsPlan) UpfrontPaymentAmountInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan} Resource.
 func NewSavingsplansSavingsPlan(scope constructs.Construct, id *string, config *SavingsplansSavingsPlanConfig) SavingsplansSavingsPlan {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewSavingsplansSavingsPlan(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/savingsplans_savings_plan aws_savingsplans_savings_plan} Resource.
 func NewSavingsplansSavingsPlan_Override(s SavingsplansSavingsPlan, scope constructs.Construct, id *string, config *SavingsplansSavingsPlanConfig) {
 	_init_.Initialize()
 

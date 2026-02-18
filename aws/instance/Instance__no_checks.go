@@ -131,6 +131,10 @@ func (i *jsiiProxy_Instance) validatePutRootBlockDeviceParameters(value *Instanc
 	return nil
 }
 
+func (i *jsiiProxy_Instance) validatePutSecondaryNetworkInterfaceParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Instance) validatePutTimeoutsParameters(value *InstanceTimeouts) error {
 	return nil
 }

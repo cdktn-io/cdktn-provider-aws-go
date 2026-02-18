@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) validateSetInternalValueParameters(val *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections) error {
 	return nil
 }
 

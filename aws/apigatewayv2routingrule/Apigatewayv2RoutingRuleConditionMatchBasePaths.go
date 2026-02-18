@@ -5,7 +5,7 @@ package apigatewayv2routingrule
 
 
 type Apigatewayv2RoutingRuleConditionMatchBasePaths struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}.
 	AnyOf *[]*string `field:"required" json:"anyOf" yaml:"anyOf"`
 }
 

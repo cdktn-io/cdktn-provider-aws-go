@@ -13,6 +13,7 @@ import (
 
 type DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference interface {
 	cdktf.ComplexObject
+	Arn() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,10 +29,14 @@ type DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference int
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisplayName() *string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	Id() *string
+	InternalValue() *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections
+	SetInternalValue(val *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections)
+	OdbNetworkArn() *string
+	PeerNetworkArn() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,6 +84,16 @@ type jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputRef
 	internal.Type__cdktfComplexObject
 }
 
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -109,6 +124,16 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutpu
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) DisplayName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"displayName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -119,11 +144,41 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutpu
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) InternalValue() *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections {
+	var returns *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference) PeerNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"peerNetworkArn",
 		&returns,
 	)
 	return returns
@@ -199,7 +254,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutpu
 	)
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsOutputReference)SetInternalValue(val *DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnections) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

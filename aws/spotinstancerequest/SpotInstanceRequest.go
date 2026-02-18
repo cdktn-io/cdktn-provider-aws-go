@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/spot_instance_request aws_spot_instance_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/spot_instance_request aws_spot_instance_request}.
 type SpotInstanceRequest interface {
 	cdktf.TerraformResource
 	Ami() *string
@@ -169,6 +169,8 @@ type SpotInstanceRequest interface {
 	RegionInput() *string
 	RootBlockDevice() SpotInstanceRequestRootBlockDeviceOutputReference
 	RootBlockDeviceInput() *SpotInstanceRequestRootBlockDevice
+	SecondaryNetworkInterface() SpotInstanceRequestSecondaryNetworkInterfaceList
+	SecondaryNetworkInterfaceInput() interface{}
 	SecondaryPrivateIps() *[]*string
 	SetSecondaryPrivateIps(val *[]*string)
 	SecondaryPrivateIpsInput() *[]*string
@@ -286,6 +288,7 @@ type SpotInstanceRequest interface {
 	PutNetworkInterface(value interface{})
 	PutPrivateDnsNameOptions(value *SpotInstanceRequestPrivateDnsNameOptions)
 	PutRootBlockDevice(value *SpotInstanceRequestRootBlockDevice)
+	PutSecondaryNetworkInterface(value interface{})
 	PutTimeouts(value *SpotInstanceRequestTimeouts)
 	ResetAmi()
 	ResetAssociatePublicIpAddress()
@@ -329,6 +332,7 @@ type SpotInstanceRequest interface {
 	ResetPrivateIp()
 	ResetRegion()
 	ResetRootBlockDevice()
+	ResetSecondaryNetworkInterface()
 	ResetSecondaryPrivateIps()
 	ResetSecurityGroups()
 	ResetSourceDestCheck()
@@ -1365,6 +1369,26 @@ func (j *jsiiProxy_SpotInstanceRequest) RootBlockDeviceInput() *SpotInstanceRequ
 	return returns
 }
 
+func (j *jsiiProxy_SpotInstanceRequest) SecondaryNetworkInterface() SpotInstanceRequestSecondaryNetworkInterfaceList {
+	var returns SpotInstanceRequestSecondaryNetworkInterfaceList
+	_jsii_.Get(
+		j,
+		"secondaryNetworkInterface",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SpotInstanceRequest) SecondaryNetworkInterfaceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"secondaryNetworkInterfaceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SpotInstanceRequest) SecondaryPrivateIps() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -1786,7 +1810,7 @@ func (j *jsiiProxy_SpotInstanceRequest) WaitForFulfillmentInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
 func NewSpotInstanceRequest(scope constructs.Construct, id *string, config *SpotInstanceRequestConfig) SpotInstanceRequest {
 	_init_.Initialize()
 
@@ -1804,7 +1828,7 @@ func NewSpotInstanceRequest(scope constructs.Construct, id *string, config *Spot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/spot_instance_request aws_spot_instance_request} Resource.
 func NewSpotInstanceRequest_Override(s SpotInstanceRequest, scope constructs.Construct, id *string, config *SpotInstanceRequestConfig) {
 	_init_.Initialize()
 
@@ -2852,6 +2876,17 @@ func (s *jsiiProxy_SpotInstanceRequest) PutRootBlockDevice(value *SpotInstanceRe
 	)
 }
 
+func (s *jsiiProxy_SpotInstanceRequest) PutSecondaryNetworkInterface(value interface{}) {
+	if err := s.validatePutSecondaryNetworkInterfaceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSecondaryNetworkInterface",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SpotInstanceRequest) PutTimeouts(value *SpotInstanceRequestTimeouts) {
 	if err := s.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -3179,6 +3214,14 @@ func (s *jsiiProxy_SpotInstanceRequest) ResetRootBlockDevice() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetRootBlockDevice",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SpotInstanceRequest) ResetSecondaryNetworkInterface() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSecondaryNetworkInterface",
 		nil, // no parameters
 	)
 }

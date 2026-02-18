@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
 type SsoadminManagedPolicyAttachmentsExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) SsoadminManagedPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive_Override(s SsoadminManagedPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 

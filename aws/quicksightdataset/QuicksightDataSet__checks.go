@@ -685,6 +685,14 @@ func (j *jsiiProxy_QuicksightDataSet) validateSetTagsAllParameters(val *map[stri
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightDataSet) validateSetUseAsParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewQuicksightDataSetParameters(scope constructs.Construct, id *string, config *QuicksightDataSetConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

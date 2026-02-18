@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/instance aws_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/instance aws_instance}.
 type Instance interface {
 	cdktf.TerraformResource
 	Ami() *string
@@ -167,6 +167,8 @@ type Instance interface {
 	RegionInput() *string
 	RootBlockDevice() InstanceRootBlockDeviceOutputReference
 	RootBlockDeviceInput() *InstanceRootBlockDevice
+	SecondaryNetworkInterface() InstanceSecondaryNetworkInterfaceList
+	SecondaryNetworkInterfaceInput() interface{}
 	SecondaryPrivateIps() *[]*string
 	SetSecondaryPrivateIps(val *[]*string)
 	SecondaryPrivateIpsInput() *[]*string
@@ -269,6 +271,7 @@ type Instance interface {
 	PutPrimaryNetworkInterface(value *InstancePrimaryNetworkInterface)
 	PutPrivateDnsNameOptions(value *InstancePrivateDnsNameOptions)
 	PutRootBlockDevice(value *InstanceRootBlockDevice)
+	PutSecondaryNetworkInterface(value interface{})
 	PutTimeouts(value *InstanceTimeouts)
 	ResetAmi()
 	ResetAssociatePublicIpAddress()
@@ -312,6 +315,7 @@ type Instance interface {
 	ResetPrivateIp()
 	ResetRegion()
 	ResetRootBlockDevice()
+	ResetSecondaryNetworkInterface()
 	ResetSecondaryPrivateIps()
 	ResetSecurityGroups()
 	ResetSourceDestCheck()
@@ -1343,6 +1347,26 @@ func (j *jsiiProxy_Instance) RootBlockDeviceInput() *InstanceRootBlockDevice {
 	return returns
 }
 
+func (j *jsiiProxy_Instance) SecondaryNetworkInterface() InstanceSecondaryNetworkInterfaceList {
+	var returns InstanceSecondaryNetworkInterfaceList
+	_jsii_.Get(
+		j,
+		"secondaryNetworkInterface",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Instance) SecondaryNetworkInterfaceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"secondaryNetworkInterfaceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Instance) SecondaryPrivateIps() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -1644,7 +1668,7 @@ func (j *jsiiProxy_Instance) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/instance aws_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/instance aws_instance} Resource.
 func NewInstance(scope constructs.Construct, id *string, config *InstanceConfig) Instance {
 	_init_.Initialize()
 
@@ -1662,7 +1686,7 @@ func NewInstance(scope constructs.Construct, id *string, config *InstanceConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/instance aws_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/instance aws_instance} Resource.
 func NewInstance_Override(i Instance, scope constructs.Construct, id *string, config *InstanceConfig) {
 	_init_.Initialize()
 
@@ -2655,6 +2679,17 @@ func (i *jsiiProxy_Instance) PutRootBlockDevice(value *InstanceRootBlockDevice) 
 	)
 }
 
+func (i *jsiiProxy_Instance) PutSecondaryNetworkInterface(value interface{}) {
+	if err := i.validatePutSecondaryNetworkInterfaceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putSecondaryNetworkInterface",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_Instance) PutTimeouts(value *InstanceTimeouts) {
 	if err := i.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -2982,6 +3017,14 @@ func (i *jsiiProxy_Instance) ResetRootBlockDevice() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetRootBlockDevice",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_Instance) ResetSecondaryNetworkInterface() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetSecondaryNetworkInterface",
 		nil, // no parameters
 	)
 }

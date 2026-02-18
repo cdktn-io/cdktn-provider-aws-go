@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_data_set aws_quicksight_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/quicksight_data_set aws_quicksight_data_set}.
 type QuicksightDataSet interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -107,6 +107,9 @@ type QuicksightDataSet interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	UseAs() *string
+	SetUseAs(val *string)
+	UseAsInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -178,6 +181,7 @@ type QuicksightDataSet interface {
 	ResetRowLevelPermissionTagConfiguration()
 	ResetTags()
 	ResetTagsAll()
+	ResetUseAs()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -736,8 +740,28 @@ func (j *jsiiProxy_QuicksightDataSet) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightDataSet) UseAs() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useAs",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+func (j *jsiiProxy_QuicksightDataSet) UseAsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useAsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet(scope constructs.Construct, id *string, config *QuicksightDataSetConfig) QuicksightDataSet {
 	_init_.Initialize()
 
@@ -755,7 +779,7 @@ func NewQuicksightDataSet(scope constructs.Construct, id *string, config *Quicks
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/quicksight_data_set aws_quicksight_data_set} Resource.
 func NewQuicksightDataSet_Override(q QuicksightDataSet, scope constructs.Construct, id *string, config *QuicksightDataSetConfig) {
 	_init_.Initialize()
 
@@ -918,6 +942,17 @@ func (j *jsiiProxy_QuicksightDataSet)SetTagsAll(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"tagsAll",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightDataSet)SetUseAs(val *string) {
+	if err := j.validateSetUseAsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useAs",
 		val,
 	)
 }
@@ -1509,6 +1544,14 @@ func (q *jsiiProxy_QuicksightDataSet) ResetTagsAll() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightDataSet) ResetUseAs() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetUseAs",
 		nil, // no parameters
 	)
 }

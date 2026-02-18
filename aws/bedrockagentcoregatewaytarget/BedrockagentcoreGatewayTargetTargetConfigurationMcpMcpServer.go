@@ -5,7 +5,7 @@ package bedrockagentcoregatewaytarget
 
 
 type BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServer struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/bedrockagentcore_gateway_target#endpoint BedrockagentcoreGatewayTarget#endpoint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/bedrockagentcore_gateway_target#endpoint BedrockagentcoreGatewayTarget#endpoint}.
 	Endpoint *string `field:"required" json:"endpoint" yaml:"endpoint"`
 }
 

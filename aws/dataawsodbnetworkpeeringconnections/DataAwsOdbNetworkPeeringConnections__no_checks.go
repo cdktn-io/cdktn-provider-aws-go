@@ -55,10 +55,6 @@ func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateOverrideLogicalI
 	return nil
 }
 
-func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validatePutOdbPeeringConnectionsParameters(value interface{}) error {
-	return nil
-}
-
 func validateDataAwsOdbNetworkPeeringConnections_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -123,6 +123,10 @@ func (s *jsiiProxy_SpotInstanceRequest) validatePutRootBlockDeviceParameters(val
 	return nil
 }
 
+func (s *jsiiProxy_SpotInstanceRequest) validatePutSecondaryNetworkInterfaceParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpotInstanceRequest) validatePutTimeoutsParameters(value *SpotInstanceRequestTimeouts) error {
 	return nil
 }

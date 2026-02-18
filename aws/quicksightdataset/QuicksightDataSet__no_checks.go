@@ -179,6 +179,10 @@ func (j *jsiiProxy_QuicksightDataSet) validateSetTagsAllParameters(val *map[stri
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightDataSet) validateSetUseAsParameters(val *string) error {
+	return nil
+}
+
 func validateNewQuicksightDataSetParameters(scope constructs.Construct, id *string, config *QuicksightDataSetConfig) error {
 	return nil
 }

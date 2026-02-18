@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment}.
 type NetworkmanagerDxGatewayAttachment interface {
 	cdktf.TerraformResource
 	Arn() *string
@@ -526,7 +526,7 @@ func (j *jsiiProxy_NetworkmanagerDxGatewayAttachment) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
 func NewNetworkmanagerDxGatewayAttachment(scope constructs.Construct, id *string, config *NetworkmanagerDxGatewayAttachmentConfig) NetworkmanagerDxGatewayAttachment {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewNetworkmanagerDxGatewayAttachment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/networkmanager_dx_gateway_attachment aws_networkmanager_dx_gateway_attachment} Resource.
 func NewNetworkmanagerDxGatewayAttachment_Override(n NetworkmanagerDxGatewayAttachment, scope constructs.Construct, id *string, config *NetworkmanagerDxGatewayAttachmentConfig) {
 	_init_.Initialize()
 

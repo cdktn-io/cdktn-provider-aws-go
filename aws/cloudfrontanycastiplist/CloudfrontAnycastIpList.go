@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list}.
 type CloudfrontAnycastIpList interface {
 	cdktf.TerraformResource
 	AnycastIps() *[]*string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_CloudfrontAnycastIpList) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list} Resource.
 func NewCloudfrontAnycastIpList(scope constructs.Construct, id *string, config *CloudfrontAnycastIpListConfig) CloudfrontAnycastIpList {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewCloudfrontAnycastIpList(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/cloudfront_anycast_ip_list aws_cloudfront_anycast_ip_list} Resource.
 func NewCloudfrontAnycastIpList_Override(c CloudfrontAnycastIpList, scope constructs.Construct, id *string, config *CloudfrontAnycastIpListConfig) {
 	_init_.Initialize()
 

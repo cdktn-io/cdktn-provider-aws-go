@@ -101,6 +101,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRowLevelPermissionTagConfiguration", GoMethod: "ResetRowLevelPermissionTagConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUseAs", GoMethod: "ResetUseAs"},
 			_jsii_.MemberProperty{JsiiProperty: "rowLevelPermissionDataSet", GoGetter: "RowLevelPermissionDataSet"},
 			_jsii_.MemberProperty{JsiiProperty: "rowLevelPermissionDataSetInput", GoGetter: "RowLevelPermissionDataSetInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rowLevelPermissionTagConfiguration", GoGetter: "RowLevelPermissionTagConfiguration"},
@@ -118,6 +119,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "useAs", GoGetter: "UseAs"},
+			_jsii_.MemberProperty{JsiiProperty: "useAsInput", GoGetter: "UseAsInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_QuicksightDataSet{}

@@ -19,10 +19,6 @@ func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

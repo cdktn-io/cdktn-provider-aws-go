@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections}.
 type DataAwsOdbNetworkPeeringConnections interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -42,7 +42,6 @@ type DataAwsOdbNetworkPeeringConnections interface {
 	// The tree node.
 	Node() constructs.Node
 	OdbPeeringConnections() DataAwsOdbNetworkPeeringConnectionsOdbPeeringConnectionsList
-	OdbPeeringConnectionsInput() interface{}
 	// Experimental.
 	Provider() cdktf.TerraformProvider
 	// Experimental.
@@ -83,8 +82,6 @@ type DataAwsOdbNetworkPeeringConnections interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutOdbPeeringConnections(value interface{})
-	ResetOdbPeeringConnections()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -208,16 +205,6 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) OdbPeeringConnections() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) OdbPeeringConnectionsInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"odbPeeringConnectionsInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) Provider() cdktf.TerraformProvider {
 	var returns cdktf.TerraformProvider
 	_jsii_.Get(
@@ -289,7 +276,7 @@ func (j *jsiiProxy_DataAwsOdbNetworkPeeringConnections) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections} Data Source.
 func NewDataAwsOdbNetworkPeeringConnections(scope constructs.Construct, id *string, config *DataAwsOdbNetworkPeeringConnectionsConfig) DataAwsOdbNetworkPeeringConnections {
 	_init_.Initialize()
 
@@ -307,7 +294,7 @@ func NewDataAwsOdbNetworkPeeringConnections(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/odb_network_peering_connections aws_odb_network_peering_connections} Data Source.
 func NewDataAwsOdbNetworkPeeringConnections_Override(d DataAwsOdbNetworkPeeringConnections, scope constructs.Construct, id *string, config *DataAwsOdbNetworkPeeringConnectionsConfig) {
 	_init_.Initialize()
 
@@ -657,25 +644,6 @@ func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) OverrideLogicalId(newLog
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
-	)
-}
-
-func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) PutOdbPeeringConnections(value interface{}) {
-	if err := d.validatePutOdbPeeringConnectionsParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		d,
-		"putOdbPeeringConnections",
-		[]interface{}{value},
-	)
-}
-
-func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) ResetOdbPeeringConnections() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetOdbPeeringConnections",
-		nil, // no parameters
 	)
 }
 

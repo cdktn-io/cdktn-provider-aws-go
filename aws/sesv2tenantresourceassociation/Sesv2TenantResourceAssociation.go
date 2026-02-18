@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association}.
 type Sesv2TenantResourceAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_Sesv2TenantResourceAssociation) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association} Resource.
 func NewSesv2TenantResourceAssociation(scope constructs.Construct, id *string, config *Sesv2TenantResourceAssociationConfig) Sesv2TenantResourceAssociation {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewSesv2TenantResourceAssociation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/sesv2_tenant_resource_association aws_sesv2_tenant_resource_association} Resource.
 func NewSesv2TenantResourceAssociation_Override(s Sesv2TenantResourceAssociation, scope constructs.Construct, id *string, config *Sesv2TenantResourceAssociationConfig) {
 	_init_.Initialize()
 

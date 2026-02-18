@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/account_regions aws_account_regions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/account_regions aws_account_regions}.
 type DataAwsAccountRegions interface {
 	cdktf.TerraformDataSource
 	AccountId() *string
@@ -300,7 +300,7 @@ func (j *jsiiProxy_DataAwsAccountRegions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/account_regions aws_account_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/account_regions aws_account_regions} Data Source.
 func NewDataAwsAccountRegions(scope constructs.Construct, id *string, config *DataAwsAccountRegionsConfig) DataAwsAccountRegions {
 	_init_.Initialize()
 
@@ -318,7 +318,7 @@ func NewDataAwsAccountRegions(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/data-sources/account_regions aws_account_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/data-sources/account_regions aws_account_regions} Data Source.
 func NewDataAwsAccountRegions_Override(d DataAwsAccountRegions, scope constructs.Construct, id *string, config *DataAwsAccountRegionsConfig) {
 	_init_.Initialize()
 

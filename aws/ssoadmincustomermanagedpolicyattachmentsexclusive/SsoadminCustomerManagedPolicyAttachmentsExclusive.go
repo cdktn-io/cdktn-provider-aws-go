@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive}.
 type SsoadminCustomerManagedPolicyAttachmentsExclusive interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusive) TimeoutsIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminCustomerManagedPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *SsoadminCustomerManagedPolicyAttachmentsExclusiveConfig) SsoadminCustomerManagedPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewSsoadminCustomerManagedPolicyAttachmentsExclusive(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.31.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.32.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminCustomerManagedPolicyAttachmentsExclusive_Override(s SsoadminCustomerManagedPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *SsoadminCustomerManagedPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 
